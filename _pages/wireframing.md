@@ -9,7 +9,13 @@ nav_rank: 8
 
 # Singular iFrame
 
-<iframe src="https://lore3581.github.io/da4a-collectionbuilder/item.html?id=da4a007#content" width="90%" height=400px title="Collection Builder Integration"></iframe>
+<iframe 
+  src="https://lore3581.github.io/da4a-collectionbuilder/item.html?id=da4a007#content" 
+  width="90%" 
+  height=400px 
+  title="Collection Builder Integration"
+  no-referrer
+  ></iframe>
 
 <br><br>
 
