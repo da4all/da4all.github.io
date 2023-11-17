@@ -25,7 +25,7 @@ nav_rank: 8
     <style>
     {
         box-sizing: border-box;
-      padding-left: 100px;
+      padding: 4px 8px;
     }
     
       /* Set additional styling options for the columns*/
