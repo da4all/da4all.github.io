@@ -25,9 +25,10 @@ nav_rank: 8
     <style>
     {
         box-sizing: border-box;
-      padding: 100px
+      padding-left: 100px;
     }
-    /* Set additional styling options for the columns*/
+    
+      /* Set additional styling options for the columns*/
     .column {
     float: left;
     width: 50%;
