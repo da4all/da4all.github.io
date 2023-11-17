@@ -25,14 +25,13 @@ nav_rank: 8
     <style>
     {
         box-sizing: border-box;
-      padding: 4px 8px;
     }
     
       /* Set additional styling options for the columns*/
     .column {
     float: left;
     width: 50%;
-    padding: 10px;
+    padding: 20px;
     }
 
     .row:after {
