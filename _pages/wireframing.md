@@ -31,6 +31,7 @@ nav_rank: 8
     .column {
     float: left;
     width: 50%;
+    margin: 2px;
     }
 
     .row:after {
@@ -44,11 +45,11 @@ nav_rank: 8
     <div class="row">
         <div class="column" style="background-color:;">
             <h2>Example</h2>
-            <iframe src="https://lore3581.github.io/da4a-collectionbuilder/item.html?id=da4a007#content" width="90%" height=400px title="Collection Builder Integration"></iframe>
+            <iframe src="https://lore3581.github.io/da4a-collectionbuilder/item.html?id=da4a005#item-title" width="90%" height=400px title="Collection Builder Integration"></iframe>
         </div>
         <div class="column" style="background-color:;">
             <h2>Example 2</h2>
-            <iframe src="https://lore3581.github.io/da4a-collectionbuilder/item.html?id=da4a007#content" width="90%" height=400px title="Collection Builder Integration"></iframe>
+            <iframe src="https://lore3581.github.io/da4a-collectionbuilder/item.html?id=da4a001#item-title" width="90%" height=400px title="Collection Builder Integration"></iframe>
         </div>
     </div>
  </body>
