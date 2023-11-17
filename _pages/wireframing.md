@@ -19,7 +19,7 @@ nav_rank: 8
 
 # Singular
 
-<iframe src="https://lore3581.github.io/da4a-collectionbuilder/item.html?id=da4a007/#content" width="90%" height=400px title="Collection Builder Integration"></iframe>
+<iframe src="https://lore3581.github.io/da4a-collectionbuilder/item.html?id=da4a007#content" width="90%" height=400px title="Collection Builder Integration"></iframe>
 
 <br><br>
 
@@ -46,13 +46,13 @@ nav_rank: 8
  </head>
  <body>
     <div class="row">
-        <div class="column" style="background-color:#FFB695;">
-            <h2>Column 1</h2>
-            <p>Data..</p>
+        <div class="column" style="background-color:;">
+            <h2>Example</h2>
+            <iframe src="https://lore3581.github.io/da4a-collectionbuilder/item.html?id=da4a007#content" width="90%" height=400px title="Collection Builder Integration"></iframe>
         </div>
-        <div class="column" style="background-color:#96D1CD;">
-            <h2>Column 2</h2>
-            <p>Data..</p>
+        <div class="column" style="background-color:;">
+            <h2>Example 2</h2>
+            <iframe src="https://lore3581.github.io/da4a-collectionbuilder/item.html?id=da4a007#content" width="90%" height=400px title="Collection Builder Integration"></iframe>
         </div>
     </div>
  </body>
