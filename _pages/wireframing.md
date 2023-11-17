@@ -14,7 +14,7 @@ nav_rank: 8
   width="90%" 
   height=400px 
   title="Collection Builder Integration"
-  no-referrer
+  referrerpolicy="no-referrer"
   ></iframe>
 
 <br><br>
