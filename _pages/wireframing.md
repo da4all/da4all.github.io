@@ -18,7 +18,6 @@ nav_rank: 8
 # Clickable
 
 <a href="https://lore3581.github.io/da4a-collectionbuilder/item.html?id=da4a007#item-title" target="_blank" class="linkwrap">
-    <div class="blocker"></div>
     <iframe 
         src="https://lore3581.github.io/da4a-collectionbuilder/item.html?id=da4a007#item-title" 
         width="90%" 
