@@ -17,30 +17,25 @@ nav_rank: 8
 
 # Clickable
 
-<a href="https://lore3581.github.io/da4a-collectionbuilder/item.html?id=da4a007#item-title" target="_blank" class="linkwrap">
+<div><a href="https://lore3581.github.io/da4a-collectionbuilder/item.html?id=da4a007#item-title" target="_blank" class="linkwrap">
     <iframe 
         src="https://lore3581.github.io/da4a-collectionbuilder/item.html?id=da4a007#item-title" 
         width="90%" 
         height="400px"
         title="Collection Builder Integration"
-        scrolling="no"></iframe>
-</a>
+        scrolling="no"</iframe>
+</a></div>
+<br>
 
-# Clickable 2
+# Clickable
 
-<div style="position:relative;">
-<iframe src="https://lore3581.github.io/da4a-collectionbuilder/item.html?id=da4a007#item-title" width="90%" height="400px" title="Collection Builder Integration" scrolling="no"></iframe>
-<a  href="https://lore3581.github.io/da4a-collectionbuilder/item.html?id=da4a007#item-title" target="_blank" style="position:absolute; bottom:0; left:0; display:inline-block;"></a>
-</div>
-
-# Clickable 3
-
-<div style="position:relative;">
-<a  href="https://lore3581.github.io/da4a-collectionbuilder/item.html?id=da4a007#item-title" target="_blank" style="position:absolute; bottom:0; left:0; display:inline-block;"><iframe src="https://lore3581.github.io/da4a-collectionbuilder/item.html?id=da4a007#item-title" width="90%" height="400px" title="Collection Builder Integration" scrolling="no"></iframe>
-</a>
-</div>
-
-<br><br>
+<iframe 
+        src="https://lore3581.github.io/da4a-collectionbuilder/item.html?id=da4a007#item-title" 
+        width="90%" 
+        height="400px"
+        title="Collection Builder Integration"
+        scrolling="no"
+        href="https://lore3581.github.io/da4a-collectionbuilder/item.html?id=da4a007#item-title"></iframe>
 
 # Columns
 <br>
