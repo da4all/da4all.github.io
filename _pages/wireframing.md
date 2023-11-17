@@ -55,7 +55,7 @@ nav_rank: 8
     .column {
     float: left;
     width: 50%;
-    padding: 20px;
+    padding-left: 20px;
     }
 
     .row:after {
