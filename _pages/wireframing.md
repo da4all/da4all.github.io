@@ -7,10 +7,24 @@ nav: false
 nav_rank: 8
 ---
 
+(function(){
+      if (window!=window.top) {
+        var noiframe = document.getElementsByClassName("noiframeyall"), 
+            body = document.getElementsByTagName('body')[0],
+            html = document.getElementsByTagName('html')[0];
+
+        for (i=0, len = noiframe.length; i < len; i++){
+          noiframe[i].style.display = 'none';
+        }
+      body.className = body.className.replace( /(?:^|\s)noiframe(?!\S)/ , '' );
+      html.style.overflow = 'hidden';
+      }
+    })();
+
 # Singular iFrame
 
 <iframe 
-  src="https://lore3581.github.io/da4a-collectionbuilder/item.html?id=da4a007#content" 
+  src="https://lore3581.github.io/da4a-collectionbuilder/item.html?id=da4a007#content?isdtp=mn" 
   width="90%" 
   height="400px"
   title="Collection Builder Integration"
