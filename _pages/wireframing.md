@@ -14,7 +14,6 @@ nav_rank: 8
   width="90%" 
   height="400px"
   title="Collection Builder Integration"
-  margin-top="-2000px"
   ></iframe>
 
 <br><br>
@@ -31,7 +30,6 @@ nav_rank: 8
     .column {
     float: left;
     width: 50%;
-    margin: 2px;
     }
 
     .row:after {
