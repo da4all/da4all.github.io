@@ -4,6 +4,7 @@ inline: false
 group: Assignment
 topic: DataJustice
 group_rank: 1
+topic_rank: 1
 
 title: Data Justice Assignment 1
 description: Data Justice Assignment 1
