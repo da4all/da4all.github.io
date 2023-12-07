@@ -17,7 +17,7 @@ nav_rank: 8
 
 {% assign groups = site.cards | sort: "lastname" | map: "group" %}
 
-{% for card.group.Assignment in groups %}
+{% for group in groups %}
 
 ## {{ group }}
 
