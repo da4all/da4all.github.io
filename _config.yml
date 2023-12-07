@@ -178,6 +178,9 @@ collections:
   members:
     output: true
     permalink: /members/:path
+  cards:
+    output: true
+    permalink: /cards/:path
 
 announcements:
   enabled: true
