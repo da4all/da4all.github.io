@@ -17,7 +17,7 @@ nav_rank: 8
 
 {% for group in groups %}
 
-{% if card.profile.literacy == "Data Justice" %}
+{% if topic == "DataJustice" %}
 
 	{% assign cards = site.cards | sort: "last_name" | where: "group", group %}
 	{% for card in cards %}
