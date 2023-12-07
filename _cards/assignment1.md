@@ -14,6 +14,8 @@ teaser: >
   Data Justice Assignment 1
 profile:
     name: Data Justice Assignment 1
+    group: Assignment
+    literacy: Data Justice
     position: 
     department: 
     <!-- organization: University of Colorado Denver -->
