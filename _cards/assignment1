@@ -1,0 +1,34 @@
+---
+layout: about
+inline: false
+group: assignment
+literacy: datavisualization
+group_rank: 1
+
+title: Assignment for Data Visualization
+description: This is a description.
+lastname: 
+publications: 
+
+teaser: >
+  Description for data viz
+profile:
+    name: Assignment for Data Visualization
+    position: 
+    department: 
+    <!-- organization: University of Colorado Denver -->
+    align: right
+    image: 
+    website: 
+    twitter: 
+    email: 
+    github: 
+    orcid: 
+    address: >
+        
+
+---
+
+## Assignment for Data Visualization
+
+Longer description here
