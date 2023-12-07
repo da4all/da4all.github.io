@@ -18,6 +18,8 @@ nav_rank: 8
 
 {% for group in groups %}
 
+{ % if group == "Assignment" %}
+
 ## {{ group }}
 
 	{% assign cards = site.cards | sort: "last_name" | where: "group", group %}
