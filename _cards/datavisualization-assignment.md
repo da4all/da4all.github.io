@@ -4,6 +4,7 @@ inline: false
 group: Assignment
 topic: DataVisualization
 group_rank: 1
+topic_rank: 1
 
 title: Data Visualization Assignment 1
 description: Data Visualization Assignment 1
