@@ -8,16 +8,14 @@ nav_rank: 8
 ---
 # Data Justice:
 {% comment %} 
-{% assign groups = site.cards | sort: "group_rank" | map: "group" | uniq %} 
+{% assign filtered_cards = site.cards | where: "literacy", "Data Justice" | sort: "last_name" %}
 {% endcomment %}
 
 <!--this Liquid command looks in the Collection "cards" that was created through a directory named cards + adding it as a collection in _config.yml file. It sorts it by the variable you specify in teh frontmatter for each card markdown file - ex. group_rank, lastname, etc. The map command then puts them into a few buckets based on  "group" - defined in the frontmatter of each of the individual card pages - ex. "Principal Investigators". It goes through and only looks at unique values for all pages listed in here. We can change this and/or add different categories/designations - ex. "Faculty" "Researchers" etc. or a "school" category for "University of Colorado Denver" "CU Boulder" etc.  -->
 
 {% assign groups = site.cards | sort: "lastname" | map: "group" | uniq %}
 
-{% for card in cards %}
-
-{% if card.literacy == "Data Justice" %}
+{% for card in filtered_cards %}
 
 	{% assign cards = site.cards | sort: "last_name" | where: "group", group %}
 	{% for card in cards %}
@@ -131,7 +129,6 @@ nav_rank: 8
 </p>
 
 	{% endfor %}
-{% endif %}
 <br>
 {% endfor %}
 
