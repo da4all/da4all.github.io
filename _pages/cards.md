@@ -6,9 +6,6 @@ description:
 nav: false
 nav_rank: 8
 ---
-# Data Justice:
-
-
 
 # Assignments:
 {% comment %} 
