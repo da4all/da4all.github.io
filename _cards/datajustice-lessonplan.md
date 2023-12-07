@@ -2,7 +2,7 @@
 layout: about
 inline: false
 group: Lesson Plan
-literacy: Data Justice
+literacy: DataJustice
 group_rank: 1
 
 title: Data Justice Lesson Plan 1
