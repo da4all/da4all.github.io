@@ -4,6 +4,7 @@ inline: false
 group: Lesson Plan
 topic: DataVisualization
 group_rank: 1
+topic_rank: 1
 
 title: Data Visualization Lesson Plan 1
 description: Data Visualization Lesson Plan 1
