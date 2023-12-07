@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /dataadvocacy/
-title: Data Advocacy
+permalink: /cards/
+title: Data Advocacy Card System
 description: 
 nav: false
 nav_rank: 8
