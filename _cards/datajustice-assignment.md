@@ -2,7 +2,7 @@
 layout: about
 inline: false
 group: Assignment
-literacy: DataJustice
+topic: DataJustice
 group_rank: 1
 
 title: Data Justice Assignment 1
