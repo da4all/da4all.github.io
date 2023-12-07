@@ -2,7 +2,7 @@
 layout: about
 inline: false
 group: Assignment
-literacy: Data Visualization
+topic: DataVisualization
 group_rank: 1
 
 title: Data Visualization Assignment 1
