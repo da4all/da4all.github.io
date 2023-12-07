@@ -26,15 +26,12 @@ nav_rank: 8
 <p>
     <div class="card {% if card.inline == false %}hoverable{% endif %}">
         <div class="row no-gutters">
-            <div class="col-sm-4 col-md-3">
-                <img src="{{ '/assets/img/' | append: card.profile.image | relative_url }}" class="card-img img-fluid" alt="{{ card.profile.name }}" />
-            </div>
             <div class="team col-sm-8 col-md-9">
                 <div class="card-body">
                     {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
                     <h5 class="card-title">{{ card.profile.name }}</h5>
-		    {% if card.profile.group %}<h6 class="card-subtitle mb-2 text-muted">{{ card.profile.group }}</h6>{% endif %}
-                    {% if card.profile.literacy %}<h6 class="card-subtitle mb-2 text-muted">{{ card.profile.literacy }}</h6>{% endif %}
+		    {% if card.profile.group %}<h6 class="card-subtitle mb-2 text-muted">Type: {{ card.profile.group }}</h6>{% endif %}
+                    {% if card.profile.literacy %}<h6 class="card-subtitle mb-2 text-muted">Literacy: {{ card.profile.literacy }}</h6>{% endif %}
                     {% if card.profile.position %}<h6 class="card-subtitle mb-2 text-muted">{{ card.profile.position }}</h6>{% endif %}
                     {% if card.profile.department %}<h6 class="card-subtitle mb-2 text-muted">{{ card.profile.department }}</h6>{% endif %}
                     {% if card.profile.organization %}<h6 class="card-subtitle mb-2 text-muted">{{ card.profile.organization }}</h6>{% endif %}
