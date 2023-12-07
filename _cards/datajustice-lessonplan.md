@@ -4,6 +4,7 @@ inline: false
 group: Lesson Plan
 topic: DataJustice
 group_rank: 1
+topic_rank: 1
 
 title: Data Justice Lesson Plan 1
 description: Data Justice Lesson Plan 1
