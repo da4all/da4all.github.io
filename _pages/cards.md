@@ -8,7 +8,6 @@ nav_rank: 8
 ---
 
 # Data Justice:
-
 {% comment %} 
 {% assign groups = site.cards | sort: "group_rank" | map: "group" | uniq %} 
 {% endcomment %}
