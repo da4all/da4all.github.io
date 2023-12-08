@@ -59,21 +59,11 @@ nav_rank: 8
 {% endfor %}
 
 <br>
+
 # Assignments:
-{% comment %} 
-{% assign groups = site.cards | sort: "group_rank" | map: "group" | uniq %} 
-{% endcomment %}
+{% assign cards = site.cards | where: "group", "Assignment" | sort: "last_name" %}
 
-<!--this Liquid command looks in the Collection "cards" that was created through a directory named cards + adding it as a collection in _config.yml file. It sorts it by the variable you specify in teh frontmatter for each card markdown file - ex. group_rank, lastname, etc. The map command then puts them into a few buckets based on  "group" - defined in the frontmatter of each of the individual card pages - ex. "Principal Investigators". It goes through and only looks at unique values for all pages listed in here. We can change this and/or add different categories/designations - ex. "Faculty" "Researchers" etc. or a "school" category for "University of Colorado Denver" "CU Boulder" etc.  -->
-
-{% assign groups = site.cards | sort: "lastname" | map: "group" | uniq %}
-
-{% for group in groups %}
-
-{% if group == "Assignment" %}
-
-	{% assign cards = site.cards | sort: "last_name" | where: "group", group %}
-	{% for card in cards %}
+{% for card in cards %}
 
 <p>
     <div class="card {% if card.inline == false %}hoverable{% endif %}">
@@ -118,12 +108,9 @@ nav_rank: 8
     </div>
 </p>
 
-	{% endfor %}
-{% endif %}
-<br>
 {% endfor %}
 
-
+<br>
 
 # All Cards:
 {% comment %} 
