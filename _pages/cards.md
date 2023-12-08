@@ -7,7 +7,7 @@ nav: false
 nav_rank: 8
 ---
 
-# Data Justice Assignment:
+## Data Justice Assignment:
 
 {% assign cards = site.cards | where: "group", "Assignment" | where: "topic", "DataJustice" | sort: "last_name" %}
 
@@ -60,7 +60,7 @@ nav_rank: 8
 
 <br>
 
-# Data Justice:
+## Data Justice:
 
 {% assign cards = site.cards | where: "topic", "DataJustice" | sort: "last_name" %}
 
@@ -113,7 +113,7 @@ nav_rank: 8
 
 <br>
 
-# Assignments:
+## Assignments:
 {% assign cards = site.cards | where: "group", "Assignment" | sort: "last_name" %}
 
 {% for card in cards %}
@@ -165,7 +165,7 @@ nav_rank: 8
 
 <br>
 
-# All Cards:
+## All Cards:
 {% comment %} 
 {% assign groups = site.cards | sort: "group_rank" | map: "group" | uniq %} 
 {% endcomment %}
