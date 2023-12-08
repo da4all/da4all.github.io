@@ -9,13 +9,7 @@ nav_rank: 8
 
 # Data Justice:
 
-{% assign groups = site.cards | sort: "lastname" | map: "group" | uniq %}
-
-{% for group in groups %}
-
-{% if group == "Assignment" %}
-
-{% assign cards = site.cards | sort: "last_name" | where: "group", group %}
+{% assign cards = site.cards | where: "group", "Assignment" | sort: "last_name" %}
 
 {% for card in cards %}
 
@@ -62,8 +56,6 @@ nav_rank: 8
     </div>
 </p>
 
-{% endfor %}
-{% endif %}
 {% endfor %}
 
 <br>
