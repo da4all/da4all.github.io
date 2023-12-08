@@ -8,13 +8,16 @@ nav_rank: 8
 ---
 
 # Data Justice:
-{% comment %} 
-{% assign groups = site.cards | sort: "group_rank" | map: "group" | uniq %} 
-{% endcomment %}
+
+{% assign groups = site.cards | sort: "lastname" | map: "group" | uniq %}
 
 {% for group in groups %}
 
 {% if group == "Assignment" %}
+
+{% assign cards = site.cards | sort: "last_name" | where: "group", group %}
+
+{% for card in cards %}
 
 <p>
     <div class="card {% if card.inline == false %}hoverable{% endif %}">
@@ -61,6 +64,7 @@ nav_rank: 8
 
 {% endfor %}
 {% endif %}
+{% endfor %}
 
 
 # Assignments:
