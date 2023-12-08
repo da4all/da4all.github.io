@@ -9,7 +9,7 @@ nav_rank: 8
 
 # Data Justice:
 
-{% assign cards = site.cards | where: "group", "Assignment" | sort: "last_name" %}
+{% assign cards = site.cards | where: "topic", "DataJustice" | sort: "last_name" %}
 
 {% for card in cards %}
 
