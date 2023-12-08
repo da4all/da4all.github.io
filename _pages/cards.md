@@ -66,7 +66,7 @@ nav_rank: 8
 {% endif %}
 {% endfor %}
 
-
+<br>
 # Assignments:
 {% comment %} 
 {% assign groups = site.cards | sort: "group_rank" | map: "group" | uniq %} 
