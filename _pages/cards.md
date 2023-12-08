@@ -16,9 +16,9 @@ nav_rank: 8
 
 {% assign groups = site.cards | sort: "lastname" | map: "group" | uniq %}
 
-{% for group in groups %}
+{% for group in groups | for card in group | for profile in card | for literacy in profile %}
 
-{% if group == "Assignment" %}
+{% if literacy == "DataJustice" %}
 
 	{% assign cards = site.cards | sort: "last_name" | where: "group", group %}
 	{% for card in cards %}
