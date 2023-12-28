@@ -50,6 +50,8 @@ for (i = 0; i < coll.length; i++) {
 
 </head>
 
+<body>
+
 # Collapsibles
 
 <button type="button" class="collapsible">Open Collapsible</button>
@@ -343,3 +345,4 @@ for (i = 0; i < coll.length; i++) {
 <br>
 {% endfor %}
 
+</body>
