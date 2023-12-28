@@ -13,7 +13,7 @@ nav_rank: 8
 details > summary {
   padding: 18px;
   width: 100%;
-  background-color: #777;
+  background-color: #0D3373;
   color: white;
   border: none;
   box-shadow: 1px 1px 2px #bbbbbb;
@@ -21,7 +21,6 @@ details > summary {
 }
 
 details > p {
-  background-color: #f1f1f1;
   padding: 18px;
   margin: 0;
   box-shadow: 1px 1px 2px #bbbbbb;
