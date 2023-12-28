@@ -32,7 +32,7 @@ for (i = 0; i < coll.length; i++) {
 
 <button type="button" class="collapsible">Open Collapsible</button>
 <div class="content">
-  <p>Lorem ipsum...</p>
+  <p>Lorem ipsum... Lorem ipsum... Lorem ipsum... Lorem ipsum... Lorem ipsum... Lorem ipsum...</p>
 </div>
 
 {% assign cards = site.cards | where: "group", "Assignment" | where: "topic", "DataJustice" | sort: "last_name" %}
