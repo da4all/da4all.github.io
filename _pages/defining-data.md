@@ -10,7 +10,7 @@ nav_rank: 8
 # Markdown
 
 <details open>
-<summary><h1>Header Text</h1></summary>
+<summary>Header Text</summary>
 <br>
 Internal text here
 </details>
