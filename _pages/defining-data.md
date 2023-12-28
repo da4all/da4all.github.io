@@ -76,16 +76,7 @@ for (i = 0; i < coll.length; i++) {
 }
 </script>
 
-</body>
-</html>
-
-
 # Data Justice Assignment: 
-
-<button type="button" class="collapsible">Open Collapsible</button>
-<div class="content">
-  <p>Lorem ipsum... Lorem ipsum... Lorem ipsum... Lorem ipsum... Lorem ipsum... Lorem ipsum...</p>
-</div>
 
 {% assign cards = site.cards | where: "group", "Assignment" | where: "topic", "DataJustice" | sort: "last_name" %}
 
@@ -306,4 +297,6 @@ for (i = 0; i < coll.length; i++) {
 	{% endfor %}
 <br>
 {% endfor %}
- 
+
+ </body>
+</html>
