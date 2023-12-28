@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /cards/
-title: Data Advocacy Card System
+permalink: /defining-data/
+title: Defining Data
 description: 
 nav: false
 nav_rank: 8
