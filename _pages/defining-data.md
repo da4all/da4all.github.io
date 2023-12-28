@@ -9,22 +9,19 @@ nav_rank: 8
 
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+	
 <style>
-.collapsible {
-  background-color: #777;
+	
+.collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
   color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
+  float: right;
+  margin-left: 5px;
 }
 
-.active, .collapsible:hover {
-  background-color: #555;
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
 .content {
@@ -34,10 +31,12 @@ nav_rank: 8
   background-color: #f1f1f1;
 }
 </style>
+
 </head>
+
 <body>
 
-<h2>Collapsibles</h2>
+# Collapsibles
 
 <p>A Collapsible:</p>
 <button type="button" class="collapsible">Open Collapsible</button>
