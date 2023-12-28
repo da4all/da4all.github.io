@@ -19,7 +19,7 @@ Internal text here
 
 # Data Justice Assignment: 
 
-<details open>
+<details closed>
 <summary>Data Justice Assignment...</summary>
 <br>
 
