@@ -1,34 +1,37 @@
 ---
 layout: page
-title: Teaching Modules
+title: Data Literacies
 nav: true
 nav_order: 3
 dropdown: true
 children: 
-    - title: Introduction
+    - title: Defining Data
       permalink: /modules/
     - title: divider
-    - title: 1. Defining Data
+    - title: Collecting Data
       permalink: /modules/
     - title: divider
-    - title: 2. Historicizing Data 
-      permalink: https://da4asandbox.github.io/modules/historicizing-data/
-    - title: divider
-    - title: 3. Assembling Data
+    - title: Assembling Data
       permalink: /modules/
     - title: divider
-    - title: 4. Analyzing Data
+    - title: Analyzing Data
       permalink: /modules/
     - title: divider
-    - title: 5. Visualizing Data
+    - title: Preserving Data
       permalink: /modules/
     - title: divider
-    - title: 6. Mapping Data
+    - title: Pulling Insights From Data
       permalink: /modules/
     - title: divider
-    - title: 7. Persuading with Data
+    - title: Making Claims with Data
       permalink: /modules/
     - title: divider
-    - title: 8. Archiving and Publishing Data
+    - title: Visualizing Data
+      permalink: /modules/
+    - title: divider
+    - title: Mapping with Data
+      permalink: /modules/
+    - title: divider
+    - title: Persuading with Data
       permalink: /modules/
 ---
