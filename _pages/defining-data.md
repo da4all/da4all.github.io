@@ -7,7 +7,6 @@ nav: false
 nav_rank: 8
 ---
 
-<html>
 <head>
 
 <style>
@@ -33,7 +32,6 @@ nav_rank: 8
 </style>
 
 </head>
-<body>
 
 <h2>Collapsibles</h2>
 
@@ -74,7 +72,6 @@ for (i = 0; i < coll.length; i++) {
 }
 </script>
 
-</body>
 </html>
 
 
@@ -299,6 +296,3 @@ for (i = 0; i < coll.length; i++) {
 	{% endfor %}
 <br>
 {% endfor %}
-
-</body>
-</html>
