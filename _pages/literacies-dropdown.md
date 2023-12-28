@@ -6,7 +6,7 @@ nav_order: 3
 dropdown: true
 children: 
     - title: Defining Data
-      permalink: /modules/
+      permalink: /defining-data/
     - title: divider
     - title: Collecting Data
       permalink: /modules/
