@@ -7,6 +7,29 @@ nav: false
 nav_rank: 8
 ---
 
+<head>
+	
+<style>
+details > summary {
+  padding: 18px;
+  width: 100%;
+  background-color: #777;
+  color: white;
+  border: none;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  cursor: pointer;
+}
+
+details > p {
+  background-color: #f1f1f1;
+  padding: 18px;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+}
+</style>
+
+</head>
+
 # Markdown
 
 <details open>
