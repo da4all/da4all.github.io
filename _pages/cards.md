@@ -7,7 +7,7 @@ nav: false
 nav_rank: 8
 ---
 
-# Data Justice Assignment:
+# Data Justice Assignment: 
 
 {% assign cards = site.cards | where: "group", "Assignment" | where: "topic", "DataJustice" | sort: "last_name" %}
 
