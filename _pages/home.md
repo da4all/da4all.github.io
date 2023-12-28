@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: An open access modular curriculum for teaching data advocacy in higher educational settings.
+subtitle: An open access educational toolkit for teaching data advocacy in higher educational settings.
 
 profile:
   align: right
@@ -22,9 +22,9 @@ social: false  # includes social icons at the bottom of the page
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/themes/light.css" />
 <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/shoelace.js" ></script>
 
-Data Advocacy for All is an eight-module curriculum that leverages minimal computing and open-source tools to enhance student abilities to inquire with data, communicate with data, and deploy data for social advocacy.
+Data Advocacy for All is a collection of crowdsourced and adaptable resources that leverages minimal computing and open-source tools to enhance student abilities to inquire with data, communicate with data, and deploy data for social advocacy.
 
-Data Advocacy for All has been designed for students across the disciplines with no prior data science or computing experience. This college-level curriculum includes pedagogical modules, ready-made data sets, tutorials, links to open-source tools, and flexible curricular resources. 
+Data Advocacy for All has been designed for teachers who are interested in enhancing the literacies need to advocate with data for students across the disciplines with no prior data science or computing experience. This digital repository offers reading resources, pedagogical modules, ready-made data sets, tutorials, links to open-source tools, and flexible curricular resources such as activities and assignments. 
 
 Data Advocacy for All is a <a href="https://www.cu.edu/oaa/academic-innovation-programs/cu-next-award">CU Next Award Grant project<a/> that has been realized by a team of digital rhetoric and digital humanities faculty at CU Boulder and Denver in concert with CU Boulder’s Center for Research Data and Digital Scholarship (CRDDS). 
 <br><br>
@@ -72,8 +72,8 @@ Data Advocacy for All teaches data advocacy through two main approaches:<br>
 
 <center>
 <sl-button-group label="Alignment">
-  <sl-button href="https://da4asandbox.github.io/curricularsite/getting-started/">How to Best Get Started</sl-button>
-  <sl-button href="https://da4asandbox.github.io/modules/">Explore the Curricular Modules</sl-button>
+  <sl-button href="https://da4asandbox.github.io/getting-started/">How to Best Get Started</sl-button>
+  <sl-button href="https://da4asandbox.github.io/toolkit/">Explore the Toolkit</sl-button>
 </sl-button-group></center>
 
 <br>
