@@ -19,6 +19,10 @@ Internal text here
 
 # Data Justice Assignment: 
 
+<details open>
+<summary>Data Justice Assignment...</summary>
+<br>
+
 {% assign cards = site.cards | where: "group", "Assignment" | where: "topic", "DataJustice" | sort: "last_name" %}
 
 {% for card in cards %}
@@ -68,9 +72,13 @@ Internal text here
 
 {% endfor %}
 
-<br>
+<br></details>
 
 # Data Justice:
+
+<details open>
+<summary>All Data Justice</summary>
+<br>
 
 {% assign cards = site.cards | where: "topic", "DataJustice" | sort: "last_name" %}
 
@@ -123,7 +131,14 @@ Internal text here
 
 <br>
 
+</details>
+
 # Assignments:
+
+<details open>
+<summary>All Assignments </summary>
+<br>
+
 {% assign cards = site.cards | where: "group", "Assignment" | sort: "last_name" %}
 
 {% for card in cards %}
@@ -175,7 +190,14 @@ Internal text here
 
 <br>
 
+</details>
+
 # All Cards:
+
+<details open>
+<summary>All Cards Here</summary>
+<br>
+
 {% comment %} 
 {% assign groups = site.cards | sort: "group_rank" | map: "group" | uniq %} 
 {% endcomment %}
@@ -238,3 +260,5 @@ Internal text here
 	{% endfor %}
 <br>
 {% endfor %}
+
+</details>
