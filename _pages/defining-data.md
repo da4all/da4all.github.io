@@ -33,9 +33,9 @@ nav_rank: 8
 
 </head>
 
-<h2>Collapsibles</h2>
+# Collapsibles
 
-<p>A Collapsible:</p>
+<body>
 <button type="button" class="collapsible">Open Collapsible</button>
 <div class="content">
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -54,6 +54,8 @@ nav_rank: 8
 <div class="content">
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
+
+</body>
 
 <script>
 var coll = document.getElementsByClassName("collapsible");
