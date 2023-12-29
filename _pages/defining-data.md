@@ -39,7 +39,7 @@ details > p {
 Internal text here
 </details>
 
-<br>
+<br><br>
 
 # Data Justice Assignment: 
 
@@ -100,7 +100,7 @@ Internal text here
 
 <br></details>
 
-<br>
+<br><br>
 
 # Data Justice:
 
@@ -163,7 +163,7 @@ Internal text here
 
 </details>
 
-<br>
+<br><br>
 
 # Assignments:
 
@@ -226,7 +226,7 @@ Internal text here
 
 </details>
 
-<br>
+<br><br>
 
 # All Cards:
 
@@ -301,4 +301,4 @@ Internal text here
 
 </details>
 
-<br>
+<br><br>
