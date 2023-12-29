@@ -31,6 +31,8 @@ details > p {
 
 # Markdown
 
+<br>
+
 <details open>
 <summary>Header Text</summary>
 <br>
@@ -40,6 +42,8 @@ Internal text here
 <br>
 
 # Data Justice Assignment: 
+
+<br>
 
 <details>
 <summary>Data Justice Assignment...</summary>
@@ -96,7 +100,11 @@ Internal text here
 
 <br></details>
 
+<br>
+
 # Data Justice:
+
+<br>
 
 <details>
 <summary>All Data Justice</summary>
@@ -155,7 +163,11 @@ Internal text here
 
 </details>
 
+<br>
+
 # Assignments:
+
+<br>
 
 <details open>
 <summary>All Assignments </summary>
@@ -214,7 +226,11 @@ Internal text here
 
 </details>
 
+<br>
+
 # All Cards:
+
+<br>
 
 <details open>
 <summary>All Cards Here</summary>
@@ -284,3 +300,5 @@ Internal text here
 {% endfor %}
 
 </details>
+
+<br>
