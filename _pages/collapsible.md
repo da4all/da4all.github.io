@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /defining-data/
-title: Defining Data
+permalink: /collapsible/
+title: Collapsible Formatting
 description: 
 nav: false
 nav_rank: 8
