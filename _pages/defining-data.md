@@ -50,39 +50,31 @@ Such questions are especially important for doing data advocacy in ethical and j
 {% endfor %}
 
 <br></details>
-
+<br>
 <details>
 <summary>Assignments</summary>
 <br>
 Internal text here
 </details>
-
 <br>
-
 <details>
 <summary>Activities</summary>
 <br>
 Internal text here
 </details>
-
 <br>
-
 <details>
 <summary>Tutorials</summary>
 <br>
 Internal text here
 </details>
-
 <br>
-
 <details>
 <summary>Teaching Modules</summary>
 <br>
 Internal text here
 </details>
-
 <br>
-
 <details>
 <summary>Data Sets</summary>
 <br>
