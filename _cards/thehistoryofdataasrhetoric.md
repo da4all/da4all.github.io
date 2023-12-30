@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: page
 inline: false
 group: Reading
 topic: Defining Data
