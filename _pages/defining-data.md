@@ -44,24 +44,6 @@ Such questions are especially important for doing data advocacy in ethical and j
                         {{ card.teaser }}
                     </p>
                     {% if card.inline == false %}</a>{% endif %}
-                    {% if card.profile.website %}
-                        <br><a href="{{ card.profile.website }}" class="card-link" target="_blank"><i class="fas fa-globe"></i></a>
-                    {% endif %}
-                    {% if card.profile.email %}
-                        <a href="mailto:{{ card.profile.email }}" class="card-link"><i class="fas fa-envelope"></i></a>
-                    {% endif %}
-                    {% if card.profile.phone %}
-                        <a href="tel:{{ card.profile.phone }}" class="card-link"><i class="fas fa-phone"></i></a>
-                    {% endif %}
-                    {% if card.profile.orcid %}
-                        <a href="https://orcid.org/{{ card.profile.orcid }}" class="card-link" target="_blank"><i class="fab fa-orcid"></i></a>
-                    {% endif %}
-                    {% if card.profile.twitter %}
-                        <a href="https://twitter.com/{{ card.profile.twitter }}" class="card-link" target="_blank"><i class="fab fa-twitter"></i></a>
-                    {% endif %}
-                    {% if card.profile.github %}
-                        <a href="https://github.com/{{ card.profile.github }}" class="card-link" target="_blank"><i class="fab fa-github"></i></a>
-                    {% endif %}
                     <p class="card-text">
                         <br><small class="test-muted"><i class="fas fa-list"></i> Type: {{ card.profile.group | replace: '<br />', ', ' }} ; Literacy: {{ card.profile.literacy | replace: '<br />', ', ' }}</small>
                     </p>
@@ -74,31 +56,41 @@ Such questions are especially important for doing data advocacy in ethical and j
 {% endfor %}
 
 <br></details>
-<small><br></small>
+
+<br>
+
 <details>
 <summary>Assignments</summary>
 <br>
 Internal text here
 </details>
-<small><br></small>
+
+<br>
+
 <details>
 <summary>Activities</summary>
 <br>
 Internal text here
 </details>
+
 <br>
+
 <details>
 <summary>Tutorials</summary>
 <br>
 Internal text here
 </details>
+
 <br>
+
 <details>
 <summary>Teaching Modules</summary>
 <br>
 Internal text here
 </details>
+
 <br>
+
 <details>
 <summary>Data Sets</summary>
 <br>
