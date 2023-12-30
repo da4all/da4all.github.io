@@ -22,10 +22,10 @@ Internal text here
 
 <br><br>
 
-# Readings
+# Defining Data Toolkit
 
 <details>
-<summary>All readings related to defining data</summary>
+<summary>Readings</summary>
 <br>
 
 {% assign cards = site.cards | where: "group", "Reading" | where: "topic", "Defining" | sort: "last_name" %}
