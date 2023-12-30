@@ -21,7 +21,7 @@ With the Data Advocacy for All toolkit, you have two ways to explore:
 - Data Sets
 
 ### Explore by Data Literacy
-- [Defining Data](/defining-data/)
+- [Defining Data](/curricularsite/defining-data/)
 - Collecting Data
 - Assembling Data
 - Anazlying Data
