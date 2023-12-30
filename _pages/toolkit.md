@@ -11,6 +11,27 @@ nav_rank: 8
 
 With the Data Advocacy for All toolkit, you have two ways to explore:
 
+### Explore by Resource Type
+- Readings
+- Glossary
+- Assignments
+- Activities
+- Tutorials
+- Teaching Modules
+- Data Sets
+
+### Explore by Data Literacy
+- [Defining Data](/defining-data/)
+- Collecting Data
+- Assembling Data
+- Anazlying Data
+- Preserving Data
+- Pulling Insights from Data
+- Making Claims with Data
+- Visualizing Data
+- Mapping with Data
+- Persuading with Data
+
 ## Exploring by Resource Type
 
 <details>
