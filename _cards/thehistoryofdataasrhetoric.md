@@ -17,6 +17,7 @@ profile:
     group: Reading
     literacy: Defining Data
     source: https://markcarrigan.net/2016/09/12/the-history-of-data-as-rhetoric/
+    author: Mark Carrigan
     align: right
 
 ---
