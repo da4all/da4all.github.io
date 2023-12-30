@@ -22,7 +22,7 @@ Such questions are especially important for doing data advocacy in ethical and j
 ## Defining Data Toolkit
 
 <details>
-<summary>Readings</summary>
+<summary> Readings</summary>
 
 {% assign cards = site.cards | where: "group", "Reading" | where: "topic", "Defining Data" | sort: "last_name" %}
 
@@ -63,7 +63,7 @@ Such questions are especially important for doing data advocacy in ethical and j
 
 
 <details>
-<summary>Glossary</summary>
+<summary> Glossary</summary>
 
 {% assign cards = site.cards | where: "group", "Term" | where: "topic", "Defining Data" | sort: "last_name" %}
 
@@ -104,7 +104,7 @@ Such questions are especially important for doing data advocacy in ethical and j
 
 
 <details>
-<summary>Assignments</summary>
+<summary> Assignments</summary>
 
 
 
@@ -115,7 +115,7 @@ Such questions are especially important for doing data advocacy in ethical and j
 
 
 <details>
-<summary>Activities</summary>
+<summary> Activities</summary>
 
 Word
 
@@ -124,7 +124,7 @@ Word
 <div style="height:5px;font-size:1px;">&nbsp;</div>
 
 <details>
-<summary>Tutorials</summary>
+<summary> Tutorials</summary>
 <br>
 Internal text here
 </details>
@@ -132,7 +132,7 @@ Internal text here
 <div style="height:5px;font-size:1px;">&nbsp;</div>
 
 <details>
-<summary>Teaching Modules</summary>
+<summary> Teaching Modules</summary>
 <br>
 Internal text here
 </details>
@@ -140,7 +140,7 @@ Internal text here
 <div style="height:5px;font-size:1px;">&nbsp;</div>
 
 <details>
-<summary>Data Sets</summary>
+<summary> Data Sets</summary>
 <br>
 
 Internal text here
