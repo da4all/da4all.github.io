@@ -12,6 +12,7 @@ lastname: Carrigan
 
 teaser: >
   This article provides an effective framework for introducing data-as-rhetoric.
+
 profile:
     name: The History of Data-as-Rhetoric
     group: Reading
