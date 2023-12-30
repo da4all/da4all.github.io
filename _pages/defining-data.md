@@ -34,7 +34,6 @@ Internal text here
 
 <details>
 <summary>Readings</summary>
-<br>
 
 {% assign cards = site.cards | where: "group", "Reading" | where: "topic", "Defining Data" | sort: "last_name" %}
 
