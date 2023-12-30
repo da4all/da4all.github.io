@@ -68,7 +68,7 @@ Internal text here
                     {% endif %}
                     <p class="card-text">
                         <br><small class="test-muted"><i class="fas fa-thumbtack"></i> {{ card.profile.group | replace: '<br />', ', ' }}</small>
-			<br><small class="test-muted"><i class="fas fa-thumbtack"></i> {{ card.profile.topic | replace: '<br />', ', ' }}</small> 
+			<br><small class="test-muted"><i class="fas fa-thumbtack"></i> {{ card.profile.literacy | replace: '<br />', ', ' }}</small> 
                     </p>
                 </div>
             </div>
