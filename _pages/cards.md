@@ -7,6 +7,29 @@ nav: false
 nav_rank: 8
 ---
 
+# Key
+
+## Literacies
+- Defining
+- Collecting
+- Assembling
+- Analyzing
+- Preserving
+- PullingInsights
+- MakingClaims
+- Visualizing
+- Mapping
+- Persuading
+
+## Types
+- Reading
+- Term
+- Assignment
+- Activity
+- Tutorial
+- TeachingModule
+- Dataset
+
 # Data Justice Assignment: 
 
 {% assign cards = site.cards | where: "group", "Assignment" | where: "topic", "DataJustice" | sort: "last_name" %}
