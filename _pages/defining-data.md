@@ -41,6 +41,9 @@ Such questions are especially important for doing data advocacy in ethical and j
                     {% if card.inline == false %}</a>{% endif %}
                     <p class="card-text">
                         <br><small class="test-muted"><i class="fas fa-list"></i> Type: {{ card.profile.group | replace: '<br />', ', ' }} ; Literacy: {{ card.profile.literacy | replace: '<br />', ', ' }}</small>
+                        {% if card.profile.website %}
+                        <br><small class="test-muted"><i class="fas fa-link"></i><a href="{{ card.profile.source }}" class="card-link" target="_blank"><i class="fas fa-link"></i></a>
+                        {% endif %}
                     </p>
                 </div>
             </div>
