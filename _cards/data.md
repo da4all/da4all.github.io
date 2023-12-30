@@ -5,14 +5,14 @@ group: Term
 topic: Defining Data
 
 title: Data
-description: Rather than impose a singular definition of data upon students, data in this module is presented from a variety of perspectives to highlight its relations to bodies, ethics, rhetoric, and power.
+description: Rather than impose a singular definition of data upon students, data in this toolkit is presented from a variety of perspectives to highlight its relations to bodies, ethics, rhetoric, and power.
 lastname: 
 
 teaser: >
-  Rather than impose a singular definition of data upon students, data in this module is presented from a variety of perspectives to highlight its relations to bodies, ethics, rhetoric, and power.
+  Rather than impose a singular definition of data upon students, data in this toolkit is presented from a variety of perspectives to highlight its relations to bodies, ethics, rhetoric, and power.
 
 profile:
-    name: [TITLE]
+    name: Data
     group: Term
     literacy: Defining Data
     source: 
