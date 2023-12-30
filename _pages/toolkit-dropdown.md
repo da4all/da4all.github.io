@@ -7,18 +7,25 @@ dropdown: true
 children: 
     - title: Explore All
       permalink: /toolkit/
+    - title: divider
     - title: Readings
       permalink: /readings/
     - title: divider
     - title: Glossary
-      permalink: /modules/
-    - title: divider
-    - title: Lesson Plans
-      permalink: /modules/
+      permalink: /glossary/
     - title: divider
     - title: Assignments
-      permalink: /modules/
+      permalink: /assignments/
+    - title: divider
+    - title: Activities
+      permalink: /activities/
     - title: divider
     - title: Tutorials
-      permalink: /modules/
+      permalink: /tutorials/
+    - title: divider
+    - title: Teaching Modules
+      permalink: /teaching-modules/
+    - title: divider
+    - title: Data Sets
+      permalink: /data-sets/
 ---
