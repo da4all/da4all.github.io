@@ -67,7 +67,8 @@ Internal text here
                         <a href="https://github.com/{{ card.profile.github }}" class="card-link" target="_blank"><i class="fab fa-github"></i></a>
                     {% endif %}
                     <p class="card-text">
-                        <br><small class="test-muted"><i class="fas fa-thumbtack"></i> {{ card.profile.address | replace: '<br />', ', ' }}</small> 
+                        <br><small class="test-muted"><i class="fas fa-thumbtack"></i> {{ card.profile.group | replace: '<br />', ', ' }}</small>
+			<br><small class="test-muted"><i class="fas fa-thumbtack"></i> {{ card.profile.topic | replace: '<br />', ', ' }}</small> 
                     </p>
                 </div>
             </div>
