@@ -40,8 +40,9 @@ Such questions are especially important for doing data advocacy in ethical and j
                     </p>
                     {% if card.inline == false %}</a>{% endif %}
                     <p class="card-text">
-		    <br><small class="test-muted"><i class="fas fa-table-columns"></i> Literacy: {{ card.profile.literacy | replace: '<br />', ', ' }} ; Type: {{ card.profile.group | replace: '<br />', ', ' }}</small>
+		    <small class="test-muted"><i class="fas fa-table-columns"></i> Literacy: {{ card.profile.literacy | replace: '<br />', ', ' }} ; Type: {{ card.profile.group | replace: '<br />', ', ' }}</small>
 		    {% if card.profile.source %}<br><small class="test-muted"><i class="fas fa-table-columns"></i> Source: {{ card.profile.source | replace: '<br />', ', ' }} </small>{% endif %}
+		    {% if card.profile.author %}<br><small class="test-muted"><i class="fas fa-table-columns"></i> Author: {{ card.profile.author | replace: '<br />', ', ' }} </small>{% endif %}
                     </p>
                 </div>
             </div>
