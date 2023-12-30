@@ -9,7 +9,7 @@ nav_rank: 8
 
 ## Overview
 
-With the Data Advocacy for All toolkit, you have two ways to explore:
+This is a collected page of all of the assignments across all of the modules. If you are looking for assignments that correspond to a specific data literacy, we recommend going to the module page directly.
 
 <details>
 <summary open> Assignments</summary>
