@@ -21,9 +21,6 @@ profile:
 
 ---
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/themes/light.css" />
-<script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/shoelace.js" ></script>
-
 Please write a 5-7 page formal reflection in which you a.) reflect back on your learning in this module and articulate what you have learned about data, the data life cycle, and best practices for doing data advocacy; and b.) apply this learning to analyze and comment on a contemporary enactment of data advocacy called _Mapping Police Violence._
 
 This reflection has been divided into two parts. In writing your reflection, please make sure to attend to the questions posed below for each respective section. Note: Your tone may be casual in this reflection, but please write a substantive reflection that demonstrates deep understanding of the concepts, ideas, and frameworks covered in this module. 
