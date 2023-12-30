@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /defining-data/
-title: Defining Data
+permalink: /toolkit/
+title: Toolkit
 description: 
 nav: false
 nav_rank: 8
