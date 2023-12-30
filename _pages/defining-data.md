@@ -7,28 +7,6 @@ nav: false
 nav_rank: 8
 ---
 
-<head>
-	
-<style>
-details > summary {
-  padding: 18px;
-  width: 100%;
-  background-color: #0D3373;
-  color: white;
-  border: none;
-  box-shadow: 1px 1px 2px #bbbbbb;
-  cursor: pointer;
-}
-
-details > p {
-  padding: 18px;
-  margin: 0;
-  box-shadow: 1px 1px 2px #bbbbbb;
-}
-</style>
-
-</head>
-
 # Sample
 
 <br>
