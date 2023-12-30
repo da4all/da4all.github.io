@@ -4,7 +4,7 @@
 
 // Details & Summary
 
-.details > summary {
+details > summary {
   padding: 18px;
   width: 100%;
   background-color: #0D3373;
@@ -14,7 +14,7 @@
   cursor: pointer;
 }
 
-.details > p {
+details > p {
   padding: 18px;
   margin: 0;
   box-shadow: 1px 1px 2px #bbbbbb;
