@@ -52,7 +52,7 @@ Such questions are especially important for doing data advocacy in ethical and j
 
 <br></details>
 
-<div style="height:1px;font-size:1px;">&nbsp;</div>
+<div style="height:5px;font-size:1px;">&nbsp;</div>
 
 <details>
 <summary>Assignments</summary>
@@ -60,7 +60,7 @@ Such questions are especially important for doing data advocacy in ethical and j
 Internal text here
 </details>
 
-<div style="height:1px;font-size:1px;">&nbsp;</div>
+<div style="height:5px;font-size:1px;">&nbsp;</div>
 
 <details>
 <summary>Activities</summary>
