@@ -36,7 +36,6 @@ Such questions are especially important for doing data advocacy in ethical and j
                     {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
                     <h5 class="card-title">{{ card.profile.name }}</h5>
                         {{ card.teaser }}
-                    </p>
                     {% if card.inline == false %}</a>{% endif %}
                     <p class="card-text">
                         <br><small class="test-muted"><i class="fas fa-list"></i> Type: {{ card.profile.group | replace: '<br />', ', ' }} ; Literacy: {{ card.profile.literacy | replace: '<br />', ', ' }}</small>
