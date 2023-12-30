@@ -8,7 +8,6 @@ nav_rank: 8
 ---
 
 # Key
-<br>
 ## Literacies
 - Defining Data
 - Collecting Data
