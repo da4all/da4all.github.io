@@ -19,12 +19,13 @@ profile:
     align: right
 
 ---
-<body>
 
-<h2>The History of Data-as-Rhetoric</h2>
+## The History of Data-as-Rhetoric
 
-<b>Citation:</b> Carrigan, Mark. “The History of Data-as-Rhetoric.” Markcarrigan.net, 12 September 2016. https://markcarrigan.net/2016/09/12/the-history-of-data-as-rhetoric/. Accessed 6 June 2023.
+Citation: Carrigan, Mark. “The History of Data-as-Rhetoric.” Markcarrigan.net, 12 September 2016. https://markcarrigan.net/2016/09/12/the-history-of-data-as-rhetoric/. Accessed 6 June 2023.
 
 <iframe src="https://markcarrigan.net/2016/09/12/the-history-of-data-as-rhetoric/" title="Read "The History of Data-as Rhetoric"></iframe>
 
-</body>
+<iframe src="https://markcarrigan.net/2016/09/12/the-history-of-data-as-rhetoric/">iFrame?</iframe>
+
+<iframe width="890" height="700" src="https://live.easygenerator.com" frameborder="0" allowfullscreen></iframe>
