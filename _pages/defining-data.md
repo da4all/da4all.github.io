@@ -54,6 +54,8 @@ Such questions are especially important for doing data advocacy in ethical and j
 
 {% endfor %}
 
+<br>
+
 </details>
 
 <div style="height:5px;font-size:1px;">&nbsp;</div>
@@ -92,6 +94,8 @@ Such questions are especially important for doing data advocacy in ethical and j
 </p>
 
 {% endfor %}
+
+<br>
 
 </details>
 
