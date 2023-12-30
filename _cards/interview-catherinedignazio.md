@@ -15,7 +15,7 @@ profile:
     name: Interview with Catherine D’Ignazio: Data is never a raw, truthful input – and it is never neutral
     group: Reading
     literacy: Defining Data
-    source:https://www.theguardian.com/technology/2020/mar/21/catherine-dignazio-data-is-never-a-raw-truthful-input-and-it-is-never-neutral
+    source: 'https://www.theguardian.com/technology/2020/mar/21/catherine-dignazio-data-is-never-a-raw-truthful-input-and-it-is-never-neutral'
     author: Zoë Corbyn
     align: right
 
