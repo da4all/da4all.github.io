@@ -1,4 +1,4 @@
-=---
+---
 layout: page
 inline: false
 group: Reading
