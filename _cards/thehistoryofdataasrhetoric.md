@@ -24,14 +24,10 @@ profile:
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/themes/light.css" />
 <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/shoelace.js" ></script>
 
-## The History of Data-as-Rhetoric
-
-**MLA Citation:** Carrigan, Mark. “The History of Data-as-Rhetoric.” Markcarrigan.net, 12 September 2016. https://markcarrigan.net/2016/09/12/the-history-of-data-as-rhetoric/. Accessed 6 June 2023.
-
 <div>
   <center>
   <sl-button-group label="Alignment">
-  <sl-button href="https://markcarrigan.net/2016/09/12/the-history-of-data-as-rhetoric/">Access the full article</sl-button>
+  <sl-button href="https://markcarrigan.net/2016/09/12/the-history-of-data-as-rhetoric/">Access the full "The History of Data-as-Rhetoric" article here</sl-button>
   </sl-button-group>
 </center>
 </div>
