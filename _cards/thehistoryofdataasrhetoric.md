@@ -16,8 +16,8 @@ profile:
     name: The History of Data-as-Rhetoric
     group: Reading
     literacy: Defining Data
-    align: right
     source: https://markcarrigan.net/2016/09/12/the-history-of-data-as-rhetoric/
+    align: right
 
 ---
 
