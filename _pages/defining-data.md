@@ -87,4 +87,42 @@ Internal text here
 
 <br></details>
 
-<br><br>
+<br>
+
+<details open>
+<summary>Assignments</summary>
+<br>
+Internal text here
+</details>
+
+<br>
+
+<details open>
+<summary>Activities</summary>
+<br>
+Internal text here
+</details>
+
+<br>
+
+<details open>
+<summary>Tutorials</summary>
+<br>
+Internal text here
+</details>
+
+<br>
+
+<details open>
+<summary>Teaching Modules</summary>
+<br>
+Internal text here
+</details>
+
+<br>
+
+<details open>
+<summary>Data Sets</summary>
+<br>
+Internal text here
+</details>
