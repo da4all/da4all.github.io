@@ -63,8 +63,7 @@ Such questions are especially important for doing data advocacy in ethical and j
                         <a href="https://github.com/{{ card.profile.github }}" class="card-link" target="_blank"><i class="fab fa-github"></i></a>
                     {% endif %}
                     <p class="card-text">
-                        <br><small class="test-muted"><i class="fas fa-list"></i> {{ card.profile.group | replace: '<br />', ', ' }}</small>
-			<br><small class="test-muted"><i class="fas fa-gears"></i> {{ card.profile.literacy | replace: '<br />', ', ' }}</small> 
+                        <br><small class="test-muted"><i class="fas fa-list"></i><b>Type:</b> {{ card.profile.group | replace: '<br />', ', ' }} ; <b>Literacy:</b> {{ card.profile.literacy | replace: '<br />', ', ' }}</small>
                     </p>
                 </div>
             </div>
