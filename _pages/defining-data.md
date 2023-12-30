@@ -15,6 +15,7 @@ As such, this literacy introduces students to feminist, rhetorical, and equity d
 - How and why does data ethically matter?
 - What rhetorical dimensions of data need to be carefully considered?
 - How can we enact equitable data practices?
+
 Such questions are especially important for doing data advocacy in ethical and just ways in our contemporary moment. This literacy thus specifically offers a theoretical understanding of data, an introduction to the data life cycle, and a brief dive into best practices of data advocacy in order to help students develop a strong rhetorical and ethical foundation from which to take up this important practice. 
 
 # Sample
@@ -35,7 +36,7 @@ Internal text here
 <summary>Readings</summary>
 <br>
 
-{% assign cards = site.cards | where: "group", "Reading" | where: "topic", "Defining" | sort: "last_name" %}
+{% assign cards = site.cards | where: "group", "Reading" | where: "topic", "Defining Data" | sort: "last_name" %}
 
 {% for card in cards %}
 
