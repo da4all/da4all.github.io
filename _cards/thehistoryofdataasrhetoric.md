@@ -2,7 +2,7 @@
 layout: about
 inline: false
 group: Reading
-topic: Defining
+topic: Defining Data
 group_rank: 1
 topic_rank: 1
 
@@ -15,7 +15,7 @@ teaser: >
 profile:
     name: The History of Data-as-Rhetoric
     group: Reading
-    literacy: Defining
+    literacy: Defining Data
     align: right
 
 ---
