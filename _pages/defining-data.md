@@ -49,13 +49,13 @@ Such questions are especially important for doing data advocacy in ethical and j
 {% endfor %}
 
 <br></details>
-<br>
+<small><br></small>
 <details>
 <summary>Assignments</summary>
 <br>
 Internal text here
 </details>
-<br>
+<small><br></small>
 <details>
 <summary>Activities</summary>
 <br>
