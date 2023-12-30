@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /toolkit/
-title: Toolkit
+title: Toolkit Overview
 description: 
 nav: false
 nav_rank: 8
