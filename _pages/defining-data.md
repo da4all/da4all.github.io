@@ -34,7 +34,7 @@ Such questions are especially important for doing data advocacy in ethical and j
             <div class="team col-sm-8 col-md-9">
                 <div class="card-body">
                     {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
-                    <h5 class="card-title">{{ card.profile.name }}</h5></a>
+                    <h5 class="card-title">{{ card.profile.name }}</h5>
                     <p class="card-text">
                         {{ card.teaser }}
                     </p>
