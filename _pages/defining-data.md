@@ -22,10 +22,10 @@ Internal text here
 
 <br><br>
 
-# Readings:
+# Readings
 
 <details>
-<summary>All Readings</summary>
+<summary>All readings related to defining data</summary>
 <br>
 
 {% assign cards = site.cards | where: "group", "Reading" | where: "topic", "Defining" | sort: "last_name" %}
