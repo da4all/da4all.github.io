@@ -5,6 +5,8 @@ nav: true
 nav_order: 3
 dropdown: true
 children: 
+    - title: Explore All
+      permalink: /toolkit/
     - title: Readings
       permalink: /readings/
     - title: divider
