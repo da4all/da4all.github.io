@@ -15,7 +15,7 @@ profile:
     name: Interview with Catherine D’Ignazio: Data is never a raw, truthful input – and it is never neutral
     group: Reading
     literacy: Defining Data
-    source: 
+    source:
     author: Zoë Corbyn
     align: right
 
