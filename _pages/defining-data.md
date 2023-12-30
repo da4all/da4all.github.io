@@ -57,7 +57,7 @@ Such questions are especially important for doing data advocacy in ethical and j
 
 <br></details>
 
-<br>
+<div style="height:1px;font-size:1px;">&nbsp;</div>
 
 <details>
 <summary>Assignments</summary>
@@ -65,7 +65,7 @@ Such questions are especially important for doing data advocacy in ethical and j
 Internal text here
 </details>
 
-<br>
+<div style="height:1px;font-size:1px;">&nbsp;</div>
 
 <details>
 <summary>Activities</summary>
@@ -73,7 +73,7 @@ Internal text here
 Internal text here
 </details>
 
-<br>
+<div style="height:1px;font-size:1px;">&nbsp;</div>
 
 <details>
 <summary>Tutorials</summary>
@@ -81,7 +81,7 @@ Internal text here
 Internal text here
 </details>
 
-<br>
+<div style="height:1px;font-size:1px;">&nbsp;</div>
 
 <details>
 <summary>Teaching Modules</summary>
@@ -89,7 +89,7 @@ Internal text here
 Internal text here
 </details>
 
-<br>
+<div style="height:1px;font-size:1px;">&nbsp;</div>
 
 <details>
 <summary>Data Sets</summary>
