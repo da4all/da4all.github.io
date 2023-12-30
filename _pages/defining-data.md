@@ -90,7 +90,7 @@ Internal text here
 <details>
 <summary>Data Sets</summary>
 <br>
-{% assign cards = site.cards | where: "group", "Assignment" | where: "topic", "DataJustice" | sort: "last_name" %}
+{% assign cards = site.cards | where: "topic", "Defining Data" | sort: "last_name" %}
 
 {% for card in cards %}
 
