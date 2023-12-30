@@ -32,7 +32,7 @@ With the Data Advocacy for All toolkit, you have two ways to explore:
 - Mapping with Data
 - Persuading with Data
   
-<br><br>
+<br>
 
 ## Exploring by Resource Type
 
@@ -321,7 +321,7 @@ With the Data Advocacy for All toolkit, you have two ways to explore:
 
 <div style="height:5px;font-size:1px;">&nbsp;</div>
 
-<br><br>
+<br>
 
 ## Exploring by Data Literacy
 
