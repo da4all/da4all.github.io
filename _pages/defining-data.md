@@ -35,13 +35,13 @@ Such questions are especially important for doing data advocacy in ethical and j
                 <div class="card-body">
                     {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
                     <h5 class="card-title">{{ card.profile.name }}</h5>
-                    {% if card.profile.group %}<h6 class="card-subtitle mb-2 text-muted">Type: {{ card.profile.group }}</h6>{% endif %}
+                    <br><small class="test-muted"><i class="fas fa-table-columns"></i> Literacy: {{ card.profile.literacy | replace: '<br />', ', ' }} ; Type: {{ card.profile.group | replace: '<br />', ', ' }}</small> 
+                    {% if card.profile.source %}<h6 class="card-subtitle mb-2 text-muted">Source: {{ card.profile.source }}</h6>{% endif %}
                     <p class="card-text">
                         {{ card.teaser }}
                     </p>
                     {% if card.inline == false %}</a>{% endif %}
                     <p class="card-text">
-                        <br><small class="test-muted"><i class="fas fa-table-columns"></i>Literacy: {{ card.profile.literacy | replace: '<br />', ', ' }} ; Type: {{ card.profile.group | replace: '<br />', ', ' }}</small> 
                     </p>
                 </div>
             </div>
