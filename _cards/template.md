@@ -4,7 +4,7 @@ inline: false
 group: Reading / Term / Assignment / Activity / Tutorial / Teaching Module / Dataset
 topic: Defining Data / Collecting Data / Assembling Data / Analyzing Data / Preserving Data / Pulling Insights from Data / Making Claims with Data / Visualizing Data / Mapping with Data / Persuading with Data
 
-title: [TITLE]
+title: "[TITLE]"
 description: [MLA CITATION]
 lastname: [AUTHOR LAST NAME]
 
@@ -12,7 +12,7 @@ teaser: >
   [DESCRIPTION]
 
 profile:
-    name: [TITLE]
+    name: "[TITLE]"
     group: Reading / Term / Assignment / Activity / Tutorial / Teaching Module / Dataset
     literacy: Defining Data / Collecting Data / Assembling Data / Analyzing Data / Preserving Data / Pulling Insights from Data / Making Claims with Data / Visualizing Data / Mapping with Data / Persuading with Data
     source: [URL SOURCE]
