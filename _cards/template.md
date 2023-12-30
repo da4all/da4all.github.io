@@ -5,11 +5,11 @@ group: Reading / Term / Assignment / Activity / Tutorial / Teaching Module / Dat
 topic: Defining Data / Collecting Data / Assembling Data / Analyzing Data / Preserving Data / Pulling Insights from Data / Making Claims with Data / Visualizing Data / Mapping with Data / Persuading with Data
 
 title: "[TITLE]"
-description: [MLA CITATION]
+description: "[MLA CITATION]"
 lastname: [AUTHOR LAST NAME]
 
 teaser: >
-  [DESCRIPTION]
+  "[DESCRIPTION]"
 
 profile:
     name: "[TITLE]"
