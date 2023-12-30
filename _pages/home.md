@@ -72,8 +72,8 @@ Data Advocacy for All teaches data advocacy through two main approaches:<br>
 
 <center>
 <sl-button-group label="Alignment">
-  <sl-button href="https://da4asandbox.github.io/getting-started/">How to Best Get Started</sl-button>
-  <sl-button href="https://da4asandbox.github.io/toolkit/">Explore the Toolkit</sl-button>
+  <sl-button href="https://da4asandbox.github.io/curricularsite/getting-started/">How to Best Get Started</sl-button>
+  <sl-button href="https://da4asandbox.github.io/curricularsite/toolkit/">Explore the Toolkit</sl-button>
 </sl-button-group></center>
 
 <br>
