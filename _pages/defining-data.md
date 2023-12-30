@@ -34,7 +34,7 @@ Such questions are especially important for doing data advocacy in ethical and j
             <div class="team col-sm-8 col-md-9">
                 <div class="card-body">
                     {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
-                    <h5 class="card-title">{{ card.profile.name }}</h5>
+                    <h5 class="card-title">{{ card.profile.name }}</h5></a>
                     <br><small class="test-muted"><i class="fas fa-table-columns"></i> Literacy: {{ card.profile.literacy | replace: '<br />', ', ' }} ; Type: {{ card.profile.group | replace: '<br />', ', ' }}</small> 
                     <p class="card-text">
                         {{ card.teaser }}
