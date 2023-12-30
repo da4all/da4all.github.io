@@ -5,7 +5,7 @@ group: Reading
 topic: Defining Data
 
 title: "Critical Data Studies: An Introduction"
-description: Iliadis, Andrew and Federica Russo. 2016. “Critical Data Studies: An Introduction.” Big Data & Society, vol. 3, no. 2, 2016. (Creative Commons CC-BY).
+description: "Iliadis, Andrew and Federica Russo. 2016. “Critical Data Studies: An Introduction.” Big Data & Society, vol. 3, no. 2, 2016. (Creative Commons CC-BY)."
 lastname: Iliadis & Russo
 
 teaser: >
