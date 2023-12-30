@@ -43,7 +43,7 @@ Such questions are especially important for doing data advocacy in ethical and j
 		    <div style="height:5px;font-size:1px;">&nbsp;</div>
 		    <br>{% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i>  Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a> </small><br>{% endif %} 
 		    {% if card.profile.author %}<small class="test-muted"><i class="fas fa-user-pen"></i>  Author: {{ card.profile.author | replace: '<br />', ', ' }} </small><br>{% endif %}
-		    <small class="test-muted"><i class="fas fa-table-columns"></i>   Literacy: {{ card.profile.literacy | replace: '<br />', ', ' }} ; Type: {{ card.profile.group | replace: '<br />', ', ' }}</small>
+		    <small class="test-muted"><i class="fas fa-table-columns"></i>   Data Literacy: {{ card.profile.literacy | replace: '<br />', ', ' }} ; Type of Resource: {{ card.profile.group | replace: '<br />', ', ' }}</small>
                     </p>
                 </div>
             </div>
