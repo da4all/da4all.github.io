@@ -10,16 +10,16 @@ nav_rank: 8
 # Key
 <br>
 ## Literacies
-- Defining
-- Collecting
-- Assembling
-- Analyzing
-- Preserving
-- PullingInsights
-- MakingClaims
-- Visualizing
-- Mapping
-- Persuading
+- Defining Data
+- Collecting Data
+- Assembling Data
+- Analyzing Data
+- Preserving Data
+- Pulling Insights from Data
+- Making Claims with Data
+- Visualizing Data
+- Mapping with Data
+- Persuading with Data
 
 ## Types
 - Reading
@@ -27,7 +27,7 @@ nav_rank: 8
 - Assignment
 - Activity
 - Tutorial
-- TeachingModule
+- Teaching Module
 - Dataset
 
 # Data Justice Assignment: 
