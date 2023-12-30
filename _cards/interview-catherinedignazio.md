@@ -9,7 +9,7 @@ description:
 lastname: Corbyn
 
 teaser: >
-  The co-author of Data Feminism on the importance of recognising discrimination in algorithms, understanding it at a technical level – and introducing measures to stamp it out
+  
 
 profile:
     name: Interview with Catherine D’Ignazio: Data is never a raw, truthful input – and it is never neutral
