@@ -21,8 +21,6 @@ Internal text here
 
 # Readings:
 
-<br>
-
 <details>
 <summary>All Readings</summary>
 <br>
