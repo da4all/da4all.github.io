@@ -13,8 +13,8 @@ teaser: >
 
 profile:
     name: "Philadelphia African-American Census 1847"
-    group: Reading / Term / Assignment / Activity / Tutorial / Teaching Module / Dataset
-    literacy: Defining Data / Collecting Data / Assembling Data / Analyzing Data / Preserving Data / Pulling Insights from Data / Making Claims with Data / Visualizing Data / Mapping with Data / Persuading with Data
+    group: Dataset
+    literacy: Analyzing Data
     source: https://ds-pages.swarthmore.edu/paac/
     author: Friends Historical Library
     align: right
