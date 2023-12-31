@@ -9,7 +9,7 @@ description: "Corbyn, Zoë. “Interview with Catherine D’Ignazio: Data is Nev
 lastname: Corbyn
 
 teaser: >
-  The co-author of Data Feminism on the importance of recognising discrimination in algorithms, understanding it at a technical level – and introducing measures to stamp it out
+  The co-author of Data Feminism on the importance of recognising discrimination in algorithms, understanding it at a technical level – and introducing measures to stamp it out.
 
 profile:
     name: "Interview with Catherine D’Ignazio: Data is Never a Raw, Truthful Input – and It is Never Neutral"
