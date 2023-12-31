@@ -59,7 +59,7 @@ Data Advocacy for All teaches data advocacy through two main approaches:<br>
 <div class="card hoverable">
   <div class="card-body">
     <h4 class="card-title">Rhetorical Data Studies
-<p class="card-text">hetorical data studies (Gries, forthcoming) investigates the links between data, communication, and power in order to better understand how data-driven stories and arguments generate knowledge, garner public attention, and, among other actions, mediate socio-cultural change.</p>
+<p class="card-text">Rhetorical data studies (Gries, forthcoming) investigates the links between data, communication, and power in order to better understand how data-driven stories and arguments generate knowledge, garner public attention, and, among other actions, mediate socio-cultural change.</p>
     </h4>
   </div>
 </div>
