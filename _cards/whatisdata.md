@@ -9,7 +9,7 @@ description: "Market Business News. “What is Data? Definition and Examples.”
 lastname: 
 
 teaser: >
-  "Data means information, more specifically facts, figures, measurements and amounts that we gather for analysis or reference. The term’s meaning also includes descriptive information about things, plants, animals, and people. We collect and store data typically through observation."
+  Data means information, more specifically facts, figures, measurements and amounts that we gather for analysis or reference. The term’s meaning also includes descriptive information about things, plants, animals, and people. We collect and store data typically through observation.
 
 profile:
     name: "What is Data? Definition and Examples"
