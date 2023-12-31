@@ -285,7 +285,7 @@ With the Data Advocacy for All toolkit, you have two ways to explore:
 <details>
 <summary> Data Sets</summary>
 
-{% assign cards = site.cards | where: "group", "Data Set" | sort: "last_name" %}
+{% assign cards = site.cards | where: "group", "Dataset" | sort: "last_name" %}
 
 {% for card in cards %}
 
