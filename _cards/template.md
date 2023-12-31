@@ -9,7 +9,7 @@ description: "[MLA CITATION]"
 lastname: [AUTHOR LAST NAME]
 
 teaser: >
-  "[DESCRIPTION]"
+  [DESCRIPTION]
 
 profile:
     name: "[TITLE]"
