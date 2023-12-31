@@ -14,7 +14,7 @@ With the Data Advocacy for All toolkit, you have two ways to explore:
 ### Explore by Resource Type
 - Readings
 - Glossary
-- Assignments
+- [Assignments](/curricularsite/assignments/)
 - Activities
 - Tutorials
 - Teaching Modules
