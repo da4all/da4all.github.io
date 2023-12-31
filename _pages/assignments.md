@@ -11,8 +11,8 @@ nav_rank: 8
 
 This is a collected page of all of the assignments across all of the modules. If you are looking for assignments that correspond to a specific data literacy, we recommend going to the module page directly.
 
-<details>
-<summary open> Assignments</summary>
+<details open>
+<summary> Assignments</summary>
 
 {% assign cards = site.cards | where: "group", "Assignment" | sort: "last_name" %}
 
