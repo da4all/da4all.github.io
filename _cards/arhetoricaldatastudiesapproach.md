@@ -9,7 +9,7 @@ description: "Gries, Laurie. (forthcoming). “A Rhetorical Data Studies Approac
 lastname: Gries
 
 teaser: >
-  "Abstract forthcoming!"
+  Abstract forthcoming!
 
 profile:
     name: "A Rhetorical Data Studies Approach to Data Advocacy and Data Storytelling"
