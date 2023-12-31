@@ -24,8 +24,7 @@ details > p {
 
 body {
   font-family: $base-font;
-  letter-spacing: .05rem;
-  font-width: 400;
+  letter-spacing: .01rem;
 }
 
 h1 {
@@ -55,6 +54,7 @@ span,
 strong {
   color: var(--global-text-color);
   font-family: 'Montserrat';
+  font-width: 400;
 }
 
 hr {
