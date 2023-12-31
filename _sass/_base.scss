@@ -24,7 +24,6 @@ details > p {
 
 body {
   font-family: $base-font;
-  font-weight: 300;
   letter-spacing: .05rem;
 }
 
@@ -213,13 +212,13 @@ blockquote {
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
   border: 1px solid var(--global-divider-color);
-  font-weight: 500;
+  font-weight: 400;
 
   a:not(.active) {
     color: var(--global-text-color);
