@@ -9,7 +9,7 @@ description: "Polish and revise a visualization you created previously. Place it
 lastname: 
 
 teaser: >
-  "Polish and revise a visualization you created previously. Place it in a document, along with the original visualization of the same data."
+  Polish and revise a visualization you created previously. Place it in a document, along with the original visualization of the same data.
 
 profile:
     name: "Improve It and Prove It"
