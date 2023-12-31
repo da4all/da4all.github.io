@@ -9,7 +9,7 @@ description: "Valchanov, Iliya. “The What, Where and How of Data for Data Scie
 lastname: Valchanov
 
 teaser: >
-  "Here we will take data science apart and build it back up to a coherent and manageable concept. Bear with us!"
+  Here we will take data science apart and build it back up to a coherent and manageable concept. Bear with us!
 
 profile:
     name: "The What, Where and How of Data for Data Science"
