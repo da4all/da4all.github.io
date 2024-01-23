@@ -14,7 +14,7 @@ teaser: >
 profile:
     name: "A Rhetorical Data Studies Approach to Data Advocacy and Data Storytelling"
     group: Reading
-    literacy: Defining Data
+    literacy: <a href="https://da4asandbox.github.io/curricularsite/defining-data/">Defining Data</a>
     source: 
     author: Laurie Gries
     align: right
