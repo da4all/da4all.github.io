@@ -3,6 +3,7 @@ layout: page
 inline: false
 group: Term
 topic: Defining Data
+priority: 
 
 title: Data Advocacy
 description: Data advocacy is introduced as an integrative practice of analysis, design, and communication in which insights from a dataset are effectively conveyed to raise public awareness and drive social change.
