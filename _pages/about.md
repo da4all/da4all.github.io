@@ -10,12 +10,13 @@ nav_rank: 8
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/themes/light.css" />
 <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/shoelace.js" ></script>
 
-# Table of Contents
+## Table of Contents
 - [Mission](#Mission)
 - [The CU Next Award](#CUNext)
 - [The Literacy Domains of Data Advocacy](#LiteracyDomains)
+<br><br>
 
-# Mission {#Mission}
+## Mission {#Mission}
 
 Data Advocacy for All is a CU Next Award project that aims to extend data humanities education throughout and beyond the University of Colorado system by offering an open-access educational toolkit for teaching data advocacy.
 
@@ -35,12 +36,12 @@ To help students develop such critical-rhetorical know-how, Data Advocacy for Al
 </center>
 
 <br><br>
-# The CU Next Award {#CUNext}
+## The CU Next Award {#CUNext}
 
 The [CU Next Award](https://www.cu.edu/oaa/academic-innovation-programs/cu-next-award) is an academic innovation program that supports pedagogical development within the University of Colorado system. The CU Next Award requires faculty from a minimum of two University of Colorado campuses to collaborate on a pedagogical project that innovates with technology in order to help “increase the efficacy and efficiency of student learning in courses and degree programs” as well as “reduce technology-related and other barriers for individual and small groups of faculty.” To fulfill this requirement, faculty from the University of Colorado Boulder and the University of Colorado Denver collaborated to design, implement, and assess the Data Advocacy for All modular curriculum over a three year span as well design this Open Access (OA) digital repository of curricular materials for instructors across the CU system and beyond. [You can learn more about the CU Next grant and the other awarded projects here.](https://www.cu.edu/oaa/academic-innovation-programs/cu-next-award)
 <br><br>
 
-# The Literacy Domains of Data Advocacy {#LiteracyDomains}
+## The Literacy Domains of Data Advocacy {#LiteracyDomains}
 
 Data Literacy, in the context of this project, is understood to be a nexus of mindsets, abilities, and practices that enable one to advocate with data in meaningful, ethical, and transformative ways. When it comes to data advocacy, we have identified three crucial literacy domains in which students need to gain experience in order to develop the critical-rhetorical capacities to ethically and effectively work with data to instigate social change. As evident in the chart below, we identify these three broad domains as Understanding Data, Processing Data, and Persuading with Data, and in each arena, we have identified four subdomains.
  
