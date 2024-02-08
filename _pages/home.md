@@ -66,11 +66,7 @@ Data Advocacy for All teaches data advocacy through two main approaches:<br>
   </div>
 </div>
 
-<br>
-
-# Curriculum
-
-<br>
+<br><br>
 
 <center>
 <sl-button-group label="Alignment">
