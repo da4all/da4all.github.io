@@ -17,13 +17,21 @@ details > summary {
 }
 
 details > *:not(summary) {
-    padding: 20px; 
+    padding: 10px; 
 }
 
 details details {
-    margin: 20px;
-    background-color: #D30D33;
-    color: white;
+    margin: 10px;
+}
+
+details details > summary {
+  padding: 18px;
+  width: 100%;
+  background-color: #041c46;
+  color: white;
+  border: none;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  cursor: pointer;
 }
 
 // Typography
