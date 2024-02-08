@@ -63,7 +63,7 @@ Such questions are especially important for doing data advocacy in ethical and j
 <details>
 <summary> Glossary</summary>
 
-{% assign cards = site.cards | where: "group", "Term" | where: "topic", "Defining Data" | sort: "last_name" %}
+{% assign cards = site.cards | where: "group", "Term" | where: "topic", "Defining Data" | sort: "title" %}
 
 {% for card in cards %}
 
@@ -104,7 +104,7 @@ Such questions are especially important for doing data advocacy in ethical and j
 <details>
 <summary> Assignments</summary>
 
-{% assign cards = site.cards | where: "group", "Assignment" | where: "topic", "Defining Data" | sort: "last_name" %}
+{% assign cards = site.cards | where: "group", "Assignment" | where: "topic", "Defining Data" | sort: "title" %}
 
 {% for card in cards %}
 
@@ -181,7 +181,7 @@ Internal text here
 <details>
 <summary> All Defining Data Resources</summary>
 
-{% assign cards = site.cards | where: "topic", "Defining Data" | sort: "last_name" %}
+{% assign cards = site.cards | where: "topic", "Defining Data" | sort: "title" %}
 
 {% for card in cards %}
 
