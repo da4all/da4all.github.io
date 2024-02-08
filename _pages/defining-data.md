@@ -22,6 +22,9 @@ Such questions are especially important for doing data advocacy in ethical and j
 ## Defining Data Toolkit
 
 <details>
+<summary> Defining Data</summary>
+
+<details>
 <summary> Readings</summary>
 
 {% assign cards = site.cards | where: "group", "Reading" | where: "topic", "Defining Data" | sort: "title" %}
@@ -56,6 +59,7 @@ Such questions are especially important for doing data advocacy in ethical and j
 
 <br>
 
+</details>
 </details>
 
 <div style="height:5px;font-size:1px;">&nbsp;</div>
