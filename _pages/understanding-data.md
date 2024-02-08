@@ -199,13 +199,19 @@ Internal text here
 
 </details>
 
-<details>
-<summary>Defining Data</summary>
-Organized cards will go here.</details>
+<br>
 
 <details>
 <summary>Critiquing Data</summary>
 Organized cards will go here.</details>
+
+<br>
+
+<details>
+<summary>Acting Ethically with Data</summary>
+Organized cards will go here.</details>
+
+<br>
 
 <details>
 <summary>Linking Data and Justice</summary>
