@@ -2,6 +2,7 @@
 layout: page
 inline: false
 group: Reading
+domain: Understanding Data
 topic: Defining Data
 
 title: "Interview with Catherine D’Ignazio: Data is Never a Raw, Truthful Input – and It is Never Neutral"
