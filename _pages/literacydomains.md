@@ -21,6 +21,7 @@ Understanding Data
   <sl-button href="">Acting Ethically with Data</sl-button>
   <sl-button href="">Linking Data and Justice</sl-button>
 </sl-button-group>
+<br><br>
 
 <h3>
 Processing Data
@@ -31,6 +32,7 @@ Processing Data
   <sl-button href="">Analzying and Drawing Insights from Data</sl-button>
   <sl-button href="">Storing and Preserving Data</sl-button>
 </sl-button-group>
+<br><br>
 
 <h3>
 Persuading with Data
