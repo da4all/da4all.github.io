@@ -14,7 +14,7 @@ This is a collected page of all of the assignments across all of the modules. If
 <details open>
 <summary> Assignments</summary>
 
-{% assign cards = site.cards | where: "group", "Assignment" | sort: "last_name" %}
+{% assign cards = site.cards | where: "group", "Assignment" | sort: "title" %}
 
 {% for card in cards %}
 
