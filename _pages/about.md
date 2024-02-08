@@ -34,5 +34,13 @@ To help students develop such critical-rhetorical know-how, Data Advocacy for Al
 The [CU Next Award](https://www.cu.edu/oaa/academic-innovation-programs/cu-next-award) is an academic innovation program that supports pedagogical development within the University of Colorado system. The CU Next Award requires faculty from a minimum of two University of Colorado campuses to collaborate on a pedagogical project that innovates with technology in order to help “increase the efficacy and efficiency of student learning in courses and degree programs” as well as “reduce technology-related and other barriers for individual and small groups of faculty.” To fulfill this requirement, faculty from the University of Colorado Boulder and the University of Colorado Denver collaborated to design, implement, and assess the Data Advocacy for All modular curriculum over a three year span as well design this Open Access (OA) digital repository of curricular materials for instructors across the CU system and beyond. [You can learn more about the CU Next grant and the other awarded projects here.](https://www.cu.edu/oaa/academic-innovation-programs/cu-next-award)
 <br><br>
 
+# The Literacy Domains of Data Advocacy
+
+Data Literacy, in the context of this project, is understood to be a nexus of mindsets, abilities, and practices that enable one to advocate with data in meaningful, ethical, and transformative ways. When it comes to data advocacy, we have identified three crucial literacy domains in which students need to gain experience in order to develop the critical-rhetorical capacities to ethically and effectively work with data to instigate social change. As evident in the chart below, we identify these three broad domains as Understanding Data, Processing Data, and Persuading with Data, and in each arena, we have identified four subdomains.
+ 
+As so organized, these literacy domains are presented as distinct and linear. But we envision these domains as overlapping and reciprocal. For instance, it is important to think critically and ethically about data in all literacy domains. When we create maps with data, we are often telling stories. When we tell stories with data, we are often using persuasive devices. However, for the sake of organization, we have separated out these domains so that you, as teachers, can think about each of these domains more deeply and find relevant resources as needed.
+ 
+Please click the Literacy Domains Tab to learn more about each domain and discover valuable resources to help hone students’ abilities to work with data in their various subdomains.
+
 
 <!--# Cite This Project-->
