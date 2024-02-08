@@ -63,7 +63,7 @@ Such questions are especially important for doing data advocacy in ethical and j
 <details>
 <summary> Glossary</summary>
 
-{% assign cards = site.cards | where: "group", "Term" | where: "topic", "Defining Data" | sort: "title" | sort: "priority" %}
+{% assign cards = site.cards | where: "group", "Term" | where: "topic", "Defining Data" | sort: "title" %}
 
 {% for card in cards %}
 
