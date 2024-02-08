@@ -9,11 +9,11 @@ children:
       permalink: /literacydomains/
     - title: divider
     - title: Understanding Data
-      permalink: /understandingdata/
+      permalink: /understanding-data/
     - title: divider
     - title: Processing Data
-      permalink: /processingdata/
+      permalink: /processing-data/
     - title: divider
     - title: Persuading with Data
-      permalink: /persuadingwithdata/
+      permalink: /persuading-with-data/
 ---
