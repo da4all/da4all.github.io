@@ -16,6 +16,4 @@ children:
     - title: divider
     - title: Persuading with Data
       permalink: /persuading-with-data/
-    - title: Example
-      permalink: /example/
 ---
