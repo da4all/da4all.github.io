@@ -11,7 +11,7 @@ nav_rank: 8
 <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/shoelace.js" ></script>
 
 ## Quick Navigation:
-
+<br>
 <h3>
 Understanding Data
 </h3>
@@ -21,8 +21,7 @@ Understanding Data
   <sl-button href="">Acting Ethically with Data</sl-button>
   <sl-button href="">Linking Data and Justice</sl-button>
 </sl-button-group>
-<br><br>
-
+<br>
 <h3>
 Processing Data
 </h3>
@@ -32,8 +31,7 @@ Processing Data
   <sl-button href="">Analzying and Drawing Insights from Data</sl-button>
   <sl-button href="">Storing and Preserving Data</sl-button>
 </sl-button-group>
-<br><br>
-
+<br>
 <h3>
 Persuading with Data
 </h3>
