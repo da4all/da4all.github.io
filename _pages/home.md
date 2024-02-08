@@ -45,6 +45,7 @@ LEARN MORE
 ## Definition
 <br>
 “Data advocacy is a deeply ethical and rhetorical practice of integrated analysis, design, and communication in which insights from a dataset are effectively conveyed to raise public awareness and drive social change.” <small>(Laurie Gries, “A Rhetorical Data Studies Approach to Data Storytelling and Advocacy”)</small>
+
 <br><br>
 ## Perspective
 <br>
@@ -52,15 +53,15 @@ Data Advocacy for All teaches data advocacy through two main approaches:<br>
 
 <div class="card">
   <div class="card-body">
-    <h4 class="card-title">Data Feminism
-<p class="card-text">Data feminism interrogates how data both propagates and resists sexism and other interlocking forces of oppression in order to create “more just, equitable, and livable futures” (D’Ignazio and Klein, 2020, n.p.).</p>
+    <h4 class="card-title">Critical Data Studies
+<p class="card-text">Critical Data Studies, as a constellation of approaches, applies diverse critical lenses to examine data issues in the context of existing power dynamics, emerging technologies, and social practices. From data ethics to data feminism to black digital humanities, these approaches investigate how data functions as both an oppressive and liberatory force in order to help cultivate “more just, equitable, and livable futures” (D’Ignazio and Klein, 2020, n.p.).</p>
     </h4>
   </div>
 </div><br>
 <div class="card hoverable">
   <div class="card-body">
     <h4 class="card-title">Rhetorical Data Studies
-<p class="card-text">Rhetorical data studies (Gries, forthcoming) investigates the links between data, communication, and power in order to better understand how data-driven stories and arguments generate knowledge, garner public attention, and, among other actions, mediate socio-cultural change.</p>
+<p class="card-text">As a critical and constructive framework, rhetorical data studies explores how data-driven stories, arguments, and visualizations communicate knowledge, garner public attention, and, among other actions, mediate socio-cultural change in order to help establish more ethically- minded and effective data-informed practices.</p>
     </h4>
   </div>
 </div>
