@@ -199,19 +199,19 @@ Internal text here
 
 </details>
 
-<br>
+<div style="height:5px;font-size:1px;">&nbsp;</div>
 
 <details>
 <summary>Critiquing Data</summary>
 Organized cards will go here.</details>
 
-<br>
+<div style="height:5px;font-size:1px;">&nbsp;</div>
 
 <details>
 <summary>Acting Ethically with Data</summary>
 Organized cards will go here.</details>
 
-<br>
+<div style="height:5px;font-size:1px;">&nbsp;</div>
 
 <details>
 <summary>Linking Data and Justice</summary>
