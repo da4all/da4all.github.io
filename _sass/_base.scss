@@ -16,10 +16,14 @@ details > summary {
   cursor: pointer;
 }
 
-details > p {
-  padding: 18px;
-  margin: 0;
-  box-shadow: 1px 1px 2px #bbbbbb;
+details > *:not(summary) {
+    padding: 20px; 
+}
+
+details details {
+    margin: 20px;
+    background-color: #D30D33;
+    color: white;
 }
 
 // Typography
