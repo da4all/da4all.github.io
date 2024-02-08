@@ -2,7 +2,8 @@
 layout: page
 inline: false
 group: Assignment
-topic: Analyzing Data
+domain: Processing Data
+topic: Analyzing and Drawing Insights from Data
 
 title: "Exploring Data"
 description: "This assignment asks you to use the tools you’ve developed over the course of this module to begin understanding a dataset–a subset of the 2019 American Community Survey performed by the United States Census Bureau (The dataset with information about its source and the variables included is available at https://www.openintro.org/data/index.php?data=county_2019. This assignment builds on lesson 2.3 (from the historicizing data module) and you should keep in mind how the project of counting the US population is inherently messy, and implicitly (and sometimes explicitly) caught up in questions of power. This is the case not only because census numbers are used by federal, state and local policy makers, but also because the methods and categories used to gather and organize data frequently make assumptions about what it means to be normal and about how people should be living their lives. At the same time, data can be a powerful tool for identifying patterns of injustice or systemic violence. As you work through this assignment, reflect both on how the ACS data embeds bias and on how the data might contribute to a responsible data advocacy project."
