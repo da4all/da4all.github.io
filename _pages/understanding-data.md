@@ -57,8 +57,6 @@ As such, the resources offered under this literacy domain push students to ask c
 
 </details>
 
-<div style="height:5px;font-size:1px;">&nbsp;</div>
-
 <details>
 <summary> Glossary</summary>
 
@@ -95,10 +93,6 @@ As such, the resources offered under this literacy domain push students to ask c
 <br>
 
 </details>
-
-<div style="height:5px;font-size:1px;">&nbsp;</div>
-
-
 
 <details>
 <summary> Assignments</summary>
@@ -138,10 +132,6 @@ As such, the resources offered under this literacy domain push students to ask c
 
 </details>
 
-<div style="height:5px;font-size:1px;">&nbsp;</div>
-
-
-
 <details>
 <summary> Activities</summary>
 
@@ -149,15 +139,11 @@ Word
 
 </details>
 
-<div style="height:5px;font-size:1px;">&nbsp;</div>
-
 <details>
 <summary> Tutorials</summary>
 <br>
 Internal text here
 </details>
-
-<div style="height:5px;font-size:1px;">&nbsp;</div>
 
 <details>
 <summary> Teaching Modules</summary>
@@ -165,7 +151,6 @@ Internal text here
 Internal text here
 </details>
 
-<div style="height:5px;font-size:1px;">&nbsp;</div>
 
 <details>
 <summary> Data Sets</summary>
@@ -174,8 +159,6 @@ Internal text here
 Internal text here
 
 </details>
-
-<div style="height:5px;font-size:1px;">&nbsp;</div>
 
 <details>
 <summary> All Defining Data Resources</summary>
