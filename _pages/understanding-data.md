@@ -198,3 +198,15 @@ Internal text here
 </details>
 
 </details>
+
+<details>
+<summary>Defining Data</summary>
+Organized cards will go here.</details>
+
+<details>
+<summary>Critiquing Data</summary>
+Organized cards will go here.</details>
+
+<details>
+<summary>Linking Data and Justice</summary>
+Organized cards will go here.</details>
