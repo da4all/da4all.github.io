@@ -2,6 +2,7 @@
 layout: page
 inline: false
 group: Assignment
+domain: Understanding Data
 topic: Defining Data
 
 title: "Formal Critical Reflection: Defining Data and Doing Data Advocacy"
