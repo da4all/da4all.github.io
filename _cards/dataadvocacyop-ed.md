@@ -2,7 +2,8 @@
 layout: page
 inline: false
 group: Assignment
-topic: Persuading with Data
+domain: Persuading with Data
+topic: Appealing with Data
 
 title: "Data Advocacy Op-Ed"
 description: "The primary assignment for this module asks you to imagine that you are working for a data advocacy organization and have been tasked to write a newspaper op-ed (600 - 750 words) that advances your organization's mission in the public sphere. You should choose an existing data advocacy organization and use the organization’s datasets, visualizations, or statistical reports as a primary source for their op-ed as well as deploy common rhetorical strategies and genre conventions of the op-ed to write a persuasive argument."
