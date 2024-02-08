@@ -23,7 +23,7 @@ Such questions are especially important for doing data advocacy in ethical and j
 
 <details>
 <summary> Defining Data</summary>
-
+<br>
 <details>
 <summary> Readings</summary>
 
@@ -67,7 +67,7 @@ Such questions are especially important for doing data advocacy in ethical and j
 <details>
 <summary> Glossary</summary>
 
-{% assign cards = site.cards | where: "group", "Term" | where: "topic", "Defining Data" | sort: "priority" | sort: "title" %}
+{% assign cards = site.cards | where: "group", "Term" | where: "topic", "Defining Data" | sort: "priority" %}
 
 {% for card in cards %}
 
