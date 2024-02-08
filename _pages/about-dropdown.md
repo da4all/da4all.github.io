@@ -2,7 +2,7 @@
 layout: page
 title: Learn More
 nav: true
-nav_order: 2
+nav_order: 4
 dropdown: true
 children: 
     - title: About the Project
