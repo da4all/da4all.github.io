@@ -11,6 +11,7 @@ nav_rank: 8
 <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/shoelace.js" ></script>
 
 ## Table of Contents
+
 - [Mission](#Mission)
 - [The CU Next Award](#CUNext)
 - [The Literacy Domains of Data Advocacy](#LiteracyDomains)
@@ -28,7 +29,6 @@ This educational project is grounded in critical data studies and rhetorical dat
 
 To help students develop such critical-rhetorical know-how, Data Advocacy for All offers a toolkit of diverse educational resources centered around three main data literacy domains: Understanding Data, Processing Data, and Persuading with Data. We welcome you to explore our toolkit to help your own students learn the critical, technical, and rhetorical skills needed to ethically negotiate the complex and reciprocal praxis of data advocacy in the 21st century.
 
-<br>
 <center>
 <sl-button-group label="Alignment">
   <sl-button href="https://da4asandbox.github.io/curricularsite/literacydomains/">Learn More About the Literacy Domains of Data Advocacy</sl-button>
