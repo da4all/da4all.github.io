@@ -12,9 +12,9 @@ nav_rank: 8
 
 # Table of Contents
 - [Mission](#Mission)
-- [The CU Next Award](#The CU Next Award)
+- [The CU Next Award](#CUNext)
 
-# Mission
+# Mission {#Mission}
 
 Data Advocacy for All is a CU Next Award project that aims to extend data humanities education throughout and beyond the University of Colorado system by offering an open-access educational toolkit for teaching data advocacy.
 
@@ -33,7 +33,7 @@ To help students develop such critical-rhetorical know-how, Data Advocacy for Al
 </center>
 
 <br><br>
-# The CU Next Award
+# The CU Next Award {#CUNext}
 
 The [CU Next Award](https://www.cu.edu/oaa/academic-innovation-programs/cu-next-award) is an academic innovation program that supports pedagogical development within the University of Colorado system. The CU Next Award requires faculty from a minimum of two University of Colorado campuses to collaborate on a pedagogical project that innovates with technology in order to help “increase the efficacy and efficiency of student learning in courses and degree programs” as well as “reduce technology-related and other barriers for individual and small groups of faculty.” To fulfill this requirement, faculty from the University of Colorado Boulder and the University of Colorado Denver collaborated to design, implement, and assess the Data Advocacy for All modular curriculum over a three year span as well design this Open Access (OA) digital repository of curricular materials for instructors across the CU system and beyond. [You can learn more about the CU Next grant and the other awarded projects here.](https://www.cu.edu/oaa/academic-innovation-programs/cu-next-award)
 <br><br>
