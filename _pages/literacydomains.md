@@ -11,30 +11,27 @@ nav_rank: 8
 <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/shoelace.js" ></script>
 
 ## Quick Navigation:
-<br>
-<h3>
-Understanding Data
-</h3>
+<div style="height:5px;font-size:1px;">&nbsp;</div>
+
+<h3>Understanding Data</h3>
 <sl-button-group label="Alignment">
   <sl-button href="https://da4asandbox.github.io/curricularsite/defining-data/">Defining Data</sl-button>
   <sl-button href="">Critiquing Data</sl-button>
   <sl-button href="">Acting Ethically with Data</sl-button>
   <sl-button href="">Linking Data and Justice</sl-button>
 </sl-button-group>
-<br>
-<h3>
-Processing Data
-</h3>
+<div style="height:5px;font-size:1px;">&nbsp;</div>
+
+<h3>Processing Data</h3>
 <sl-button-group label="Alignment">
   <sl-button href="">Collecting Data</sl-button>
   <sl-button href="">Organizing and Cleaning Data</sl-button>
   <sl-button href="">Analzying and Drawing Insights from Data</sl-button>
   <sl-button href="">Storing and Preserving Data</sl-button>
 </sl-button-group>
-<br>
-<h3>
-Persuading with Data
-</h3>
+<div style="height:5px;font-size:1px;">&nbsp;</div>
+
+<h3>Persuading with Data</h3>
 <sl-button-group label="Alignment">
   <sl-button href="">Appealing with Data</sl-button>
   <sl-button href="">Visualizing Data</sl-button>
