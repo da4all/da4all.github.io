@@ -2,6 +2,7 @@
 layout: page
 inline: false
 group: Term
+domain: Understanding Data
 topic: Defining Data
 
 title: Data Feminism
