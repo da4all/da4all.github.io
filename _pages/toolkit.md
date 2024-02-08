@@ -39,7 +39,7 @@ With the Data Advocacy for All toolkit, you have two ways to explore:
 <details>
 <summary> Readings</summary>
 
-{% assign cards = site.cards | where: "group", "Reading" | sort: "last_name" %}
+{% assign cards = site.cards | where: "group", "Reading" | sort: "title" %}
 
 {% for card in cards %}
 
@@ -80,7 +80,7 @@ With the Data Advocacy for All toolkit, you have two ways to explore:
 <details>
 <summary> Glossary</summary>
 
-{% assign cards = site.cards | where: "group", "Term" | sort: "last_name" %}
+{% assign cards = site.cards | where: "group", "Term" | sort: "title" %}
 
 {% for card in cards %}
 
@@ -121,7 +121,7 @@ With the Data Advocacy for All toolkit, you have two ways to explore:
 <details>
 <summary> Assignments</summary>
 
-{% assign cards = site.cards | where: "group", "Assignment" | sort: "last_name" %}
+{% assign cards = site.cards | where: "group", "Assignment" | sort: "title" %}
 
 {% for card in cards %}
 
@@ -162,7 +162,7 @@ With the Data Advocacy for All toolkit, you have two ways to explore:
 <details>
 <summary> Activities</summary>
 
-{% assign cards = site.cards | where: "group", "Activity" | sort: "last_name" %}
+{% assign cards = site.cards | where: "group", "Activity" | sort: "title" %}
 
 {% for card in cards %}
 
@@ -203,7 +203,7 @@ With the Data Advocacy for All toolkit, you have two ways to explore:
 <details>
 <summary> Tutorials</summary>
 
-{% assign cards = site.cards | where: "group", "Tutorial" | sort: "last_name" %}
+{% assign cards = site.cards | where: "group", "Tutorial" | sort: "title" %}
 
 {% for card in cards %}
 
@@ -244,7 +244,7 @@ With the Data Advocacy for All toolkit, you have two ways to explore:
 <details>
 <summary> Teaching Modules</summary>
 
-{% assign cards = site.cards | where: "group", "Teaching Module" | sort: "last_name" %}
+{% assign cards = site.cards | where: "group", "Teaching Module" | sort: "title" %}
 
 {% for card in cards %}
 
@@ -285,7 +285,7 @@ With the Data Advocacy for All toolkit, you have two ways to explore:
 <details>
 <summary> Data Sets</summary>
 
-{% assign cards = site.cards | where: "group", "Dataset" | sort: "last_name" %}
+{% assign cards = site.cards | where: "group", "Dataset" | sort: "title" %}
 
 {% for card in cards %}
 
@@ -328,7 +328,7 @@ With the Data Advocacy for All toolkit, you have two ways to explore:
 <details>
 <summary> Defining Data</summary>
 
-{% assign cards = site.cards | where: "topic", "Defining Data" | sort: "last_name" %}
+{% assign cards = site.cards | where: "topic", "Defining Data" | sort: "title" %}
 
 {% for card in cards %}
 
@@ -369,7 +369,7 @@ With the Data Advocacy for All toolkit, you have two ways to explore:
 <details>
 <summary> Collecting Data</summary>
 
-{% assign cards = site.cards | where: "topic", "Collecting Data" | sort: "last_name" %}
+{% assign cards = site.cards | where: "topic", "Collecting Data" | sort: "title" %}
 
 {% for card in cards %}
 
@@ -410,7 +410,7 @@ With the Data Advocacy for All toolkit, you have two ways to explore:
 <details>
 <summary> Assembling Data</summary>
 
-{% assign cards = site.cards | where: "topic", "Assembling Data" | sort: "last_name" %}
+{% assign cards = site.cards | where: "topic", "Assembling Data" | sort: "title" %}
 
 {% for card in cards %}
 
@@ -451,7 +451,7 @@ With the Data Advocacy for All toolkit, you have two ways to explore:
 <details>
 <summary> Analyzing Data</summary>
 
-{% assign cards = site.cards | where: "topic", "Analyzing Data" | sort: "last_name" %}
+{% assign cards = site.cards | where: "topic", "Analyzing Data" | sort: "title" %}
 
 {% for card in cards %}
 
@@ -492,7 +492,7 @@ With the Data Advocacy for All toolkit, you have two ways to explore:
 <details>
 <summary> Preserving Data</summary>
 
-{% assign cards = site.cards | where: "topic", "Preserving Data" | sort: "last_name" %}
+{% assign cards = site.cards | where: "topic", "Preserving Data" | sort: "title" %}
 
 {% for card in cards %}
 
@@ -533,7 +533,7 @@ With the Data Advocacy for All toolkit, you have two ways to explore:
 <details>
 <summary> Pulling Insights from Data</summary>
 
-{% assign cards = site.cards | where: "topic", "Pulling Insights from Data" | sort: "last_name" %}
+{% assign cards = site.cards | where: "topic", "Pulling Insights from Data" | sort: "title" %}
 
 {% for card in cards %}
 
@@ -574,7 +574,7 @@ With the Data Advocacy for All toolkit, you have two ways to explore:
 <details>
 <summary> Defining Data</summary>
 
-{% assign cards = site.cards | where: "topic", "Defining Data" | sort: "last_name" %}
+{% assign cards = site.cards | where: "topic", "Defining Data" | sort: "title" %}
 
 {% for card in cards %}
 
@@ -615,7 +615,7 @@ With the Data Advocacy for All toolkit, you have two ways to explore:
 <details>
 <summary> Making Claims with Data</summary>
 
-{% assign cards = site.cards | where: "topic", "Making Claims with Data" | sort: "last_name" %}
+{% assign cards = site.cards | where: "topic", "Making Claims with Data" | sort: "title" %}
 
 {% for card in cards %}
 
@@ -656,7 +656,7 @@ With the Data Advocacy for All toolkit, you have two ways to explore:
 <details>
 <summary> Visualizing Data</summary>
 
-{% assign cards = site.cards | where: "topic", "Visualizing Data" | sort: "last_name" %}
+{% assign cards = site.cards | where: "topic", "Visualizing Data" | sort: "title" %}
 
 {% for card in cards %}
 
@@ -697,7 +697,7 @@ With the Data Advocacy for All toolkit, you have two ways to explore:
 <details>
 <summary> Mapping with Data</summary>
 
-{% assign cards = site.cards | where: "topic", "Mapping with Data" | sort: "last_name" %}
+{% assign cards = site.cards | where: "topic", "Mapping with Data" | sort: "title" %}
 
 {% for card in cards %}
 
@@ -738,7 +738,7 @@ With the Data Advocacy for All toolkit, you have two ways to explore:
 <details>
 <summary> Persuading with Data</summary>
 
-{% assign cards = site.cards | where: "topic", "Persuading with Data" | sort: "last_name" %}
+{% assign cards = site.cards | where: "topic", "Persuading with Data" | sort: "title" %}
 
 {% for card in cards %}
 
