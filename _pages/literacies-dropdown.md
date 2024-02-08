@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Literacy Domains of Data Advocacy
+title: Literacy Domains
 nav: true
 nav_order: 3
 dropdown: true
