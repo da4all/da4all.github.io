@@ -3,7 +3,7 @@ layout: page
 inline: false
 group: Term
 topic: Defining Data
-priority: 
+priority:
 
 title: Data Equity Framework
 description: Data equity frameworks provide ways to identify and think through the common steps of the data lifecycle and make equitable choices that lead to more just data projects.
