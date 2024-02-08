@@ -2,6 +2,7 @@
 layout: page
 inline: false
 group: Assignment
+domain: Persuading with Data
 topic: Visualizing Data
 
 title: "Improve It and Prove It"
