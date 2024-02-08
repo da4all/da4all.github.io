@@ -11,6 +11,7 @@ nav_rank: 8
 <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/shoelace.js" ></script>
 
 ## Quick Navigation:
+
 <div style="height:5px;font-size:1px;">&nbsp;</div>
 
 <h3>Understanding Data</h3>
