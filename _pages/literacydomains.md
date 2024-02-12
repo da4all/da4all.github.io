@@ -10,7 +10,6 @@ nav_rank: 8
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/themes/light.css" />
 <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/shoelace.js" ></script>
 
-# V1 
 <details>
   <summary>Quick Navigation</summary>
 <details>
@@ -39,41 +38,6 @@ nav_rank: 8
           <sl-button href="">Telling Multi-Modal Stories with Data</sl-button>
         </sl-button-group></details>
 </details><br>
-
-# V2
-
-<div line-height: 0.7;>
-
-<details>
-  <summary>Quick Navigation</summary>
-<details>
-      <summary>Understanding Data</summary>
-      <sl-button-group label="Alignment">
-        <sl-button href="">Overview</sl-button>
-        <sl-button href="https://da4asandbox.github.io/curricularsite/defining-data/">Defining Data</sl-button>
-        <sl-button href="">Critiquing Data</sl-button>
-        <sl-button href="">Acting Ethically with Data</sl-button>
-        <sl-button href="">Linking Data and Justice</sl-button>
-      </sl-button-group></details>
-<details>
-      <summary>Processing Data</summary>
-      <sl-button-group label="Alignment">
-        <sl-button href="">Collecting Data</sl-button>
-        <sl-button href="">Organizing and Cleaning Data</sl-button>
-        <sl-button href="">Analzying and Drawing Insights from Data</sl-button>
-        <sl-button href="">Storing and Preserving Data</sl-button>
-      </sl-button-group></details>
-<details>
-      <summary>Persuading with Data</summary>
-        <sl-button-group label="Alignment">
-          <sl-button href="">Appealing with Data</sl-button>
-          <sl-button href="">Visualizing Data</sl-button>
-          <sl-button href="">Mapping Data</sl-button>
-          <sl-button href="">Telling Multi-Modal Stories with Data</sl-button>
-        </sl-button-group></details>
-</details><br>
-
-</div>
 
 ## Overview
 
