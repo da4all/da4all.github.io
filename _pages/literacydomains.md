@@ -14,6 +14,33 @@ nav_rank: 8
 
 <div style="height:5px;font-size:1px;">&nbsp;</div>
 
+<div class="row">
+  <div class="column">
+    <details>
+      <summary>Understanding Data</summary>
+      - Overview
+      - Defining Data
+      - Critiquing Data
+      - Acting Ethically with Data
+      - Linking Data and Justice
+    </details>
+  </div>
+  <div class="column">
+      <details>
+      <summary>Processing Data</summary>
+      - 
+    </details>
+  </div>
+  <div class="column">
+      <details>
+      <summary>Persuading with Data</summary>
+      - 
+    </details>
+  </div>
+</div>
+
+## Quick Navigation V1:
+
 <h3>Understanding Data</h3>
 <sl-button-group label="Alignment">
   <sl-button href="https://da4asandbox.github.io/curricularsite/defining-data/">Defining Data</sl-button>
