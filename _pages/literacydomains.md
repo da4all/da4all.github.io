@@ -45,14 +45,24 @@ nav_rank: 8
   <div class="column">
       <details>
       <summary>Processing Data</summary>
-      - 
+      <sl-button-group label="Alignment">
+        <sl-button href="">Collecting Data</sl-button>
+        <sl-button href="">Organizing and Cleaning Data</sl-button>
+        <sl-button href="">Analzying and Drawing Insights from Data</sl-button>
+        <sl-button href="">Storing and Preserving Data</sl-button>
+      </sl-button-group>
     </details>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <br> &nbsp;
   </div>
   <div class="column">
       <details>
       <summary>Persuading with Data</summary>
-      - 
+        <sl-button-group label="Alignment">
+          <sl-button href="">Appealing with Data</sl-button>
+          <sl-button href="">Visualizing Data</sl-button>
+          <sl-button href="">Mapping Data</sl-button>
+          <sl-button href="">Telling Multi-Modal Stories with Data</sl-button>
+        </sl-button-group>
     </details>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <br> &nbsp;
   </div>
