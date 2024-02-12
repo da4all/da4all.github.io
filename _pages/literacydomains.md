@@ -20,8 +20,7 @@ nav_rank: 8
         <sl-button href="">Critiquing Data</sl-button>
         <sl-button href="">Acting Ethically with Data</sl-button>
         <sl-button href="">Linking Data and Justice</sl-button>
-      </sl-button-group>
-    </details>
+      </sl-button-group></details>
 <details>
       <summary>Processing Data</summary>
       <sl-button-group label="Alignment">
@@ -29,8 +28,7 @@ nav_rank: 8
         <sl-button href="">Organizing and Cleaning Data</sl-button>
         <sl-button href="">Analzying and Drawing Insights from Data</sl-button>
         <sl-button href="">Storing and Preserving Data</sl-button>
-      </sl-button-group>
-    </details>
+      </sl-button-group></details>
 <details>
       <summary>Persuading with Data</summary>
         <sl-button-group label="Alignment">
@@ -38,8 +36,7 @@ nav_rank: 8
           <sl-button href="">Visualizing Data</sl-button>
           <sl-button href="">Mapping Data</sl-button>
           <sl-button href="">Telling Multi-Modal Stories with Data</sl-button>
-        </sl-button-group>
-    </details>
+        </sl-button-group></details>
 </details>
 
 ## Overview
