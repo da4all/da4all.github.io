@@ -24,18 +24,21 @@ nav_rank: 8
       - Acting Ethically with Data
       - Linking Data and Justice
     </details>
+    <br> &nbsp;
   </div>
   <div class="column">
       <details>
       <summary>Processing Data</summary>
       - 
     </details>
+    <br> &nbsp;
   </div>
   <div class="column">
       <details>
       <summary>Persuading with Data</summary>
       - 
     </details>
+    <br> &nbsp;
   </div>
 </div>
 
