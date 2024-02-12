@@ -23,6 +23,88 @@ nav_rank: 8
 }
 </style>
 
+## Quick Navigation V5:
+
+<details>
+  <summary>Quick Navigation</summary>
+
+<details>
+      <summary>Understanding Data</summary>
+      <sl-button-group label="Alignment">
+        <sl-button href="">Overview</sl-button>
+        <sl-button href="https://da4asandbox.github.io/curricularsite/defining-data/">Defining Data</sl-button>
+        <sl-button href="">Critiquing Data</sl-button>
+        <sl-button href="">Acting Ethically with Data</sl-button>
+        <sl-button href="">Linking Data and Justice</sl-button>
+      </sl-button-group>
+    </details>
+
+<div style="height:5px;font-size:1px;">&nbsp;</div>
+    
+<details>
+      <summary>Processing Data</summary>
+      <sl-button-group label="Alignment">
+        <sl-button href="">Collecting Data</sl-button>
+        <sl-button href="">Organizing and Cleaning Data</sl-button>
+        <sl-button href="">Analzying and Drawing Insights from Data</sl-button>
+        <sl-button href="">Storing and Preserving Data</sl-button>
+      </sl-button-group>
+    </details>
+
+<div style="height:5px;font-size:1px;">&nbsp;</div>
+
+<details>
+      <summary>Persuading with Data</summary>
+        <sl-button-group label="Alignment">
+          <sl-button href="">Appealing with Data</sl-button>
+          <sl-button href="">Visualizing Data</sl-button>
+          <sl-button href="">Mapping Data</sl-button>
+          <sl-button href="">Telling Multi-Modal Stories with Data</sl-button>
+        </sl-button-group>
+    </details>
+
+<br>
+</details>
+
+## Quick Navigation V4:
+
+<details>
+      <summary>Understanding Data</summary>
+      <sl-button-group label="Alignment">
+        <sl-button href="">Overview</sl-button>
+        <sl-button href="https://da4asandbox.github.io/curricularsite/defining-data/">Defining Data</sl-button>
+        <sl-button href="">Critiquing Data</sl-button>
+        <sl-button href="">Acting Ethically with Data</sl-button>
+        <sl-button href="">Linking Data and Justice</sl-button>
+      </sl-button-group>
+    </details>
+
+<div style="height:5px;font-size:1px;">&nbsp;</div>
+    
+<details>
+      <summary>Processing Data</summary>
+      <sl-button-group label="Alignment">
+        <sl-button href="">Collecting Data</sl-button>
+        <sl-button href="">Organizing and Cleaning Data</sl-button>
+        <sl-button href="">Analzying and Drawing Insights from Data</sl-button>
+        <sl-button href="">Storing and Preserving Data</sl-button>
+      </sl-button-group>
+    </details>
+
+<div style="height:5px;font-size:1px;">&nbsp;</div>
+
+<details>
+      <summary>Persuading with Data</summary>
+        <sl-button-group label="Alignment">
+          <sl-button href="">Appealing with Data</sl-button>
+          <sl-button href="">Visualizing Data</sl-button>
+          <sl-button href="">Mapping Data</sl-button>
+          <sl-button href="">Telling Multi-Modal Stories with Data</sl-button>
+        </sl-button-group>
+    </details>
+
+<br>
+
 ## Quick Navigation V3:
 
 <div style="height:5px;font-size:1px;">&nbsp;</div>
@@ -67,7 +149,7 @@ nav_rank: 8
     <br> &nbsp;
   </div>
 </div>
-<br><br>
+<br>
 
 ## Quick Navigation V2:
 
@@ -100,7 +182,7 @@ nav_rank: 8
     <br> &nbsp;
   </div>
 </div>
-<br><br>
+<br>
 
 ## Quick Navigation V1:
 
