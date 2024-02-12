@@ -7,6 +7,27 @@ nav: false
 nav_rank: 8
 ---
 
+## A Ref
+
+### domain: 
+- <a href="/understanding-data/">Understanding Data</a>
+- Processing Data
+- Persuading with Data
+
+### topic: 
+- <a href="https://da4asandbox.github.io/curricularsite/defining-data/">Defining Data</a>
+- Critiquing Data
+- Acting Ethically with Data
+- Linking Data and Justice
+- Collecting Data
+- Organizing and Cleaning Data
+- Analyzing and Drawing Insights from Data
+- Storing and Preserving Data
+- Appealing with Data
+- Visualizing Data
+- Mapping Data
+- Telling Multi-Modal Stories with Data
+
 ## Overview
 
 “Understanding data” is a crucial literacy domain for helping students develop the critical, ethical, and rhetorical impulses needed to define data; understand its complicated relations to power, privilege, oppression, and liberation; and imagine ethical and responsible ways of working with data toward more just futures.
