@@ -10,7 +10,9 @@ nav_rank: 8
 ## A Ref
 
 ### domain: 
-- <a href="/understanding-data/">Understanding Data</a>
+- <a href="./understanding-data/">Understanding Data</a>
+- <a href="./understanding-data/">Understanding Data</a>
+- <a href="'/understanding-data/'">Understanding Data</a>
 - Processing Data
 - Persuading with Data
 
