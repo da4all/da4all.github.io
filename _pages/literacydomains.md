@@ -78,29 +78,16 @@ nav_rank: 8
 ## Overview
 
 V1:
-<img src="{{ '/assets/img/' | append: LiteracyDomainsFull.png }}" class="card-img img-fluid" alt="An image outlining the various literacy domains." />
+<img src="https://da4asandbox.github.io/curricularsite/assets/img/LiteracyDomainsFull.png" alt="An image outlining the various literacy domains." />
 
 V2:
 <img src="/assets/img/LiteracyDomainsFull.png" alt="An image outlining the various literacy domains." />
 
 V3:
-<img src="/assets/img/LiteracyDomainsFull" alt="An image outlining the various literacy domains." />
+<img src=" '/assets/img/LiteracyDomainsFull.png " alt="An image outlining the various literacy domains." />
 
 V4:
-<img src="{{ '/assets/img/' | append: LiteracyDomainsFull }}" class="card-img img-fluid" alt="An image outlining the various literacy domains." />
-
-V5:
-<img src="{{ '/assets/img/' | append: LiteracyDomainsFull }}" alt="An image outlining the various literacy domains." />
-
-V6:
-<img src="https://da4asandbox.github.io/curricularsite/assets/img/LiteracyDomainsFull.png" alt="An image outlining the various literacy domains." />
-
-V7:
-<img src="/assets/img/LiteracyDomainsFull.png" alt="An image outlining the various literacy domains." />
-
-V8:
-<img src="{{ '/assets/img/LiteracyDomainsFull.png' }}" alt="An image outlining the various literacy domains." />
-
+<img src="'/assets/img/LiteracyDomainsFull.png" alt="An image outlining the various literacy domains." />
 
 Data Literacy, in the context of this project, is understood to be a nexus of mindsets, abilities, and practices that enable one to advocate with data in meaningful, ethical, and transformative ways. When it comes to data advocacy, we have identified three crucial literacy domains in which students need to gain experience in order to develop the critical-rhetorical capacities to ethically and effectively work with data to instigate social change. As evident in the chart below, we identify these three broad domains as Understanding Data, Processing Data, and Persuading with Data, and in each arena, we have identified four subdomains.
  
