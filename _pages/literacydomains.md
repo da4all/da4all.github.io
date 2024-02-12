@@ -10,7 +10,43 @@ nav_rank: 8
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/themes/light.css" />
 <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/shoelace.js" ></script>
 
-## Quick Navigation:
+## Quick Navigation V3:
+
+<div style="height:5px;font-size:1px;">&nbsp;</div>
+
+<div class="row">
+  <div class="column">
+    <details>
+      <summary>Understanding Data</summary>
+      <sl-button-group label="Alignment">
+        <sl-button href="">Overview</sl-button>
+        <sl-button href="https://da4asandbox.github.io/curricularsite/defining-data/">Defining Data</sl-button>
+        <sl-button href="">Critiquing Data</sl-button>
+        <sl-button href="">Acting Ethically with Data</sl-button>
+        <sl-button href="">Linking Data and Justice</sl-button>
+      </sl-button-group>
+<div style="height:5px;font-size:1px;">&nbsp;</div>
+    </details>
+    <br> &nbsp;
+  </div>
+  <div class="column">
+      <details>
+      <summary>Processing Data</summary>
+      - 
+    </details>
+    <br> &nbsp;
+  </div>
+  <div class="column">
+      <details>
+      <summary>Persuading with Data</summary>
+      - 
+    </details>
+    <br> &nbsp;
+  </div>
+</div>
+<br><br>
+
+## Quick Navigation V2:
 
 <div style="height:5px;font-size:1px;">&nbsp;</div>
 
