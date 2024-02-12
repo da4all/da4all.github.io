@@ -14,6 +14,7 @@ nav_rank: 8
   <summary>Quick Navigation</summary>
 <details>
       <summary>Understanding Data</summary>
+      <div style="height:5px;font-size:1px;">&nbsp;</div>
       <sl-button-group label="Alignment">
         <sl-button href="">Overview</sl-button>
         <sl-button href="https://da4asandbox.github.io/curricularsite/defining-data/">Defining Data</sl-button>
@@ -23,6 +24,7 @@ nav_rank: 8
       </sl-button-group></details>
 <details>
       <summary>Processing Data</summary>
+      <div style="height:5px;font-size:1px;">&nbsp;</div>
       <sl-button-group label="Alignment">
         <sl-button href="">Collecting Data</sl-button>
         <sl-button href="">Organizing and Cleaning Data</sl-button>
@@ -31,6 +33,7 @@ nav_rank: 8
       </sl-button-group></details>
 <details>
       <summary>Persuading with Data</summary>
+      <div style="height:5px;font-size:1px;">&nbsp;</div>
         <sl-button-group label="Alignment">
           <sl-button href="">Appealing with Data</sl-button>
           <sl-button href="">Visualizing Data</sl-button>
