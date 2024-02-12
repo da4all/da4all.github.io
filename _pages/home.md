@@ -22,9 +22,9 @@ social: false  # includes social icons at the bottom of the page
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/themes/light.css" />
 <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/shoelace.js" ></script>
 
-Data Advocacy for All offers a collection of crowdsourced and adaptable resources that leverage open-access principles, minimal computing practices, and open-source tools to enhance student abilities to inquire with data, communicate with data, and deploy data for social advocacy.
- 
-Data Advocacy for All has been designed for teachers and students across the disciplines who have no prior data science or computing experience. Centered around three literacy domains, this digital repository offers open-access reading resources, ready-made data sets, tutorials, links to open-source tools, and flexible curricular resources such as activities, assignments, and modules.
+Data Advocacy for All offers a collection of crowdsourced and adaptable resources to enhance student abilities to inquire with data, communicate with data, and deploy data for social advocacy.
+
+Data Advocacy for All has been designed for teachers and students across the disciplines who have no prior data science or computing experience. Centered around three literacy domains and minimal computing practices, this digital repository offers open-access reading resources, ready-made data sets, tutorials, links to open-source tools, and flexible curricular resources such as activities, assignments, and modules.
 
 Data Advocacy for All is a <a href="https://www.cu.edu/oaa/academic-innovation-programs/cu-next-award">CU Next Award Grant project</a> that has been realized by a team of digital rhetoric and digital humanities faculty at CU Boulder and Denver in concert with CU Boulder’s Center for Research Data and Digital Scholarship (CRDDS).
 <br><br>
