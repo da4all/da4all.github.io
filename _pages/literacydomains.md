@@ -7,6 +7,9 @@ nav: false
 nav_rank: 8
 ---
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/themes/light.css" />
+<script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/shoelace.js" ></script>
+
 <details>
   <summary>Quick Navigation</summary>
 <details>
