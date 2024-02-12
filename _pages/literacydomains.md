@@ -14,7 +14,7 @@ nav_rank: 8
   
   details > summary {
   position: fixed;
-  top: 0;
+  top: 40;
   width: 100%;
 }
 </style>
