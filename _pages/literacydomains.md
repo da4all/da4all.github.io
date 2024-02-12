@@ -77,11 +77,11 @@ nav_rank: 8
   <div class="column">
     <details>
       <summary>Understanding Data</summary>
-      - Overview
-      - Defining Data
-      - Critiquing Data
-      - Acting Ethically with Data
-      - Linking Data and Justice
+      - Overview <br>
+      - Defining Data <br>
+      - Critiquing Data <br>
+      - Acting Ethically with Data <br>
+      - Linking Data and Justice <br>
     </details>
     <br> &nbsp;
   </div>
