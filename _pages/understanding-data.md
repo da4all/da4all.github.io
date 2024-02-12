@@ -11,11 +11,12 @@ nav_rank: 8
 
 “Understanding data” is a crucial literacy domain for helping students develop the critical, ethical, and rhetorical impulses needed to define data; understand its complicated relations to power, privilege, oppression, and liberation; and imagine ethical and responsible ways of working with data toward more just futures.
 
-As such, the resources offered under this literacy domain push students to ask critical questions about data such as:
+The resources offered under this literacy domain push students to ask critical questions about data such as:
 - What is “data”?
 - How and why does data ethically matter?
-- What rhetorical dimensions of data need to be carefully considered?
-- How can we enact equitable data practices?
+- What critical habits toward data are important to develop?
+- What rhetorical dimensions of data need to be considered?
+- What is data advocacy? And how can we do data advocacy ethically and responsibly?
 
 <details>
 <summary>Defining Data</summary>
