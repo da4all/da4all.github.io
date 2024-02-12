@@ -15,7 +15,8 @@ teaser: >
 profile:
     name: "[TITLE]"
     group: Reading / Term / Assignment / Activity / Tutorial / Teaching Module / Dataset
-    literacy: Defining Data / Collecting Data / Assembling Data / Analyzing Data / Preserving Data / Pulling Insights from Data / Making Claims with Data / Visualizing Data / Mapping with Data / Persuading with Data
+    literacy domain: Understanding Data / Processing Data / Persuading with Data
+    subdomain: Defining Data / Critiquing Data / Acting Ethically with Data / Linking Data and Justice / Collecting Data / Organizing and Cleaning Data / Analyzing and Drawing Insights from Data / Storing and Preserving Data / Appealing with Data / Visualizing Data / Mapping Data / Telling Multi-Modal Stories with Data
     source: [URL SOURCE]
     author: [AUTHOR FULL NAME]
     align: right
