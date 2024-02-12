@@ -6,11 +6,11 @@ domain: Understanding Data
 topic: Defining Data
 
 title: Rhetorical Data Studies
-description: Rhetorical data studies is a praxis that puts theories and practices from rhetorical studies into conversation with data feminism, critical data studies, and the black digital humanities to identify, interrogate, and communicate the intersectional dimensions of data, rhetoric, and power.
+description: As a critical and constructive framework, rhetorical data studies explores how data-driven stories, arguments, and visualizations communicate knowledge, garner public attention, and, among other actions, mediate socio-cultural change in order to help establish more ethically- minded and effective data-informed practices.
 lastname: 
 
 teaser: >
-  Rhetorical data studies is a praxis that puts theories and practices from rhetorical studies into conversation with data feminism, critical data studies, and the black digital humanities to identify, interrogate, and communicate the intersectional dimensions of data, rhetoric, and power.
+  As a critical and constructive framework, rhetorical data studies explores how data-driven stories, arguments, and visualizations communicate knowledge, garner public attention, and, among other actions, mediate socio-cultural change in order to help establish more ethically- minded and effective data-informed practices.
 
 profile:
     name: Rhetorical Data Studies
