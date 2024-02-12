@@ -10,21 +10,6 @@ nav_rank: 8
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/themes/light.css" />
 <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/shoelace.js" ></script>
 
-<style>
-  .column {
-  float: left;
-  width: 33.33%;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-</style>
-
-## Quick Navigation V5:
-
 <details>
   <summary>Quick Navigation</summary>
 <details>
@@ -36,8 +21,7 @@ nav_rank: 8
         <sl-button href="">Acting Ethically with Data</sl-button>
         <sl-button href="">Linking Data and Justice</sl-button>
       </sl-button-group>
-    </details>
-<div style="height:5px;font-size:1px;">&nbsp;</div>
+    </details><div style="height:5px;font-size:1px;">&nbsp;</div>
 <details>
       <summary>Processing Data</summary>
       <sl-button-group label="Alignment">
@@ -46,8 +30,7 @@ nav_rank: 8
         <sl-button href="">Analzying and Drawing Insights from Data</sl-button>
         <sl-button href="">Storing and Preserving Data</sl-button>
       </sl-button-group>
-    </details>
-<div style="height:5px;font-size:1px;">&nbsp;</div>
+    </details><div style="height:5px;font-size:1px;">&nbsp;</div>
 <details>
       <summary>Persuading with Data</summary>
         <sl-button-group label="Alignment">
@@ -57,154 +40,7 @@ nav_rank: 8
           <sl-button href="">Telling Multi-Modal Stories with Data</sl-button>
         </sl-button-group>
     </details>
-<br>
 </details>
-
-## Quick Navigation V4:
-
-<details>
-      <summary>Understanding Data</summary>
-      <sl-button-group label="Alignment">
-        <sl-button href="">Overview</sl-button>
-        <sl-button href="https://da4asandbox.github.io/curricularsite/defining-data/">Defining Data</sl-button>
-        <sl-button href="">Critiquing Data</sl-button>
-        <sl-button href="">Acting Ethically with Data</sl-button>
-        <sl-button href="">Linking Data and Justice</sl-button>
-      </sl-button-group>
-    </details>
-
-<div style="height:5px;font-size:1px;">&nbsp;</div>
-    
-<details>
-      <summary>Processing Data</summary>
-      <sl-button-group label="Alignment">
-        <sl-button href="">Collecting Data</sl-button>
-        <sl-button href="">Organizing and Cleaning Data</sl-button>
-        <sl-button href="">Analzying and Drawing Insights from Data</sl-button>
-        <sl-button href="">Storing and Preserving Data</sl-button>
-      </sl-button-group>
-    </details>
-
-<div style="height:5px;font-size:1px;">&nbsp;</div>
-
-<details>
-      <summary>Persuading with Data</summary>
-        <sl-button-group label="Alignment">
-          <sl-button href="">Appealing with Data</sl-button>
-          <sl-button href="">Visualizing Data</sl-button>
-          <sl-button href="">Mapping Data</sl-button>
-          <sl-button href="">Telling Multi-Modal Stories with Data</sl-button>
-        </sl-button-group>
-    </details>
-
-<br>
-
-## Quick Navigation V3:
-
-<div style="height:5px;font-size:1px;">&nbsp;</div>
-
-<div class="row">
-  <div class="column">
-    <details>
-      <summary>Understanding Data</summary>
-      <sl-button-group label="Alignment">
-        <sl-button href="">Overview</sl-button>
-        <sl-button href="https://da4asandbox.github.io/curricularsite/defining-data/">Defining Data</sl-button>
-        <sl-button href="">Critiquing Data</sl-button>
-        <sl-button href="">Acting Ethically with Data</sl-button>
-        <sl-button href="">Linking Data and Justice</sl-button>
-      </sl-button-group>
-<div style="height:5px;font-size:1px;">&nbsp;</div>
-    </details>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <br> &nbsp;
-  </div>
-  <div class="column">
-      <details>
-      <summary>Processing Data</summary>
-      <sl-button-group label="Alignment">
-        <sl-button href="">Collecting Data</sl-button>
-        <sl-button href="">Organizing and Cleaning Data</sl-button>
-        <sl-button href="">Analzying and Drawing Insights from Data</sl-button>
-        <sl-button href="">Storing and Preserving Data</sl-button>
-      </sl-button-group>
-    </details>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <br> &nbsp;
-  </div>
-  <div class="column">
-      <details>
-      <summary>Persuading with Data</summary>
-        <sl-button-group label="Alignment">
-          <sl-button href="">Appealing with Data</sl-button>
-          <sl-button href="">Visualizing Data</sl-button>
-          <sl-button href="">Mapping Data</sl-button>
-          <sl-button href="">Telling Multi-Modal Stories with Data</sl-button>
-        </sl-button-group>
-    </details>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <br> &nbsp;
-  </div>
-</div>
-<br>
-
-## Quick Navigation V2:
-
-<div style="height:5px;font-size:1px;">&nbsp;</div>
-
-<div class="row">
-  <div class="column">
-    <details>
-      <summary>Understanding Data</summary>
-      - Overview <br>
-      - Defining Data <br>
-      - Critiquing Data <br>
-      - Acting Ethically with Data <br>
-      - Linking Data and Justice <br>
-    </details>
-    <br> &nbsp;
-  </div>
-  <div class="column">
-      <details>
-      <summary>Processing Data</summary>
-      - 
-    </details>
-    <br> &nbsp;
-  </div>
-  <div class="column">
-      <details>
-      <summary>Persuading with Data</summary>
-      - 
-    </details>
-    <br> &nbsp;
-  </div>
-</div>
-<br>
-
-## Quick Navigation V1:
-
-<h3>Understanding Data</h3>
-<sl-button-group label="Alignment">
-  <sl-button href="https://da4asandbox.github.io/curricularsite/defining-data/">Defining Data</sl-button>
-  <sl-button href="">Critiquing Data</sl-button>
-  <sl-button href="">Acting Ethically with Data</sl-button>
-  <sl-button href="">Linking Data and Justice</sl-button>
-</sl-button-group>
-<div style="height:5px;font-size:1px;">&nbsp;</div>
-
-<h3>Processing Data</h3>
-<sl-button-group label="Alignment">
-  <sl-button href="">Collecting Data</sl-button>
-  <sl-button href="">Organizing and Cleaning Data</sl-button>
-  <sl-button href="">Analzying and Drawing Insights from Data</sl-button>
-  <sl-button href="">Storing and Preserving Data</sl-button>
-</sl-button-group>
-<div style="height:5px;font-size:1px;">&nbsp;</div>
-
-<h3>Persuading with Data</h3>
-<sl-button-group label="Alignment">
-  <sl-button href="">Appealing with Data</sl-button>
-  <sl-button href="">Visualizing Data</sl-button>
-  <sl-button href="">Mapping Data</sl-button>
-  <sl-button href="">Telling Multi-Modal Stories with Data</sl-button>
-</sl-button-group>
 
 ## Overview
 
