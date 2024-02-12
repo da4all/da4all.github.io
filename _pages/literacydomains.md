@@ -39,21 +39,21 @@ nav_rank: 8
         <sl-button href="">Linking Data and Justice</sl-button>
       </sl-button-group>
 <div style="height:5px;font-size:1px;">&nbsp;</div>
-    </details>
+    </details>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <br> &nbsp;
   </div>
   <div class="column">
       <details>
       <summary>Processing Data</summary>
       - 
-    </details>
+    </details>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <br> &nbsp;
   </div>
   <div class="column">
       <details>
       <summary>Persuading with Data</summary>
       - 
-    </details>
+    </details>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <br> &nbsp;
   </div>
 </div>
