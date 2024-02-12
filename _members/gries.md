@@ -17,7 +17,7 @@ profile:
     department: Program for Writing and Rhetoric/English
     <!-- organization: University of Colorado Boulder -->
     align: right
-    image: generic-icon.jpg
+    image: Gries.jpg
     website: 
     twitter: 
     email: 
