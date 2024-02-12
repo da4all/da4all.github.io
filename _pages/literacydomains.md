@@ -27,7 +27,6 @@ nav_rank: 8
 
 <details>
   <summary>Quick Navigation</summary>
-
 <details>
       <summary>Understanding Data</summary>
       <sl-button-group label="Alignment">
@@ -38,9 +37,7 @@ nav_rank: 8
         <sl-button href="">Linking Data and Justice</sl-button>
       </sl-button-group>
     </details>
-
 <div style="height:5px;font-size:1px;">&nbsp;</div>
-    
 <details>
       <summary>Processing Data</summary>
       <sl-button-group label="Alignment">
@@ -50,9 +47,7 @@ nav_rank: 8
         <sl-button href="">Storing and Preserving Data</sl-button>
       </sl-button-group>
     </details>
-
 <div style="height:5px;font-size:1px;">&nbsp;</div>
-
 <details>
       <summary>Persuading with Data</summary>
         <sl-button-group label="Alignment">
@@ -62,7 +57,6 @@ nav_rank: 8
           <sl-button href="">Telling Multi-Modal Stories with Data</sl-button>
         </sl-button-group>
     </details>
-
 <br>
 </details>
 
