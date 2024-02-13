@@ -15,7 +15,7 @@ teaser: >
 profile:
     name: "[TITLE]"
     group: Reading / Term / Assignment / Activity / Tutorial / Teaching Module / Dataset
-    literacy domain: 
+    domain: 
             <a href="../understanding-data/">Understanding Data</a>
             <a href="../processing-data/">Processing Data</a>
             <a href="../persuading-with-data/">Persuading with Data</a>
