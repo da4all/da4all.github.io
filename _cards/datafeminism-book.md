@@ -22,7 +22,7 @@ teaser: >
 profile:
     name: "Data Feminism"
     group: Reading
-    literacy domain: <a href="../understanding-data/">Understanding Data</a>
+    domain: <a href="../understanding-data/">Understanding Data</a>
     subdomain: <a href="../defining-data/">Defining Data</a>
     source: https://data-feminism.mitpress.mit.edu/
     author: Catherine D’Ignazio and Lauren F. Klein
