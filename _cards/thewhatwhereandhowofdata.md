@@ -15,7 +15,8 @@ teaser: >
 profile:
     name: "The What, Where and How of Data for Data Science"
     group: Reading
-    literacy: Defining Data
+    literacy domain: <a href="../understanding-data/">Understanding Data</a>
+    subdomain: <a href="../defining-data/">Defining Data</a>
     source: https://www.kdnuggets.com/2018/06/what-where-how-data-science.html
     author: Iliya Valchanov
     align: right
