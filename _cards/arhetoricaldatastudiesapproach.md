@@ -15,7 +15,7 @@ teaser: >
 profile:
     name: "A Rhetorical Data Studies Approach to Data Advocacy and Data Storytelling"
     group: Reading
-    literacy domain: <a href="../understanding-data/">Understanding Data</a>
+    domain: <a href="../understanding-data/">Understanding Data</a>
     subdomain: <a href="../defining-data/">Defining Data</a>
     source: 
     author: Laurie Gries
