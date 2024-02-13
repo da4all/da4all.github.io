@@ -19,7 +19,11 @@ As such, this literacy introduces students to feminist, rhetorical, and equity d
 
 Such questions are especially important for doing data advocacy in ethical and just ways in our contemporary moment. This literacy thus specifically offers a theoretical understanding of data, an introduction to the data life cycle, and a brief dive into best practices of data advocacy in order to help students develop a strong rhetorical and ethical foundation from which to take up this important practice. 
 
+<br>
+
 ## Defining Data Toolkit
+
+<!--This section filters by "Reading" and "Defining Data" -->
 
 <details>
 <summary> Readings</summary>
@@ -35,8 +39,10 @@ Such questions are especially important for doing data advocacy in ethical and j
                 <div class="card-body">
                     {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
                     <h5 class="card-title">{{ card.profile.name }}</h5>
-			<small class="test-muted"><i class="fas fa-table-columns"></i>  Resource Type: {{ card.profile.group | replace: '<br />', ', ' }} </small>
-			    {% if card.profile.author %}<small class="test-muted"><i class="fas fa-user-pen"></i>  Author: {{ card.profile.author | replace: '<br />', ', ' }} </small><br>{% endif %}
+                    <p class="card-text">
+			<div style="height:1px;font-size:1px;">&nbsp;</div>
+			     <small class="test-muted"><i class="fas fa-table-columns"></i>  Resource Type: {{ card.profile.group | replace: '<br />', ', ' }} </small>
+			     {% if card.profile.author %}<small class="test-muted"><i class="fas fa-user-pen"></i>  Author: {{ card.profile.author | replace: '<br />', ', ' }} </small><br>{% endif %}
                     <p class="card-text">
                         {{ card.teaser }}
                     </p>
