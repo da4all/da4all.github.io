@@ -14,8 +14,9 @@ teaser: >
 
 profile:
     name: "Data Biography"
-    group: Assignment
-    literacy: Analyzing Data
+    group: Assignment    
+    literacy domain: <a href="../processing-data/">Processing Data</a>
+    subdomain: <a href="../analyzing-and-drawing-insights-from-data/">Analyzing and Drawing Insights from Data</a>
     source: 
     author: 
     align: right
