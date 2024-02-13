@@ -15,7 +15,7 @@ teaser: >
 profile:
     name: The History of Data-as-Rhetoric
     group: Reading
-    literacy domain: <a href="../understanding-data/">Understanding Data</a>
+    domain: <a href="../understanding-data/">Understanding Data</a>
     subdomain: <a href="../defining-data/">Defining Data</a>
     source: https://markcarrigan.net/2016/09/12/the-history-of-data-as-rhetoric/
     author: Mark Carrigan
