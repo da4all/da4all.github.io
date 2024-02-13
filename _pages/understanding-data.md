@@ -21,6 +21,11 @@ nav_rank: 8
 
 ### topic: 
 - <a href="https://da4asandbox.github.io/curricularsite/defining-data/">Defining Data</a>
+- <a href="defining-data/">Defining Data</a>
+- <a href="/defining-data/">Defining Data</a>
+- <a href="./defining-data/">Defining Data</a>
+- <a href="'/defining-data/">Defining Data</a>
+- <a href="'/defining-data/'">Defining Data</a>
 - Critiquing Data
 - Acting Ethically with Data
 - Linking Data and Justice
