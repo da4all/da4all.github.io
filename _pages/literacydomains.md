@@ -16,11 +16,11 @@ nav_rank: 8
       <summary>Understanding Data</summary>
       <div style="height:5px;font-size:1px;">&nbsp;</div>
       <sl-button-group label="Alignment">
-        <sl-button href="">Overview</sl-button>
-        <sl-button href="https://da4asandbox.github.io/curricularsite/defining-data/">Defining Data</sl-button>
-        <sl-button href="">Critiquing Data</sl-button>
-        <sl-button href="">Acting Ethically with Data</sl-button>
-        <sl-button href="">Linking Data and Justice</sl-button>
+        <sl-button href="../understanding-data/">Overview</sl-button>
+        <sl-button href="../defining-data/">Defining Data</sl-button>
+        <sl-button href="../critiquing-data/">Critiquing Data</sl-button>
+        <sl-button href="../acting-ethically-with-data/">Acting Ethically with Data</sl-button>
+        <sl-button href="../linking-data-and-justice/">Linking Data and Justice</sl-button>
       </sl-button-group></details>
 <details>
       <summary>Processing Data</summary>
