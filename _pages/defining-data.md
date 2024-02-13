@@ -41,7 +41,7 @@ Such questions are especially important for doing data advocacy in ethical and j
 			{% if card.profile.author %}<small class="test-muted"><i class="fas fa-user-pen"></i>  Author: {{ card.profile.author | replace: '<br />', ', ' }} </small><br>{% endif %}
 			{% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i>  Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a> </small><br>{% endif %} 
 			<small class="test-muted"><i class="fas fa-square-poll-vertical"></i>  Data Literacy: {{ card.profile.domain | replace: '<br />', ', ' }} ; Literacy Subdomain: {{ card.profile.subdomain | replace: '<br />', ', ' }} </small> <br>
-			<small class="test-muted"><i class="fas fa-table-columns"></i>  Type of Resource: {{ card.profile.group | replace: '<br />', ', ' }} </small>
+			<small class="test-muted"><i class="fas fa-table-columns"></i>  Resource Type: {{ card.profile.group | replace: '<br />', ', ' }} </small>
                     </p>
                 </div>
             </div>
@@ -73,7 +73,7 @@ Such questions are especially important for doing data advocacy in ethical and j
 			{% if card.profile.author %}<small class="test-muted"><i class="fas fa-user-pen"></i>  Author: {{ card.profile.author | replace: '<br />', ', ' }} </small><br>{% endif %}
 			{% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i>  Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a> </small><br>{% endif %} 
 			<small class="test-muted"><i class="fas fa-square-poll-vertical"></i>  Data Literacy: {{ card.profile.domain | replace: '<br />', ', ' }} ; Literacy Subdomain: {{ card.profile.subdomain | replace: '<br />', ', ' }} </small> <br>
-			<small class="test-muted"><i class="fas fa-table-columns"></i>  Type of Resource: {{ card.profile.group | replace: '<br />', ', ' }} </small>
+			<small class="test-muted"><i class="fas fa-table-columns"></i>  Resource Type: {{ card.profile.group | replace: '<br />', ', ' }} </small>
                     </p>
                 </div>
             </div>
@@ -109,7 +109,7 @@ Such questions are especially important for doing data advocacy in ethical and j
 			{% if card.profile.author %}<small class="test-muted"><i class="fas fa-user-pen"></i>  Author: {{ card.profile.author | replace: '<br />', ', ' }} </small><br>{% endif %}
 			{% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i>  Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a> </small><br>{% endif %} 
 			<small class="test-muted"><i class="fas fa-square-poll-vertical"></i>  Data Literacy: {{ card.profile.domain | replace: '<br />', ', ' }} ; Literacy Subdomain: {{ card.profile.subdomain | replace: '<br />', ', ' }} </small> <br>
-			<small class="test-muted"><i class="fas fa-table-columns"></i>  Type of Resource: {{ card.profile.group | replace: '<br />', ', ' }} </small>
+			<small class="test-muted"><i class="fas fa-table-columns"></i>  Resource Type: {{ card.profile.group | replace: '<br />', ', ' }} </small>
                     </p>
                 </div>
             </div>
