@@ -41,55 +41,14 @@ Such questions are especially important for doing data advocacy in ethical and j
 		    <div class="card-body">
 			    {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
 				    <h5 class="card-title">{{ card.profile.name }}</h5></a>
-			    <p class="card-text"><div style="height:1px;font-size:1px;"></div>
-			    {% if card.profile.author %}<small class="test-muted"><i class="fas fa-user-pen"></i>  Author: {{ card.profile.author | replace: '<br />', ', ' }} </small><br>{% endif %}</p>
-			    {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
-				    <p class="card-text"><br>{{ card.teaser }}</p></a>
-			    <p class="card-text">
-			    <div style="height:1px;font-size:1px;">&nbsp;</div>
-			    {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i>  Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a> </small><br>{% endif %} 
-			    <small class="test-muted"><i class="fas fa-table-columns"></i>  Resource Type: {{ card.profile.group | replace: '<br />', ', ' }} </small><br>
-			    <small class="test-muted"><i class="fas fa-square-poll-vertical"></i>  Data Literacy: {{ card.profile.domain | replace: '<br />', ', ' }} &nbsp;&nbsp;►&nbsp; Subdomain: {{ card.profile.subdomain | replace: '<br />', ', ' }} <br></small>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</p>
-
-
-{% endfor %}
-
-<br>
-
-</details>
-
-<div style="height:5px;font-size:1px;">&nbsp;</div>
-
-<!--This section filters by "Reading" and "Defining Data" -->
-
-<details>
-<summary> Readings </summary>
-
-{% assign cards = site.cards | where: "group", "Reading" | where: "topic", "Defining Data" | sort: "title" %}
-
-{% for card in cards %}
-
-<p>
-    <div class="card {% if card.inline == false %}hoverable{% endif %}">
-        <div class="row no-gutters">
-            <div class="team">
-		    <div class="card-body">
-			    {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
-				    <h5 class="card-title">{{ card.profile.name }}</h5></a>
 			    <p class="card-text">{% if card.profile.author %}<small class="test-muted">Author: {{ card.profile.author | replace: '<br />', ', ' }} </small><br>{% endif %}</p>
 			    {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
-				    <p class="card-text"><br>{{ card.teaser }}</p></a>
+				    <p class="card-text">{{ card.teaser }}</p></a>
 			    <p class="card-text">
 			    <div style="height:1px;font-size:1px;">&nbsp;</div>
 			    {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i>  Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a> </small><br>{% endif %} 
-			    <small class="test-muted"><i class="fas fa-table-columns"></i>  Resource Type: {{ card.profile.group | replace: '<br />', ', ' }} </small><br>
 			    <small class="test-muted"><i class="fas fa-square-poll-vertical"></i>  Data Literacy: {{ card.profile.domain | replace: '<br />', ', ' }} &nbsp;&nbsp;►&nbsp; Subdomain: {{ card.profile.subdomain | replace: '<br />', ', ' }} <br></small>
+			    <small class="test-muted"><i class="fas fa-table-columns"></i>  Resource Type: {{ card.profile.group | replace: '<br />', ', ' }} </small><br>
                     </p>
                 </div>
             </div>
@@ -97,8 +56,9 @@ Such questions are especially important for doing data advocacy in ethical and j
     </div>
 </p>
 
-
 {% endfor %}
+
+<div style="height:1px;font-size:1px;">&nbsp;</div>
 
 <br>
 
@@ -109,9 +69,9 @@ Such questions are especially important for doing data advocacy in ethical and j
 <!--This section filters by "Reading" and "Defining Data" -->
 
 <details>
-<summary> Readings III </summary>
+<summary> Glossary </summary>
 
-{% assign cards = site.cards | where: "group", "Reading" | where: "topic", "Defining Data" | sort: "title" %}
+{% assign cards = site.cards | where: "group", "Term" | where: "topic", "Defining Data" | sort: "title" %}
 
 {% for card in cards %}
 
@@ -137,11 +97,13 @@ Such questions are especially important for doing data advocacy in ethical and j
     </div>
 </p>
 
-
 {% endfor %}
+
+<div style="height:1px;font-size:1px;">&nbsp;</div>
 
 <br>
 
 </details>
 
 <div style="height:5px;font-size:1px;">&nbsp;</div>
+
