@@ -16,7 +16,8 @@ teaser: >
 profile:
     name: "Principles for Advancing Equitable Data Practice"
     group: Reading
-    literacy: Defining Data
+    literacy domain: <a href="../understanding-data/">Understanding Data</a>
+    subdomain: <a href="../defining-data/">Defining Data</a>
     source: https://resultslab.com/blog-foundations-of-data-equity/#1674152295196-987e18dd-deaa
     author: Marcus Gaddy and Kassie Scott
     align: right
