@@ -15,7 +15,8 @@ teaser: >
 profile:
     name: "Improve It and Prove It"
     group: Assignment
-    literacy: Visualizing Data
+    literacy domain: <a href="../persuading-with-data/">Persuading with Data</a>
+    subdomain: <a href="../visualizing-data/">Visualizing Data</a>
     source: 
     author: 
     align: right
