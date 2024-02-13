@@ -15,7 +15,7 @@ teaser: >
 profile:
     name: Rhetorical Data Studies
     group: Term
-    literacy domain: <a href="../understanding-data/">Understanding Data</a>
+    domain: <a href="../understanding-data/">Understanding Data</a>
     subdomain: <a href="../defining-data/">Defining Data</a>
     source: 
     author: 
