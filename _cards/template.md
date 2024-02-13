@@ -2,8 +2,23 @@
 layout: page
 inline: false
 group: Reading / Term / Assignment / Activity / Tutorial / Teaching Module / Dataset
-domain: Understanding Data / Processing Data / Persuading with Data
-topic: Defining Data / Critiquing Data / Acting Ethically with Data / Linking Data and Justice / Collecting Data / Organizing and Cleaning Data / Analyzing and Drawing Insights from Data / Storing and Preserving Data / Appealing with Data / Visualizing Data / Mapping Data / Telling Multi-Modal Stories with Data
+domain: 
+     <a href="../understanding-data/">Understanding Data</a>
+     <a href="../processing-data/">Processing Data</a>
+     <a href="../persuading-with-data/">Persuading with Data</a>
+topic: 
+     <a href="../defining-data/">Defining Data</a>
+     <a href="../critiquing-data/">Critiquing Data</a>
+     <a href="../acting-ethically-with-data/">Acting Ethically with Data</a>
+     <a href="../linking-data-and-justice/">Linking Data and Justice</a>
+     <a href="../collecting-data/">Collecting Data</a>
+     <a href="../organizing-and-cleaning-data/">Organizing and Cleaning Data</a>
+     <a href="../analyzing-and-drawing-insights-from-data/">Analyzing and Drawing Insights from Data</a>
+     <a href="../storing-and-preserving-data/">Storing and Preserving Data</a>
+     <a href="../appealing-with-data/">Appealing with Data</a>
+     <a href="../visualizing-data/">Visualizing Data</a>
+     <a href="../mapping-data/">Mapping Data</a>
+     <a href="../telling-multi-modal-stories-with-data/">Telling Multi-Modal Stories with Data</a>
 
 title: "[TITLE]"
 description: "[MLA CITATION]"
@@ -15,8 +30,23 @@ teaser: >
 profile:
     name: "[TITLE]"
     group: Reading / Term / Assignment / Activity / Tutorial / Teaching Module / Dataset
-    literacy domain: Understanding Data / Processing Data / Persuading with Data
-    subdomain: Defining Data / Critiquing Data / Acting Ethically with Data / Linking Data and Justice / Collecting Data / Organizing and Cleaning Data / Analyzing and Drawing Insights from Data / Storing and Preserving Data / Appealing with Data / Visualizing Data / Mapping Data / Telling Multi-Modal Stories with Data
+    literacy domain: 
+            <a href="../understanding-data/">Understanding Data</a>
+            <a href="../processing-data/">Processing Data</a>
+            <a href="../persuading-with-data/">Persuading with Data</a>
+    subdomain: 
+            <a href="../defining-data/">Defining Data</a>
+            <a href="../critiquing-data/">Critiquing Data</a>
+            <a href="../acting-ethically-with-data/">Acting Ethically with Data</a>
+            <a href="../linking-data-and-justice/">Linking Data and Justice</a>
+            <a href="../collecting-data/">Collecting Data</a>
+            <a href="../organizing-and-cleaning-data/">Organizing and Cleaning Data</a>
+            <a href="../analyzing-and-drawing-insights-from-data/">Analyzing and Drawing Insights from Data</a>
+            <a href="../storing-and-preserving-data/">Storing and Preserving Data</a>
+            <a href="../appealing-with-data/">Appealing with Data</a>
+            <a href="../visualizing-data/">Visualizing Data</a>
+            <a href="../mapping-data/">Mapping Data</a>
+            <a href="../telling-multi-modal-stories-with-data/">Telling Multi-Modal Stories with Data</a>
     source: [URL SOURCE]
     author: [AUTHOR FULL NAME]
     align: right
