@@ -15,7 +15,8 @@ teaser: >
 profile:
     name: Data Justice
     group: Term
-    literacy: Defining Data
+    literacy domain: <a href="../understanding-data/">Understanding Data</a>
+    subdomain: <a href="../linking-data-and-justice/">Linking Data and Justice</a>
     source: 
     author: 
     align: right
