@@ -15,7 +15,8 @@ teaser: >
 profile:
     name: "Deconstructing a Published Map"
     group: Assignment
-    literacy: Mapping with Data
+    literacy domain: <a href="../persuading-with-data/">Persuading with Data</a>
+    subdomain: <a href="../mapping-data/">Mapping Data</a>
     source: 
     author: 
     align: right
