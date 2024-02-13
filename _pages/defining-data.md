@@ -19,9 +19,11 @@ As such, this literacy introduces students to feminist, rhetorical, and equity d
 
 Such questions are especially important for doing data advocacy in ethical and just ways in our contemporary moment. This literacy thus specifically offers a theoretical understanding of data, an introduction to the data life cycle, and a brief dive into best practices of data advocacy in order to help students develop a strong rhetorical and ethical foundation from which to take up this important practice. 
 
-<br>
+<div style="height:1px;font-size:1px;">&nbsp;</div>
 
 ## Defining Data Toolkit
+
+<br>
 
 <!--This section filters by "Reading" and "Defining Data" -->
 
