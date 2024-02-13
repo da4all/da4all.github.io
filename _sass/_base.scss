@@ -4,10 +4,12 @@
 
 // Details & Summary
 
+// Details & Summary
+
 details > summary {
   padding: 18px;
   width: 100%;
-  background-color: #0D3373;
+  background-color: #bf0a30;
   color: white;
   border: none;
   box-shadow: 1px 1px 2px #bbbbbb;
@@ -15,17 +17,17 @@ details > summary {
 }
 
 details > *:not(summary) {
-    padding: 4px; 
+    padding: 10px; 
 }
 
 details details {
-    margin: 4px;
+    margin: 10px;
 }
 
 details details > summary {
   padding: 18px;
   width: 100%;
-  background-color: #041c46;
+  background-color: #002868;
   color: white;
   border: none;
   box-shadow: 1px 1px 2px #bbbbbb;
