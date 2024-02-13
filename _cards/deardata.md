@@ -15,7 +15,8 @@ teaser: >
 profile:
     name: "Dear Data"
     group: Assignment
-    literacy: Assembling Data
+    literacy domain: <a href="../processing-data/">Processing Data</a>
+    subdomain: <a href="../collecting-data/">Collecting Data</a>
     source: 
     author: 
     align: right
