@@ -42,7 +42,7 @@ Such questions are especially important for doing data advocacy in ethical and j
                     <p class="card-text">
 			<div style="height:1px;font-size:1px;">&nbsp;</div>
 			     <small class="test-muted"><i class="fas fa-table-columns"></i>  Resource Type: {{ card.profile.group | replace: '<br />', ', ' }} </small>
-			     {% if card.profile.author %}<small class="test-muted"><i class="fas fa-user-pen"></i>  Author: {{ card.profile.author | replace: '<br />', ', ' }} </small><br>{% endif %}
+			     {% if card.profile.author %}<small class="test-muted"><i class="fas fa-user-pen"></i>  Author: {{ card.profile.author | replace: '<br />', ', ' }} </small><br>{% endif %}</p>
                     <p class="card-text">
                         {{ card.teaser }}
                     </p>
