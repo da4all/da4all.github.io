@@ -15,7 +15,8 @@ teaser: >
 profile:
     name: Data Advocacy
     group: Term
-    literacy: Defining Data
+    literacy domain: <a href="../understanding-data/">Understanding Data</a>
+    subdomain: <a href="../defining-data/">Defining Data</a>
     source: 
     author: 
     align: right
