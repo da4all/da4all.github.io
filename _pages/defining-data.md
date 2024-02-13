@@ -210,7 +210,7 @@ Such questions are especially important for doing data advocacy in ethical and j
 </p>
 
 <details>
-<summary> ReadingsV  </summary>
+<summary> Readings V </summary>
 
 {% assign cards = site.cards | where: "group", "Reading" | where: "topic", "Defining Data" | sort: "title" %}
 
