@@ -15,7 +15,8 @@ teaser: >
 profile:
     name: "Critical Data Studies: An Introduction"
     group: Reading
-    literacy: Defining Data
+    literacy domain: <a href="../understanding-data/">Understanding Data</a>
+    subdomain: <a href="../defining-data/">Defining Data</a>
     source: https://journals.sagepub.com/doi/10.1177/2053951716674238
     author: Andrew Iliadis and Federica Russo
     align: right
