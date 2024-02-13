@@ -60,7 +60,7 @@ Such questions are especially important for doing data advocacy in ethical and j
 <p>
     <div class="card {% if card.inline == false %}hoverable{% endif %}">
         <div class="row no-gutters">
-            <div class="team col-sm-1 col-md-1">
+            <div class="team col-sm-9 col-md-13">
                 <div class="card-body">
                     {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
                     <h5 class="card-title">{{ card.profile.name }}</h5>
