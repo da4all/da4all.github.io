@@ -15,7 +15,7 @@ teaser: >
 profile:
     name: "Philadelphia African-American Census 1847"
     group: Dataset
-    literacy domain: <a href="../processing-data/">Processing Data</a>
+    domain: <a href="../processing-data/">Processing Data</a>
     subdomain: <a href="../analyzing-and-drawing-insights-from-data/">Analyzing and Drawing Insights from Data</a>
     source: https://ds-pages.swarthmore.edu/paac/
     author: Friends Historical Library
