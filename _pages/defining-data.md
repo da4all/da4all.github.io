@@ -237,7 +237,7 @@ Such questions are especially important for doing data advocacy in ethical and j
 			    <p class="card-text">
 			    <div style="height:1px;font-size:1px;">&nbsp;</div>
 			    {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i>  Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a> </small><br>{% endif %} 
-			    <small class="test-muted"><i class="fas fa-square-poll-vertical"></i>  Data Literacy: {{ card.profile.domain | replace: '<br />', ', ' }} <br> &nbsp;&nbsp;&nbsp; Literacy Subdomain: {{ card.profile.subdomain | replace: '<br />', ', ' }} <br></small>
+			    <small class="test-muted"><i class="fas fa-square-poll-vertical"></i>  Data Literacy: {{ card.profile.domain | replace: '<br />', ', ' }} ▶︎ Word ► Literacy Subdomain: {{ card.profile.subdomain | replace: '<br />', ', ' }} <br></small>
                     </p>
                 </div>
             </div>
