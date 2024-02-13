@@ -15,7 +15,7 @@ teaser: >
 profile:
     name: "Formal Critical Reflection: Defining Data and Doing Data Advocacy"
     group: Assignment
-    literacy domain: <a href="../understanding-data/">Understanding Data</a>
+    domain: <a href="../understanding-data/">Understanding Data</a>
     subdomain: <a href="../defining-data/">Defining Data</a>
     source: 
     author: 
