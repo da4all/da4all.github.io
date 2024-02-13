@@ -15,7 +15,7 @@ teaser: >
 profile:
     name: "Data Advocacy Op-Ed"
     group: Assignment
-    literacy domain: <a href="../persuading-with-data/">Persuading with Data</a>
+    domain: <a href="../persuading-with-data/">Persuading with Data</a>
     subdomain: <a href="../appealing-with-data/">Appealing with Data</a>
     source: 
     author: 
