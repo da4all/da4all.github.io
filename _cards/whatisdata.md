@@ -15,7 +15,8 @@ teaser: >
 profile:
     name: "What is Data? Definition and Examples"
     group: Reading
-    literacy: Defining Data
+    literacy domain: <a href="../understanding-data/">Understanding Data</a>
+    subdomain: <a href="../defining-data/">Defining Data</a>
     source: https://marketbusinessnews.com/financial-glossary/data-definitio/
     author: Market Business News
     align: right
