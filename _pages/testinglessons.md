@@ -46,38 +46,28 @@ this div ('lesson-list', referenced in lessonfilter.js) needs to contain the sor
   <button id="enable-search-button" style="width: 100%;">{{ site.data.snippets.start-searching[page.lang] }}</button>
 </div>
 
-<div id="lesson-list">
 
-  <!--
-List.js uses button classes of asc and desc to control sorting functionality. It also toggles those classes off and on with click events.
-To not interfere with that, we use my-asc and my-desc to control the arrows, since our desired behavior is different from what list.js does.
-More concretely: to sort asc, the button class needs to contain asc, but we use the arrow ON THE BUTTON to indicate what WILL happen,
-not what IS HAPPENING (the filter header displays the current sort state). In order to have a down arrow, we use a my-desc class.
-Yes, this is confusing. But using two differnt classes allows us to separate functionality and presentation.
--->
+<div id="lesson-list">
+  <!-- List.js uses button classes of asc and desc to control sorting functionality. -->
   <ul class="sort-by">
-    <li id="sort-by-date" class="sort" data-sort="date">{{site.data.snippets.sort-by-date[page.lang]}}</li>
-    <li id="sort-by-difficulty" class="sort" data-sort="difficulty">{{site.data.snippets.sort-by-difficulty[page.lang]}}
-    </li>
+    <li id="sort-by-date" class="sort" data-sort="date">Sort by Date</li>
+    <li id="sort-by-difficulty" class="sort" data-sort="difficulty">Sort by Difficulty</li>
   </ul>
 
-  <input id="date-sort-text" type="hidden" label="{{site.data.snippets.date[page.lang]}}">
-  <input id="difficulty-sort-text" type="hidden" label="{{site.data.snippets.difficulty[page.lang]}}">
+  <!-- Display the current filter and sorting criteria -->
+  <h2 class="results-title">Filtering Results: <span id="results-value">All Lessons</span> <span id="current-sort" class="sort-desc">Date</span></h2>
 
-
-  <h2 class="results-title">{{ site.data.snippets.filtering-results[page.lang] }}: <span
-      id="results-value">{{ site.data.snippets.all-lessons[page.lang] }} </span> <span id="current-sort"
-      class="sort-desc">{{site.data.snippets.date[page.lang]}}</span></h2>
-
+  <!-- List of lessons -->
   <ul class="list">
-    {% for card in site.cards %}
-    {% if card.topic == "Defining Data" %}
-    {% capture author_string %} {% include author.html %} {% endcapture %}
-    <li>{% include lesson_describe.html authors=author_string %}</li>
-    {% endif %}
+    {% for lesson in alllessons %}
+    <li>
+      <!-- Display information about each lesson -->
+      <p>Title: {{ lesson.title }}</p>
+      <p>Author: {{ lesson.profile.author }}</p> <!-- Assuming the author is specified in card.profile.author -->
+      <!-- Add more fields as needed -->
+    </li>
     {% endfor %}
   </ul>
-
 </div>
 
 
