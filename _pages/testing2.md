@@ -11,14 +11,14 @@ nav_rank: 8
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
     
-    <label for="domain-filter">Primary Domain:</label>
+    <label for="domain-filter">Domain:</label>
     <select id="domain-filter">
       <option value="all">All</option>
       <option value="Understanding Data">Understanding Data</option>
-      <option value="Defining Data">   ▶︎ Defining Data</option>
-      <option value="Critiquing Data">   ▶︎ Critiquing Data</option>
-      <option value="Acting Ethically with Data">   ▶︎ Acting Ethically with Data</option>
-      <option value="Linking Data and Justice">   ▶︎ Linking Data and Justice</option>
+      <option value="Defining Data">&nbsp;&nbsp;&nbsp; ▶︎ Defining Data</option>
+      <option value="Critiquing Data">&nbsp;&nbsp;&nbsp; ▶︎ Critiquing Data</option>
+      <option value="Acting Ethically with Data">&nbsp;&nbsp;&nbsp; ▶︎ Acting Ethically with Data</option>
+      <option value="Linking Data and Justice">&nbsp;&nbsp;&nbsp; ▶︎ Linking Data and Justice</option>
       <option value="Processing Data">Processing Data</option>
       <option value="Collecting Data">   ▶︎ Collecting Data</option>
       <option value="Organizing and Cleaning Data">   ▶︎ Organizing and Cleaning Data</option>
