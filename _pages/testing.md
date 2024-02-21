@@ -7,6 +7,32 @@ nav: false
 nav_rank: 8
 ---
 
+<div id="filter-options">
+  <label for="domain-filter">Domain:</label>
+  <select id="domain-filter">
+    <option value="all">All</option>
+    <option value="Understanding Data">Understanding Data</option>
+    <option value="Processing Data">Processing Data</option>
+    <option value="Persuading with Data">Persuading with Data</option>
+  </select>
+  
+  <label for="topic-filter">Topic:</label>
+  <select id="topic-filter">
+    <option value="all">All</option>
+    <option value="Defining Data">Defining Data</option>
+    <option value="Critiquing Data">Critiquing Data</option>
+    <!-- Add other topics here -->
+  </select>
+  
+  <label for="group-filter">Group:</label>
+  <select id="group-filter">
+    <option value="all">All</option>
+    <option value="Reading">Reading</option>
+    <option value="Assignment">Assignment</option>
+    <!-- Add other groups here -->
+  </select>
+</div>
+
 <div id="card-list">
 {% assign cards = site.cards | sort: "title" %}
 
