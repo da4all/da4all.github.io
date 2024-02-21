@@ -7,48 +7,50 @@ nav: false
 nav_rank: 8
 ---
 
-<div id="filter-options">
-  <label for="domain-filter">Primary Domain:</label>
-  <select id="domain-filter">
-    <option value="all">All</option>
-    <option value="Understanding Data">Understanding Data</option>
-    <option value="Processing Data">Processing Data</option>
-    <option value="Persuading with Data">Persuading with Data</option>
-  </select>
+<div style="background-color: #f2f2f2; padding: 10px;">
+  <div id="filter-options" style="font-size: 0.8em;">
+    <label for="domain-filter">Primary Domain:</label>
+    <select id="domain-filter">
+      <option value="all">All</option>
+      <option value="Understanding Data">Understanding Data</option>
+      <option value="Processing Data">Processing Data</option>
+      <option value="Persuading with Data">Persuading with Data</option>
+    </select>
 
-<br>
-  
-  <label for="topic-filter">Subdomain:</label>
-  <select id="topic-filter">
-    <option value="all">All</option>
-    <option value="Defining Data">Defining Data</option>
-    <option value="Critiquing Data">Critiquing Data</option>
-    <option value="Acting Ethically with Data">Acting Ethically with Data</option>
-    <option value="Linking Data and Justice">Linking Data and Justice</option>
-    <option value="Collecting Data">Collecting Data</option>
-    <option value="Organizing and Cleaning Data">Organizing and Cleaning Data</option>
-    <option value="Analyzing and Drawing Insights from Data">Analyzing and Drawing Insights from Data</option>
-    <option value="Storing and Preserving Data">Storing and Preserving Data</option>
-    <option value="Appealing with Data">Appealing with Data</option>
-    <option value="Visualizing Data">Visualizing Data</option>
-    <option value="Mapping Data">Mapping Data</option>
-    <option value="Telling Multi-Modal Stories with Data">Telling Multi-Modal Stories with Data</option>
-  </select>
+    <br>
 
-<br>
-  
-  <label for="group-filter">Type of Resource:</label>
-  <select id="group-filter">
-    <option value="all">All</option>
-    <option value="Term">Glossary</option>
-    <option value="Reading">Reading</option>
-    <option value="Assignment">Assignment</option>
-    <option value="Activity">Activity</option>
-    <option value="Tutorial">Tutorial</option>
-    <option value="Teaching Module">Teaching Module</option>
-    <option value="Dataset">Dataset</option>
-    <option value="Example of Data Advocacy">Examples of Data Advocacy</option>
-  </select>
+    <label for="topic-filter">Subdomain:</label>
+    <select id="topic-filter">
+      <option value="all">All</option>
+      <option value="Defining Data">Defining Data</option>
+      <option value="Critiquing Data">Critiquing Data</option>
+      <option value="Acting Ethically with Data">Acting Ethically with Data</option>
+      <option value="Linking Data and Justice">Linking Data and Justice</option>
+      <option value="Collecting Data">Collecting Data</option>
+      <option value="Organizing and Cleaning Data">Organizing and Cleaning Data</option>
+      <option value="Analyzing and Drawing Insights from Data">Analyzing and Drawing Insights from Data</option>
+      <option value="Storing and Preserving Data">Storing and Preserving Data</option>
+      <option value="Appealing with Data">Appealing with Data</option>
+      <option value="Visualizing Data">Visualizing Data</option>
+      <option value="Mapping Data">Mapping Data</option>
+      <option value="Telling Multi-Modal Stories with Data">Telling Multi-Modal Stories with Data</option>
+    </select>
+
+    <br>
+
+    <label for="group-filter">Type of Resource:</label>
+    <select id="group-filter">
+      <option value="all">All</option>
+      <option value="Term">Glossary</option>
+      <option value="Reading">Reading</option>
+      <option value="Assignment">Assignment</option>
+      <option value="Activity">Activity</option>
+      <option value="Tutorial">Tutorial</option>
+      <option value="Teaching Module">Teaching Module</option>
+      <option value="Dataset">Dataset</option>
+      <option value="Example of Data Advocacy">Examples of Data Advocacy</option>
+    </select>
+  </div>
 </div>
 
 <div id="card-list">
