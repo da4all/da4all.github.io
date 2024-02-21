@@ -20,15 +20,15 @@ nav_rank: 8
       <option value="Acting Ethically with Data">&nbsp;&nbsp;&nbsp; ▶︎ Acting Ethically with Data</option>
       <option value="Linking Data and Justice">&nbsp;&nbsp;&nbsp; ▶︎ Linking Data and Justice</option>
       <option value="Processing Data">Processing Data</option>
-      <option value="Collecting Data">   ▶︎ Collecting Data</option>
-      <option value="Organizing and Cleaning Data">   ▶︎ Organizing and Cleaning Data</option>
-      <option value="Analyzing and Drawing Insights from Data">   ▶︎ Analyzing and Drawing Insights from Data</option>
-      <option value="Storing and Preserving Data">   ▶︎ Storing and Preserving Data</option>
+      <option value="Collecting Data">&nbsp;&nbsp;&nbsp; ▶︎ Collecting Data</option>
+      <option value="Organizing and Cleaning Data">&nbsp;&nbsp;&nbsp; ▶︎ Organizing and Cleaning Data</option>
+      <option value="Analyzing and Drawing Insights from Data">&nbsp;&nbsp;&nbsp; ▶︎ Analyzing and Drawing Insights from Data</option>
+      <option value="Storing and Preserving Data">&nbsp;&nbsp;&nbsp; ▶︎ Storing and Preserving Data</option>
       <option value="Persuading with Data">Persuading with Data</option>
-      <option value="Appealing with Data">   ▶︎ Appealing with Data</option>
-      <option value="Visualizing Data">   ▶︎ Visualizing Data</option>
-      <option value="Mapping Data">   ▶︎ Mapping Data</option>
-      <option value="Telling Multi-Modal Stories with Data">   ▶︎ Telling Multi-Modal Stories with Data</option>
+      <option value="Appealing with Data">&nbsp;&nbsp;&nbsp; ▶︎ Appealing with Data</option>
+      <option value="Visualizing Data">&nbsp;&nbsp;&nbsp; ▶︎ Visualizing Data</option>
+      <option value="Mapping Data">&nbsp;&nbsp;&nbsp; ▶︎ Mapping Data</option>
+      <option value="Telling Multi-Modal Stories with Data">&nbsp;&nbsp;&nbsp; ▶︎ Telling Multi-Modal Stories with Data</option>
     </select>
 
     <br>
