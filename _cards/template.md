@@ -1,7 +1,7 @@
 ---
 layout: page
 inline: false
-group: Reading / Term / Assignment / Activity / Tutorial / Teaching Module / Dataset
+group: Reading / Term / Assignment / Activity / Tutorial / Teaching Module / Dataset / Data Advocacy Example
 domain: Understanding Data / Processing Data / Persuading with Data
 topic: Defining Data / Critiquing Data / Acting Ethically with Data / Linking Data and Justice / Collecting Data / Organizing and Cleaning Data / Analyzing and Drawing Insights from Data / Storing and Preserving Data / Appealing with Data / Visualizing Data / Mapping Data / Telling Multi-Modal Stories with Data
 
@@ -14,7 +14,7 @@ teaser: >
 
 profile:
     name: "[TITLE]"
-    group: Reading / Term / Assignment / Activity / Tutorial / Teaching Module / Dataset
+    group: Reading / Term / Assignment / Activity / Tutorial / Teaching Module / Dataset / Data Advocacy Example
     domain: 
             <a href="../understanding-data/">Understanding Data</a>
             <a href="../processing-data/">Processing Data</a>
