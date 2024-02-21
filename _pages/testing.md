@@ -8,7 +8,7 @@ nav_rank: 8
 ---
 
 <div id="filter-options">
-  <label for="domain-filter">Domain:</label>
+  <label for="domain-filter">Primary Domain:</label>
   <select id="domain-filter">
     <option value="all">All</option>
     <option value="Understanding Data">Understanding Data</option>
@@ -16,20 +16,32 @@ nav_rank: 8
     <option value="Persuading with Data">Persuading with Data</option>
   </select>
   
-  <label for="topic-filter">Topic:</label>
+  <label for="topic-filter">Subdomain:</label>
   <select id="topic-filter">
     <option value="all">All</option>
     <option value="Defining Data">Defining Data</option>
     <option value="Critiquing Data">Critiquing Data</option>
-    <!-- Add other topics here -->
+    <option value="Acting Ethically with Data">Acting Ethically with Data</option>
+    <option value="Linking Data and Justice">Linking Data and Justice</option>
+    <option value="Collecting Data">Collecting Data</option>
+    <option value="Organizing and Cleaning Data">Organizing and Cleaning Data</option>
+    <option value="Analyzing and Drawing Insights from Data">Analyzing and Drawing Insights from Data</option>
+    <option value="Storing and Preserving Data">Storing and Preserving Data</option>
+    <option value="Appealing with Data">Appealing with Data</option>
+    <option value="Visualizing Data">Visualizing Data</option>
+    <option value="Mapping Data">Mapping Data</option>
+    <option value="Telling Multi-Modal Stories with Data">Telling Multi-Modal Stories with Data</option>
   </select>
   
-  <label for="group-filter">Group:</label>
+  <label for="group-filter">Type of Resource:</label>
   <select id="group-filter">
     <option value="all">All</option>
     <option value="Reading">Reading</option>
     <option value="Assignment">Assignment</option>
-    <!-- Add other groups here -->
+    <option value="Activity">Activity</option>
+    <option value="Tutorial">Tutorial</option>
+    <option value="Teaching Module">Teaching Module</option>
+    <option value="Dataset">Dataset</option>
   </select>
 </div>
 
