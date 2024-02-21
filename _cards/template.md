@@ -34,6 +34,7 @@ profile:
             <a href="../telling-multi-modal-stories-with-data/">Telling Multi-Modal Stories with Data</a>
     source: [URL SOURCE]
     author: [AUTHOR FULL NAME]
+    license: [LICENSE TYPE HERE]
     align: right
 
 ---
