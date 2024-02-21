@@ -7,8 +7,6 @@ nav: false
 nav_rank: 8
 ---
 
-<small>
-
 <div id="filter-options">
   <label for="domain-filter">Primary Domain:</label>
   <select id="domain-filter">
@@ -17,8 +15,6 @@ nav_rank: 8
     <option value="Processing Data">Processing Data</option>
     <option value="Persuading with Data">Persuading with Data</option>
   </select>
-
-</small>
 
 <br>
   
