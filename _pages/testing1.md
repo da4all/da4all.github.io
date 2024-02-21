@@ -6,9 +6,10 @@ description:
 nav: false
 nav_rank: 8
 ---
-
+## Option 1:
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
+    
     <label for="domain-filter">Primary Domain:</label>
     <select id="domain-filter">
       <option value="all">All</option>
