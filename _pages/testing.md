@@ -18,6 +18,8 @@ nav_rank: 8
     <option value="Persuading with Data">Persuading with Data</option>
   </select>
 
+</small>
+
 <br>
   
   <label for="topic-filter">Subdomain:</label>
@@ -51,8 +53,6 @@ nav_rank: 8
     <option value="Dataset">Dataset</option>
   </select>
 </div>
-
-</small>
 
 <div id="card-list">
 {% assign cards = site.cards | sort: "title" %}
