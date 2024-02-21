@@ -7,6 +7,8 @@ nav: false
 nav_rank: 8
 ---
 
+<small>
+
 <div id="filter-options">
   <label for="domain-filter">Primary Domain:</label>
   <select id="domain-filter">
@@ -15,6 +17,8 @@ nav_rank: 8
     <option value="Processing Data">Processing Data</option>
     <option value="Persuading with Data">Persuading with Data</option>
   </select>
+
+<br>
   
   <label for="topic-filter">Subdomain:</label>
   <select id="topic-filter">
@@ -32,6 +36,8 @@ nav_rank: 8
     <option value="Mapping Data">Mapping Data</option>
     <option value="Telling Multi-Modal Stories with Data">Telling Multi-Modal Stories with Data</option>
   </select>
+
+<br>
   
   <label for="group-filter">Type of Resource:</label>
   <select id="group-filter">
@@ -45,6 +51,8 @@ nav_rank: 8
     <option value="Dataset">Dataset</option>
   </select>
 </div>
+
+</small>
 
 <div id="card-list">
 {% assign cards = site.cards | sort: "title" %}
