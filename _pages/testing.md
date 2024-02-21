@@ -47,6 +47,7 @@ nav_rank: 8
     <option value="Tutorial">Tutorial</option>
     <option value="Teaching Module">Teaching Module</option>
     <option value="Dataset">Dataset</option>
+    <option value="Example of Data Advocacy">Examples of Data Advocacy</option>
   </select>
 </div>
 
