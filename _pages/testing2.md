@@ -15,20 +15,20 @@ nav_rank: 8
     <select id="domain-filter">
       <option value="all">All</option>
       <option value="Understanding Data">Understanding Data</option>
-      <option value="Defining Data">&nbsp;&nbsp;&nbsp; ▶︎ Defining Data</option>
-      <option value="Critiquing Data">&nbsp;&nbsp;&nbsp; ▶︎ Critiquing Data</option>
-      <option value="Acting Ethically with Data">&nbsp;&nbsp;&nbsp; ▶︎ Acting Ethically with Data</option>
-      <option value="Linking Data and Justice">&nbsp;&nbsp;&nbsp; ▶︎ Linking Data and Justice</option>
+      <option value="Defining Data"> &nbsp;&nbsp;&nbsp; ▶︎ Defining Data</option>
+      <option value="Critiquing Data"> &nbsp;&nbsp;&nbsp; ▶︎ Critiquing Data</option>
+      <option value="Acting Ethically with Data"> &nbsp;&nbsp;&nbsp; ▶︎ Acting Ethically with Data</option>
+      <option value="Linking Data and Justice"> &nbsp;&nbsp;&nbsp; ▶︎ Linking Data and Justice</option>
       <option value="Processing Data">Processing Data</option>
-      <option value="Collecting Data">&nbsp;&nbsp;&nbsp; ▶︎ Collecting Data</option>
-      <option value="Organizing and Cleaning Data">&nbsp;&nbsp;&nbsp; ▶︎ Organizing and Cleaning Data</option>
-      <option value="Analyzing and Drawing Insights from Data">&nbsp;&nbsp;&nbsp; ▶︎ Analyzing and Drawing Insights from Data</option>
-      <option value="Storing and Preserving Data">&nbsp;&nbsp;&nbsp; ▶︎ Storing and Preserving Data</option>
+      <option value="Collecting Data"> &nbsp;&nbsp;&nbsp; ▶︎ Collecting Data</option>
+      <option value="Organizing and Cleaning Data"> &nbsp;&nbsp;&nbsp; ▶︎ Organizing and Cleaning Data</option>
+      <option value="Analyzing and Drawing Insights from Data"> &nbsp;&nbsp;&nbsp; ▶︎ Analyzing and Drawing Insights from Data</option>
+      <option value="Storing and Preserving Data"> &nbsp;&nbsp;&nbsp; ▶︎ Storing and Preserving Data</option>
       <option value="Persuading with Data">Persuading with Data</option>
-      <option value="Appealing with Data">&nbsp;&nbsp;&nbsp; ▶︎ Appealing with Data</option>
-      <option value="Visualizing Data">&nbsp;&nbsp;&nbsp; ▶︎ Visualizing Data</option>
-      <option value="Mapping Data">&nbsp;&nbsp;&nbsp; ▶︎ Mapping Data</option>
-      <option value="Telling Multi-Modal Stories with Data">&nbsp;&nbsp;&nbsp; ▶︎ Telling Multi-Modal Stories with Data</option>
+      <option value="Appealing with Data"> &nbsp;&nbsp;&nbsp; ▶︎ Appealing with Data</option>
+      <option value="Visualizing Data"> &nbsp;&nbsp;&nbsp; ▶︎ Visualizing Data</option>
+      <option value="Mapping Data"> &nbsp;&nbsp;&nbsp; ▶︎ Mapping Data</option>
+      <option value="Telling Multi-Modal Stories with Data"> &nbsp;&nbsp;&nbsp; ▶︎ Telling Multi-Modal Stories with Data</option>
     </select>
 
     <br>
