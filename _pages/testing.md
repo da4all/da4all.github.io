@@ -36,6 +36,7 @@ nav_rank: 8
   <label for="group-filter">Type of Resource:</label>
   <select id="group-filter">
     <option value="all">All</option>
+    <option value="Term">Glossary</option>
     <option value="Reading">Reading</option>
     <option value="Assignment">Assignment</option>
     <option value="Activity">Activity</option>
