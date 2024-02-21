@@ -1,3 +1,12 @@
+---
+layout: page
+permalink: /testinglessons/
+title: Testing
+description: 
+nav: false
+nav_rank: 8
+---
+
 {% comment %}
 Core code for generating filterable lesson indexes on lessons.md and es/lecciones.md. This will repeatedly call
 lesson_describe.html in which individual lessons have their metadata formatted for display.
