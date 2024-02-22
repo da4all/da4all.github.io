@@ -3,7 +3,7 @@ layout: page
 inline: false
 group: Assignment
 domain: Processing Data
-topic: Collecting Data Defining Data
+topic: Collecting Data, Defining Data
 
 title: "Dear Data"
 description: In this assignment you will draw inspiration from Giorgia Lupi and Stefanie Posavec’s project <i>Dear Data.</i> You will spend a period of five days and regularly collect some kind of information from your daily life. You will then illustrate the data you collected through a hand-drawn data visualization and submit the visualization along with a written reflection on the process and the big takeaways for data advocacy.
