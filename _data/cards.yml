@@ -1,0 +1,4 @@
+# This file is where we can establish site-wide variables and metadata that can apply to all cards.
+
+domains: [Understanding Data, Processing Data, Persuading With Data]
+featured_tags: [web, design, development]
