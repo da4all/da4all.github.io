@@ -84,28 +84,40 @@ nav_rank: 8
 </div>
 
 <script>
+document.addEventListener('DOMContentLoaded', function() {
+  const domainFilter = document.getElementById('domain-filter');
+  const topicFilter = document.getElementById('topic-filter');
+  const groupFilter = document.getElementById('group-filter');
+  const cards = document.querySelectorAll('.card');
 
-function filterCards() {
-  const selectedDomain = domainFilter.value;
-  const selectedTopic = topicFilter.value;
-  const selectedGroup = groupFilter.value;
+  function filterCards() {
+    const selectedDomain = domainFilter.value;
+    const selectedTopic = topicFilter.value;
+    const selectedGroup = groupFilter.value;
 
-  cards.forEach(card => {
-    const domain = card.querySelector('.domain').textContent.trim().replace('Domain: ', '');
-    const topics = card.querySelectorAll('.topic');
-    const group = card.querySelector('.group').textContent.trim().replace('Group: ', '');
+    cards.forEach(card => {
+      const domain = card.querySelector('.domain').textContent.trim().replace('Domain: ', '');
+      const topics = card.querySelectorAll('.topic');
+      const group = card.querySelector('.group').textContent.trim().replace('Group: ', '');
 
-    const domainMatch = selectedDomain === 'all' || domain === selectedDomain;
-    const topicMatch = selectedTopic === 'all' || Array.from(topics).some(topic => topic.textContent.trim().replace('Topic: ', '') === selectedTopic);
-    const groupMatch = selectedGroup === 'all' || group === selectedGroup;
+      const domainMatch = selectedDomain === 'all' || domain === selectedDomain;
+      const topicMatch = selectedTopic === 'all' || Array.from(topics).some(topic => topic.textContent.trim().replace('Topic: ', '') === selectedTopic);
+      const groupMatch = selectedGroup === 'all' || group === selectedGroup;
 
-    if (domainMatch && topicMatch && groupMatch) {
-      card.style.display = 'block';
-    } else {
-      card.style.display = 'none';
-    }
-  });
-}
+      if (domainMatch && topicMatch && groupMatch) {
+        card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
 
-  
+  domainFilter.addEventListener('change', filterCards);
+  topicFilter.addEventListener('change', filterCards);
+  groupFilter.addEventListener('change', filterCards);
+
+  // Initial filtering when the page loads
+  filterCards();
+});
 </script>
+
