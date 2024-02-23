@@ -84,6 +84,7 @@ nav_rank: 8
 </div>
 
 <script>
+
 document.addEventListener('DOMContentLoaded', function() {
   const domainFilter = document.getElementById('domain-filter');
   const topicFilter = document.getElementById('topic-filter');
@@ -119,5 +120,6 @@ document.addEventListener('DOMContentLoaded', function() {
   // Initial filtering when the page loads
   filterCards();
 });
+  
 </script>
 
