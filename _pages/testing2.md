@@ -20,8 +20,8 @@ nav_rank: 8
 
     <br>
 
-    <label for="topic-filter">Subdomain:</label>
-    <select id="topic-filter">
+    <label for="subdomains-filter">Subdomain:</label>
+    <select id="subdomains-filter">
       <option value="all">All</option>
       <option value="Defining Data">Defining Data</option>
       <option value="Critiquing Data">Critiquing Data</option>
