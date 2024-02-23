@@ -3,7 +3,7 @@ layout: page
 inline: false
 group: Assignment
 domain: Processing Data
-topics:
+topic:
 - "Collecting Data"
 - "Defining Data"
 
