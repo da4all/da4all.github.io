@@ -84,27 +84,28 @@ nav_rank: 8
 </div>
 
 <script>
+  
 document.addEventListener('DOMContentLoaded', function() {
   const domainFilter = document.getElementById('domain-filter');
-  const topicFilter = document.getElementById('topic-filter');
+  const subdomainFilter = document.getElementById('subdomain-filter');
   const groupFilter = document.getElementById('group-filter');
   const cards = document.querySelectorAll('.card');
   
   function filterCards() {
     const selectedDomain = domainFilter.value;
-    const selectedTopic = topicFilter.value;
+    const selectedSubdomain = subdomainFilter.value;
     const selectedGroup = groupFilter.value;
     
     cards.forEach(card => {
       const domain = card.querySelector('.domain').textContent.trim();
-      const topic = card.querySelectorAll('.topic');
+      const subdomains = card.querySelectorAll('.subdomain');
       const group = card.querySelector('.group').textContent.trim();
       
       const domainMatch = selectedDomain === 'all' || domain === selectedDomain;
-      const topicMatch = selectedTopic === 'all' || Array.from(topic).some(topic => topic.textContent.trim() === selectedTopic);
+      const subdomainMatch = selectedSubdomain === 'all' || Array.from(subdomains).some(subdomain => subdomain.textContent.trim() === selectedSubdomain);
       const groupMatch = selectedGroup === 'all' || group === selectedGroup;
       
-      if (domainMatch && topicMatch && groupMatch) {
+      if (domainMatch && subdomainMatch && groupMatch) {
         card.style.display = 'block';
       } else {
         card.style.display = 'none';
@@ -113,7 +114,8 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   
   domainFilter.addEventListener('change', filterCards);
-  topicFilter.addEventListener('change', filterCards);
+  subdomainFilter.addEventListener('change', filterCards);
   groupFilter.addEventListener('change', filterCards);
 });
+
 </script>
