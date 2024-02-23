@@ -83,6 +83,7 @@ nav_rank: 8
 {% endfor %}
 </div>
 
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const domainFilter = document.getElementById('domain-filter');
@@ -97,11 +98,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     cards.forEach(card => {
       const domain = card.querySelector('.domain').textContent.trim().replace('Domain: ', '');
-      const topics = card.querySelectorAll('.topic');
+      const topics = [card.querySelector('.topic_2').textContent.trim().replace('Topic: ', ''), card.querySelector('.topic_1').textContent.trim().replace('Topic: ', '')];
       const group = card.querySelector('.group').textContent.trim().replace('Group: ', '');
 
       const domainMatch = selectedDomain === 'all' || domain === selectedDomain;
-      const topicMatch = selectedTopic === 'all' || Array.from(topics).some(topic => topic.textContent.trim().replace('Topic: ', '') === selectedTopic);
+      const topicMatch = selectedTopic === 'all' || topics.includes(selectedTopic);
       const groupMatch = selectedGroup === 'all' || group === selectedGroup;
 
       if (domainMatch && topicMatch && groupMatch) {
@@ -120,4 +121,5 @@ document.addEventListener('DOMContentLoaded', function() {
   filterCards();
 });
 </script>
+
 
