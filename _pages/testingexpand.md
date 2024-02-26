@@ -19,7 +19,7 @@ nav_rank: 8
             <h3 class="card-title">{{ card.title }}</h3>
             <button class="toggle-button">Expand</button>
           </div>
-          <div class="card-content">
+          <div class="card-content" style="display: none;">
             <p>
               {% if card.profile.author %}
                 <small class="test-muted">Author: {{ card.profile.author | replace: '<br />', ', ' }}</small><br>
@@ -32,7 +32,7 @@ nav_rank: 8
               {% endif %}
             </p>
             <!-- Expanded content (replace iframe with Markdown content) -->
-            <div class="card-content" style="display: none;">
+            <div class="expanded-content">
               {{ card.content }}
             </div>
           </div>
@@ -43,15 +43,13 @@ nav_rank: 8
 {% endfor %}
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const toggleButtons = document.querySelectorAll('.toggle-button');
+  const toggleButtons = document.querySelectorAll('.toggle-button');
 
-    toggleButtons.forEach(button => {
-      button.addEventListener('click', () => {
-        const cardContent = button.closest('.card').querySelector('.card-body');
-        cardContent.classList.toggle('expanded');
-        button.textContent = cardContent.classList.contains('expanded') ? 'Collapse' : 'Expand';
-      });
+  toggleButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const cardContent = button.closest('.card').querySelector('.card-content');
+      cardContent.style.display = cardContent.style.display === 'none' ? 'block' : 'none';
+      button.textContent = cardContent.style.display === 'none' ? 'Expand' : 'Collapse';
     });
   });
 </script>
