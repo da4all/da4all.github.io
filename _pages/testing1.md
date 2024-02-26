@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /testing/
-title: Testing 
+title: Testing
 description: 
 nav: false
 nav_rank: 8
