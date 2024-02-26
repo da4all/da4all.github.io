@@ -43,13 +43,15 @@ nav_rank: 8
 {% endfor %}
 
 <script>
-  const toggleButtons = document.querySelectorAll('.toggle-button');
+  document.addEventListener('DOMContentLoaded', function() {
+    const toggleButtons = document.querySelectorAll('.toggle-button');
 
-  toggleButtons.forEach(button => {
-    button.addEventListener('click', () => {
-      const content = button.nextElementSibling.querySelector('.expanded-content');
-      content.classList.toggle('expanded');
-      button.textContent = content.classList.contains('expanded') ? 'Collapse' : 'Expand';
+    toggleButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const content = button.parentElement.nextElementSibling.querySelector('.expanded-content');
+        content.classList.toggle('expanded');
+        button.textContent = content.classList.contains('expanded') ? 'Collapse' : 'Expand';
+      });
     });
   });
 </script>
