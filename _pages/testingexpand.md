@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /testing3/
-title: Testing 3
+permalink: /testingexpand/
+title: Testing Expandable Cards
 description: 
 nav: false
 nav_rank: 8
