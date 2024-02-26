@@ -2,7 +2,7 @@
 layout: page
 inline: false
 group: Assignment
-domains: [Understanding Data , Persuading With Data]
+domains: [Understanding Data , Persuading with Data]
 
 title: Testing Page
 description: Here is the citation for this card
