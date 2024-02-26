@@ -13,12 +13,14 @@ nav_rank: 8
   <h2>{{ domain }}</h2>
   <div class="card-container">
     {% for card in site.cards %}
-      {% if card.domains contains domain %}
+      {% if card.domain == domain %}
         <div class="card">
-          <h3 class="card-title">{{ card.title }}</h3>
-          <button class="toggle-button">Expand</button>
+          <div class="card-header">
+            <h3 class="card-title">{{ card.title }}</h3>
+            <button class="toggle-button">Expand</button>
+          </div>
           <div class="card-content">
-            {{ card.teaser }}
+            <p>{{ card.teaser }}</p>
             <!-- Add more content here if needed -->
           </div>
         </div>
@@ -40,6 +42,12 @@ nav_rank: 8
 </script>
 
 <style>
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   .card-content {
     display: none;
   }
@@ -48,3 +56,4 @@ nav_rank: 8
     display: block;
   }
 </style>
+
