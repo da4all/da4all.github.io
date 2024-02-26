@@ -13,7 +13,7 @@ nav_rank: 8
   <h2>{{ domain }}</h2>
   <div class="card-container">
     {% for card in site.cards %}
-      {% if card.domain == domain %}
+      {% if card.domains contains domain %}
         <div class="card">
           <h3 class="card-title">{{ card.title }}</h3>
           <button class="toggle-button">Expand</button>
