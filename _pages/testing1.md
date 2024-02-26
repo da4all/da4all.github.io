@@ -18,7 +18,7 @@ nav_rank: 8
       {% endfor %}
     </select>
 
-    <br>
+    <br> 
 
     <label for="topic-filter">Subdomain:</label>
     <select id="topic-filter">
