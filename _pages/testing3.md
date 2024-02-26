@@ -10,11 +10,11 @@ nav_rank: 8
 <div id="cards-container">
   {% assign cards = site.cards | sort: "title" %}
   
-  {% for domain in site.data.cards.domains %}
+  {% for domain in site.data.cards.domain %}
     <h2>{{ domain }}</h2>
     <div class="domain-cards">
       {% for card in cards %}
-        {% if card.domains contains domain %}
+        {% if card.domain contains domain %}
           <div class="card">
             <h3>{{ card.title }}</h3>
             <div class="card-content" style="display: none;">
