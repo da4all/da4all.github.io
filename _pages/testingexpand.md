@@ -7,6 +7,11 @@ nav: false
 nav_rank: 8
 ---
 
+---
+layout: page
+title: Card List
+---
+
 {% assign domains = site.data.cards.domains %}
 
 {% for domain in domains %}
@@ -15,10 +20,8 @@ nav_rank: 8
     {% for card in site.cards %}
       {% if card.domain == domain %}
         <div class="card">
-          <div class="card-header">
-            <h3 class="card-title">{{ card.title }}</h3>
-            <button class="toggle-button">Expand</button>
-          </div>
+          <h3 class="card-title">{{ card.title }}</h3>
+          <button class="toggle-button">Expand</button>
           <div class="card-content">
             <p>{{ card.teaser }}</p>
             <!-- Add more content here if needed -->
@@ -42,15 +45,15 @@ nav_rank: 8
 </script>
 
 <style>
-  .card-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
   .card-content {
     display: none;
   }
+
+  .card-content.expanded {
+    display: block;
+  }
+</style>
+
 
   .card-content.expanded {
     display: block;
