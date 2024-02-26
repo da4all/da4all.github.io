@@ -25,8 +25,4 @@ profile:
 
 ---
 
-<div class="card-body">
-
 <iframe width="100%" height="1000" src="https://da4asandbox.github.io/curricularsite/assets/pdf/BisexualYarn.pdf" allowfullscreen>iFrame HERE</iframe>
-
-</div>
