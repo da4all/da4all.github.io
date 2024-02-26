@@ -48,9 +48,9 @@ nav_rank: 8
 
     toggleButtons.forEach(button => {
       button.addEventListener('click', () => {
-        const content = button.parentElement.nextElementSibling.querySelector('.expanded-content');
-        content.classList.toggle('expanded');
-        button.textContent = content.classList.contains('expanded') ? 'Collapse' : 'Expand';
+        const cardContent = button.closest('.card').querySelector('.card-body');
+        cardContent.classList.toggle('expanded');
+        button.textContent = cardContent.classList.contains('expanded') ? 'Collapse' : 'Expand';
       });
     });
   });
