@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /testingexpand/
-title: Testing Expandable Cards
+title: Testing Expandable Cards 
 description: 
 nav: false
 nav_rank: 8
