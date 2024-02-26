@@ -33,7 +33,3 @@ profile:
   </sl-button-group>
 </center>
 </div>
-
-<br>
-
-<iframe width="100%" height="1000" src="https://journals.sagepub.com/doi/10.1177/2053951716674238" allowfullscreen>iFrame HERE</iframe>
