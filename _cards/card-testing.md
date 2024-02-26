@@ -2,7 +2,7 @@
 layout: page
 inline: false
 group: Assignment
-domains: 
+domain: 
 - Understanding Data
 - Persuading With Data
 
