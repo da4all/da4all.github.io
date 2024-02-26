@@ -7,71 +7,44 @@ nav: false
 nav_rank: 8
 ---
 
-{% assign cards = site.data.cards %}
+{% assign domains = site.data.cards.domains %}
 
-<style>
-  .card-container {
-    position: sticky;
-    top: 80px; /* Adjust as needed based on your header height */
-    z-index: 1000; /* Ensure it's above other content */
-    background-color: white;
-    padding: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-
-  .card-title {
-    margin-bottom: 5px;
-  }
-
-  .toggle-button {
-    cursor: pointer;
-    margin-left: 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 5px;
-  }
-
-  .toggle-button:hover {
-    background-color: #0056b3;
-  }
-
-  .card-content {
-    display: none;
-    margin-top: 10px;
-  }
-</style>
-
-<div>
-  {% for card in cards %}
+{% for domain in domains %}
+  <h2>{{ domain }}</h2>
   <div class="card-container">
-    <h3 class="card-title">{{ card.title }}</h3>
-    <button class="toggle-button">Expand</button>
+    {% for card in site.cards %}
+      {% if card.domain == domain %}
+        <div class="card">
+          <h3 class="card-title">{{ card.title }}</h3>
+          <button class="toggle-button">Expand</button>
+          <div class="card-content">
+            {{ card.teaser }}
+            <!-- Add more content here if needed -->
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
   </div>
-  <div class="card-content">
-    {{ card.content }}
-  </div>
-  {% endfor %}
-</div>
+{% endfor %}
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const toggleButtons = document.querySelectorAll('.toggle-button');
+  const toggleButtons = document.querySelectorAll('.toggle-button');
 
-    toggleButtons.forEach(button => {
-      button.addEventListener('click', function() {
-        const cardContent = this.parentElement.nextElementSibling;
-        const isCollapsed = cardContent.style.display === 'none';
-
-        if (isCollapsed) {
-          cardContent.style.display = 'block';
-          this.textContent = 'Collapse';
-        } else {
-          cardContent.style.display = 'none';
-          this.textContent = 'Expand';
-        }
-      });
+  toggleButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const content = button.nextElementSibling;
+      content.classList.toggle('expanded');
+      button.textContent = content.classList.contains('expanded') ? 'Collapse' : 'Expand';
     });
   });
 </script>
+
+<style>
+  .card-content {
+    display: none;
+  }
+
+  .card-content.expanded {
+    display: block;
+  }
+</style>
