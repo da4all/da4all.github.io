@@ -8,82 +8,59 @@ nav_rank: 8
 ---
 
 <style>
-.card {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin-bottom: 10px;
-}
+  .card-container {
+    position: sticky;
+    top: 80px; /* Adjust as needed based on your header height */
+    z-index: 1000; /* Ensure it's above other content */
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
 
-.card-title {
-  background-color: #f2f2f2;
-  padding: 10px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  position: sticky;
-  top: 0;
-  z-index: 1;
-}
+  .card-title {
+    margin-bottom: 5px;
+  }
 
-.card-body {
-  padding: 10px;
-}
+  .toggle-button {
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
 
-.card-content {
-  display: none;
-  padding: 10px;
-}
-
-.toggle-button {
-  margin-top: 10px;
-}
+  .toggle-button:hover {
+    background-color: #0056b3;
+  }
 </style>
 
-<div id="cards-container">
-  {% assign cards = site.cards | sort: "title" %}
-  
-  {% for card in cards %}
-    <div class="card">
-      <h3 class="card-title">{{ card.title }}</h3>
-      <div class="card-body">
-        {% if card.profile.author %}
-          <p><small class="test-muted">Author: {{ card.profile.author | replace: '<br />', ', ' }}</small></p>
-        {% endif %}
-        <p class="card-text">{{ card.teaser }}</p>
-        <p class="card-text">
-          {% if card.profile.source %}
-            <small class="test-muted"><i class="fas fa-link"></i> Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a></small><br>
-          {% endif %}
-          <small class="test-muted domain">Domain: {{ card.domain }}</small><br>
-          <small class="test-muted topic">Topic: {{ card.topic }}</small><br>
-          <small class="test-muted group">Group: {{ card.group }}</small><br>
-        </p>
-        <button class="toggle-button">Expand</button>
-        <div class="card-content">
-          {{ card.content }}
-          <button class="collapse-button">Collapse</button>
-        </div>
-      </div>
-    </div>
-  {% endfor %}
+<div class="card-container">
+  <h3 class="card-title">{{ card.title }}</h3>
+  <button class="toggle-button">Expand</button>
+</div>
+<div class="card-content" style="display: none;">
+  {{ card.content }}
 </div>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  const toggleButtons = document.querySelectorAll('.toggle-button');
-  const collapseButtons = document.querySelectorAll('.collapse-button');
+  document.addEventListener('DOMContentLoaded', function() {
+    const toggleButtons = document.querySelectorAll('.toggle-button');
 
-  toggleButtons.forEach(button => {
-    button.addEventListener('click', function() {
-      const cardContent = this.parentElement.querySelector('.card-content');
-      cardContent.style.display = 'block';
+    toggleButtons.forEach(button => {
+      button.addEventListener('click', function() {
+        const cardContent = this.parentElement.nextElementSibling;
+        const isCollapsed = cardContent.style.display === 'none';
+
+        if (isCollapsed) {
+          cardContent.style.display = 'block';
+          this.textContent = 'Collapse';
+        } else {
+          cardContent.style.display = 'none';
+          this.textContent = 'Expand';
+        }
+      });
     });
   });
-
-  collapseButtons.forEach(button => {
-    button.addEventListener('click', function() {
-      const cardContent = this.parentElement;
-      cardContent.style.display = 'none';
-    });
-  });
-});
 </script>
