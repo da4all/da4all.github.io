@@ -36,4 +36,4 @@ profile:
 
 <br>
 
-<iframe width="100%" height="1000" src="https://www.kdnuggets.com/2018/06/what-where-how-data-science.html>iFrame HERE</iframe>
+<iframe width="100%" height="1000" src="https://www.kdnuggets.com/2018/06/what-where-how-data-science.html">iFrame HERE</iframe>
