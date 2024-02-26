@@ -8,8 +8,9 @@ nav_rank: 8
 ---
 
 # Option 1: "Defining Data" + "Reading"
-
+<br>
 <h2>Understanding Data</h2>
+<br>
 <div class="card-container">
   {% for card in site.cards %}
     {% if card.domain == "Understanding Data" and card.group == "Reading" %}
@@ -41,11 +42,11 @@ nav_rank: 8
 </div>
 
 # Option 2: All
-
+<br>
 {% assign domains = site.data.cards.domains %}
 
 {% for domain in domains %}
-  <h2>{{ domain }}</h2>
+  <h2>{{ domain }}</h2><br>
   <div class="card-container">
     {% for card in site.cards %}
       {% if card.domain == domain %}
