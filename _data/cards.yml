@@ -1,6 +1,6 @@
 # This file is where we can establish site-wide variables and metadata that can apply to all cards.
 
-domains: [Understanding Data, Processing Data, Persuading With Data]
+domains: [Understanding Data, Processing Data, Persuading With Data, Example 1]
 subdomains: [Defining Data, Critiquing Data, Acting Ethically with Data, Linking Data and Justice, Collecting Data, Organizing and Cleaning Data, Analyzing and Drawing Insights from Data, Storing and Preserving Data, Appealing with Data, Visualizing Data, Mapping Data, Telling Multi-Modal Stories with Data]
-groups: [Term, Reading, Assignment, Activity, Tutorial, Teaching Module, Dataset, Example of Data Advocacy]
+groups: [Term, Reading, Assignment, Activity, Tutorial, Teaching Module, Dataset, Example of Data Advocacy, Example 1]
 featured_tags: [web, design, development]
