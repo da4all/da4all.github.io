@@ -32,8 +32,8 @@ nav_rank: 8
               {% endif %}
             </p>
             <!-- Expanded content (replace iframe with Markdown content) -->
-            <div class="expanded-content" style="display: none;">
-              {{ content }}
+            <div class="card-content" style="display: none;">
+              {{ card.content }}
             </div>
           </div>
         </div>
