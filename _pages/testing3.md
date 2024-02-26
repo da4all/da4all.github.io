@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /testing/
-title: Testing
+permalink: /testing3/
+title: Testing 3
 description: 
 nav: false
 nav_rank: 8
