@@ -40,7 +40,7 @@ nav_rank: 8
   {% endfor %}
 </div>
 
-# Option 2
+# Option 2: All
 
 {% assign domains = site.data.cards.domains %}
 
