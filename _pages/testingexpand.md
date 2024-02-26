@@ -7,9 +7,7 @@ nav: false
 nav_rank: 8
 ---
 
-# Option 1: "Defining Data" + "Reading"
-<br>
-<h2>Understanding Data</h2>
+# Option 1: Domain: "Understanding Data" + Type: "Reading"
 <br>
 <div class="card-container">
   {% for card in site.cards %}
