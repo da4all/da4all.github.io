@@ -63,8 +63,8 @@ The resources offered under this literacy domain push students to ask critical q
             <p class="card-text">
               <div style="height:1px;font-size:1px;">&nbsp;</div>
               {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i>  Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a> </small><br>{% endif %} 
-              <small class="test-muted topic">Topic: {{ card.topic }}</small><br>
-              <small class="test-muted group">Group: {{ card.group }}</small><br>
+              <small class="test-muted topic">Subdomain: {{ card.topic }}</small><br>
+              <small class="test-muted group">Type of Resource: {{ card.group }}</small><br>
             </p>
           </div>
         </div>
