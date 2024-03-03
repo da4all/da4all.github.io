@@ -18,8 +18,6 @@ The resources offered under this literacy domain push students to ask critical q
 - What rhetorical dimensions of data need to be considered?
 - What is data advocacy? And how can we do data advocacy ethically and responsibly?
 
-<br>
-
 ## Explore the Understanding Data Resources
 
 <div style="background-color: #f2f2f2; padding: 10px;">
@@ -34,6 +32,8 @@ The resources offered under this literacy domain push students to ask critical q
     <option value="Linking Data and Justice">Linking Data and Justice</option>
     </select>
 
+    <br>
+
     <label for="group-filter">Type of Resource:</label>
     <select id="group-filter">
       <option value="all">All</option>
@@ -43,8 +43,6 @@ The resources offered under this literacy domain push students to ask critical q
     </select>
   </div>
 </div>
-
-<br>
 
 <div id="card-list">
 {% assign cards = site.cards | where: "domain", "Understanding Data" | sort: "title" %}
