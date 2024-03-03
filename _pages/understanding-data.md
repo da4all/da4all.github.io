@@ -37,7 +37,8 @@ The resources offered under this literacy domain push students to ask critical q
     <label for="group-filter">Type of Resource:</label>
     <select id="group-filter">
       <option value="all">All</option>
-      {% for group in site.data.cards.groups %}
+      {% assign groups = site.cards | where: "domain", "Understanding Data" | map: "group" | uniq %}
+      {% for group in groups %}
       <option value="{{ group }}">{{ group }}</option>
       {% endfor %}
     </select>
@@ -46,36 +47,41 @@ The resources offered under this literacy domain push students to ask critical q
 
 <div id="card-list">
 {% assign selectedDomain = "Understanding Data" %}
-{% assign topicOptions = site.cards | where: "domain", selectedDomain | map: "topic" | uniq %}
-{% assign groups = site.cards | where: "domain", selectedDomain | map: "group" | uniq %}
-{% for group in groups %}
-  {% assign cards = site.cards | where: "domain", selectedDomain | where: "group", group | sort: "title" %}
-  {% if cards.size > 0 %}
-    <h3><br>{{ group }}</h3>
-    {% for card in cards %}
-      <p>
-        <div class="card {% if card.inline == false %}hoverable{% endif %}">
-          <div class="row no-gutters">
-            <div class="team">
-              <div class="card-body">
-                {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
-                  <h5 class="card-title">{{ card.profile.name }}</h5></a>
-                <p class="card-text">{% if card.profile.author %}<small class="test-muted">Author: {{ card.profile.author | replace: '<br />', ', ' }} </small><br>{% endif %}</p>
-                {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
-                  <p class="card-text">{{ card.teaser }}</p></a>
-                <p class="card-text">
-                  <div style="height:1px;font-size:1px;">&nbsp;</div>
-                  {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i>  Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a> </small><br>{% endif %} 
-                  <small class="test-muted topic">Topic: {{ card.topic }}</small><br>
-                  <small class="test-muted group">Group: {{ card.group }}</small><br>
-                </p>
-              </div>
-            </div>
+{% assign selectedTopic = "all" %}
+{% assign cards = site.cards | where: "domain", selectedDomain | sort: "title" %}
+{% for card in cards %}
+  {% unless selectedTopic != 'all' or card.topic == selectedTopic %}
+    {% continue %}
+  {% endunless %}
+  {% assign cardGroup = card.group %}
+  {% assign groupCards = cards | where: "group", cardGroup %}
+  {% unless selectedGroup == 'all' or cardGroup == selectedGroup %}
+    {% continue %}
+  {% endunless %}
+  {% if forloop.first or cardGroup != cards[forloop.index0 | minus: 1].group %}
+    <h3>{{ cardGroup }}</h3>
+  {% endif %}
+  <p>
+    <div class="card {% if card.inline == false %}hoverable{% endif %}">
+      <div class="row no-gutters">
+        <div class="team">
+          <div class="card-body">
+            {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
+              <h5 class="card-title">{{ card.profile.name }}</h5></a>
+            <p class="card-text">{% if card.profile.author %}<small class="test-muted">Author: {{ card.profile.author | replace: '<br />', ', ' }} </small><br>{% endif %}</p>
+            {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
+              <p class="card-text">{{ card.teaser }}</p></a>
+            <p class="card-text">
+              <div style="height:1px;font-size:1px;">&nbsp;</div>
+              {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i>  Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a> </small><br>{% endif %} 
+              <small class="test-muted topic">Topic: {{ card.topic }}</small><br>
+              <small class="test-muted group">Group: {{ card.group }}</small><br>
+            </p>
           </div>
         </div>
-      </p>
-    {% endfor %}
-  {% endif %}
+      </div>
+    </div>
+  </p>
 {% endfor %}
 </div>
 
