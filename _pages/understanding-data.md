@@ -22,16 +22,6 @@ The resources offered under this literacy domain push students to ask critical q
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
-    
-    <label for="domain-filter">Primary Domain:</label>
-    <select id="domain-filter">
-      <option value="all">All</option>
-      {% for domain in site.data.cards.domains %}
-      <option value="{{ domain }}">{{ domain }}</option>
-      {% endfor %}
-    </select>
-
-    <br>
 
     <label for="topic-filter">Subdomain:</label>
     <select id="topic-filter">
@@ -70,7 +60,6 @@ The resources offered under this literacy domain push students to ask critical q
             <p class="card-text">
               <div style="height:1px;font-size:1px;">&nbsp;</div>
               {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i>  Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a> </small><br>{% endif %} 
-              <small class="test-muted domain">Domain: {{ card.domain }}</small><br>
               <small class="test-muted topic">Topic: {{ card.topic }}</small><br>
               <small class="test-muted group">Group: {{ card.group }}</small><br>
             </p>
@@ -84,26 +73,22 @@ The resources offered under this literacy domain push students to ask critical q
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const domainFilter = document.getElementById('domain-filter');
   const topicFilter = document.getElementById('topic-filter');
   const groupFilter = document.getElementById('group-filter');
   const cards = document.querySelectorAll('.card');
 
   function filterCards() {
-    const selectedDomain = domainFilter.value;
     const selectedTopic = topicFilter.value;
     const selectedGroup = groupFilter.value;
 
     cards.forEach(card => {
-      const domain = card.querySelector('.domain').textContent.trim().replace('Domain: ', '');
       const topic = card.querySelector('.topic').textContent.trim().replace('Topic: ', '');
       const group = card.querySelector('.group').textContent.trim().replace('Group: ', '');
 
-      const domainMatch = selectedDomain === 'all' || domain === selectedDomain;
       const topicMatch = selectedTopic === 'all' || topic === selectedTopic;
       const groupMatch = selectedGroup === 'all' || group === selectedGroup;
 
-      if (domainMatch && topicMatch && groupMatch) {
+      if (topicMatch && groupMatch) {
         card.style.display = 'block';
       } else {
         card.style.display = 'none';
@@ -111,7 +96,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  domainFilter.addEventListener('change', filterCards);
   topicFilter.addEventListener('change', filterCards);
   groupFilter.addEventListener('change', filterCards);
 
