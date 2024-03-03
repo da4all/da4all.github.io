@@ -114,3 +114,9 @@ document.addEventListener('DOMContentLoaded', function() {
   domainFilter.addEventListener('change', filterCards);
   topicFilter.addEventListener('change', filterCards);
   groupFilter.addEventListener('change', filterCards);
+
+  // Initial filtering when the page loads
+  filterCards();
+});
+</script>
+
