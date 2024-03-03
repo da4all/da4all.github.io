@@ -47,7 +47,7 @@ The resources offered under this literacy domain push students to ask critical q
 </div>
 
 <div id="card-list">
-{% assign cards = site.cards | sort: "title" %}
+{% assign cards = site.cards | where: "domain", "Understanding Data" | sort: "title" %}
 
 {% for card in cards %}
   <p>
