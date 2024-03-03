@@ -20,7 +20,7 @@ The resources offered under this literacy domain push students to ask critical q
 - What are different ways we can analyze data to glean useful information?
 - How can we store and preserve data to make it sustainable and accessible?
 
-## Explore the Processing Data Resources
+## Explore the Resources for the "Processing Data" Domain Literacy
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
