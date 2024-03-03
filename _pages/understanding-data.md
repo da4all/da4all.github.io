@@ -18,7 +18,7 @@ The resources offered under this literacy domain push students to ask critical q
 - What rhetorical dimensions of data need to be considered?
 - What is data advocacy? And how can we do data advocacy ethically and responsibly?
 
-## Explore the Understanding Data Resources
+## Explore the Resources for the "Understanding Data" Domain Literacy
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
