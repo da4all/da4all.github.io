@@ -20,7 +20,7 @@ The resources offered under this literacy domain focus on these and other import
 - How can data visualizations and maps be responsibly used to assist our advocacy efforts?
 - How can we tell ethical, effective, and affective data-driven stories to achieve our various rhetorical aims?
 
-## Explore the Resources for the "Persuading with Data" Domain Literacy
+## Explore the Resources for "Persuading with Data"
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
