@@ -44,6 +44,17 @@ The resources offered under this literacy domain push students to ask critical q
   </div>
 </div>
 
+
+{% comment %} 
+{% assign groups = site.cards | sort: "group" | map: "group" | uniq %} 
+{% endcomment %}
+
+{% assign groups = site.cards | sort: "group" | map: "group" | uniq %}
+
+{% for group in groups %}
+
+## {{ group }}
+
 <div id="card-list">
 {% assign cards = site.cards | where: "domain", "Understanding Data" | sort: "title" %}
 
