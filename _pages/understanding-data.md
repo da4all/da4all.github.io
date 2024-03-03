@@ -51,7 +51,7 @@ The resources offered under this literacy domain push students to ask critical q
 {% for group in groups %}
   {% assign cards = site.cards | where: "domain", selectedDomain | where: "group", group | sort: "title" %}
   {% if cards.size > 0 %}
-    <h3>{{ group }}</h3>
+    <h3><br>{{ group }}</h3>
     {% for card in cards %}
       <p>
         <div class="card {% if card.inline == false %}hoverable{% endif %}">
