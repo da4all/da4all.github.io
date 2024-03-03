@@ -37,8 +37,7 @@ The resources offered under this literacy domain push students to ask critical q
     <label for="group-filter">Type of Resource:</label>
     <select id="group-filter">
       <option value="all">All</option>
-      {% assign groups = site.cards | where: "domain", "Understanding Data" | map: "group" | uniq %}
-      {% for group in groups %}
+      {% for group in site.data.cards.groups %}
       <option value="{{ group }}">{{ group }}</option>
       {% endfor %}
     </select>
@@ -46,21 +45,9 @@ The resources offered under this literacy domain push students to ask critical q
 </div>
 
 <div id="card-list">
-{% assign selectedDomain = "Understanding Data" %}
-{% assign selectedTopic = "all" %}
-{% assign cards = site.cards | where: "domain", selectedDomain | sort: "title" %}
+{% assign cards = site.cards | where: "domain", "Understanding Data" | sort: "title" %}
+
 {% for card in cards %}
-  {% unless selectedTopic != 'all' or card.topic == selectedTopic %}
-    {% continue %}
-  {% endunless %}
-  {% assign cardGroup = card.group %}
-  {% assign groupCards = cards | where: "group", cardGroup %}
-  {% unless selectedGroup == 'all' or cardGroup == selectedGroup %}
-    {% continue %}
-  {% endunless %}
-  {% if forloop.first or cardGroup != cards[forloop.index0 | minus: 1].group %}
-    <h3>{{ cardGroup }}</h3>
-  {% endif %}
   <p>
     <div class="card {% if card.inline == false %}hoverable{% endif %}">
       <div class="row no-gutters">
