@@ -49,33 +49,33 @@ The resources offered under this literacy domain push students to ask critical q
 {% assign topicOptions = site.cards | where: "domain", selectedDomain | map: "topic" | uniq %}
 {% assign groups = site.cards | where: "domain", selectedDomain | map: "group" | uniq %}
 {% for group in groups %}
-{% assign cards = site.cards | where: "domain", selectedDomain | where: "group", group | sort: "title" %}
-{% if cards.size > 0 %}
-<h3>{{ group }}</h3>
-{% for card in cards %}
-  <p>
-    <div class="card {% if card.inline == false %}hoverable{% endif %}">
-      <div class="row no-gutters">
-        <div class="team">
-          <div class="card-body">
-            {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
-              <h5 class="card-title">{{ card.profile.name }}</h5></a>
-            <p class="card-text">{% if card.profile.author %}<small class="test-muted">Author: {{ card.profile.author | replace: '<br />', ', ' }} </small><br>{% endif %}</p>
-            {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
-              <p class="card-text">{{ card.teaser }}</p></a>
-            <p class="card-text">
-              <div style="height:1px;font-size:1px;">&nbsp;</div>
-              {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i>  Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a> </small><br>{% endif %} 
-              <small class="test-muted topic">Topic: {{ card.topic }}</small><br>
-              <small class="test-muted group">Group: {{ card.group }}</small><br>
-            </p>
+  {% assign cards = site.cards | where: "domain", selectedDomain | where: "group", group | sort: "title" %}
+  {% if cards.size > 0 %}
+    <h3>{{ group }}</h3>
+    {% for card in cards %}
+      <p>
+        <div class="card {% if card.inline == false %}hoverable{% endif %}">
+          <div class="row no-gutters">
+            <div class="team">
+              <div class="card-body">
+                {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
+                  <h5 class="card-title">{{ card.profile.name }}</h5></a>
+                <p class="card-text">{% if card.profile.author %}<small class="test-muted">Author: {{ card.profile.author | replace: '<br />', ', ' }} </small><br>{% endif %}</p>
+                {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
+                  <p class="card-text">{{ card.teaser }}</p></a>
+                <p class="card-text">
+                  <div style="height:1px;font-size:1px;">&nbsp;</div>
+                  {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i>  Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a> </small><br>{% endif %} 
+                  <small class="test-muted topic">Topic: {{ card.topic }}</small><br>
+                  <small class="test-muted group">Group: {{ card.group }}</small><br>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </p>
-{% endfor %}
-{% endif %}
+      </p>
+    {% endfor %}
+  {% endif %}
 {% endfor %}
 </div>
 
