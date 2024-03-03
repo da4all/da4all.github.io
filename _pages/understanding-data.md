@@ -20,6 +20,28 @@ The resources offered under this literacy domain push students to ask critical q
 
 ## Explore the Understanding Data Resources
 
+---
+layout: page
+permalink: /understanding-data/
+title: Understanding Data
+description: 
+nav: false
+nav_rank: 8
+---
+
+## Overview
+
+“Understanding data” is a crucial literacy domain for helping students develop the critical, ethical, and rhetorical impulses needed to define data; understand its complicated relations to power, privilege, oppression, and liberation; and imagine ethical and responsible ways of working with data toward more just futures.
+
+The resources offered under this literacy domain push students to ask critical questions about data such as:
+- What is “data”?
+- How and why does data ethically matter?
+- What critical habits toward data are important to develop?
+- What rhetorical dimensions of data need to be considered?
+- What is data advocacy? And how can we do data advocacy ethically and responsibly?
+
+## Explore the Understanding Data Resources
+
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
     
@@ -43,17 +65,6 @@ The resources offered under this literacy domain push students to ask critical q
     </select>
   </div>
 </div>
-
-
-{% comment %} 
-{% assign groups = site.cards | sort: "group" | map: "group" | uniq %} 
-{% endcomment %}
-
-{% assign groups = site.cards | sort: "group" | map: "group" | uniq %}
-
-{% for group in groups %}
-
-## {{ group }}
 
 <div id="card-list">
 {% assign cards = site.cards | where: "domain", "Understanding Data" | sort: "title" %}
