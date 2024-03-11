@@ -41,7 +41,7 @@ nav_rank: 10
                     </p>
                 </div></div>
 		<div class="col-sm-4 col-md-5">
-                <img src="{{ '/assets/img/' | append: project.profile.image | relative_url }}" class="card-img img-fluid" alt="{{ project.profile.name }}" />
+                <img src="{{ '/assets/img/' | append: project.profile.image | relative_url }}" class="card-img img-fluid" alt="{{ project.profile.caption }}" />
             </div>
             </div>
         </div>
