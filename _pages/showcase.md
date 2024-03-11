@@ -33,7 +33,9 @@ nav_rank: 10
                     </p>
                     {% if project.inline == false %}</a>{% endif %}
                     <p class="card-text">
-                        <br><small class="test-muted"><i class="fa-solid fa-layer-group"></i> {{ project.profile.address | replace: '<br />', ', ' }}</small> 
+			<br><small class="test-muted"><i class="fa-solid fa-people-group"></i><b>Contributors:</b> {{ project.profile.contributors | replace: '<br />', ', ' }}</small> 
+                        <br><small class="test-muted"><i class="fa-solid fa-layer-group"></i><b>Type of Data Advocacy:</b> {{ project.profile.topic | replace: '<br />', ', ' }}</small> 
+			<br><small class="test-muted"><i class="fa-solid fa-file"></i><b>Medium of Project:</b> {{ project.profile.topic | replace: '<br />', ', ' }}</small> 
                     </p>
                 </div></div>
 		<div class="col-sm-4 col-md-6">
