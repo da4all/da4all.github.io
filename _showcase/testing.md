@@ -11,6 +11,7 @@ teaser: >
   Longer description
 
 profile:
+    name: Example
     filetype: Video
     contributors: Student A
     source: www.google.com
