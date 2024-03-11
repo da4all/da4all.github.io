@@ -24,12 +24,12 @@ nav_rank: 10
 <p>
     <div class="card {% if project.inline == false %}hoverable{% endif %}">
         <div class="row no-gutters">
-            <div class="col-md-6"">
+            <div class="col-sm-4 col-md-3">
                 <img src="{{ '/assets/img/' | append: project.profile.image | relative_url }}" class="card-img img-fluid" alt="{{ project.profile.name }}" />
 		    <p class="card-text">
                         {{ project.profile.caption }}</p>
             </div>
-            <div class="team col-md-6"">
+            <div class="team col-sm-8 col-md-9">
                 <div class="card-body">
                     {% if project.inline == false %}<a href="{{ project.url | relative_url }}">{% endif %}
                     <h5 class="card-title">{{ project.profile.name }}</h5>
