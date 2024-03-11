@@ -12,7 +12,7 @@ teaser: >
   [DESCRIPTION]
 
 profile:
-    name: "[TITLE]"
+    name: "Testing Page"
     group: Reading / Term / Assignment / Activity / Tutorial / Teaching Module / Dataset / Example of Data Advocacy
     domain: 
             <a href="../understanding-data/">Understanding Data</a>
