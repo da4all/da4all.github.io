@@ -76,7 +76,7 @@ With the Data Advocacy for All toolkit, you have either [explore by the resource
                <small class="test-muted">{% if card.profile.source %}<i class="fas fa-link"></i>  Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a></small><br>{% endif %} 
                <small class="test-muted">Domain: {{ card.domain }}</small><br>
                <small class="test-muted">Topic: {{ card.topic }}</small><br>
-               <small class="test-muted">Group: {{ card.group }}</small><br>
+               <small class="test-muted">Group: {{ card.group }}</small><br></p>
           </p>
           </div>
         </div>
