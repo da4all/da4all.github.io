@@ -1,7 +1,7 @@
 ---
 layout: page
 inline: false
-group: Spring 2024
+group: Spring 2024 
 group_rank: 1
 
 title: Covid-19 Versus Education
