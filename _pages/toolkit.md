@@ -71,14 +71,14 @@ With the Data Advocacy for All toolkit, you have either [explore by the resource
             <p class="card-text">{% if card.profile.author %}<small class="test-muted">Author: {{ card.profile.author | replace: '<br />', ', ' }} </small><br>{% endif %}</p>
             {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
               <p class="card-text">{{ card.teaser }}</p></a>
-            <p class="card-text"><small class="test-muted">
+            <p class="card-text">
               <div style="height:1px;font-size:1px;">&nbsp;</div>
-              {% if card.profile.author %}Author: {{ card.profile.author | replace: '<br />', ', ' }} </small><br>{% endif %}
-              {% if card.profile.source %}<i class="fas fa-link"></i>  Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a> </small><br>{% endif %} 
-              Domain: {{ card.domain }}</small><br>
-              Topic: {{ card.topic }}</small><br>
-              Group: {{ card.group }}</small><br>
-          </small></p>
+              <small class="test-muted">{% if card.profile.author %}Author: {{ card.profile.author | replace: '<br />', ', ' }} </small><br>{% endif %}</small>
+              {% if card.profile.source %}<i class="fas fa-link"></i>  Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a><br>{% endif %} 
+              Domain: {{ card.domain }}<br>
+              Topic: {{ card.topic }}<br>
+              Group: {{ card.group }}<br>
+          </p>
           </div>
         </div>
       </div>
