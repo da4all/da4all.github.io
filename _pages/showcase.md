@@ -24,7 +24,7 @@ nav_rank: 10
 <p>
     <div class="card {% if project.inline == false %}hoverable{% endif %}">
         <div class="row no-gutters">
-            <div class="team col-sm-8 col-md-6">
+            <div class="team col-sm-8 col-md-7">
                 <div class="card-body">
                     {% if project.inline == false %}<a href="{{ project.url | relative_url }}">{% endif %}
                     <h5 class="card-title">{{ project.profile.title }}</h5>
@@ -39,7 +39,7 @@ nav_rank: 10
 			{% if card.profile.source %}<br><small class="test-muted"><i class="fa-solid fa-link"></i><b>&nbsp; Also Published Here:</b> {{ project.profile.source | replace: '<br />', ', ' }} {% endif %}
                     </p>
                 </div></div>
-		<div class="col-sm-4 col-md-6">
+		<div class="col-sm-4 col-md-5">
                 <img src="{{ '/assets/img/' | append: project.profile.image | relative_url }}" class="card-img img-fluid" alt="{{ project.profile.name }}" />
             </div>
             </div>
