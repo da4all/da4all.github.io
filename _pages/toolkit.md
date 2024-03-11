@@ -68,7 +68,7 @@ With the Data Advocacy for All toolkit, you have either [explore by the resource
           <div class="card-body">
             {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
               <h5 class="card-title">{{ card.profile.name }}</h5></a>
-            <p class="card-text">{% if card.profile.author %}Author: {{ card.profile.author | replace: '<br />', ', ' }} <br>{% endif %}</p>
+            <p class="card-text">{% if card.profile.author %}Type of Resource: {{ card.profile.group | replace: '<br />', ', ' }} <br>{% endif %}</p>
             {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
               <p class="card-text">{{ card.teaser }}</p></a>
             <p class="card-text">
