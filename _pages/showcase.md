@@ -36,7 +36,7 @@ nav_rank: 10
 			<small class="test-muted"><i class="fa-solid fa-people-group"></i><b>&nbsp;&nbsp; Contributors:</b> {{ project.profile.contributors | replace: '<br />', ', ' }}</small> 
                         <br><small class="test-muted"><i class="fa-solid fa-layer-group"></i><b>&nbsp;&nbsp; Type of Data Advocacy:</b> {{ project.profile.topic | replace: '<br />', ', ' }}</small> 
 			<br><small class="test-muted"><i class="fa-solid fa-file"></i><b>&nbsp;&nbsp; Medium of Project:</b> {{ project.profile.filetype | replace: '<br />', ', ' }}</small> 
-			<br><small class="test-muted"><i class="fa-solid fa-link"></i><b>&nbsp;&nbsp; Related Link:</b> {{ project.profile.filetype | replace: '<br />', ', ' }}</small> 
+			{% if card.profile.source %}<br><small class="test-muted"><i class="fa-solid fa-link"></i><b>&nbsp;&nbsp; Also Published Here:</b> {{ project.profile.source | replace: '<br />', ', ' }}{% endif %}</small> 
                     </p>
                 </div></div>
 		<div class="col-sm-4 col-md-6">
