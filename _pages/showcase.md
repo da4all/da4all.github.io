@@ -28,8 +28,8 @@ nav_rank: 10
         <div class="row no-gutters">
             <div class="col-md-6">
                 <img src="{{ '/assets/img/' | append: project.profile.image | relative_url }}" class="card-img img-fluid" alt="{{ project.profile.name }}" />
-		    <p class="card-text">
-                        {{ project.profile.caption }}</p>
+		    <p class="card-text"><small class="test-muted">
+                        {{ project.profile.caption }}</p></small>
             </div>
             <div class="col-md-6">
                 <div class="card-body">
