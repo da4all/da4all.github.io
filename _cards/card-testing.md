@@ -50,7 +50,7 @@ I think we can do quite a bit with defining metadata for individual cards in teh
 If a. particular card falls within multiple domains/sub-domains. This is listing out the domains based on the frontmatter:
 
 <ul>
-{% for domain in page.domain %}
+{% for domain in page.domains %}
   <li>{{ domain }}</li>
 {% endfor %}
 </ul>
