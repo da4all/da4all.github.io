@@ -11,7 +11,7 @@ teaser: >
   "This video discusses how youth advocates can harness the power of data to create impactful positive social change and healthier lives."
 
 profile:
-    image: thepowerofdatause
+    image: thepowerofdatause.png
     caption: "This image shows a thumbnail of the video."
     filetype: Video
     contributors: UNICEF Group
