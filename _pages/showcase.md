@@ -4,7 +4,7 @@ permalink: /showcase/
 title: Student Projects Showcase
 description: 
 nav: true
-nav_rank: 5
+nav_rank: 10
 ---
 
 {% comment %} 
