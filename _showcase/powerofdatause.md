@@ -21,17 +21,8 @@ profile:
 
 ---
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/themes/light.css" />
-<script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/shoelace.js" ></script>
-
-<div>
-  <center>
-  <sl-button-group label="Alignment">
-  <sl-button href="https://www.youtube.com/watch?v=fvD9boY4vBA&ab_channel=UNICEFData">Watch the video on YouTube</sl-button>
-  </sl-button-group>
-</center>
-</div>
+This is what it would look like when students created videos as part of their presentation.
 
 <br>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fvD9boY4vBA?si=WieLNXuc1Qoo7Wuc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" src="https://www.youtube.com/embed/fvD9boY4vBA?si=WieLNXuc1Qoo7Wuc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
