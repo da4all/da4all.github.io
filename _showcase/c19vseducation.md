@@ -1,7 +1,7 @@
 ---
 layout: page
 inline: false
-group: Education
+group: Spring 2024
 group_rank: 1
 
 title: "Covid-19 Versus Education"
@@ -14,6 +14,7 @@ profile:
     image: onlinelearning.png
     caption: "This image is a graph from the National Center for Education Statistics. The descriptions reads: 'Percentage of schools reporting moving some or all classes to online distance-learning formats, by school control: 2020.' The chart shows 77% for 'Public' and 73% for 'Private.'"
     filetype: Op-Ed
+    topic: Education
     contributors: Student A
     source: https://nces.ed.gov/surveys/annualreports/topical-studies/covid/
     align: right
