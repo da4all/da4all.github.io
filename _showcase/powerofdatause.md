@@ -1,7 +1,7 @@
 ---
 layout: page
 inline: false
-group: Data Storytelling
+group: Spring 2024
 group_rank: 1
 
 title: "The Power of Data Use for Advocacy"
@@ -14,6 +14,7 @@ profile:
     image: thepowerofdatause.png
     caption: "This image shows a thumbnail of the video."
     filetype: Video
+    topic: Data Storytelling
     contributors: UNICEF Group
     source: https://www.youtube.com/watch?v=fvD9boY4vBA&ab_channel=UNICEFData
     align: right
