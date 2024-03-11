@@ -24,4 +24,4 @@ profile:
 
 This is what it would look like when students created videos as part of their presentation.
 
-<iframe width="100%" height="800" src="https://www.youtube.com/embed/fvD9boY4vBA?si=WieLNXuc1Qoo7Wuc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/fvD9boY4vBA?si=WieLNXuc1Qoo7Wuc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
