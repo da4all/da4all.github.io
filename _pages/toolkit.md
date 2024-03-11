@@ -73,6 +73,7 @@ With the Data Advocacy for All toolkit, you have either [explore by the resource
               <p class="card-text">{{ card.teaser }}</p></a>
             <p class="card-text">
               <div style="height:1px;font-size:1px;">&nbsp;</div>
+              {% if card.profile.author %}<small class="test-muted">Author: {{ card.profile.author | replace: '<br />', ', ' }} </small><br>{% endif %} 
               {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i>  Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a> </small><br>{% endif %} 
               <small class="test-muted domain">Domain: {{ card.domain }}</small><br>
               <small class="test-muted topic">Topic: {{ card.topic }}</small><br>
