@@ -25,6 +25,16 @@ With the Data Advocacy for All toolkit, you have either [explore by the resource
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
     
+    <label for="group-filter">Type of Resource:</label>
+    <select id="group-filter">
+      <option value="all">All</option>
+      {% for group in site.data.cards.groups %}
+      <option value="{{ group }}">{{ group }}</option>
+      {% endfor %}
+    </select>
+
+    <br>
+    
     <label for="domain-filter">Primary Domain:</label>
     <select id="domain-filter">
       <option value="all">All</option>
@@ -42,16 +52,7 @@ With the Data Advocacy for All toolkit, you have either [explore by the resource
       <option value="{{ subdomain }}">{{ subdomain }}</option>
       {% endfor %}
     </select>
-
-    <br>
-
-    <label for="group-filter">Type of Resource:</label>
-    <select id="group-filter">
-      <option value="all">All</option>
-      {% for group in site.data.cards.groups %}
-      <option value="{{ group }}">{{ group }}</option>
-      {% endfor %}
-    </select>
+    
   </div>
 </div>
 
