@@ -22,4 +22,4 @@ profile:
 
 ---
 
-<iframe width="100%" height="100%" src="https://nces.ed.gov/surveys/annualreports/topical-studies/covid/)https://nces.ed.gov/surveys/annualreports/topical-studies/covid/" allowfullscreen>iFrame HERE</iframe>
+<iframe width="100%" height="100%" src="https://nces.ed.gov/surveys/annualreports/topical-studies/covid/" allowfullscreen>iFrame HERE</iframe>
