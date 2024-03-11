@@ -1,7 +1,7 @@
 ---
 layout: page
 inline: false
-category: [Climate Change / Racial Justice]
+group: [Climate Change / Racial Justice]
 
 title: "[TITLE]"
 description: "[1-sentence description]"
