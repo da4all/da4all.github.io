@@ -181,6 +181,9 @@ collections:
   cards:
     output: true
     permalink: /cards/:path
+  showcase:
+    output: true
+    permalink: /showcase/:path
 
 announcements:
   enabled: true
