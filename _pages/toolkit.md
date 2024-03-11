@@ -9,7 +9,9 @@ nav_rank: 8
 
 ## Overview
 
-With the Data Advocacy for All toolkit, you can either (1) [explore the resources organized by literacy domain](../literacydomains/)—or you can organize them based on the type of resource below.
+With the Data Advocacy for All toolkit, you can either: 
+1. [explore the resources organized by literacy domain](../literacydomains/)
+2. or organize them by resource, explained and demonstrated below
 
 ### Resource Types
 - **Term:** Terms refer to concepts that are key to each subdomain along with brief definitions and identification of source. Most of the concepts are discussed in the subdomain’s open access readings.
