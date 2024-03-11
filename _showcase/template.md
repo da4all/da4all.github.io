@@ -1,6 +1,7 @@
 ---
 layout: page
 inline: false
+category: [Climate Change / Racial Justice]
 
 title: "[TITLE]"
 description: "[1-sentence description]"
@@ -10,7 +11,6 @@ teaser: >
 
 profile:
     filetype: [Audio / Video]
-    category: [Climate Change / Racial Justice]
     contributors: [AUTHOR FULL NAME]
     source: [URL SOURCE]
     align: right
