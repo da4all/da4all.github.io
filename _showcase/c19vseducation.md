@@ -4,7 +4,7 @@ inline: false
 group: Education
 group_rank: 1
 
-title: Covid-19 Versus Education
+title: "Covid-19 Versus Education"
 description: This essay questions how the covid-19 pandemic impacted education.
 
 teaser: >
