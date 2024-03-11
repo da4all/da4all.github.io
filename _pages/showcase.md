@@ -24,9 +24,6 @@ nav_rank: 10
 <p>
     <div class="card {% if project.inline == false %}hoverable{% endif %}">
         <div class="row no-gutters">
-            <div class="col-sm-4 col-md-6">
-                <img src="{{ '/assets/img/' | append: project.profile.image | relative_url }}" class="card-img img-fluid" alt="{{ project.profile.name }}" />
-            </div>
             <div class="team col-sm-8 col-md-6">
                 <div class="card-body">
                     {% if project.inline == false %}<a href="{{ project.url | relative_url }}">{% endif %}
@@ -39,6 +36,9 @@ nav_rank: 10
                         <br><small class="test-muted"><i class="fas fa-thumbtack"></i> {{ project.profile.address | replace: '<br />', ', ' }}</small> 
                     </p>
                 </div>
+		<div class="col-sm-4 col-md-6">
+                <img src="{{ '/assets/img/' | append: project.profile.image | relative_url }}" class="card-img img-fluid" alt="{{ project.profile.name }}" />
+            </div>
             </div>
         </div>
     </div>
