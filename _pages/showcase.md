@@ -3,7 +3,7 @@ layout: page
 permalink: /showcase/
 title: Showcases
 description: 
-nav: true
+nav: false
 nav_rank: 10
 ---
 
