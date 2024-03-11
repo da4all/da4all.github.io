@@ -1,7 +1,8 @@
 ---
 layout: page
 inline: false
-group: [Climate Change / Racial Justice]
+group: Climate Change
+group_rank: 1
 
 title: "[TITLE]"
 description: "[1-sentence description]"
