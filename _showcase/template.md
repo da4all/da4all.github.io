@@ -4,16 +4,16 @@ inline: false
 group: Climate Change
 group_rank: 1
 
-title: "[TITLE]"
-description: "[1-sentence description]"
+title: title
+description: "1-sentence description"
 
 teaser: >
-  [Longer description]
+  Longer description
 
 profile:
-    filetype: [Audio / Video]
-    contributors: [AUTHOR FULL NAME]
-    source: [URL SOURCE]
+    filetype: Video
+    contributors: Student A
+    source: www.google.com
     align: right
 
 ---
