@@ -4,8 +4,8 @@ inline: false
 group: Climate Change
 group_rank: 1
 
-title: title
-description: "1-sentence description"
+title: Example
+description: 1-sentence description
 
 teaser: >
   Longer description
