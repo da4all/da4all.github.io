@@ -33,7 +33,7 @@ nav_rank: 10
                     </p>
                     {% if project.inline == false %}</a>{% endif %}
                     <p class="card-text">
-                        <br><small class="test-muted"><i class="fas fa-thumbtack"></i> {{ project.profile.address | replace: '<br />', ', ' }}</small> 
+                        <br><small class="test-muted"><i class="fa-solid fa-layer-group"></i> {{ project.profile.address | replace: '<br />', ', ' }}</small> 
                     </p>
                 </div></div>
 		<div class="col-sm-4 col-md-6">
