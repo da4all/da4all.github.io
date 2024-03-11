@@ -26,7 +26,7 @@ profile:
 
 ---
 
-# [Text from "U.S. Education in the Time of Covid"](https://nces.ed.gov/surveys/annualreports/topical-studies/covid/)
+## [Text from "U.S. Education in the Time of Covid"](https://nces.ed.gov/surveys/annualreports/topical-studies/covid/)
 
 Beginning in March 2020, the American education system was confronted with unprecedented challenges as the COVID-19 pandemic caused the closures of many U.S. schools to in-person learning. Schools quickly transitioned to remote learning models, and the most lingering question—for parents, students, and educators—was this: When will U.S. schools re-open for full-time in-person learning?
 
