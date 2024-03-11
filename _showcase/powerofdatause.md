@@ -4,13 +4,14 @@ inline: false
 group: Spring 2024
 group_rank: 1
 
-title: "The Power of Data Use for Advocacy"
+title: The Power of Data Use for Advocacy
 description: This is the first video in the "Adolescent Data Dashboard" series.
 
 teaser: >
   This video discusses how youth advocates can harness the power of data to create impactful positive social change and healthier lives.
 
 profile:
+    title: The Power of Data Use for Advocacy
     image: thepowerofdatause.png
     caption: "This image shows a thumbnail of the video."
     filetype: Video
