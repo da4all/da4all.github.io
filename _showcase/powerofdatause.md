@@ -4,7 +4,7 @@ inline: false
 group: Spring 2024
 group_rank: 1
 
-title: The Power of Data Use for Advocacy
+title: The Power of Data Use for Advocacy 
 description: This is the first video in the "Adolescent Data Dashboard" series.
 
 teaser: >
