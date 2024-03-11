@@ -2,7 +2,7 @@
 layout: page
 permalink: /showcase/
 title: Student Showcase Projects
-description: 
+description: Here is a sample description for this page.
 nav: false
 nav_rank: 8
 ---
