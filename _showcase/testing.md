@@ -12,6 +12,7 @@ teaser: >
 
 profile:
     name: Example
+    image: blevins-profile.jpg
     filetype: Video
     contributors: Student A
     source: www.google.com
