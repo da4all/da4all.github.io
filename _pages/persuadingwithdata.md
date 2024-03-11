@@ -19,6 +19,7 @@ The resources offered under this literacy domain focus on these and other import
 - How can we use data to make emotional, ethical, and logical appeals to help achieve our advocacy aims?
 - How can data visualizations and maps be responsibly used to assist our advocacy efforts?
 - How can we tell ethical, effective, and affective data-driven stories to achieve our various rhetorical aims?
+<br>
 
 ## Explore the Resources for "Persuading with Data"
 
