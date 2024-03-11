@@ -9,23 +9,32 @@ nav_rank: 8
 
 ## Overview
 
-With the Data Advocacy for All toolkit, you have either [explore by the resources organized by literacy domain](../literacydomains/)—or you can organize them based upon the type of resource.
+With the Data Advocacy for All toolkit, you can either (1) [explore the resources organized by literacy domain](../literacydomains/)—or you can organize them based on the type of resource below.
 
 ### Resource Types
+- **Term:** Terms refer to concepts that are key to each subdomain along with brief definitions and identification of source. Most of the concepts are discussed in the subdomain’s open access readings.
 - **Readings:** Readings include open access sources that introduce students to important frameworks, concepts, practices, and strategies for doing data advocacy. A list of closed access content is also included on some occasions.
-- **Glossary:** Glossaries include a list of concepts that are key to each subdomain along with brief definitions and identification of source. Most of the concepts are discussed in the subdomain’s open access readings.
 - **Assignments:** Assignments include formal work that gives students opportunity to learn, practice, and reflect on their experiences with data advocacy. These assignments can also be used to assess student learning in relation to each data literacy domain and subdomain. 
 - **Activities:** Activities include open-access lessons, varying in length and scope, that can be implemented in the classroom to help students hone their abilities to work with data in several literacy domains and subdomains.
 - **Tutorials:** Tutorials include step-by-step instructions for using various open-access digital tools to work with data. All tutorials rely on minimal computing, so no previous computer experience is required.
 - **Teaching Modules:** Teaching Modules include lesson plans that can be taught in sequence to help students gain experience with a particular literacy domain or subdomain. While all modules include readings, glossary, activities, and formal assignments, some modules also include tutorials.
-- **Data Sets:** Data sets are freely accessible collections of information that can be used for inquiry, learning, and/or practice. Some data sets are referenced in activities, assignments, modules, and tutorials, while others are simply listed as potential resources and/or models for data advocacy. 
-  
-<br>
+- **Datasets:** Datasets are freely accessible collections of information that can be used for inquiry, learning, and/or practice. Some datasets are referenced in activities, assignments, modules, and tutorials, while others are simply listed as potential resources and/or models for data advocacy. 
+- **Examples of Data Advocacy:** Examples of Data Advocacy are a collection of projects and advocacy movements that utilize data advocacy to bring about social change. Like the datasets, some of these examples are referenced in activities, assignments, modules, and tutorials, while others are simply listed to further model for data advocacy.
 
 ## Explore the Resources
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
+
+    <label for="group-filter">Type of Resource:</label>
+    <select id="group-filter">
+      <option value="all">All</option>
+      {% for group in site.data.cards.groups %}
+      <option value="{{ group }}">{{ group }}</option>
+      {% endfor %}
+    </select>
+    
+    <br>
     
     <label for="domain-filter">Primary Domain:</label>
     <select id="domain-filter">
@@ -45,15 +54,6 @@ With the Data Advocacy for All toolkit, you have either [explore by the resource
       {% endfor %}
     </select>
 
-    <br>
-
-    <label for="group-filter">Type of Resource:</label>
-    <select id="group-filter">
-      <option value="all">All</option>
-      {% for group in site.data.cards.groups %}
-      <option value="{{ group }}">{{ group }}</option>
-      {% endfor %}
-    </select>
   </div>
 </div>
 
