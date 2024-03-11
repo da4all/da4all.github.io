@@ -20,7 +20,7 @@ profile:
     caption: "This image is a graph from the National Center for Education Statistics. The descriptions reads: 'Percentage of schools reporting moving some or all classes to online distance-learning formats, by school control: 2020.' The chart shows 77% for 'Public' and 73% for 'Private.'"
     filetype: Op-Ed
     topic: Education
-    contributors: Student A, Student B, and Student C
+    contributors: Student A, Student B, Student C, and Student D
     source: https://nces.ed.gov/surveys/annualreports/topical-studies/covid/
     align: right
 
