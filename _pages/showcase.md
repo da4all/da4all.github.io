@@ -35,7 +35,7 @@ nav_rank: 10
                     <p class="card-text">
                         <br><small class="test-muted"><i class="fas fa-thumbtack"></i> {{ project.profile.address | replace: '<br />', ', ' }}</small> 
                     </p>
-                </div>
+                </div></div>
 		<div class="col-sm-4 col-md-6">
                 <img src="{{ '/assets/img/' | append: project.profile.image | relative_url }}" class="card-img img-fluid" alt="{{ project.profile.name }}" />
             </div>
