@@ -14,7 +14,7 @@ children:
     - title: Project CV
       permalink: /cv/
     - title: divider
-    - title: Project Student Project Showcase
+    - title: Student Showcase
       permalink: /showcase/
     - title: divider
     - title: Contact Us
