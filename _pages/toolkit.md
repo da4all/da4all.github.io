@@ -70,9 +70,10 @@ With the Data Advocacy for All toolkit, you have either [explore by the resource
               <h5 class="card-title">{{ card.profile.name }}</h5></a>
             <p class="card-text">{% if card.profile.author %}Author: {{ card.profile.author | replace: '<br />', ', ' }} <br>{% endif %}</p>
             {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
-              <p class="card-text">{{ card.teaser }}</a>
+              <p class="card-text">{{ card.teaser }}</p></a>
+            <p class="card-text">
               <div style="height:1px;font-size:1px;">&nbsp;</div>
-              <small class="test-muted">{% if card.profile.author %}Author: {{ card.profile.author | replace: '<br />', ', ' }} </small><br>{% endif %}
+              <small class="test-muted">{% if card.profile.author %}Author: {{ card.profile.author | replace: '<br />', ', ' }} </small><br>{% endif %}</small>
               {% if card.profile.source %}<i class="fas fa-link"></i>  Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a><br>{% endif %} 
               Domain: {{ card.domain }}<br>
               Topic: {{ card.topic }}<br>
@@ -123,3 +124,4 @@ document.addEventListener('DOMContentLoaded', function() {
   filterCards();
 });
 </script>
+
