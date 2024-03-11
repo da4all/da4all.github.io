@@ -19,8 +19,6 @@ With the Data Advocacy for All toolkit, you have either [explore by the resource
 - **Tutorials:** Tutorials include step-by-step instructions for using various open-access digital tools to work with data. All tutorials rely on minimal computing, so no previous computer experience is required.
 - **Teaching Modules:** Teaching Modules include lesson plans that can be taught in sequence to help students gain experience with a particular literacy domain or subdomain. While all modules include readings, glossary, activities, and formal assignments, some modules also include tutorials.
 - **Data Sets:** Data sets are freely accessible collections of information that can be used for inquiry, learning, and/or practice. Some data sets are referenced in activities, assignments, modules, and tutorials, while others are simply listed as potential resources and/or models for data advocacy. 
-  
-<br>
 
 ## Explore the Resources
 
