@@ -69,7 +69,8 @@ With the Data Advocacy for All toolkit, you can either:
         <div class="team">
           <div class="card-body">
             {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
-              <h5 class="card-title">{{ card.profile.name }}</h5></a>
+            <h5 class="card-title">{{ card.profile.name }}</h5></a>
+            <h6 class="card-title">Type of Resource: {{ card.group }</h6>
             <p class="card-text">{% if card.profile.author %}<small class="test-muted">Author: {{ card.profile.author | replace: '<br />', ', ' }} </small><br>{% endif %}</p>
             {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
               <p class="card-text">{{ card.teaser }}</p></a>
@@ -78,7 +79,6 @@ With the Data Advocacy for All toolkit, you can either:
               {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i>  Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a> </small><br>{% endif %} 
               <small class="test-muted domain">Domain: {{ card.domain }}</small><br>
               <small class="test-muted topic">Topic: {{ card.topic }}</small><br>
-              <small class="test-muted group">Group: {{ card.group }}</small><br>
             </p>
           </div>
         </div>
