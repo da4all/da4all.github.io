@@ -57,14 +57,13 @@ The resources offered under this literacy domain push students to ask critical q
           <div class="card-body">
             {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
               <h5 class="card-title">{{ card.profile.name }}</h5></a>
-            <p class="card-text">{% if card.profile.author %}<small class="test-muted">Author: {{ card.profile.author | replace: '<br />', ', ' }} </small><br>{% endif %}</p>
+            <p class="card-text">{% if card.profile.author %}<small class="test-muted"><i class="fa-solid fa-user"></i>&nbsp; Author: {{ card.profile.author | replace: '<br />', ', ' }} </small><br>{% endif %}</p>
             {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
-              <p class="card-text">{{ card.teaser }}</p></a>
+              <p class="card-text">{{ card.teaser }}<small><br><br></small></p></a>
             <p class="card-text">
-              <div style="height:1px;font-size:1px;">&nbsp;</div>
               {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i>  Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a> </small><br>{% endif %} 
-              <small class="test-muted topic">Subdomain: {{ card.topic }}</small><br>
-              <small class="test-muted group">Type of Resource: {{ card.group }}</small><br>
+              <small class="test-muted topic"><i class="fa-solid fa-diagram-successor"></i>&nbsp; Subdomain: {{ card.topic }}</small><br>
+              <small class="test-muted group"><i class="fa-solid fa-file"></i>&nbsp; Type of Resource: {{ card.group }}</small><br>
             </p>
           </div>
         </div>
