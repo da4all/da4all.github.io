@@ -26,4 +26,17 @@ profile:
 
 ---
 
-<iframe width="100%" height="100%" src="https://nces.ed.gov/surveys/annualreports/topical-studies/covid/" allowfullscreen>iFrame HERE</iframe>
+# [Text from "U.S. Education in the Time of Covid"](https://nces.ed.gov/surveys/annualreports/topical-studies/covid/)
+
+Beginning in March 2020, the American education system was confronted with unprecedented challenges as the COVID-19 pandemic caused the closures of many U.S. schools to in-person learning. Schools quickly transitioned to remote learning models, and the most lingering question—for parents, students, and educators—was this: When will U.S. schools re-open for full-time in-person learning?
+
+The National Center for Education Statistics (NCES) has gathered highlights from a variety of data sources to provide a composite, high-level view of the complex American education landscape since the onset of the pandemic. In this first installment of the pandemic data hub, we provide findings related to
+
+- changes in in-person instruction that have occurred over the last 2 years at both the elementary/secondary level and the postsecondary level;
+- technology assistance that K-12 schools have provided to students and families;
+- social and academic supports that K-12 schools have offered;
+- changes in school staffing that have occurred at K-12 schools; and
+- economic and social impacts on postsecondary students.
+In subsequent installments, we will explore key findings related to how the pandemic has potentially impacted achievement and opportunities to learn.
+
+For more in-depth results underlying the highlights presented here, readers are encouraged to access the reports and dashboards via the links provided in each theme page.
