@@ -12,6 +12,7 @@ teaser: >
 
 profile:
     name: Testing
+    image: blevins-profile.jpg
     filetype: Video
     contributors: Student B
     source: www.google.com
