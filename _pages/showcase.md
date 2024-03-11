@@ -30,7 +30,7 @@ nav_rank: 10
                     <h5 class="card-title">{{ project.profile.title }}</h5>
                     <p class="card-text">
                         {{ project.teaser }}
-			    <small><br></small>
+			    <small><br><br></small>
                     </p>
                     {% if project.inline == false %}</a>{% endif %}
                     <p class="card-text">
