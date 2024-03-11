@@ -11,7 +11,7 @@ teaser: >
   This would theoretically be a "teaser" paragraph explaining what the student project is about.
 
 profile:
-    image: blevins-profile.jpg
+    image: onlinelearning.png
     caption: "This image is a graph from the National CEnter for Education Statistics. The descriptions reads: 'Percentage of schools reporting moving some or all classes to online distance-learning formats, by school control: 2020.' The chart shows 77% for 'Public' and 73% for 'Private.'"
     filetype: Op-Ed
     contributors: Student A
