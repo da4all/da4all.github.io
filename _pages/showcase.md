@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /showcase/
-title: Student Project Showcase
+title: Student Projects Showcase
 description: 
 nav: true
 nav_rank: 5
