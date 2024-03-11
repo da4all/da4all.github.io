@@ -19,7 +19,6 @@ The resources offered under this literacy domain push students to ask critical q
 - What are useful strategies for organizing and cleaning data?
 - What are different ways we can analyze data to glean useful information?
 - How can we store and preserve data to make it sustainable and accessible?
-
 <br>
 
 ## Explore the Resources for "Processing Data"
