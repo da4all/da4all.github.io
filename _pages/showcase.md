@@ -3,7 +3,7 @@ layout: page
 permalink: /showcase/
 title: Student Projects Showcase
 description: 
-nav: false
+nav: true
 nav_rank: 5
 ---
 
@@ -20,7 +20,7 @@ nav_rank: 5
 ## {{ group }}
 
 	{% assign project = site.showcase | sort: "title" | where: "group", group %}
-	{% for project in showcase %}
+	{% for project in project %}
 
 
 <p>
