@@ -7,20 +7,44 @@ nav: false
 nav_rank: 8
 ---
 
-## Overview
-
 Here you can search all Data Advocacy for All resources.
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
+    <label for="group-filter">Type of Resource:</label>
+    <select id="group-filter">
+      <option value="all">All</option>
+      {% for group in site.data.cards.groups %}
+      <option value="{{ group }}">{{ group }}</option>
+      {% endfor %}
+    </select>
+    <br>
+    <label for="domain-filter">Primary Domain:</label>
+    <select id="domain-filter">
+      <option value="all">All</option>
+      {% for domain in site.data.cards.domains %}
+      <option value="{{ domain }}">{{ domain }}</option>
+      {% endfor %}
+    </select>
+    <br>
+    <label for="topic-filter">Subdomain:</label>
+    <select id="topic-filter">
+      <option value="all">All</option>
+      {% for subdomain in site.data.cards.subdomains %}
+      <option value="{{ subdomain }}">{{ subdomain }}</option>
+      {% endfor %}
+    </select>
+    <br>
     <label for="search-input">Search:</label>
     <input type="text" id="search-input" placeholder="Enter search query">
   </div>
 </div>
 
 <div id="card-list">
-  {% assign cards = site.cards | sort: "title" %}
-  {% for card in cards %}
+{% assign cards = site.cards | sort: "title" %}
+
+{% for card in cards %}
+  <p>
     <div class="card" data-domain="{{ card.domain }}" data-topic="{{ card.topic }}" data-group="{{ card.group }}">
       <div class="row no-gutters">
         <div class="team">
@@ -41,21 +65,36 @@ Here you can search all Data Advocacy for All resources.
         </div>
       </div>
     </div>
-  {% endfor %}
+  </p>
+{% endfor %}
 </div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+  const domainFilter = document.getElementById('domain-filter');
+  const topicFilter = document.getElementById('topic-filter');
+  const groupFilter = document.getElementById('group-filter');
   const searchInput = document.getElementById('search-input');
   const cards = document.querySelectorAll('.card');
 
   function filterCards() {
+    const selectedDomain = domainFilter.value;
+    const selectedTopic = topicFilter.value;
+    const selectedGroup = groupFilter.value;
     const searchText = searchInput.value.trim().toLowerCase();
 
     cards.forEach(card => {
-      const cardText = card.textContent.toLowerCase();
+      const domain = card.getAttribute('data-domain').toLowerCase();
+      const topic = card.getAttribute('data-topic').toLowerCase();
+      const group = card.getAttribute('data-group').toLowerCase();
 
-      if (cardText.includes(searchText)) {
+      const domainMatch = selectedDomain === 'all' || domain === selectedDomain;
+      const topicMatch = selectedTopic === 'all' || topic === selectedTopic;
+      const groupMatch = selectedGroup === 'all' || group === selectedGroup;
+      const searchMatch = searchText === '' ||
+        card.textContent.toLowerCase().includes(searchText);
+
+      if (domainMatch && topicMatch && groupMatch && searchMatch) {
         card.style.display = 'block';
       } else {
         card.style.display = 'none';
@@ -63,6 +102,9 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
+  domainFilter.addEventListener('change', filterCards);
+  topicFilter.addEventListener('change', filterCards);
+  groupFilter.addEventListener('change', filterCards);
   searchInput.addEventListener('input', filterCards);
 
   // Initial hiding of all cards
