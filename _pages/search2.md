@@ -1,5 +1,18 @@
 ---
 layout: page
+permalink: /search/
+title: Search Test
+description: 
+nav: false
+nav_rank: 8
+---
+
+## Overview
+
+Here you can search all all ofthe Data Advocacy for All resources.
+
+---
+layout: page
 permalink: /search2/
 title: Search 002
 description: 
@@ -11,55 +24,16 @@ nav_rank: 8
 
 With the Data Advocacy for All toolkit, you can either [explore by the resources organized by literacy domain](../literacydomains/)—or by the type of resource.
 
-### Resource Types
-- **Terms:** Terms refer to concepts that are key to each subdomain along with brief definitions and identification of source. Most of the concepts are discussed in the subdomain’s open access readings.
-- **Readings:** Readings include open access sources that introduce students to important frameworks, concepts, practices, and strategies for doing data advocacy. A list of closed access content is also included on some occasions.
-- **Assignments:** Assignments include formal work that gives students opportunity to learn, practice, and reflect on their experiences with data advocacy. These assignments can also be used to assess student learning in relation to each data literacy domain and subdomain. 
-- **Activities:** Activities include open-access lessons, varying in length and scope, that can be implemented in the classroom to help students hone their abilities to work with data in several literacy domains and subdomains.
-- **Tutorials:** Tutorials include step-by-step instructions for using various open-access digital tools to work with data. All tutorials rely on minimal computing, so no previous computer experience is required.
-- **Teaching Modules:** Teaching Modules include lesson plans that can be taught in sequence to help students gain experience with a particular literacy domain or subdomain. While all modules include readings, glossary, activities, and formal assignments, some modules also include tutorials.
-- **Datasets:** Datasets are freely accessible collections of information that can be used for inquiry, learning, and/or practice. Some datasets are referenced in activities, assignments, modules, and tutorials, while others are simply listed as potential resources and/or models for data advocacy. 
-- **Examples of Data Advocacy:** Examples of Data Advocacy are a collection of projects and advocacy movements that utilize data advocacy to bring about social change. Like the datasets, some of these examples are referenced in activities, assignments, modules, and tutorials, while others are simply listed to further model for data advocacy.
-
-
-## Explore the Resources
-
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
-    <label for="group-filter">Type of Resource:</label>
-    <select id="group-filter">
-      <option value="all">All</option>
-      {% for group in site.data.cards.groups %}
-      <option value="{{ group }}">{{ group }}</option>
-      {% endfor %}
-    </select>
-    <br>
-    <label for="domain-filter">Primary Domain:</label>
-    <select id="domain-filter">
-      <option value="all">All</option>
-      {% for domain in site.data.cards.domains %}
-      <option value="{{ domain }}">{{ domain }}</option>
-      {% endfor %}
-    </select>
-    <br>
-    <label for="topic-filter">Subdomain:</label>
-    <select id="topic-filter">
-      <option value="all">All</option>
-      {% for subdomain in site.data.cards.subdomains %}
-      <option value="{{ subdomain }}">{{ subdomain }}</option>
-      {% endfor %}
-    </select>
-    <br>
     <label for="search-input">Search:</label>
     <input type="text" id="search-input" placeholder="Enter search query">
   </div>
 </div>
 
 <div id="card-list">
-{% assign cards = site.cards | sort: "title" %}
-
-{% for card in cards %}
-  <p>
+  {% assign cards = site.cards | sort: "title" %}
+  {% for card in cards %}
     <div class="card" data-domain="{{ card.domain }}" data-topic="{{ card.topic }}" data-group="{{ card.group }}">
       <div class="row no-gutters">
         <div class="team">
@@ -80,46 +54,28 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
         </div>
       </div>
     </div>
-  </p>
-{% endfor %}
+  {% endfor %}
 </div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const domainFilter = document.getElementById('domain-filter');
-  const topicFilter = document.getElementById('topic-filter');
-  const groupFilter = document.getElementById('group-filter');
   const searchInput = document.getElementById('search-input');
   const cards = document.querySelectorAll('.card');
 
   function filterCards() {
-  const selectedDomain = domainFilter.value;
-  const selectedTopic = topicFilter.value;
-  const selectedGroup = groupFilter.value;
-  const searchText = searchInput.value.trim().toLowerCase();
+    const searchText = searchInput.value.trim().toLowerCase();
 
-  cards.forEach(card => {
-    const domain = card.getAttribute('data-domain').toLowerCase();
-    const topic = card.getAttribute('data-topic').toLowerCase();
-    const group = card.getAttribute('data-group').toLowerCase();
+    cards.forEach(card => {
+      const cardText = card.textContent.toLowerCase();
 
-    const domainMatch = selectedDomain === 'all' || domain === selectedDomain;
-    const topicMatch = selectedTopic === 'all' || topic === selectedTopic;
-    const groupMatch = selectedGroup === 'all' || group === selectedGroup;
-    const searchMatch = searchText === '' ||
-      card.textContent.toLowerCase().includes(searchText);
+      if (cardText.includes(searchText)) {
+        card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
 
-    if (domainMatch && topicMatch && groupMatch && searchMatch) {
-      card.style.display = 'block';
-    } else {
-      card.style.display = 'none';
-    }
-  });
-}
-
-  domainFilter.addEventListener('change', filterCards);
-  topicFilter.addEventListener('change', filterCards);
-  groupFilter.addEventListener('change', filterCards);
   searchInput.addEventListener('input', filterCards);
 
   // Initial hiding of all cards
