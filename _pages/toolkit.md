@@ -68,7 +68,6 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
           <div class="card-body">
             {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
               <h5 class="card-title">{{ card.profile.name }}</h5></a>
-            <p class="card-text"><b>Type of Resource:</b> {{ card.profile.group | replace: '<br />', ', ' }} <br></p>
             {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
               <p class="card-text">{{ card.teaser }}<small><br><br></small></p></a>
             <p class="card-text">
