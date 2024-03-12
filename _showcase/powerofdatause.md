@@ -18,7 +18,8 @@ profile:
     title: The Power of Data Use for Advocacy
     image: thepowerofdatause.png
     caption: "This image shows a thumbnail of the video."
-    filetype: Video
+    genre: Educational Video
+    filetype: .mp4
     topic: Data Storytelling
     contributors: UNICEF Group
     source: https://www.youtube.com/watch?v=fvD9boY4vBA&ab_channel=UNICEFData
