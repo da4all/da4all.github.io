@@ -27,16 +27,6 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
     
-    <label for="group-filter">Type of Resource:</label>
-    <select id="group-filter">
-      <option value="all">All</option>
-      {% for group in site.data.cards.groups %}
-      <option value="{{ group }}">{{ group }}</option>
-      {% endfor %}
-    </select>
-
-    <br>
-    
     <label for="domain-filter">Primary Domain:</label>
     <select id="domain-filter">
       <option value="all">All</option>
@@ -54,7 +44,16 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
       <option value="{{ subdomain }}">{{ subdomain }}</option>
       {% endfor %}
     </select>
-    
+
+    <br>
+
+    <label for="group-filter">Type of Resource:</label>
+    <select id="group-filter">
+      <option value="all">All</option>
+      {% for group in site.data.cards.groups %}
+      <option value="{{ group }}">{{ group }}</option>
+      {% endfor %}
+    </select>
   </div>
 </div>
 
@@ -99,8 +98,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     cards.forEach(card => {
       const domain = card.querySelector('.domain').textContent.trim().replace('Domain: ', '');
-      const topic = card.querySelector('.topic').textContent.trim().replace('Subdomain: ', '');
-      const group = card.querySelector('.card-text b').textContent.trim().replace('Type of Resource: ', '');
+      const topic = card.querySelector('.topic').textContent.trim().replace('Topic: ', '');
+      const group = card.querySelector('.group').textContent.trim().replace('Group: ', '');
 
       const domainMatch = selectedDomain === 'all' || domain === selectedDomain;
       const topicMatch = selectedTopic === 'all' || topic === selectedTopic;
@@ -121,3 +120,4 @@ document.addEventListener('DOMContentLoaded', function() {
   // Initial filtering when the page loads
   filterCards();
 });
+</script>
