@@ -26,6 +26,7 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
+    
     <label for="group-filter">Type of Resource:</label>
     <select id="group-filter">
       <option value="all">All</option>
@@ -33,7 +34,9 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
       <option value="{{ group }}">{{ group }}</option>
       {% endfor %}
     </select>
+
     <br>
+    
     <label for="domain-filter">Primary Domain:</label>
     <select id="domain-filter">
       <option value="all">All</option>
@@ -41,7 +44,9 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
       <option value="{{ domain }}">{{ domain }}</option>
       {% endfor %}
     </select>
+
     <br>
+
     <label for="topic-filter">Subdomain:</label>
     <select id="topic-filter">
       <option value="all">All</option>
@@ -49,9 +54,7 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
       <option value="{{ subdomain }}">{{ subdomain }}</option>
       {% endfor %}
     </select>
-    <br>
-    <label for="search-input">Search:</label>
-    <input type="text" id="search-input" placeholder="Enter search query">
+    
   </div>
 </div>
 
@@ -60,22 +63,20 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
 
 {% for card in cards %}
   <p>
-    <div class="card" data-domain="{{ card.domain }}" data-topic="{{ card.topic }}" data-group="{{ card.group }}">
+    <div class="card {% if card.inline == false %}hoverable{% endif %}">
       <div class="row no-gutters">
         <div class="team">
           <div class="card-body">
-            <a href="{{ card.url | relative_url }}">
-              <h5 class="card-title">{{ card.profile.name }}</h5>
-            </a>
+            {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
+              <h5 class="card-title">{{ card.profile.name }}</h5></a>
             <p class="card-text"><b>Type of Resource:</b> {{ card.profile.group | replace: '<br />', ', ' }} <br></p>
-            <a href="{{ card.url | relative_url }}">
-              <p class="card-text">{{ card.teaser }}<small><br><br></small></p>
-            </a>
+            {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
+              <p class="card-text">{{ card.teaser }}<small><br><br></small></p></a>
             <p class="card-text">
               {% if card.profile.author %}<small class="test-muted"><i class="fa-solid fa-user"></i>&nbsp; Author: {{ card.profile.author | replace: '<br />', ', ' }} </small><br>{% endif %}
               {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i>&nbsp; Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a></small><br>{% endif %} 
               <small class="test-muted"><i class="fa-solid fa-diagram-predecessor"></i>&nbsp; Domain: {{ card.domain }} &nbsp;;&nbsp; <i class="fa-solid fa-diagram-successor"></i>&nbsp; Subdomain: {{ card.topic }}</small><br>
-            </p>
+          </p>
           </div>
         </div>
       </div>
@@ -89,27 +90,23 @@ document.addEventListener('DOMContentLoaded', function() {
   const domainFilter = document.getElementById('domain-filter');
   const topicFilter = document.getElementById('topic-filter');
   const groupFilter = document.getElementById('group-filter');
-  const searchInput = document.getElementById('search-input');
   const cards = document.querySelectorAll('.card');
 
   function filterCards() {
     const selectedDomain = domainFilter.value;
     const selectedTopic = topicFilter.value;
     const selectedGroup = groupFilter.value;
-    const searchText = searchInput.value.trim().toLowerCase();
 
     cards.forEach(card => {
-      const domain = card.getAttribute('data-domain').toLowerCase();
-      const topic = card.getAttribute('data-topic').toLowerCase();
-      const group = card.getAttribute('data-group').toLowerCase();
+      const domain = card.querySelector('.domain').textContent.trim().replace('Domain: ', '');
+      const topic = card.querySelector('.topic').textContent.trim().replace('Topic: ', '');
+      const group = card.querySelector('.group').textContent.trim().replace('Group: ', '');
 
       const domainMatch = selectedDomain === 'all' || domain === selectedDomain;
       const topicMatch = selectedTopic === 'all' || topic === selectedTopic;
       const groupMatch = selectedGroup === 'all' || group === selectedGroup;
-      const searchMatch = searchText === '' ||
-        card.textContent.toLowerCase().includes(searchText);
 
-      if (domainMatch && topicMatch && groupMatch && searchMatch) {
+      if (domainMatch && topicMatch && groupMatch) {
         card.style.display = 'block';
       } else {
         card.style.display = 'none';
@@ -120,14 +117,9 @@ document.addEventListener('DOMContentLoaded', function() {
   domainFilter.addEventListener('change', filterCards);
   topicFilter.addEventListener('change', filterCards);
   groupFilter.addEventListener('change', filterCards);
-  searchInput.addEventListener('input', filterCards);
-
-  // Initial hiding of all cards
-  cards.forEach(card => {
-    card.style.display = 'none';
-  });
 
   // Initial filtering when the page loads
   filterCards();
 });
 </script>
+
