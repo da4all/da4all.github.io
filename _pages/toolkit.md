@@ -114,6 +114,11 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
+  // Hide all cards initially
+  cards.forEach(card => {
+    card.style.display = 'none';
+  });
+
   domainFilter.addEventListener('change', filterCards);
   topicFilter.addEventListener('change', filterCards);
   groupFilter.addEventListener('change', filterCards);
@@ -122,4 +127,3 @@ document.addEventListener('DOMContentLoaded', function() {
   filterCards();
 });
 </script>
-
