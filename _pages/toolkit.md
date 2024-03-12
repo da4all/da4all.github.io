@@ -62,8 +62,7 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
 {% assign cards = site.cards | sort: "title" %}
 
 {% for card in cards %}
-  {% comment %} Hide each card by default {% endcomment %}
-  <p style="display: none;">
+  <p>
     <div class="card {% if card.inline == false %}hoverable{% endif %}">
       <div class="row no-gutters">
         <div class="team">
@@ -108,9 +107,9 @@ document.addEventListener('DOMContentLoaded', function() {
       const groupMatch = selectedGroup === 'all' || group === selectedGroup;
 
       if (domainMatch && topicMatch && groupMatch) {
-        card.parentElement.style.display = 'block'; // Display the parent of the card (the <p> element)
+        card.style.display = 'block';
       } else {
-        card.parentElement.style.display = 'none';
+        card.style.display = 'none';
       }
     });
   }
@@ -123,3 +122,4 @@ document.addEventListener('DOMContentLoaded', function() {
   filterCards();
 });
 </script>
+
