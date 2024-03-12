@@ -9,20 +9,7 @@ nav_rank: 8
 
 ## Overview
 
-Here you can search all all ofthe Data Advocacy for All resources.
-
----
-layout: page
-permalink: /search2/
-title: Search 002
-description: 
-nav: false
-nav_rank: 8
----
-
-## Overview
-
-With the Data Advocacy for All toolkit, you can either [explore by the resources organized by literacy domain](../literacydomains/)—or by the type of resource.
+Here you can search all Data Advocacy for All resources.
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
