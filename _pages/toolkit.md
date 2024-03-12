@@ -68,14 +68,16 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
           <div class="card-body">
             {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
               <h5 class="card-title">{{ card.profile.name }}</h5></a>
-            <p class="card-text"><b>Type of Resource:</b> {{ card.profile.group | replace: '<br />', ', ' }} <br></p>
+            <p class="card-text">{% if card.profile.author %}<small class="test-muted">Author: {{ card.profile.author | replace: '<br />', ', ' }} </small><br>{% endif %}</p>
             {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
-              <p class="card-text">{{ card.teaser }}<small><br><br></small></p></a>
+              <p class="card-text">{{ card.teaser }}</p></a>
             <p class="card-text">
-              {% if card.profile.author %}<small class="test-muted"><i class="fa-solid fa-user"></i>&nbsp; Author: {{ card.profile.author | replace: '<br />', ', ' }} </small><br>{% endif %}
-              {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i>&nbsp; Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a></small><br>{% endif %} 
-              <small class="test-muted"><i class="fa-solid fa-diagram-predecessor"></i>&nbsp; Domain: {{ card.domain }} &nbsp;;&nbsp; <i class="fa-solid fa-diagram-successor"></i>&nbsp; Subdomain: {{ card.topic }}</small><br>
-          </p>
+              <div style="height:1px;font-size:1px;">&nbsp;</div>
+              {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i>  Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a> </small><br>{% endif %} 
+              <small class="test-muted domain">Domain: {{ card.domain }}</small><br>
+              <small class="test-muted topic">Topic: {{ card.topic }}</small><br>
+              <small class="test-muted group">Group: {{ card.group }}</small><br>
+            </p>
           </div>
         </div>
       </div>
