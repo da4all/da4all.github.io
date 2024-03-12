@@ -62,7 +62,8 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
 {% assign cards = site.cards | sort: "title" %}
 
 {% for card in cards %}
-  <p>
+  {% comment %} Hide each card by default {% endcomment %}
+  <p style="display: none;">
     <div class="card {% if card.inline == false %}hoverable{% endif %}">
       <div class="row no-gutters">
         <div class="team">
@@ -107,17 +108,12 @@ document.addEventListener('DOMContentLoaded', function() {
       const groupMatch = selectedGroup === 'all' || group === selectedGroup;
 
       if (domainMatch && topicMatch && groupMatch) {
-        card.style.display = 'block';
+        card.parentElement.style.display = 'block'; // Display the parent of the card (the <p> element)
       } else {
-        card.style.display = 'none';
+        card.parentElement.style.display = 'none';
       }
     });
   }
-
-  // Hide all cards initially
-  cards.forEach(card => {
-    card.style.display = 'none';
-  });
 
   domainFilter.addEventListener('change', filterCards);
   topicFilter.addEventListener('change', filterCards);
