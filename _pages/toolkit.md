@@ -98,9 +98,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const selectedGroup = groupFilter.value;
 
     cards.forEach(card => {
-      const domain = card.querySelector('.domain').textContent.trim().replace('Domain: ', '');
-      const topic = card.querySelector('.topic').textContent.trim().replace('Topic: ', '');
-      const group = card.querySelector('.group').textContent.trim().replace('Group: ', '');
+      const domain = card.getAttribute('data-domain');
+      const topic = card.getAttribute('data-topic');
+      const group = card.getAttribute('data-group');
 
       const domainMatch = selectedDomain === 'all' || domain === selectedDomain;
       const topicMatch = selectedTopic === 'all' || topic === selectedTopic;
@@ -118,8 +118,14 @@ document.addEventListener('DOMContentLoaded', function() {
   topicFilter.addEventListener('change', filterCards);
   groupFilter.addEventListener('change', filterCards);
 
+  // Initial hiding of all cards
+  cards.forEach(card => {
+    card.style.display = 'none';
+  });
+
   // Initial filtering when the page loads
   filterCards();
 });
 </script>
+
 
