@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const topic = card.querySelector('.topic').textContent.trim().replace('Topic: ', '');
       const group = card.querySelector('.group').textContent.trim().replace('Group: ', '');
 
-      const domainMatch = selectedDomain === 'all' || domain === selectedDomain;
+      const domainMatch = selectedDomain === 'all' || domain.includes(selectedDomain);
       const topicMatch = selectedTopic === 'all' || topic === selectedTopic;
       const groupMatch = selectedGroup === 'all' || group === selectedGroup;
 
@@ -106,4 +106,3 @@ document.addEventListener('DOMContentLoaded', function() {
   filterCards();
 });
 </script>
-
