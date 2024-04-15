@@ -82,8 +82,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     cards.forEach(card => {
       const domain = card.querySelector('.domain').textContent.trim().replace('Domain: ', '');
-      const topic = card.querySelector('.topic').textContent.trim().replace('Subdomain: ', ''); // Updated to match Subdomain
-      const group = card.querySelector('.group').textContent.trim().replace('Type of Resource: ', ''); // Updated to match Type of Resource
+      const topic = card.querySelector('.topic').textContent.trim().replace('Subdomain: ', ''); 
+      const group = card.querySelector('.group').textContent.trim().replace('Type of Resource: ', ''); 
 
       const domainMatch = selectedDomain === 'all' || domain === selectedDomain;
       const topicMatch = selectedTopic === 'all' || topic === selectedTopic;
