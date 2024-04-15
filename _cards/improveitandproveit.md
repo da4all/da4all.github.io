@@ -19,6 +19,8 @@ profile:
     subdomain: <a href="../visualizing-data/">Visualizing Data</a>
     source: 
     author: 
+    date: 
+    license: 
     align: right
 
 ---
