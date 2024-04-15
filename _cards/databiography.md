@@ -19,6 +19,8 @@ profile:
     subdomain: <a href="../analyzing-and-drawing-insights-from-data/">Analyzing and Drawing Insights from Data</a>
     source: 
     author: 
+    date: 
+    license: 
     align: right
 
 ---
