@@ -76,7 +76,6 @@ document.addEventListener('DOMContentLoaded', function() {
   const domainFilter = document.getElementById('domain-filter');
   const topicFilter = document.getElementById('topic-filter');
   const groupFilter = document.getElementById('group-filter');
-  const cards = document.querySelectorAll('.card');
   const cardsContainer = document.getElementById('cards-container');
   const paginationContainer = document.getElementById('pagination');
   const cardsPerPage = 6; // Adjust the number of cards per page as needed
@@ -87,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const selectedTopic = topicFilter.value;
     const selectedGroup = groupFilter.value;
 
-    const filteredCards = Array.from(cards).filter(card => {
+    const filteredCards = Array.from(cardsContainer.querySelectorAll('.card')).filter(card => {
       const domain = card.querySelector('.domain').textContent.trim().replace('Domain: ', '');
       const topic = card.querySelector('.topic').textContent.trim().replace('Subdomain: ', ''); 
       const group = card.querySelector('.group').textContent.trim().replace('Type of Resource: ', ''); 
@@ -124,7 +123,7 @@ document.addEventListener('DOMContentLoaded', function() {
       button.textContent = i;
       button.addEventListener('click', function() {
         currentPage = i;
-        displayCards(cards, currentPage);
+        filterCards(); // Update the cards when a pagination button is clicked
       });
       paginationContainer.appendChild(button);
     }
