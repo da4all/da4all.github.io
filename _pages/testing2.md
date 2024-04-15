@@ -11,10 +11,8 @@ nav_rank: 8
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Search Page</title>
 </head>
 <body>
-  <h1>Search Page</h1>
 
   <!-- Search input field -->
   <input type="text" id="searchInput" placeholder="Search...">
