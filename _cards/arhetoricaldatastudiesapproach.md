@@ -19,6 +19,8 @@ profile:
     subdomain: <a href="../defining-data/">Defining Data</a>
     source: 
     author: Laurie Gries
+    date: 
+    license: 
     align: right
 
 ---
