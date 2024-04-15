@@ -59,7 +59,7 @@ nav_rank: 8
               {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i> Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a></small><br>{% endif %}
               <small class="test-muted domain"><i class="fa-solid fa-square"></i>&nbsp; Domain: {{ card.domain }}</small><br>
               <small class="test-muted topic"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ card.topic }}</small><br>
-              <small class="test-muted group"><i class="fa-solid fa-file"></i>&nbsp; Group: {{ card.group }}</small><br>
+              <small class="test-muted group"><i class="fa-solid fa-file"></i>&nbsp; Type of Group: {{ card.group }}</small><br>
             </p>
           </div>
         </div>
