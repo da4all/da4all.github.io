@@ -19,6 +19,8 @@ profile:
     subdomain: <a href="../defining-data/">Defining Data</a>
     source: https://markcarrigan.net/2016/09/12/the-history-of-data-as-rhetoric/
     author: Mark Carrigan
+    date: 
+    license: 
     align: right
 
 ---
