@@ -19,6 +19,8 @@ profile:
     subdomain: <a href="../defining-data/">Defining Data</a>
     source: https://marketbusinessnews.com/financial-glossary/data-definitio/
     author: Market Business News
+    date: 
+    license: 
     align: right
 
 ---
