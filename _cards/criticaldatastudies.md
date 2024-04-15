@@ -19,6 +19,8 @@ profile:
     subdomain: <a href="../defining-data/">Defining Data</a>
     source: https://journals.sagepub.com/doi/10.1177/2053951716674238
     author: Andrew Iliadis and Federica Russo
+    date: 
+    license: 
     align: right
 
 ---
