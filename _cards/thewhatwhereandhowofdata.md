@@ -19,6 +19,8 @@ profile:
     subdomain: <a href="../defining-data/">Defining Data</a>
     source: https://www.kdnuggets.com/2018/06/what-where-how-data-science.html
     author: Iliya Valchanov
+    date: 
+    license: 
     align: right
 
 ---
