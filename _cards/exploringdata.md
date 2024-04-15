@@ -14,13 +14,15 @@ teaser: >
  
 
 profile:
-  name: "Exploring Data"
-  group: Assignment
-  domain: <a href="../processing-data/">Processing Data</a>
-  subdomain: <a href="../analyzing-and-drawing-insights-from-data/">Analyzing and Drawing Insights from Data</a>
-  source: 
-  author: 
-  align: right
+    name: "Exploring Data"
+    group: Assignment
+    domain: <a href="../processing-data/">Processing Data</a>
+    subdomain: <a href="../analyzing-and-drawing-insights-from-data/">Analyzing and Drawing Insights from Data</a>
+    source: 
+    author: 
+    date: 
+    license: 
+    align: right
 
 ---
 
