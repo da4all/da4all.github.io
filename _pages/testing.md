@@ -7,7 +7,7 @@ nav: false
 nav_rank: 8
 ---
 
-## Testing 16
+## Testing 17
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', function() {
       button.textContent = i;
       button.addEventListener('click', function() {
         currentPage = i;
-        filterCards(); // Update the cards when a pagination button is clicked
+        displayCards(Array.from(cardsContainer.querySelectorAll('.card')), currentPage);
       });
       paginationContainer.appendChild(button);
     }
