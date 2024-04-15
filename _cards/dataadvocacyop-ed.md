@@ -19,6 +19,8 @@ profile:
     subdomain: <a href="../appealing-with-data/">Appealing with Data</a>
     source: 
     author: 
+    date: 
+    license: 
     align: right
 
 ---
