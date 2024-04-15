@@ -19,6 +19,8 @@ profile:
     subdomain: <a href="../defining-data/">Defining Data</a>
     source: https://www.theguardian.com/technology/2020/mar/21/catherine-dignazio-data-is-never-a-raw-truthful-input-and-it-is-never-neutral
     author: Zoë Corbyn
+    date: 
+    license: 
     align: right
 
 ---
