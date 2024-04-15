@@ -52,16 +52,17 @@ nav_rank: 8
           <div class="card-body">
             {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
               <h5 class="card-title">{{ card.profile.name }}</h5></a>
-            <p class="card-text"><small class="test-muted">{% if card.profile.date %}<i class="fa-solid fa-calendar"></i>&nbsp; Date: {{ card.profile.date | replace: '<br />', ', ' }}{% endif %}<br>
+            <p class="card-text"><small class="test-muted">{% if card.profile.date %}<i class="fa-solid fa-calendar"></i>&nbsp; Date: {{ card.profile.date | replace: '<br />', ', ' }}<br>{% endif %}
             {% if card.profile.author %}<i class="fa-solid fa-user"></i>&nbsp; Author: {{ card.profile.author | replace: '<br />', ', ' }}{% endif %}</small></p>
             {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
               <p class="card-text">{{ card.teaser }}</p></a>
             <p class="card-text"><br>
-              {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i> Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a></small><br>{% endif %}
+              {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i> Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a></small>
+              {% if card.profile.license %}<small class="test-muted group"><i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ card.profile.license }}</small><br>{% endif %}<br>{% endif %}
+              <hr class="solid">
               <small class="test-muted domain"><i class="fa-solid fa-square"></i>&nbsp; Domain: {{ card.domain }}</small><br>
               <small class="test-muted topic"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ card.topic }}</small><br>
               <small class="test-muted group"><i class="fa-solid fa-file"></i>&nbsp; Type of Resource: {{ card.group }}</small><br>
-              {% if card.profile.license %}<small class="test-muted group"><i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ card.profile.license }}</small><br>{% endif %}
             </p>
           </div>
         </div>
