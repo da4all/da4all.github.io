@@ -7,7 +7,7 @@ nav: false
 nav_rank: 8
 ---
 
-## Testing 20
+## Testing 21
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -56,12 +56,12 @@ nav_rank: 8
             {% if card.profile.author %}<i class="fa-solid fa-user"></i>&nbsp; Author: {{ card.profile.author | replace: '<br />', ', ' }}{% endif %}</small></p>
             {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
               <p class="card-text">{{ card.teaser }}</p></a>
-            <p class="card-text"><br>
-              {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i> Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a></small>
-              {% if card.profile.license %}<small class="test-muted group"><i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ card.profile.license }}</small><br>{% endif %}<br>{% endif %}
+            <p class="card-text">
+              {% if card.profile.source %}<br><small class="test-muted"><i class="fas fa-link"></i> Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a></small>
+              {% if card.profile.license %}<br><small class="test-muted group"><i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ card.profile.license }}</small><br>{% endif %}{% endif %}
             </p>
               <hr class="solid">
-            <p class="card-text"><br>
+            <p class="card-text">
               <small class="test-muted domain"><i class="fa-solid fa-square"></i>&nbsp; Domain: {{ card.domain }}</small><br>
               <small class="test-muted topic"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ card.topic }}</small><br>
               <small class="test-muted group"><i class="fa-solid fa-file"></i>&nbsp; Type of Resource: {{ card.group }}</small><br>
