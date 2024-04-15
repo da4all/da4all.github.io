@@ -20,6 +20,8 @@ profile:
     subdomain: <a href="../defining-data/">Defining Data</a>
     source: https://resultslab.com/blog-foundations-of-data-equity/#1674152295196-987e18dd-deaa
     author: Marcus Gaddy and Kassie Scott
+    date: 
+    license: 
     align: right
 
 ---
