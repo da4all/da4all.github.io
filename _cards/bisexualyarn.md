@@ -21,6 +21,8 @@ profile:
             <a href="../visualizing-data/">Visualizing Data</a>
     source: 
     author: Lore Whittemore
+    date: 
+    license: 
     align: right
 
 ---
