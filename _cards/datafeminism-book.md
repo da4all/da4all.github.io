@@ -26,6 +26,8 @@ profile:
     subdomain: <a href="../defining-data/">Defining Data</a>
     source: https://data-feminism.mitpress.mit.edu/
     author: Catherine D’Ignazio and Lauren F. Klein
+    date: 
+    license: 
     align: right
 
 ---
