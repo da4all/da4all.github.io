@@ -19,6 +19,8 @@ profile:
     subdomain: <a href="../collecting-data/">Collecting Data</a>
     source: 
     author: 
+    date: 
+    license: 
     align: right
 
 ---
