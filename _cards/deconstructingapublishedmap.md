@@ -19,6 +19,8 @@ profile:
     subdomain: <a href="../mapping-data/">Mapping Data</a>
     source: 
     author: 
+    date: 
+    license: 
     align: right
 
 ---
