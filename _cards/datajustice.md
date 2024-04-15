@@ -19,6 +19,8 @@ profile:
     subdomain: <a href="../linking-data-and-justice/">Linking Data and Justice</a>
     source: 
     author: 
+    date: 
+    license: 
     align: right
 
 ---
