@@ -7,7 +7,7 @@ nav: false
 nav_rank: 8
 ---
 
-## Testing 11
+## Testing 14
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -59,7 +59,7 @@ nav_rank: 8
               {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i> Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a></small><br>{% endif %}
               <small class="test-muted domain"><i class="fa-solid fa-square"></i>&nbsp; Domain: {{ card.domain }}</small><br>
               <small class="test-muted topic"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ card.topic }}</small><br>
-              <small class="test-muted group"><i class="fa-solid fa-file"></i>&nbsp; Type of Group: {{ card.group }}</small><br>
+              <small class="test-muted group"><i class="fa-solid fa-file"></i>&nbsp; Type of Resource: {{ card.group }}</small><br>
             </p>
           </div>
         </div>
@@ -82,8 +82,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     cards.forEach(card => {
       const domain = card.querySelector('.domain').textContent.trim().replace('Domain: ', '');
-      const topic = card.querySelector('.topic').textContent.trim().replace('Topic: ', '');
-      const group = card.querySelector('.group').textContent.trim().replace('Group: ', '');
+      const topic = card.querySelector('.topic').textContent.trim().replace('Subdomain: ', ''); // Updated to match Subdomain
+      const group = card.querySelector('.group').textContent.trim().replace('Type of Resource: ', ''); // Updated to match Type of Resource
 
       const domainMatch = selectedDomain === 'all' || domain === selectedDomain;
       const topicMatch = selectedTopic === 'all' || topic === selectedTopic;
@@ -105,4 +105,5 @@ document.addEventListener('DOMContentLoaded', function() {
   filterCards();
 });
 </script>
+
 
