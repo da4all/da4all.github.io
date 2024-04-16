@@ -19,20 +19,11 @@ The resources offered under this literacy domain push students to ask critical q
 - What is data advocacy? And how can we do data advocacy ethically and responsibly?
 <br>
 
+## Explore the Resources for "Understanding Data"
+
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
-
-    <label for="topic-filter">Subdomain:</label>
-    <select id="topic-filter">
-      <option value="all">All</option>
-      <option value="Defining Data">Defining Data</option>
-      <option value="Critiquing Data">Critiquing Data</option>
-      <option value="Acting Ethically with Data">Acting Ethically with Data</option>
-      <option value="Linking Data and Justice">Linking Data and Justice</option>
-    </select>
-
-    <br>
-
+    
     <label for="group-filter">Type of Resource:</label>
     <select id="group-filter">
       <option value="all">All</option>
@@ -40,14 +31,32 @@ The resources offered under this literacy domain push students to ask critical q
       <option value="{{ group }}">{{ group }}</option>
       {% endfor %}
     </select>
+
+    <br>
+    
+    <label for="domain-filter">Primary Domain:</label>
+    <select id="domain-filter">
+      <option value="all">All</option>
+      {% for domain in site.data.cards.domains %}
+      <option value="{{ domain }}">{{ domain }}</option>
+      {% endfor %}
+    </select>
+
+    <br>
+
+    <label for="topic-filter">Subdomain:</label>
+    <select id="topic-filter">
+      <option value="all">All</option>
+      {% for subdomain in site.data.cards.subdomains %}
+      <option value="{{ subdomain }}">{{ subdomain }}</option>
+      {% endfor %}
+    </select>
     
   </div>
 </div>
 
-## Explore the Resources for "Understanding Data"
-
 <div id="card-list" style="margin-top: 20px;">
-{% assign cards = site.cards | where: "domain", "Understanding Data" | sort: "title" %}
+  {% assign cards = site.cards | sort: "title" %}
   {% for card in cards %}
     <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px;">
       <div class="row no-gutters">
