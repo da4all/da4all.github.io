@@ -21,7 +21,7 @@ profile:
     author: Catherine D’Ignazio and Lauren F. Klein
     date:
     license:
-    citation: D’Ignazio, Catherine and Lauren F. Klein. Data Feminism. Introduction and Chapter 1. MIT Press, 2020.  (Free, open access version at: https://data-feminism.mitpress.mit.edu/.)
+    citation: "D’Ignazio, Catherine and Lauren F. Klein. Data Feminism. Introduction and Chapter 1. MIT Press, 2020.  (Free, open access version at: https://data-feminism.mitpress.mit.edu/.)"
     align: right
 
 ---
