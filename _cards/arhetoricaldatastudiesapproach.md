@@ -14,7 +14,6 @@ teaser: >
 
 profile:
     name: "A Rhetorical Data Studies Approach to Data Advocacy and Data Storytelling"
-    group: Reading
     source: 
     author: Laurie Gries
     date: 
