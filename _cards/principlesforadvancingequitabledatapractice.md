@@ -1,26 +1,21 @@
 ---
 layout: page
 inline: false
-group: Reading
+resource: Reading
 domain: Understanding Data
 subdomain: Defining Data
 
 title: "Principles for Advancing Equitable Data Practice"
-description: "Gaddy, Marcus and Kassie Scott.  'Principles for Advancing Equitable Data Practice.' Urban.org, June 2020, https://resultslab.com/blog-foundations-of-data-equity/#1674152295196-987e18dd-deaa. Accessed 4 June 2023. (Copyright © June 2020. Urban Institute. Permission is granted for reproduction of this file, with attribution to the Urban Institute.)"
-lastname: Gaddy & Scott
 
 teaser: >
   In this blog post, Gaddy and Scott share highlights from the session around what data equity means, why ‘data is objective’ is a myth, and how you can begin to build a more equitable data practice.
 
 profile:
-    name: "Principles for Advancing Equitable Data Practice"
-    group: Reading
-    domain: <a href="../understanding-data/">Understanding Data</a>
-    subdomain: <a href="../defining-data/">Defining Data</a>
     source: https://resultslab.com/blog-foundations-of-data-equity/#1674152295196-987e18dd-deaa
     author: Marcus Gaddy and Kassie Scott
-    date: 
+    date: June 2020
     license: 
+    citation: "Gaddy, Marcus and Kassie Scott.  'Principles for Advancing Equitable Data Practice.' Urban.org, June 2020, https://resultslab.com/blog-foundations-of-data-equity/#1674152295196-987e18dd-deaa. Accessed 4 June 2023. (Copyright © June 2020. Urban Institute. Permission is granted for reproduction of this file, with attribution to the Urban Institute.)"
     align: right
 
 ---
