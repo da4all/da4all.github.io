@@ -1,14 +1,11 @@
 ---
 layout: page
 inline: false
-group: Reading
+resource: Reading
 domain: Understanding Data
 subdomain: Defining Data
 
 title: "Data Feminism"
-description: "D’Ignazio, Catherine and Lauren F. Klein. Data Feminism. Introduction and Chapter 1. MIT Press, 2020.  (Free, open access version at: https://data-feminism.mitpress.mit.edu/.)
-"
-lastname: D'Ignazio & Klein
 
 teaser: >
   A new way of thinking about data science and data ethics that is informed by the ideas of intersectional feminism.
@@ -20,14 +17,11 @@ teaser: >
   Data Feminism offers strategies for data scientists seeking to learn how feminism can help them work toward justice, and for feminists who want to focus their efforts on the growing field of data science. But Data Feminism is about much more than gender. It is about power, about who has it and who doesn't, and about how those differentials of power can be challenged and changed.
 
 profile:
-    name: "Data Feminism"
-    group: Reading
-    domain: <a href="../understanding-data/">Understanding Data</a>
-    subdomain: <a href="../defining-data/">Defining Data</a>
     source: https://data-feminism.mitpress.mit.edu/
     author: Catherine D’Ignazio and Lauren F. Klein
-    date: 
-    license: 
+    date:
+    license:
+    citation: D’Ignazio, Catherine and Lauren F. Klein. Data Feminism. Introduction and Chapter 1. MIT Press, 2020.  (Free, open access version at: https://data-feminism.mitpress.mit.edu/.)
     align: right
 
 ---
