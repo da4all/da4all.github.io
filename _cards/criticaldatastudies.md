@@ -3,7 +3,7 @@ layout: page
 inline: false
 group: Reading
 domain: Understanding Data
-topic: Defining Data
+subdomain: Defining Data
 
 title: "Critical Data Studies: An Introduction"
 description: "Iliadis, Andrew and Federica Russo. 2016. “Critical Data Studies: An Introduction.” Big Data & Society, vol. 3, no. 2, 2016. (Creative Commons CC-BY)."
