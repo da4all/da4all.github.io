@@ -6,13 +6,12 @@ domain: Persuading with Data
 subdomain: Visualizing Data
 
 title: "How to Spin Bisexual Yarn"
-description: ""
-lastname: Whittemore
 
 teaser: >
   This "How to Spin Bisexual Yarn" PowerPoint discusses yarn as a form of data analysis. 
 
 profile:
+    source:
     author: Lore Whittemore
     date: 
     license: 
