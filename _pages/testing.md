@@ -7,7 +7,7 @@ nav: false
 nav_rank: 8
 ---
 
-## Testing 25
+## Testing 27
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -32,8 +32,8 @@ nav_rank: 8
 
     <br>
 
-    <label for="topic-filter">Subdomain:</label>
-    <select id="topic-filter">
+    <label for="subdomain-filter">Subdomain:</label>
+    <select id="subdomain-filter">
       <option value="all">All</option>
       <option value="Defining Data">Defining Data</option>
       <option value="Critiquing Data">Critiquing Data</option>
@@ -63,11 +63,11 @@ nav_rank: 8
             {% endif %}
             <p class="card-text">
               {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i> Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a></small>
-              {% if card.profile.license %}<br><small class="test-muted group"><i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ card.profile.license }}</small><br>{% endif %}{% endif %}
+              {% if card.profile.license %}<br><small class="test-muted"><i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ card.profile.license }}</small><br>{% endif %}{% endif %}
             </p>
               <hr class="solid">
             <p class="card-text">
-              <small class="test-muted domain"><i class="fa-solid fa-square"></i>&nbsp; Domain: {{ card.domain }} &nbsp;&nbsp;//&nbsp;&nbsp;</small> <small class="test-muted topic"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ card.topic }} &nbsp;&nbsp;//&nbsp;&nbsp;</small><small class="test-muted group"><i class="fa-solid fa-file"></i>&nbsp; Type of Resource: {{ card.group }}</small><br>
+              <small class="test-muted domain"><i class="fa-solid fa-square"></i>&nbsp; Domain: {{ card.domain }} &nbsp;&nbsp;//&nbsp;&nbsp;</small> <small class="test-muted subdomain"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ card.subdomain }} &nbsp;&nbsp;//&nbsp;&nbsp;</small><small class="test-muted group"><i class="fa-solid fa-file"></i>&nbsp; Type of Resource: {{ card.group }}</small><br>
             </p>
           </div>
         </div>
@@ -79,25 +79,25 @@ nav_rank: 8
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const domainFilter = document.getElementById('domain-filter');
-  const topicFilter = document.getElementById('topic-filter');
+  const subdomainFilter = document.getElementById('subdomain-filter');
   const groupFilter = document.getElementById('group-filter');
   const cards = document.querySelectorAll('.card');
 
   function filterCards() {
     const selectedDomain = domainFilter.value;
-    const selectedTopic = topicFilter.value;
+    const selectedSubdomain = subdomainFilter.value;
     const selectedGroup = groupFilter.value;
 
     cards.forEach(card => {
       const domain = card.querySelector('.domain').textContent.trim().replace('Domain: ', '');
-      const topic = card.querySelector('.topic').textContent.trim().replace('Subdomain: ', ''); // Updated to match Subdomain
+      const subdomain = card.querySelector('.subdomain').textContent.trim().replace('Subdomain: ', ''); // Updated to match Subdomain
       const group = card.querySelector('.group').textContent.trim().replace('Type of Resource: ', ''); // Updated to match Type of Resource
 
       const domainMatch = selectedDomain === 'all' || domain === selectedDomain;
-      const topicMatch = selectedTopic === 'all' || topic === selectedTopic;
+      const subdomainMatch = selectedSubdomain === 'all' || subdomain === selectedSubdomain;
       const groupMatch = selectedGroup === 'all' || group === selectedGroup;
 
-      if (domainMatch && topicMatch && groupMatch) {
+      if (domainMatch && subdomainMatch && groupMatch) {
         card.style.display = 'block';
       } else {
         card.style.display = 'none';
@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   domainFilter.addEventListener('change', filterCards);
-  topicFilter.addEventListener('change', filterCards);
+  subdomainFilter.addEventListener('change', filterCards);
   groupFilter.addEventListener('change', filterCards);
 
   // Initial filtering when the page loads
