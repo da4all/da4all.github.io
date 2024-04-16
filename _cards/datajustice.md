@@ -3,7 +3,7 @@ layout: page
 inline: false
 group: Term
 domain: Understanding Data
-topic: Linking Data and Justice
+subdomain: Linking Data and Justice
 
 title: Data Justice
 description: Data Justice refers to equity and fairness in the way people and pressing social issues are disclosed, represented, and treated as a result of the collection, analysis, production, and presentation of data.
