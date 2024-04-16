@@ -14,7 +14,6 @@ teaser: >
 
 profile:
     name: "How to Spin Bisexual Yarn Presentation"
-    source: 
     author: Lore Whittemore
     date: 
     license: 
