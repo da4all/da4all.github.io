@@ -15,6 +15,7 @@ profile:
     author: [AUTHOR FULL NAME]
     date: [INFORMATION HERE]
     license: [LICENSE TYPE HERE / CC BY / CC BY-SA / CC BY-NC / CC-BY-NA-SA / CC BY-ND / CC BY-NC-ND / CC0 ]
+    citation:
     align: right
 
 ---
