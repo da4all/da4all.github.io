@@ -53,7 +53,7 @@ nav_rank: 8
             {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
               <h5 class="card-title">{{ card.profile.name }}</h5></a>
             <p class="card-text"><small class="test-muted">{% if card.profile.date %}<i class="fa-solid fa-calendar"></i>&nbsp; Date: {{ card.profile.date | replace: '<br />', ', ' }}{% endif %}
-              {% if card.profile.source and card.profile.license %}&nbsp;&nbsp;||&nbsp;&nbsp;{% endif %}
+              {% if card.profile.source and card.profile.license %}&nbsp;&nbsp;//&nbsp;&nbsp;{% endif %}
               {% if card.profile.author %}<i class="fa-solid fa-user"></i>&nbsp; Author: {{ card.profile.author | replace: '<br />', ', ' }}{% endif %}</small></p>
             {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
               <p class="card-text">{{ card.teaser }}</p></a>
@@ -66,7 +66,7 @@ nav_rank: 8
             </p>
               <hr class="solid">
             <p class="card-text">
-              <small class="test-muted domain"><i class="fa-solid fa-square"></i>&nbsp; Domain: {{ card.domain }} &nbsp;&nbsp;||&nbsp;&nbsp;</small> <small class="test-muted topic"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ card.topic }} &nbsp;&nbsp;||&nbsp;&nbsp;</small><small class="test-muted group"><i class="fa-solid fa-file"></i>&nbsp; Type of Resource: {{ card.group }}</small><br>
+              <small class="test-muted domain"><i class="fa-solid fa-square"></i>&nbsp; Domain: {{ card.domain }} &nbsp;&nbsp;//&nbsp;&nbsp;</small> <small class="test-muted topic"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ card.topic }} &nbsp;&nbsp;//&nbsp;&nbsp;</small><small class="test-muted group"><i class="fa-solid fa-file"></i>&nbsp; Type of Resource: {{ card.group }}</small><br>
             </p>
           </div>
         </div>
