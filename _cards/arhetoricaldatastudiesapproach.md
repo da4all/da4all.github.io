@@ -3,7 +3,7 @@ layout: page
 inline: false
 group: Reading
 domain: Understanding Data
-topic: Defining Data
+subdomain: Defining Data
 
 title: "A Rhetorical Data Studies Approach to Data Advocacy and Data Storytelling"
 description: 
