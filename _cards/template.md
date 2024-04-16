@@ -3,7 +3,7 @@ layout: page
 inline: false
 group: Reading / Term / Assignment / Activity / Tutorial / Teaching Module / Dataset / Example of Data Advocacy
 domain: Understanding Data / Processing Data / Persuading with Data
-topic: Defining Data / Critiquing Data / Acting Ethically with Data / Linking Data and Justice / Collecting Data / Organizing and Cleaning Data / Analyzing and Drawing Insights from Data / Storing and Preserving Data / Appealing with Data / Visualizing Data / Mapping Data / Telling Multi-Modal Stories with Data
+subdomain: Defining Data / Critiquing Data / Acting Ethically with Data / Linking Data and Justice / Collecting Data / Organizing and Cleaning Data / Analyzing and Drawing Insights from Data / Storing and Preserving Data / Appealing with Data / Visualizing Data / Mapping Data / Telling Multi-Modal Stories with Data
 
 title: "[TITLE]"
 description: "[MLA CITATION]"
