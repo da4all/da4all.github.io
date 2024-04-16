@@ -7,7 +7,7 @@ nav: false
 nav_rank: 8
 ---
 
-## Testing 28
+## Testing 27
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -77,7 +77,6 @@ nav_rank: 8
 </div>
 
 <script>
-
 document.addEventListener('DOMContentLoaded', function() {
   const domainFilter = document.getElementById('domain-filter');
   const subdomainFilter = document.getElementById('subdomain-filter');
@@ -90,9 +89,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const selectedGroup = groupFilter.value;
 
     cards.forEach(card => {
-      // Extracting the text content from the anchor tags
-      const domain = card.querySelector('.domain a').textContent.trim();
-      const subdomain = card.querySelector('.subdomain a').textContent.trim();
+      const domain = card.querySelector('.domain').textContent.trim().replace('Domain: ', '');
+      const subdomain = card.querySelector('.subdomain').textContent.trim().replace('Subdomain: ', ''); // Updated to match Subdomain
       const group = card.querySelector('.group').textContent.trim().replace('Type of Resource: ', ''); // Updated to match Type of Resource
 
       const domainMatch = selectedDomain === 'all' || domain === selectedDomain;
@@ -114,5 +112,4 @@ document.addEventListener('DOMContentLoaded', function() {
   // Initial filtering when the page loads
   filterCards();
 });
-
 </script>
