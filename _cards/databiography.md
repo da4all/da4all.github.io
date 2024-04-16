@@ -3,7 +3,7 @@ layout: page
 inline: false
 group: Assignment
 domain: Processing Data
-topic: Analyzing and Drawing Insights from Data
+subdomain: Analyzing and Drawing Insights from Data
 
 title: "Data Biography"
 description: "In this assignment, students apply the concept of a “data biography” to analyze the history behind a particular dataset: the who, what, when, how, and why of the dataset and its creation. In doing so, they learn about the different interpretative filters that shape the historical trajectory of a dataset, from its initial collection to its availability and usability today."
