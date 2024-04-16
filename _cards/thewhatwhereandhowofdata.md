@@ -1,26 +1,21 @@
 ---
 layout: page
 inline: false
-group: Reading
+resource: Reading
 domain: Understanding Data
 subdomain: Defining Data
 
 title: "The What, Where and How of Data for Data Science"
-description: "Valchanov, Iliya. “The What, Where and How of Data for Data Science.” KDnuggets.com. 12 June 2018. https://www.kdnuggets.com/2018/06/what-where-how-data-science.html. Accessed 6 June 2023. "
-lastname: Valchanov
 
 teaser: >
   Here we will take data science apart and build it back up to a coherent and manageable concept. Bear with us!
 
 profile:
-    name: "The What, Where and How of Data for Data Science"
-    group: Reading
-    domain: <a href="../understanding-data/">Understanding Data</a>
-    subdomain: <a href="../defining-data/">Defining Data</a>
     source: https://www.kdnuggets.com/2018/06/what-where-how-data-science.html
     author: Iliya Valchanov
-    date: 
-    license: 
+    date: June 2018
+    license:
+    citation: "Valchanov, Iliya. “The What, Where and How of Data for Data Science.” KDnuggets.com. 12 June 2018. https://www.kdnuggets.com/2018/06/what-where-how-data-science.html. Accessed 6 June 2023. "
     align: right
 
 ---
