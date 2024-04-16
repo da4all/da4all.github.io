@@ -3,7 +3,7 @@ layout: page
 inline: false
 group: Tutorial
 domain: Persuading with Data
-topic: Visualizing Data
+subdomain: Visualizing Data
 
 title: "How to Spin Bisexual Yarn"
 description: ""
