@@ -3,7 +3,7 @@ layout: page
 inline: false
 group: Reading
 domain: Understanding Data
-topic: Defining Data
+subdomain: Defining Data
 
 title: "Interview with Catherine D’Ignazio: Data is Never a Raw, Truthful Input – and It is Never Neutral"
 description: "Corbyn, Zoë. “Interview with Catherine D’Ignazio: Data is Never a Raw, Truthful Input – and It is Never Neutral.” The Guardian-U.S. Edition. 21 March 2020. https://www.theguardian.com/technology/2020/mar/21/catherine-dignazio-data-is-never-a-raw-truthful-input-and-it-is-never-neutral. Accessed 6 June 2023."
