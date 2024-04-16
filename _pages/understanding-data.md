@@ -33,6 +33,16 @@ The resources offered under this literacy domain push students to ask critical q
     </select>
 
     <br>
+    
+    <label for="domain-filter">Primary Domain:</label>
+    <select id="domain-filter">
+      <option value="all">All</option>
+      {% for domain in site.data.cards.domains %}
+      <option value="{{ domain }}">{{ domain }}</option>
+      {% endfor %}
+    </select>
+
+    <br>
 
     <label for="topic-filter">Subdomain:</label>
     <select id="topic-filter">
