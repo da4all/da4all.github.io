@@ -1,26 +1,21 @@
 ---
 layout: page
 inline: false
-group: Reading
+resource: Reading
 domain: Understanding Data
 subdomain: Defining Data
 
 title: The History of Data-as-Rhetoric
-description: Carrigan, Mark. “The History of Data-as-Rhetoric.” Markcarrigan.net, 12 September 2016. https://markcarrigan.net/2016/09/12/the-history-of-data-as-rhetoric/. Accessed 6 June 2023.
-lastname: Carrigan
 
 teaser: >
   This article provides an effective framework for introducing data-as-rhetoric.
 
 profile:
-    name: The History of Data-as-Rhetoric
-    group: Reading
-    domain: <a href="../understanding-data/">Understanding Data</a>
-    subdomain: <a href="../defining-data/">Defining Data</a>
     source: https://markcarrigan.net/2016/09/12/the-history-of-data-as-rhetoric/
     author: Mark Carrigan
-    date: 
+    date: September 2016
     license: 
+    citation: "Carrigan, Mark. “The History of Data-as-Rhetoric.” Markcarrigan.net, 12 September 2016. https://markcarrigan.net/2016/09/12/the-history-of-data-as-rhetoric/. Accessed 6 June 2023."
     align: right
 
 ---
