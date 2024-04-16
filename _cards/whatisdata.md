@@ -3,7 +3,7 @@ layout: page
 inline: false
 group: Reading
 domain: Understanding Data
-topic: Defining Data
+subdomain: Defining Data
 
 title: "What is Data? Definition and Examples"
 description: "Market Business News. “What is Data? Definition and Examples.” Marketbusinessnews.com, n.d. https://marketbusinessnews.com/financial-glossary/data-definitio/. Accessed 6 June 2023."
