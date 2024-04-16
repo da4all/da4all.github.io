@@ -7,7 +7,7 @@ nav: false
 nav_rank: 8
 ---
 
-## Testing 26
+## Testing 25
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -67,7 +67,7 @@ nav_rank: 8
             </p>
               <hr class="solid">
             <p class="card-text">
-              <small class="test-muted"><i class="fa-solid fa-square"></i>&nbsp; Domain: {{ card.domain }} &nbsp;&nbsp;//&nbsp;&nbsp;</small> <small class="test-muted"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ card.topic }} &nbsp;&nbsp;//&nbsp;&nbsp;</small><small class="test-muted"><i class="fa-solid fa-file"></i>&nbsp; Type of Resource: {{ card.group }}</small><br>
+              <small class="test-muted domain"><i class="fa-solid fa-square"></i>&nbsp; Domain: {{ card.domain }} &nbsp;&nbsp;//&nbsp;&nbsp;</small> <small class="test-muted topic"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ card.topic }} &nbsp;&nbsp;//&nbsp;&nbsp;</small><small class="test-muted group"><i class="fa-solid fa-file"></i>&nbsp; Type of Resource: {{ card.group }}</small><br>
             </p>
           </div>
         </div>
