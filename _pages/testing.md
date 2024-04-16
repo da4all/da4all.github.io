@@ -57,12 +57,12 @@ nav_rank: 8
               {% if card.profile.author %}<i class="fa-solid fa-user"></i>&nbsp; Author: {{ card.profile.author | replace: '<br />', ', ' }}{% endif %}</small></p>
             {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
               <p class="card-text">{{ card.teaser }}</p></a>
-            <p class="card-text">
-              {% if card.profile.source or card.profile.license %}
+            {% if card.profile.source or card.profile.license %}
               <hr class="solid">
+            {% endif %}
+            <p class="card-text">
               {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i> Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a></small>
               {% if card.profile.license %}<br><small class="test-muted group"><i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ card.profile.license }}</small><br>{% endif %}{% endif %}
-              {% endif %}
             </p>
               <hr class="solid">
             <p class="card-text">
