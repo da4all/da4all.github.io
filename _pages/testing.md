@@ -7,7 +7,7 @@ nav: false
 nav_rank: 8
 ---
 
-## Testing 37
+## Testing 38
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -47,7 +47,7 @@ nav_rank: 8
 <div id="card-list" style="margin-top: 20px;">
   {% assign cards = site.cards | sort: "title" %}
   {% for card in cards %}
-    <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px;" data-domain="{{ card.domain }}" data-subdomain="{{ card.subdomain }}"> <!-- Add data-domain and data-subdomain attributes -->
+    <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px;" data-domain="{{ card.domain }}" data-subdomain="{{ card.subdomain }}">
       <div class="row no-gutters">
         <div class="team">
           <div class="card-body">
@@ -68,7 +68,7 @@ nav_rank: 8
               <hr class="solid">
             <p class="card-text">
               <small class="test-muted domain"><i class="fa-solid fa-square"></i>&nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ card.domain | downcase | replace: ' ', '-' }}">{{ card.domain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp;</small>
-              <small class="test-muted subdomain"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: <a href="{{ site.url }}{{ site.baseurl }}{{ card.subdomain | downcase | replace: ' ', '-' }}">{{ card.profile.subdomain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp;</small>
+              <small class="test-muted subdomain"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: <a href="{{ site.url }}{{ site.baseurl }}{{ card.subdomain | downcase | replace: ' ', '-' }}">{{ card.subdomain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp;</small>
               <small class="test-muted group"><i class="fa-solid fa-file"></i>&nbsp; Type of Resource: {{ card.group }}</small><br>
             </p>
           </div>
