@@ -21,32 +21,6 @@ The resources offered under this literacy domain push students to ask critical q
 
 ## Explore the Resources for "Understanding Data"
 
-<div style="background-color: #f2f2f2; padding: 10px;">
-  <div id="filter-options" style="font-size: 0.8em;">
-
-    <label for="topic-filter">Subdomain:</label>
-    <select id="topic-filter">
-      <option value="all">All</option>
-      <option value="Defining Data">Defining Data</option>
-      <option value="Critiquing Data">Critiquing Data</option>
-      <option value="Acting Ethically with Data">Acting Ethically with Data</option>
-      <option value="Linking Data and Justice">Linking Data and Justice</option>
-      {% endfor %}
-    </select>
-
-    <br>
-    
-    <label for="group-filter">Type of Resource:</label>
-    <select id="group-filter">
-      <option value="all">All</option>
-      {% for group in site.data.cards.groups %}
-      <option value="{{ group }}">{{ group }}</option>
-      {% endfor %}
-    </select>
-    
-  </div>
-</div>
-
 <div id="card-list" style="margin-top: 20px;">
 {% assign cards = site.cards | where: "domain", "Understanding Data" | sort: "title" %}
   {% for card in cards %}
