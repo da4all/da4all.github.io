@@ -13,7 +13,7 @@ teaser: >
 profile:
     source:
     author: Laurie Gries
-    date: 
+    date:
     license: Creative Commons CC-BY
     citation: Gries, Laurie. (forthcoming). “A Rhetorical Data Studies Approach to Data Advocacy and Data Storytelling.” (Will be Creative Commons CC-BY).
     align: right
