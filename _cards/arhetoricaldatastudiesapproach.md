@@ -1,7 +1,7 @@
 ---
 layout: page
 inline: false
-group: Reading
+resource: Reading
 domain: Understanding Data
 subdomain: Defining Data
 
@@ -14,7 +14,6 @@ teaser: >
 
 profile:
     name: "A Rhetorical Data Studies Approach to Data Advocacy and Data Storytelling"
-    source: 
     author: Laurie Gries
     date: 
     license: 
