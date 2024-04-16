@@ -1,26 +1,21 @@
 ---
 layout: page
 inline: false
-group: Term
+resource: Term
 domain: Understanding Data
 subdomain: Defining Data
 
 title: Rhetorical Data Studies
-description: As a critical and constructive framework, rhetorical data studies explores how data-driven stories, arguments, and visualizations communicate knowledge, garner public attention, and, among other actions, mediate socio-cultural change in order to help establish more ethically- minded and effective data-informed practices.
-lastname: 
 
 teaser: >
   As a critical and constructive framework, rhetorical data studies explores how data-driven stories, arguments, and visualizations communicate knowledge, garner public attention, and, among other actions, mediate socio-cultural change in order to help establish more ethically- minded and effective data-informed practices.
 
 profile:
-    name: Rhetorical Data Studies
-    group: Term
-    domain: <a href="../understanding-data/">Understanding Data</a>
-    subdomain: <a href="../defining-data/">Defining Data</a>
-    source: 
-    author: 
-    date: 
-    license: 
+    source:
+    author:
+    date:
+    license:
+    citation:
     align: right
 
 ---
