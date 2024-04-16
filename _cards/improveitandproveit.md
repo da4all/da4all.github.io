@@ -1,26 +1,21 @@
 ---
 layout: page
 inline: false
-group: Assignment
+resource: Assignment
 domain: Persuading with Data
 subdomain: Visualizing Data
 
 title: "Improve It and Prove It"
-description: "Polish and revise a visualization you created previously. Place it in a document, along with the original visualization of the same data."
-lastname: 
 
 teaser: >
   Polish and revise a visualization you created previously. Place it in a document, along with the original visualization of the same data.
 
 profile:
-    name: "Improve It and Prove It"
-    group: Assignment
-    domain: <a href="../persuading-with-data/">Persuading with Data</a>
-    subdomain: <a href="../visualizing-data/">Visualizing Data</a>
-    source: 
-    author: 
-    date: 
-    license: 
+    source:
+    author:
+    date:
+    license:
+    citation:
     align: right
 
 ---
