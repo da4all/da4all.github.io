@@ -7,7 +7,7 @@ nav: false
 nav_rank: 8
 ---
 
-## Testing 44
+## Testing 45
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -62,8 +62,8 @@ nav_rank: 8
             {% endif %}
             <p class="card-text">
               {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i> Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a></small>{% endif %}
-              {% if card.profile.source or card.profile.license %}<br>{% endif %}
-              {% if card.profile.license %}<small class="test-muted"><i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ card.profile.license }}</small><br>{% endif %}
+              {% if card.profile.source and card.profile.license %}<br>{% endif %}
+              {% if card.profile.license %}<small class="test-muted"><i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ card.profile.license }}</small>{% endif %}
             </p>
               <hr class="solid">
             <p class="card-text">
