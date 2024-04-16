@@ -3,7 +3,7 @@ layout: page
 inline: false
 group: Reading
 domain: Understanding Data
-topic: Defining Data
+subdomain: Defining Data
 
 title: "Data Feminism"
 description: "D’Ignazio, Catherine and Lauren F. Klein. Data Feminism. Introduction and Chapter 1. MIT Press, 2020.  (Free, open access version at: https://data-feminism.mitpress.mit.edu/.)
