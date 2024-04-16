@@ -1,26 +1,21 @@
 ---
 layout: page
 inline: false
-group: Dataset
+resource: Dataset
 domain: Processing Data
 subdomain: Analyzing and Drawing Insights from Data
 
 title: "Philadelphia African-American Census 1847"
-description: "In 1847, Philadelphia Quakers conducted a census of the city’s African American population. Their intention was to document the existence of an “industrious and thriving” portion of that population, and also to discover what sectors of the community may have been in need of attention and assistance. Over 150 years later, the original data - held in manuscript at the Friends Historical Library of Swarthmore College - proves a rich resource for studying African American history, genealogy, Philadelphia history, and more."
-lastname: Friends Historical Library
 
 teaser: >
   In 1847, Philadelphia Quakers conducted a census of the city’s African American population. Their intention was to document the existence of an “industrious and thriving” portion of that population, and also to discover what sectors of the community may have been in need of attention and assistance. Over 150 years later, the original data - held in manuscript at the Friends Historical Library of Swarthmore College - proves a rich resource for studying African American history, genealogy, Philadelphia history, and more.
 
 profile:
-    name: "Philadelphia African-American Census 1847"
-    group: Dataset
-    domain: <a href="../processing-data/">Processing Data</a>
-    subdomain: <a href="../analyzing-and-drawing-insights-from-data/">Analyzing and Drawing Insights from Data</a>
     source: https://ds-pages.swarthmore.edu/paac/
     author: Friends Historical Library
-    date: 
-    license: 
+    date:
+    license:
+    citation:
     align: right
 
 ---
