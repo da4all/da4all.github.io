@@ -1,26 +1,21 @@
 ---
 layout: page
 inline: false
-group: Assignment
+resource: Assignment
 domain: Understanding Data
 subdomain: Defining Data
 
 title: "Formal Critical Reflection: Defining Data and Doing Data Advocacy"
-description: This two-part formal critical reflection asks students to write a 5-7 page essay in which they a.) reflect back on their learning about data feminism, rhetorical data studies, and an equity framework and forward their own understandings of data, the data life cycle, and best practices for doing data advocacy; b.) apply learning to describe and analyze a data advocacy website; and c.) reflect on how this learning prepares them to do data advocacy.
-lastname: 
 
 teaser: >
   This two-part formal critical reflection asks students to write a 5-7 page essay in which they a.) reflect back on their learning about data feminism, rhetorical data studies, and an equity framework and forward their own understandings of data, the data life cycle, and best practices for doing data advocacy; b.) apply learning to describe and analyze a data advocacy website; and c.) reflect on how this learning prepares them to do data advocacy.
 
 profile:
-    name: "Formal Critical Reflection: Defining Data and Doing Data Advocacy"
-    group: Assignment
-    domain: <a href="../understanding-data/">Understanding Data</a>
-    subdomain: <a href="../defining-data/">Defining Data</a>
-    source: 
-    author: 
-    date: 
-    license: 
+    source:
+    author:
+    date:
+    license:
+    citation:
     align: right
 
 ---
