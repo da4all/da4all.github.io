@@ -45,51 +45,60 @@ The resources offered under this literacy domain push students to ask critical q
   </div>
 </div>
 
-<div id="card-list">
+<div id="card-list" style="margin-top: 20px;">
 {% assign cards = site.cards | where: "domain", "Understanding Data" | sort: "title" %}
-
-{% for card in cards %}
-  <p>
-    <div class="card {% if card.inline == false %}hoverable{% endif %}">
+  {% for card in cards %}
+    <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px;">
       <div class="row no-gutters">
         <div class="team">
           <div class="card-body">
             {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
               <h5 class="card-title">{{ card.profile.name }}</h5></a>
-            <p class="card-text">{% if card.profile.author %}<small class="test-muted"><i class="fa-solid fa-user"></i>&nbsp; Author: {{ card.profile.author | replace: '<br />', ', ' }} </small><br>{% endif %}</p>
+            <p class="card-text"><small class="test-muted">{% if card.profile.date %}<i class="fa-solid fa-calendar"></i>&nbsp; Date: {{ card.profile.date | replace: '<br />', ', ' }}{% endif %}
+              {% if card.profile.source and card.profile.license %}&nbsp;&nbsp;||&nbsp;&nbsp;{% endif %}
+              {% if card.profile.author %}<i class="fa-solid fa-user"></i>&nbsp; Author: {{ card.profile.author | replace: '<br />', ', ' }}{% endif %}</small></p>
             {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
-              <p class="card-text">{{ card.teaser }}<small><br><br></small></p></a>
+              <p class="card-text">{{ card.teaser }}</p></a>
+            {% if card.profile.source or card.profile.license %}
+              <hr class="solid">
+            {% endif %}
             <p class="card-text">
-              {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i>  Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a> </small><br>{% endif %} 
-              <small class="test-muted topic"><i class="fa-solid fa-diagram-successor"></i>&nbsp; Subdomain: {{ card.topic }}</small><br>
-              <small class="test-muted group"><i class="fa-solid fa-file"></i>&nbsp; Type of Resource: {{ card.group }}</small><br>
+              {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i> Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a></small>
+              {% if card.profile.license %}<br><small class="test-muted group"><i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ card.profile.license }}</small><br>{% endif %}{% endif %}
+            </p>
+              <hr class="solid">
+            <p class="card-text">
+              <small class="test-muted domain"><i class="fa-solid fa-square"></i>&nbsp; Domain: {{ card.domain }} &nbsp;&nbsp;||&nbsp;&nbsp;</small> <small class="test-muted topic"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ card.topic }} &nbsp;&nbsp;||&nbsp;&nbsp;</small><small class="test-muted group"><i class="fa-solid fa-file"></i>&nbsp; Type of Resource: {{ card.group }}</small><br>
             </p>
           </div>
         </div>
       </div>
     </div>
-  </p>
-{% endfor %}
+  {% endfor %}
 </div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+  const domainFilter = document.getElementById('domain-filter');
   const topicFilter = document.getElementById('topic-filter');
   const groupFilter = document.getElementById('group-filter');
   const cards = document.querySelectorAll('.card');
 
   function filterCards() {
+    const selectedDomain = domainFilter.value;
     const selectedTopic = topicFilter.value;
     const selectedGroup = groupFilter.value;
 
     cards.forEach(card => {
-      const topic = card.querySelector('.topic').textContent.trim().replace('Topic: ', '');
-      const group = card.querySelector('.group').textContent.trim().replace('Group: ', '');
+      const domain = card.querySelector('.domain').textContent.trim().replace('Domain: ', '');
+      const topic = card.querySelector('.topic').textContent.trim().replace('Subdomain: ', ''); // Updated to match Subdomain
+      const group = card.querySelector('.group').textContent.trim().replace('Type of Resource: ', ''); // Updated to match Type of Resource
 
+      const domainMatch = selectedDomain === 'all' || domain === selectedDomain;
       const topicMatch = selectedTopic === 'all' || topic === selectedTopic;
       const groupMatch = selectedGroup === 'all' || group === selectedGroup;
 
-      if (topicMatch && groupMatch) {
+      if (domainMatch && topicMatch && groupMatch) {
         card.style.display = 'block';
       } else {
         card.style.display = 'none';
@@ -97,6 +106,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
+  domainFilter.addEventListener('change', filterCards);
   topicFilter.addEventListener('change', filterCards);
   groupFilter.addEventListener('change', filterCards);
 
@@ -104,4 +114,3 @@ document.addEventListener('DOMContentLoaded', function() {
   filterCards();
 });
 </script>
-
