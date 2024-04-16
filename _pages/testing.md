@@ -7,7 +7,7 @@ nav: false
 nav_rank: 8
 ---
 
-## Testing 30
+## Testing 31
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -47,7 +47,7 @@ nav_rank: 8
 <div id="card-list" style="margin-top: 20px;">
   {% assign cards = site.cards | sort: "title" %}
   {% for card in cards %}
-    <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px;">
+    <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px;" data-domain="{{ card.domain }}" data-subdomain="{{ card.subdomain }}"> <!-- Add data-domain and data-subdomain attributes -->
       <div class="row no-gutters">
         <div class="team">
           <div class="card-body">
@@ -89,8 +89,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const selectedGroup = groupFilter.value;
 
     cards.forEach(card => {
-      const domain = card.querySelector('.domain').textContent.trim().replace('Domain: ', '');
-      const subdomain = card.querySelector('.subdomain').textContent.trim().replace('Subdomain: ', ''); 
+      const domain = card.getAttribute('data-domain'); // Get domain from data attribute
+      const subdomain = card.getAttribute('data-subdomain'); // Get subdomain from data attribute
       const group = card.querySelector('.group').textContent.trim().replace('Type of Resource: ', ''); 
 
       const domainMatch = selectedDomain === 'all' || domain === selectedDomain;
