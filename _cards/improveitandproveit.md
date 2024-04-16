@@ -3,7 +3,7 @@ layout: page
 inline: false
 group: Assignment
 domain: Persuading with Data
-topic: Visualizing Data
+subdomain: Visualizing Data
 
 title: "Improve It and Prove It"
 description: "Polish and revise a visualization you created previously. Place it in a document, along with the original visualization of the same data."
