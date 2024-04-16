@@ -7,16 +7,16 @@ nav: false
 nav_rank: 8
 ---
 
-## Testing 39b
+## Testing 40
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
     
-    <label for="group-filter">Type of Resource:</label>
-    <select id="group-filter">
+    <label for="resource-filter">Type of Resource:</label>
+    <select id="resource-filter">
       <option value="all">All</option>
-      {% for group in site.data.cards.groups %}
-      <option value="{{ group }}">{{ group }}</option>
+      {% for resource in site.data.cards.resources %}
+      <option value="{{ resource }}">{{ resource }}</option>
       {% endfor %}
     </select>
 
@@ -68,7 +68,7 @@ nav_rank: 8
             <p class="card-text">
               <small class="test-muted domain"><i class="fa-solid fa-square"></i>&nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ card.domain | downcase | replace: ' ', '-' }}">{{ card.domain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp;</small>
               <small class="test-muted subdomain"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ card.subdomain }} &nbsp;&nbsp;//&nbsp;&nbsp;</small>
-              <small class="test-muted group"><i class="fa-solid fa-file"></i>&nbsp; Type of Resource: {{ card.group }}</small><br>
+              <small class="test-muted resource"><i class="fa-solid fa-file"></i>&nbsp; Type of Resource: {{ card.resource }}</small><br>
             </p>
           </div>
         </div>
@@ -81,24 +81,24 @@ nav_rank: 8
 document.addEventListener('DOMContentLoaded', function() {
   const domainFilter = document.getElementById('domain-filter');
   const subdomainFilter = document.getElementById('subdomain-filter');
-  const groupFilter = document.getElementById('group-filter');
+  const resourceFilter = document.getElementById('resource-filter');
   const cards = document.querySelectorAll('.card');
 
   function filterCards() {
     const selectedDomain = domainFilter.value;
     const selectedSubdomain = subdomainFilter.value;
-    const selectedGroup = groupFilter.value;
+    const selectedResource = resourceFilter.value;
 
     cards.forEach(card => {
       const domain = card.getAttribute('data-domain'); // Get domain from data attribute
       const subdomain = card.getAttribute('data-subdomain'); // Get subdomain from data attribute
-      const group = card.querySelector('.group').textContent.trim().replace('Type of Resource: ', ''); 
+      const resource = card.querySelector('.resource').textContent.trim().replace('Type of Resource: ', ''); 
 
       const domainMatch = selectedDomain === 'all' || domain === selectedDomain;
       const subdomainMatch = selectedSubdomain === 'all' || subdomain === selectedSubdomain;
-      const groupMatch = selectedGroup === 'all' || group === selectedGroup;
+      const resourceMatch = selectedResource === 'all' || resource === selectedResource;
 
-      if (domainMatch && subdomainMatch && groupMatch) {
+      if (domainMatch && subdomainMatch && resourceMatch) {
         card.style.display = 'block';
       } else {
         card.style.display = 'none';
@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   domainFilter.addEventListener('change', filterCards);
   subdomainFilter.addEventListener('change', filterCards);
-  groupFilter.addEventListener('change', filterCards);
+  resourceFilter.addEventListener('change', filterCards);
 
   // Initial filtering when the page loads
   filterCards();
