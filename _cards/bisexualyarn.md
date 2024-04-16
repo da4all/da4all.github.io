@@ -15,6 +15,7 @@ profile:
     author: Lore Whittemore
     date: 
     license: 
+    citation:
     align: right
 
 ---
