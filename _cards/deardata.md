@@ -1,26 +1,22 @@
 ---
 layout: page
 inline: false
-group: Assignment
+resource: Assignment
 domain: Processing Data
 subdomain: Collecting Data
 
 title: "Dear Data"
-description: "In this assignment you will draw inspiration from Giorgia Lupi and Stefanie Posavec’s project <i>Dear Data.</i> You will spend a period of five days and regularly collect some kind of information from your daily life. You will then illustrate the data you collected through a hand-drawn data visualization and submit the visualization along with a written reflection on the process and the big takeaways for data advocacy."
-lastname: 
+description: 
 
 teaser: >
   In this assignment you will draw inspiration from Giorgia Lupi and Stefanie Posavec’s project <i>Dear Data.</i> You will spend a period of five days and regularly collect some kind of information from your daily life. You will then illustrate the data you collected through a hand-drawn data visualization and submit the visualization along with a written reflection on the process and the big takeaways for data advocacy.
 
 profile:
-    name: "Dear Data"
-    group: Assignment
-    domain: <a href="../processing-data/">Processing Data</a>
-    subdomain: <a href="../collecting-data/">Collecting Data</a>
-    source: 
-    author: 
-    date: 
-    license: 
+    source:
+    author:
+    date:
+    license:
+    citation:
     align: right
 
 ---
