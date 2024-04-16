@@ -3,7 +3,7 @@ layout: page
 inline: false
 group: Reading
 domain: Understanding Data
-topic: Defining Data
+subdomain: Defining Data
 
 title: "The What, Where and How of Data for Data Science"
 description: "Valchanov, Iliya. “The What, Where and How of Data for Data Science.” KDnuggets.com. 12 June 2018. https://www.kdnuggets.com/2018/06/what-where-how-data-science.html. Accessed 6 June 2023. "
