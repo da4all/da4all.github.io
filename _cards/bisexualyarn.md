@@ -15,10 +15,6 @@ teaser: >
 profile:
     name: "How to Spin Bisexual Yarn Presentation"
     group: Tutorial
-    domain: 
-            <a href="../persuading-with-data/">Persuading with Data</a>
-    subdomain: 
-            <a href="../visualizing-data/">Visualizing Data</a>
     source: 
     author: Lore Whittemore
     date: 
