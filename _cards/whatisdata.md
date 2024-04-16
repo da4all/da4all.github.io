@@ -1,26 +1,21 @@
 ---
 layout: page
 inline: false
-group: Reading
+resource: Reading
 domain: Understanding Data
 subdomain: Defining Data
 
 title: "What is Data? Definition and Examples"
-description: "Market Business News. “What is Data? Definition and Examples.” Marketbusinessnews.com, n.d. https://marketbusinessnews.com/financial-glossary/data-definitio/. Accessed 6 June 2023."
-lastname: 
 
 teaser: >
   Data means information, more specifically facts, figures, measurements and amounts that we gather for analysis or reference. The term’s meaning also includes descriptive information about things, plants, animals, and people. We collect and store data typically through observation.
 
 profile:
-    name: "What is Data? Definition and Examples"
-    group: Reading
-    domain: <a href="../understanding-data/">Understanding Data</a>
-    subdomain: <a href="../defining-data/">Defining Data</a>
     source: https://marketbusinessnews.com/financial-glossary/data-definitio/
     author: Market Business News
-    date: 
-    license: 
+    date:
+    license:
+    citation: "Market Business News. “What is Data? Definition and Examples.” Marketbusinessnews.com, n.d. https://marketbusinessnews.com/financial-glossary/data-definitio/. Accessed 6 June 2023."
     align: right
 
 ---
