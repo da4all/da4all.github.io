@@ -3,7 +3,7 @@ layout: page
 inline: false
 group: Reading
 domain: Understanding Data
-topic: Defining Data
+subdomain: Defining Data
 
 title: "Principles for Advancing Equitable Data Practice"
 description: "Gaddy, Marcus and Kassie Scott.  'Principles for Advancing Equitable Data Practice.' Urban.org, June 2020, https://resultslab.com/blog-foundations-of-data-equity/#1674152295196-987e18dd-deaa. Accessed 4 June 2023. (Copyright © June 2020. Urban Institute. Permission is granted for reproduction of this file, with attribution to the Urban Institute.)"
