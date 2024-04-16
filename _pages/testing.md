@@ -35,10 +35,9 @@ nav_rank: 8
     <label for="subdomain-filter">Subdomain:</label>
     <select id="subdomain-filter">
       <option value="all">All</option>
-      <option value="Defining Data">Defining Data</option>
-      <option value="Critiquing Data">Critiquing Data</option>
-      <option value="Acting Ethically with Data">Acting Ethically with Data</option>
-      <option value="Linking Data and Justice">Linking Data and Justice</option>
+      {% for subdomain in site.data.cards.subdomains %}
+      <option value="{{ subdomain }}">{{ subdomain }}</option>
+      {% endfor %}
     </select>
     
   </div>
