@@ -1,0 +1,35 @@
+{% assign resource = site.data.cards.resources | where: "name", card.resource |
+first %}
+
+<div id="card-list" style="margin-top: 20px">
+  <div
+    class="card {% if card.inline == false %}hoverable{% endif %}"
+    style="margin-bottom: 20px"
+    data-domain="{{ card.domain }}"
+    data-subdomain="{{ card.subdomain }}"
+  >
+    <div class="row no-gutters">
+      <div class="team">
+        <div class="card-body">
+          {% if card.inline == false %}
+          <a href="{{ card.url | relative_url }}">
+            {% endif %}
+            <h5 class="card-title">
+              <i class="{{ resource.icon | default: 'fas fa-file' }}"></i> {{
+              card.title }}
+            </h5>
+          </a>
+          <p class="card-text">
+            <small class="test-muted"
+              >Resource Type: {{ card.resource }}
+            </small>
+          </p>
+          {% if card.inline == false %}<a href="{{ card.url | relative_url }}"
+            >{% endif %}
+            <p class="card-text">{{ card.teaser }}</p></a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

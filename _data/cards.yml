@@ -1,6 +1,48 @@
 # This file is where we can establish site-wide variables and metadata that can apply to all cards.
 
 domains: [Understanding Data, Processing Data, Persuading with Data]
-subdomains: [Defining Data, Critiquing Data, Acting Ethically with Data, Linking Data and Justice, Collecting Data, Organizing and Cleaning Data, Analyzing and Drawing Insights from Data, Storing and Preserving Data, Appealing with Data, Visualizing Data, Mapping Data, Telling Multi-Modal Stories with Data]
-resources: [Term, Reading, Assignment, Activity, Tutorial, Teaching Module, Dataset, Example of Data Advocacy]
+subdomains:
+  [
+    Defining Data,
+    Critiquing Data,
+    Acting Ethically with Data,
+    Linking Data and Justice,
+    Collecting Data,
+    Organizing and Cleaning Data,
+    Analyzing and Drawing Insights from Data,
+    Storing and Preserving Data,
+    Appealing with Data,
+    Visualizing Data,
+    Mapping Data,
+    Telling Multi-Modal Stories with Data,
+  ]
+resources:
+  [
+    Term,
+    Reading,
+    Assignment,
+    Activity,
+    Tutorial,
+    Teaching Module,
+    Dataset,
+    Example of Data Advocacy,
+  ]
 featured_tags: [web, design, development]
+
+resources: 
+  - name: Term
+    icon: "fa-solid fa-lightbulb"
+  - name: Reading
+    icon: "fa-solid fa-book"
+  - name: Assignment
+    icon: "fa-solid fa-pen"
+  - name: Activity
+    icon: "fa-solid fa-comment"
+  - name: Tutorial
+    icon: "fa-solid fa-laptop-code"
+  - name: Teaching Module
+    icon: "fa-solid fa-person-chalkboard"
+  - name: Dataset
+    icon: "fa-solid fa-database"
+  - name: Example of Data Advocacy
+    icon: "fa-solid fa-bullhorn"

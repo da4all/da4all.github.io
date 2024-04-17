@@ -4,49 +4,54 @@ inline: false
 resource: Assignment
 domain: Processing Data
 subdomain: Collecting Data
+sample_resource: true
 
 title: "Dear Data"
-description: 
+description:
 
 teaser: >
   In this assignment you will draw inspiration from Giorgia Lupi and Stefanie Posavec’s project <i>Dear Data.</i> You will spend a period of five days and regularly collect some kind of information from your daily life. You will then illustrate the data you collected through a hand-drawn data visualization and submit the visualization along with a written reflection on the process and the big takeaways for data advocacy.
 
 profile:
-    source:
-    author:
-    date:
-    license:
-    citation:
-    align: right
-
+  source:
+  author:
+  date:
+  license:
+  citation:
+  align: right
 ---
 
 ## Step 1: Choose your Data
+
 - Brainstorm a list of ideas for aspects of your daily life that you might record over five days. They should be:
- - Regularly recurring in the course of a day
- - Not too frequent (ie. not “how many breaths I take”)
- - Not too infrequent (ie. “how many times do I take a road trip”)
- - Something you have to actively collect instead of passively being recorded through a device (ie. no step counters/heart rate monitors)
+- Regularly recurring in the course of a day
+- Not too frequent (ie. not “how many breaths I take”)
+- Not too infrequent (ie. “how many times do I take a road trip”)
+- Something you have to actively collect instead of passively being recorded through a device (ie. no step counters/heart rate monitors)
 - Think about the logistics of how you would collect information for each of your different ideas. Are you going to use a notepad? Will you carry this with you all the time? Your phone? Do you need to record just a checkmark for each observation or more data - ex. text, numbers, etc.? Will you need to measure anything?
 - Based on feasibility and your own interest, choose what you are going to collect
 
 ## Step 2: Collect the Data
+
 - Come up with a plan for how you’re going to record your data
 - Note: It might help to set periodic reminders
 - Keep a running journal that documents the process of data collection. What challenges did you run into? Are you noticing any patterns?
 
 ## Step 3: Visualize the Data
-- You will create a hand-drawn visualization that illustrates the data you recorded. 
+
+- You will create a hand-drawn visualization that illustrates the data you recorded.
 - You have free reign to take this in any direction you want
- - Note: you will not be graded on the aesthetics/design of the visualization, but on the effort you put into it.
+- Note: you will not be graded on the aesthetics/design of the visualization, but on the effort you put into it.
 - Here are some inspirations from Dear Data:
- - [Week 01: A week of clocks](http://www.dear-data.com/week-01)
- - [Week 07: A week of complaints](http://www.dear-data.com/week-07)
- - [Week 14: A week of productivity/schedules](http://www.dear-data.com/week-14)
- - [Week 46: A week of books we own](http://www.dear-data.com/week-46-a-week-of-books)
+- [Week 01: A week of clocks](http://www.dear-data.com/week-01)
+- [Week 07: A week of complaints](http://www.dear-data.com/week-07)
+- [Week 14: A week of productivity/schedules](http://www.dear-data.com/week-14)
+- [Week 46: A week of books we own](http://www.dear-data.com/week-46-a-week-of-books)
 
 ## Step 4: Write a Reflection
+
 In your reflection you should include the following:
+
 - The question you decided to answer
 - Some of the ideas you came up with when brainstorming and why you chose your final visualization method
 - Observations about the process itself - challenges, patterns, adjustments, etc. (draw on your process journal)
