@@ -6,7 +6,7 @@ nav_order: 2
 dropdown: true
 children:
   - title: Overview
-    permalink: /literacydomains/
+    permalink: /literacy-domains/
   - title: divider
   - title: Understanding Data
     permalink: /understanding-data/

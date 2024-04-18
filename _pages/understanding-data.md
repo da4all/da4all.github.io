@@ -5,7 +5,7 @@ title: Understanding Data
 description:
 nav: false
 nav_rank: 8
-display_categories: [Defining Data, Critiquing Data]
+display_categories:
 horizontal: false
 #toc:
 #sidebar: right
@@ -49,6 +49,42 @@ Placeholder text defining the sub-domain.
 Placeholder text defining the sub-domain.
 
 {% assign cards = site.cards | where: "sample_resource", true | where: "subdomain", "Critiquing Data" | sort: "title" %}
+
+<div class ="projects">
+  <h2 class="category">Sample Toolkit Resources</h2>
+</div>
+
+<div class="grid-container">
+    {%- for card in cards -%}
+        {% include sample-cards.html %}
+    {%- endfor %}
+</div>
+
+<div class ="projects">
+  <h1 class="category">Acting Ethically with Data</h1>
+</div>
+
+Placeholder text defining the sub-domain.
+
+{% assign cards = site.cards | where: "sample_resource", true | where: "subdomain", "Acting Ethically with Data" | sort: "title" %}
+
+<div class ="projects">
+  <h2 class="category">Sample Toolkit Resources</h2>
+</div>
+
+<div class="grid-container">
+    {%- for card in cards -%}
+        {% include sample-cards.html %}
+    {%- endfor %}
+</div>
+
+<div class ="projects">
+  <h1 class="category">Linking Data and Justice</h1>
+</div>
+
+Placeholder text defining the sub-domain.
+
+{% assign cards = site.cards | where: "sample_resource", true | where: "subdomain", "Linking Data and Justice" | sort: "title" %}
 
 <div class ="projects">
   <h2 class="category">Sample Toolkit Resources</h2>
