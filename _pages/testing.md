@@ -45,6 +45,8 @@ nav_rank: 8
 
 <div id="card-list" style="margin-top: 20px;">
   {% assign cards = site.cards | sort: "title" %}
+  {% assign resource = site.data.cards.resources | where: "name", card.resource | first %}
+  
   {% for card in cards %}
     <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px;" data-domain="{{ card.domain }}" data-subdomain="{{ card.subdomain }}">
       <div class="row no-gutters">
