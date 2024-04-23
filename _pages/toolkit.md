@@ -27,11 +27,11 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
     
-    <label for="group-filter">Type of Resource:</label>
-    <select id="group-filter">
+    <label for="resource-filter">Type of Resource:</label>
+    <select id="resource-filter">
       <option value="all">All</option>
-      {% for group in site.data.cards.groups %}
-      <option value="{{ group }}">{{ group }}</option>
+      {% for resource in site.data.cards.resources %}
+      <option value="{{ resource }}">{{ resource }}</option>
       {% endfor %}
     </select>
 
@@ -47,8 +47,8 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
 
     <br>
 
-    <label for="topic-filter">Subdomain:</label>
-    <select id="topic-filter">
+    <label for="subdomain-filter">Subdomain:</label>
+    <select id="subdomain-filter">
       <option value="all">All</option>
       {% for subdomain in site.data.cards.subdomains %}
       <option value="{{ subdomain }}">{{ subdomain }}</option>
@@ -61,20 +61,30 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
 <div id="card-list" style="margin-top: 20px;">
   {% assign cards = site.cards | sort: "title" %}
   {% for card in cards %}
-    <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px;">
+    <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px;" data-domain="{{ card.domain }}" data-subdomain="{{ card.subdomain }}">
       <div class="row no-gutters">
         <div class="team">
           <div class="card-body">
             {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
-              <h5 class="card-title">{{ card.profile.name }}</h5></a>
-            <p class="card-text"><small class="test-muted">{% if card.profile.author %}<i class="fa-solid fa-user"></i>&nbsp; Author: {{ card.profile.author | replace: '<br />', ', ' }}{% endif %}</small></p>
+              <h5 class="card-title">{{ card.title }}</h5></a>
+            <p class="card-text"><small class="test-muted">{% if card.profile.date %}<i class="fa-solid fa-calendar"></i>&nbsp; Date: {{ card.profile.date | replace: '<br />', ', ' }}{% endif %}
+              {% if card.profile.date and card.profile.author %}&nbsp;&nbsp;//&nbsp;&nbsp;{% endif %}
+              {% if card.profile.author %}<i class="fa-solid fa-user"></i>&nbsp; Author: {{ card.profile.author | replace: '<br />', ', ' }}{% endif %}</small></p>
             {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
               <p class="card-text">{{ card.teaser }}</p></a>
-            <p class="card-text"><br>
-              {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i> Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a></small><br>{% endif %}
-              <small class="test-muted domain"><i class="fa-solid fa-square"></i>&nbsp; Domain: {{ card.domain }}</small><br>
-              <small class="test-muted topic"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ card.topic }}</small><br>
-              <small class="test-muted group"><i class="fa-solid fa-file"></i>&nbsp; Type of Resource: {{ card.group }}</small><br>
+            {% if card.profile.source or card.profile.license %}
+              <hr class="solid">
+            {% endif %}
+            <p class="card-text">
+              {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i> Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a></small>{% endif %}
+              {% if card.profile.source and card.profile.license %}<br>{% endif %}
+              {% if card.profile.license %}<small class="test-muted"><i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ card.profile.license }}</small>{% endif %}
+            </p>
+              <hr class="solid">
+            <p class="card-text">
+              <small class="test-muted domain"><i class="fa-solid fa-square"></i>&nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ card.domain | downcase | replace: ' ', '-' }}">{{ card.domain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp;</small>
+              <small class="test-muted subdomain"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ card.subdomain }} &nbsp;&nbsp;//&nbsp;&nbsp;</small>
+              <small class="test-muted resource"><i class="fa-solid fa-file"></i>&nbsp; Type of Resource: {{ card.resource }}</small><br>
             </p>
           </div>
         </div>
@@ -86,25 +96,25 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const domainFilter = document.getElementById('domain-filter');
-  const topicFilter = document.getElementById('topic-filter');
-  const groupFilter = document.getElementById('group-filter');
+  const subdomainFilter = document.getElementById('subdomain-filter');
+  const resourceFilter = document.getElementById('resource-filter');
   const cards = document.querySelectorAll('.card');
 
   function filterCards() {
     const selectedDomain = domainFilter.value;
-    const selectedTopic = topicFilter.value;
-    const selectedGroup = groupFilter.value;
+    const selectedSubdomain = subdomainFilter.value;
+    const selectedResource = resourceFilter.value;
 
     cards.forEach(card => {
-      const domain = card.querySelector('.domain').textContent.trim().replace('Domain: ', '');
-      const topic = card.querySelector('.topic').textContent.trim().replace('Subdomain: ', ''); 
-      const group = card.querySelector('.group').textContent.trim().replace('Type of Resource: ', ''); 
+      const domain = card.getAttribute('data-domain'); // Get domain from data attribute
+      const subdomain = card.getAttribute('data-subdomain'); // Get subdomain from data attribute
+      const resource = card.querySelector('.resource').textContent.trim().replace('Type of Resource: ', ''); 
 
       const domainMatch = selectedDomain === 'all' || domain === selectedDomain;
-      const topicMatch = selectedTopic === 'all' || topic === selectedTopic;
-      const groupMatch = selectedGroup === 'all' || group === selectedGroup;
+      const subdomainMatch = selectedSubdomain === 'all' || subdomain === selectedSubdomain;
+      const resourceMatch = selectedResource === 'all' || resource === selectedResource;
 
-      if (domainMatch && topicMatch && groupMatch) {
+      if (domainMatch && subdomainMatch && resourceMatch) {
         card.style.display = 'block';
       } else {
         card.style.display = 'none';
@@ -113,8 +123,8 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   domainFilter.addEventListener('change', filterCards);
-  topicFilter.addEventListener('change', filterCards);
-  groupFilter.addEventListener('change', filterCards);
+  subdomainFilter.addEventListener('change', filterCards);
+  resourceFilter.addEventListener('change', filterCards);
 
   // Initial filtering when the page loads
   filterCards();
