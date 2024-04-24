@@ -2,7 +2,7 @@
 layout: page
 permalink: /testing/
 title: Testing
-description: 
+description:
 nav: false
 nav_rank: 8
 ---
@@ -21,7 +21,7 @@ nav_rank: 8
     </select>
 
     <br>
-    
+
     <label for="domain-filter">Primary Domain:</label>
     <select id="domain-filter">
       <option value="all">All</option>
@@ -39,15 +39,15 @@ nav_rank: 8
       <option value="{{ subdomain }}">{{ subdomain }}</option>
       {% endfor %}
     </select>
-    
+
   </div>
 </div>
 
+{% assign cards = site.cards | sort: "title" %}
+
 <div id="card-list" style="margin-top: 20px;">
-  {% assign cards = site.cards | sort: "title" %}
-  {% assign resource = site.data.cards.resources | where: "name", card.resource | first %}
-  
   {% for card in cards %}
+    {% assign resource = site.data.cards.resources | where: "name", card.resource | first %}
     <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px;" data-domain="{{ card.domain }}" data-subdomain="{{ card.subdomain }}">
       <div class="row no-gutters">
         <div class="team">

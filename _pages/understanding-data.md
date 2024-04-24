@@ -7,8 +7,8 @@ nav: false
 nav_rank: 8
 display_categories:
 horizontal: false
-#toc:
-#sidebar: right
+toc:
+  sidebar: left
 ---
 
 ## Overview

@@ -16,20 +16,8 @@ subdomains:
     Mapping Data,
     Telling Multi-Modal Stories with Data,
   ]
-resources:
-  [
-    Term,
-    Reading,
-    Assignment,
-    Activity,
-    Tutorial,
-    Teaching Module,
-    Dataset,
-    Example of Data Advocacy,
-  ]
-featured_tags: [web, design, development]
 
-resources: 
+resources:
   - name: Term
     icon: "fa-solid fa-lightbulb"
   - name: Reading
