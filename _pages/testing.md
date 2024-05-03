@@ -7,7 +7,7 @@ nav: false
 nav_rank: 8
 ---
 
-## Testing 51
+## Testing 52
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -58,7 +58,15 @@ nav_rank: 8
               {% if card.profile.date and card.profile.author %}&nbsp;&nbsp;//&nbsp;&nbsp;{% endif %}
               {% if card.profile.author %}<i class="fa-solid fa-user"></i>&nbsp; Author: {{ card.profile.author | replace: '<br />', ', ' }}{% endif %}</small></p>
             {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
-              <p class="card-text">{{ card.teaser }}</p></a>
+              <p class="card-text">
+                {% assign teaser_length = card.teaser | size %}
+                {% if teaser_length > 500 %}
+                  {{ card.teaser | slice: 0, 500 }}<a href="{{ card.url | relative_url }}">[...]</a>
+                {% else %}
+                  {{ card.teaser }}
+                {% endif %}
+              </p>
+            </a>
             {% if card.profile.source or card.profile.license %}
               <hr class="solid">
             {% endif %}
@@ -79,6 +87,7 @@ nav_rank: 8
     </div>
   {% endfor %}
 </div>
+
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
