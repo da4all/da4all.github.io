@@ -7,7 +7,7 @@ nav: false
 nav_rank: 8
 ---
 
-## Testing 58
+## Testing 59
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -62,7 +62,10 @@ nav_rank: 8
                 {% assign words = card.teaser | number_of_words %}
                 {% if words > 150 %}
                   {% assign teaser_words = card.teaser | split: ' ' | slice: 0, 150 | join: ' ' %}
-                  {{ teaser_words }}</p><p><a href="{{ card.url | relative_url }}">&nbsp;&nbsp;[...]</a></p>
+                  {{ teaser_words }}</p>
+              <p>
+                <a href="{{ card.url | relative_url }}">&nbsp;&nbsp;[...]</a>
+              </p>
                 {% else %}
                   {{ card.teaser }}</p>
                 {% endif %}
@@ -98,6 +101,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Define a mapping of subdomains to corresponding domains
   const subdomainToDomain = {
+    'All': 'All',
     'Defining Data': 'Understanding Data',
     'Critiquing Data': 'Understanding Data',
     'Acting Ethically with Data': 'Understanding Data',
@@ -136,13 +140,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
   domainFilter.addEventListener('change', filterCards);
   subdomainFilter.addEventListener('change', function() {
-  // Update the domain filter based on the selected subdomain
-  const selectedSubdomain = subdomainFilter.value;
-  const correspondingDomain = subdomainToDomain[selectedSubdomain];
-  if (correspondingDomain) {
-    domainFilter.value = correspondingDomain;
-  } else if (selectedSubdomain === 'all') {
-    domainFilter.value = 'all'; // Set domain filter to 'all' if 'all' is selected for subdomain
-  }
+    // Update the domain filter based on the selected subdomain
+    const selectedSubdomain = subdomainFilter.value;
+    const correspondingDomain = subdomainToDomain[selectedSubdomain];
+    if (correspondingDomain) {
+      domainFilter.value = correspondingDomain;
+    }
+    filterCards();
+  });
+  resourceFilter.addEventListener('change', filterCards);
+
+  // Initial filtering when the page loads
   filterCards();
 });
+</script>
