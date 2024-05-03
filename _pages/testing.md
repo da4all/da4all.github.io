@@ -93,4 +93,28 @@ document.addEventListener('DOMContentLoaded', function() {
     const selectedResource = resourceFilter.value;
 
     cards.forEach(card => {
-      const domain = card.getAttribute('data-domain
+      const domain = card.getAttribute('data-domain'); // Get domain from data attribute
+      const subdomain = card.getAttribute('data-subdomain'); // Get subdomain from data attribute
+      const resource = card.querySelector('.resource').textContent.trim().replace('Type of Resource: ', ''); 
+
+      const domainMatch = selectedDomain === 'all' || domain === selectedDomain;
+      const subdomainMatch = selectedSubdomain === 'all' || subdomain === selectedSubdomain;
+      const resourceMatch = selectedResource === 'all' || resource === selectedResource;
+
+      if (domainMatch && subdomainMatch && resourceMatch) {
+        card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+
+  domainFilter.addEventListener('change', filterCards);
+  subdomainFilter.addEventListener('change', filterCards);
+  resourceFilter.addEventListener('change', filterCards);
+
+  // Initial filtering when the page loads
+  filterCards();
+});
+</script>
+
