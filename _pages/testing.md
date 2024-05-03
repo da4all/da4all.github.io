@@ -62,11 +62,13 @@ nav_rank: 8
                 {% assign words = card.teaser | number_of_words %}
                 {% if words > 150 %}
                   {% assign teaser_words = card.teaser | split: ' ' | slice: 0, 150 | join: ' ' %}
-                  <span class="teaser-text">{{ teaser_words }}</span><a href="{{ card.url | relative_url }}">&nbsp;&nbsp;[...]</a>
-                {% else %}
-                  {{ card.teaser }}
-                {% endif %}
+                  {{ teaser_words }}</p>
+              <p>
+                <a href="{{ card.url | relative_url }}">&nbsp;&nbsp;[...]</a>
               </p>
+                {% else %}
+                  {{ card.teaser }}</p>
+                {% endif %}
             </a>
             {% if card.profile.source or card.profile.license %}
               <hr class="solid">
