@@ -98,7 +98,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Define a mapping of subdomains to corresponding domains
   const subdomainToDomain = {
-    'All': 'All',
     'Defining Data': 'Understanding Data',
     'Critiquing Data': 'Understanding Data',
     'Acting Ethically with Data': 'Understanding Data',
