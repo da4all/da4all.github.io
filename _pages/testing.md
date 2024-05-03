@@ -7,6 +7,79 @@ nav: false
 nav_rank: 8
 ---
 
+## Testing 46
+
+<div style="background-color: #f2f2f2; padding: 10px;">
+  <div id="filter-options" style="font-size: 0.8em;">
+    
+    <label for="resource-filter">Type of Resource:</label>
+    <select id="resource-filter">
+      <option value="all">All</option>
+      {% for resource in site.data.cards.resources %}
+      <option value="{{ resource }}">{{ resource }}</option>
+      {% endfor %}
+    </select>
+
+    <br>
+
+    <label for="domain-filter">Primary Domain:</label>
+    <select id="domain-filter">
+      <option value="all">All</option>
+      {% for domain in site.data.cards.domains %}
+      <option value="{{ domain }}">{{ domain }}</option>
+      {% endfor %}
+    </select>
+
+    <br>
+
+    <label for="subdomain-filter">Subdomain:</label>
+    <select id="subdomain-filter">
+      <option value="all">All</option>
+      {% for subdomain in site.data.cards.subdomains %}
+      <option value="{{ subdomain }}">{{ subdomain }}</option>
+      {% endfor %}
+    </select>
+
+  </div>
+</div>
+
+{% assign cards = site.cards | sort: "title" %}
+
+<div id="card-list" style="margin-top: 20px;">
+  {% for card in cards %}
+    {% assign resource = site.data.cards.resources | where: "name", card.resource | first %}
+    <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px;" data-domain="{{ card.domain }}" data-subdomain="{{ card.subdomain }}">
+      <div class="row no-gutters">
+        <div class="team">
+          <div class="card-body">
+            {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
+              <h5 class="card-title"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp;&nbsp; {{ card.title }}</h5></a>
+            <p class="card-text"><small class="test-muted">{% if card.profile.date %}<i class="fa-solid fa-calendar"></i>&nbsp; Date: {{ card.profile.date | replace: '<br />', ', ' }}{% endif %}
+              {% if card.profile.date and card.profile.author %}&nbsp;&nbsp;//&nbsp;&nbsp;{% endif %}
+              {% if card.profile.author %}<i class="fa-solid fa-user"></i>&nbsp; Author: {{ card.profile.author | replace: '<br />', ', ' }}{% endif %}</small></p>
+            {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
+              <p class="card-text">{{ card.teaser }}</p></a>
+            {% if card.profile.source or card.profile.license %}
+              <hr class="solid">
+            {% endif %}
+            <p class="card-text">
+              {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i> Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a></small>{% endif %}
+              {% if card.profile.source and card.profile.license %}<br>{% endif %}
+              {% if card.profile.license %}<small class="test-muted"><i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ card.profile.license }}</small>{% endif %}
+            </p>
+              <hr class="solid">
+            <p class="card-text">
+              <small class="test-muted domain"><i class="fa-solid fa-square"></i>&nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ card.domain | downcase | replace: ' ', '-' }}">{{ card.domain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp;</small>
+              <small class="test-muted subdomain"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ card.subdomain }} &nbsp;&nbsp;//&nbsp;&nbsp;</small>
+              <small class="test-muted resource"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ card.resource }}</small><br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
 ## Testing 45
 
 <div style="background-color: #f2f2f2; padding: 10px;">
