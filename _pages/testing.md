@@ -7,7 +7,7 @@ nav: false
 nav_rank: 8
 ---
 
-## Testing 53
+## Testing 54
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -62,7 +62,7 @@ nav_rank: 8
                 {% assign words = card.teaser | number_of_words %}
                 {% if words > 150 %}
                   {% assign teaser_words = card.teaser | split: ' ' | slice: 0, 150 | join: ' ' %}
-                  {{ teaser_words }}<a href="{{ card.url | relative_url }}">[...]</a>
+                  <span class="teaser-text">{{ teaser_words }}<a href="{{ card.url | relative_url }}">[...]</a></span>
                 {% else %}
                   {{ card.teaser }}
                 {% endif %}
@@ -88,6 +88,8 @@ nav_rank: 8
     </div>
   {% endfor %}
 </div>
+
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const domainFilter = document.getElementById('domain-filter');
