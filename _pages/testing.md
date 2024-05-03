@@ -7,7 +7,7 @@ nav: false
 nav_rank: 8
 ---
 
-## Testing 52
+## Testing 53
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -59,9 +59,10 @@ nav_rank: 8
               {% if card.profile.author %}<i class="fa-solid fa-user"></i>&nbsp; Author: {{ card.profile.author | replace: '<br />', ', ' }}{% endif %}</small></p>
             {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
               <p class="card-text">
-                {% assign teaser_length = card.teaser | size %}
-                {% if teaser_length > 500 %}
-                  {{ card.teaser | slice: 0, 500 }}<a href="{{ card.url | relative_url }}">[...]</a>
+                {% assign words = card.teaser | number_of_words %}
+                {% if words > 150 %}
+                  {% assign teaser_words = card.teaser | split: ' ' | slice: 0, 150 | join: ' ' %}
+                  {{ teaser_words }}<a href="{{ card.url | relative_url }}">[...]</a>
                 {% else %}
                   {{ card.teaser }}
                 {% endif %}
@@ -87,8 +88,6 @@ nav_rank: 8
     </div>
   {% endfor %}
 </div>
-
-
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const domainFilter = document.getElementById('domain-filter');
@@ -98,6 +97,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Define a mapping of subdomains to corresponding domains
   const subdomainToDomain = {
+    'All': 'All',
     'Defining Data': 'Understanding Data',
     'Critiquing Data': 'Understanding Data',
     'Acting Ethically with Data': 'Understanding Data',
