@@ -15,7 +15,7 @@ nav_rank: 8
     <label for="resource-filter">Type of Resource:</label>
     <select id="resource-filter">
       <option value="all">All</option>
-      {% for resource in site.data.cards.resources %}
+      {% for resource in site.data.cards.resources.name %}
       <option value="{{ resource }}">{{ resource }}</option>
       {% endfor %}
     </select>
