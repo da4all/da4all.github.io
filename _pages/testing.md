@@ -7,7 +7,7 @@ nav: false
 nav_rank: 8
 ---
 
-## Testing 50
+## Testing 51
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -87,6 +87,22 @@ document.addEventListener('DOMContentLoaded', function() {
   const resourceFilter = document.getElementById('resource-filter');
   const cards = document.querySelectorAll('.card');
 
+  // Define a mapping of subdomains to corresponding domains
+  const subdomainToDomain = {
+    'Defining Data': 'Understanding Data',
+    'Critiquing Data': 'Understanding Data',
+    'Acting Ethically with Data': 'Understanding Data',
+    'Linking Data and Justice': 'Understanding Data',
+    'Collecting Data': 'Processing Data',
+    'Organizing and Cleaning Data': 'Processing Data',
+    'Analyzing and Drawing Insights from Data': 'Processing Data',
+    'Storing and Preserving Data': 'Processing Data',
+    'Appealing with Data': 'Persuading with Data',
+    'Visualizing Data': 'Persuading with Data',
+    'Mapping Data': 'Persuading with Data',
+    'Telling Multi-Modal Stories with Data': 'Persuading with Data'
+  };
+
   function filterCards() {
     const selectedDomain = domainFilter.value;
     const selectedSubdomain = subdomainFilter.value;
@@ -110,11 +126,18 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   domainFilter.addEventListener('change', filterCards);
-  subdomainFilter.addEventListener('change', filterCards);
+  subdomainFilter.addEventListener('change', function() {
+    // Update the domain filter based on the selected subdomain
+    const selectedSubdomain = subdomainFilter.value;
+    const correspondingDomain = subdomainToDomain[selectedSubdomain];
+    if (correspondingDomain) {
+      domainFilter.value = correspondingDomain;
+    }
+    filterCards();
+  });
   resourceFilter.addEventListener('change', filterCards);
 
   // Initial filtering when the page loads
   filterCards();
 });
 </script>
-
