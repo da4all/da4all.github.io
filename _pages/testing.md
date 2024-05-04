@@ -7,7 +7,7 @@ nav: false
 nav_order: 
 ---
 
-## Testing 101
+## Testing 102
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -39,28 +39,11 @@ nav_order:
       <option value="{{ subdomain }}">{{ subdomain }}</option>
       {% endfor %}
     </select>
-
-    <br>
-    
-    <label for="keyword-filter">Keywords:</label>
-    <div class="tag-category-list" style="font-size: 0.8em; line-height: 1;">
-      <ul class="p-0 m-0">
-        {% assign all_keywords = site.cards | map: 'keywords' | join: ',' | split: ',' | uniq %}
-        {% for keyword in all_keywords %}
-        <li style="display: inline-block; margin-right: 5px; margin-bottom: 5px; padding: 5px; border: 1px solid #ccc; border-radius: 5px;">
-          <i class="fa-solid fa-hashtag fa-sm"></i> <a href="#" class="keyword-filter" data-keyword="{{ keyword }}">{{ keyword }}</a>
-        </li>
-        {% unless forloop.last %}
-        &bull;
-        {% endunless %}
-        {% endfor %}
-      </ul>
-    </div>
     
     <br>
     
     <label for="search-input">Search:</label>
-    <input type="text" id="search-input" style="width: 300px;" placeholder="Search by word, phrase, or featured keyword">
+    <input type="text" id="search-input" style="width: 300px;" placeholder="Search by word, phrase, or keyword">
     <button id="clear-search">Clear Search</button>
 
   </div>
