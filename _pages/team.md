@@ -4,7 +4,7 @@ permalink: /team/
 title: Data Advocacy for All Team
 description: 
 nav: false
-nav_rank: 8
+nav_rank: 
 ---
 
 {% comment %} 
