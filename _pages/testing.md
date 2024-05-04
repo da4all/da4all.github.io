@@ -7,16 +7,7 @@ nav: false
 nav_rank: 8
 ---
 
----
-layout: page
-permalink: /testing/
-title: Testing
-description:
-nav: false
-nav_rank: 8
----
-
-## Testing 82
+## Testing 83
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -54,14 +45,14 @@ nav_rank: 8
 
 <div class="tag-category-list">
   <ul class="p-0 m-0">
+    <li>
+      <i class="fa fa-minus-square" aria-hidden="true"></i> <a href="#" class="keyword-filter" data-keyword="all">Remove all keyword filters</a>
+    </li>
     {% assign all_keywords = site.cards | map: 'keywords' | join: ',' | split: ',' | uniq %}
     {% for keyword in all_keywords %}
       <li>
-        <i class="fa-solid fa-hashtag fa-sm"></i> <a href="#" class="keyword-filter" data-keyword="{{ keyword }}">{{ keyword }}</a>
+        <a href="#" class="keyword-filter" data-keyword="{{ keyword }}">{{ keyword }}</a>
       </li>
-      {% unless forloop.last %}
-        <p>&bull;</p>
-      {% endunless %}
     {% endfor %}
   </ul>
 </div>
@@ -179,13 +170,15 @@ document.addEventListener('DOMContentLoaded', function() {
       event.preventDefault();
       const selectedKeyword = this.getAttribute('data-keyword');
       filterCardsByKeyword(selectedKeyword);
+      keywordLinks.forEach(link => link.classList.remove('selected-keyword'));
+      this.classList.add('selected-keyword');
     });
   });
 
   function filterCardsByKeyword(keyword) {
     cards.forEach(card => {
-      const cardKeywords = card.querySelector('.keyword').innerText;
-      if (cardKeywords.includes(keyword)) {
+      const cardKeywords = Array.from(card.querySelectorAll('.keyword')).map(keyword => keyword.innerText.trim());
+      if (keyword === 'all' || cardKeywords.includes(keyword)) {
         card.style.display = 'block';
       } else {
         card.style.display = 'none';
