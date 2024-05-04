@@ -7,7 +7,7 @@ nav: false
 nav_order: 
 ---
 
-## Testing 102
+## Testing 103
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -44,6 +44,7 @@ nav_order:
     
     <label for="search-input">Search:</label>
     <input type="text" id="search-input" style="width: 300px;" placeholder="Search by word, phrase, or keyword">
+    <button id="search-button">Search</button>
     <button id="clear-search">Clear Search</button>
 
   </div>
@@ -108,6 +109,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const cards = document.querySelectorAll('.card');
   const searchInput = document.getElementById('search-input');
   const clearSearchBtn = document.getElementById('clear-search');
+  const searchBtn = document.getElementById('search-button');
 
   // Define a mapping of subdomains to corresponding domains
   const subdomainToDomain = {
@@ -150,16 +152,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
   domainFilter.addEventListener('change', filterCards);
   subdomainFilter.addEventListener('change', function() {
-  // Update the domain filter based on the selected subdomain
-  const selectedSubdomain = subdomainFilter.value;
-  const correspondingDomain = subdomainToDomain[selectedSubdomain];
-  if (correspondingDomain) {
-    domainFilter.value = correspondingDomain;
-  } else if (selectedSubdomain === 'all') {
-    domainFilter.value = 'all'; // Set domain filter to 'all' if 'all' is selected for subdomain
-  }
-  filterCards();
-});
+    // Update the domain filter based on the selected subdomain
+    const selectedSubdomain = subdomainFilter.value;
+    const correspondingDomain = subdomainToDomain[selectedSubdomain];
+    if (correspondingDomain) {
+      domainFilter.value = correspondingDomain;
+    } else if (selectedSubdomain === 'all') {
+      domainFilter.value = 'all'; // Set domain filter to 'all' if 'all' is selected for subdomain
+    }
+    filterCards();
+  });
   
   resourceFilter.addEventListener('change', filterCards);
 
@@ -173,6 +175,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
   searchInput.addEventListener('input', function() {
     filterCardsBySearch(this.value.trim());
+  });
+
+  searchBtn.addEventListener('click', function() {
+    searchInput.form.submit();
   });
 
   clearSearchBtn.addEventListener('click', function() {
