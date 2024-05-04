@@ -7,7 +7,7 @@ nav: false
 nav_order: 
 ---
 
-## Testing 88
+## Testing 90
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -77,11 +77,12 @@ nav_order:
                 {% if words > 150 %}
                   {% assign teaser_words = card.teaser | split: ' ' | slice: 0, 150 | join: ' ' %}
                   {{ teaser_words }} &nbsp;<b><u>[...]</u></b>
-                <small class="test-muted keyword"><br><br>Keywords: {% for keyword in card.keywords %}<i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;{% endfor %}</small></p>
                 {% else %}
                   {{ card.teaser }}
-              <small class="test-muted keyword"><br><br>Keywords: {% for keyword in card.keywords %}<i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;{% endfor %}</small></p>
+              {% endfor %}
                 {% endif %}
+              {% if card.keywords.size > 0 %}<small class="test-muted keyword"><br><br>Keywords: {% for keyword in card.keywords %}<i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;</small>{% endif %}
+              </p>
             </a>
             {% if card.profile.source or card.profile.license %}
               <hr class="solid">
