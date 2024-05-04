@@ -10,6 +10,10 @@ title: Testing Page
 teaser: >
   [DESCRIPTION]
 
+keywords:
+- template
+- example
+
 profile:
     source: "https://markcarrigan.net/2016/09/12/the-history-of-data-as-rhetoric/"
     author: [AUTHOR FULL NAME]
