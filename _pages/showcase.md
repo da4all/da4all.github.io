@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /showcase/
+permalink: /student-showcase/
 title: Student Showcase
 description: 
 nav: true
