@@ -7,7 +7,7 @@ nav: false
 nav_order: 
 ---
 
-## Testing 86
+## Testing 87
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -77,10 +77,10 @@ nav_order:
                 {% if words > 150 %}
                   {% assign teaser_words = card.teaser | split: ' ' | slice: 0, 150 | join: ' ' %}
                   {{ teaser_words }} &nbsp;<b><u>[...]</u></b>
-                <br>Keywords: <small class="test-muted keyword">{% for keyword in card.keywords %}<i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;{% endfor %}</small></p>
+                <br><br><small class="test-muted keyword"><i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;Keywords: {% for keyword in card.keywords %}<i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;{% endfor %}</small></p>
                 {% else %}
                   {{ card.teaser }}
-              <br>Keywords: <small class="test-muted keyword">{% for keyword in card.keywords %}<i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;{% endfor %}</small></p>
+              <br><br><small class="test-muted keyword"><i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;Keywords: {% for keyword in card.keywords %}<i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;{% endfor %}</small></p>
                 {% endif %}
             </a>
             {% if card.profile.source or card.profile.license %}
