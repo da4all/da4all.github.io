@@ -82,7 +82,7 @@ nav_order:
               {% endif %}
             </p>
           {% if card.keywords.size > 0 %}
-            <p class="card-text test-muted keyword"><br><br>Keywords: {% for keyword in card.keywords %}<i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;{% endfor %}</p>
+            <p class="card-text test-muted keyword"><small><br><br>Keywords: {% for keyword in card.keywords %}<i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;{% endfor %}</small></p>
           {% endif %}
           </a>
           {% if card.profile.source or card.profile.license %}
