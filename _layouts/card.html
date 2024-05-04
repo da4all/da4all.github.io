@@ -21,24 +21,26 @@ layout: default
           <i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ page.profile.license }}<br>
         {% endif %}
         <i class="fa-solid fa-square"></i>&nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ page.domain | downcase | replace: ' ', '-' }}">{{ page.domain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp; <i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ page.subdomain }}<br>
-        <i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ page.resource }}<br>
+        <i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ page.resource }}
       </small>
     </p>
     </div>
-    <p class="page-description">{{ page.teaser }}</p>
-  </header>
-  
-  <article>
+    
     <blockquote>
-    {{ content }}
-    <small class="test-muted"><br>
-      {% if page.keywords.size > 0 %}
+      <p class="page-description">
+        <small class="test-muted">{{ page.teaser }}
+          {% if page.keywords.size > 0 %}
           Keywords: 
           {% for keyword in page.keywords %}
             <i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;
-          {% endfor %}<br>
+          {% endfor %}
         {% endif %}
-    </small>
+        </small>
+      </p>
     </blockquote>
+  </header>
+
+<article>
+    {{ content }}
   </article>
 </div>
