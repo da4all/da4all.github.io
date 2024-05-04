@@ -7,52 +7,29 @@ nav: false
 nav_rank: 8
 ---
 
-## Testing 75
+## Testing 76
 
-<div style="background-color: #f2f2f2; padding: 10px;">
-  <div id="filter-options" style="font-size: 0.8em;">
-    
-    <label for="resource-filter">Type of Resource:</label>
-    <select id="resource-filter">
-      <option value="all">All</option>
-      {% for resource in site.data.cards.resources %}
-      <option value="{{ resource.name }}">{{ resource.name }}</option>
-      {% endfor %}
-    </select>
-
-    <br>
-
-    <label for="domain-filter">Primary Domain:</label>
-    <select id="domain-filter">
-      <option value="all">All</option>
-      {% for domain in site.data.cards.domains %}
-      <option value="{{ domain }}">{{ domain }}</option>
-      {% endfor %}
-    </select>
-
-    <br>
-
-    <label for="subdomain-filter">Subdomain:</label>
-    <select id="subdomain-filter">
-      <option value="all">All</option>
-      {% for subdomain in site.data.cards.subdomains %}
-      <option value="{{ subdomain }}">{{ subdomain }}</option>
-      {% endfor %}
-    </select>
-
-    <br>
-
-    <label for="keyword-filter">Keyword:</label>
-    <ul id="keyword-list">
-      {% for card in site.cards %}
-        {% for keyword in card.keywords %}
-          <li class="keyword-filter" data-keyword="{{ keyword }}">{{ keyword }}</li>
-        {% endfor %}
-      {% endfor %}
-    </ul>
-
-  </div>
+<div class="tag-category-list">
+  <ul class="p-0 m-0">
+    {% for tag in site.display_tags %}
+      <li>
+        <i class="fa-solid fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
+      </li>
+      {% unless forloop.last %}
+        <p>&bull;</p>
+      {% endunless %}
+    {% endfor %}
+  </ul>
 </div>
+
+<select id="keyword-filter">
+  <option value="all">All Keywords</option>
+  {% for card in site.cards %}
+    {% for keyword in card.keywords %}
+      <option value="{{ keyword }}">{{ keyword }}</option>
+    {% endfor %}
+  {% endfor %}
+</select>
 
 <div id="card-list" style="margin-top: 20px;">
   {% for card in site.cards %}
@@ -88,6 +65,7 @@ nav_rank: 8
               <small class="test-muted domain"><i class="fa-solid fa-square"></i>&nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ card.domain | downcase | replace: ' ', '-' }}">{{ card.domain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp;</small>
               <small class="test-muted subdomain"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ card.subdomain }} &nbsp;&nbsp;//&nbsp;&nbsp;</small>
               <small class="test-muted resource"><i class="fas fa-file"></i>&nbsp; Type of Resource: {{ card.resource }}</small><br>
+              <small class="test-muted keyword">{% for keyword in card.keywords %}<i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;{% endfor %}</small>
             </p>
           </div>
         </div>
@@ -101,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const domainFilter = document.getElementById('domain-filter');
   const subdomainFilter = document.getElementById('subdomain-filter');
   const resourceFilter = document.getElementById('resource-filter');
-  const keywordFilters = document.querySelectorAll('.keyword-filter');
+  const keywordFilter = document.getElementById('keyword-filter');
   const cards = document.querySelectorAll('.card');
 
   // Define a mapping of subdomains to corresponding domains
@@ -125,30 +103,20 @@ document.addEventListener('DOMContentLoaded', function() {
     const selectedDomain = domainFilter.value;
     const selectedSubdomain = subdomainFilter.value;
     const selectedResource = resourceFilter.value;
+    const selectedKeyword = keywordFilter.value;
 
     cards.forEach(card => {
       const domain = card.getAttribute('data-domain'); // Get domain from data attribute
       const subdomain = card.getAttribute('data-subdomain'); // Get subdomain from data attribute
       const resource = card.querySelector('.resource').textContent.trim().replace('Type of Resource: ', ''); 
+      const keywords = Array.from(card.querySelectorAll('.keyword')).map(elem => elem.textContent.trim());
 
       const domainMatch = selectedDomain === 'all' || domain === selectedDomain;
       const subdomainMatch = selectedSubdomain === 'all' || subdomain === selectedSubdomain;
       const resourceMatch = selectedResource === 'all' || resource === selectedResource;
+      const keywordMatch = selectedKeyword === 'all' || keywords.includes(selectedKeyword);
 
-      if (domainMatch && subdomainMatch && resourceMatch) {
-        card.style.display = 'block';
-      } else {
-        card.style.display = 'none';
-      }
-    });
-  }
-
-  function filterCardsByKeyword(keyword) {
-    cards.forEach(card => {
-      const keywords = Array.from(card.querySelectorAll('.keyword')).map(elem => elem.textContent.trim());
-      const keywordMatch = keyword === 'all' || keywords.includes(keyword);
-
-      if (keywordMatch) {
+      if (domainMatch && subdomainMatch && resourceMatch && keywordMatch) {
         card.style.display = 'block';
       } else {
         card.style.display = 'none';
@@ -169,13 +137,7 @@ document.addEventListener('DOMContentLoaded', function() {
     filterCards();
   });
   resourceFilter.addEventListener('change', filterCards);
-
-  keywordFilters.forEach(filter => {
-    filter.addEventListener('click', function() {
-      const keyword = this.getAttribute('data-keyword');
-      filterCardsByKeyword(keyword);
-    });
-  });
+  keywordFilter.addEventListener('change', filterCards);
 
   // Initial filtering when the page loads
   filterCards();
