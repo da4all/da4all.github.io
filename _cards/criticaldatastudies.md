@@ -10,6 +10,11 @@ title: "Critical Data Studies: An Introduction"
 teaser: >
   Critical Data Studies (CDS) explore the unique cultural, ethical, and critical challenges posed by Big Data. Rather than treat Big Data as only scientifically empirical and therefore largely neutral phenomena, CDS advocates the view that Big Data should be seen as always-already constituted within wider data assemblages. Assemblages is a concept that helps capture the multitude of ways that already-composed data structures inflect and interact with society, its organization and functioning, and the resulting impact on individuals’ daily lives. CDS questions the many assumptions about Big Data that permeate contemporary literature on information and society by locating instances where Big Data may be naively taken to denote objective and transparent informational entities. In this introduction to the Big Data & Society CDS special theme, we briefly describe CDS work, its orientations, and principles.
 
+keywords:
+- data
+- big data
+- critical data studies
+
 profile:
     source: https://journals.sagepub.com/doi/10.1177/2053951716674238
     author: Andrew Iliadis and Federica Russo
