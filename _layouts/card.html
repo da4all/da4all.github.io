@@ -5,19 +5,8 @@ layout: default
 <div class="page">
   <header class="page-header">
     <h1 class="page-title">{{ page.title }}</h1>
-
-    <p class="page-description">
-        <small class="test-muted"><blockquote style="font-size:16px">{{ page.teaser }}
-          {% if page.keywords.size > 0 %}
-          <br><br> Keywords:
-          {% for keyword in page.keywords %}
-            <i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;
-          {% endfor %}
-        {% endif %}
-        </blockquote></small>
-      </p>
     
-    <div style="background-color: #f2f2f2; padding: 10px;">
+    <div style="background-color: #f2f2f2; padding: 20px;">
     <p class="page-text">
       <small class="test-muted">
         {% if page.profile.date %}
@@ -36,6 +25,22 @@ layout: default
       </small>
     </p>
     </div>
+
+    <p class="page-description">
+        <small class="test-muted">
+          <blockquote style="font-size:16px">
+            {{ page.teaser }}
+          </blockquote>
+          {% if page.keywords.size > 0 %}
+          <blockquote style="font-size:12px">
+          <br><br> Keywords:
+          {% for keyword in page.keywords %}
+            <i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;
+          {% endfor %}
+          </blockquote>
+        {% endif %}
+        </small>
+      </p>
     
   </header>
 
