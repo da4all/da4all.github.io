@@ -7,7 +7,7 @@ nav: false
 nav_rank: 8
 ---
 
-## Testing 64
+## Testing 65
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -62,7 +62,7 @@ nav_rank: 8
                 {% assign words = card.teaser | number_of_words %}
                 {% if words > 150 %}
                   {% assign teaser_words = card.teaser | split: ' ' | slice: 0, 150 | join: ' ' %}
-                  {{ teaser_words }}</p><a href="{{ card.url | relative_url }}">&nbsp;&nbsp;[...]</a>
+                  {{ teaser_words }}<span style="display: inline;"></p><a href="{{ card.url | relative_url }}">&nbsp;&nbsp;[...]</a></span>
                 {% else %}
                   {{ card.teaser }}</p>
                 {% endif %}
