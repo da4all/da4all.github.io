@@ -7,7 +7,7 @@ nav: false
 nav_rank: 8
 ---
 
-## Testing 74
+## Testing 75
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -56,7 +56,7 @@ nav_rank: 8
 
 <div id="card-list" style="margin-top: 20px;">
   {% for card in site.cards %}
-    <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px;" data-domain="{{ card.domain }}" data-subdomain="{{ card.subdomain }}">
+    <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px; display: none;" data-domain="{{ card.domain }}" data-subdomain="{{ card.subdomain }}">
       <div class="row no-gutters">
         <div class="team">
           <div class="card-body">
@@ -166,6 +166,8 @@ document.addEventListener('DOMContentLoaded', function() {
   } else if (selectedSubdomain === 'all') {
     domainFilter.value = 'all'; // Set domain filter to 'all' if 'all' is selected for subdomain
   }
+    filterCards();
+  });
   resourceFilter.addEventListener('change', filterCards);
 
   keywordFilters.forEach(filter => {
