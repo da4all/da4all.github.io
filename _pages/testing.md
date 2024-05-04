@@ -79,7 +79,6 @@ nav_order:
                   {{ teaser_words }} &nbsp;<b><u>[...]</u></b>
                 {% else %}
                   {{ card.teaser }}
-              {% endfor %}
                 {% endif %}
               {% if card.keywords.size > 0 %}<small class="test-muted keyword"><br><br>Keywords: {% for keyword in card.keywords %}<i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;</small>{% endif %}
               </p>
