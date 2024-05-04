@@ -2,34 +2,34 @@
 layout: default
 ---
 <!-- card.html -->
-<div class="post">
-  <header class="card-header">
-    <h1 class="card-title">{{ card.title }}</h1>
-    <p class="card-text">
+<div class="page">
+  <header class="page-header">
+    <h1 class="page-title">{{ page.title }}</h1>
+    <p class="page-text">
       <small class="test-muted">
-        {% if card.profile.date %}
-          <i class="fa-solid fa-calendar"></i>&nbsp; Date: {{ card.profile.date | replace: '<br />', ', ' }}
+        {% if page.profile.date %}
+          <i class="fa-solid fa-calendar"></i>&nbsp; Date: {{ page.profile.date | replace: '<br />', ', ' }}
         {% endif %}
-        {% if card.profile.author %}
-          <i class="fa-solid fa-user"></i>&nbsp; Author: {{ card.profile.author | replace: '<br />', ', ' }}
+        {% if page.profile.author %}
+          <i class="fa-solid fa-user"></i>&nbsp; Author: {{ page.profile.author | replace: '<br />', ', ' }}
         {% endif %}
-        {% if card.keywords.size > 0 %}
+        {% if page.keywords.size > 0 %}
           Keywords: 
-          {% for keyword in card.keywords %}
+          {% for keyword in page.keywords %}
             <i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;<br>
           {% endfor %}
         {% endif %}
-        {% if card.profile.source %}
-          <i class="fas fa-link"></i> Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a>
+        {% if page.profile.source %}
+          <i class="fas fa-link"></i> Source: <a href="{{ page.profile.source }}">{{ page.profile.source | replace: '<br />', ', ' }}</a>
         {% endif %}
-        {% if card.profile.license %}
-          <i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ card.profile.license }}
+        {% if page.profile.license %}
+          <i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ page.profile.license }}
         {% endif %}
-        <i class="fa-solid fa-square"></i>&nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ card.domain | downcase | replace: ' ', '-' }}">{{ card.domain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp; <i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ card.subdomain }}<br>
-        <i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ card.resource }}<br>
+        <i class="fa-solid fa-square"></i>&nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ page.domain | downcase | replace: ' ', '-' }}">{{ page.domain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp; <i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ page.subdomain }}<br>
+        <i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ page.resource }}<br>
       </small>
     </p>
-    <p class="card-description">{{ card.teaser }}</p>
+    <p class="page-description">{{ page.teaser }}</p>
   </header>
   <article>
     {{ content }}
