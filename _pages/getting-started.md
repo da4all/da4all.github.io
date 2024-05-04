@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /getting-started/
-title: Getting Started
+permalink: /how-to-navigate/
+title: How to Navigate
 description: Materials for courses you taught. Replace this text with your description.
 nav: true
 nav_order: 2
