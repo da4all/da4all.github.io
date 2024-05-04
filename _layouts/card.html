@@ -5,6 +5,18 @@ layout: default
 <div class="page">
   <header class="page-header">
     <h1 class="page-title">{{ page.title }}</h1>
+
+    <p class="page-description">
+        <small class="test-muted"><blockquote style="font-size:16px">{{ page.teaser }}
+          {% if page.keywords.size > 0 %}
+          <br><br> Keywords:
+          {% for keyword in page.keywords %}
+            <i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;
+          {% endfor %}
+        {% endif %}
+        </blockquote></small>
+      </p>
+    
     <div style="background-color: #f2f2f2; padding: 10px;">
     <p class="page-text">
       <small class="test-muted">
@@ -20,22 +32,11 @@ layout: default
         {% if page.profile.license %}
           <i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ page.profile.license }}<br>
         {% endif %}
-        <i class="fa-solid fa-square"></i>&nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ page.domain | downcase | replace: ' ', '-' }}">{{ page.domain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp; <i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ page.subdomain }}<br>
-        <i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ page.resource }}
+        <i class="fa-solid fa-square"></i>&nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ page.domain | downcase | replace: ' ', '-' }}">{{ page.domain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp; <i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ page.subdomain }} &nbsp;&nbsp;//&nbsp;&nbsp; <i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ page.resource }}
       </small>
     </p>
     </div>
     
-      <p class="page-description">
-        <small class="test-muted"><blockquote style="font-size:12px">{{ page.teaser }}
-          {% if page.keywords.size > 0 %}
-          <br> Keywords: 
-          {% for keyword in page.keywords %}
-            <i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;
-          {% endfor %}
-        {% endif %}
-        </blockquote></small>
-      </p>
   </header>
 
 <article>
