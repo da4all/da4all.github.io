@@ -7,7 +7,7 @@ nav: false
 nav_rank: 8
 ---
 
-## Testing 71
+## Testing 70
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -43,29 +43,25 @@ nav_rank: 8
     <br>
 
     <label for="keyword-filter">Keyword:</label>
-    <select id="keyword-filter">
-      <option value="all">All</option>
+    <ul id="keyword-list">
       {% for card in site.cards %}
         {% for keyword in card.keywords %}
-          <option value="{{ keyword }}">{{ keyword }}</option>
+          <li class="keyword-filter" data-keyword="{{ keyword }}">{{ keyword }}</li>
         {% endfor %}
       {% endfor %}
-    </select>
+    </ul>
 
   </div>
 </div>
 
-{% assign cards = site.cards | sort: "title" %}
-
 <div id="card-list" style="margin-top: 20px;">
-  {% for card in cards %}
-    {% assign resource = site.data.cards.resources | where: "name", card.resource | first %}
+  {% for card in site.cards %}
     <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px;" data-domain="{{ card.domain }}" data-subdomain="{{ card.subdomain }}">
       <div class="row no-gutters">
         <div class="team">
           <div class="card-body">
             {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
-              <h5 class="card-title"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp;&nbsp; {{ card.title }}</h5></a>
+              <h5 class="card-title"><i class="fas fa-file"></i>&nbsp;&nbsp; {{ card.title }}</h5></a>
             <p class="card-text"><small class="test-muted">{% if card.profile.date %}<i class="fa-solid fa-calendar"></i>&nbsp; Date: {{ card.profile.date | replace: '<br />', ', ' }}{% endif %}
               {% if card.profile.date and card.profile.author %}&nbsp;&nbsp;//&nbsp;&nbsp;{% endif %}
               {% if card.profile.author %}<i class="fa-solid fa-user"></i>&nbsp; Author: {{ card.profile.author | replace: '<br />', ', ' }}{% endif %}</small></p>
@@ -74,9 +70,7 @@ nav_rank: 8
                 {% assign words = card.teaser | number_of_words %}
                 {% if words > 150 %}
                   {% assign teaser_words = card.teaser | split: ' ' | slice: 0, 150 | join: ' ' %}
-                  <nobr>{{ teaser_words }}</p>
-                    <p> &nbsp;<a href="{{ card.url | relative_url }}">[...]</a></p>
-                  </nobr>
+                  {{ teaser_words }} <small class="test-muted"><a href="{{ card.url | relative_url }}">&nbsp;<b><u>[...]</u></b></a> </small></p>
                 {% else %}
                   {{ card.teaser }}</p>
                 {% endif %}
@@ -93,7 +87,7 @@ nav_rank: 8
             <p class="card-text">
               <small class="test-muted domain"><i class="fa-solid fa-square"></i>&nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ card.domain | downcase | replace: ' ', '-' }}">{{ card.domain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp;</small>
               <small class="test-muted subdomain"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ card.subdomain }} &nbsp;&nbsp;//&nbsp;&nbsp;</small>
-              <small class="test-muted resource"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ card.resource }}</small><br>
+              <small class="test-muted resource"><i class="fas fa-file"></i>&nbsp; Type of Resource: {{ card.resource }}</small><br>
             </p>
           </div>
         </div>
@@ -107,7 +101,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const domainFilter = document.getElementById('domain-filter');
   const subdomainFilter = document.getElementById('subdomain-filter');
   const resourceFilter = document.getElementById('resource-filter');
-  const keywordFilter = document.getElementById('keyword-filter');
+  const keywordFilters = document.querySelectorAll('.keyword-filter');
   const cards = document.querySelectorAll('.card');
 
   // Define a mapping of subdomains to corresponding domains
@@ -131,41 +125,14 @@ document.addEventListener('DOMContentLoaded', function() {
     const selectedDomain = domainFilter.value;
     const selectedSubdomain = subdomainFilter.value;
     const selectedResource = resourceFilter.value;
-    const selectedKeyword = keywordFilter.value;
 
     cards.forEach(card => {
       const domain = card.getAttribute('data-domain'); // Get domain from data attribute
       const subdomain = card.getAttribute('data-subdomain'); // Get subdomain from data attribute
       const resource = card.querySelector('.resource').textContent.trim().replace('Type of Resource: ', ''); 
-      const keywords = Array.from(card.querySelectorAll('.keyword')).map(elem => elem.textContent.trim());
 
       const domainMatch = selectedDomain === 'all' || domain === selectedDomain;
       const subdomainMatch = selectedSubdomain === 'all' || subdomain === selectedSubdomain;
       const resourceMatch = selectedResource === 'all' || resource === selectedResource;
-      const keywordMatch = selectedKeyword === 'all' || keywords.includes(selectedKeyword);
 
-      if (domainMatch && subdomainMatch && resourceMatch && keywordMatch) {
-        card.style.display = 'block';
-      } else {
-        card.style.display = 'none';
-      }
-    });
-  }
-
-  domainFilter.addEventListener('change', filterCards);
-  subdomainFilter.addEventListener('change', function() {
-    // Update the domain filter based on the selected subdomain
-    const selectedSubdomain = subdomainFilter.value;
-    const correspondingDomain = subdomainToDomain[selectedSubdomain];
-    if (correspondingDomain) {
-      domainFilter.value = correspondingDomain;
-    }
-    filterCards();
-  });
-  resourceFilter.addEventListener('change', filterCards);
-  keywordFilter.addEventListener('change', filterCards);
-
-  // Initial filtering when the page loads
-  filterCards();
-});
-</script>
+      if (domainMatch
