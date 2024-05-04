@@ -60,48 +60,50 @@ nav_order:
 {% assign cards = site.cards | sort: "title" %}
 
 <div id="card-list" style="margin-top: 20px;">
-  {% for card in cards %}
-    {% assign resource = site.data.cards.resources | where: "name", card.resource | first %}
-    <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px;" data-domain="{{ card.domain }}" data-subdomain="{{ card.subdomain }}">
-      <div class="row no-gutters">
-        <div class="team">
-          <div class="card-body">
-            {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
-              <h5 class="card-title"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp;&nbsp; {{ card.title }}</h5></a>
-            <p class="card-text"><small class="test-muted">{% if card.profile.date %}<i class="fa-solid fa-calendar"></i>&nbsp; Date: {{ card.profile.date | replace: '<br />', ', ' }}{% endif %}
-              {% if card.profile.date and card.profile.author %}&nbsp;&nbsp;//&nbsp;&nbsp;{% endif %}
-              {% if card.profile.author %}<i class="fa-solid fa-user"></i>&nbsp; Author: {{ card.profile.author | replace: '<br />', ', ' }}{% endif %}</small></p>
-            {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
-              <p class="card-text">
-                {% assign words = card.teaser | number_of_words %}
-                {% if words > 150 %}
-                  {% assign teaser_words = card.teaser | split: ' ' | slice: 0, 150 | join: ' ' %}
-                  {{ teaser_words }} &nbsp;<b><u>[...]</u></b>
-                {% else %}
-                  {{ card.teaser }}
-                {% endif %}
-              {% if card.keywords.size > 0 %}<small class="test-muted keyword"><br><br>Keywords: {% for keyword in card.keywords %}<i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;</small>{% endif %}
-              </p>
-            </a>
-            {% if card.profile.source or card.profile.license %}
-              <hr class="solid">
-            {% endif %}
+{% for card in cards %}
+  {% assign resource = site.data.cards.resources | where: "name", card.resource | first %}
+  <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px;" data-domain="{{ card.domain }}" data-subdomain="{{ card.subdomain }}">
+    <div class="row no-gutters">
+      <div class="team">
+        <div class="card-body">
+          {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
+            <h5 class="card-title"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp;&nbsp; {{ card.title }}</h5></a>
+          <p class="card-text"><small class="test-muted">{% if card.profile.date %}<i class="fa-solid fa-calendar"></i>&nbsp; Date: {{ card.profile.date | replace: '<br />', ', ' }}{% endif %}
+            {% if card.profile.date and card.profile.author %}&nbsp;&nbsp;//&nbsp;&nbsp;{% endif %}
+            {% if card.profile.author %}<i class="fa-solid fa-user"></i>&nbsp; Author: {{ card.profile.author | replace: '<br />', ', ' }}{% endif %}</small></p>
+          {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
             <p class="card-text">
-              {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i> Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a></small>{% endif %}
-              {% if card.profile.source and card.profile.license %}<br>{% endif %}
-              {% if card.profile.license %}<small class="test-muted"><i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ card.profile.license }}</small>{% endif %}
+              {% assign words = card.teaser | number_of_words %}
+              {% if words > 150 %}
+                {% assign teaser_words = card.teaser | split: ' ' | slice: 0, 150 | join: ' ' %}
+                {{ teaser_words }} &nbsp;<b><u>[...]</u></b>
+              {% else %}
+                {{ card.teaser }}
+              {% endif %}
             </p>
-              <hr class="solid">
-            <p class="card-text">
-              <small class="test-muted domain"><i class="fa-solid fa-square"></i>&nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ card.domain | downcase | replace: ' ', '-' }}">{{ card.domain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp;</small>
-              <small class="test-muted subdomain"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ card.subdomain }} &nbsp;&nbsp;//&nbsp;&nbsp;</small>
-              <small class="test-muted resource"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ card.resource }}</small><br>
-            </p>
-          </div>
+          {% if card.keywords.size > 0 %}
+            <p class="card-text test-muted keyword"><br><br>Keywords: {% for keyword in card.keywords %}<i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;{% endfor %}</p>
+          {% endif %}
+          </a>
+          {% if card.profile.source or card.profile.license %}
+            <hr class="solid">
+          {% endif %}
+          <p class="card-text">
+            {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i> Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a></small>{% endif %}
+            {% if card.profile.source and card.profile.license %}<br>{% endif %}
+            {% if card.profile.license %}<small class="test-muted"><i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ card.profile.license }}</small>{% endif %}
+          </p>
+            <hr class="solid">
+          <p class="card-text">
+            <small class="test-muted domain"><i class="fa-solid fa-square"></i>&nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ card.domain | downcase | replace: ' ', '-' }}">{{ card.domain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp;</small>
+            <small class="test-muted subdomain"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ card.subdomain }} &nbsp;&nbsp;//&nbsp;&nbsp;</small>
+            <small class="test-muted resource"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ card.resource }}</small><br>
+          </p>
         </div>
       </div>
     </div>
-  {% endfor %}
+  </div>
+{% endfor %}
 </div>
 
 <script>
