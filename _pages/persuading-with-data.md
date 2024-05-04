@@ -4,7 +4,7 @@ permalink: /persuading-with-data/
 title: Persuading with Data
 description: 
 nav: false
-nav_rank: 
+nav_order: 
 ---
 
 ## Overview
