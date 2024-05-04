@@ -4,7 +4,7 @@ permalink: /student-showcase/
 title: Student Showcase
 description: 
 nav: true
-nav_rank: 5
+nav_rank: 4
 ---
 
 <br>
