@@ -3,8 +3,8 @@ layout: page
 permalink: /toolkit/
 title: Toolkit Overview
 description: 
-nav: false
-nav_rank: 8
+nav: true
+nav_rank: 4
 ---
 
 ## Overview
