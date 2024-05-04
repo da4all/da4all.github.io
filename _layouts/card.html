@@ -6,7 +6,7 @@ layout: default
   <header class="page-header">
     <h1 class="page-title">{{ page.title }}</h1>
     
-    <div style="background-color: #f2f2f2; padding: 20px;">
+    <div style="background-color: #f2f2f2; margin: 10px;">
     <p class="page-text">
       <small class="test-muted">
         {% if page.profile.date %}
@@ -26,25 +26,26 @@ layout: default
     </p>
     </div>
 
-    <p class="page-description">
-        <small class="test-muted">
-          <blockquote style="font-size:16px">
-            {{ page.teaser }}
-          </blockquote>
+    <blockquote>
+    <p class="page-description" style="font-size:16px">
+      {{ page.teaser }}
+    </p>
+    <p class="page-description" style="font-size:12px"> 
           {% if page.keywords.size > 0 %}
-          <blockquote style="font-size:12px">
-          <br><br> Keywords:
+          Keywords:
           {% for keyword in page.keywords %}
             <i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;
           {% endfor %}
-          </blockquote>
         {% endif %}
-        </small>
       </p>
+      </blockquote>
+
+    <hr class="solid">
     
   </header>
 
 <article>
     {{ content }}
   </article>
+
 </div>
