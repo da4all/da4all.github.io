@@ -4,7 +4,7 @@ permalink: /understanding-data/
 title: Understanding Data
 description:
 nav: false
-nav_rank: 
+nav_order: 
 display_categories:
 horizontal: false
 toc:
