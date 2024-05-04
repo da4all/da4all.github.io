@@ -8,7 +8,7 @@ nav_rank: 5
 ---
 
 <br>
-
+ 
 {% comment %} 
 {% assign groups = site.showcase | sort: "group_rank" | map: "group" | uniq %} 
 {% endcomment %}
