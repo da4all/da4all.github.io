@@ -4,10 +4,10 @@ permalink: /testing/
 title: Testing
 description:
 nav: false
-nav_rank: 
+nav_rank: 8
 ---
 
-## Testing 84
+## Testing 85
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -45,9 +45,6 @@ nav_rank:
 
 <div class="tag-category-list">
   <ul class="p-0 m-0">
-    <li>
-      <i class="fa fa-minus-square" aria-hidden="true"></i> <a href="#" class="keyword-filter" data-keyword="all">Remove all keyword filters</a>
-    </li>
     {% assign all_keywords = site.cards | map: 'keywords' | join: ',' | split: ',' | uniq %}
     {% for keyword in all_keywords %}
       <li>
@@ -79,9 +76,10 @@ nav_rank:
                 {% assign words = card.teaser | number_of_words %}
                 {% if words > 150 %}
                   {% assign teaser_words = card.teaser | split: ' ' | slice: 0, 150 | join: ' ' %}
-                  {{ teaser_words }} &nbsp;<b><u>[...]</u></b></p>
+                  {{ teaser_words }} &nbsp;<b><u>[...]</u></b>
                 {% else %}
-                  {{ card.teaser }}</p>
+                  {{ card.teaser }}
+              <b>Keywords:</b> <small class="test-muted keyword">{% for keyword in card.keywords %}<i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;{% endfor %}</small></p>
                 {% endif %}
             </a>
             {% if card.profile.source or card.profile.license %}
@@ -97,7 +95,6 @@ nav_rank:
               <small class="test-muted domain"><i class="fa-solid fa-square"></i>&nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ card.domain | downcase | replace: ' ', '-' }}">{{ card.domain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp;</small>
               <small class="test-muted subdomain"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ card.subdomain }} &nbsp;&nbsp;//&nbsp;&nbsp;</small>
               <small class="test-muted resource"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ card.resource }}</small><br>
-              <small class="test-muted keyword">{% for keyword in card.keywords %}<i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;{% endfor %}</small>
             </p>
           </div>
         </div>
@@ -173,8 +170,6 @@ document.addEventListener('DOMContentLoaded', function() {
       event.preventDefault();
       const selectedKeyword = this.getAttribute('data-keyword');
       filterCardsByKeyword(selectedKeyword);
-      keywordLinks.forEach(link => link.classList.remove('selected-keyword'));
-      this.classList.add('selected-keyword');
     });
   });
 
