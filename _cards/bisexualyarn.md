@@ -10,6 +10,10 @@ title: "How to Spin Bisexual Yarn"
 teaser: >
   This "How to Spin Bisexual Yarn" PowerPoint discusses yarn as a form of data analysis. 
 
+keywords:
+- yarn
+- data analysis
+
 profile:
     source:
     author: Lore Whittemore
