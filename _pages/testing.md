@@ -7,7 +7,7 @@ nav: false
 nav_rank: 8
 ---
 
-## Testing 83
+## Testing 82
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -45,14 +45,14 @@ nav_rank: 8
 
 <div class="tag-category-list">
   <ul class="p-0 m-0">
-    <li>
-      <a href="#" class="keyword-filter" data-keyword="all">Remove all keyword filters <i class="fa fa-minus-square" aria-hidden="true"></i></a>
-    </li>
     {% assign all_keywords = site.cards | map: 'keywords' | join: ',' | split: ',' | uniq %}
     {% for keyword in all_keywords %}
       <li>
-        <a href="#" class="keyword-filter" data-keyword="{{ keyword }}">{{ keyword }}</a>
+        <i class="fa-solid fa-hashtag fa-sm"></i> <a href="#" class="keyword-filter" data-keyword="{{ keyword }}">{{ keyword }}</a>
       </li>
+      {% unless forloop.last %}
+        <p>&bull;</p>
+      {% endunless %}
     {% endfor %}
   </ul>
 </div>
@@ -94,7 +94,7 @@ nav_rank: 8
               <small class="test-muted domain"><i class="fa-solid fa-square"></i>&nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ card.domain | downcase | replace: ' ', '-' }}">{{ card.domain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp;</small>
               <small class="test-muted subdomain"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ card.subdomain }} &nbsp;&nbsp;//&nbsp;&nbsp;</small>
               <small class="test-muted resource"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ card.resource }}</small><br>
-              <small class="test-muted keyword">{% for keyword in card.keywords %}<i class="fa-solid fa-hashtag fa-sm {% if keyword == current_keyword %}selected-keyword{% endif %}"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;{% endfor %}</small>
+              <small class="test-muted keyword">{% for keyword in card.keywords %}<i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;{% endfor %}</small>
             </p>
           </div>
         </div>
@@ -132,20 +132,17 @@ document.addEventListener('DOMContentLoaded', function() {
     const selectedDomain = domainFilter.value;
     const selectedSubdomain = subdomainFilter.value;
     const selectedResource = resourceFilter.value;
-    const currentKeyword = document.querySelector('.selected-keyword')?.innerText.trim(); // Get the currently selected keyword
 
     cards.forEach(card => {
       const domain = card.getAttribute('data-domain'); // Get domain from data attribute
       const subdomain = card.getAttribute('data-subdomain'); // Get subdomain from data attribute
       const resource = card.querySelector('.resource').textContent.trim().replace('Type of Resource: ', ''); 
-      const keywords = Array.from(card.querySelectorAll('.keyword')).map(keyword => keyword.innerText.trim()); // Get an array of keywords for the card
 
       const domainMatch = selectedDomain === 'all' || domain === selectedDomain;
       const subdomainMatch = selectedSubdomain === 'all' || subdomain === selectedSubdomain;
       const resourceMatch = selectedResource === 'all' || resource === selectedResource;
-      const keywordMatch = currentKeyword === 'all' || keywords.includes(currentKeyword); // Check if the card's keywords include the currently selected keyword
 
-      if (domainMatch && subdomainMatch && resourceMatch && keywordMatch) {
+      if (domainMatch && subdomainMatch && resourceMatch) {
         card.style.display = 'block';
       } else {
         card.style.display = 'none';
@@ -155,28 +152,37 @@ document.addEventListener('DOMContentLoaded', function() {
 
   domainFilter.addEventListener('change', filterCards);
   subdomainFilter.addEventListener('change', function() {
-    // Update the domain filter based on the selected subdomain
-    const selectedSubdomain = subdomainFilter.value;
-    const correspondingDomain = subdomainToDomain[selectedSubdomain];
-    if (correspondingDomain) {
-      domainFilter.value = correspondingDomain;
-    } else if (selectedSubdomain === 'all') {
-      domainFilter.value = 'all'; // Set domain filter to 'all' if 'all' is selected for subdomain
-    }
-    filterCards();
-  });
-
+  // Update the domain filter based on the selected subdomain
+  const selectedSubdomain = subdomainFilter.value;
+  const correspondingDomain = subdomainToDomain[selectedSubdomain];
+  if (correspondingDomain) {
+    domainFilter.value = correspondingDomain;
+  } else if (selectedSubdomain === 'all') {
+    domainFilter.value = 'all'; // Set domain filter to 'all' if 'all' is selected for subdomain
+  }
+  filterCards();
+});
+  
   resourceFilter.addEventListener('change', filterCards);
 
   keywordLinks.forEach(link => {
     link.addEventListener('click', function(event) {
       event.preventDefault();
       const selectedKeyword = this.getAttribute('data-keyword');
-      document.querySelector('.selected-keyword')?.classList.remove('selected-keyword'); // Remove the 'selected-keyword' class from the previously selected keyword
-      this.classList.add('selected-keyword'); // Add the 'selected-keyword' class to the currently selected keyword
-      filterCards();
+      filterCardsByKeyword(selectedKeyword);
     });
   });
+
+  function filterCardsByKeyword(keyword) {
+    cards.forEach(card => {
+      const cardKeywords = card.querySelector('.keyword').innerText;
+      if (cardKeywords.includes(keyword)) {
+        card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
 
   // Initial filtering when the page loads
   filterCards();
