@@ -7,7 +7,7 @@ nav: false
 nav_rank: 8
 ---
 
-## Testing 69
+## Testing 73
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -137,14 +137,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
   domainFilter.addEventListener('change', filterCards);
   subdomainFilter.addEventListener('change', function() {
-    // Update the domain filter based on the selected subdomain
-    const selectedSubdomain = subdomainFilter.value;
-    const correspondingDomain = subdomainToDomain[selectedSubdomain];
-    if (correspondingDomain) {
-      domainFilter.value = correspondingDomain;
-    }
-    filterCards();
-  });
+  // Update the domain filter based on the selected subdomain
+  const selectedSubdomain = subdomainFilter.value;
+  const correspondingDomain = subdomainToDomain[selectedSubdomain];
+  if (correspondingDomain) {
+    domainFilter.value = correspondingDomain;
+  } else if (selectedSubdomain === 'all') {
+    domainFilter.value = 'all'; // Set domain filter to 'all' if 'all' is selected for subdomain
+  }
+  filterCards();
+});
+  
   resourceFilter.addEventListener('change', filterCards);
 
   // Initial filtering when the page loads
