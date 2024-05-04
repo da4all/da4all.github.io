@@ -4,7 +4,7 @@ permalink: /cv/
 title: Curriculum Vitae
 description: Data Advocacy for All
 nav: false
-nav_rank: 
+nav_order: 
 ---
 
 # Description
