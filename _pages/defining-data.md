@@ -4,7 +4,7 @@ permalink: /defining-data/
 title: Defining Data
 description: 
 nav: false
-nav_rank: 
+nav_order: 
 ---
 
 ## Overview
