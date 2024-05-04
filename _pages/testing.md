@@ -7,7 +7,7 @@ nav: false
 nav_rank: 8
 ---
 
-## Testing 76
+## Testing 77
 
 <div class="tag-category-list">
   <ul class="p-0 m-0">
@@ -24,16 +24,15 @@ nav_rank: 8
 
 <select id="keyword-filter">
   <option value="all">All Keywords</option>
-  {% for card in site.cards %}
-    {% for keyword in card.keywords %}
-      <option value="{{ keyword }}">{{ keyword }}</option>
-    {% endfor %}
+  {% assign all_keywords = site.cards | map: 'keywords' | join: ',' | split: ',' | uniq %}
+  {% for keyword in all_keywords %}
+    <option value="{{ keyword }}">{{ keyword }}</option>
   {% endfor %}
 </select>
 
 <div id="card-list" style="margin-top: 20px;">
   {% for card in site.cards %}
-    <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px; display: none;" data-domain="{{ card.domain }}" data-subdomain="{{ card.subdomain }}">
+    <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px;" data-domain="{{ card.domain }}" data-subdomain="{{ card.subdomain }}">
       <div class="row no-gutters">
         <div class="team">
           <div class="card-body">
@@ -126,14 +125,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
   domainFilter.addEventListener('change', filterCards);
   subdomainFilter.addEventListener('change', function() {
-  // Update the domain filter based on the selected subdomain
-  const selectedSubdomain = subdomainFilter.value;
-  const correspondingDomain = subdomainToDomain[selectedSubdomain];
-  if (correspondingDomain) {
-    domainFilter.value = correspondingDomain;
-  } else if (selectedSubdomain === 'all') {
-    domainFilter.value = 'all'; // Set domain filter to 'all' if 'all' is selected for subdomain
-  }
+    // Update the domain filter based on the selected subdomain
+    const selectedSubdomain = subdomainFilter.value;
+    const correspondingDomain = subdomainToDomain[selectedSubdomain];
+    if (correspondingDomain) {
+      domainFilter.value = correspondingDomain;
+    }
     filterCards();
   });
   resourceFilter.addEventListener('change', filterCards);
