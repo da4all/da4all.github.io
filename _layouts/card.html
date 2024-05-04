@@ -26,18 +26,16 @@ layout: default
     </p>
     </div>
     
-    <blockquote>
       <p class="page-description">
-        <small class="test-muted">{{ page.teaser }}
+        <small class="test-muted"><blockquote>{{ page.teaser }}
           {% if page.keywords.size > 0 %}
-          Keywords: 
+          <br> Keywords: 
           {% for keyword in page.keywords %}
             <i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;
           {% endfor %}
         {% endif %}
-        </small>
+        </blockquote></small>
       </p>
-    </blockquote>
   </header>
 
 <article>
