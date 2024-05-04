@@ -7,7 +7,7 @@ nav: false
 nav_order: 
 ---
 
-## Testing 93
+## Testing 94
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -43,7 +43,7 @@ nav_order:
   </div>
 </div>
 
-<div class="tag-category-list">
+<div class="tag-category-list"><small>
   <ul class="p-0 m-0">
     {% assign all_keywords = site.cards | map: 'keywords' | join: ',' | split: ',' | uniq %}
     {% for keyword in all_keywords %}
@@ -55,7 +55,7 @@ nav_order:
       {% endunless %}
     {% endfor %}
   </ul>
-</div>
+</small></div>
 
 {% assign cards = site.cards | sort: "title" %}
 
