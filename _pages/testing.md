@@ -39,6 +39,8 @@ nav_order:
       <option value="{{ subdomain }}">{{ subdomain }}</option>
       {% endfor %}
     </select>
+
+    <br>
     
     <label for="keyword-filter">Keywords:</label>
     <div class="tag-category-list"><small>
