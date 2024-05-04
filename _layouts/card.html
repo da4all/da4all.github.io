@@ -5,30 +5,32 @@ layout: default
 <div class="page">
   <header class="page-header">
     <h1 class="page-title">{{ page.title }}</h1>
+    <div style="background-color: #f2f2f2; padding: 10px;">
     <p class="page-text">
       <small class="test-muted">
         {% if page.profile.date %}
-          <i class="fa-solid fa-calendar"></i>&nbsp; Date: {{ page.profile.date | replace: '<br />', ', ' }}
+          <i class="fa-solid fa-calendar"></i>&nbsp; Date: {{ page.profile.date | replace: '<br />', ', ' }}<br>
         {% endif %}
         {% if page.profile.author %}
-          <i class="fa-solid fa-user"></i>&nbsp; Author: {{ page.profile.author | replace: '<br />', ', ' }}
+          <i class="fa-solid fa-user"></i>&nbsp; Author: {{ page.profile.author | replace: '<br />', ', ' }}<br>
         {% endif %}
         {% if page.keywords.size > 0 %}
           Keywords: 
           {% for keyword in page.keywords %}
-            <i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;<br>
-          {% endfor %}
+            <i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;
+          {% endfor %}<br>
         {% endif %}
         {% if page.profile.source %}
-          <i class="fas fa-link"></i> Source: <a href="{{ page.profile.source }}">{{ page.profile.source | replace: '<br />', ', ' }}</a>
+          <i class="fas fa-link"></i> Source: <a href="{{ page.profile.source }}">{{ page.profile.source | replace: '<br />', ', ' }}</a><br>
         {% endif %}
         {% if page.profile.license %}
-          <i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ page.profile.license }}
+          <i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ page.profile.license }}<br>
         {% endif %}
         <i class="fa-solid fa-square"></i>&nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ page.domain | downcase | replace: ' ', '-' }}">{{ page.domain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp; <i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ page.subdomain }}<br>
         <i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ page.resource }}<br>
       </small>
     </p>
+    </div>
     <p class="page-description">{{ page.teaser }}</p>
   </header>
   <article>
