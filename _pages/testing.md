@@ -62,7 +62,7 @@ nav_rank: 8
                 {% assign words = card.teaser | number_of_words %}
                 {% if words > 150 %}
                   {% assign teaser_words = card.teaser | split: ' ' | slice: 0, 150 | join: ' ' %}
-                  {{ teaser_words }} <b><u>&nbsp;[...]</u></b></p>
+                  {{ teaser_words }} &nbsp;<b><u>[...]</u></b></p>
                 {% else %}
                   {{ card.teaser }}</p>
                 {% endif %}
