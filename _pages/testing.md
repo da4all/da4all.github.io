@@ -7,7 +7,7 @@ nav: false
 nav_order: 
 ---
 
-## Testing 98
+## Testing 99
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -42,20 +42,9 @@ nav_order:
 
     <br>
     
-    <label for="keyword-filter">Keywords:</label>
-    <div class="tag-category-list" style="font-size: 0.8em; line-height: 1;">
-      <ul class="p-0 m-0">
-        {% assign all_keywords = site.cards | map: 'keywords' | join: ',' | split: ',' | uniq %}
-        {% for keyword in all_keywords %}
-        <li style="display: inline-block; margin-right: 5px; margin-bottom: 5px; padding: 5px; border: 1px solid #ccc; border-radius: 5px;">
-          <i class="fa-solid fa-hashtag fa-sm"></i> <a href="#" class="keyword-filter" data-keyword="{{ keyword }}">{{ keyword }}</a>
-        </li>
-        {% unless forloop.last %}
-        &bull;
-        {% endunless %}
-        {% endfor %}
-      </ul>
-    </div>
+    <label for="search-input">Keywords:</label>
+    <input type="text" id="search-input" placeholder="Enter keyword to search">
+
   </div>
 </div>
 
@@ -114,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const domainFilter = document.getElementById('domain-filter');
   const subdomainFilter = document.getElementById('subdomain-filter');
   const resourceFilter = document.getElementById('resource-filter');
-  const keywordLinks = document.querySelectorAll('.keyword-filter');
+  const searchInput = document.getElementById('search-input');
   const cards = document.querySelectorAll('.card');
 
   // Define a mapping of subdomains to corresponding domains
@@ -138,6 +127,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const selectedDomain = domainFilter.value;
     const selectedSubdomain = subdomainFilter.value;
     const selectedResource = resourceFilter.value;
+    const searchText = searchInput.value.trim().toLowerCase();
 
     cards.forEach(card => {
       const domain = card.getAttribute('data-domain'); // Get domain from data attribute
@@ -147,8 +137,10 @@ document.addEventListener('DOMContentLoaded', function() {
       const domainMatch = selectedDomain === 'all' || domain === selectedDomain;
       const subdomainMatch = selectedSubdomain === 'all' || subdomain === selectedSubdomain;
       const resourceMatch = selectedResource === 'all' || resource === selectedResource;
+      const searchMatch = searchText === '' ||
+        card.textContent.toLowerCase().includes(searchText);
 
-      if (domainMatch && subdomainMatch && resourceMatch) {
+      if (domainMatch && subdomainMatch && resourceMatch && searchMatch) {
         card.style.display = 'block';
       } else {
         card.style.display = 'none';
@@ -171,13 +163,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   resourceFilter.addEventListener('change', filterCards);
 
-  keywordLinks.forEach(link => {
-    link.addEventListener('click', function(event) {
-      event.preventDefault();
-      const selectedKeyword = this.getAttribute('data-keyword');
-      filterCardsByKeyword(selectedKeyword);
-    });
-  });
+  searchInput.addEventListener('input', filterCards);
 
   function filterCardsByKeyword(keyword) {
     cards.forEach(card => {
