@@ -7,47 +7,14 @@ nav: false
 nav_rank: 8
 ---
 
-## Testing 79
-
-<div style="background-color: #f2f2f2; padding: 10px;">
-  <div id="filter-options" style="font-size: 0.8em;">
-    
-    <label for="resource-filter">Type of Resource:</label>
-    <select id="resource-filter">
-      <option value="all">All</option>
-      {% for resource in site.data.cards.resources %}
-      <option value="{{ resource.name }}">{{ resource.name }}</option>
-      {% endfor %}
-    </select>
-
-    <br>
-
-    <label for="domain-filter">Primary Domain:</label>
-    <select id="domain-filter">
-      <option value="all">All</option>
-      {% for domain in site.data.cards.domains %}
-      <option value="{{ domain }}">{{ domain }}</option>
-      {% endfor %}
-    </select>
-
-    <br>
-
-    <label for="subdomain-filter">Subdomain:</label>
-    <select id="subdomain-filter">
-      <option value="all">All</option>
-      {% for subdomain in site.data.cards.subdomains %}
-      <option value="{{ subdomain }}">{{ subdomain }}</option>
-      {% endfor %}
-    </select>
-
-  </div>
-</div>
+## Testing 81
 
 <div class="tag-category-list">
   <ul class="p-0 m-0">
-    {% for tag in site.display_tags %}
+    {% assign all_keywords = site.cards | map: 'keywords' | join: ',' | split: ',' | uniq %}
+    {% for keyword in all_keywords %}
       <li>
-        <i class="fa-solid fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
+        <i class="fa-solid fa-hashtag fa-sm"></i> <a href="#" class="keyword-filter" data-keyword="{{ keyword }}">{{ keyword }}</a>
       </li>
       {% unless forloop.last %}
         <p>&bull;</p>
@@ -57,8 +24,9 @@ nav_rank: 8
 </div>
 
 <div id="card-list" style="margin-top: 20px;">
-  {% for card in site.cards %}
-    <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px;" data-domain="{{ card.domain }}" data-subdomain="{{ card.subdomain }}">
+  {% assign cards = site.cards %}
+  {% for card in cards %}
+    <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px; display: none;" data-domain="{{ card.domain }}" data-subdomain="{{ card.subdomain }}">
       <div class="row no-gutters">
         <div class="team">
           <div class="card-body">
@@ -101,68 +69,26 @@ nav_rank: 8
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const domainFilter = document.getElementById('domain-filter');
-  const subdomainFilter = document.getElementById('subdomain-filter');
-  const resourceFilter = document.getElementById('resource-filter');
-  const keywordFilter = document.getElementById('keyword-filter');
+  const keywordLinks = document.querySelectorAll('.keyword-filter');
   const cards = document.querySelectorAll('.card');
 
-  // Define a mapping of subdomains to corresponding domains
-  const subdomainToDomain = {
-    'All': 'All',
-    'Defining Data': 'Understanding Data',
-    'Critiquing Data': 'Understanding Data',
-    'Acting Ethically with Data': 'Understanding Data',
-    'Linking Data and Justice': 'Understanding Data',
-    'Collecting Data': 'Processing Data',
-    'Organizing and Cleaning Data': 'Processing Data',
-    'Analyzing and Drawing Insights from Data': 'Processing Data',
-    'Storing and Preserving Data': 'Processing Data',
-    'Appealing with Data': 'Persuading with Data',
-    'Visualizing Data': 'Persuading with Data',
-    'Mapping Data': 'Persuading with Data',
-    'Telling Multi-Modal Stories with Data': 'Persuading with Data'
-  };
+  keywordLinks.forEach(link => {
+    link.addEventListener('click', function(event) {
+      event.preventDefault();
+      const selectedKeyword = this.getAttribute('data-keyword');
+      filterCards(selectedKeyword);
+    });
+  });
 
-  function filterCards() {
-    const selectedDomain = domainFilter.value;
-    const selectedSubdomain = subdomainFilter.value;
-    const selectedResource = resourceFilter.value;
-    const selectedKeyword = keywordFilter.value;
-
+  function filterCards(keyword) {
     cards.forEach(card => {
-      const domain = card.getAttribute('data-domain'); // Get domain from data attribute
-      const subdomain = card.getAttribute('data-subdomain'); // Get subdomain from data attribute
-      const resource = card.querySelector('.resource').textContent.trim().replace('Type of Resource: ', ''); 
-      const keywords = Array.from(card.querySelectorAll('.keyword')).map(elem => elem.textContent.trim());
-
-      const domainMatch = selectedDomain === 'all' || domain === selectedDomain;
-      const subdomainMatch = selectedSubdomain === 'all' || subdomain === selectedSubdomain;
-      const resourceMatch = selectedResource === 'all' || resource === selectedResource;
-      const keywordMatch = selectedKeyword === 'all' || keywords.includes(selectedKeyword);
-
-      if (domainMatch && subdomainMatch && resourceMatch && keywordMatch) {
+      const cardKeywords = card.querySelector('.keyword').innerText;
+      if (cardKeywords.includes(keyword)) {
         card.style.display = 'block';
       } else {
         card.style.display = 'none';
       }
     });
   }
-
-  domainFilter.addEventListener('change', filterCards);
-  subdomainFilter.addEventListener('change', function() {
-    // Update the domain filter based on the selected subdomain
-    const selectedSubdomain = subdomainFilter.value;
-    const correspondingDomain = subdomainToDomain[selectedSubdomain];
-    if (correspondingDomain) {
-      domainFilter.value = correspondingDomain;
-    }
-    filterCards();
-  });
-  resourceFilter.addEventListener('change', filterCards);
-  keywordFilter.addEventListener('change', filterCards);
-
-  // Initial filtering when the page loads
-  filterCards();
 });
 </script>
