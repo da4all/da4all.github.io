@@ -14,12 +14,6 @@ layout: default
         {% if page.profile.author %}
           <i class="fa-solid fa-user"></i>&nbsp; Author: {{ page.profile.author | replace: '<br />', ', ' }}<br>
         {% endif %}
-        {% if page.keywords.size > 0 %}
-          Keywords: 
-          {% for keyword in page.keywords %}
-            <i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;
-          {% endfor %}<br>
-        {% endif %}
         {% if page.profile.source %}
           <i class="fas fa-link"></i> Source: <a href="{{ page.profile.source }}">{{ page.profile.source | replace: '<br />', ', ' }}</a><br>
         {% endif %}
@@ -33,7 +27,18 @@ layout: default
     </div>
     <p class="page-description">{{ page.teaser }}</p>
   </header>
+  
   <article>
+    <blockquote>
     {{ content }}
+    <small class="test-muted"><br>
+      {% if page.keywords.size > 0 %}
+          Keywords: 
+          {% for keyword in page.keywords %}
+            <i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;
+          {% endfor %}<br>
+        {% endif %}
+    </small>
+    </blockquote>
   </article>
 </div>
