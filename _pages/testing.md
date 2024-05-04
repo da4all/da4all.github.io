@@ -7,7 +7,7 @@ nav: false
 nav_order: 
 ---
 
-## Testing 90 
+## Testing 93
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -82,7 +82,8 @@ nav_order:
               {% endif %}
             </p>
           {% if card.keywords.size > 0 %}
-            <p class="card-text test-muted keyword"><small><br><br>Keywords: {% for keyword in card.keywords %}<i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;{% endfor %}</small></p>
+            <hr class="solid">
+            <p class="card-text test-muted keyword"><small>Keywords: {% for keyword in card.keywords %}<i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;{% endfor %}</small></p>
           {% endif %}
           </a>
           {% if card.profile.source or card.profile.license %}
