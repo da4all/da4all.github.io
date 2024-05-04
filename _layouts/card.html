@@ -2,23 +2,36 @@
 layout: default
 ---
 <!-- card.html -->
-        <div class="post">
-
-          <header class="post-header">
-            <h1 class="post-title">{{ page.title }}</h1>
-            <p class="post-description">{{ page.description }}</p>
-          </header>
-
-          <article>
-            {{ content }}
-          </article>
-
-          {%- if page.related_publications != null and page.related_publications.size > 0 -%}
-          {% assign publications = page.related_publications | replace: ", ", "," | split: "," | join: "|" %}
-          <h2>References</h2>
-          <div class="publications">
-            {% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}
-          </div>
-          {%- endif %}
-
-        </div>
+<div class="post">
+  <header class="card-header">
+    <h1 class="card-title">{{ card.title }}</h1>
+    <p class="card-text">
+      <small class="test-muted">
+        {% if card.profile.date %}
+          <i class="fa-solid fa-calendar"></i>&nbsp; Date: {{ card.profile.date | replace: '<br />', ', ' }}
+        {% endif %}
+        {% if card.profile.author %}
+          <i class="fa-solid fa-user"></i>&nbsp; Author: {{ card.profile.author | replace: '<br />', ', ' }}
+        {% endif %}
+        {% if card.keywords.size > 0 %}
+          Keywords: 
+          {% for keyword in card.keywords %}
+            <i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;<br>
+          {% endfor %}
+        {% endif %}
+        {% if card.profile.source %}
+          <i class="fas fa-link"></i> Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a>
+        {% endif %}
+        {% if card.profile.license %}
+          <i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ card.profile.license }}
+        {% endif %}
+        <i class="fa-solid fa-square"></i>&nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ card.domain | downcase | replace: ' ', '-' }}">{{ card.domain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp; <i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ card.subdomain }}<br>
+        <i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ card.resource }}<br>
+      </small>
+    </p>
+    <p class="card-description">{{ card.teaser }}</p>
+  </header>
+  <article>
+    {{ content }}
+  </article>
+</div>
