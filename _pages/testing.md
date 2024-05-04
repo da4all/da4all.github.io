@@ -7,7 +7,7 @@ nav: false
 nav_rank: 8
 ---
 
-## Testing 83
+## Testing 85
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -51,8 +51,11 @@ nav_rank: 8
     {% assign all_keywords = site.cards | map: 'keywords' | join: ',' | split: ',' | uniq %}
     {% for keyword in all_keywords %}
       <li>
-        <a href="#" class="keyword-filter" data-keyword="{{ keyword }}">{{ keyword }}</a>
+        <i class="fa-solid fa-hashtag fa-sm"></i> <a href="#" class="keyword-filter" data-keyword="{{ keyword }}">{{ keyword }}</a>
       </li>
+      {% unless forloop.last %}
+        <p>&bull;</p>
+      {% endunless %}
     {% endfor %}
   </ul>
 </div>
@@ -177,8 +180,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function filterCardsByKeyword(keyword) {
     cards.forEach(card => {
-      const cardKeywords = Array.from(card.querySelectorAll('.keyword')).map(keyword => keyword.innerText.trim());
-      if (keyword === 'all' || cardKeywords.includes(keyword)) {
+      const cardKeywords = card.querySelector('.keyword').innerText;
+      if (cardKeywords.includes(keyword)) {
         card.style.display = 'block';
       } else {
         card.style.display = 'none';
