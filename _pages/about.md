@@ -4,7 +4,7 @@ permalink: /about/
 title: About the Project
 description:
 nav: false
-nav_rank: 
+nav_order: 
 ---
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/themes/light.css" />
