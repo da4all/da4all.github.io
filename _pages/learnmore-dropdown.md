@@ -17,6 +17,6 @@ children:
     - title: Student Showcase
       permalink: /showcase/
     - title: divider
-    - title: Contact Us
+    - title: Contact Us 
       permalink: /contact/
 ---
