@@ -7,7 +7,7 @@ nav: false
 nav_order: 
 ---
 
-## Testing 97
+## Testing 98
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -43,27 +43,26 @@ nav_order:
     <br>
     
     <label for="keyword-filter">Keywords:</label>
-    <div class="tag-category-list"><small>
-    <ul class="p-0 m-0">
-    {% assign all_keywords = site.cards | map: 'keywords' | join: ',' | split: ',' | uniq %}
-    {% for keyword in all_keywords %}
-      <li>
-        <i class="fa-solid fa-hashtag fa-sm"></i> <a href="#" class="keyword-filter" data-keyword="{{ keyword }}">{{ keyword }}</a>
-      </li>
-      {% unless forloop.last %}
-        <p>&bull;</p>
-      {% endunless %}
-    {% endfor %}
-  </ul>
-</small>
-</div>
-</div>
+    <div class="tag-category-list" style="font-size: 0.8em; line-height: 1;">
+      <ul class="p-0 m-0">
+        {% assign all_keywords = site.cards | map: 'keywords' | join: ',' | split: ',' | uniq %}
+        {% for keyword in all_keywords %}
+        <li style="display: inline-block; margin-right: 5px; margin-bottom: 5px; padding: 5px; border: 1px solid #ccc; border-radius: 5px;">
+          <i class="fa-solid fa-hashtag fa-sm"></i> <a href="#" class="keyword-filter" data-keyword="{{ keyword }}">{{ keyword }}</a>
+        </li>
+        {% unless forloop.last %}
+        &bull;
+        {% endunless %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
 </div>
 
 {% assign cards = site.cards | sort: "title" %}
 
 <div id="card-list" style="margin-top: 20px;">
-{% for card in cards %}
+  {% for card in cards %}
   {% assign resource = site.data.cards.resources | where: "name", card.resource | first %}
   <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px;" data-domain="{{ card.domain }}" data-subdomain="{{ card.subdomain }}">
     <div class="row no-gutters">
@@ -78,10 +77,10 @@ nav_order:
             <p class="card-text">
               {% assign words = card.teaser | number_of_words %}
               {% if words > 150 %}
-                {% assign teaser_words = card.teaser | split: ' ' | slice: 0, 150 | join: ' ' %}
-                {{ teaser_words }} &nbsp;<b><u>[...]</u></b>
+              {% assign teaser_words = card.teaser | split: ' ' | slice: 0, 150 | join: ' ' %}
+              {{ teaser_words }} &nbsp;<b><u>[...]</u></b>
               {% else %}
-                {{ card.teaser }}
+              {{ card.teaser }}
               {% endif %}
             </p>
           {% if card.keywords.size > 0 %}
@@ -90,14 +89,14 @@ nav_order:
           {% endif %}
           </a>
           {% if card.profile.source or card.profile.license %}
-            <hr class="solid">
+          <hr class="solid">
           {% endif %}
           <p class="card-text">
             {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i> Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a></small>{% endif %}
             {% if card.profile.source and card.profile.license %}<br>{% endif %}
             {% if card.profile.license %}<small class="test-muted"><i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ card.profile.license }}</small>{% endif %}
           </p>
-            <hr class="solid">
+          <hr class="solid">
           <p class="card-text">
             <small class="test-muted domain"><i class="fa-solid fa-square"></i>&nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ card.domain | downcase | replace: ' ', '-' }}">{{ card.domain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp;</small>
             <small class="test-muted subdomain"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ card.subdomain }} &nbsp;&nbsp;//&nbsp;&nbsp;</small>
@@ -107,7 +106,7 @@ nav_order:
       </div>
     </div>
   </div>
-{% endfor %}
+  {% endfor %}
 </div>
 
 <script>
