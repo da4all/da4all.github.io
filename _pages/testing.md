@@ -7,7 +7,7 @@ nav: false
 nav_order: 
 ---
 
-## Testing 99
+## Testing 101
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -42,8 +42,26 @@ nav_order:
 
     <br>
     
-    <label for="search-input">Keywords:</label>
-    <input type="text" id="search-input" placeholder="Enter keyword to search">
+    <label for="keyword-filter">Keywords:</label>
+    <div class="tag-category-list" style="font-size: 0.8em; line-height: 1;">
+      <ul class="p-0 m-0">
+        {% assign all_keywords = site.cards | map: 'keywords' | join: ',' | split: ',' | uniq %}
+        {% for keyword in all_keywords %}
+        <li style="display: inline-block; margin-right: 5px; margin-bottom: 5px; padding: 5px; border: 1px solid #ccc; border-radius: 5px;">
+          <i class="fa-solid fa-hashtag fa-sm"></i> <a href="#" class="keyword-filter" data-keyword="{{ keyword }}">{{ keyword }}</a>
+        </li>
+        {% unless forloop.last %}
+        &bull;
+        {% endunless %}
+        {% endfor %}
+      </ul>
+    </div>
+    
+    <br>
+    
+    <label for="search-input">Search:</label>
+    <input type="text" id="search-input" style="width: 300px;" placeholder="Search by word, phrase, or featured keyword">
+    <button id="clear-search">Clear Search</button>
 
   </div>
 </div>
@@ -75,36 +93,38 @@ nav_order:
           {% if card.keywords.size > 0 %}
             <hr class="solid">
             <p class="card-text test-muted keyword"><small>Keywords: {% for keyword in card.keywords %}<i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;{% endfor %}</small></p>
-          {% endif %}
-          </a>
-          {% if card.profile.source or card.profile.license %}
-          <hr class="solid">
-          {% endif %}
-          <p class="card-text">
-            {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i> Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a></small>{% endif %}
-            {% if card.profile.source and card.profile.license %}<br>{% endif %}
-            {% if card.profile.license %}<small class="test-muted"><i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ card.profile.license }}</small>{% endif %}
-          </p>
-          <hr class="solid">
-          <p class="card-text">
-            <small class="test-muted domain"><i class="fa-solid fa-square"></i>&nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ card.domain | downcase | replace: ' ', '-' }}">{{ card.domain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp;</small>
-            <small class="test-muted subdomain"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ card.subdomain }} &nbsp;&nbsp;//&nbsp;&nbsp;</small>
-            <small class="test-muted resource"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ card.resource }}</small><br>
-          </p>
+            {% endif %}
+            </a>
+            {% if card.profile.source or card.profile.license %}
+              <hr class="solid">
+              {% endif %}
+              <p class="card-text">
+                {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i> Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a></small>{% endif %}
+                {% if card.profile.source and card.profile.license %}<br>{% endif %}
+                {% if card.profile.license %}<small class="test-muted"><i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ card.profile.license }}</small>{% endif %}
+              </p>
+              <hr class="solid">
+              <p class="card-text">
+                <small class="test-muted domain"><i class="fa-solid fa-square"></i>&nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ card.domain | downcase | replace: ' ', '-' }}">{{ card.domain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp;</small>
+                <small class="test-muted subdomain"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ card.subdomain }} &nbsp;&nbsp;//&nbsp;&nbsp;</small>
+                <small class="test-muted resource"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ card.resource }}</small><br>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
+      {% endfor %}
     </div>
-  </div>
-  {% endfor %}
-</div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const domainFilter = document.getElementById('domain-filter');
   const subdomainFilter = document.getElementById('subdomain-filter');
   const resourceFilter = document.getElementById('resource-filter');
-  const searchInput = document.getElementById('search-input');
+  const keywordLinks = document.querySelectorAll('.keyword-filter');
   const cards = document.querySelectorAll('.card');
+  const searchInput = document.getElementById('search-input');
+  const clearSearchBtn = document.getElementById('clear-search');
 
   // Define a mapping of subdomains to corresponding domains
   const subdomainToDomain = {
@@ -127,7 +147,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const selectedDomain = domainFilter.value;
     const selectedSubdomain = subdomainFilter.value;
     const selectedResource = resourceFilter.value;
-    const searchText = searchInput.value.trim().toLowerCase();
 
     cards.forEach(card => {
       const domain = card.getAttribute('data-domain'); // Get domain from data attribute
@@ -137,10 +156,8 @@ document.addEventListener('DOMContentLoaded', function() {
       const domainMatch = selectedDomain === 'all' || domain === selectedDomain;
       const subdomainMatch = selectedSubdomain === 'all' || subdomain === selectedSubdomain;
       const resourceMatch = selectedResource === 'all' || resource === selectedResource;
-      const searchMatch = searchText === '' ||
-        card.textContent.toLowerCase().includes(searchText);
 
-      if (domainMatch && subdomainMatch && resourceMatch && searchMatch) {
+      if (domainMatch && subdomainMatch && resourceMatch) {
         card.style.display = 'block';
       } else {
         card.style.display = 'none';
@@ -163,12 +180,27 @@ document.addEventListener('DOMContentLoaded', function() {
   
   resourceFilter.addEventListener('change', filterCards);
 
-  searchInput.addEventListener('input', filterCards);
+  keywordLinks.forEach(link => {
+    link.addEventListener('click', function(event) {
+      event.preventDefault();
+      const selectedKeyword = this.getAttribute('data-keyword');
+      filterCardsByKeyword(selectedKeyword);
+    });
+  });
 
-  function filterCardsByKeyword(keyword) {
+  searchInput.addEventListener('input', function() {
+    filterCardsBySearch(this.value.trim());
+  });
+
+  clearSearchBtn.addEventListener('click', function() {
+    searchInput.value = '';
+    filterCardsBySearch('');
+  });
+
+  function filterCardsBySearch(keyword) {
     cards.forEach(card => {
-      const cardKeywords = card.querySelector('.keyword').innerText;
-      if (cardKeywords.includes(keyword)) {
+      const cardText = card.textContent.toLowerCase();
+      if (cardText.includes(keyword.toLowerCase())) {
         card.style.display = 'block';
       } else {
         card.style.display = 'none';
