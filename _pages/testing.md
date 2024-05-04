@@ -7,7 +7,41 @@ nav: false
 nav_rank: 8
 ---
 
-## Testing 77
+## Testing 79
+
+<div style="background-color: #f2f2f2; padding: 10px;">
+  <div id="filter-options" style="font-size: 0.8em;">
+    
+    <label for="resource-filter">Type of Resource:</label>
+    <select id="resource-filter">
+      <option value="all">All</option>
+      {% for resource in site.data.cards.resources %}
+      <option value="{{ resource.name }}">{{ resource.name }}</option>
+      {% endfor %}
+    </select>
+
+    <br>
+
+    <label for="domain-filter">Primary Domain:</label>
+    <select id="domain-filter">
+      <option value="all">All</option>
+      {% for domain in site.data.cards.domains %}
+      <option value="{{ domain }}">{{ domain }}</option>
+      {% endfor %}
+    </select>
+
+    <br>
+
+    <label for="subdomain-filter">Subdomain:</label>
+    <select id="subdomain-filter">
+      <option value="all">All</option>
+      {% for subdomain in site.data.cards.subdomains %}
+      <option value="{{ subdomain }}">{{ subdomain }}</option>
+      {% endfor %}
+    </select>
+
+  </div>
+</div>
 
 <div class="tag-category-list">
   <ul class="p-0 m-0">
@@ -21,14 +55,6 @@ nav_rank: 8
     {% endfor %}
   </ul>
 </div>
-
-<select id="keyword-filter">
-  <option value="all">All Keywords</option>
-  {% assign all_keywords = site.cards | map: 'keywords' | join: ',' | split: ',' | uniq %}
-  {% for keyword in all_keywords %}
-    <option value="{{ keyword }}">{{ keyword }}</option>
-  {% endfor %}
-</select>
 
 <div id="card-list" style="margin-top: 20px;">
   {% for card in site.cards %}
