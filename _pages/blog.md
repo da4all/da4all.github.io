@@ -188,4 +188,3 @@ pagination:
 {% endif %}
 
 </div>
-
