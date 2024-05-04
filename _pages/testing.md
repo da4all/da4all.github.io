@@ -40,6 +40,18 @@ nav_rank: 8
       {% endfor %}
     </select>
 
+    <br>
+
+    <label for="keyword-filter">Keyword:</label>
+    <select id="keyword-filter">
+      <option value="all">All</option>
+      {% for card in site.cards %}
+        {% for keyword in card.keywords %}
+          <option value="{{ keyword }}">{{ keyword }}</option>
+        {% endfor %}
+      {% endfor %}
+    </select>
+
   </div>
 </div>
 
@@ -62,7 +74,7 @@ nav_rank: 8
                 {% assign words = card.teaser | number_of_words %}
                 {% if words > 150 %}
                   {% assign teaser_words = card.teaser | split: ' ' | slice: 0, 150 | join: ' ' %}
-                  {{ teaser_words }} <small class="test-muted"><a href="{{ card.url | relative_url }}">&nbsp;<b><u>[...]</u></b></a> </small></p>
+                  {{ teaser_words }} &nbsp;<b><u>[...]</u></b></a></p>
                 {% else %}
                   {{ card.teaser }}</p>
                 {% endif %}
@@ -88,12 +100,12 @@ nav_rank: 8
   {% endfor %}
 </div>
 
-
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const domainFilter = document.getElementById('domain-filter');
   const subdomainFilter = document.getElementById('subdomain-filter');
   const resourceFilter = document.getElementById('resource-filter');
+  const keywordFilter = document.getElementById('keyword-filter');
   const cards = document.querySelectorAll('.card');
 
   // Define a mapping of subdomains to corresponding domains
@@ -117,17 +129,20 @@ document.addEventListener('DOMContentLoaded', function() {
     const selectedDomain = domainFilter.value;
     const selectedSubdomain = subdomainFilter.value;
     const selectedResource = resourceFilter.value;
+    const selectedKeyword = keywordFilter.value;
 
     cards.forEach(card => {
       const domain = card.getAttribute('data-domain'); // Get domain from data attribute
       const subdomain = card.getAttribute('data-subdomain'); // Get subdomain from data attribute
       const resource = card.querySelector('.resource').textContent.trim().replace('Type of Resource: ', ''); 
+      const keywords = Array.from(card.querySelectorAll('.keyword')).map(elem => elem.textContent.trim());
 
       const domainMatch = selectedDomain === 'all' || domain === selectedDomain;
       const subdomainMatch = selectedSubdomain === 'all' || subdomain === selectedSubdomain;
       const resourceMatch = selectedResource === 'all' || resource === selectedResource;
+      const keywordMatch = selectedKeyword === 'all' || keywords.includes(selectedKeyword);
 
-      if (domainMatch && subdomainMatch && resourceMatch) {
+      if (domainMatch && subdomainMatch && resourceMatch && keywordMatch) {
         card.style.display = 'block';
       } else {
         card.style.display = 'none';
@@ -146,6 +161,7 @@ document.addEventListener('DOMContentLoaded', function() {
     filterCards();
   });
   resourceFilter.addEventListener('change', filterCards);
+  keywordFilter.addEventListener('change', filterCards);
 
   // Initial filtering when the page loads
   filterCards();
