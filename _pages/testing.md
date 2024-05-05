@@ -10,7 +10,7 @@ pagination:
   per_page: 20
 ---
 
-## Testing 108
+## Testing 109
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -104,7 +104,7 @@ pagination:
       {% endfor %}
     </div>
 
-{% include pagination.liquid %}
+{% include custom_pagination.liquid %}
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
