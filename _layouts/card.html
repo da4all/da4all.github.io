@@ -23,10 +23,7 @@ layout: default
           {% if page.profile.license %}
             <i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ page.profile.license }}<br>
           {% endif %}
-          <i class="fa-solid fa-square"></i>&nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ page.domain | downcase | replace: ' ', '-' }}">{{ page.domain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp; <i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ page.subdomain }} &nbsp;&nbsp;//&nbsp;&nbsp; <i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ page.resource }}
-        </small>
-      </p>
-    </div>
+          <i class="fa-solid fa-square"></i>&nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ page.domain | downcase | replace: ' ', '-' }}">{{ page.domain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp; <i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ page.subdomain }} &nbsp;&nbsp;//&nbsp;&nbsp; <i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ page.resource }}</small></p></div>
 
     <blockquote>
       <p class="page-description" style="font-size:16px">
