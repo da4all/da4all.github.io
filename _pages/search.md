@@ -2,7 +2,7 @@
 layout: page
 permalink: /search/
 title: Search
-description: Search 6
+description: Search 7
 nav: false
 nav_order: 
 ---
@@ -17,12 +17,12 @@ nav_order:
 
 <!-- Card Results -->
 <div id="card-list" style="margin-top: 20px;">
-    {% assign cards = site.pages | where: "layout", "page" %}
+    {% assign cards = site.cards %}
     {% for card in cards %}
         {% assign content = card.content | strip_html | strip_newlines %}
-        <div class="card" style="margin-bottom: 20px; display: none;">
+        <div class="card" style="margin-bottom: 20px; padding: 20px; display: none;">
             <h5 class="card-title">{{ card.title }}</h5>
-            <p class="card-text">{{ content }}</p>
+            <p class="card-text" style="font-size: 10px;">{{ content }}</p>
         </div>
     {% endfor %}
 </div>
@@ -48,8 +48,10 @@ nav_order:
         function filterCards(query) {
             allCards.forEach(card => {
                 const cardContent = card.textContent.toLowerCase();
+                const highlightedContent = cardContent.replace(new RegExp(query, 'gi'), match => `<span style="background-color: yellow;">${match}</span>`);
                 if (cardContent.includes(query)) {
                     card.style.display = 'block';
+                    card.innerHTML = highlightedContent;
                 } else {
                     card.style.display = 'none';
                 }
