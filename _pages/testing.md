@@ -5,9 +5,12 @@ title: Testing
 description:
 nav: false
 nav_order: 
+pagination:
+  enabled: true
+  per_page: 20
 ---
 
-## Testing 103
+## Testing 108
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -50,9 +53,10 @@ nav_order:
   </div>
 </div>
 
-{% assign cards = site.cards | sort: "title" %}
+{% assign cards = paginator.cards %}
 
 <div id="card-list" style="margin-top: 20px;">
+  {% assign cards = paginator.cards %}
   {% for card in cards %}
   {% assign resource = site.data.cards.resources | where: "name", card.resource | first %}
   <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px;" data-domain="{{ card.domain }}" data-subdomain="{{ card.subdomain }}">
@@ -99,6 +103,8 @@ nav_order:
       </div>
       {% endfor %}
     </div>
+
+{% include pagination.liquid %}
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
