@@ -44,7 +44,7 @@ nav_order: 3
 </details><br>
 -->
 
-# Attempt 4.
+# Attempt 5.
 
 ## Overview
 
@@ -52,8 +52,8 @@ Data Literacy, in the context of this project, is understood to be a nexus of mi
 
 <br>
 
-<img src="https://da4asandbox.github.io/curricularsite/assets/img/LiteracyDomainsFull.png" alt="The graphic is titled 'Literacy Domains of Data Advocacy.' Beneath that heading, there are three primary domains: (1) Understanding Data, (2) Processing Data, and (3) Persuading with Data. Under each domain are four subdomains. Under (1) Understanding Data, there are the following subdomains: (1a) Defining Data, (1b) Critiquing Data, (1c) Acting Ethically with Data, and (1d) Linking Data and Justice. Under (2) Processing Data, there are the following subdomains: (2a) Collecting Data, (2b) Organizing and Cleaning Data, (2c) Analyzing and Drawing Insights from Data, and (2d) Storing and Preserving Data. Under (3) Persuading with Data, there are the following subdomains: (3a) Appealing with Data, (3b) Visualizing Data, (3c) Mapping Data, and (3d) Telling Multi-Modal Stories with Data." width="100%" style="border: #000000 1px outset;">
-<blockquote><p style="font-size:8;"><b>Figure 1.</b> This graphic showcases how all of the literacy domains of data advocacy are interrelated to each other, including each of the three primary domains in navy—Understanding Data, Processing Data, and Persuading with Data—as well as the subdomains beneath each one in red.</p></blockquote><!--<p class="page-text" style="margin-left:20px; margin-top:10px;">-->
+<img src="https://da4asandbox.github.io/curricularsite/assets/img/LiteracyDomains.png" alt="The graphic is titled 'Literacy Domains of Data Advocacy.' Beneath that heading, there are three primary domains: (1) Understanding Data, (2) Processing Data, and (3) Persuading with Data. Under each domain are four subdomains. Under (1) Understanding Data, there are the following subdomains: (1a) Defining Data, (1b) Critiquing Data, (1c) Acting Ethically with Data, and (1d) Linking Data and Justice. Under (2) Processing Data, there are the following subdomains: (2a) Collecting Data, (2b) Organizing and Cleaning Data, (2c) Analyzing and Drawing Insights from Data, and (2d) Storing and Preserving Data. Under (3) Persuading with Data, there are the following subdomains: (3a) Appealing with Data, (3b) Visualizing Data, (3c) Mapping Data, and (3d) Telling Multi-Modal Stories with Data." width="100%" style="border: #000000 1px outset;">
+<blockquote style="font-size: 8;"><b>Figure 1.</b> This graphic showcases how all of the literacy domains of data advocacy are interrelated to each other, including each of the three primary domains in navy—Understanding Data, Processing Data, and Persuading with Data—as well as the subdomains beneath each one in red.</blockquote><!--<p class="page-text" style="margin-left:20px; margin-top:10px;">-->
 
 As so organized, these literacy domains are presented as distinct and linear. But we envision these domains as overlapping and reciprocal. For instance, it is important to think critically and ethically about data in all literacy domains. When we create maps with data, we are often telling stories. When we tell stories with data, we are often using persuasive devices. However, for the sake of organization, we have separated out these domains so that you, as teachers, can think about each of these domains more deeply and find relevant resources as needed.
 
@@ -72,6 +72,7 @@ Please click on any of the literacy domains below or hover over the literacy dom
 <p class="card-text">“Processing data” is a crucial literacy domain for helping students learn how to perform various operations on data so that they can extract valuable insights from data in critical and ethical ways. Processing Data is often understood to be an iterative cycle involving several phrases. For the purposes of this project, we identify 4 key phases: collecting data; organizing and cleaning data; analyzing and drawing insights from data; and storing and preserving data.</p>
     </h4>
   </div>
+</div><br>
   <div class="card hoverable">
   <div class="card-body">
     <h4 class="card-title">Persuading with Data
