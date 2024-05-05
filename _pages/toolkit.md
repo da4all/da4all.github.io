@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-# Attempt 13
+# Attempt 14
 
 ## Overview
 
@@ -27,7 +27,8 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
   </div>
 </details>
 
-<br>
+<div style="height:5px;font-size:1px;">&nbsp;<br></div>
+<div style="height:5px;font-size:1px;">&nbsp;</div>
 
 <details>
   <summary>Resource Types</summary>
@@ -51,11 +52,9 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
     <li><b>Examples of Data Advocacy:</b> Examples of Data Advocacy are a collection of projects and advocacy movements that utilize data advocacy to bring about social change. Like the datasets, some of these examples are referenced in activities, assignments, modules, and tutorials, while others are simply listed to further model for data advocacy.</li></ul></span></div>
 </details>
 
-<br><br>
+<br>
 
 ## Explore the Toolkit
-
-<br>
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
