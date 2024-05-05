@@ -4,8 +4,6 @@
 
 // Details & Summary
 
-// Details & Summary
-
 details > summary {
   padding: 18px;
   width: 100%;
@@ -17,7 +15,7 @@ details > summary {
 }
 
 details .content {
-  padding: 20px; /* Adjust this value as needed */
+  padding: 20px !important;
   background-color: #F2F2F2;
 }
 
