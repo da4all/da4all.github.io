@@ -10,8 +10,6 @@ nav_order: 3
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/themes/light.css" />
 <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/shoelace.js" ></script>
 
-# Attempt 19.
-
 ## Overview
 
 Data Literacy, in the context of this project, is understood to be a nexus of mindsets, abilities, and practices that enable one to advocate with data in meaningful, ethical, and transformative ways. When it comes to data advocacy, we have identified three crucial literacy domains in which students need to gain experience in order to develop the critical-rhetorical capacities to ethically and effectively work with data to instigate social change. As evident in the chart below, we identify these three broad domains as **[Understanding Data]({{ site.baseurl }}/understanding-data)**, **[Processing Data]({{ site.baseurl }}/processing-data)**, and **[Persuading with Data]({{ site.baseurl }}/persuading-with-data)**, and in each arena, we have identified four subdomains:
