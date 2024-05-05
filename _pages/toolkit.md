@@ -7,8 +7,6 @@ nav: true
 nav_order: 5
 ---
 
-# Attempt 15
-
 ## Overview
 
 With the Data Advocacy for All toolkit, you can either [explore by the resources organized by literacy domain](../literacydomains/)—or by the type of resource.
