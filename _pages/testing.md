@@ -7,7 +7,7 @@ nav: false
 nav_order: 
 ---
 
-## Testing 112 
+## Testing 113
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -69,7 +69,7 @@ nav_order:
               {% assign words = card.teaser | number_of_words %}
               {% if words > 150 %}
               {% assign teaser_words = card.teaser | split: ' ' | slice: 0, 150 | join: ' ' %}
-              {{ teaser_words }} &nbsp;<span style="color: #0140A8;"><u>[...]</u></span>
+              {{ teaser_words }} &nbsp;<span style="color: #0140A8;">[Read More]</span>
               {% else %}
               {{ card.teaser }}
               {% endif %}
