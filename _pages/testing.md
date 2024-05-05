@@ -7,7 +7,7 @@ nav: false
 nav_order: 
 ---
 
-## Testing 106
+## Testing 103
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -148,7 +148,6 @@ document.addEventListener('DOMContentLoaded', function() {
         card.style.display = 'none';
       }
     });
-    highlightSearchTerms(searchInput.value.trim());
   }
 
   domainFilter.addEventListener('change', filterCards);
@@ -179,7 +178,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   searchBtn.addEventListener('click', function() {
-    filterCardsBySearch(searchInput.value.trim());
+    searchInput.form.submit();
   });
 
   clearSearchBtn.addEventListener('click', function() {
@@ -195,16 +194,6 @@ document.addEventListener('DOMContentLoaded', function() {
       } else {
         card.style.display = 'none';
       }
-    });
-    highlightSearchTerms(keyword);
-  }
-
-  function highlightSearchTerms(keyword) {
-    const markTag = '<mark>' + keyword + '</mark>';
-    cards.forEach(card => {
-      const cardText = card.innerHTML;
-      const highlightedText = cardText.replaceAll(keyword, markTag);
-      card.innerHTML = highlightedText;
     });
   }
 
