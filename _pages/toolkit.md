@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-# Attempt 1
+# Attempt 2.
 
 ## Overview
 
@@ -17,24 +17,30 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
   <summary>Instructions for Using the Toolkit</summary>
   <div style="height:5px;font-size:1px;">&nbsp;</div>
   This toolkit works on a filtering reduction model, meaning that all cards initially populate and then are reduced to fit any filtering critera submitted. 
-  <br>
+  <br><br>
   You can filter the toolkit below by:
-  - Type of resource, with a full list below specifying the various resource types
-  - Literacy domains and subdomains, which you can learn more about on the [literacy domains overview page](../literacydomains/)
-  - A custom search, which will populate as you type or whenever you click the "search" button; the "clear search" button will clear all search results
+  <ul>
+    <li>Type of resource, with a full list below specifying the various resource types</li>
+    <li>Literacy domains and subdomains, which you can learn more about on the <a href="../literacydomains/">literacy domains overview page</a></li>
+    <li>A custom search, which will populate as you type or whenever you click the "search" button; the "clear search" button will clear all search results</li>
+  </ul>
       </details>
+
+<br>
 
 <details>
   <summary>Resource Types</summary>
   <div style="height:5px;font-size:1px;">&nbsp;</div>
-  - **Terms:** Terms refer to concepts that are key to each subdomain along with brief definitions and identification of source. Most of the concepts are discussed in the subdomain’s open access readings.
-  - **Readings:** Readings include open access sources that introduce students to important frameworks, concepts, practices, and strategies for doing data advocacy. A list of closed access content is also included on some occasions.
-  - **Assignments:** Assignments include formal work that gives students opportunity to learn, practice, and reflect on their experiences with data advocacy. These assignments can also be used to assess student learning in relation to each data literacy domain and subdomain. 
-  - **Activities:** Activities include open-access lessons, varying in length and scope, that can be implemented in the classroom to help students hone their abilities to work with data in several literacy domains and subdomains.
-  - **Tutorials:** Tutorials include step-by-step instructions for using various open-access digital tools to work with data. All tutorials rely on minimal computing, so no previous computer experience is required.
-  - **Teaching Modules:** Teaching Modules include lesson plans that can be taught in sequence to help students gain experience with a particular literacy domain or subdomain. While all modules include readings, glossary, activities, and formal assignments, some modules also include tutorials.
-  - **Datasets:** Datasets are freely accessible collections of information that can be used for inquiry, learning, and/or practice. Some datasets are referenced in activities, assignments, modules, and tutorials, while others are simply listed as potential resources and/or models for data advocacy. 
-  - **Examples of Data Advocacy:** Examples of Data Advocacy are a collection of projects and advocacy movements that utilize data advocacy to bring about social change. Like the datasets, some of these examples are referenced in activities, assignments, modules, and tutorials, while others are simply listed to further model for data advocacy.</details>
+  <ul>
+    <li><b>Terms:</b> Terms refer to concepts that are key to each subdomain along with brief definitions and identification of source. Most of the concepts are discussed in the subdomain’s open access readings.</li>
+    <li><b>Readings:</b> Readings include open access sources that introduce students to important frameworks, concepts, practices, and strategies for doing data advocacy. A list of closed access content is also included on some occasions.</li>
+    <li><b>Assignments:</b> Assignments include formal work that gives students opportunity to learn, practice, and reflect on their experiences with data advocacy. These assignments can also be used to assess student learning in relation to each data literacy domain and subdomain. </li>
+    <li><b>Activities:</b> Activities include open-access lessons, varying in length and scope, that can be implemented in the classroom to help students hone their abilities to work with data in several literacy domains and subdomains.</li>
+    <li><b>Tutorials:</b> Tutorials include step-by-step instructions for using various open-access digital tools to work with data. All tutorials rely on minimal computing, so no previous computer experience is required.</li>
+    <li><b>Teaching Modules:</b> Teaching Modules include lesson plans that can be taught in sequence to help students gain experience with a particular literacy domain or subdomain. While all modules include readings, glossary, activities, and formal assignments, some modules also include tutorials.</li>
+    <li><b>Datasets:</b> Datasets are freely accessible collections of information that can be used for inquiry, learning, and/or practice. Some datasets are referenced in activities, assignments, modules, and tutorials, while others are simply listed as potential resources and/or models for data advocacy. </li>
+    <li><b>Examples of Data Advocacy:</b> Examples of Data Advocacy are a collection of projects and advocacy movements that utilize data advocacy to bring about social change. Like the datasets, some of these examples are referenced in activities, assignments, modules, and tutorials, while others are simply listed to further model for data advocacy.</li></ul>
+</details>
 
 ## Explore the Toolkit
 
