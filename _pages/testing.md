@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /testing/
+permalink: /testing3/
 title: Testing
 description:
 nav: false
