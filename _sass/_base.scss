@@ -17,15 +17,15 @@ details > summary {
 }
 
 details > *:not(summary) {
-  padding: 10px;
+  padding: 20px;
 }
 
 details details {
-  margin: 10px;
+  margin: 20px;
 }
 
 details details > summary {
-  padding: 18px;
+  padding: 20px;
   width: 100%;
   background-color: #002868;
   color: white;
@@ -35,7 +35,7 @@ details details > summary {
 }
 
 details details > *:not(summary) {
-  margin: 3px;
+  margin: 5px;
 }
 
 // Typography
