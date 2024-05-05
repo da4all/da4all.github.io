@@ -2,7 +2,7 @@
 layout: page
 permalink: /search/
 title: Search
-description: Search Page
+description: Search 6
 nav: false
 nav_order: 
 ---
@@ -16,7 +16,16 @@ nav_order:
 </div>
 
 <!-- Card Results -->
-<div id="card-list" style="margin-top: 20px;"></div>
+<div id="card-list" style="margin-top: 20px;">
+    {% assign cards = site.pages | where: "layout", "page" %}
+    {% for card in cards %}
+        {% assign content = card.content | strip_html | strip_newlines %}
+        <div class="card" style="margin-bottom: 20px; display: none;">
+            <h5 class="card-title">{{ card.title }}</h5>
+            <p class="card-text">{{ content }}</p>
+        </div>
+    {% endfor %}
+</div>
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -37,13 +46,13 @@ nav_order:
         });
 
         function filterCards(query) {
-            cardList.innerHTML = ''; // Clear previous results
-            const filteredCards = allCards.filter(card => {
+            allCards.forEach(card => {
                 const cardContent = card.textContent.toLowerCase();
-                return cardContent.includes(query);
-            });
-            filteredCards.forEach(card => {
-                cardList.appendChild(card.cloneNode(true));
+                if (cardContent.includes(query)) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
             });
         }
     });
