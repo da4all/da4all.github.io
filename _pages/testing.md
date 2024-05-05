@@ -5,7 +5,7 @@ title: Testing
 description:
 nav: false
 nav_order: 
-pagination:
+custom_pagination:
   enabled: true
   per_page: 20
 ---
