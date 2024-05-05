@@ -10,7 +10,7 @@ nav_order: 3
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/themes/light.css" />
 <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/shoelace.js" ></script>
 
-# Attempt 18.
+# Attempt 19.
 
 ## Overview
 
@@ -32,7 +32,7 @@ Please click on any of the literacy domains below or hover over the literacy dom
     </a>
   </div>
 
-<div style="height:5px;font-size:1px;">&nbsp;<br></div>
+<br>
 
   <div class="card hoverable">
     <a href="{{ site.baseurl }}/processing-data/">
@@ -43,7 +43,7 @@ Please click on any of the literacy domains below or hover over the literacy dom
       </a>
   </div>
 
-<div style="height:5px;font-size:1px;">&nbsp;<br></div>
+<br>
 
   <div class="card hoverable">
     <a href="{{ site.baseurl }}/persuading-with-data/">
