@@ -5,12 +5,9 @@ title: Testing
 description:
 nav: false
 nav_order: 
-custom_pagination:
-  enabled: true
-  per_page: 20
 ---
 
-## Testing 109
+## Testing 103
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -53,10 +50,9 @@ custom_pagination:
   </div>
 </div>
 
-{% assign cards = paginator.cards %}
+{% assign cards = site.cards | sort: "title" %}
 
 <div id="card-list" style="margin-top: 20px;">
-  {% assign cards = paginator.cards %}
   {% for card in cards %}
   {% assign resource = site.data.cards.resources | where: "name", card.resource | first %}
   <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px;" data-domain="{{ card.domain }}" data-subdomain="{{ card.subdomain }}">
@@ -103,8 +99,6 @@ custom_pagination:
       </div>
       {% endfor %}
     </div>
-
-{% include custom_pagination.liquid %}
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
