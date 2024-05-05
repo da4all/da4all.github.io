@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: card
 inline: false
 resource: Reading
 domain: Understanding Data
