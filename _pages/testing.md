@@ -69,7 +69,7 @@ nav_order:
               {% assign words = card.teaser | number_of_words %}
               {% if words > 150 %}
               {% assign teaser_words = card.teaser | split: ' ' | slice: 0, 150 | join: ' ' %}
-              {{ teaser_words }} &nbsp;<span style="color: #0140A8;">[Read More]</span>
+              {{ teaser_words }} <span style="color: #0140A8;">[Read More]</span>
               {% else %}
               {{ card.teaser }}
               {% endif %}
