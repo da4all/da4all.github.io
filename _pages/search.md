@@ -2,7 +2,7 @@
 layout: page
 permalink: /search/
 title: Search
-description: Search
+description: Search Page
 nav: false
 nav_order: 
 ---
@@ -16,18 +16,7 @@ nav_order:
 </div>
 
 <!-- Card Results -->
-<div id="card-list" style="margin-top: 20px;">
-    {% assign cards = site.pages | where: "layout", "page" %}
-    {% for card in cards %}
-        {% assign content = card.content | strip_html | strip_newlines %}
-        {% if content contains search_query %}
-            <div class="card" style="margin-bottom: 20px;">
-                <h5 class="card-title">{{ card.title }}</h5>
-                <p class="card-text">{% assign highlighted_content = content | replace: search_query, "<span style='background-color: yellow;'>#{search_query}</span>" %}{{ highlighted_content }}</p>
-            </div>
-        {% endif %}
-    {% endfor %}
-</div>
+<div id="card-list" style="margin-top: 20px;"></div>
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -35,6 +24,7 @@ nav_order:
         const searchBtn = document.getElementById('search-button');
         const clearSearchBtn = document.getElementById('clear-search');
         const cardList = document.getElementById('card-list');
+        const allCards = [...document.querySelectorAll('.card')];
 
         searchBtn.addEventListener('click', function() {
             const searchQuery = searchInput.value.trim().toLowerCase();
@@ -47,14 +37,13 @@ nav_order:
         });
 
         function filterCards(query) {
-            const cards = document.querySelectorAll('.card');
-            cards.forEach(card => {
-                const cardContent = card.querySelector('.card-text').textContent.toLowerCase();
-                if (cardContent.includes(query)) {
-                    card.style.display = 'block';
-                } else {
-                    card.style.display = 'none';
-                }
+            cardList.innerHTML = ''; // Clear previous results
+            const filteredCards = allCards.filter(card => {
+                const cardContent = card.textContent.toLowerCase();
+                return cardContent.includes(query);
+            });
+            filteredCards.forEach(card => {
+                cardList.appendChild(card.cloneNode(true));
             });
         }
     });
