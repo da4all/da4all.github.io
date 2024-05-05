@@ -7,7 +7,7 @@ nav: false
 nav_order: 
 ---
 
-## Testing 103
+## Testing 111
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -100,81 +100,102 @@ nav_order:
       {% endfor %}
     </div>
 
+<div id="pagination" style="margin-top: 20px;"></div>
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const domainFilter = document.getElementById('domain-filter');
   const subdomainFilter = document.getElementById('subdomain-filter');
   const resourceFilter = document.getElementById('resource-filter');
-  const keywordLinks = document.querySelectorAll('.keyword-filter');
-  const cards = document.querySelectorAll('.card');
   const searchInput = document.getElementById('search-input');
   const clearSearchBtn = document.getElementById('clear-search');
   const searchBtn = document.getElementById('search-button');
+  const cardsContainer = document.getElementById('card-list');
+  const paginationContainer = document.getElementById('pagination');
 
-  // Define a mapping of subdomains to corresponding domains
-  const subdomainToDomain = {
-    'All': 'All',
-    'Defining Data': 'Understanding Data',
-    'Critiquing Data': 'Understanding Data',
-    'Acting Ethically with Data': 'Understanding Data',
-    'Linking Data and Justice': 'Understanding Data',
-    'Collecting Data': 'Processing Data',
-    'Organizing and Cleaning Data': 'Processing Data',
-    'Analyzing and Drawing Insights from Data': 'Processing Data',
-    'Storing and Preserving Data': 'Processing Data',
-    'Appealing with Data': 'Persuading with Data',
-    'Visualizing Data': 'Persuading with Data',
-    'Mapping Data': 'Persuading with Data',
-    'Telling Multi-Modal Stories with Data': 'Persuading with Data'
-  };
+  const cardsPerPage = 20;
+  let currentPage = 1;
+  let filteredCards = [];
+
+  function paginateCards(cards, page) {
+    const startIndex = (page - 1) * cardsPerPage;
+    const endIndex = startIndex + cardsPerPage;
+    return cards.slice(startIndex, endIndex);
+  }
+
+  function renderCards(cards) {
+    cardsContainer.innerHTML = '';
+    cards.forEach(card => {
+      cardsContainer.appendChild(card);
+    });
+  }
+
+  function renderPagination(totalPages) {
+    paginationContainer.innerHTML = '';
+    for (let i = 1; i <= totalPages; i++) {
+      const pageBtn = document.createElement('button');
+      pageBtn.textContent = i;
+      pageBtn.addEventListener('click', function() {
+        currentPage = i;
+        renderCards(paginateCards(filteredCards, currentPage));
+        highlightActivePage();
+      });
+      paginationContainer.appendChild(pageBtn);
+    }
+  }
+
+  function highlightActivePage() {
+    const pageButtons = paginationContainer.querySelectorAll('button');
+    pageButtons.forEach(button => {
+      if (parseInt(button.textContent) === currentPage) {
+        button.classList.add('active');
+      } else {
+        button.classList.remove('active');
+      }
+    });
+  }
+
+  function updatePagination() {
+    const totalPages = Math.ceil(filteredCards.length / cardsPerPage);
+    renderPagination(totalPages);
+    highlightActivePage();
+  }
 
   function filterCards() {
     const selectedDomain = domainFilter.value;
     const selectedSubdomain = subdomainFilter.value;
     const selectedResource = resourceFilter.value;
 
-    cards.forEach(card => {
-      const domain = card.getAttribute('data-domain'); // Get domain from data attribute
-      const subdomain = card.getAttribute('data-subdomain'); // Get subdomain from data attribute
-      const resource = card.querySelector('.resource').textContent.trim().replace('Type of Resource: ', ''); 
+    filteredCards = Array.from(document.querySelectorAll('.card')).filter(card => {
+      const domain = card.getAttribute('data-domain');
+      const subdomain = card.getAttribute('data-subdomain');
+      const resource = card.querySelector('.resource').textContent.trim().replace('Type of Resource: ', '');
 
       const domainMatch = selectedDomain === 'all' || domain === selectedDomain;
       const subdomainMatch = selectedSubdomain === 'all' || subdomain === selectedSubdomain;
       const resourceMatch = selectedResource === 'all' || resource === selectedResource;
 
-      if (domainMatch && subdomainMatch && resourceMatch) {
-        card.style.display = 'block';
-      } else {
-        card.style.display = 'none';
-      }
+      return domainMatch && subdomainMatch && resourceMatch;
     });
+
+    currentPage = 1;
+    renderCards(paginateCards(filteredCards, currentPage));
+    updatePagination();
   }
 
   domainFilter.addEventListener('change', filterCards);
-  subdomainFilter.addEventListener('change', function() {
-    // Update the domain filter based on the selected subdomain
-    const selectedSubdomain = subdomainFilter.value;
-    const correspondingDomain = subdomainToDomain[selectedSubdomain];
-    if (correspondingDomain) {
-      domainFilter.value = correspondingDomain;
-    } else if (selectedSubdomain === 'all') {
-      domainFilter.value = 'all'; // Set domain filter to 'all' if 'all' is selected for subdomain
-    }
-    filterCards();
-  });
-  
+  subdomainFilter.addEventListener('change', filterCards);
   resourceFilter.addEventListener('change', filterCards);
 
-  keywordLinks.forEach(link => {
-    link.addEventListener('click', function(event) {
-      event.preventDefault();
-      const selectedKeyword = this.getAttribute('data-keyword');
-      filterCardsByKeyword(selectedKeyword);
-    });
-  });
-
   searchInput.addEventListener('input', function() {
-    filterCardsBySearch(this.value.trim());
+    const keyword = this.value.trim().toLowerCase();
+    filteredCards = Array.from(document.querySelectorAll('.card')).filter(card => {
+      return card.textContent.toLowerCase().includes(keyword);
+    });
+
+    currentPage = 1;
+    renderCards(paginateCards(filteredCards, currentPage));
+    updatePagination();
   });
 
   searchBtn.addEventListener('click', function() {
@@ -183,19 +204,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
   clearSearchBtn.addEventListener('click', function() {
     searchInput.value = '';
-    filterCardsBySearch('');
+    filterCards();
   });
-
-  function filterCardsBySearch(keyword) {
-    cards.forEach(card => {
-      const cardText = card.textContent.toLowerCase();
-      if (cardText.includes(keyword.toLowerCase())) {
-        card.style.display = 'block';
-      } else {
-        card.style.display = 'none';
-      }
-    });
-  }
 
   // Initial filtering when the page loads
   filterCards();
