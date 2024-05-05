@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-# Attempt 4.
+# Attempt 5.
 
 ## Overview
 
@@ -16,7 +16,7 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
 <details>
   <summary>Instructions for Using the Toolkit</summary>
   <div style="height:5px;font-size:1px;">&nbsp;</div>
-  <span style="padding: 10px 10px 10px 10px;">
+  <span style="padding: 50px 50px 50px 50px;">
     This toolkit works on a filtering reduction model, meaning that all cards initially populate and then are reduced to fit any filtering critera submitted. 
   <br><br>
   You can filter the toolkit below by:
@@ -32,7 +32,7 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
 <details>
   <summary>Resource Types</summary>
   <div style="height:5px;font-size:1px;">&nbsp;</div>
-    <span style="padding: 10px 10px 10px 10px;">
+    <span style="padding: 0px 10px 10px 10px;">
   <ul>
     <li><b>Terms:</b> Terms refer to concepts that are key to each subdomain along with brief definitions and identification of source. Most of the concepts are discussed in the subdomain’s open access readings.</li>
     <br>
@@ -51,7 +51,8 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
     <li><b>Examples of Data Advocacy:</b> Examples of Data Advocacy are a collection of projects and advocacy movements that utilize data advocacy to bring about social change. Like the datasets, some of these examples are referenced in activities, assignments, modules, and tutorials, while others are simply listed to further model for data advocacy.</li></ul></span>
 </details>
 
-<br>
+<div style="height:5px;font-size:1px;">&nbsp;</div>
+<div style="height:5px;font-size:1px;">&nbsp;</div>
 
 ## Explore the Toolkit
 
