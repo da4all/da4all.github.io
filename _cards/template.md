@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: card
 inline: false
 resource: Reading / Term / Assignment / Activity / Tutorial / Teaching Module / Dataset / Example of Data Advocacy
 domain: Understanding Data / Processing Data / Persuading with Data
