@@ -7,7 +7,7 @@ nav: false
 nav_order: 
 ---
 
-## Testing 105
+## Testing 106
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -101,7 +101,7 @@ nav_order:
     </div>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
   const domainFilter = document.getElementById('domain-filter');
   const subdomainFilter = document.getElementById('subdomain-filter');
   const resourceFilter = document.getElementById('resource-filter');
@@ -200,9 +200,10 @@ nav_order:
   }
 
   function highlightSearchTerms(keyword) {
+    const markTag = '<mark>' + keyword + '</mark>';
     cards.forEach(card => {
       const cardText = card.innerHTML;
-      const highlightedText = cardText.replace(new RegExp(keyword, 'gi'), match => `<mark>${match}</mark>`);
+      const highlightedText = cardText.replaceAll(keyword, markTag);
       card.innerHTML = highlightedText;
     });
   }
