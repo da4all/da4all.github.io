@@ -51,6 +51,9 @@ Data Literacy, in the context of this project, is understood to be a nexus of mi
 <br>
 
 <img src="https://da4asandbox.github.io/curricularsite/assets/img/LiteracyDomainsFull.png" alt="The graphic is titled 'Literacy Domains of Data Advocacy.' Beneath that heading, there are three primary domains: (1) Understanding Data, (2) Processing Data, and (3) Persuading with Data. Under each domain are four subdomains. Under (1) Understanding Data, there are the following subdomains: (1a) Defining Data, (1b) Critiquing Data, (1c) Acting Ethically with Data, and (1d) Linking Data and Justice. Under (2) Processing Data, there are the following subdomains: (2a) Collecting Data, (2b) Organizing and Cleaning Data, (2c) Analyzing and Drawing Insights from Data, and (2d) Storing and Preserving Data. Under (3) Persuading with Data, there are the following subdomains: (3a) Appealing with Data, (3b) Visualizing Data, (3c) Mapping Data, and (3d) Telling Multi-Modal Stories with Data." width="100%" />
+<blockquote><small><b>Figure 1.</b> This graphic showcases how all of the literacy domains of data advocacy are interrelated to each other, including each of the three primary domains in navy—Understanding Data, Processing Data, and Persuading with Data—as well as the subdomains beneath each one in red.</small></blockquote>
+  
+<!--<p class="page-text" style="margin-left:20px; margin-top:10px;">-->
 
 <br>
 
