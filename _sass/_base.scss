@@ -16,8 +16,8 @@ details > summary {
   cursor: pointer;
 }
 
-details > *:not(summary) {
-  padding: 40px;
+details .content {
+  padding: 20px; /* Adjust this value as needed */
   background-color: #ffdbe3;
 }
 
