@@ -7,7 +7,7 @@ nav: false
 nav_order: 
 ---
 
-## Testing 104
+## Testing 105
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -101,7 +101,7 @@ nav_order:
     </div>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
+  document.addEventListener('DOMContentLoaded', function() {
   const domainFilter = document.getElementById('domain-filter');
   const subdomainFilter = document.getElementById('subdomain-filter');
   const resourceFilter = document.getElementById('resource-filter');
@@ -148,6 +148,7 @@ document.addEventListener('DOMContentLoaded', function() {
         card.style.display = 'none';
       }
     });
+    highlightSearchTerms(searchInput.value.trim());
   }
 
   domainFilter.addEventListener('change', filterCards);
@@ -178,7 +179,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   searchBtn.addEventListener('click', function() {
-    searchInput.form.submit();
+    filterCardsBySearch(searchInput.value.trim());
   });
 
   clearSearchBtn.addEventListener('click', function() {
@@ -194,6 +195,15 @@ document.addEventListener('DOMContentLoaded', function() {
       } else {
         card.style.display = 'none';
       }
+    });
+    highlightSearchTerms(keyword);
+  }
+
+  function highlightSearchTerms(keyword) {
+    cards.forEach(card => {
+      const cardText = card.innerHTML;
+      const highlightedText = cardText.replace(new RegExp(keyword, 'gi'), match => `<mark>${match}</mark>`);
+      card.innerHTML = highlightedText;
     });
   }
 
