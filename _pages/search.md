@@ -3,7 +3,7 @@ layout: page
 permalink: /search/
 title: Search
 description: Search Page
-nav: true
+nav: false
 nav_order: 
 ---
 
@@ -23,7 +23,7 @@ nav_order:
         {% if content contains search_query %}
             <div class="card" style="margin-bottom: 20px;">
                 <h5 class="card-title">{{ card.title }}</h5>
-                <p class="card-text">{{ content | replace: search_query, "<span style='background-color: yellow;'>#{search_query}</span>" }}</p>
+                <p class="card-text">{{ content | replace: search_query, "<span style='background-color: yellow;'>#{search_query}</span>" | escape }}</p>
             </div>
         {% endif %}
     {% endfor %}
