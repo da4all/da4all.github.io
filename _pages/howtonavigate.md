@@ -22,6 +22,8 @@ The Data Advocacy for All toolkit is centered around three literacy domains: und
   <sl-button href="{{ site.baseurl }}/persuading-with-data/">Persuading with Data</sl-button>
 </sl-button-group></center>
 
+<br><br>
+
 ## The Toolkit
 
 The Data Advocacy for All toolkit is a collection of resources compiled into one open-access educational toolkit for teaching data advocacy in higher educational settings. These resources are both crowdsourced by educators across the University of Colorado Boulder and University of Colorado Denver campuses, intended to enhance student abilities to inquire with data, communicate with data, and deploy data for social advocacy.
