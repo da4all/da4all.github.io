@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: card
 inline: false
 resource: Assignment
 domain: [Understanding Data , Persuading with Data]
