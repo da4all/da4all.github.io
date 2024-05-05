@@ -7,25 +7,24 @@ nav: true
 nav_order: 5
 ---
 
-# Attempt 5.
+# Attempt 6.
 
 ## Overview
 
 With the Data Advocacy for All toolkit, you can either [explore by the resources organized by literacy domain](../literacydomains/)—or by the type of resource.
 
 <details>
-  <summary>Instructions for Using the Toolkit</summary>
+  <summary style="padding: 20px;">Instructions for Using the Toolkit</summary>
   <div style="height:5px;font-size:1px;">&nbsp;</div>
-  <span style="padding: 50px 50px 50px 50px;">
-    This toolkit works on a filtering reduction model, meaning that all cards initially populate and then are reduced to fit any filtering critera submitted. 
+  This toolkit works on a filtering reduction model, meaning that all cards initially populate and then are reduced to fit any filtering criteria submitted. 
   <br><br>
   You can filter the toolkit below by:
   <ul>
     <li>Type of resource, with a full list below specifying the various resource types</li>
     <li>Literacy domains and subdomains, which you can learn more about on the <a href="../literacydomains/">literacy domains overview page</a></li>
     <li>A custom search, which will populate as you type or whenever you click the "search" button; the "clear search" button will clear all search results</li>
-  </ul></span>
-      </details>
+  </ul>
+</details>
 
 <div style="height:5px;font-size:1px;">&nbsp;</div>
 
@@ -51,8 +50,7 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
     <li><b>Examples of Data Advocacy:</b> Examples of Data Advocacy are a collection of projects and advocacy movements that utilize data advocacy to bring about social change. Like the datasets, some of these examples are referenced in activities, assignments, modules, and tutorials, while others are simply listed to further model for data advocacy.</li></ul></span>
 </details>
 
-<div style="height:5px;font-size:1px;">&nbsp;</div>
-<div style="height:5px;font-size:1px;">&nbsp;</div>
+<div style="height:5px;font-size:1px;">&nbsp;<br>&nbsp;</div>
 
 ## Explore the Toolkit
 
