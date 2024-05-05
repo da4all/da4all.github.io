@@ -29,9 +29,9 @@ The Data Advocacy for All toolkit is centered around three literacy domains: und
 The Data Advocacy for All toolkit is a collection of resources compiled into one open-access educational toolkit for teaching data advocacy in higher educational settings. These resources are both crowdsourced by educators across the University of Colorado Boulder and University of Colorado Denver campuses, intended to enhance student abilities to inquire with data, communicate with data, and deploy data for social advocacy.
 
 The toolkit includes open-access reading resources, ready-made data sets, tutorials, links to open-source tools, and flexible curricular resources such as activities, assignments, and modules. There are many ways to utilize the toolkit; you can filter the resources by:
-- Type of resource: terms, readings, assignments, activities, tutorials, teaching modules, datasets, and examples of data advocacy; [learn more about each type of resource on the toolkit page]({{ site.baseurl }}/toolkit/)
-- Literacy domain or subdomain: the three primary literacy domains are understanding data, processing data, and persuading with data; [learn more about the three literacy domains and their corresponding subdomains]({{ site.baseurl }}literacy-domains/)
-- Custom search
+- **Type of resource:** terms, readings, assignments, activities, tutorials, teaching modules, datasets, and examples of data advocacy; [learn more about each type of resource on the toolkit page]({{ site.baseurl }}/toolkit/)
+- **Literacy domain or subdomain:** the three primary literacy domains are understanding data, processing data, and persuading with data; [learn more about the three literacy domains and their corresponding subdomains]({{ site.baseurl }}literacy-domains/)
+- **Custom search:** enter a custom inquiry to find corresponding resources
 
 <center>
 <sl-button-group label="Alignment">
