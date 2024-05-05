@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-# Attempt 9.
+# Attempt 10.
 
 ## Overview
 
@@ -15,21 +15,20 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
 
 <details>
   <summary>Instructions for Using the Toolkit</summary>
-  <span style="font-size: 12pt"><blockquote>This toolkit works on a filtering reduction model, meaning that all cards initially populate and then are reduced to fit any filtering criteria submitted. 
+  This toolkit works on a filtering reduction model, meaning that all cards initially populate and then are reduced to fit any filtering criteria submitted. 
   <br><br>
   You can filter the toolkit below by:
   <ul>
     <li>Type of resource, with a full list below specifying the various resource types</li>
     <li>Literacy domains and subdomains, which you can learn more about on the <a href="../literacydomains/">literacy domains overview page</a></li>
     <li>A custom search, which will populate as you type or whenever you click the "search" button; the "clear search" button will clear all search results</li>
-  </ul></blockquote></span>
+  </ul>
 </details>
 
 <div style="height:5px;font-size:1px;">&nbsp;</div>
 
 <details>
   <summary>Resource Types</summary>
-  <div style="height:5px;font-size:1px;">&nbsp;</div>
     <span style="padding: 0px 10px 10px 10px;">
   <ul>
     <li><b>Terms:</b> Terms refer to concepts that are key to each subdomain along with brief definitions and identification of source. Most of the concepts are discussed in the subdomain’s open access readings.</li>
