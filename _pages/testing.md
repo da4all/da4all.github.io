@@ -4,10 +4,13 @@ permalink: /testing/
 title: Testing
 description:
 nav: false
-nav_order: 
+nav_order:
+pagination:
+  enabled: true
+  per_page: 20
 ---
 
-## Testing 103
+## Testing 107
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -50,7 +53,7 @@ nav_order:
   </div>
 </div>
 
-{% assign cards = site.cards | sort: "title" %}
+{% assign cards = paginator.cards %} <!-- Use paginated cards -->
 
 <div id="card-list" style="margin-top: 20px;">
   {% for card in cards %}
@@ -99,6 +102,8 @@ nav_order:
       </div>
       {% endfor %}
     </div>
+
+{% include pagination.liquid %}
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
