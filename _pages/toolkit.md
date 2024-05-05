@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-# Attempt 10a.
+# Attempt 11.
 
 ## Overview
 
@@ -15,20 +15,23 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
 
 <details>
   <summary>Instructions for Using the Toolkit</summary>
-  This toolkit works on a filtering reduction model, meaning that all cards initially populate and then are reduced to fit any filtering criteria submitted. 
-  <br><br>
-  You can filter the toolkit below by:
-  <ul>
-    <li>Type of resource, with a full list below specifying the various resource types</li>
-    <li>Literacy domains and subdomains, which you can learn more about on the <a href="../literacydomains/">literacy domains overview page</a></li>
-    <li>A custom search, which will populate as you type or whenever you click the "search" button; the "clear search" button will clear all search results</li>
-  </ul>
+  <div class="content">
+    This toolkit works on a filtering reduction model, meaning that all cards initially populate and then are reduced to fit any filtering criteria submitted. 
+    <br><br>
+    You can filter the toolkit below by:
+    <ul>
+      <li>Type of resource, with a full list below specifying the various resource types</li>
+      <li>Literacy domains and subdomains, which you can learn more about on the <a href="../literacydomains/">literacy domains overview page</a></li>
+      <li>A custom search, which will populate as you type or whenever you click the "search" button; the "clear search" button will clear all search results</li>
+    </ul>
+  </div>
 </details>
 
 <div style="height:5px;font-size:1px;">&nbsp;</div>
 
 <details>
   <summary>Resource Types</summary>
+  <div class="content">
     <span style="padding: 0px 10px 10px 10px;">
   <ul>
     <li><b>Terms:</b> Terms refer to concepts that are key to each subdomain along with brief definitions and identification of source. Most of the concepts are discussed in the subdomain’s open access readings.</li>
@@ -45,7 +48,7 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
     <br>
     <li><b>Datasets:</b> Datasets are freely accessible collections of information that can be used for inquiry, learning, and/or practice. Some datasets are referenced in activities, assignments, modules, and tutorials, while others are simply listed as potential resources and/or models for data advocacy. </li>
     <br>
-    <li><b>Examples of Data Advocacy:</b> Examples of Data Advocacy are a collection of projects and advocacy movements that utilize data advocacy to bring about social change. Like the datasets, some of these examples are referenced in activities, assignments, modules, and tutorials, while others are simply listed to further model for data advocacy.</li></ul></span>
+    <li><b>Examples of Data Advocacy:</b> Examples of Data Advocacy are a collection of projects and advocacy movements that utilize data advocacy to bring about social change. Like the datasets, some of these examples are referenced in activities, assignments, modules, and tutorials, while others are simply listed to further model for data advocacy.</li></ul></span></div>
 </details>
 
 <div style="height:5px;font-size:1px;">&nbsp;<br></div>
