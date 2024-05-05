@@ -7,14 +7,14 @@ nav: true
 nav_order: 5
 ---
 
-# Attempt 6.
+# Attempt 7.
 
 ## Overview
 
 With the Data Advocacy for All toolkit, you can either [explore by the resources organized by literacy domain](../literacydomains/)—or by the type of resource.
 
 <details>
-  <summary style="padding: 20px;">Instructions for Using the Toolkit</summary>
+  <summary>Instructions for Using the Toolkit</summary>
   <div style="height:5px;font-size:1px;">&nbsp;</div>
   This toolkit works on a filtering reduction model, meaning that all cards initially populate and then are reduced to fit any filtering criteria submitted. 
   <br><br>
@@ -50,7 +50,11 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
     <li><b>Examples of Data Advocacy:</b> Examples of Data Advocacy are a collection of projects and advocacy movements that utilize data advocacy to bring about social change. Like the datasets, some of these examples are referenced in activities, assignments, modules, and tutorials, while others are simply listed to further model for data advocacy.</li></ul></span>
 </details>
 
-<div style="height:5px;font-size:1px;">&nbsp;<br>&nbsp;</div>
+<div style="height:5px;font-size:1px;">&nbsp;<br></div>
+<div style="height:5px;font-size:1px;">&nbsp;<br></div>
+<div style="height:5px;font-size:1px;">&nbsp;<br></div>
+<div style="height:5px;font-size:1px;">&nbsp;<br></div>
+<div style="height:5px;font-size:1px;">&nbsp;<br></div>
 
 ## Explore the Toolkit
 
