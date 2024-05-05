@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: card
 inline: false
 resource: Dataset
 domain: Processing Data
