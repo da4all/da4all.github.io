@@ -22,7 +22,7 @@ The Data Advocacy for All toolkit is centered around three literacy domains: und
   <sl-button href="{{ site.baseurl }}/persuading-with-data/">Persuading with Data</sl-button>
 </sl-button-group></center>
 
-<br><br>
+<br>
 
 ## The Toolkit
 
