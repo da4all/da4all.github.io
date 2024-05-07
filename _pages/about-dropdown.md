@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Learn More
+title: About
 nav: true
 nav_order: 7
 dropdown: true
@@ -13,9 +13,6 @@ children:
     - title: divider
     - title: Project CV
       permalink: /cv/
-    - title: divider
-    - title: Student Showcase
-      permalink: /showcase/
     - title: divider
     - title: Contact Us 
       permalink: /contact/
