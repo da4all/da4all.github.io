@@ -15,8 +15,7 @@ nav_order:
 - [Mission](#Mission)
 - [Framework](#Framework)
 - [The CU Next Award](#CUNext)
-
-<br><br>
+<br>
 
 ## Mission {#Mission}
 
