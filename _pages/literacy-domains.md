@@ -36,7 +36,7 @@ Please click on any of the literacy domains below or hover over the literacy dom
     <a href="{{ site.baseurl }}/processing-data/">
     <div class="card-body">
       <h4 class="card-title">Processing Data</h4>
-      <p class="card-text">“Processing data” is a crucial literacy domain for helping students learn how to perform various operations on data so that they can extract valuable insights from data in critical and ethical ways. Processing Data is often understood to be an iterative cycle involving several phrases. For the purposes of this project, we identify 4 key phases: collecting data; organizing and cleaning data;  and drawing insights from data; and storing and preserving data.</p>
+      <p class="card-text">“Processing data” is a crucial literacy domain for helping students learn how to perform various operations on data so that they can extract valuable insights from data in critical and ethical ways. Processing Data is often understood to be an iterative cycle involving several phrases. For the purposes of this project, we identify 4 key phases: collecting data; organizing and cleaning data; analyzing data; and storing and preserving data.</p>
     </div>
       </a>
   </div>
@@ -47,7 +47,7 @@ Please click on any of the literacy domains below or hover over the literacy dom
     <a href="{{ site.baseurl }}/persuading-with-data/">
     <div class="card-body">
       <h4 class="card-title">Persuading with Data</h4>
-      <p class="card-text">“Persuading with Data” is a crucial literacy domain for helping students learn how to generate persuasive data-driven content to assist advocacy aims for diverse contexts, purposes, and audiences. Persuading with Data is a multi-modal affair, meaning that when it comes to data advocacy, not only does data often come in various forms (numerical, imagistic, geolocational) but data is also commonly woven together with various resources for communication (words, sounds, images, etc.) to achieve various aims. To help students learn the various multi-modal ways one can persuade with data for advocacy purposes, we offer resources that specifically focus on: appealing with data; visualizing data; mapping data; and telling multi-modal stories with data.</p>
+      <p class="card-text">“Persuading with Data” is a crucial literacy domain for helping students learn how to generate persuasive data-driven content to assist advocacy aims for diverse contexts, purposes, and audiences. Persuading with Data is a multi-modal affair, meaning that when it comes to data advocacy, not only does data often come in various forms (numerical, imagistic, geolocational) but data is also commonly woven together with various resources for communication (words, sounds, images, etc.) to achieve various aims. To help students learn the various multi-modal ways one can persuade with data for advocacy purposes, we offer resources that specifically focus on: appealing with data; visualizing data; mapping data; and telling stories with data.</p>
     </div>
       </a>
   </div>
