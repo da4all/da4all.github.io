@@ -3,7 +3,7 @@ layout: page
 permalink: /how-to-navigate/
 title: How to Navigate
 description: Learn how to use the Data Advocacy for All toolkit.
-nav: true
+nav: false
 nav_order: 2
 ---
 
