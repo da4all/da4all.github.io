@@ -15,7 +15,6 @@ nav_order:
 - [Mission](#Mission)
 - [Framework](#Framework)
 - [The CU Next Award](#CUNext)
-- [The Literacy Domains of Data Advocacy](#LiteracyDomains)
 
 <br><br>
 
