@@ -28,7 +28,7 @@ The resources offered under this literacy domain push students to ask critical q
   <h1 class="category">Defining Data</h1>
 </div>
 
-Placeholder text defining the sub-domain.
+Resources for this literacy domain offers students opportunities to explore what data is from a variety of disciplinary and professional perspectives. Students are especially encouraged to explore the important links between data, people, and power. 
 
 <div class ="projects">
   <h2 class="category">Sample Toolkit Resources</h2>
@@ -46,7 +46,7 @@ Placeholder text defining the sub-domain.
   <h1 class="category">Critiquing Data</h1>
 </div>
 
-Placeholder text defining the sub-domain.
+Resources for this literacy domain introduce students to critical data studies and its various frameworks for interrogating how data yields power in various contexts and who benefits and does not benefit from such data use.
 
 {% assign cards = site.cards | where: "sample_resource", true | where: "subdomain", "Critiquing Data" | sort: "title" %}
 
@@ -64,7 +64,7 @@ Placeholder text defining the sub-domain.
   <h1 class="category">Acting Ethically with Data</h1>
 </div>
 
-Placeholder text defining the sub-domain.
+Resources for this literacy domain introduce students to data ethics in order to help students better understand the significance of transparency, accountability, agency, and privacy, among other matters, when working with data. 
 
 {% assign cards = site.cards | where: "sample_resource", true | where: "subdomain", "Acting Ethically with Data" | sort: "title" %}
 
@@ -79,10 +79,10 @@ Placeholder text defining the sub-domain.
 </div>
 
 <div class ="projects">
-  <h1 class="category">Linking Data and Justice</h1>
+  <h1 class="category">Advocating with Data</h1>
 </div>
 
-Placeholder text defining the sub-domain.
+Resources for this literacy domain introduce students to the practice of data advocacy and explore how a rhetorical data studies framework can help students advocate with data in ethical, persuasive, and just ways.
 
 {% assign cards = site.cards | where: "sample_resource", true | where: "subdomain", "Linking Data and Justice" | sort: "title" %}
 
