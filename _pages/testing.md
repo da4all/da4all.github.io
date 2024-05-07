@@ -7,7 +7,7 @@ nav: false
 nav_order: 
 ---
 
-## Testing 113
+## Testing 114
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -199,5 +199,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Initial filtering when the page loads
   filterCards();
+
+  // Automatically load the "Understanding Data" selection in the "domains" filter
+  domainFilter.value = 'Understanding Data';
+  filterCards(); // Trigger filter after changing the selection
 });
 </script>
