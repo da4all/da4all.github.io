@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', function() {
     'Defining Data': 'Understanding Data',
     'Critiquing Data': 'Understanding Data',
     'Acting Ethically with Data': 'Understanding Data',
-    'Linking Data and Justice': 'Understanding Data',
+    'Advocating with Data': 'Understanding Data',
     'Collecting Data': 'Processing Data',
     'Organizing and Cleaning Data': 'Processing Data',
     'Analyzing and Drawing Insights from Data': 'Processing Data',
