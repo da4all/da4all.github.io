@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', function() {
     'Making Claims with Data': 'Persuading with Data',
     'Visualizing Data': 'Persuading with Data',
     'Mapping Data': 'Persuading with Data',
-    'Telling Multi-Modal Stories with Data': 'Persuading with Data'
+    'Telling Stories with Data': 'Persuading with Data'
   };
 
   function filterCards() {
