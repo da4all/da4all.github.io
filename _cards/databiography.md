@@ -3,7 +3,7 @@ layout: card
 inline: false
 resource: Assignment
 domain: Processing Data
-subdomain: Analyzing and Drawing Insights from Data
+subdomain: Analyzing Data
 
 title: "Data Biography"
 
