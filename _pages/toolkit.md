@@ -243,5 +243,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Initial filtering when the page loads
   filterCards();
+
+    // Automatically load the "Understanding Data" selection in the "domains" filter
+  domainFilter.value = 'Understanding Data';
+  filterCards(); // Trigger filter after changing the selection
 });
 </script>
