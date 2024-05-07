@@ -70,9 +70,11 @@ Data Advocacy for All teaches data advocacy through three main approaches:<br>
   </div>
 </div>
 
+<br><br>
+
 <center>
 <sl-button-group label="Alignment">
-  <sl-button href="../toolkit/">To learn more about these frameworks, please check out the readings in our Digital Toolkit</sl-button>
+  <sl-button href="../toolkit/">To Learn More About These Frameworks, Please Check Out the Readings in Our Digital Toolkit</sl-button>
 </sl-button-group>
 </center>
 
