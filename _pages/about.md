@@ -16,6 +16,7 @@ nav_order:
 - [Framework](#Framework)
 - [The CU Next Award](#CUNext)
 - [The Literacy Domains of Data Advocacy](#LiteracyDomains)
+
 <br><br>
 
 ## Mission {#Mission}
@@ -70,7 +71,7 @@ Data Advocacy for All teaches data advocacy through three main approaches:<br>
   </div>
 </div>
 
-<br><br>
+<br>
 
 <center>
 <sl-button-group label="Alignment">
