@@ -2,9 +2,13 @@
 layout: page
 permalink: /processing-data/
 title: Processing Data
-description: 
+description:
 nav: false
 nav_order: 
+display_categories:
+horizontal: false
+toc:
+  sidebar: left
 ---
 
 ## Overview
@@ -21,89 +25,76 @@ The resources offered under this literacy domain push students to ask critical q
 - How can we store and preserve data to make it sustainable and accessible?
 <br>
 
-## Explore the Resources for "Processing Data"
-
-<div style="background-color: #f2f2f2; padding: 10px;">
-  <div id="filter-options" style="font-size: 0.8em;">
-    
-    <label for="topic-filter">Subdomain:</label>
-    <select id="topic-filter">
-    <option value="all">All</option>
-    <option value="Collecting Data">Collecting Data</option>
-    <option value="Organizing and Cleaning Data">Organizing and Cleaning Data</option>
-    <option value="Analyzing and Drawing Insights from Data">Analyzing and Drawing Insights from Data</option>
-    <option value="Storing and Preserving Data">Storing and Preserving Data</option>
-    </select>
-
-    <br>
-
-    <label for="group-filter">Type of Resource:</label>
-    <select id="group-filter">
-      <option value="all">All</option>
-      {% for group in site.data.cards.groups %}
-      <option value="{{ group }}">{{ group }}</option>
-      {% endfor %}
-    </select>
-  </div>
+<div class ="projects">
+  <h1 class="category">Collecting Data</h1>
 </div>
 
-<div id="card-list">
-{% assign cards = site.cards | where: "domain", "Processing Data" | sort: "title" %}
+Resources for this literacy domain introduce students to various methods for gathering data for decision-making, planning, research and other purposes as well as challenge students to consider the ethical obligations of doing such data work.
 
-{% for card in cards %}
-  <p>
-    <div class="card {% if card.inline == false %}hoverable{% endif %}">
-      <div class="row no-gutters">
-        <div class="team">
-          <div class="card-body">
-            {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
-              <h5 class="card-title">{{ card.profile.name }}</h5></a>
-            <p class="card-text">{% if card.profile.author %}<small class="test-muted"><i class="fa-solid fa-user"></i>&nbsp; Author: {{ card.profile.author | replace: '<br />', ', ' }} </small><br>{% endif %}</p>
-            {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
-              <p class="card-text">{{ card.teaser }}<small><br><br></small></p></a>
-            <p class="card-text">
-              {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i>  Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a> </small><br>{% endif %} 
-              <small class="test-muted topic"><i class="fa-solid fa-diagram-successor"></i>&nbsp; Subdomain: {{ card.topic }}</small><br>
-              <small class="test-muted group"><i class="fa-solid fa-file"></i>&nbsp; Type of Resource: {{ card.group }}</small><br>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </p>
-{% endfor %}
+<div class ="projects">
+  <h2 class="category">Sample Toolkit Resources</h2>
 </div>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const topicFilter = document.getElementById('topic-filter');
-  const groupFilter = document.getElementById('group-filter');
-  const cards = document.querySelectorAll('.card');
+{% assign cards = site.cards | where: "sample_resource", true | where: "subdomain", "Collecting Data" | sort: "title" %}
 
-  function filterCards() {
-    const selectedTopic = topicFilter.value;
-    const selectedGroup = groupFilter.value;
+<div class="grid-container">
+    {%- for card in cards -%}
+        {% include sample-cards.html %}
+    {%- endfor %}
+</div>
 
-    cards.forEach(card => {
-      const topic = card.querySelector('.topic').textContent.trim().replace('Topic: ', '');
-      const group = card.querySelector('.group').textContent.trim().replace('Group: ', '');
+<div class ="projects">
+  <h1 class="category">Organizing and Cleaning Data</h1>
+</div>
 
-      const topicMatch = selectedTopic === 'all' || topic === selectedTopic;
-      const groupMatch = selectedGroup === 'all' || group === selectedGroup;
+Resources for this literacy domain help students learn how to assemble, categorize, classify, structure, and edit data so that it can be easily and ethically accessed, processed, and analyzed.
 
-      if (topicMatch && groupMatch) {
-        card.style.display = 'block';
-      } else {
-        card.style.display = 'none';
-      }
-    });
-  }
+{% assign cards = site.cards | where: "sample_resource", true | where: "subdomain", "Organizing and Cleaning Data" | sort: "title" %}
 
-  topicFilter.addEventListener('change', filterCards);
-  groupFilter.addEventListener('change', filterCards);
+<div class ="projects">
+  <h2 class="category">Sample Toolkit Resources</h2>
+</div>
 
-  // Initial filtering when the page loads
-  filterCards();
-});
-</script>
+<div class="grid-container">
+    {%- for card in cards -%}
+        {% include sample-cards.html %}
+    {%- endfor %}
+</div>
+
+<div class ="projects">
+  <h1 class="category">Analyzing Data</h1>
+</div>
+
+Resources for this literacy domain teach students how to enact various methods to glean useful information and insights from data, which can then be used for various rhetorical purposes such as decision-making, advocacy, and education. 
+
+{% assign cards = site.cards | where: "sample_resource", true | where: "subdomain", "Analyzing Data" | sort: "title" %}
+
+<div class ="projects">
+  <h2 class="category">Sample Toolkit Resources</h2>
+</div>
+
+<div class="grid-container">
+    {%- for card in cards -%}
+        {% include sample-cards.html %}
+    {%- endfor %}
+</div>
+
+<div class ="projects">
+  <h1 class="category">Storing and Preserving Data</h1>
+</div>
+
+Resources for this literacy domain introduce students to various practices and open-access tools for providing long-term storage of and access to data as well as conserving and maintaining its safety and integrity.
+
+{% assign cards = site.cards | where: "sample_resource", true | where: "subdomain", "Storing and Preserving Data" | sort: "title" %}
+
+<div class ="projects">
+  <h2 class="category">Sample Toolkit Resources</h2>
+</div>
+
+<div class="grid-container">
+    {%- for card in cards -%}
+        {% include sample-cards.html %}
+    {%- endfor %}
+</div>
+
 
