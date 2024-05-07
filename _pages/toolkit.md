@@ -166,10 +166,10 @@ document.addEventListener('DOMContentLoaded', function() {
     'Organizing and Cleaning Data': 'Processing Data',
     'Analyzing Data': 'Processing Data',
     'Storing and Preserving Data': 'Processing Data',
-    'Appealing with Data': 'Persuading with Data',
+    'Making Claims with Data': 'Persuading with Data',
     'Visualizing Data': 'Persuading with Data',
     'Mapping Data': 'Persuading with Data',
-    'Telling Multi-Modal Stories with Data': 'Persuading with Data'
+    'Telling Stories with Data': 'Persuading with Data'
   };
 
   function filterCards() {
