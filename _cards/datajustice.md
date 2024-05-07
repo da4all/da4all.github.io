@@ -3,7 +3,7 @@ layout: card
 inline: false
 resource: Term
 domain: Understanding Data
-subdomain: Linking Data and Justice
+subdomain: Advocating with Data
 
 title: Data Justice
 
