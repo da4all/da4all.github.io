@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', function() {
     'Advocating with Data': 'Understanding Data',
     'Collecting Data': 'Processing Data',
     'Organizing and Cleaning Data': 'Processing Data',
-    'Analyzing and Drawing Insights from Data': 'Processing Data',
+    'Analyzing Data': 'Processing Data',
     'Storing and Preserving Data': 'Processing Data',
     'Appealing with Data': 'Persuading with Data',
     'Visualizing Data': 'Persuading with Data',
