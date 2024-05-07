@@ -3,7 +3,7 @@ layout: card
 inline: false
 resource: Dataset
 domain: Processing Data
-subdomain: Analyzing and Drawing Insights from Data
+subdomain: Analyzing Data
 
 title: "Philadelphia African-American Census 1847"
 
