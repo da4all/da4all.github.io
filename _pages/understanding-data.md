@@ -84,7 +84,7 @@ Resources for this literacy domain introduce students to data ethics in order to
 
 Resources for this literacy domain introduce students to the practice of data advocacy and explore how a rhetorical data studies framework can help students advocate with data in ethical, persuasive, and just ways.
 
-{% assign cards = site.cards | where: "sample_resource", true | where: "subdomain", "Linking Data and Justice" | sort: "title" %}
+{% assign cards = site.cards | where: "sample_resource", true | where: "subdomain", "Advocating with Data" | sort: "title" %}
 
 <div class ="projects">
   <h2 class="category">Sample Toolkit Resources</h2>
