@@ -48,8 +48,6 @@ LEARN MORE
 
 Data Advocacy for All defines data advocacy as a deeply ethical and rhetorical practice of integrated analysis, design, and communication in which insights from a dataset are effectively gleaned and conveyed to raise public awareness and drive social change. In attempt to hone students’ abilities to advocate with data in ethical, critical, and persuasive ways, Data Advocacy for All draws on three frameworks: critical data studies, data science, and rhetorical data studies.
 
-<br>
-
 <center>
 <sl-button-group label="Alignment">
   <sl-button href="../about/#Framework">Learn More About Our Framework</sl-button>
