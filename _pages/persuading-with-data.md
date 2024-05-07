@@ -2,9 +2,13 @@
 layout: page
 permalink: /persuading-with-data/
 title: Persuading with Data
-description: 
+description:
 nav: false
 nav_order: 
+display_categories:
+horizontal: false
+toc:
+  sidebar: left
 ---
 
 ## Overview
@@ -21,89 +25,76 @@ The resources offered under this literacy domain focus on these and other import
 - How can we tell ethical, effective, and affective data-driven stories to achieve our various rhetorical aims?
 <br>
 
-## Explore the Resources for "Persuading with Data"
-
-<div style="background-color: #f2f2f2; padding: 10px;">
-  <div id="filter-options" style="font-size: 0.8em;">
-    
-    <label for="topic-filter">Subdomain:</label>
-    <select id="topic-filter">
-    <option value="all">All</option>
-    <option value="Appealing with Data">Appealing with Data</option>
-    <option value="Visualizing Data">Visualizing Data</option>
-    <option value="Mapping Data">Mapping Data</option>
-    <option value="Telling Multi-Modal Stories with Data">Telling Multi-Modal Stories with Data</option>
-    </select>
-
-    <br>
-
-    <label for="group-filter">Type of Resource:</label>
-    <select id="group-filter">
-      <option value="all">All</option>
-      {% for group in site.data.cards.groups %}
-      <option value="{{ group }}">{{ group }}</option>
-      {% endfor %}
-    </select>
-  </div>
+<div class ="projects">
+  <h1 class="category">Making Claims with Data</h1>
 </div>
 
-<div id="card-list">
-{% assign cards = site.cards | where: "domain", "Persuading with Data" | sort: "title" %}
+Resources for this literacy domain introduce students to the art of rhetoric and teach students how to identify a rhetorical situation, make ethical and persuasive claims with data, and move a targeted audience through logical, emotional, and ethical appeals. 
 
-{% for card in cards %}
-  <p>
-    <div class="card {% if card.inline == false %}hoverable{% endif %}">
-      <div class="row no-gutters">
-        <div class="team">
-          <div class="card-body">
-            {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
-              <h5 class="card-title">{{ card.profile.name }}</h5></a>
-            <p class="card-text">{% if card.profile.author %}<small class="test-muted"><i class="fa-solid fa-user"></i>&nbsp; Author: {{ card.profile.author | replace: '<br />', ', ' }} </small><br>{% endif %}</p>
-            {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
-              <p class="card-text">{{ card.teaser }}<small><br><br></small></p></a>
-            <p class="card-text">
-              {% if card.profile.source %}<small class="test-muted"><i class="fas fa-link"></i>  Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a> </small><br>{% endif %} 
-              <small class="test-muted topic"><i class="fa-solid fa-diagram-successor"></i>&nbsp; Subdomain: {{ card.topic }}</small><br>
-              <small class="test-muted group"><i class="fa-solid fa-file"></i>&nbsp; Type of Resource: {{ card.group }}</small><br>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </p>
-{% endfor %}
+<div class ="projects">
+  <h2 class="category">Sample Toolkit Resources</h2>
 </div>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const topicFilter = document.getElementById('topic-filter');
-  const groupFilter = document.getElementById('group-filter');
-  const cards = document.querySelectorAll('.card');
+{% assign cards = site.cards | where: "sample_resource", true | where: "subdomain", "Making Claims with Data" | sort: "title" %}
 
-  function filterCards() {
-    const selectedTopic = topicFilter.value;
-    const selectedGroup = groupFilter.value;
+<div class="grid-container">
+    {%- for card in cards -%}
+        {% include sample-cards.html %}
+    {%- endfor %}
+</div>
 
-    cards.forEach(card => {
-      const topic = card.querySelector('.topic').textContent.trim().replace('Topic: ', '');
-      const group = card.querySelector('.group').textContent.trim().replace('Group: ', '');
+<div class ="projects">
+  <h1 class="category">Visualizing Data</h1>
+</div>
 
-      const topicMatch = selectedTopic === 'all' || topic === selectedTopic;
-      const groupMatch = selectedGroup === 'all' || group === selectedGroup;
+Resources for this literacy domain teach students how to analyze and generate data visualizations with potential for moving an audience in service of one’s advocacy aims. 
 
-      if (topicMatch && groupMatch) {
-        card.style.display = 'block';
-      } else {
-        card.style.display = 'none';
-      }
-    });
-  }
+{% assign cards = site.cards | where: "sample_resource", true | where: "subdomain", "Visualizing Data" | sort: "title" %}
 
-  topicFilter.addEventListener('change', filterCards);
-  groupFilter.addEventListener('change', filterCards);
+<div class ="projects">
+  <h2 class="category">Sample Toolkit Resources</h2>
+</div>
 
-  // Initial filtering when the page loads
-  filterCards();
-});
-</script>
+<div class="grid-container">
+    {%- for card in cards -%}
+        {% include sample-cards.html %}
+    {%- endfor %}
+</div>
+
+<div class ="projects">
+  <h1 class="category">Mapping Data</h1>
+</div>
+
+Resources for this literacy domain teach students how to analyze and generate data driven maps with potential for moving an audience in service of one’s advocacy aims. 
+
+{% assign cards = site.cards | where: "sample_resource", true | where: "subdomain", "Mapping Data" | sort: "title" %}
+
+<div class ="projects">
+  <h2 class="category">Sample Toolkit Resources</h2>
+</div>
+
+<div class="grid-container">
+    {%- for card in cards -%}
+        {% include sample-cards.html %}
+    {%- endfor %}
+</div>
+
+<div class ="projects">
+  <h1 class="category">Telling Stories with Data</h1>
+</div>
+
+Resources for this literacy domain teach students how to integrate claims, visualizations, and maps with narrative to generate powerful multi-modal stories in various genres for data advocacy purposes.
+
+{% assign cards = site.cards | where: "sample_resource", true | where: "subdomain", "Telling Stories with Data" | sort: "title" %}
+
+<div class ="projects">
+  <h2 class="category">Sample Toolkit Resources</h2>
+</div>
+
+<div class="grid-container">
+    {%- for card in cards -%}
+        {% include sample-cards.html %}
+    {%- endfor %}
+</div>
+
 
