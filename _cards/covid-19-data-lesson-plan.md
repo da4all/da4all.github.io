@@ -1,20 +1,17 @@
 ---
 layout: card
 inline: false
+test_value: blah blah
 resource:
-  - Teaching Module
-
+  - Test Resource
 domain:
   - Understanding Data
   - Processing Data
-
 subdomain:
   - Defining Data
   - Collecting Data
   - Making Claims with Data
-
-title: "“a really cool lesson plan”: COVID-19 Data"
-
+title: "card testing"
 teaser: >
   "This lesson plan uses the modern COVID-19 pandemic as an entry point into understanding how data is created and used within major historical events and processes and the role of historical archives in shaping data collection."
 
