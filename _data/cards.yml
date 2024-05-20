@@ -34,5 +34,3 @@ resources:
     icon: "fa-solid fa-database"
   - name: Example of Data Advocacy
     icon: "fa-solid fa-bullhorn"
-  - name: Test Resource
-    icon: "fa-solid fa-bullhorn"

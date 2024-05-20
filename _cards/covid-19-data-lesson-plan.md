@@ -1,9 +1,7 @@
 ---
 layout: card
 inline: false
-test_value: blah blah
-resource:
-  - Test Resource
+resource: Teaching Module
 domain:
   - Understanding Data
   - Processing Data

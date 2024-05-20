@@ -62,7 +62,11 @@ nav_order: 5
 
 <div id="card-list" style="margin-top: 20px;">
   {% for card in cards %}
-  {% assign resource = site.data.cards.resources | where: "name", card.resource | first %}
+  {% assign array = "Understanding Data, Processing Data" | split: ", " %}
+  {% if site.data.cards.domains contains card.domain %}
+   {{ card.domain }}
+   {% endif %}
+  {% assign resource = site.data.cards.resources | where: "name", card.resource | first %} <!-- this line of code is matching the resource type to its corresponding icon in cards.yml -->
 
 <!--
   <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px;" data-domain="{{ card.domain }}" data-subdomain="{{ card.subdomain }}">
@@ -101,9 +105,13 @@ nav_order: 5
               </p>
               <hr class="solid">
               <p class="card-text">
-                <small class="test-muted domain"><i class="fa-solid fa-square"></i>&nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ card.domain | downcase | replace: ' ', '-' }}">{{ card.domain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp;</small>
+              {% for d in card.domain %}
+                <small class="test-muted domain"><i class="fa-solid fa-square"></i> &nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ d | downcase | replace: ' ', '-' }}">{{ d }}</a> &nbsp;&nbsp;//&nbsp;&nbsp;</small>
+                <!--<small class="test-muted domain"><i class="fa-solid fa-square"></i> &nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ card.domain | downcase | replace: ' ', '-' }}">{{ card.domain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp;</small><br>
+                Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ card.domain | downcase | replace: ' ', '-' }}">{{ card.domain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp;</small>-->
                 <small class="test-muted subdomain"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ card.subdomain }} &nbsp;&nbsp;//&nbsp;&nbsp;</small>
                 <small class="test-muted resource"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ card.resource }}</small><br>
+                {% endfor %}
               </p>
             </div>
           </div>
@@ -215,7 +223,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Automatically load the "Understanding Data" selection in the "domains" filter
   //domainFilter.value = 'Understanding Data';
-  resourceFilter.value = 'Test Resource';
+  resourceFilter.value = 'Teaching Module';
   filterCards(); // Trigger filter after changing the selection
 });
 </script>
