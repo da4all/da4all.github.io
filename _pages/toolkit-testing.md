@@ -62,10 +62,6 @@ nav_order: 5
 
 <div id="card-list" style="margin-top: 20px;">
   {% for card in cards %}
-  {% assign array = "Understanding Data, Processing Data" | split: ", " %}
-  {% if site.data.cards.domains contains card.domain %}
-   {{ card.domain }}
-   {% endif %}
   {% assign resource = site.data.cards.resources | where: "name", card.resource | first %} <!-- this line of code is matching the resource type to its corresponding icon in cards.yml -->
 
 <!--
@@ -105,13 +101,22 @@ nav_order: 5
               </p>
               <hr class="solid">
               <p class="card-text">
-              {% for d in card.domain %}
-                <small class="test-muted domain"><i class="fa-solid fa-square"></i> &nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ d | downcase | replace: ' ', '-' }}">{{ d }}</a> &nbsp;&nbsp;//&nbsp;&nbsp;</small>
-                <!--<small class="test-muted domain"><i class="fa-solid fa-square"></i> &nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ card.domain | downcase | replace: ' ', '-' }}">{{ card.domain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp;</small><br>
-                Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ card.domain | downcase | replace: ' ', '-' }}">{{ card.domain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp;</small>-->
-                <small class="test-muted subdomain"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ card.subdomain }} &nbsp;&nbsp;//&nbsp;&nbsp;</small>
-                <small class="test-muted resource"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ card.resource }}</small><br>
-                {% endfor %}
+                {% assign domain_array = card.domain | split: ',' %}
+                {% assign domain_array_size = domain_array_size | size %}
+                  <small class="test-muted domain"><i class="fa-solid fa-square"></i> &nbsp; Domain: 
+                  {% if domain_array_size > 1 %}
+                    {% for d in card.domain %}
+                    <a href="{{ site.url }}{{ site.baseurl }}{{ d | downcase | replace: ' ', '-' }}">{{ d }}</a>,&nbsp;   
+                      {% endfor %}
+                    {% endif %}
+                  </small>
+                 
+                  <!--<small class="test-muted domain"><i class="fa-solid fa-square"></i> &nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ card.domain | downcase | replace: ' ', '-' }}">{{ card.domain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp;</small><br>
+                  Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ card.domain | downcase | replace: ' ', '-' }}">{{ card.domain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp;</small>-->
+                  <small class="test-muted subdomain"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ card.subdomain }} &nbsp;&nbsp;//&nbsp;&nbsp;</small>
+                  <small class="test-muted resource"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ card.resource }}</small><br>
+                
+                
               </p>
             </div>
           </div>
