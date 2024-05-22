@@ -4,30 +4,8 @@ layout: default
 <!-- card.html -->
 <div class="page">
   <header class="page-header">
-    <h1 class="page-title">{{ page.title }}</h1> 
-
+    <h1 class="page-title">{{ page.title }}</h1>
     <br>
-    
-    <div class="page-info" style="background-color: #f2f2f2; padding: 10px;">
-      <p class="page-text" style="margin-left:20px; margin-top:10px;">
-        <small class="text-muted">
-          {% if page.profile.date %}
-            <i class="fa-solid fa-calendar"></i>&nbsp; Date: {{ page.profile.date | replace: '<br />', ', ' }}<br>
-          {% endif %}
-          {% if page.profile.author %}
-            <i class="fa-solid fa-user"></i>&nbsp; Author: {{ page.profile.author | replace: '<br />', ', ' }}<br>
-          {% endif %}
-          {% if page.profile.source %}
-            <i class="fas fa-link"></i> Source: <a href="{{ page.profile.source }}">{{ page.profile.source | replace: '<br />', ', ' }}</a><br>
-          {% endif %}
-          {% if page.profile.license %}
-            <i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ page.profile.license }}<br>
-          {% endif %}
-          <i class="fa-solid fa-square"></i>&nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ page.domain | downcase | replace: ' ', '-' }}">{{ page.domain }}</a><br>
-          <i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ page.subdomain }}<br>
-          <i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ page.resource }}</small></p>
-    </div>
-
     <blockquote>
       <p class="page-description" style="font-size:16px">
         {{ page.teaser }}
@@ -41,19 +19,16 @@ layout: default
         {% endif %}
       </p>
     </blockquote>
-
     <hr class="solid">
-    
   </header>
 
   <div class="content-wrapper">
     <aside class="toc-sidebar">
       <nav class="toc">
         <h2>Table of Contents</h2>
-        {{ content | toc }}
+        {{ content | toc_only }}
       </nav>
     </aside>
-
     <main class="content">
       <article>
         {{ content }}
