@@ -3,8 +3,8 @@ layout: card
 inline: false
 resource: Teaching Module
 domain:
-  - Understanding Data
-  - Processing Data
+  - Understanding Data 
+  - Processing Data 
 subdomain:
   - Defining Data
   - Critiquing Data
