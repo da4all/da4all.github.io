@@ -2,7 +2,7 @@
 layout: default
 ---
 <!-- card.html  -->
-<div class="page">
+<div class="page" data-domain="{{ card.domain | join: ',' }}" data-subdomain="{{ card.subdomain | join: ',' }}>
   <header class="page-header">
     <h1 class="page-title">{{ page.title }}</h1>
 
