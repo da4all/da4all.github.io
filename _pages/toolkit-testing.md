@@ -3,19 +3,11 @@ layout: page
 permalink: /toolkit-testing/
 title: Toolkit Testing
 description:
-nav: true
-nav_order: 5
+nav: false
+nav_order:
 ---
 
 ## Explore the Toolkit
-
-{% assign lesson_plans = site.cards | where: "title", "card testing" %}
-
-{% for lesson_plan in lesson_plans %}
-{% for value in lesson_plan.domain %}
-{{ value }}
-{% endfor %}
-{% endfor %}
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -101,22 +93,37 @@ nav_order: 5
               </p>
               <hr class="solid">
               <p class="card-text">
+                <!-- rendering multiple domains vs. single domain -->
                 {% assign domain_array = card.domain | split: ',' %}
-                {% assign domain_array_size = domain_array_size | size %}
                   <small class="test-muted domain"><i class="fa-solid fa-square"></i> &nbsp; Domain: 
-                  {% if domain_array_size > 1 %}
+                  {% if domain_array.size > 1 %}
                     {% for d in card.domain %}
-                    <a href="{{ site.url }}{{ site.baseurl }}{{ d | downcase | replace: ' ', '-' }}">{{ d }}</a>,&nbsp;   
-                      {% endfor %}
-                    {% endif %}
+                      {% unless forloop.last %}
+                        <a href="{{ site.url }}{{ site.baseurl }}{{ d | downcase | replace: ' ', '-' }}">{{ d }}</a>,&nbsp;   
+                      {% else %}
+                        <a href="{{ site.url }}{{ site.baseurl }}{{ d | downcase | replace: ' ', '-' }}">{{ d }}</a>&nbsp;&nbsp;//&nbsp;&nbsp;
+                      {% endunless %}
+                    {% endfor %}
+                  {% else %}
+                    <a href="{{ site.url }}{{ site.baseurl }}{{ d | downcase | replace: ' ', '-' }}">{{ card.domain }}</a>&nbsp;&nbsp;//&nbsp;&nbsp;      
+                  {% endif %}
                   </small>
-                 
-                  <!--<small class="test-muted domain"><i class="fa-solid fa-square"></i> &nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ card.domain | downcase | replace: ' ', '-' }}">{{ card.domain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp;</small><br>
-                  Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ card.domain | downcase | replace: ' ', '-' }}">{{ card.domain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp;</small>-->
-                  <small class="test-muted subdomain"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ card.subdomain }} &nbsp;&nbsp;//&nbsp;&nbsp;</small>
+                <!-- rendering multiple subdomains vs. single subdomain -->
+                {% assign subdomain_array = card.subdomain | split: ',' %}
+                  <small class="test-muted subdomain"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain:
+                  {% if subdomain_array.size > 1 %}
+                    {% for sub in card.subdomain %}
+                      {% unless forloop.last %}
+                        {{ sub }},&nbsp;
+                      {% else %}
+                        {{ sub }}&nbsp;&nbsp;//&nbsp;&nbsp;
+                      {% endunless %}
+                    {% endfor %}
+                  {% else %}
+                    {{ card.subdomain }}&nbsp;&nbsp;//&nbsp;&nbsp;
+                  {% endif %}
+                  </small>
                   <small class="test-muted resource"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ card.resource }}</small><br>
-                
-                
               </p>
             </div>
           </div>

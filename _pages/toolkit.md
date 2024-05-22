@@ -2,7 +2,7 @@
 layout: page
 permalink: /toolkit/
 title: Toolkit
-description: 
+description:
 nav: true
 nav_order: 5
 ---
@@ -83,9 +83,9 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
       <option value="{{ subdomain }}">{{ subdomain }}</option>
       {% endfor %}
     </select>
-    
+
     <br>
-    
+
     <label for="search-input">Search:</label>
     <input type="text" id="search-input" style="width: 300px;" placeholder="Search by word, phrase, or keyword">
     <button id="search-button">Search</button>
@@ -98,8 +98,12 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
 
 <div id="card-list" style="margin-top: 20px;">
   {% for card in cards %}
-  {% assign resource = site.data.cards.resources | where: "name", card.resource | first %}
+  {% assign resource = site.data.cards.resources | where: "name", card.resource | first %} <!-- this line of code is matching the resource type to its corresponding icon in cards.yml -->
+
+<!--
   <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px;" data-domain="{{ card.domain }}" data-subdomain="{{ card.subdomain }}">
+-->
+  <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px;" data-domain="{{ card.domain | join: ',' }}" data-subdomain="{{ card.subdomain | join: ',' }}">
     <div class="row no-gutters">
       <div class="team">
         <div class="card-body">
@@ -133,9 +137,37 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
               </p>
               <hr class="solid">
               <p class="card-text">
-                <small class="test-muted domain"><i class="fa-solid fa-square"></i>&nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ card.domain | downcase | replace: ' ', '-' }}">{{ card.domain }}</a> &nbsp;&nbsp;//&nbsp;&nbsp;</small>
-                <small class="test-muted subdomain"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ card.subdomain }} &nbsp;&nbsp;//&nbsp;&nbsp;</small>
-                <small class="test-muted resource"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ card.resource }}</small><br>
+                <!-- rendering multiple domains vs. single domain -->
+                {% assign domain_array = card.domain | split: ',' %}
+                  <small class="test-muted domain"><i class="fa-solid fa-square"></i> &nbsp; Domain: 
+                  {% if domain_array.size > 1 %}
+                    {% for d in card.domain %}
+                      {% unless forloop.last %}
+                        <a href="{{ site.url }}{{ site.baseurl }}{{ d | downcase | replace: ' ', '-' }}">{{ d }}</a>,&nbsp;   
+                      {% else %}
+                        <a href="{{ site.url }}{{ site.baseurl }}{{ d | downcase | replace: ' ', '-' }}">{{ d }}</a>&nbsp;&nbsp;//&nbsp;&nbsp;
+                      {% endunless %}
+                    {% endfor %}
+                  {% else %}
+                    <a href="{{ site.url }}{{ site.baseurl }}{{ d | downcase | replace: ' ', '-' }}">{{ card.domain }}</a>&nbsp;&nbsp;//&nbsp;&nbsp;      
+                  {% endif %}
+                  </small>
+                <!-- rendering multiple subdomains vs. single subdomain -->
+                {% assign subdomain_array = card.subdomain | split: ',' %}
+                  <small class="test-muted subdomain"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain:
+                  {% if subdomain_array.size > 1 %}
+                    {% for sub in card.subdomain %}
+                      {% unless forloop.last %}
+                        {{ sub }},&nbsp;
+                      {% else %}
+                        {{ sub }}&nbsp;&nbsp;//&nbsp;&nbsp;
+                      {% endunless %}
+                    {% endfor %}
+                  {% else %}
+                    {{ card.subdomain }}&nbsp;&nbsp;//&nbsp;&nbsp;
+                  {% endif %}
+                  </small>
+                  <small class="test-muted resource"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ card.resource }}</small><br>
               </p>
             </div>
           </div>
