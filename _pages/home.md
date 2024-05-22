@@ -1,7 +1,7 @@
 ---
 layout: about
 title: Home
-permalink: /
+permalink: 
 subtitle: An open-access educational toolkit for teaching data advocacy in higher educational settings.
 
 profile:
