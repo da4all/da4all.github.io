@@ -2,11 +2,11 @@
 layout: card
 inline: false
 resource: Teaching Module
-domain: 
+domain:
   - Understanding Data
   - Processing Data
   - Persuading with Data
-subdomain: 
+subdomain:
   - Defining Data
   - Critiquing Data
   - Acting Ethically with Data
