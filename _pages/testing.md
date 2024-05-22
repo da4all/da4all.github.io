@@ -7,7 +7,51 @@ nav: false
 nav_order: 
 ---
 
-## Testing 114
+## Testing 115
+
+With the Data Advocacy for All toolkit, you can either [explore by the resources organized by literacy domain](../literacy-domains/)—or by the type of resource.
+
+<details>
+  <summary>Instructions for Using the Toolkit</summary>
+  <div class="content">
+    This toolkit works on a filtering reduction model, meaning that all cards initially populate and then are reduced to fit any filtering criteria submitted. 
+    <br><br>
+    You can filter the toolkit below by:
+    <ul>
+      <li>Type of resource, with a full list below specifying the various resource types</li>
+      <li>Literacy domains and subdomains, which you can learn more about on the <a href="../literacydomains/">literacy domains overview page</a></li>
+      <li>A custom search, which will populate as you type or whenever you click the "search" button; the "clear search" button will clear all search results</li>
+    </ul>
+  </div>
+</details>
+
+<div style="height:5px;font-size:1px;">&nbsp;<br></div>
+<div style="height:5px;font-size:1px;">&nbsp;</div>
+
+<details>
+  <summary>Resource Types</summary>
+  <div class="content">
+  <ul>
+    <li><b>Terms:</b> Terms refer to concepts that are key to each subdomain along with brief definitions and identification of source. Most of the concepts are discussed in the subdomain’s open access readings.</li>
+    <br>
+    <li><b>Readings:</b> Readings include open access sources that introduce students to important frameworks, concepts, practices, and strategies for doing data advocacy. A list of closed access content is also included on some occasions.</li>
+    <br>
+    <li><b>Assignments:</b> Assignments include formal work that gives students opportunity to learn, practice, and reflect on their experiences with data advocacy. These assignments can also be used to assess student learning in relation to each data literacy domain and subdomain. </li>
+    <br>
+    <li><b>Activities:</b> Activities include open-access lessons, varying in length and scope, that can be implemented in the classroom to help students hone their abilities to work with data in several literacy domains and subdomains.</li>
+    <br>
+    <li><b>Tutorials:</b> Tutorials include step-by-step instructions for using various open-access digital tools to work with data. All tutorials rely on minimal computing, so no previous computer experience is required.</li>
+    <br>
+    <li><b>Teaching Modules:</b> Teaching Modules include lesson plans that can be taught in sequence to help students gain experience with a particular literacy domain or subdomain. While all modules include readings, glossary, activities, and formal assignments, some modules also include tutorials.</li>
+    <br>
+    <li><b>Datasets:</b> Datasets are freely accessible collections of information that can be used for inquiry, learning, and/or practice. Some datasets are referenced in activities, assignments, modules, and tutorials, while others are simply listed as potential resources and/or models for data advocacy. </li>
+    <br>
+    <li><b>Examples of Data Advocacy:</b> Examples of Data Advocacy are a collection of projects and advocacy movements that utilize data advocacy to bring about social change. Like the datasets, some of these examples are referenced in activities, assignments, modules, and tutorials, while others are simply listed to further model for data advocacy.</li></ul></div>
+</details>
+
+<br>
+
+## Explore the Toolkit
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
@@ -150,7 +194,12 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  domainFilter.addEventListener('change', filterCards);
+  domainFilter.addEventListener('change', function() {
+    // Reset the subdomain filter to "All" when the domain filter changes
+    subdomainFilter.value = 'all';
+    filterCards();
+  });
+
   subdomainFilter.addEventListener('change', function() {
     // Update the domain filter based on the selected subdomain
     const selectedSubdomain = subdomainFilter.value;
@@ -199,9 +248,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Initial filtering when the page loads
   filterCards();
-
-  // Automatically load the "Understanding Data" selection in the "domains" filter
-  domainFilter.value = 'Understanding Data';
-  filterCards(); // Trigger filter after changing the selection
 });
 </script>
