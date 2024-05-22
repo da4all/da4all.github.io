@@ -24,7 +24,7 @@ profile:
 
 # Lesson 2.4 Overview
 
-This class uses the modern COVID-19 pandemic as an entry point into understanding how data is created and used within major historical events and processes and the role of historical archives in shaping data collection.
+This class uses the modern COVID-19 pandemic as an entry point into understanding how data is created and used within major historical events and processes and the role of historical archives in shaping data collection. 
 
 # Learning Goals {#goals}
 
