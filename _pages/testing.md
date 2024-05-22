@@ -7,7 +7,7 @@ nav: false
 nav_order: 
 ---
 
-## Testing 115
+## Testing 116
 
 With the Data Advocacy for All toolkit, you can either [explore by the resources organized by literacy domain](../literacy-domains/)—or by the type of resource.
 
@@ -246,7 +246,17 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
+  // Set the filters to default values on page load
+  function resetFilters() {
+    domainFilter.value = 'all';
+    subdomainFilter.value = 'all';
+    resourceFilter.value = 'all';
+    searchInput.value = '';
+  }
+
   // Initial filtering when the page loads
+  resetFilters();
   filterCards();
 });
+
 </script>
