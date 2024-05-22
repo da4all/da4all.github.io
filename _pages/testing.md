@@ -7,9 +7,7 @@ nav: false
 nav_order: 
 ---
 
-## Testing 123
-
-## Overview
+## Testing 124
 
 With the Data Advocacy for All toolkit, you can either [explore by the resources organized by literacy domain](../literacy-domains/)—or by the type of resource.
 
@@ -100,7 +98,11 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
 
 <div id="card-list" style="margin-top: 20px;">
   {% for card in cards %}
-  {% assign resource = site.data.cards.resources | where: "name", card.resource | first %}
+  {% assign resource = site.data.cards.resources | where: "name", card.resource | first %} <!-- this line of code is matching the resource type to its corresponding icon in cards.yml -->
+
+<!--
+  <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px;" data-domain="{{ card.domain }}" data-subdomain="{{ card.subdomain }}">
+-->
   <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px;" data-domain="{{ card.domain | join: ',' }}" data-subdomain="{{ card.subdomain | join: ',' }}">
     <div class="row no-gutters">
       <div class="team">
@@ -138,16 +140,34 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
                 <!-- rendering multiple domains vs. single domain -->
                 {% assign domain_array = card.domain | split: ',' %}
                   <small class="test-muted domain"><i class="fa-solid fa-square"></i> &nbsp; Domain: 
-                  {% for d in domain_array %}
-                    <a href="{{ site.url }}{{ site.baseurl }}{{ d | downcase | replace: ' ', '-' }}">{{ d }}</a>{% unless forloop.last %},&nbsp;{% endunless %}
-                  {% endfor %}
+                  {% if domain_array.size > 1 %}
+                    {% for d in card.domain %}
+                      {% unless forloop.last %}
+                        <a href="{{ site.url }}{{ site.baseurl }}{{ d | downcase | replace: ' ', '-' }}">{{ d }}</a>,&nbsp;   
+                      {% else %}
+                        <a href="{{ site.url }}{{ site.baseurl }}{{ d | downcase | replace: ' ', '-' }}">{{ d }}</a>&nbsp;&nbsp;//&nbsp;&nbsp;
+                      {% endunless %}
+                    {% endfor %}
+                  {% else %}
+                    {% for d in card.domain %}
+                    <a href="{{ site.url }}{{ site.baseurl }}{{ d | downcase | replace: ' ', '-' }}">{{ card.domain }}</a>&nbsp;&nbsp;//&nbsp;&nbsp;      
+                    {% endfor %}
+                  {% endif %}
                   </small>
                 <!-- rendering multiple subdomains vs. single subdomain -->
                 {% assign subdomain_array = card.subdomain | split: ',' %}
                   <small class="test-muted subdomain"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain:
-                  {% for sub in subdomain_array %}
-                    {{ sub }}{% unless forloop.last %},&nbsp;{% endunless %}
-                  {% endfor %}
+                  {% if subdomain_array.size > 1 %}
+                    {% for sub in card.subdomain %}
+                      {% unless forloop.last %}
+                        {{ sub }},&nbsp;
+                      {% else %}
+                        {{ sub }}&nbsp;&nbsp;//&nbsp;&nbsp;
+                      {% endunless %}
+                    {% endfor %}
+                  {% else %}
+                    {{ card.subdomain }}&nbsp;&nbsp;//&nbsp;&nbsp;
+                  {% endif %}
                   </small>
                   <small class="test-muted resource"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ card.resource }}</small><br>
               </p>
