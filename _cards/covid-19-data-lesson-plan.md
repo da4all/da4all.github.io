@@ -3,20 +3,20 @@ layout: card
 inline: false
 resource: Teaching Module
 domain:
-- Understanding Data
-- Processing Data
+  - Understanding Data
+  - Processing Data
 subdomain:
-- Defining Data
-- Critiquing Data
-- Acting Ethically with Data
-- Advocating with Data
-- Collecting Data
-- Organizing and Cleaning Data
-- Analyzing Data
-- Storing and Preserving Data
-- Making Claims with Data
-- Visualizing Data
-- Mapping Data
+  - Defining Data
+  - Critiquing Data
+  - Acting Ethically with Data
+  - Advocating with Data
+  - Collecting Data
+  - Organizing and Cleaning Data
+  - Analyzing Data
+  - Storing and Preserving Data
+  - Making Claims with Data
+  - Visualizing Data
+  - Mapping Data
   - Telling Stories with Data
 title: "Card testing"
 teaser: >
