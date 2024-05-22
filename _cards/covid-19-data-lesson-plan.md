@@ -5,7 +5,6 @@ resource: Teaching Module
 domain:
   - Understanding Data
   - Processing Data
-  - Persuading with Data
 subdomain:
   - Defining Data
   - Critiquing Data
