@@ -7,7 +7,7 @@ nav: false
 nav_order: 
 ---
 
-## Testing 122
+## Testing 123
 
 ## Overview
 
@@ -100,11 +100,7 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
 
 <div id="card-list" style="margin-top: 20px;">
   {% for card in cards %}
-  {% assign resource = site.data.cards.resources | where: "name", card.resource | first %} <!-- this line of code is matching the resource type to its corresponding icon in cards.yml -->
-
-<!--
-  <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px;" data-domain="{{ card.domain }}" data-subdomain="{{ card.subdomain }}">
--->
+  {% assign resource = site.data.cards.resources | where: "name", card.resource | first %}
   <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px;" data-domain="{{ card.domain | join: ',' }}" data-subdomain="{{ card.subdomain | join: ',' }}">
     <div class="row no-gutters">
       <div class="team">
@@ -142,34 +138,16 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
                 <!-- rendering multiple domains vs. single domain -->
                 {% assign domain_array = card.domain | split: ',' %}
                   <small class="test-muted domain"><i class="fa-solid fa-square"></i> &nbsp; Domain: 
-                  {% if domain_array.size > 1 %}
-                    {% for d in card.domain %}
-                      {% unless forloop.last %}
-                        <a href="{{ site.url }}{{ site.baseurl }}{{ d | downcase | replace: ' ', '-' }}">{{ d }}</a>,&nbsp;   
-                      {% else %}
-                        <a href="{{ site.url }}{{ site.baseurl }}{{ d | downcase | replace: ' ', '-' }}">{{ d }}</a>&nbsp;&nbsp;//&nbsp;&nbsp;
-                      {% endunless %}
-                    {% endfor %}
-                  {% else %}
-                    {% for d in card.domain %}
-                    <a href="{{ site.url }}{{ site.baseurl }}{{ d | downcase | replace: ' ', '-' }}">{{ card.domain }}</a>&nbsp;&nbsp;//&nbsp;&nbsp;      
-                    {% endfor %}
-                  {% endif %}
+                  {% for d in domain_array %}
+                    <a href="{{ site.url }}{{ site.baseurl }}{{ d | downcase | replace: ' ', '-' }}">{{ d }}</a>{% unless forloop.last %},&nbsp;{% endunless %}
+                  {% endfor %}
                   </small>
                 <!-- rendering multiple subdomains vs. single subdomain -->
                 {% assign subdomain_array = card.subdomain | split: ',' %}
                   <small class="test-muted subdomain"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain:
-                  {% if subdomain_array.size > 1 %}
-                    {% for sub in card.subdomain %}
-                      {% unless forloop.last %}
-                        {{ sub }},&nbsp;
-                      {% else %}
-                        {{ sub }}&nbsp;&nbsp;//&nbsp;&nbsp;
-                      {% endunless %}
-                    {% endfor %}
-                  {% else %}
-                    {{ card.subdomain }}&nbsp;&nbsp;//&nbsp;&nbsp;
-                  {% endif %}
+                  {% for sub in subdomain_array %}
+                    {{ sub }}{% unless forloop.last %},&nbsp;{% endunless %}
+                  {% endfor %}
                   </small>
                   <small class="test-muted resource"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ card.resource }}</small><br>
               </p>
@@ -185,13 +163,11 @@ document.addEventListener('DOMContentLoaded', function() {
   const domainFilter = document.getElementById('domain-filter');
   const subdomainFilter = document.getElementById('subdomain-filter');
   const resourceFilter = document.getElementById('resource-filter');
-  const keywordLinks = document.querySelectorAll('.keyword-filter');
-  const cards = document.querySelectorAll('.card');
   const searchInput = document.getElementById('search-input');
   const clearSearchBtn = document.getElementById('clear-search');
   const searchBtn = document.getElementById('search-button');
+  const cards = document.querySelectorAll('.card');
 
-  // Define a mapping of subdomains to corresponding domains
   const subdomainToDomain = {
     'All': 'All',
     'Defining Data': 'Understanding Data',
@@ -212,17 +188,20 @@ document.addEventListener('DOMContentLoaded', function() {
     const selectedDomain = domainFilter.value;
     const selectedSubdomain = subdomainFilter.value;
     const selectedResource = resourceFilter.value;
+    const searchKeyword = searchInput.value.toLowerCase();
 
     cards.forEach(card => {
-      const domain = card.getAttribute('data-domain'); // Get domain from data attribute
-      const subdomain = card.getAttribute('data-subdomain'); // Get subdomain from data attribute
-      const resource = card.querySelector('.resource').textContent.trim().replace('Type of Resource: ', ''); 
+      const cardDomains = card.getAttribute('data-domain').split(',');
+      const cardSubdomains = card.getAttribute('data-subdomain').split(',');
+      const cardResource = card.querySelector('.resource').textContent.trim().replace('Type of Resource: ', '');
+      const cardText = card.textContent.toLowerCase();
 
-      const domainMatch = selectedDomain === 'all' || domain === selectedDomain;
-      const subdomainMatch = selectedSubdomain === 'all' || subdomain === selectedSubdomain;
-      const resourceMatch = selectedResource === 'all' || resource === selectedResource;
+      const domainMatch = selectedDomain === 'all' || cardDomains.includes(selectedDomain);
+      const subdomainMatch = selectedSubdomain === 'all' || cardSubdomains.includes(selectedSubdomain);
+      const resourceMatch = selectedResource === 'all' || cardResource === selectedResource;
+      const searchMatch = searchKeyword === '' || cardText.includes(searchKeyword);
 
-      if (domainMatch && subdomainMatch && resourceMatch) {
+      if (domainMatch && subdomainMatch && resourceMatch && searchMatch) {
         card.style.display = 'block';
       } else {
         card.style.display = 'none';
@@ -231,72 +210,36 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   domainFilter.addEventListener('change', function() {
-    // Reset the subdomain filter to "All" when the domain filter changes
     subdomainFilter.value = 'all';
     filterCards();
   });
 
   subdomainFilter.addEventListener('change', function() {
-    // Update the domain filter based on the selected subdomain
     const selectedSubdomain = subdomainFilter.value;
     const correspondingDomain = subdomainToDomain[selectedSubdomain];
     if (correspondingDomain) {
       domainFilter.value = correspondingDomain;
     } else if (selectedSubdomain === 'all') {
-      domainFilter.value = 'all'; // Set domain filter to 'all' if 'all' is selected for subdomain
+      domainFilter.value = 'all';
     }
     filterCards();
   });
   
   resourceFilter.addEventListener('change', filterCards);
-
-  keywordLinks.forEach(link => {
-    link.addEventListener('click', function(event) {
-      event.preventDefault();
-      const selectedKeyword = this.getAttribute('data-keyword');
-      filterCardsByKeyword(selectedKeyword);
-    });
-  });
-
-  searchInput.addEventListener('input', function() {
-    filterCardsBySearch(this.value.trim());
-  });
-
-  searchBtn.addEventListener('click', function() {
-    searchInput.form.submit();
-  });
-
+  searchInput.addEventListener('input', filterCards);
   clearSearchBtn.addEventListener('click', function() {
     searchInput.value = '';
-    filterCardsBySearch('');
+    filterCards();
   });
 
-  function filterCardsBySearch(keyword) {
-    cards.forEach(card => {
-      const cardText = card.textContent.toLowerCase();
-      if (cardText.includes(keyword.toLowerCase())) {
-        card.style.display = 'block';
-      } else {
-        card.style.display = 'none';
-      }
-    });
-  }
-
-  // Set the filters to default values on page load
-  function resetFilters() {
+  function initialize() {
     domainFilter.value = 'all';
     subdomainFilter.value = 'all';
     resourceFilter.value = 'all';
     searchInput.value = '';
-  }
-
-  // Initial filtering when the page loads
-  function initialize() {
-    resetFilters();
     filterCards();
   }
 
-  // Handle both DOMContentLoaded and pageshow events
   window.addEventListener('pageshow', initialize);
   initialize();
 });
