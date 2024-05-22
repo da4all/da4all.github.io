@@ -2,14 +2,14 @@
 layout: default
 ---
 <!-- card.html  -->
-<div class="page" data-domain="{{ card.domain | join: ',' }}" data-subdomain="{{ card.subdomain | join: ',' }}>
+<div class="page">
   <header class="page-header">
     <h1 class="page-title">{{ page.title }}</h1>
 
     <br>
     
     <div class="page-info" style="background-color: #f2f2f2; padding: 10px;">
-      <p class="page-text" style="margin-left:20px; margin-top:10px;">
+      <p class="page-text" style="margin-left:20px; margin-top:10px;" font color="#747373">
         <small class="test-muted">
           {% if page.profile.date %}
             <i class="fa-solid fa-calendar"></i>&nbsp; Date: {{ page.profile.date | replace: '<br />', ', ' }}<br>
@@ -23,37 +23,9 @@ layout: default
           {% if page.profile.license %}
             <i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ page.profile.license }}<br>
           {% endif %}
-          {% assign domain_array = card.domain | split: ',' %}
-                  <i class="fa-solid fa-square"></i> &nbsp; Domain: 
-                  {% if domain_array.size > 1 %}
-                    {% for d in card.domain %}
-                      {% unless forloop.last %}
-                        <a href="{{ site.url }}{{ site.baseurl }}{{ d | downcase | replace: ' ', '-' }}">{{ d }}</a>,&nbsp;   
-                      {% else %}
-                        <a href="{{ site.url }}{{ site.baseurl }}{{ d | downcase | replace: ' ', '-' }}">{{ d }}</a>&nbsp;&nbsp;//&nbsp;&nbsp;
-                      {% endunless %}
-                    {% endfor %}
-                  {% else %}
-                    {% for d in card.domain %}
-                    <a href="{{ site.url }}{{ site.baseurl }}{{ d | downcase | replace: ' ', '-' }}">{{ card.domain }}</a>&nbsp;&nbsp;//&nbsp;&nbsp;      
-                    {% endfor %}
-                  {% endif %}
-                    <br>
-                {% assign subdomain_array = card.subdomain | split: ',' %}
-                  <i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain:
-                  {% if subdomain_array.size > 1 %}
-                    {% for sub in card.subdomain %}
-                      {% unless forloop.last %}
-                        {{ sub }},&nbsp;
-                      {% else %}
-                        {{ sub }}&nbsp;&nbsp;//&nbsp;&nbsp;
-                      {% endunless %}
-                    {% endfor %}
-                  {% else %}
-                    {{ card.subdomain }}&nbsp;&nbsp;//&nbsp;&nbsp;
-                  {% endif %}
-          <i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ page.resource }}
-        </small></p></div>
+          <i class="fa-solid fa-square"></i>&nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ page.domain | downcase | replace: ' ', '-' }}">{{ page.domain }}</a><br>
+          <i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ page.subdomain }}<br>
+          <i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ page.resource }}</small></p></div>
 
     <blockquote>
       <p class="page-description" style="font-size:16px">
