@@ -434,3 +434,13 @@ jsonresume:
   - languages
   - interests
   - references
+
+  # -----------------------------------------------------------------------------
+# Table of Contents
+# -----------------------------------------------------------------------------
+
+toc:
+  autolink: true
+  min_level: 2
+  max_level: 4
+  no_toc_section_class: "no_toc"
