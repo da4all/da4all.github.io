@@ -151,6 +151,7 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
                       {% endunless %}
                     {% endfor %}
                   {% else %}
+                    {% for d in card.domain %}
                     <a href="{{ site.url }}{{ site.baseurl }}{{ d | downcase | replace: ' ', '-' }}">{{ card.domain }}</a>&nbsp;&nbsp;//&nbsp;&nbsp;      
                   {% endif %}
                   </small>
