@@ -33,6 +33,34 @@ body.sticky-bottom-footer {
   }
 }
 
+/* Styles for the TOC sidebar */
+.toc-sidebar {
+  border-right: 1px solid #eaeaea;
+}
+
+.toc-sidebar h2 {
+  font-size: 1.25em;
+  margin-bottom: 10px;
+}
+
+.toc-sidebar nav {
+  padding-left: 15px;
+}
+
+.toc-sidebar nav a {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.content-wrapper {
+  display: flex;
+}
+
+.content {
+  padding-left: 20px;
+}
+
+
 // TODO: redefine content layout.
 
 
