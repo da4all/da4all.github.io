@@ -194,7 +194,12 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  domainFilter.addEventListener('change', filterCards);
+  domainFilter.addEventListener('change', function() {
+    // Reset the subdomain filter to "All" when the domain filter changes
+    subdomainFilter.value = 'all';
+    filterCards();
+  });
+
   subdomainFilter.addEventListener('change', function() {
     // Update the domain filter based on the selected subdomain
     const selectedSubdomain = subdomainFilter.value;
@@ -241,11 +246,22 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // Initial filtering when the page loads
-  filterCards();
+  // Set the filters to default values on page load
+  function resetFilters() {
+    domainFilter.value = 'all';
+    subdomainFilter.value = 'all';
+    resourceFilter.value = 'all';
+    searchInput.value = '';
+  }
 
-    // Automatically load the "Understanding Data" selection in the "domains" filter
-  domainFilter.value = 'Understanding Data';
-  filterCards(); // Trigger filter after changing the selection
+  // Initial filtering when the page loads
+  function initialize() {
+    resetFilters();
+    filterCards();
+  }
+
+  // Handle both DOMContentLoaded and pageshow events
+  window.addEventListener('pageshow', initialize);
+  initialize();
 });
 </script>
