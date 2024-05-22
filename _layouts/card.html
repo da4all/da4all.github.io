@@ -10,7 +10,7 @@ layout: default
     
     <div class="page-info" style="background-color: #f2f2f2; padding: 10px;">
       <p class="page-text" style="margin-left:20px; margin-top:10px;">
-        <small class="text-muted">
+        <small class="test-muted">
           {% if page.profile.date %}
             <i class="fa-solid fa-calendar"></i>&nbsp; Date: {{ page.profile.date | replace: '<br />', ', ' }}<br>
           {% endif %}
@@ -25,8 +25,7 @@ layout: default
           {% endif %}
           <i class="fa-solid fa-square"></i>&nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ page.domain | downcase | replace: ' ', '-' }}">{{ page.domain }}</a><br>
           <i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ page.subdomain }}<br>
-          <i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ page.resource }}</small></p>
-    </div>
+          <i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ page.resource }}</small></p></div>
 
     <blockquote>
       <p class="page-description" style="font-size:16px">
@@ -46,18 +45,10 @@ layout: default
     
   </header>
 
-  <div class="content-wrapper" style="display: flex;">
-    <aside class="toc-sidebar" style="flex: 1; max-width: 250px; padding: 10px; background-color: #f9f9f9;">
-      <nav class="toc">
-        <h2>Table of Contents</h2>
-        {{ content | toc_only }}
-      </nav>
-    </aside>
+<br>
+  
+  <article>
+    {{ content }}
+  </article>
 
-    <main class="content" style="flex: 3; padding: 20px;">
-      <article>
-        {{ content }}
-      </article>
-    </main>
-  </div>
 </div>
