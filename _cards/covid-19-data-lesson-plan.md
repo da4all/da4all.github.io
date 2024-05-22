@@ -5,11 +5,23 @@ resource: Teaching Module
 domain:
   - Understanding Data
   - Processing Data
+  - Persuading with Data
 subdomain:
   - Defining Data
+  - Critiquing Data
+  - Acting Ethically with Data
+  - Advocating with Data
   - Collecting Data
+  - Organizing and Cleaning Data
+  - Analyzing Data
+  - Storing and Preserving Data
   - Making Claims with Data
+  - Visualizing Data
+  - Mapping Data
+  - Telling Stories with Data
+
 title: "card testing"
+
 teaser: >
   "This lesson plan uses the modern COVID-19 pandemic as an entry point into understanding how data is created and used within major historical events and processes and the role of historical archives in shaping data collection."
 
