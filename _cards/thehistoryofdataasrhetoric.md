@@ -20,9 +20,6 @@ profile:
 
 ---
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/themes/light.css" />
-<script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/shoelace.js" ></script>
-
 <div>
   <center>
   <sl-button-group label="Alignment">
