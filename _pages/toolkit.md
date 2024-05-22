@@ -183,13 +183,11 @@ document.addEventListener('DOMContentLoaded', function() {
   const domainFilter = document.getElementById('domain-filter');
   const subdomainFilter = document.getElementById('subdomain-filter');
   const resourceFilter = document.getElementById('resource-filter');
-  const keywordLinks = document.querySelectorAll('.keyword-filter');
-  const cards = document.querySelectorAll('.card');
   const searchInput = document.getElementById('search-input');
   const clearSearchBtn = document.getElementById('clear-search');
   const searchBtn = document.getElementById('search-button');
+  const cards = document.querySelectorAll('.card');
 
-  // Define a mapping of subdomains to corresponding domains
   const subdomainToDomain = {
     'All': 'All',
     'Defining Data': 'Understanding Data',
@@ -210,17 +208,20 @@ document.addEventListener('DOMContentLoaded', function() {
     const selectedDomain = domainFilter.value;
     const selectedSubdomain = subdomainFilter.value;
     const selectedResource = resourceFilter.value;
+    const searchKeyword = searchInput.value.toLowerCase();
 
     cards.forEach(card => {
-      const domain = card.getAttribute('data-domain'); // Get domain from data attribute
-      const subdomain = card.getAttribute('data-subdomain'); // Get subdomain from data attribute
-      const resource = card.querySelector('.resource').textContent.trim().replace('Type of Resource: ', ''); 
+      const cardDomains = card.getAttribute('data-domain').split(',');
+      const cardSubdomains = card.getAttribute('data-subdomain').split(',');
+      const cardResource = card.querySelector('.resource').textContent.trim().replace('Type of Resource: ', '');
+      const cardText = card.textContent.toLowerCase();
 
-      const domainMatch = selectedDomain === 'all' || domain === selectedDomain;
-      const subdomainMatch = selectedSubdomain === 'all' || subdomain === selectedSubdomain;
-      const resourceMatch = selectedResource === 'all' || resource === selectedResource;
+      const domainMatch = selectedDomain === 'all' || cardDomains.includes(selectedDomain);
+      const subdomainMatch = selectedSubdomain === 'all' || cardSubdomains.includes(selectedSubdomain);
+      const resourceMatch = selectedResource === 'all' || cardResource === selectedResource;
+      const searchMatch = searchKeyword === '' || cardText.includes(searchKeyword);
 
-      if (domainMatch && subdomainMatch && resourceMatch) {
+      if (domainMatch && subdomainMatch && resourceMatch && searchMatch) {
         card.style.display = 'block';
       } else {
         card.style.display = 'none';
@@ -229,72 +230,36 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   domainFilter.addEventListener('change', function() {
-    // Reset the subdomain filter to "All" when the domain filter changes
     subdomainFilter.value = 'all';
     filterCards();
   });
 
   subdomainFilter.addEventListener('change', function() {
-    // Update the domain filter based on the selected subdomain
     const selectedSubdomain = subdomainFilter.value;
     const correspondingDomain = subdomainToDomain[selectedSubdomain];
     if (correspondingDomain) {
       domainFilter.value = correspondingDomain;
     } else if (selectedSubdomain === 'all') {
-      domainFilter.value = 'all'; // Set domain filter to 'all' if 'all' is selected for subdomain
+      domainFilter.value = 'all';
     }
     filterCards();
   });
   
   resourceFilter.addEventListener('change', filterCards);
-
-  keywordLinks.forEach(link => {
-    link.addEventListener('click', function(event) {
-      event.preventDefault();
-      const selectedKeyword = this.getAttribute('data-keyword');
-      filterCardsByKeyword(selectedKeyword);
-    });
-  });
-
-  searchInput.addEventListener('input', function() {
-    filterCardsBySearch(this.value.trim());
-  });
-
-  searchBtn.addEventListener('click', function() {
-    searchInput.form.submit();
-  });
-
+  searchInput.addEventListener('input', filterCards);
   clearSearchBtn.addEventListener('click', function() {
     searchInput.value = '';
-    filterCardsBySearch('');
+    filterCards();
   });
 
-  function filterCardsBySearch(keyword) {
-    cards.forEach(card => {
-      const cardText = card.textContent.toLowerCase();
-      if (cardText.includes(keyword.toLowerCase())) {
-        card.style.display = 'block';
-      } else {
-        card.style.display = 'none';
-      }
-    });
-  }
-
-  // Set the filters to default values on page load
-  function resetFilters() {
+  function initialize() {
     domainFilter.value = 'all';
     subdomainFilter.value = 'all';
     resourceFilter.value = 'all';
     searchInput.value = '';
-  }
-
-  // Initial filtering when the page loads
-  function initialize() {
-    resetFilters();
     filterCards();
   }
 
-  // Handle both DOMContentLoaded and pageshow events
   window.addEventListener('pageshow', initialize);
   initialize();
 });
