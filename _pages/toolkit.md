@@ -253,7 +253,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   function initialize() {
-    domainFilter.value = 'all';
+    domainFilter.value = 'Understanding Data'; // Set default domain to "Understanding Data"
     subdomainFilter.value = 'all';
     resourceFilter.value = 'all';
     searchInput.value = '';
