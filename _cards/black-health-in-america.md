@@ -31,13 +31,8 @@ profile:
 <div>
   <center>
   <sl-button-group label="Alignment">
-  <sl-button href="https://d4bl.org/dispatch/73-black-health-in-america-exploring-racial-disparities-in-covid-19-vaccination-data">Explore the “Black Health in America: Exploring Racial Disparities in COVID-19 Vaccination Data” example of data advocacy</sl-button>
+  <sl-button href="https://d4bl.org/dispatch/73-black-health-in-america-exploring-racial-disparities-in-covid-19-vaccination-data">Explore the “Black Health in America: Exploring Racial Disparities in COVID-19 Vaccination Data”</sl-button>
   </sl-button-group>
 </center>
 </div>
-
-<br>
-
-<iframe width="100%" height="1000" src="https://d4bl.org/dispatch/73-black-health-in-america-exploring-racial-disparities-in-covid-19-vaccination-data" allowfullscreen>iFrame HERE</iframe>
-
 
