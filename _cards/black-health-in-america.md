@@ -19,6 +19,12 @@ keywords:
   - Public Health Data
   - Critical Data Studies
 
+profile:
+  source: https://d4bl.org/dispatch/73-black-health-in-america-exploring-racial-disparities-in-covid-19-vaccination-data
+  author: Jamelle Watson- Daniels/Data for Black Lives
+  date: February 24, 2021
+  license: 
+  citation: "Watson-Daniels, Jamelle. "Black Health in America: Exploring Racial Disparities in COVID-19 Vaccination Data." Data for Black Lives. 24 February 2021. https://d4bl.org/dispatch/73-black-health-in-america-exploring-racial-disparities-in-covid-19-vaccination-data."
 ---
 
 <div>
@@ -32,3 +38,5 @@ keywords:
 <br>
 
 <iframe width="100%" height="1000" src="https://d4bl.org/dispatch/73-black-health-in-america-exploring-racial-disparities-in-covid-19-vaccination-data" allowfullscreen>iFrame HERE</iframe>
+
+
