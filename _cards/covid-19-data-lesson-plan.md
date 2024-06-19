@@ -25,7 +25,7 @@ title: "card testing"
 teaser: >
   "This lesson plan uses the modern COVID-19 pandemic as an entry point into understanding how data is created and used within major historical events and processes and the role of historical archives in shaping data collection."
 
-profile:
+metadata:
   source:
   author: Cameron Blevins
   date: 05-17-2024
