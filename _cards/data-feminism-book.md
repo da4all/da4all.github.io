@@ -16,7 +16,7 @@ teaser: >
 
   Data Feminism offers strategies for data scientists seeking to learn how feminism can help them work toward justice, and for feminists who want to focus their efforts on the growing field of data science. But Data Feminism is about much more than gender. It is about power, about who has it and who doesn't, and about how those differentials of power can be challenged and changed.
 
-profile:
+metadata:
   source: https://data-feminism.mitpress.mit.edu/
   author: Catherine D’Ignazio and Lauren F. Klein
   date:
