@@ -10,7 +10,7 @@ title: Data Justice
 teaser: >
   Data Justice refers to equity and fairness in the way people and pressing social issues are disclosed, represented, and treated as a result of the collection, analysis, production, and presentation of data.
 
-profile:
+metadata:
     source:
     author:
     date:
