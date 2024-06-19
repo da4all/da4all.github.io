@@ -16,7 +16,7 @@ keywords:
 - feminism
 - justice
 
-profile:
+metadata:
     source: 
     author: 
     date: 
