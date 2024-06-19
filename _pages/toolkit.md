@@ -110,14 +110,14 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
           {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
             <h5 class="card-title"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp;&nbsp; {{ card.title }}</h5></a>
           <p class="card-text"><small class="test-muted">
-            {% if card.profile.date %}
-              <i class="fa-solid fa-calendar"></i>&nbsp; Date: {{ card.profile.date | date: '%B %d, %Y' }}
+            {% if card.metadata.date %}
+              <i class="fa-solid fa-calendar"></i>&nbsp; Date: {{ card.metadata.date | date: '%B %d, %Y' }}
             {% endif %}
-            {% if card.profile.date and card.profile.author %}
+            {% if card.metadata.date and card.metadata.author %}
               &nbsp;&nbsp;//&nbsp;&nbsp;
             {% endif %}
-            {% if card.profile.author %}
-              <i class="fa-solid fa-user"></i>&nbsp; Author: {{ card.profile.author | replace: '<br />', ', ' }}
+            {% if card.metadata.author %}
+              <i class="fa-solid fa-user"></i>&nbsp; Author: {{ card.metadata.author | replace: '<br />', ', ' }}
             {% endif %}
           </small></p>
           {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
@@ -135,18 +135,18 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
             <p class="card-text test-muted keyword"><small>Keywords: {% for keyword in card.keywords %}<i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;{% endfor %}</small></p>
           {% endif %}
           </a>
-          {% if card.profile.source or card.profile.license %}
+          {% if card.metadata.source or card.metadata.license %}
             <hr class="solid">
           {% endif %}
           <p class="card-text">
-            {% if card.profile.source %}
-              <small class="test-muted"><i class="fas fa-link"></i> Source: <a href="{{ card.profile.source }}">{{ card.profile.source | replace: '<br />', ', ' }}</a></small>
+            {% if card.metadata.source %}
+              <small class="test-muted"><i class="fas fa-link"></i> Source: <a href="{{ card.metadata.source }}">{{ card.metadata.source | replace: '<br />', ', ' }}</a></small>
             {% endif %}
-            {% if card.profile.source and card.profile.license %}
+            {% if card.metadata.source and card.metadata.license %}
               <br>
             {% endif %}
-            {% if card.profile.license %}
-              <small class="test-muted"><i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ card.profile.license }}</small>
+            {% if card.metadata.license %}
+              <small class="test-muted"><i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ card.metadata.license }}</small>
             {% endif %}
           </p>
           <hr class="solid">
