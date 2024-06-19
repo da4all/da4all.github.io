@@ -14,7 +14,7 @@ keywords:
 - template
 - example
 
-profile:
+metadata:
     source: "https://markcarrigan.net/2016/09/12/the-history-of-data-as-rhetoric/"
     author: [AUTHOR FULL NAME]
     date: [INFORMATION HERE]
