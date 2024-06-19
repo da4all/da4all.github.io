@@ -25,18 +25,12 @@ layout: default
           {% endif %}
           {% if page.domain %}
             <i class="fa-solid fa-square"></i>&nbsp; Domain: 
-            {% assign domains = page.domain | split: ' ' %}
-            {% for domain in domains %}
-              <a href="{{ site.url }}{{ site.baseurl }}{{ domain | downcase | replace: ' ', '-' }}">{{ domain }}</a>{% if forloop.last == false %}, {% endif %}
-            {% endfor %}
+            {{ page.domain | join: ', ' }}
             <br>
           {% endif %}
           {% if page.subdomain %}
             <i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: 
-            {% assign subdomains = page.subdomain | split: ' ' %}
-            {% for subdomain in subdomains %}
-              {{ subdomain }}{% if forloop.last == false %}, {% endif %}
-            {% endfor %}
+            {{ page.subdomain | join: ', ' }}
             <br>
           {% endif %}
           <i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ page.resource }}</small></p></div>
