@@ -1,54 +1,58 @@
----
-layout: default
----
-<!-- card.html  -->
-<div class="page">
-  <header class="page-header">
-    <h1 class="page-title">{{ page.title }}</h1>
-
-    <br>
-    
-    <div class="page-info" style="background-color: #f2f2f2; padding: 10px;">
-      <p class="page-text" style="margin-left:20px; margin-top:10px;" font color="#747373">
-        <small class="test-muted">
-          {% if page.metadata.date %}
-            <i class="fa-solid fa-calendar"></i>&nbsp; Date: {{ page.metadata.date | replace: '<br />', ', ' }}<br>
-          {% endif %}
-          {% if page.metadata.author %}
-            <i class="fa-solid fa-user"></i>&nbsp; Author: {{ page.metadata.author | replace: '<br />', ', ' }}<br>
-          {% endif %}
-          {% if page.metadata.source %}
-            <i class="fas fa-link"></i> Source: <a href="{{ page.metadata.source }}">{{ page.metadata.source | replace: '<br />', ', ' }}</a><br>
-          {% endif %}
-          {% if page.metadata.license %}
-            <i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ page.metadata.license }}<br>
-          {% endif %}
-          <i class="fa-solid fa-square"></i>&nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ page.domain | downcase | replace: ' ', '-' }}">{{ page.domain }}</a><br>
-          <i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ page.subdomain }}<br>
-          <i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ page.resource }}</small></p></div>
-
-    <blockquote>
-      <p class="page-description" style="font-size:16px">
-        {{ page.teaser }}
-      </p>
-      <p class="page-description" style="font-size:12px"> 
-        {% if page.keywords.size > 0 %}
-          Keywords:
-          {% for keyword in page.keywords %}
-            <i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;
-          {% endfor %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+</head>
+<body>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">{{ page.title }}</h5>
+      {% if page.date %}
+        <p class="card-text">
+          <small class="text-muted">
+            <i class="fa-solid fa-calendar"></i>&nbsp; Date: {{ page.date | date: '%B %d, %Y' }}
+          </small>
+        </p>
+      {% endif %}
+      {% if page.author %}
+        <p class="card-text">
+          <small class="text-muted">
+            <i class="fa-solid fa-user"></i>&nbsp; Author: {{ page.author }}
+          </small>
+        </p>
+      {% endif %}
+      <p class="card-text">{{ content }}</p>
+      <p class="card-text">
+        {% if page.domain %}
+          <small class="text-muted">
+            <i class="fa-solid fa-network-wired"></i>&nbsp; Domain: 
+            {% assign domains = page.domain %}
+            {% for domain in domains %}
+              <a href="{{ site.url }}{{ site.baseurl }}/{{ domain | downcase | replace: ' ', '-' }}">{{ domain }}</a>{% if forloop.last == false %}, {% endif %}
+            {% endfor %}
+          </small>
+        {% endif %}
+        {% if page.subdomain %}
+          <br>
+          <small class="text-muted">
+            <i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: 
+            {% assign subdomains = page.subdomain %}
+            {% for subdomain in subdomains %}
+              {{ subdomain }}{% if forloop.last == false %}, {% endif %}
+            {% endfor %}
+          </small>
+        {% endif %}
+        {% if page.resource %}
+          <br>
+          <small class="text-muted">
+            <i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ page.resource }}
+          </small>
         {% endif %}
       </p>
-    </blockquote>
-
-    <hr class="solid">
-    
-  </header>
-
-<br>
-  
-  <article>
-    {{ content }}
-  </article>
-
-</div>
+    </div>
+  </div>
+</body>
+</html>
