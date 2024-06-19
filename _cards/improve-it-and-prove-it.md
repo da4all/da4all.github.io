@@ -10,7 +10,7 @@ title: "Improve It and Prove It"
 teaser: >
   Polish and revise a visualization you created previously. Place it in a document, along with the original visualization of the same data.
 
-profile:
+metadata:
     source:
     author:
     date:
