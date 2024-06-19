@@ -19,7 +19,7 @@ keywords:
   - "Public Health Data"
   - "Critical Data Studies"
 
-profile:
+metadata:
   source: "https://d4bl.org/dispatch/73-black-health-in-america-exploring-racial-disparities-in-covid-19-vaccination-data"
   author: "Jamelle Watson-Daniels/Data for Black Lives"
   date: "February 24, 2021"
