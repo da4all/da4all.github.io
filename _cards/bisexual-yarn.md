@@ -14,7 +14,7 @@ keywords:
 - yarn
 - data analysis
 
-profile:
+metadata:
     source:
     author: Lore Whittemore
     date: 
