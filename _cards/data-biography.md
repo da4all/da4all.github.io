@@ -10,7 +10,7 @@ title: "Data Biography"
 teaser: >
   In this assignment, students apply the concept of a “data biography” to analyze the history behind a particular dataset: the who, what, when, how, and why of the dataset and its creation. In doing so, they learn about the different interpretative filters that shape the historical trajectory of a dataset, from its initial collection to its availability and usability today.
 
-profile:
+metadata:
     source:
     author:
     date:
