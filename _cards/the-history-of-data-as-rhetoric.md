@@ -10,7 +10,7 @@ title: The History of Data-as-Rhetoric
 teaser: >
   This article provides an effective framework for introducing data-as-rhetoric.
 
-profile:
+metadata:
     source: https://markcarrigan.net/2016/09/12/the-history-of-data-as-rhetoric/
     author: Mark Carrigan
     date: September 2016
