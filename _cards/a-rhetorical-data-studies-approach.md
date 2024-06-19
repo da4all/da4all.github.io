@@ -16,7 +16,7 @@ keywords:
 - data advocacy
 - storytelling
 
-profile:
+metadata:
     source:
     author: Laurie Gries
     date:
