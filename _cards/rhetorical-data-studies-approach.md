@@ -8,6 +8,7 @@ domain:
 subdomain:
   - Defining Data
   - Telling Stories with Data
+sample_resource: true
 
 title: "A Rhetorical Data Studies Approach to Data Advocacy and Data Storytelling"
 
