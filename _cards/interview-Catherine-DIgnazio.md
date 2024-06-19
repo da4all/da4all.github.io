@@ -10,7 +10,7 @@ title: "Interview with Catherine D’Ignazio: Data is Never a Raw, Truthful Inpu
 teaser: >
   The co-author of Data Feminism on the importance of recognising discrimination in algorithms, understanding it at a technical level – and introducing measures to stamp it out.
 
-profile:
+metadata:
     source: https://www.theguardian.com/technology/2020/mar/21/catherine-dignazio-data-is-never-a-raw-truthful-input-and-it-is-never-neutral
     author: Zoë Corbyn
     date:
