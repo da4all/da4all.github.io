@@ -17,7 +17,7 @@ keywords:
 - ethics
 - social change
 
-profile:
+metadata:
   source:
   author:
   date:
