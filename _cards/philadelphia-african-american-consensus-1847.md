@@ -10,7 +10,7 @@ title: "Philadelphia African-American Census 1847"
 teaser: >
   In 1847, Philadelphia Quakers conducted a census of the city’s African American population. Their intention was to document the existence of an “industrious and thriving” portion of that population, and also to discover what sectors of the community may have been in need of attention and assistance. Over 150 years later, the original data - held in manuscript at the Friends Historical Library of Swarthmore College - proves a rich resource for studying African American history, genealogy, Philadelphia history, and more.
 
-profile:
+metadata:
     source: https://ds-pages.swarthmore.edu/paac/
     author: Friends Historical Library
     date:
