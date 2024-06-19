@@ -152,34 +152,26 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
           <hr class="solid">
           <p class="card-text">
             <!-- rendering multiple domains vs. single domain -->
-            {% assign domain_array = card.domain | split: ',' %}
+            {% assign domain_array = card.domain %}
             <small class="test-muted domain"><i class="fa-solid fa-network-wired"></i>&nbsp; Domain:
-              {% if domain_array.size > 1 %}
-                {% for d in domain_array %}
-                  {% unless forloop.last %}
-                    <a href="{{ site.url }}{{ site.baseurl }}{{ d | downcase | replace: ' ', '-' }}">{{ d }}</a>,&nbsp;
-                  {% else %}
-                    <a href="{{ site.url }}{{ site.baseurl }}{{ d | downcase | replace: ' ', '-' }}">{{ d }}</a>&nbsp;&nbsp;//&nbsp;&nbsp;
-                  {% endunless %}
-                {% endfor %}
-              {% else %}
-                <a href="{{ site.url }}{{ site.baseurl }}{{ d | downcase | replace: ' ', '-' }}">{{ card.domain }}</a>&nbsp;&nbsp;//&nbsp;&nbsp;
-              {% endif %}
+              {% for d in domain_array %}
+                {% unless forloop.last %}
+                  <a href="{{ site.url }}{{ site.baseurl }}/{{ d | downcase | replace: ' ', '-' }}">{{ d }}</a>,&nbsp;
+                {% else %}
+                  <a href="{{ site.url }}{{ site.baseurl }}/{{ d | downcase | replace: ' ', '-' }}">{{ d }}</a>&nbsp;&nbsp;//&nbsp;&nbsp;
+                {% endunless %}
+              {% endfor %}
             </small>
             <!-- rendering multiple subdomains vs. single subdomain -->
-            {% assign subdomain_array = card.subdomain | split: ',' %}
+            {% assign subdomain_array = card.subdomain %}
             <small class="test-muted subdomain"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain:
-              {% if subdomain_array.size > 1 %}
-                {% for sub in subdomain_array %}
-                  {% unless forloop.last %}
-                    {{ sub }},&nbsp;
-                  {% else %}
-                    {{ sub }}&nbsp;&nbsp;//&nbsp;&nbsp;
-                  {% endunless %}
-                {% endfor %}
-              {% else %}
-                {{ card.subdomain }}&nbsp;&nbsp;//&nbsp;&nbsp;
-              {% endif %}
+              {% for sub in subdomain_array %}
+                {% unless forloop.last %}
+                  {{ sub }},&nbsp;
+                {% else %}
+                  {{ sub }}&nbsp;&nbsp;//&nbsp;&nbsp;
+                {% endunless %}
+              {% endfor %}
             </small>
             <small class="test-muted resource"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ card.resource }}</small><br>
           </p>
