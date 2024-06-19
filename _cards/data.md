@@ -14,7 +14,7 @@ keywords:
 - data
 - definition
 
-profile:
+metadata:
     source:
     author:
     date:
