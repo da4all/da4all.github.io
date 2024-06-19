@@ -10,7 +10,7 @@ title: "[TITLE]"
 teaser: >
   [DESCRIPTION]
 
-profile:
+metadata:
     source: [URL SOURCE]
     author: [AUTHOR FULL NAME]
     date: [DATE INFORMATION HERE]
