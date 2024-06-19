@@ -15,7 +15,7 @@ keywords:
   - big data
   - critical data studies
 
-profile:
+metadata:
   source: https://journals.sagepub.com/doi/10.1177/2053951716674238
   author: Andrew Iliadis and Federica Russo
   date:
