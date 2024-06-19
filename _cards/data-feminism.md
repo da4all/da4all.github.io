@@ -17,8 +17,8 @@ keywords:
 - justice
 
 metadata:
-    source: 
-    author: 
+    source:
+    author:
     date: 
     license: 
     citation:
