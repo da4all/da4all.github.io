@@ -23,8 +23,24 @@ layout: default
           {% if page.metadata.license %}
             <i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ page.metadata.license }}<br>
           {% endif %}
-          <i class="fa-solid fa-square"></i>&nbsp; Domain: <a href="{{ site.url }}{{ site.baseurl }}{{ page.domain | downcase | replace: ' ', '-' }}">{{ page.domain }}</a><br>
-          <i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain: {{ page.subdomain }}<br>
+          {% assign domain_array = card.domain %}
+            <small class="test-muted domain"><i class="fa-solid fa-network-wired"></i>&nbsp; Domain:
+              {% for d in domain_array %}
+                {% unless forloop.last %}
+                  <a href="{{ site.url }}{{ site.baseurl }}/{{ d | downcase | replace: ' ', '-' }}">{{ d }}</a>,&nbsp;
+                {% else %}
+                  <a href="{{ site.url }}{{ site.baseurl }}/{{ d | downcase | replace: ' ', '-' }}">{{ d }}</a>&nbsp;&nbsp;//&nbsp;&nbsp;
+                {% endunless %}
+          {% endfor %}
+          {% assign subdomain_array = card.subdomain %}
+            <small class="test-muted subdomain"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain:
+              {% for sub in subdomain_array %}
+                {% unless forloop.last %}
+                  {{ sub }},&nbsp;
+                {% else %}
+                  {{ sub }}&nbsp;&nbsp;//&nbsp;&nbsp;
+                {% endunless %}
+          {% endfor %}
           <i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ page.resource }}</small></p></div>
 
     <blockquote>
