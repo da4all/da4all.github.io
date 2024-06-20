@@ -18,6 +18,10 @@ keywords:
   - "Data for Black Lives"
   - "Public Health Data"
   - "Critical Data Studies"
+  - Data "Advocacy"
+  - Data-for-Black-Lives
+  - Public Health Data: Yep
+  - Critical Data Studies
 
 metadata:
   source: "https://d4bl.org/dispatch/73-black-health-in-america-exploring-racial-disparities-in-covid-19-vaccination-data"
