@@ -7,7 +7,7 @@ nav: false
 nav_order: 
 ---
 
-# Testing 128
+# Testing 129
 
 ## Overview
 
@@ -113,19 +113,8 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
             <h5 class="card-title"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp;&nbsp; {{ card.title }}</h5></a>
           <p class="card-text"><small class="test-muted">
             {% if card.metadata.date %}
-            {% assign parsed_date = card.metadata.date | date: '%Y-%m-%d' %}
-            {% if parsed_date == '1970-01-01' %}
-            {% assign parsed_date = card.metadata.date | date: '%Y-%m' %}
-            {% if parsed_date == '1970-01' %}
-            {% assign parsed_date = card.metadata.date | date: '%Y' %}
-            <i class="fa-solid fa-calendar"></i>&nbsp; Date: {{ parsed_date }}
-            {% else %}
-            <i class="fa-solid fa-calendar"></i>&nbsp; Date: {{ parsed_date | date: '%B %Y' }}
+              <i class="fa-solid fa-calendar"></i>&nbsp; Date: {{ card.metadata.date | custom_date_format }}
             {% endif %}
-            {% else %}
-    <i class="fa-solid fa-calendar"></i>&nbsp; Date: {{ parsed_date | date: '%B %d, %Y' }}
-  {% endif %}
-{% endif %}
             {% if card.metadata.date and card.metadata.author %}
               &nbsp;&nbsp;//&nbsp;&nbsp;
             {% endif %}
