@@ -28,7 +28,7 @@ teaser: >
 metadata:
   source:
   author: Cameron Blevins
-  date: 05-17-2024
+  date: "2024-05-17"
   license: CC BY
   citation: "Cameron Blevins, “Covid19-Data” "
   align: right
