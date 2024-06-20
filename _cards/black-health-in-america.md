@@ -11,7 +11,7 @@ sample_resource: false
 title: "Black Health in America: Exploring Racial Disparities in COVID-19 Vaccination Data"
 
 teaser: >
-  This Data Advocacy project assists public health efforts to make visible existing racial disparities in our healthcare system, specifically in relation to the Covid-19 pandemic. This project asks "Are Black people, who remain overrepresented among COVID-19 deaths, receiving sufficient access to the vaccines?" Data findings presented in a chart "help to visualize the gap between how many Black people are dying from COVID-19 and how many are receiving the vaccine." 
+ This Data Advocacy project assists public health efforts to make visible existing racial disparities in our healthcare system, specifically in relation to the Covid-19 pandemic. This project asks "Are Black people, who remain overrepresented among COVID-19 deaths, receiving sufficient access to the vaccines?" Data findings presented in a chart "help to visualize the gap between how many Black people are dying from COVID-19 and how many are receiving the vaccine." 
 
 keywords:
   - "Data Advocacy"
