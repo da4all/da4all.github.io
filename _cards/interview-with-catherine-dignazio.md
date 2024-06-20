@@ -15,7 +15,7 @@ metadata:
     author: Zoë Corbyn
     date:
     license:
-    citation: "Corbyn, Zoë. “Interview with Catherine D’Ignazio: Data is Never a Raw, Truthful Input – and It is Never Neutral.” The Guardian-U.S. Edition. 21 March 2020. https://www.theguardian.com/technology/2020/mar/21/catherine-dignazio-data-is-never-a-raw-truthful-input-and-it-is-never-neutral. Accessed 6 June 2023."
+    citation: "Corbyn, Zoë. 'Interview with Catherine D’Ignazio: Data is Never a Raw, Truthful Input – and It is Never Neutral.' The Guardian-U.S. Edition. 21 March 2020. https://www.theguardian.com/technology/2020/mar/21/catherine-dignazio-data-is-never-a-raw-truthful-input-and-it-is-never-neutral. Accessed 6 June 2023."
     align: right
 
 ---
