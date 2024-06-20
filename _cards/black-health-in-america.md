@@ -21,6 +21,7 @@ keywords:
   - Data "Advocacy"
   - Data-for-Black-Lives
   - Public Health Data: Yep
+  - "Public Health Data: Yep"
   - Critical Data Studies
 
 metadata:
