@@ -22,7 +22,7 @@ keywords:
 metadata:
     source: "https://markcarrigan.net/2016/09/12/the-history-of-data-as-rhetoric/"
     author: [AUTHOR FULL NAME]
-    date: 2018-03
+    date: "2018-03"
     license: [LICENSE TYPE HERE / CC BY / CC BY-SA / CC BY-NC / CC-BY-NA-SA / CC BY-ND / CC BY-NC-ND / CC0 ]
     citation:
     align: right
