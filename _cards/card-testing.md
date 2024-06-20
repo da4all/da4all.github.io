@@ -29,9 +29,6 @@ metadata:
 
 ---
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/themes/light.css" />
-<script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/shoelace.js" ></script>
-
 ## General notes
 
 I think we can do quite a bit with defining metadata for individual cards in teh frontmatter alongside site-wide variables and metadata (or at least lists of things like tags for all cards) within a .yaml file in the ``_data`` folder (currently I made a file called ``cards.yml`` there). Then we can access adn manipulate this metadata using Liquid, which allows for logic statements, loops, etc. I've outlined a couple of examples below.
