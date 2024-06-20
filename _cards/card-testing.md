@@ -11,7 +11,9 @@ subdomain:
 title: A Testing Page
 
 teaser: >
-  [DESCRIPTION]
+  Can you do a two-part teaser?
+
+  Will a second paragraph break it?
 
 keywords:
 - template
