@@ -2,10 +2,13 @@
 layout: card
 inline: false
 resource: Assignment
-domain: [Understanding Data , Persuading with Data]
-subdomain: Defining Data
+domain: 
+  - Understanding Data
+  - Persuading with Data
+subdomain:
+  - Defining Data
 
-title: Testing Page
+title: a Testing Page
 
 teaser: >
   [DESCRIPTION]
