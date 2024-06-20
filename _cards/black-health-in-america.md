@@ -1,6 +1,6 @@
 ---
 layout: card
-inline: true
+inline: false
 resource: Example of Data Advocacy
 domain:
   - Understanding Data
@@ -34,5 +34,7 @@ metadata:
   </sl-button-group>
 </center>
 </div>
+
+<br>
 
 What if I added more text here? What would happen?
