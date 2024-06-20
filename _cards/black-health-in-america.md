@@ -1,6 +1,6 @@
 ---
 layout: card
-inline: false
+inline: true
 resource: Example of Data Advocacy
 domain:
   - Understanding Data
