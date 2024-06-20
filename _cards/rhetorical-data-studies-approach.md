@@ -4,11 +4,9 @@ inline: false
 resource: Reading
 domain: 
  - Understanding Data
- - Persuading with Data
 subdomain:
   - Defining Data
-  - Telling Stories with Data
-sample_resource: true
+sample_resource: false
 
 title: "A Rhetorical Data Studies Approach to Data Advocacy and Data Storytelling"
 
