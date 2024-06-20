@@ -1,6 +1,6 @@
 ---
 layout: card
-inline: true
+inline: false
 resource: Assignment
 domain: 
   - Understanding Data
