@@ -242,6 +242,8 @@ plugins:
   - jekyll-get-json
   - jemoji
 
+plugins_dir: _plugins
+
 # Sitemap settings
 defaults:
   - scope:
