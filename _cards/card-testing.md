@@ -8,7 +8,7 @@ domain:
 subdomain:
   - Defining Data
 
-title: A Testing Page
+title: testing Page
 
 teaser: >
   Can you do a two-part teaser?
