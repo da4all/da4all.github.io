@@ -12,9 +12,9 @@ teaser: >
   Here we will take data science apart and build it back up to a coherent and manageable concept. Bear with us!
 
 metadata:
-  source: https://www.kdnuggets.com/2018/06/what-where-how-data-science.html
-  author: Iliya Valchanov
-  date: June 2018
+  source: "https://www.kdnuggets.com/2018/06/what-where-how-data-science.html"
+  author: "Iliya Valchanov"
+  date: "2018-06"
   license:
   citation: "Valchanov, Iliya. “The What, Where and How of Data for Data Science.” KDnuggets.com. 12 June 2018. https://www.kdnuggets.com/2018/06/what-where-how-data-science.html. Accessed 6 June 2023. "
   align: right
