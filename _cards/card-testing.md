@@ -20,7 +20,7 @@ keywords:
 - example
 
 metadata:
-    source: "https://markcarrigan.net/2016/09/12/the-history-of-data-as-rhetoric/"
+    source: https://markcarrigan.net/2016/09/12/the-history-of-data-as-rhetoric/
     author: [AUTHOR FULL NAME]
     date: [INFORMATION HERE]
     license: [LICENSE TYPE HERE / CC BY / CC BY-SA / CC BY-NC / CC-BY-NA-SA / CC BY-ND / CC BY-NC-ND / CC0 ]
