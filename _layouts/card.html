@@ -43,7 +43,7 @@ layout: default
       <p class="page-description" style="font-size:16px">
         {{ page.teaser }}
       </p>
-      <p class="page-description" style="font-size:12px"> 
+      <p class="page-description" style="font-size:14px"> 
         {% if page.keywords.size > 0 %}
           <strong>Keywords:</strong>
           {% for keyword in page.keywords %}
@@ -51,7 +51,7 @@ layout: default
           {% endfor %}
         {% endif %}
       </p>
-      <p class="page-description" style="font-size:11px"> 
+      <p class="page-description" style="font-size:12px"> 
         {% if page.metadata.citation %}
             <strong>MLA Citation:</strong> {{ page.metadata.citation | replace: '<br />', ', ' }}
           {% endif %}
