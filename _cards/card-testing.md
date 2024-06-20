@@ -8,7 +8,7 @@ domain:
 subdomain:
   - Defining Data
 
-title: a Testing Page
+title: A Testing Page
 
 teaser: >
   [DESCRIPTION]
