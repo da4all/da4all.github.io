@@ -1,3 +1,5 @@
+require 'date'
+
 module Jekyll
   module DateFilters
     def custom_date_format(date_str)
