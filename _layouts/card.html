@@ -48,12 +48,12 @@ layout: default
           Keywords:
           {% for keyword in page.keywords %}
             <i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;
-          {% endfor %}<br>
+          {% endfor %}
         {% endif %}
       </p>
-      <p class="page-description" style="font-size:10px"> 
+      <p class="page-description" style="font-size:12px"> 
         {% if page.metadata.citation %}
-            <b>MLA Citation:</b>{{ page.metadata.citation | replace: '<br />', ', ' }}
+            <br><strong>MLA Citation:</strong>{{ page.metadata.citation | replace: '<br />', ', ' }}
           {% endif %}
       </p>
     </blockquote>
