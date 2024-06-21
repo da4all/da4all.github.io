@@ -1,6 +1,6 @@
 ---
 layout: card
-inline: false
+inline: true
 resource: Reading
 domain:
   - Understanding Data
