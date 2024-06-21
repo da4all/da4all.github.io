@@ -1,7 +1,7 @@
 ---
 layout: card
 inline: true
-resource: Reading
+resource: Example of Data Advocacy
 domain:
   - Understanding Data
 subdomain:
@@ -25,7 +25,7 @@ metadata:
   author: "We the Protestors/Campaign Zero"
   date: 
   license: 
-  citation: "We the Protestors/Campaign Zero. ‘Mapping Police Violence.’ https://mappingpoliceviolence.org"
+  citation: "We the Protestors/Campaign Zero.‘Mapping Police Violence.’ https://mappingpoliceviolence.org"
 ---
 
 
