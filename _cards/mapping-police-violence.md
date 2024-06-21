@@ -16,7 +16,7 @@ teaser: >
 keywords:
   - "Advocacy"
   - "Data Practice"
-  - “Black Data Studies"
+  - "Black Data Studies"
   - "Accountability"
   - "Data Visualization"
 
