@@ -11,7 +11,7 @@ sample_resource: true
 title: "Mapping Police Violence"
 
 teaser: >
-  This interactive website features a collection of live tracking tools, maps, and visualizations that document police violence in the United States and demonstrate how race and ethnicity, location, and crime are connected to police violence. To assist various stakeholders, visitors can download open-access data and figures, learn about the project’s methodology, and access a resource to directly contact representatives.
+  This interactive website features a collection of live tracking tools, maps, and visualizations that document police violence in the United States and demonstrate how race and ethnicity, location, and crime are connected to police violence. To assist various stakeholders, visitors can download open-access data and figures, learn about the project’s methodology, and access a resource to directly contact representatives. 
 
 keywords:
   - "Advocacy"
