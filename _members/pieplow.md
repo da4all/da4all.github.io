@@ -2,7 +2,7 @@
 layout: about
 inline: false
 group: Co-Principal Investigators
-group_rank: 2
+group_rank: 6
 
 title: Nathan Pieplow
 description: Profile of Nathan Pieplow
