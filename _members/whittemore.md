@@ -5,7 +5,7 @@ group: Research Assistant
 group_rank: 3
 
 title: Lore Whittemore
-description: Profile of Lore Whittemore
+description: Profile of Lore Whittemore 
 lastname: Lore
 publications: 'author^=*[Whittemore]'
 
