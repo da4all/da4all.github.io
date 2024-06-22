@@ -2,7 +2,7 @@
 layout: about
 inline: false
 group: Advisory Board
-group_rank: 8
+group_rank: 4
 
 title: Rachel Gross
 description: Profile of Rachel Gross
