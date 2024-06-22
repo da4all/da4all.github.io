@@ -70,4 +70,3 @@ nav_order:
 	{% endfor %}
 <br>
 {% endfor %}
-
