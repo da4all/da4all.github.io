@@ -2,7 +2,7 @@
 layout: about
 inline: false
 group: Advisory Board
-group_rank: 4
+group_rank: 8
 
 title: Joanna Wolfe
 description: Profile of Joanna Wolfe
