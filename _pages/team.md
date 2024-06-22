@@ -4,24 +4,17 @@ permalink: /team/
 title: Data Advocacy for All Team
 description: 
 nav: false
-nav_order: 
+nav_rank: 8
 ---
 
-{% comment %} 
-{% assign groups = site.members | sort: "group_rank" | map: "group" | uniq %} 
-{% endcomment %}
-
-<!--this Liquid command looks in the Collection "members" that was created through a directory named members + adding it as a collection in _config.yml file. It sorts it by the variable you specify in teh frontmatter for each member markdown file - ex. group_rank, lastname, etc. The map command then puts them into a few buckets based on  "group" - defined in the frontmatter of each of the individual member pages - ex. "Principal Investigators". It goes through and only looks at unique values for all pages listed in here. We can change this and/or add different categories/designations - ex. "Faculty" "Researchers" etc. or a "school" category for "University of Colorado Denver" "CU Boulder" etc.  -->
-
-{% assign groups = site.members | sort: "lastname" | map: "group" | uniq %}
+{% assign groups = site.members | sort: "group_rank" | map: "group" | uniq %}
 
 {% for group in groups %}
 
 ## {{ group }}
 
-	{% assign members = site.members | sort: "last_name" | where: "group", group %}
-	{% for member in members %}
-
+    {% assign members = site.members | sort: "group_rank" | where: "group", group %}
+    {% for member in members %}
 
 <p>
     <div class="card {% if member.inline == false %}hoverable{% endif %}">
@@ -66,7 +59,7 @@ nav_order:
         </div>
     </div>
 </p>
- 
-	{% endfor %}
+
+    {% endfor %}
 <br>
 {% endfor %}
