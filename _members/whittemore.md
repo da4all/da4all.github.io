@@ -10,7 +10,7 @@ lastname: Lore
 publications: 'author^=*[Whittemore]'
 
 teaser: >
-    Lore Whittemore is currently a second-year student in the Media and Public Engagement masters program with the College of Media, Communication, and Information.
+    Lore Whittemore is an incoming doctoral student in the Communication Arts program at the Univeristy of Wisconsin-Madison.
 profile:
     name: Lore Whittemore
     position: Graduate Student
@@ -19,7 +19,7 @@ profile:
     align: right
     image: whittemore.jpg
     website: 
-    twitter: 
+    twitter: LoreWhittemore
     email: tawh3581@colorado.edu
     github: Lore3851 
     orcid: 
