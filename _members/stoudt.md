@@ -2,7 +2,7 @@
 layout: about
 inline: false
 group: Advisory Board
-group_rank: 2
+group_rank: 4
 
 title: Sara Stoudt
 description: Profile of Sara Stoudt
