@@ -2,7 +2,7 @@
 layout: about
 inline: false
 group: Co-Principal Investigators
-group_rank: 6
+group_rank: 2
 
 title: Aditya Ranganath
 description: Profile of Aditya Ranganath
