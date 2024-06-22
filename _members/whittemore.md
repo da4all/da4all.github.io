@@ -12,6 +12,7 @@ publications: 'author^=*[Whittemore]'
 teaser: >
     Lore Whittemore is an incoming doctoral student in the Communication Arts program at the Univeristy of Wisconsin-Madison.<br>
     
+    
 profile:
     name: Lore Whittemore
     position: Graduate Student
