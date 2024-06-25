@@ -35,4 +35,4 @@ Note that, like most historical datasets, answering some of these questions will
 
 ## Part 2: Reflection
 
-Based on your data biography of the [Philadelphia African American Census 1847 data set](https://ds-pages.swarthmore.edu/paac/), write 1-2 paragraphs in which you reflect on lessons this example could hold for working with historical data in order **to pursue contemporary data advocacy projects.** In your response, please draw on your analysis of how the data for the Philadelphia African American Consensus 1847 was collected, processed, and made available - as well as the potential problems you identified.
+Based on your data biography of the [Philadelphia African American Census 1847 data set](https://ds-pages.swarthmore.edu/paac/), write 1-2 paragraphs in which you reflect on lessons this example could hold for working with historical data in order **to pursue contemporary data advocacy projects.** In your response, please draw on your analysis of how the data for the Philadelphia African American Consensus 1847 was collected, processed, and made available - as well as the potential problems you identified. 
