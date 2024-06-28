@@ -1,7 +1,7 @@
 ---
 layout: card
 inline: false
-resource: Reading / Term / Assignment / Activity / Tutorial / Teaching Module / Dataset / Example of Data Advocacy
+resource: Reading / Term / Assignment / Activity / Tutorial / Lesson Plan / Dataset / Example of Data Advocacy
 domain: Understanding Data / Processing Data / Persuading with Data
 subdomain: Defining Data / Critiquing Data / Acting Ethically with Data / Advocating with Data / Collecting Data / Organizing and Cleaning Data / Analyzing Data / Storing and Preserving Data / Making Claims with Data / Visualizing Data / Mapping Data / Telling Stories with Data
 
@@ -11,13 +11,15 @@ teaser: >
   [DESCRIPTION]
 
 metadata:
-    source: [URL SOURCE]
-    author: [AUTHOR FULL NAME]
-    date: [DATE INFORMATION HERE]
-    license: [LICENSE TYPE HERE / CC BY / CC BY-SA / CC BY-NC / CC-BY-NA-SA / CC BY-ND / CC BY-NC-ND / CC0 ]
-    citation: "[INSERT CITATION HERE]"
-    align: right
-
+  source: [URL SOURCE]
+  author: [AUTHOR FULL NAME]
+  date: [DATE INFORMATION HERE]
+  license:
+    [
+      LICENSE TYPE HERE / CC BY / CC BY-SA / CC BY-NC / CC-BY-NA-SA / CC BY-ND / CC BY-NC-ND / CC0,
+    ]
+  citation: "[INSERT CITATION HERE]"
+  align: right
 ---
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/themes/light.css" />
