@@ -19,11 +19,11 @@ keywords:
   - "Ethnography"
 
 metadata:
-  source: "URL Source"
-  author: "Author"
-  date: "YYYY-MM-DD"
+  source:
+  author: "Cameron Blevins"
+  date: "2024-07-08"
   license: "License Type: CC BY"
-  citation: "Cameron Blevins, ‘Collecting Thick Data,’ Data Advocacy For All"
+  citation: "Cameron Blevins, ‘Collecting Thick Data.’ Data Advocacy For All"
 ---
 
 ## Overview
