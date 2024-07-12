@@ -29,7 +29,7 @@ nav_order: 6
             <div class="team col-sm-8 col-md-7">
                 <div class="card-body">
                     {% if project.inline == false %}<a href="{{ project.url | relative_url }}">{% endif %}
-                    <h5 class="card-title">{{ project.profile.title }}</h5>
+                    <h5 class="card-title">{{ project.title }}</h5>
                     <p class="card-text">
                         {{ project.teaser }}
 			    <small><br><br></small>
