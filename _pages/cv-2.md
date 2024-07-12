@@ -9,9 +9,9 @@ nav_order:
 
 # Description
 
-Data Advocacy for All is an eight-module curriculum that leverages minimal computing and open-source tools to enhance student abilities to inquire with data, communicate with data, and deploy data for social advocacy.
+Data Advocacy for All is an open-access educational toolkit that leverages minimal computing and open-source resources to enhance student abilities to inquire with data, communicate with data, and deploy data for social advocacy.
 
-Data Advocacy for All has been designed for students across the disciplines with no prior data science or computing experience. This college-level curriculum includes pedagogical modules, ready-made data sets, tutorials, links to open-source tools, and flexible curricular resources. 
+Data Advocacy for All has been designed for teachers and students across the disciplines with no prior data science or computing experience. This digital repository offers reading resources, ready-made data sets, tutorials, links to open-source tools, and flexible curricular resources such as activities, assignments, and modules.
 
 Data Advocacy for All is a <a href="https://www.cu.edu/oaa/academic-innovation-programs/cu-next-award">CU Next Award Grant project<a/> that has been realized by a team of digital rhetoric and digital humanities faculty at CU Boulder and Denver in concert with CU Boulder’s Center for Research Data and Digital Scholarship (CRDDS). 
 <br><br>
