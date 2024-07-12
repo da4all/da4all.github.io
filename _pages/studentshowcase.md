@@ -2,7 +2,7 @@
 layout: page
 permalink: /student-showcase/
 title: Student Showcase
-description: This page shares student projects centered on data advocacy to demonstrate how these curricular materials can be used.
+description: This page showcases student projects centered on data advocacy to demonstrate the types of projects that classes using the curricular materials provided in the Data Advocacy for All Toolkit can produce.
 nav: true
 nav_order: 6
 ---
