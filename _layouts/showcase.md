@@ -20,7 +20,7 @@ layout: default
 
 <div class="page">
   <header class="page-header">
-    <h1 class="page-title">{{ page.title }}</h1>
+    <h1 class="page-title">{{ page.title }}</h1><br>
     <h4><b>Contributor(s):</b> {{ page.metadata.contributors | replace: '<br />', ', ' }}</h4>
   </header>
 
