@@ -7,7 +7,9 @@ group_rank: 1
 title: "Homelessness beyond the Stereotypes"
 
 teaser: >
-  This presentation focuses on the question of how people become homelessness and draws on several data visualizations to explain how a variety of factors, causes, or life crises are often at play, most of which have nothing to do with the stereotype of drug addition. From this empathetic vantage point, the presentation then explores possible solutions and best practices, both for individual citizens and local governments.
+  This presentation focuses on the question of how people become homelessness and draws on several data visualizations to explain how a variety of factors, causes, or life crises are often at play, most of which have nothing to do with the stereotype of drug addiction. From this empathetic vantage point, the presentation then explores possible solutions and best practices, both for individual citizens and local governments.
+
+  This presentation was created for the Spring 2024 semester.
 
 metadata:
   image: homelessness-beyond-the-stereotypes.png
