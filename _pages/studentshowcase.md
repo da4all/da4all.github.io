@@ -2,7 +2,7 @@
 layout: page
 permalink: /student-showcase/
 title: Student Showcase
-description: 
+description: This page shares student projects centered on data advocacy to demonstrate how these curricular materials can be used.
 nav: true
 nav_order: 6
 ---
