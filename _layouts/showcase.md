@@ -4,7 +4,7 @@ layout: default
 
 <style>
   hr.rounded {
-  border-top: 8px solid #bbb;
+  border-top: 5px solid #bbb;
   border-radius: 5px;
 }
 </style>
@@ -12,8 +12,10 @@ layout: default
 <div class="page">
   <header class="page-header">
     <h1 class="page-title">{{ page.title }}</h1>
-    <h3>&nbsp; Contributors: {{ page.metadata.contributors | replace: '<br />', ', ' }}</h3>
+    <h4>Contributors: {{ page.metadata.contributors | replace: '<br />', ', ' }}</h4>
   </header>
+
+  <br><br>
 
   <article>{{ content }}</article>
 
@@ -31,7 +33,7 @@ layout: default
       <div class="col-sm-4 col-md-5">
         <img src="{{ '/assets/img/' | append: page.metadata.image | relative_url }}" class="card-img img-fluid" alt="{{ page.metadata.caption }}" /><br>
         <div class="card-body" style="margin: 2px;">
-          <p class="post-description" style="font-size: 10px">
+          <p class="post-description" style="font-size: 12px">
             <small><b>Caption:</b> {{ page.metadata.caption | replace: '<br />', ', ' }}</small>
             </p>
             <sl-button-group label="Alignment">
