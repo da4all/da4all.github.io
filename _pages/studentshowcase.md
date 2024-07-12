@@ -34,7 +34,7 @@ nav_order: 6
                     {% if project.inline == false %}</a>{% endif %}
                 </div></div>
 		<div class="col-sm-4 col-md-5">
-                <br><img src="{{ '/assets/img/' | append: project.metadata.image | relative_url }}" class="card-img img-fluid max-width: 80%" alt="{{ project.metadata.caption }}" />
+                <br>{% if project.inline == false %}<a href="{{ project.url | relative_url }}">{% endif %}<img src="{{ '/assets/img/' | append: project.metadata.image | relative_url }}" class="card-img img-fluid max-width: 80%" alt="{{ project.metadata.caption }}" />{% if project.inline == false %}</a>{% endif %}
                     <div class="card-body" style="margin: 2px;">
 			<p class="card-text">
 			{% if project.metadata.typeofdataadvocacy %}
