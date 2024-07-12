@@ -23,7 +23,7 @@ layout: default
   <hr class="rounded">
   <br>
 
-  <h2>Project Details:</h2>
+  <h2>Project Overview:</h2>
 
     <div class="row no-gutters">
       <div class="team col-sm-8 col-md-7">
