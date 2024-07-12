@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: showcase
 inline: false
 group: Spring 2024
 group_rank: 2
