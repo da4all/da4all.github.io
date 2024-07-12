@@ -34,18 +34,18 @@ layout: default
       <div class="col-sm-4 col-md-5">
       <div class="page-info" style="background-color: #f2f2f2; padding: 10px">
       <img src="{{ '/assets/img/' | append: page.metadata.image | relative_url }}" class="card-img img-fluid" alt="{{ page.metadata.caption }}" /><br>
-        <div class="card-body" style="margin: 2px;">
+        <div class="card-body">
           <p style="font-size: 12px">
             <b>Caption:</b> {{ page.metadata.caption | replace: '<br />', ', ' }}
             </p>
             </div>
-            <sl-button-group label="Alignment">
+        </div>
+        <sl-button-group label="Alignment">
               <sl-button>Genre: {{ page.metadata.genre | replace: '<br />', ', ' }}</sl-button>
               <sl-button>File Type: {{ page.metadata.filetype | replace: '<br />', ', ' }}</sl-button>
               <sl-button>Topic: {{ page.metadata.topic | replace: '<br />', ', ' }}</sl-button>
             </sl-button-group>
-            <p><small class="test-muted"><i class="fa-solid fa-link"></i><b>&nbsp; Also Published Here:</b> <a href="{{ page.metadata.source }}">{{ page.metadata.source }}</a></small></p>
-        </div>
+            <p><br><small class="test-muted"><i class="fa-solid fa-link"></i><b>&nbsp; Also Published Here:</b> <a href="{{ page.metadata.source }}">{{ page.metadata.source }}</a></small></p>
       </div>
     </div>
     
