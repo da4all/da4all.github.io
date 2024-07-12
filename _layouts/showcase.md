@@ -43,7 +43,7 @@ layout: default
         <sl-button-group label="Alignment">
               <sl-button>Genre: {{ page.metadata.genre | replace: '<br />', ', ' }}</sl-button>
               <sl-button>File Type: {{ page.metadata.filetype | replace: '<br />', ', ' }}</sl-button>
-              <sl-button>Topic: {{ page.metadata.topic | replace: '<br />', ', ' }}</sl-button>
+              <sl-button>Type of Data Advocacy: {{ page.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button>
             </sl-button-group>
             <p><br><small class="test-muted"><i class="fa-solid fa-link"></i><b>&nbsp; Also Published Here:</b> <a href="{{ page.metadata.source }}">{{ page.metadata.source }}</a></small></p>
       </div>
