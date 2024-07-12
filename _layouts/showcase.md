@@ -10,7 +10,7 @@ layout: default
 
   sl-button.attribute::part(base) {
     border-radius: 0;
-    background-color: #BF0A30;
+    background-color: #002868;
     color: white;
   }
   
