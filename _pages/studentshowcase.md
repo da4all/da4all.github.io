@@ -9,11 +9,7 @@ nav_order: 6
 
 <br>
  
-{% comment %} 
 {% assign groups = site.showcase | sort: "group_rank" | map: "group" | uniq %} 
-{% endcomment %}
-
-{% assign groups = site.showcase | sort: "title" | map: "group" | uniq %}
 
 {% for group in groups %}
 
