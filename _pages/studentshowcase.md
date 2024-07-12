@@ -33,7 +33,6 @@ nav_order: 6
                     </p>
                     {% if project.inline == false %}</a>{% endif %}
                 </div></div>
-		{% if project.inline == false %}<a href="{{ project.url | relative_url }}">{% endif %}
 		<div class="col-sm-4 col-md-5">
                 <br><img src="{{ '/assets/img/' | append: project.metadata.image | relative_url }}" class="card-img img-fluid max-width: 80%" alt="{{ project.metadata.caption }}" />
                     <div class="card-body" style="margin: 2px;">
@@ -54,7 +53,6 @@ nav_order: 6
 		    </div>
             </div>
             </div>
-			{% if project.inline == false %}</a>{% endif %}
         </div>
 </p>
 
