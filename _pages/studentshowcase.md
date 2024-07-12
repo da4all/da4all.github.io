@@ -37,14 +37,14 @@ nav_order: 6
                     {% if project.inline == false %}</a>{% endif %}
                 </div></div>
 		<div class="col-sm-4 col-md-5">
-                <img src="{{ '/assets/img/' | append: project.profile.image | relative_url }}" class="card-img img-fluid" alt="{{ project.profile.caption }}" />
+                <img src="{{ '/assets/img/' | append: project.metadata.image | relative_url }}" class="card-img img-fluid" alt="{{ project.metadata.caption }}" />
                     <div class="card-body" style="margin: 2px;">
 			<p class="card-text">
-			<small class="test-muted"><i class="fa-solid fa-people-group"></i><b>&nbsp; Contributors:</b> {{ project.profile.contributors | replace: '<br />', ', ' }}</small> 
-                        <br><br><small class="test-muted"><i class="fa-solid fa-layer-group"></i><b>&nbsp; Type of Data Advocacy:</b> {{ project.profile.topic | replace: '<br />', ', ' }}</small> 
-			<br><br><small class="test-muted"><i class="fa-solid fa-bars-staggered"></i><b>&nbsp; Genre:</b> {{ project.profile.genre | replace: '<br />', ', ' }}</small> 
-			<br><br><small class="test-muted">&nbsp;<i class="fa-solid fa-file"></i><b>&nbsp; Format:</b> {{ project.profile.filetype | replace: '<br />', ', ' }}</small> 
-			<br><br><small class="test-muted"><i class="fa-solid fa-link"></i><b>&nbsp; Also Published Here:</b> <a href="{{ project.profile.source }}">{{ project.profile.source }}</a></small>
+			<small class="test-muted"><i class="fa-solid fa-people-group"></i><b>&nbsp; Contributors:</b> {{ project.metadata.contributors | replace: '<br />', ', ' }}</small> 
+                        <br><br><small class="test-muted"><i class="fa-solid fa-layer-group"></i><b>&nbsp; Type of Data Advocacy:</b> {{ project.metadata.topic | replace: '<br />', ', ' }}</small> 
+			<br><br><small class="test-muted"><i class="fa-solid fa-bars-staggered"></i><b>&nbsp; Genre:</b> {{ project.metadata.genre | replace: '<br />', ', ' }}</small> 
+			<br><br><small class="test-muted">&nbsp;<i class="fa-solid fa-file"></i><b>&nbsp; Format:</b> {{ project.metadata.filetype | replace: '<br />', ', ' }}</small> 
+			<br><br><small class="test-muted"><i class="fa-solid fa-link"></i><b>&nbsp; Also Published Here:</b> <a href="{{ project.metadata.source }}">{{ project.metadata.source }}</a></small>
                     </p>
 		    </div>
             </div>
