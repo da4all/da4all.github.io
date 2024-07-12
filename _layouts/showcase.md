@@ -29,6 +29,9 @@ layout: default
       <div class="team col-sm-8 col-md-7">
         <div class="card-body">
           <p class="post-description" style="font-size: 14px">{{ page.teaser }}</p>
+          {% if page.metadata.typeofdataadvocacy %}<sl-button disabled>Type of Data Advocacy: {{ page.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button>{% endif %}
+          {% if page.metadata.genre %}<sl-button disabled>Genre: {{ page.metadata.genre | replace: '<br />', ', ' }}</sl-button>{% endif %}
+          {% if page.metadata.filetype %}<sl-button disabled>Format: {{ page.metadata.filetype | replace: '<br />', ', ' }}</sl-button>{% endif %}
         </div>
       </div>
       <div class="col-sm-4 col-md-5">
@@ -42,11 +45,5 @@ layout: default
             <p><br>{% if page.metadata.source %}<small class="test-muted"><i class="fa-solid fa-link"></i><b>&nbsp; Also Published Here:</b> <a href="{{ page.metadata.source }}">{{ page.metadata.source }}</a></small>{% endif %}</p>
       </div>
     </div>
-
-<sl-button-group label="Alignment">
-              {% if page.metadata.typeofdataadvocacy %}<sl-button disabled>Type of Data Advocacy: {{ page.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button>{% endif %}
-              {% if page.metadata.genre %}<sl-button disabled>Genre: {{ page.metadata.genre | replace: '<br />', ', ' }}</sl-button>{% endif %}
-              {% if page.metadata.filetype %}<sl-button disabled>Format: {{ page.metadata.filetype | replace: '<br />', ', ' }}</sl-button>{% endif %}
-</sl-button-group>
     
 </div>
