@@ -32,7 +32,7 @@ layout: default
         </div>
       </div>
       <div class="col-sm-4 col-md-5">
-      <div class="page-info" style="background-color: #f2f2f2; padding: 3px">
+      <div class="page-info" style="background-color: #f2f2f2; padding: 2px">
       <img src="{{ '/assets/img/' | append: page.metadata.image | relative_url }}" class="card-img img-fluid" alt="{{ page.metadata.caption }}" /><br>
         <div class="card-body">
           <p style="font-size: 12px">
