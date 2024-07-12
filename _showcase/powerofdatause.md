@@ -18,7 +18,7 @@ metadata:
     caption: "This image shows a thumbnail of the video."
     genre: Educational Video
     filetype: .mp4
-    topic: Data Storytelling
+    typeofdataadvocacy: Data Storytelling
     contributors: UNICEF Group
     source: https://www.youtube.com/watch?v=fvD9boY4vBA&ab_channel=UNICEFData
     align: right
