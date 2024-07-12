@@ -48,9 +48,9 @@ layout: default
       <div class="team col-sm-8 col-md-7">
         <div class="card-body">
           <p class="post-description" style="font-size: 14px">{{ page.teaser }}</p>
-          {% if page.metadata.typeofdataadvocacy %}<sl-button class="attribute noHover">Type of Data Advocacy: {{ page.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button><br><br>{% endif %}
-          {% if page.metadata.genre %}<sl-button class="attribute noHover">Genre: {{ page.metadata.genre | replace: '<br />', ', ' }}</sl-button><br><br>{% endif %}
-          {% if page.metadata.filetype %}<sl-button class="attribute noHover">Format: {{ page.metadata.filetype | replace: '<br />', ', ' }}</sl-button><br><br>{% endif %}
+          {% if page.metadata.typeofdataadvocacy %}<sl-button class="attribute noHover" size="small">Type of Data Advocacy: {{ page.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button><br><br>{% endif %}
+          {% if page.metadata.genre %}<sl-button class="attribute noHover" size="small">Genre: {{ page.metadata.genre | replace: '<br />', ', ' }}</sl-button><br><br>{% endif %}
+          {% if page.metadata.filetype %}<sl-button class="attribute noHover" size="small">Format: {{ page.metadata.filetype | replace: '<br />', ', ' }}</sl-button><br><br>{% endif %}
         </div>
       </div>
       <div class="col-sm-4 col-md-5">
