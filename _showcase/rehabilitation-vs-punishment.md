@@ -10,8 +10,8 @@ teaser: >
   This video presentation provides a data-informed, comparative analysis of prisons in Norway and the United States, with emphasis on the statistics detailing the different outcomes associated with these two very different prison systems. Whereas the US system focuses on punishing inmates, Norway prioritizes rehabilitation. The presentation draws on research and data to argue in favor of the Norwegian approach and its potential to serve as a model for other countries aiming to humanize and improve their own criminal justice systems.
 
 metadata:
-  image:[name of file].[filetype]
-  caption: "Caption of image goes here."
+  image:
+  caption:
   genre: "Data Storytelling Presentation"
   filetype: ".mp4"
   typeofdataadvocacy: "Prison Reform"
