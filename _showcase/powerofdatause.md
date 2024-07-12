@@ -2,7 +2,7 @@
 layout: page
 inline: false
 group: Spring 2024
-group_rank: 1
+group_rank: 2
 
 title: The Power of Data Use for Advocacy 
 description: This is the first video in the "Adolescent Data Dashboard" series.
@@ -15,7 +15,6 @@ teaser: >
   Pellentesque eu arcu euismod, luctus sapien id, efficitur erat. Integer id ultrices nibh. Suspendisse ac laoreet nibh. Suspendisse gravida turpis non turpis dictum pharetra. Maecenas dictum volutpat volutpat. Ut odio elit, placerat quis mollis rutrum, maximus tristique leo. Proin consectetur odio sed viverra fermentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent sodales lacinia sem ut faucibus. Curabitur a lectus gravida, gravida lectus at, scelerisque justo. Nam tincidunt sit amet ipsum quis dictum. Integer id sem eget lectus sodales aliquet vel sed velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque sem neque, vestibulum sit amet condimentum vitae, tincidunt sed ante. Nunc et erat tortor. Phasellus varius vestibulum metus."
 
 profile:
-    title: The Power of Data Use for Advocacy
     image: thepowerofdatause.png
     caption: "This image shows a thumbnail of the video."
     genre: Educational Video
