@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /cv-2/
+permalink: 
 title: Curriculum Vitae Data Advocacy for All
 nav: false
 nav_order: 
