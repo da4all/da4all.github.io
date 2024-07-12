@@ -2,23 +2,23 @@
 layout: card
 inline: false
 resource: Assignment
-domain: Processing Data
-subdomain: Collecting Data
+domain:
+  - Processing Data
+subdomain:
+  - Collecting Data
 sample_resource: true
 
 title: "Dear Data"
-description:
 
 teaser: >
   In this assignment you will draw inspiration from Giorgia Lupi and Stefanie Posavec’s project <i>Dear Data.</i> You will spend a period of five days and regularly collect some kind of information from your daily life. You will then illustrate the data you collected through a hand-drawn data visualization and submit the visualization along with a written reflection on the process and the big takeaways for data advocacy.
 
 metadata:
   source:
-  author:
-  date:
-  license:
-  citation:
-  align: right
+  author: "Cameron Blevins"
+  date: "2024-07-12"
+  license: "License Type: CC BY"
+  citation: "Cameron Blevins, ‘Collecting Thick Data.’ Data Advocacy For All"
 ---
 
 ## Step 1: Choose your Data
