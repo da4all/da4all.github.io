@@ -40,7 +40,7 @@ nav_order: 6
                 <br><img src="{{ '/assets/img/' | append: project.metadata.image | relative_url }}" class="card-img img-fluid max-width: 80%" alt="{{ project.metadata.caption }}" />
                     <div class="card-body" style="margin: 2px;">
 			<p class="card-text">
-			<small class="test-muted"><i class="fa-solid fa-people-group"></i><b>&nbsp; Contributors:</b> {{ project.metadata.contributors | replace: '<br />', ', ' }}</small> 
+			<small class="test-muted"><i class="fa-solid fa-people-group"></i><b>&nbsp; Contributor(s):</b> {{ project.metadata.contributors | replace: '<br />', ', ' }}</small> 
                         <br><br><small class="test-muted"><i class="fa-solid fa-layer-group"></i><b>&nbsp; Type of Data Advocacy:</b> {{ project.metadata.tyepofdataadvocacy | replace: '<br />', ', ' }}</small> 
 			<br><br><small class="test-muted"><i class="fa-solid fa-bars-staggered"></i><b>&nbsp; Genre:</b> {{ project.metadata.genre | replace: '<br />', ', ' }}</small> 
 			<br><br><small class="test-muted">&nbsp;<i class="fa-solid fa-file"></i><b>&nbsp; Format:</b> {{ project.metadata.filetype | replace: '<br />', ', ' }}</small> 
