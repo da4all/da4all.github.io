@@ -10,13 +10,13 @@ teaser: >
   This video presentation provides a data-informed, comparative analysis of prisons in Norway and the United States, with emphasis on the statistics detailing the different outcomes associated with these two very different prison systems. Whereas the US system focuses on punishing inmates, Norway prioritizes rehabilitation. The presentation draws on research and data to argue in favor of the Norwegian approach and its potential to serve as a model for other countries aiming to humanize and improve their own criminal justice systems.
 
 metadata:
-  image: rehabilitation-vs-punishment.png
-  caption: This image is a still from the video presentation. It includes the words "Rehabilitation v.s. Punishment" at the top of the image, and below there is a photo of a hallway of a prison facility. There are windows and technical equipment lining the right side of the hallway, and cells on the left. Two hands from a black individual rest through one of the cells.
+  image: "rehabilitation-vs-punishment.png"
+  caption: "This image is a still from the video presentation. It includes the words "Rehabilitation v.s. Punishment" at the top of the image, and below there is a photo of a hallway of a prison facility. There are windows and technical equipment lining the right side of the hallway, and cells on the left. Two hands from a black individual rest through one of the cells."
   genre: "Data Storytelling Presentation"
   filetype: ".mp4"
   typeofdataadvocacy: "Prison Reform"
   contributors: "Ella Ames"
-  source: URL
+  source: 
   align: right
 ---
 
