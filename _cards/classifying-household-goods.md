@@ -19,11 +19,11 @@ keywords:
   - "Categorization"
 
 metadata:
-  source: ""
+  source:
   author: "Cameron Blevins"
   date: "2024-07-12"
   license: "CC BY"
-  citation: "Cameron Blevins, "Classifying Household Goods" Data Advocacy for All "
+  citation: "Cameron Blevins, 'Classifying Household Goods,' Data Advocacy for All"
 ---
 
 Classification is something that we do all of the time, but it’s especially critical for understanding how archives are constructed and, in turn, the ways in which people access the material that is stored in them. The goal of this exercise is to help think critically about how and why we describe, organize, and categorize information in certain ways.
