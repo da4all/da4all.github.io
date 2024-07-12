@@ -37,7 +37,7 @@ nav_order: 6
                     {% if project.inline == false %}</a>{% endif %}
                 </div></div>
 		<div class="col-sm-4 col-md-5">
-                <img src="{{ '/assets/img/' | append: project.metadata.image | relative_url }}" class="card-img img-fluid" alt="{{ project.metadata.caption }}" />
+                <br><br><img src="{{ '/assets/img/' | append: project.metadata.image | relative_url }}" class="card-img img-fluid" alt="{{ project.metadata.caption }}" />
                     <div class="card-body" style="margin: 2px;">
 			<p class="card-text">
 			<small class="test-muted"><i class="fa-solid fa-people-group"></i><b>&nbsp; Contributors:</b> {{ project.metadata.contributors | replace: '<br />', ', ' }}</small> 
