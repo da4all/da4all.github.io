@@ -5,7 +5,6 @@ group: Spring 2024
 group_rank: 2
 
 title: Covid-19 Versus Education
-description: This essay questions how the covid-19 pandemic impacted education.
 
 teaser: >
   This would theoretically be a "teaser" paragraph explaining what the student project is about.<br><br>
@@ -19,7 +18,7 @@ metadata:
     caption: "This image is a graph from the National Center for Education Statistics. The descriptions reads: 'Percentage of schools reporting moving some or all classes to online distance-learning formats, by school control: 2020.' The chart shows 77% for 'Public' and 73% for 'Private.'"
     genre: Op-Ed
     filetype: .txt
-    topic: Education
+    typeofdataadvocacy: Education
     contributors: Student A, Student B, Student C, and Student D
     source: https://nces.ed.gov/surveys/annualreports/topical-studies/covid/
     align: right
