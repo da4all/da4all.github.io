@@ -14,7 +14,7 @@ teaser: >
   
   Pellentesque eu arcu euismod, luctus sapien id, efficitur erat. Integer id ultrices nibh. Suspendisse ac laoreet nibh. Suspendisse gravida turpis non turpis dictum pharetra. Maecenas dictum volutpat volutpat. Ut odio elit, placerat quis mollis rutrum, maximus tristique leo. Proin consectetur odio sed viverra fermentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent sodales lacinia sem ut faucibus. Curabitur a lectus gravida, gravida lectus at, scelerisque justo. Nam tincidunt sit amet ipsum quis dictum. Integer id sem eget lectus sodales aliquet vel sed velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque sem neque, vestibulum sit amet condimentum vitae, tincidunt sed ante. Nunc et erat tortor. Phasellus varius vestibulum metus.
 
-profile:
+metadata:
     image: onlinelearning.png
     caption: "This image is a graph from the National Center for Education Statistics. The descriptions reads: 'Percentage of schools reporting moving some or all classes to online distance-learning formats, by school control: 2020.' The chart shows 77% for 'Public' and 73% for 'Private.'"
     genre: Op-Ed
