@@ -41,7 +41,7 @@ nav_order: 6
                     <div class="card-body" style="margin: 2px;">
 			<p class="card-text">
 			<small class="test-muted"><i class="fa-solid fa-people-group"></i><b>&nbsp; Contributors:</b> {{ project.metadata.contributors | replace: '<br />', ', ' }}</small> 
-                        <br><br><small class="test-muted"><i class="fa-solid fa-layer-group"></i><b>&nbsp; Type of Data Advocacy:</b> {{ project.metadata.topic | replace: '<br />', ', ' }}</small> 
+                        <br><br><small class="test-muted"><i class="fa-solid fa-layer-group"></i><b>&nbsp; Type of Data Advocacy:</b> {{ project.metadata.tyepofdataadvocacy | replace: '<br />', ', ' }}</small> 
 			<br><br><small class="test-muted"><i class="fa-solid fa-bars-staggered"></i><b>&nbsp; Genre:</b> {{ project.metadata.genre | replace: '<br />', ', ' }}</small> 
 			<br><br><small class="test-muted">&nbsp;<i class="fa-solid fa-file"></i><b>&nbsp; Format:</b> {{ project.metadata.filetype | replace: '<br />', ', ' }}</small> 
 			<br><br><small class="test-muted"><i class="fa-solid fa-link"></i><b>&nbsp; Also Published Here:</b> <a href="{{ project.metadata.source }}">{{ project.metadata.source }}</a></small>
