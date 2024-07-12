@@ -8,8 +8,6 @@ title: "How We Perceive Risk"
 
 teaser: >
   This presentation explores the question of how we assess (and often mis-assess) the safety risks associated with various natural environments and social activities. It advances data-backed explanations of common factors that tend to shape the intuitive risk assessments people make everyday, including elements that often mislead our assessments such as, for instance, dramatic media coverage that warps our sense of how likely certain events are to occur.
-  
-  This presentation was created for the Spring 2024 semester.
 
 metadata:
   image: how-we-perceive-risk.png
