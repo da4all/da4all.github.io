@@ -40,7 +40,6 @@ layout: default
 
   <article>{{ content }}</article>
 
-  <br>
   <hr class="rounded">
   <br>
 
