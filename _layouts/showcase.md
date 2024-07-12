@@ -15,11 +15,13 @@ layout: default
     <h4>Contributors: {{ page.metadata.contributors | replace: '<br />', ', ' }}</h4>
   </header>
 
-  <br><br>
+  <br>
 
   <article>{{ content }}</article>
 
+  <br>
   <hr class="rounded">
+  <br>
 
   <h2>Project Details:</h2>
 
@@ -33,8 +35,8 @@ layout: default
       <div class="col-sm-4 col-md-5">
         <img src="{{ '/assets/img/' | append: page.metadata.image | relative_url }}" class="card-img img-fluid" alt="{{ page.metadata.caption }}" /><br>
         <div class="card-body" style="margin: 2px;">
-          <p class="post-description" style="font-size: 12px">
-            <small><b>Caption:</b> {{ page.metadata.caption | replace: '<br />', ', ' }}</small>
+          <p style="font-size: 13px">
+            <b>Caption:</b> {{ page.metadata.caption | replace: '<br />', ', ' }}
             </p>
             <sl-button-group label="Alignment">
               <sl-button>Genre: {{ page.metadata.genre | replace: '<br />', ', ' }}</sl-button>
