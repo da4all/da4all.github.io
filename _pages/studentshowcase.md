@@ -6,8 +6,6 @@ description: This page shares student projects centered on data advocacy to demo
 nav: true
 nav_order: 6
 ---
-
-<br>
  
 {% assign groups = site.showcase | sort: "group_rank" | map: "group" | uniq %} 
 
@@ -27,7 +25,7 @@ nav_order: 6
                     {% if project.inline == false %}<a href="{{ project.url | relative_url }}">{% endif %}
                     <h5 class="card-title">{{ project.title }}</h5>
                     {% if project.metadata.contributors %}
-			    <h4><i class="fa-solid fa-people-group"></i><b>&nbsp; Contributor(s):</b> {{ project.metadata.contributors | replace: '<br />', ', ' }}</h4>
+			    <h4 class="card-text"><i class="fa-solid fa-people-group"></i><b>&nbsp; Contributor(s):</b> {{ project.metadata.contributors | replace: '<br />', ', ' }}</h4><br>
                     {% endif %}
                     <p class="card-text">
                         {{ project.teaser }}
