@@ -12,7 +12,7 @@ layout: default
 <div class="page">
   <header class="page-header">
     <h1 class="page-title">{{ page.title }}</h1>
-    <h4>Contributors: {{ page.metadata.contributors | replace: '<br />', ', ' }}</h4>
+    <h4><b>Contributors:</b> {{ page.metadata.contributors | replace: '<br />', ', ' }}</h4>
   </header>
 
   <br>
