@@ -9,8 +9,6 @@ title: "Homelessness beyond the Stereotypes"
 teaser: >
   This presentation focuses on the question of how people become homelessness and draws on several data visualizations to explain how a variety of factors, causes, or life crises are often at play, most of which have nothing to do with the stereotype of drug addiction. From this empathetic vantage point, the presentation then explores possible solutions and best practices, both for individual citizens and local governments.
 
-  This presentation was created for the Spring 2024 semester.
-
 metadata:
   image: homelessness-beyond-the-stereotypes.png
   caption: "This image is a still from the video presentation. It shows the student—Carlos, a masculine individual wearing a black hoodie, speaking to the camera—presenting three graphics that show the rate of homelessness per 10,000 people in the general populations. The graphic on the right provides specific information for Arizona, the one on the left shows comparative rates of homelessness across the entire United States, and the bottom graphic provides specific information for Colorado."
@@ -23,6 +21,9 @@ metadata:
 ---
 
 <div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/S8Ax4S26UbM?si=rhPE1yXL6IjiQKT2" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Rehabilitation vs. Punishment" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+
 <br>
 
+This student presentation was created as part of a data storytelling unit in a Spring 2024 first-year writing course.
 
+<br>
