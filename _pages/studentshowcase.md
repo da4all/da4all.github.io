@@ -26,6 +26,9 @@ nav_order: 6
                 <div class="card-body">
                     {% if project.inline == false %}<a href="{{ project.url | relative_url }}">{% endif %}
                     <h5 class="card-title">{{ project.title }}</h5>
+                    {% if project.metadata.contributors %}
+			    <h4><i class="fa-solid fa-people-group"></i><b>&nbsp; Contributor(s):</b> {{ project.metadata.contributors | replace: '<br />', ', ' }}</h4>
+                    {% endif %}
                     <p class="card-text">
                         {{ project.teaser }}
 			    <small><br><br></small>
@@ -36,9 +39,6 @@ nav_order: 6
                 <br><img src="{{ '/assets/img/' | append: project.metadata.image | relative_url }}" class="card-img img-fluid max-width: 80%" alt="{{ project.metadata.caption }}" />
                     <div class="card-body" style="margin: 2px;">
 			<p class="card-text">
-			{% if project.metadata.contributors %}
-				<small class="test-muted"><i class="fa-solid fa-people-group"></i><b>&nbsp; Contributor(s):</b> {{ project.metadata.contributors | replace: '<br />', ', ' }}</small><br><br>
-			{% endif %}
 			{% if project.metadata.typeofdataadvocacy %}
                         <small class="test-muted"><i class="fa-solid fa-layer-group"></i><b>&nbsp; Type of Data Advocacy:</b> {{ project.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</small><br><br>
 			{% endif %}
