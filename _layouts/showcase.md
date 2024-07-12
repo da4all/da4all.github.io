@@ -8,6 +8,12 @@ layout: default
   border-radius: 5px;
 }
 
+  sl-button.attribute::part(base) {
+    border-radius: 0;
+    background-color: #BF0A30;
+    color: white;
+  }
+  
   sl-button.attribute::part(base):hover {
     transform: scale(0) rotate(0deg);
   }
