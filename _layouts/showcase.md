@@ -24,6 +24,8 @@ layout: default
     <h4><b>Contributor(s):</b> {{ page.metadata.contributors | replace: '<br />', ', ' }}</h4>
   </header>
 
+<br>
+
 {% if page.metadata.typeofdataadvocacy %}
 <sl-button class="attribute noHover">Type of Data Advocacy: {{ page.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button>
 {% endif %}
