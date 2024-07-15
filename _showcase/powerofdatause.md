@@ -21,7 +21,6 @@ metadata:
     typeofdataadvocacy: Data Storytelling
     contributors: UNICEF Group
     source: https://www.youtube.com/watch?v=fvD9boY4vBA&ab_channel=UNICEFData
-    align: right
 
 ---
 
