@@ -21,7 +21,6 @@ metadata:
     typeofdataadvocacy: Education
     contributors: Student A, Student B, Student C, and Student D
     source: https://nces.ed.gov/surveys/annualreports/topical-studies/covid/
-    align: right
 
 ---
 
