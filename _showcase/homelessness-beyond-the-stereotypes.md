@@ -4,7 +4,7 @@ inline: false
 group: Examples of Data Storytelling Presentations
 group_rank: 1
 
-title: "Homelessness beyond the Stereotypes"
+title: "Homelessness Beyond the Stereotypes"
 
 teaser: >
   This presentation focuses on the question of how people become homelessness and draws on several data visualizations to explain how a variety of factors, causes, or life crises are often at play, most of which have nothing to do with the stereotype of drug addiction. From this empathetic vantage point, the presentation then explores possible solutions and best practices, both for individual citizens and local governments.
