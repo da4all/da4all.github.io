@@ -15,10 +15,6 @@ teaser: >
 
 keywords:
   - "data"
-  - "Keyword 2"
-  - "Keyword 3"
-  - "Keyword 4"
-  - "Keyword 5"
 
 metadata:
   source: 
