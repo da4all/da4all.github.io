@@ -6,12 +6,14 @@ domain:
  - Understanding Data
 subdomain:
   - Defining Data
-sample_resource: false
+  - Acting Ethically with Data
+  - Advocating with Data
+sample_resource: true
 
-title: "A Rhetorical Data Studies Approach to Data Advocacy and Data Storytelling"
+title: "A Rhetorical Data Studies Approach to Data Advocacy"
 
 teaser: >
-  In this whitepaper crafted for Data Advocacy for All, rhetorical data studies is forwarded as a critical and constructive framework for helping students negotiate the rhetorical politics of accountability--the struggle over how to ethically collect, process, and deploy data, alongside narratives and other rhetorical strategies, to account for ongoing injustices in attempt to fight for social change. 
+  In this whitepaper crafted for Data Advocacy for All, data advocacy is defined and explained as a deeply rhetorical and ethical action while rhetorical data studies is forwarded as a critical and constructive framework for helping students negotiate the rhetorical politics of accountability--the struggle over how to ethically collect, process, and deploy data, alongside narratives and other rhetorical strategies, to account for ongoing injustices in attempt to fight for social change. 
 
 keywords:
 - rhetoric
@@ -24,9 +26,7 @@ metadata:
     author: Laurie Gries
     date:
     license: Creative Commons CC-BY
-    citation: Gries, Laurie. (forthcoming). “A Rhetorical Data Studies Approach to Data Advocacy and Data Storytelling.” (Will be Creative Commons CC-BY).
-    align: right
-
+    citation: Gries, Laurie. “A Rhetorical Data Studies Approach to Data Advocacy.” Creative Commons CC-BY. 2024.
 ---
 
-**Sample Citation:** "Gries, Laurie. (forthcoming). “A Rhetorical Data Studies Approach to Data Advocacy and Data Storytelling.” (Will be Creative Commons CC-BY)."
+
