@@ -19,11 +19,11 @@ keywords:
   - "Persuading with Data"
 
 metadata:
-  source: "URL Source"
-  author: "Author"
-  date: "YYYY-MM-DD"
+  source: 
+  author: "John Tinnell"
+  date: "2024-07-16"
   license: "License Type: CC BY"
-  citation: "John Tinnell, ‘From Data Visualizations to Data Stories,’ Data Advocacy For All"
+  citation: "Tinnell, John. ‘From Data Visualizations to Data Stories,’ Data Advocacy For All"
 ---
 ## Activity Overview
 In this activity, students will experiment with tactics for assembling a variety of source material into a story outline. They will consider ways to strike a balance between data points and the lived experiences of individual stakeholders, and between local details and broader implications. The activity uses a recent article about the expansion of Amazon delivery hubs in residential areas as a case study and as a jumping off point to inspire students’ experimentation with data storytelling. The article appeared in 2022 in the Guardian, and it is titled “Are Amazon Delivery Hubs Making Neighborhoods Less Healthy and More Dangerous?” Plan to have students read it before the class day(s) in which you do this activity. 
