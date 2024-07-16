@@ -29,5 +29,5 @@ metadata:
   author: "Shannon Vallor and William Rewak"
   date: 2018-01-23
   license: 
-  citation: "Vallor, Shannon and William Rewak. “An Introduction to Data Ethics." Markkula Center for Applied Ethics. https://www.scu.edu/ethics/focus-areas/technology-ethics/resources/an-introduction-to-data-ethics/." 
+  citation: "Vallor, Shannon and William Rewak. 'An Introduction to Data Ethics.' Markkula Center for Applied Ethics. https://www.scu.edu/ethics/focus-areas/technology-ethics/resources/an-introduction-to-data-ethics/." 
 ---
