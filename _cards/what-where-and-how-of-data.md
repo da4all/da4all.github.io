@@ -9,7 +9,7 @@ sample_resource: true
 title: "The What, Where and How of Data for Data Science"
 
 teaser: >
-  Here we will take data science apart and build it back up to a coherent and manageable concept. Bear with us!
+  This blog post unpacks the notion of data science in all of its complexity.
 
 metadata:
   source: "https://www.kdnuggets.com/2018/06/what-where-how-data-science.html"
