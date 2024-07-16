@@ -8,7 +8,7 @@ subdomain: Defining Data
 title: "What is Data? Definition and Examples"
 
 teaser: >
-  Data means information, more specifically facts, figures, measurements and amounts that we gather for analysis or reference. The term’s meaning also includes descriptive information about things, plants, animals, and people. We collect and store data typically through observation.
+  This article offers a general understanding of data for the field of business and includes a glossary of related terms as well as two educational videos about what data is and what data storytelling is. 
 
 metadata:
     source: https://marketbusinessnews.com/financial-glossary/data-definitio/
