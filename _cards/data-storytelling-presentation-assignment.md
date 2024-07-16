@@ -18,9 +18,9 @@ keywords:
   - "Persuading with Data"
 
 metadata:
-  source: "URL Source"
+  source: 
   author: "John Tinnell"
-  date: "YYYY-MM-DD"
+  date: "2024-07-16"
   license: "License Type: CC BY"
   citation: "Tinnell John. ‘Data Storytelling Presentation Assignment.’ Data Advocacy For All"
 ---
