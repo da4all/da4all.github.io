@@ -25,7 +25,7 @@ keywords:
   - "data advocacy"
 
 metadata:
-  source: "https://www.scu.edu/media/ethics-center/technology-ethics/IntroToDataEthics.pdf"
+  source: "https://www.scu.edu/media/ethics-center/technology-ethics"
   author: "Shannon Vallor and William Rewak"
   date: 2018-01-23
   license: 
