@@ -9,7 +9,7 @@ sample_resource: true
 title: "The What, Where and How of Data for Data Science"
 
 teaser: >
-  This blog post unpacks the notion of data science in all of its complexity.
+  This blog post unpacks the notion of data from a data science perspective while also unpacking the complexity of data science and offering a useful infographic to explain the key processes of data science.
 
 metadata:
   source: "https://www.kdnuggets.com/2018/06/what-where-how-data-science.html"
