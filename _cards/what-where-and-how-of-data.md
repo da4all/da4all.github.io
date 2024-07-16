@@ -4,7 +4,7 @@ inline: false
 resource: Reading
 domain: Understanding Data
 subdomain: Defining Data
-sample_resource: true
+sample_resource: false
 
 title: "The What, Where and How of Data for Data Science"
 
