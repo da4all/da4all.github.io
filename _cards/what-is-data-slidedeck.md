@@ -6,7 +6,7 @@ domain:
   - Understanding Data
 subdomain:
   - Defining Data
-  - sample_resource: true
+sample_resource: true
 
 title: "What is Data? SlideDeck"
 
