@@ -45,4 +45,4 @@ Students may choose to research data about any social issue that interests them.
 ### Rubric:
 You may use the following rubric (or any variation of it) to assess student’s data storytelling presentations.
 
-[##Insert image of rubric here] 
+[***Insert image of rubric here] 
