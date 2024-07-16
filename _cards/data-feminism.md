@@ -3,7 +3,7 @@ layout: card
 inline: false
 resource: Term
 domain: Understanding Data
-subdomain: Defining Data
+subdomain: Critiquing Data
 
 title: Data Feminism
 
