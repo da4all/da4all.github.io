@@ -8,7 +8,7 @@ subdomain: Defining Data
 title: The History of Data-as-Rhetoric
 
 teaser: >
-  This article provides an effective framework for introducing data-as-rhetoric.
+  This blog post emphasizes how the definition of data is ever changing, as it shifts with argumentative strategy and context.
 
 metadata:
     source: https://markcarrigan.net/2016/09/12/the-history-of-data-as-rhetoric/
