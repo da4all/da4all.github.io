@@ -7,6 +7,7 @@ domain:
   - Processing Data
 
 subdomain:
+  - Defining Data
   - Critiquing Data
   - Collecting Data
 
