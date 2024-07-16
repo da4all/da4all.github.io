@@ -21,7 +21,7 @@ keywords:
   - "Keyword 5"
 
 metadata:
-  source: "URL Source"
+  source: 
   author: "Laurie Gries"
   date: "2024-06-01"
   license: "CC BY-NC"
