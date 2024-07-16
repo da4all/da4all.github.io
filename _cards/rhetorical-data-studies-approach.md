@@ -29,4 +29,4 @@ metadata:
     citation: A Rhetorical Data Studies Approach to Data Advocacy © 2024 by Laurie Gries is licensed under CC BY-NC-ND 4.0 
 ---
 
-<iframe src="https://da4asandbox.github.io/curricularsite/assets/pdf/A-Rhetorical-Data-Studies-Approach-to-Data-Advocacy.pdf" width="1280" height="720" frameborder="0" scrolling="yes" allowfullscreen title="A Rhetorical Data Studies Approach to Data Advocacy" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+<iframe width="100%" height="1000" src="https://da4asandbox.github.io/curricularsite/assets/pdf/A-Rhetorical-Data-Studies-Approach-to-Data-Advocacy.pdf" allowfullscreen>iFrame HERE</iframe>
