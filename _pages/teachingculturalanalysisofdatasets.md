@@ -10,7 +10,7 @@ nav_order: 7
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/themes/light.css" />
 <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/shoelace.js" ></script>
 
-<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://drive.google.com/file/d/1sJHTa3AObsWERW_0gbJIUSx2b-gPA6OI/preview" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Teaching Cultural Analysis of Datasets" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/F8xikOzznKA?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Teaching Cultural Analysis of Datasets" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
 <br>
 
 ## Part of the Data Advocacy for All Speaking Series 
