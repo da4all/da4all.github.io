@@ -4,7 +4,7 @@ inline: false
 resource: Reading
 domain: Understanding Data
 subdomain:   Defining Data
-Critiquing Data
+  - Critiquing Data
 
 title: "Critical Data Studies: An Introduction"
 
