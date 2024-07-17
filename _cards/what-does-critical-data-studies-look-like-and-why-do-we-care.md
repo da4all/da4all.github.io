@@ -25,5 +25,5 @@ metadata:
   author: "Craig Dalton and Jim Thatcher"
   date: 2014-05-12
   license: 
-  citation: "Dalton, Craig and Jim Thatcher. 'What does Critical Data Studies look like and Why do we Care?' Society and Space. https://www.societyandspace.org/article"s/what-does-a-critical-data-studies-look-like-and-why-do-we-care.
+  citation: "Dalton, Craig and Jim Thatcher. 'What does Critical Data Studies look like and Why do we Care?' Society and Space. https://www.societyandspace.org/article"s/what-does-a-critical-data-studies-look-like-and-why-do-we-care."
 ---
