@@ -46,19 +46,15 @@ metadata:
 
 * “Critical Cartography: subjectivity, politics, and the power 
 of spatial data.”YouTube, uploaded by HarvardHumanitarian, 5. November, 2020, 
-https://www.youtube.com/watch?v=Matpi4BhBTM. 
-* “Why all world maps are wrong.” YouTube, uploaded by Vox, 2, December 2016,  https://www.youtube.com/watch?v=kIID5FDi2JQ. 
-* Matson, Laura and Melinda Kernik. “Scale and Projections.” Mapping, Technology, and Society, edited by Steven Manson, University of Minnesota Libraries Publishing, 2017. https://open.lib.umn.edu/mapping/chapter/3-scale-and-projections/
-* Deluca, Eric and Dudley Bonsal. “Design and Symbolization.” Mapping, Technology, and Society, edited by Steven Manson, University of Minnesota Libraries Publishing, 2017. https://open.lib.umn.edu/mapping/chapter/4-design-and-symbolization/
-* “Cartography Guide: A short, friendly guide to the basic principles of map design.” Axis Maps, 2020,  https://www.axismaps.com/guide, Accessed 15. June, 2020.  [Skim tutorials]
+[https://www.youtube.com/watch?v=Matpi4BhBTM](https://www.youtube.com/watch?v=Matpi4BhBTM)
+* “Why all world maps are wrong.” YouTube, uploaded by Vox, 2, December 2016,  [https://www.youtube.com/watch?v=kIID5FDi2JQ](https://www.youtube.com/watch?v=kIID5FDi2JQ). 
+* Matson, Laura and Melinda Kernik. “Scale and Projections.” Mapping, Technology, and Society, edited by Steven Manson, University of Minnesota Libraries Publishing, 2017. [https://open.lib.umn.edu/mapping/chapter/3-scale-and-projections/](https://open.lib.umn.edu/mapping/chapter/3-scale-and-projections/)
+* Deluca, Eric and Dudley Bonsal. “Design and Symbolization.” Mapping, Technology, and Society, edited by Steven Manson, University of Minnesota Libraries Publishing, 2017. [https://open.lib.umn.edu/mapping/chapter/4-design-and-symbolization/](https://open.lib.umn.edu/mapping/chapter/4-design-and-symbolization/)
+* “Cartography Guide: A short, friendly guide to the basic principles of map design.” Axis Maps, 2020,  [https://www.axismaps.com/guide](https://www.axismaps.com/guide), Accessed 15. June, 2020.  [Skim tutorials]
 
 # Agenda
 
-1. Discussion of video/reading assignment (35 minutes)
-2. Critical Cartography (20 minutes)
-3. “This is not an atlas” (20 minutes)
-
-## Video/reading discussion
+## Video/reading discussion (35 minutes)
 
 Begin class with a discussion of some of the issues raised in the videos that students watched in preparation for class. Some discussion questions might include the following: 
 
@@ -71,7 +67,7 @@ Begin class with a discussion of some of the issues raised in the videos that st
 * What is the relationship between maps and marginalized populations? How can this state of affairs be changed?
 * What do we mean by the “decolonization of mapping”? What are some strategies for pursuing this decolonization project?
 
-## Critical Cartography
+## Critical Cartography (20 minutes)
 
 Have students peruse this collection of historical maps from Stanford University: [https://www.davidrumsey.com/](https://www.davidrumsey.com) 
 
@@ -83,7 +79,7 @@ Have them select a map and answer the following questions (adapted from Erica Ne
 * What are their biases?
 * What are the systems of power that the map reflects?
 
-## Counter-cartographies
+## Counter-cartographies (20 minutes)
 
 Have students peruse this collection of “critical” maps (in small groups) that attempt to transform maps from tools of hegemony or control, to agents of emancipation or reform: [https://notanatlas.org/#atlas-maps](https://notanatlas.org/#atlas-maps)
 
