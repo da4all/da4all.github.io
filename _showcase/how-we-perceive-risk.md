@@ -11,7 +11,7 @@ teaser: >
 
 metadata:
   image: how-we-perceive-risk.png
-  caption: "This image is a still from the video presentation. It shows the student—John, a masculine individual with dark black hair and facial hair, wearing a red shirt and over-the-ear headphones—presenting a graphic that shows the difference between public concern or perceived risk and actual hazard or real risk. ‘Terrorist attack’ and ‘plane crash’ have more public concern than actual hazard, and ‘heat,’ ‘traffic accident,’ and ‘cancer’ have more actual hazard than public concern. At the bottom of the graphic, there is a note that reads: ‘Adapted from Susanna Hertrich data visualization (www.susannahertrich.com’)"
+  caption: "A still from the video presentation. It shows the student—John, a masculine individual with dark black hair and facial hair, wearing a red shirt and over-the-ear headphones—presenting a graphic that shows the difference between public concern or perceived risk and actual hazard or real risk. ‘Terrorist attack’ and ‘plane crash’ have more public concern than actual hazard, and ‘heat,’ ‘traffic accident,’ and ‘cancer’ have more actual hazard than public concern. At the bottom of the graphic, there is a note that reads: ‘Adapted from Susanna Hertrich data visualization (www.susannahertrich.com’)"
   genre: "Data Storytelling Presentation"
   filetype: ".mp4"
   typeofdataadvocacy: "Public Safety"
