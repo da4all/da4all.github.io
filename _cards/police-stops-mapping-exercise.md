@@ -7,14 +7,7 @@ domain:
   - Processing Data
   - Persuading with Data
 subdomain:
-  - Advocating with Data
-  - Collecting Data
-  - Organizing and Cleaning Data
-  - Analyzing Data
-  - Making Claims with Data
-  - Visualizing Data
   - Mapping Data
-  - Telling Stories with Data
 sample_resource: false
 
 title: "Exploring the Geography of Systemic Racism With Spatial Data Science"
