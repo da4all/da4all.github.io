@@ -14,7 +14,7 @@ metadata:
   caption: "A still from the video presentation. It shows the student—Carlos, a masculine individual wearing a black hoodie, speaking to the camera—presenting three graphics that show the rate of homelessness per 10,000 people in the general population. The graphic on the right provides specific information for Arizona, the one on the left shows comparative rates of homelessness across the entire United States, and the bottom graphic provides specific information for Colorado."
   genre: "Data Storytelling Presentation"
   filetype: ".mp4"
-  typeofdataadvocacy: "Public Safety "
+  typeofdataadvocacy: "Unhoused/Homelessness Advocacy"
   contributors: "Carlos Martinez Ynsunza"
   source: 
   align: right
