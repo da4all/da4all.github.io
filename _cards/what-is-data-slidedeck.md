@@ -11,7 +11,7 @@ sample_resource: true
 title: "What is Data?"
 
 teaser: >
-  This adaptable slideshow assembles quotes that define data from different perspectives, sources, and fields of inquiry.
+  This activity challenges students to consider what data is from different perspectives, sources, and fields of inquiry as well as reflect on their own understandings of data.
 
 keywords:
   - "data"
@@ -23,7 +23,6 @@ metadata:
   license: "CC BY-NC"
   citation: 
 ---
-What is Data? 
 This activity is a useful opening exercise for getting students to think about their conceptions of data before introducing them to any readings. 
 
 Please complete the following three part prompt, which asks you to reflect upon your own and others’ conceptions of data. Be prepared to share your three part response in class with instructor and peers. 
