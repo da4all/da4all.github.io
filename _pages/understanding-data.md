@@ -28,7 +28,7 @@ The resources offered under this literacy domain push students to ask critical q
   <h1 class="category">Defining Data</h1>
 </div>
 
-Resources for this literacy domain offers students opportunities to explore what data is from a variety of disciplinary and professional perspectives. Students are especially encouraged to explore the important links between data, people, and power. 
+Resources for this literacy domain offers students opportunities to explore what data is from a variety of disciplinary and professional perspectives. Students are especially encouraged to explore the important links between data, contexts, people, organizations, and power.
 
 <div class ="projects">
   <h2 class="category">Sample Toolkit Resources</h2>
