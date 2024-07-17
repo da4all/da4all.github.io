@@ -5,8 +5,6 @@ resource: Reading
 domain: 
  - Understanding Data
 subdomain:
-  - Defining Data
-  - Acting Ethically with Data
   - Advocating with Data
 sample_resource: true
 
@@ -29,4 +27,9 @@ metadata:
     citation: A Rhetorical Data Studies Approach to Data Advocacy © 2024 by Laurie Gries is licensed under CC BY-NC-ND 4.0 
 ---
 
-<iframe width="100%" height="1000" src="https://da4asandbox.github.io/curricularsite/assets/pdf/A-Rhetorical-Data-Studies-Approach-to-Data-Advocacy.pdf" allowfullscreen>iFrame HERE</iframe>
+NOTE 
+This whitepaper is useful for the following purposes:
+•	Introducing students to a rhetorical data studies approach to data advocacy
+•	Defining Data and Data Advocacy from a rhetorical perspective
+•	Deepening student understanding of Data Ethics from a rhetorical perspective
+•	Introducing students to rhetoric and the art of rhetorical production
