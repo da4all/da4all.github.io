@@ -6,15 +6,7 @@ domain:
   - Understanding Data
   - Persuading with Data
 subdomain:
-  - Critiquing Data
-  - Acting Ethically with Data
-  - Advocating with Data
-  - Collecting Data
-  - Analyzing Data
-  - Making Claims with Data
-  - Visualizing Data
   - Mapping Data
-  - Telling Stories with Data
 sample_resource: false
 
 title: "Maps, Mapmaking, and Critical Pedagogy: Exploring GIS and Maps as a Teaching Tool for Social Change"
