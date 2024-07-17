@@ -11,7 +11,7 @@ teaser: >
 
 metadata:
   image: rehabilitation-vs-punishment.png
-  caption: "This image is a still from the video presentation. It includes the words 'Rehabilitation v.s. Punishment' at the top of the image, and below there is a photo of a hallway of a prison facility. There are windows and technical equipment lining the right side of the hallway, and cells on the left. Two hands from a black individual rest through one of the cells."
+  caption: "A still from the video presentation. It includes the words 'Rehabilitation v.s. Punishment' at the top of the image, and below there is a photo of a hallway of a prison facility. There are windows and technical equipment lining the right side of the hallway, and cells on the left. Two hands from a black individual rest through one of the cells."
   genre: "Data Storytelling Presentation"
   filetype: ".mp4"
   typeofdataadvocacy: "Prison Reform"
