@@ -8,7 +8,7 @@ subdomain:
   - Defining Data
 sample_resource: true
 
-title: "What is Data SlideDeck"
+title: "What is Data?"
 
 teaser: >
   This adaptable slideshow assembles quotes that define data from different perspectives, sources, and fields of inquiry.
