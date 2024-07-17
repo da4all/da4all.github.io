@@ -7,13 +7,7 @@ domain:
   - Processing Data
   - Persuading with Data
 subdomain:
-  - Critiquing Data
-  - Acting Ethically with Data
-  - Advocating with Data
-  - Making Claims with Data
-  - Visualizing Data
   - Mapping Data
-  - Telling Stories with Data
 sample_resource: false
 
 title: "Map Design and Critical Cartography"
