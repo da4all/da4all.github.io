@@ -13,7 +13,7 @@ sample_resource: false
 title: "The Limits of Data"
 
 teaser: >
-  In this opinion piece for Issues in Science and Technology (5,279 words), philosopher C. Thi Nguyen argues that data creation is a process of decontextualization. The lack of context is precisely what makes data portable and aggregable, by sacrificing nuance and domain-specific expertise, thus mandating a one-size-fits-all approach to policy. Nguyen also explains the politics of classification and metrics, and ultimately calls for a critical approach to data. This article provides an excellent introduction critical data studies, although it does not use that term.
+  In this opinion piece for Issues in Science and Technology (5,279 words), philosopher C. Thi Nguyen argues that data creation is a process of decontextualization. The lack of context is precisely what makes data portable and aggregable, by sacrificing nuance and domain-specific expertise, thus mandating a one-size-fits-all approach to policy. Nguyen also explains the politics of classification and metrics, and ultimately calls for a critical approach to data. This article provides an excellent introduction to critical data studies, although it does not use that term.
 
 keywords:
   - "Critical Data Studies"
