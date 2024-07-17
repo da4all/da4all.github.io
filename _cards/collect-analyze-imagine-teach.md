@@ -5,13 +5,14 @@ resource: Reading
 domain:
   - Understanding Data
 subdomain:
+  - Critiquing Data
   - Acting Ethically with Data
 sample_resource: false
 
 title: "Collect, Analyze, Imagine, Teach"
 
 teaser: >
-  In this chapter of <i>Data Feminism</i>, Catherine D’Ignazio and Lauren Klein emphasize the ways data can both reinforce and challenge systems of oppression.
+  In this chapter of <i>Data Feminism</i>, Catherine D’Ignazio and Lauren Klein not only emphasize the ways data can both reinforce and challenge systems of oppression but also introduce notions and examples of data ethics so that practioners are better prepared to work toward equity and co-liberation in their data practices.
 
 keywords:
   - "Data Feminism"
