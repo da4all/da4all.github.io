@@ -20,6 +20,8 @@ metadata:
 
 ---
 
+# Assignment Description 
+
 Students will be assigned into groups of 2-4 (depending on class size). Students are to find a published map that explores a social issue of interest (they may select a map from one of the websites in the assigned readings, but are not limited to these maps). In the final class, students will use their chosen maps as the basis for a class presentation that explores and analyzes this map from a rhetorical and data-advocacy perspective.
 
 In the presentation, they should discuss:
@@ -35,4 +37,15 @@ They should also prepare some of their own discussion questions based on the map
 
 Each group will also write a 4-5 page paper that analyzes the chosen map, and that addresses the questions listed above; if possible, they are encouraged to incorporate feedback received during the presentation and class discussion into the final papers. 
 
-**Note:** Students are welcome to use a map that they already encountered from one of the sources discussed in class, but are by no means required to do so. If students are having trouble finding an appropriate map, they are encouraged to consult with the course instructor, or with a reference librarian. The instructor may also consider arranging a short learning session in which a librarian could provide general guidance on discovering a map appropriate for this assignment. For information on features of an effective oral presentation, students can be referred to the following resource: [https://www.gvsu.edu/ours/oral-presentation-tips-30.htm](https://www.gvsu.edu/ours/oral-presentation-tips-30.htm). 
+## Finding an Appropriate Map
+
+Discovering an appropriate and interesting map to present is an important part of the assignment, which aims to give students experience in the process of discovering and evaluating secondary data sources and products. If students are having trouble finding an appropriate map, they are encouraged to consult with the course instructor, or with a reference or geospatial librarian. The instructor may also consider arranging a short learning session in which a librarian could provide general guidance on discovering a map appropriate for this assignment. Instructors may also wish to suggest some resources for students to explore, to get them started in the process of finding a map. Some useful sources to recommend include:
+
+* Nass, Daniel. “An Atlas of American Gun Violence.” The Trace, February 1. 2023, [https://www.thetrace.org/2023/02/gun-violence-map-america-shootings/](https://www.thetrace.org/2023/02/gun-violence-map-america-shootings/). Accessed 15 June. 2023. 
+* “Racial Equity GIS Hub.” Esri. n.d.  [https://www.esri.com/en-us/racial-equity/overview](https://www.esri.com/en-us/racial-equity/overview). Accessed 15. June, 2023.  
+* Linders, Pim, Kavya Vaghul, Marshall Steinbaum, Maggie Thompson, and Charlotte Hancock.  “Mapping Student Debt.” Washington Center for Equitable Growth. n.d.  [https://mappingstudentdebt.org/#/map-1-an-introduction](https://mappingstudentdebt.org/#/map-1-an-introduction). Accessed 15. June, 2023. 
+* “Opioid Mapping Initiative.” New America. n.d. [https://opioidmappinginitiative-opioidepidemic.opendata.arcgis.com/](https://opioidmappinginitiative-opioidepidemic.opendata.arcgis.com/). Accessed 15. June, 2023.  
+
+## Presentation Guidance 
+
+The assignment should also be seen as a way for students to practice their oral presentation skills. For information on features of an effective oral presentation, students can be referred to the following resource: [https://www.gvsu.edu/ours/oral-presentation-tips-30.htm](https://www.gvsu.edu/ours/oral-presentation-tips-30.htm). 
