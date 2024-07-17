@@ -23,7 +23,9 @@ metadata:
   license: "CC BY-NC"
   citation: 
 ---
-This activity is a useful opening exercise for getting students to think about their conceptions of data before introducing them to any readings. 
+This activity is a useful opening exercise for getting students to think about their conceptions of data before introducing them to any readings.
+
+---
 
 Please complete the following three part prompt, which asks you to reflect upon your own and others’ conceptions of data. Be prepared to share your three part response in class with instructor and peers. 
 
