@@ -3,11 +3,10 @@ layout: card
 inline: false
 resource: Reading
 domain:
-  - Understanding Data
+  - Processing Data
 subdomain:
-  - Critiquing Data
-  - Acting Ethically with Data
-sample_resource: false
+  - Analyzing Data
+sample_resource: true
 
 title: "Attending to the Cultures of Data Science Work"
 
