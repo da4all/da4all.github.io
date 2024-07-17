@@ -6,11 +6,6 @@ domain:
   - Processing Data
   - Persuading with Data
 subdomain:
-  - Organizing and Cleaning Data
-  - Analyzing Data
-  - Storing and Preserving Data
-  - Making Claims with Data
-  - Visualizing Data
   - Mapping Data
 sample_resource: false
 
