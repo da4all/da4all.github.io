@@ -11,7 +11,7 @@ sample_resource: true
 title: "What is Data SlideDeck"
 
 teaser: >
-  This slideshow assembles quotes that define data from different perspectives, sources, and fields of inquiry.
+  This adaptable slideshow assembles quotes that define data from different perspectives, sources, and fields of inquiry.
 
 keywords:
   - "data"
