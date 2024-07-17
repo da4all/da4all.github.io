@@ -3,7 +3,7 @@ layout: card
 inline: false
 resource: Term
 domain: Understanding Data
-subdomain: Defining Data
+subdomain: Advocating with Data
 sample_resource: true
 
 title: Data Advocacy
