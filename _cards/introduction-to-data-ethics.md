@@ -7,11 +7,6 @@ domain:
   - Processing Data
 subdomain:
   - Acting Ethically with Data
-  - Advocating with Data
-  - Collecting Data
-  - Organizing and Cleaning Data
-  - Analyzing Data
-  - Storing and Preserving Data
 sample_resource: true
 
 title: "An Introduction to Data Ethics"
