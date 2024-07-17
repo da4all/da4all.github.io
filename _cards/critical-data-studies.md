@@ -3,8 +3,8 @@ layout: card
 inline: false
 resource: Reading
 domain: Understanding Data
-subdomain:   Defining Data
-  - Critiquing Data
+subdomain:   Critiquing Data
+sample_resource: true
 
 title: "Critical Data Studies: An Introduction"
 
