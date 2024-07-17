@@ -11,7 +11,7 @@ teaser: >
 
 metadata:
   image: homelessness-beyond-the-stereotypes.png
-  caption: "This image is a still from the video presentation. It shows the student—Carlos, a masculine individual wearing a black hoodie, speaking to the camera—presenting three graphics that show the rate of homelessness per 10,000 people in the general populations. The graphic on the right provides specific information for Arizona, the one on the left shows comparative rates of homelessness across the entire United States, and the bottom graphic provides specific information for Colorado."
+  caption: "A still from the video presentation. It shows the student—Carlos, a masculine individual wearing a black hoodie, speaking to the camera—presenting three graphics that show the rate of homelessness per 10,000 people in the general population. The graphic on the right provides specific information for Arizona, the one on the left shows comparative rates of homelessness across the entire United States, and the bottom graphic provides specific information for Colorado."
   genre: "Data Storytelling Presentation"
   filetype: ".mp4"
   typeofdataadvocacy: "Public Safety "
