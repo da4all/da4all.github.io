@@ -5,15 +5,6 @@ resource: Reading
 domain:
   - Understanding Data
 subdomain:
-  - Defining Data
-  - Critiquing Data
-  - Acting Ethically with Data
-  - Advocating with Data
-  - Organizing and Cleaning Data
-  - Analyzing Data
-  - Storing and Preserving Data
-  - Making Claims with Data
-  - Visualizing Data
   - Mapping Data
 sample_resource: false
 
