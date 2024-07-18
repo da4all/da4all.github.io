@@ -5,7 +5,6 @@ resource: Reading
 domain:
   - Understanding Data
 subdomain:
-  - Defining Data
   - Critiquing Data
 
 sample_resource: false
@@ -28,5 +27,3 @@ metadata:
   license: "© 2024 Arizona State University. All Rights Reserved"
   citation: "Nguyen, C. Thi. “The Limits of Data.” Issues in Science and Technology 40, no. 2 (Winter 2024): 94–101. https://doi.org/10.58875/LUXD6515"
 ---
-
-Page content goes here
