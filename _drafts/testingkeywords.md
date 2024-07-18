@@ -4,14 +4,14 @@ permalink: /testing-keywords/
 title: Testing Keywords
 description:
 nav: false
-nav_order: 
+nav_order:
 ---
 
 ## Testing 98
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
-    
+
     <label for="resource-filter">Type of Resource:</label>
     <select id="resource-filter">
       <option value="all">All</option>
@@ -41,11 +41,13 @@ nav_order:
     </select>
 
     <br>
-    
+
     <label for="keyword-filter">Keywords:</label>
     <div class="tag-category-list" style="font-size: 0.8em; line-height: 1;">
       <ul class="p-0 m-0">
-        {% assign all_keywords = site.cards | map: 'keywords' | join: ',' | split: ',' | uniq %}
+        {% if keywords_list.size > 0 %}
+          {% assign all_keywords = keywords_list | join: ',' | split: ',' | uniq %}
+        {% endif %}
         {% for keyword in all_keywords %}
         <li style="display: inline-block; margin-right: 5px; margin-bottom: 5px; padding: 5px; border: 1px solid #ccc; border-radius: 5px;">
           <i class="fa-solid fa-hashtag fa-sm"></i> <a href="#" class="keyword-filter" data-keyword="{{ keyword }}">{{ keyword }}</a>
@@ -56,6 +58,7 @@ nav_order:
         {% endfor %}
       </ul>
     </div>
+
   </div>
 </div>
 
@@ -142,7 +145,7 @@ document.addEventListener('DOMContentLoaded', function() {
     cards.forEach(card => {
       const domain = card.getAttribute('data-domain'); // Get domain from data attribute
       const subdomain = card.getAttribute('data-subdomain'); // Get subdomain from data attribute
-      const resource = card.querySelector('.resource').textContent.trim().replace('Type of Resource: ', ''); 
+      const resource = card.querySelector('.resource').textContent.trim().replace('Type of Resource: ', '');
 
       const domainMatch = selectedDomain === 'all' || domain === selectedDomain;
       const subdomainMatch = selectedSubdomain === 'all' || subdomain === selectedSubdomain;
@@ -168,7 +171,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   filterCards();
 });
-  
+
   resourceFilter.addEventListener('change', filterCards);
 
   keywordLinks.forEach(link => {

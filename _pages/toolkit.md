@@ -122,7 +122,7 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
           </small></p>
           {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
             <p class="card-text">
-              {% assign words = card.teaser | number_of_words %}
+              {% assign words = card.teaser | default: '' | number_of_words %}
               {% if words > 150 %}
               {% assign teaser_words = card.teaser | split: ' ' | slice: 0, 150 | join: ' ' %}
               {{ teaser_words }} <span style="color: #0140A8;">[Read More]</span>
