@@ -9,7 +9,7 @@ subdomain:
   - Mapping Data
 sample_resource: false
 
-title: "Mapping for Data Advocacy with QGIS"
+title: "Mapping for Data Advocacy with Quantum Geographic Information Systems (QGIS)"
 
 teaser: >
   This tutorial provides a step-by-step introduction to the process of making a basic choropleth map in Quantum Geographic Information Systems (QGIS), a widely used and supported open-source geospatial application. The tutorial uses data on student debt, and invites students to replicate a map of state-level variation in average student debt levels (in the United States) that was produced by the Institute for College Access and Success. The process of making this map that represents information about a salient contemporary issue invites students to reflect on ways in which map-making can play a role in their data advocacy efforts. 
