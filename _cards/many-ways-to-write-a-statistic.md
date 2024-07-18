@@ -12,7 +12,7 @@ sample_resource: false
 title: "The Many Ways to Write a Statistic"
 
 teaser: >
-  In this 20- to 30-minute in-class activity, students explore the big rhetorical differences that can result from small changes in phrasing when statistical claims are relayed in words. In small groups, students first brainstorm multiple ways to phrase the same statistic. Then they evaluate which of the phrases is most vs. least accurate; most accessible to non-experts vs. richest in scientific ethos; and most effective at minimizing vs. emphasizing the problem.
+  In this 30- to 45-minute in-class activity, students explore the big rhetorical differences that can result from small changes in phrasing when statistical claims are relayed in words. In small groups, students first brainstorm multiple ways to phrase the same statistic. Then they evaluate which of the phrases is most vs. least accurate; most accessible to non-experts vs. richest in scientific ethos; and most effective at minimizing vs. emphasizing the problem.
 
 keywords:
   - "Statistics"
