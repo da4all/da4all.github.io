@@ -7,7 +7,7 @@ nav: false
 nav_order: 
 ---
 
-# IFRAMES
+# IFrames
 
 ## GIF iFrame
 <iframe src="../assets/documents/Fitz.gif" allowfullscreen></iframe>
