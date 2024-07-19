@@ -18,6 +18,15 @@ nav_order:
 ## iframe src="../assets/pdf/example_pdf.pdf" allowfullscreen width="100%" height="300"
 <iframe src="../assets/pdf/example_pdf.pdf" allowfullscreen width="100%" height="300"></iframe><br><br>
 
+## iframe src="../assets/pdf/example_pdf.pdf" allowfullscreen width="100%" height="275"
+<iframe src="../assets/pdf/example_pdf.pdf" allowfullscreen width="100%" height="275"></iframe><br><br>
+
+## iframe src="../assets/pdf/example_pdf.pdf" allowfullscreen width="100%" height="250"
+<iframe src="../assets/pdf/example_pdf.pdf" allowfullscreen width="100%" height="250"></iframe><br><br>
+
+## iframe src="../assets/pdf/example_pdf.pdf" allowfullscreen width="100%" height="225"
+<iframe src="../assets/pdf/example_pdf.pdf" allowfullscreen width="100%" height="225"></iframe><br><br>
+
 ## iframe src="../assets/pdf/example_pdf.pdf" allowfullscreen width="100%" height="200"
 <iframe src="../assets/pdf/example_pdf.pdf" allowfullscreen width="100%" height="200"></iframe><br><br>
 
