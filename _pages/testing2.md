@@ -7,7 +7,25 @@ nav: false
 nav_order: 
 ---
 
-# YouTube Embeds
+# PDF iFrame
+
+```<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="../assets/pdf/data-advocacy-whitepaper.pdf" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="Rehabilitation vs. Punishment" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>```
+
+<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="../assets/pdf/data-advocacy-whitepaper.pdf" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="Rehabilitation vs. Punishment" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+
+<br><br>
+
+# URL iFrame
+
+```<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="Rehabilitation vs. Punishment" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>```
+
+<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="Rehabilitation vs. Punishment" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+
+<br><br>
+
+# YouTube iFrames
+
+<br><br>
 
 ## Full Text
 
