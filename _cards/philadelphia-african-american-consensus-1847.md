@@ -1,7 +1,7 @@
 ---
 layout: card
 inline: false
-resource: Dataset
+resource: Example of Data Advocacy
 domain: Processing Data
 subdomain: Analyzing Data
 
