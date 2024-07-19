@@ -9,14 +9,14 @@ nav_order:
 
 # IFrames
 
-## iframe src="../assets/pdf/example_pdf"
-<iframe src="../assets/pdf/example_pdf" allowfullscreen></iframe>
+## iframe src="../assets/pdf/example_pdf.pdf"
+<iframe src="../assets/pdf/example_pdf.pdf" allowfullscreen></iframe>
 
-## iframe src="../assets/pdf/example_pdf" allowfullscreen
-<iframe src="../assets/pdf/example_pdf" allowfullscreen></iframe>
+## iframe src="../assets/pdf/example_pdf.pdf" allowfullscreen
+<iframe src="../assets/pdf/example_pdf.pdf" allowfullscreen></iframe>
 
-## iframe src="../assets/pdf/example_pdf" allowfullscreen
-<iframe src="../assets/pdf/example_pdf" allowfullscreen></iframe>
+## iframe src="../assets/pdf/example_pdf.pdf" allowfullscreen
+<iframe src="../assets/pdf/example_pdf.pdf" allowfullscreen></iframe>
 
-## iframe width="100%" src="https://www.scu.edu/ethics/focus-areas/technology-ethics/resources/an-introduction-to-data-ethics/" allowfullscreen
-<iframe width="100%" src="https://www.scu.edu/ethics/focus-areas/technology-ethics/resources/an-introduction-to-data-ethics/" allowfullscreen>iFrame HERE</iframe>
+## iframe width="100%" src="https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4" allowfullscreen
+<iframe width="100%" src="https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4" allowfullscreen>iFrame HERE</iframe>
