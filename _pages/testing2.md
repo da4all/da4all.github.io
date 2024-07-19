@@ -24,3 +24,7 @@ nav_order:
 ## Removing Outset
 
 <img src="../assets/img/LiteracyDomains.png" alt="The graphic is titled 'Literacy Domains of Data Advocacy.'" width="100%" style="border: #9AB1DA 1px">
+
+## Adding Inset
+
+<img src="../assets/img/LiteracyDomains.png" alt="The graphic is titled 'Literacy Domains of Data Advocacy.'" width="100%" style="border: #9AB1DA 1px inset">
