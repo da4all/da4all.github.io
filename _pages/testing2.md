@@ -10,7 +10,7 @@ nav_order:
 # IFRAMES
 
 ## GIF iFrame
-<iframe src="../assets/documents/Fitz.gif" allowfullscreen>
+<iframe src="../assets/documents/Fitz.gif" allowfullscreen></iframe>
 
 ## GIF image
 <img src="../assets/documents/Fitz.gif" allowfullscreen>
