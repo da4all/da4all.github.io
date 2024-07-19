@@ -57,6 +57,10 @@ nav_order:
 
 <img src="../assets/img/LiteracyDomains.png" alt="The graphic is titled 'Literacy Domains of Data Advocacy.'" style="border:5px solid black">
 
+## Border - border:5px
+
+<img src="../assets/img/LiteracyDomains.png" alt="The graphic is titled 'Literacy Domains of Data Advocacy.'" style="border:5px">
+
 ## Border - border:
 
 <img src="../assets/img/LiteracyDomains.png" alt="The graphic is titled 'Literacy Domains of Data Advocacy.'" style="border:">
