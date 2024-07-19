@@ -44,9 +44,7 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
     <br>
     <li><b>Lesson Plans:</b> Lesson plans included a structured collection of resources to help students gain experience with a particular subdomain. This may include readings, glossary, activities, tutorials, etc.</li>
     <br>
-    <li><b>Datasets:</b> Datasets are freely accessible collections of information that can be used for inquiry, learning, and/or practice. Some datasets are referenced in activities, assignments, modules, and tutorials, while others are simply listed as potential resources and/or models for data advocacy. </li>
-    <br>
-    <li><b>Examples of Data Advocacy:</b> Examples of Data Advocacy are a collection of projects and advocacy movements that utilize data advocacy to bring about social change. Like the datasets, some of these examples are referenced in activities, assignments, modules, and tutorials, while others are simply listed to further model for data advocacy.</li></ul></div>
+    <li><b>Examples of Data Advocacy:</b> Examples of Data Advocacy are a collection of projects and advocacy movements that utilize data advocacy to bring about social change. Some of these examples are referenced in activities, assignments, modules, and tutorials, while others are simply listed to further model for data advocacy.</li></ul></div>
 </details>
 
 <br>
