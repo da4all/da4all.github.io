@@ -7,61 +7,20 @@ nav: false
 nav_order: 
 ---
 
-# Team 2
+# Image Formatting
 
-{% assign groups = site.members | sort: "group_rank" | map: "group" | uniq %}
+## Base
 
-{% for group in groups %}
+<img src="../assets/img/LiteracyDomains.png" alt="The graphic is titled 'Literacy Domains of Data Advocacy.' Beneath that heading, there are three primary domains: (1) Understanding Data, (2) Processing Data, and (3) Persuading with Data. Under each domain are four subdomains. Under (1) Understanding Data, there are the following subdomains: (1a) Defining Data, (1b) Critiquing Data, (1c) Acting Ethically with Data, and (1d) Advocating with Data. Under (2) Processing Data, there are the following subdomains: (2a) Collecting Data, (2b) Organizing and Cleaning Data, (2c) Analyzing Data, and (2d) Storing and Preserving Data. Under (3) Persuading with Data, there are the following subdomains: (3a) Making Claims with Data, (3b) Visualizing Data, (3c) Mapping Data, and (3d) Telling Stories with Data." width="100%" style="border: #9AB1DA 1px outset">
 
-## {{ group }}
+## Changing Width
 
-    {% assign members = site.members | sort: "group_rank" | where: "group", group %}
-    {% for member in members %}
+<img src="../assets/img/LiteracyDomains.png" alt="The graphic is titled 'Literacy Domains of Data Advocacy.'" width="80%" style="border: #9AB1DA 1px outset">
 
-<p>
-    <div class="card {% if member.inline == false %}hoverable{% endif %}">
-        <div class="row no-gutters">
-            <div class="col-sm-4 col-md-3">
-                <img src="{{ '/assets/img/' | append: member.profile.image | relative_url }}" class="card-img img-fluid" alt="{{ member.profile.name }}" />
-            </div>
-            <div class="team col-sm-8 col-md-9">
-                <div class="card-body">
-                    {% if member.inline == false %}<a href="{{ member.url | relative_url }}">{% endif %}
-                    <h5 class="card-title">{{ member.profile.name }}</h5>
-                    {% if member.profile.position %}<h6 class="card-subtitle mb-2 text-muted">{{ member.profile.position }}</h6>{% endif %}
-                    {% if member.profile.department %}<h6 class="card-subtitle mb-2 text-muted">{{ member.profile.department }}</h6>{% endif %}
-                    {% if member.profile.organization %}<h6 class="card-subtitle mb-2 text-muted">{{ member.profile.organization }}</h6>{% endif %}
-                    <p class="card-text">
-                        {{ member.teaser }}
-                    </p>
-                    {% if member.inline == false %}</a>{% endif %}
-                    {% if member.profile.website %}
-                        <br><a href="{{ member.profile.website }}" class="card-link" target="_blank"><i class="fas fa-globe"></i></a>
-                    {% endif %}
-                    {% if member.profile.email %}
-                        <a href="mailto:{{ member.profile.email }}" class="card-link"><i class="fas fa-envelope"></i></a>
-                    {% endif %}
-                    {% if member.profile.phone %}
-                        <a href="tel:{{ member.profile.phone }}" class="card-link"><i class="fas fa-phone"></i></a>
-                    {% endif %}
-                    {% if member.profile.orcid %}
-                        <a href="https://orcid.org/{{ member.profile.orcid }}" class="card-link" target="_blank"><i class="fab fa-orcid"></i></a>
-                    {% endif %}
-                    {% if member.profile.twitter %}
-                        <a href="https://twitter.com/{{ member.profile.twitter }}" class="card-link" target="_blank"><i class="fab fa-twitter"></i></a>
-                    {% endif %}
-                    {% if member.profile.github %}
-                        <a href="https://github.com/{{ member.profile.github }}" class="card-link" target="_blank"><i class="fab fa-github"></i></a>
-                    {% endif %}
-                    <p class="card-text">
-                        <br><small class="test-muted"><i class="fas fa-thumbtack"></i> {{ member.profile.address | replace: '<br />', ', ' }}</small> 
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</p>
+## Changing Border
 
-    {% endfor %}
-<br>
-{% endfor %}
+<img src="../assets/img/LiteracyDomains.png" alt="The graphic is titled 'Literacy Domains of Data Advocacy.'" width="100%" style="border: #9AB1DA 10px outset">
+
+## Removing Outset
+
+<img src="../assets/img/LiteracyDomains.png" alt="The graphic is titled 'Literacy Domains of Data Advocacy.'" width="100%" style="border: #9AB1DA 1px">
