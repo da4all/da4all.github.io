@@ -9,6 +9,36 @@ nav_order:
 
 # iFrames
 
+<br><br>
+
+# -
+
+## iframe src="https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4" allowfullscreen width="100%" height="500"
+<iframe src="https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4" allowfullscreen width="100%" height="500"></iframe><br><br>
+
+## iframe src="https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4" allowfullscreen width="100%" height="400"
+<iframe src="https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4" allowfullscreen width="100%" height="400"></iframe><br><br>
+
+## iframe src="https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4" allowfullscreen width="100%" height="300"
+<iframe src="https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4" allowfullscreen width="100%" height="300"></iframe><br><br>
+
+## iframe src="https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4" allowfullscreen width="100%" height="275"
+<iframe src="https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4" allowfullscreen width="100%" height="275"></iframe><br><br>
+
+## iframe src="https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4" allowfullscreen width="100%" height="250"
+<iframe src="https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4" allowfullscreen width="100%" height="250"></iframe><br><br>
+
+## iframe src="https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4" allowfullscreen width="100%" height="225"
+<iframe src="https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4" allowfullscreen width="100%" height="225"></iframe><br><br>
+
+## iframe src="https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4" allowfullscreen width="100%" height="200"
+<iframe src="https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4" allowfullscreen width="100%" height="200"></iframe><br><br>
+
+## iframe src="https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4" allowfullscreen width="100%" height="100"
+<iframe src="https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4" allowfullscreen width="100%" height="100"></iframe><br><br>
+
+<br><br>
+
 ## iframe src="../assets/pdf/example_pdf.pdf" allowfullscreen width="100%" height="500"
 <iframe src="../assets/pdf/example_pdf.pdf" allowfullscreen width="100%" height="500"></iframe><br><br>
 
