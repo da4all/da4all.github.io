@@ -1,12 +1,10 @@
 ---
 layout: card
 inline: false
-resource: Dataset
+resource: Example of Data Advocacy
 domain:
-  - Processing Data
   - Persuading with Data
 subdomain:
-  - Collecting Data
   - Mapping Data
 sample_resource: false
 
