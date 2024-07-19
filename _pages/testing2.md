@@ -64,3 +64,7 @@ nav_order:
 ## Border - border: #9AB1DA 10px
 
 <img src="../assets/img/LiteracyDomains.png" alt="The graphic is titled 'Literacy Domains of Data Advocacy.'" style="border: #9AB1DA 10px">
+
+## Changing Height 100 Pixels Width 1000
+
+<img src="../assets/img/LiteracyDomains.png" alt="The graphic is titled 'Literacy Domains of Data Advocacy.'" height="100" width="1000" style="border: #9AB1DA 1px outset">
