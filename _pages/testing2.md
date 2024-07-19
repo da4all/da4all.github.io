@@ -7,6 +7,14 @@ nav: false
 nav_order: 
 ---
 
+# PDF iFrame V2
+
+```<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="../assets/pdf/example_pdf.pdf" width="100%" height="450" frameborder="0" scrolling="no" allowfullscreen title="Rehabilitation vs. Punishment" style="border:2px #323639 solid; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>```
+
+<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="../assets/pdf/example_pdf.pdf" width="100%" height="450" frameborder="0" scrolling="no" allowfullscreen title="Rehabilitation vs. Punishment" style="border:2px #323639 solid; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+
+<br><br>
+
 # PDF iFrame
 
 ```<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="../assets/pdf/example_pdf.pdf" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="Rehabilitation vs. Punishment" style="border:2px #323639 solid; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>```
