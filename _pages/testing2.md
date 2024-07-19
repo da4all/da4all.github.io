@@ -16,4 +16,4 @@ nav_order:
 <img src="../assets/documents/Fitz.gif" allowfullscreen>
 
 ## TXT
-<iframe width="100%" src="../assets/documents/Week1_Johnson - from Media Franchising-annotations.txt" allowfullscreen>iFrame HERE</iframe>
+<iframe width="100%" src="../assets/txt/Week1_Johnson - from Media Franchising-annotations.txt" allowfullscreen>iFrame HERE</iframe>
