@@ -24,5 +24,5 @@ metadata:
   author: "Denise Pacheco and Veronica Nelly Fernandez"
   date: "2009-11-01"
   license: 
-  citation: "Pacheco, Denise, and Veronica Nelly Fernandez. “Maps, Mapmaking, and Critical Pedagogy: Exploring GIS and Maps as a Teaching Tool for Social Change. Seattle Journal for Social Justice, vol. 8, 2009, pp. 273-302. https://digitalcommons.law.seattleu.edu/sjsj/vol8/iss1/11.  "
+  citation: "Pacheco, Denise, and Veronica Nelly Fernandez. 'Maps, Mapmaking, and Critical Pedagogy: Exploring GIS and Maps as a Teaching Tool for Social Change.' Seattle Journal for Social Justice, vol. 8, 2009, pp. 273-302. https://digitalcommons.law.seattleu.edu/sjsj/vol8/iss1/11.  "
 ---
