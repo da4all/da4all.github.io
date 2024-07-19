@@ -7,9 +7,10 @@ nav: false
 nav_order: 
 ---
 
-# IFrames
+# iFrames
 
-
+## iframe src="https://da4asandbox.github.io/curricularsite/assets/pdf/example_pdf.pdf" allowfullscreen width="100%" height="500" allowdownloads
+<iframe src="https://da4asandbox.github.io/curricularsite/assets/pdf/example_pdf.pdf" allowfullscreen width="100%" height="500" allowdownloads></iframe>
 
 ## iframe src="../assets/pdf/example_pdf.pdf" allowfullscreen width="100%" height="500" allowdownloads
 <iframe src="../assets/pdf/example_pdf.pdf" allowfullscreen width="100%" height="500" allowdownloads></iframe>
