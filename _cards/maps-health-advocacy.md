@@ -1,7 +1,7 @@
 ---
 layout: card
 inline: false
-resource: Reading,
+resource: Reading
 domain:
   - Persuading with Data
 subdomain:
