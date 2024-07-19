@@ -16,7 +16,6 @@ teaser: >
 keywords:
   - "Maps"
   - "Geospatial Data"
-  - "LGBTQIA+"
   - "Healthcare"
   - "Social justice"
 
