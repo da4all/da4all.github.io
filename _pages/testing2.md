@@ -48,3 +48,19 @@ nav_order:
 ## Changing Height 100 Pixels
 
 <img src="../assets/img/LiteracyDomains.png" alt="The graphic is titled 'Literacy Domains of Data Advocacy.'" height="100" style="border: #9AB1DA 1px outset">
+
+## Border - border: #9AB1DA 1px outset
+
+<img src="../assets/img/LiteracyDomains.png" alt="The graphic is titled 'Literacy Domains of Data Advocacy.'" style="border: #9AB1DA 1px outset">
+
+## Border - border:5px solid black
+
+<img src="../assets/img/LiteracyDomains.png" alt="The graphic is titled 'Literacy Domains of Data Advocacy.'" style="border:5px solid black">
+
+## Border - border
+
+<img src="../assets/img/LiteracyDomains.png" alt="The graphic is titled 'Literacy Domains of Data Advocacy.'" style="border">
+
+## Border - border: #9AB1DA 10px
+
+<img src="../assets/img/LiteracyDomains.png" alt="The graphic is titled 'Literacy Domains of Data Advocacy.'" style="border: #9AB1DA 10px">
