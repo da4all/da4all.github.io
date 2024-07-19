@@ -30,7 +30,5 @@ resources:
     icon: "fa-solid fa-laptop-code"
   - name: Lesson Plan
     icon: "fa-solid fa-person-chalkboard"
-  - name: Dataset
-    icon: "fa-solid fa-database"
   - name: Example of Data Advocacy
     icon: "fa-solid fa-bullhorn"
