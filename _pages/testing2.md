@@ -25,14 +25,6 @@ nav_order:
 
 <br><br>
 
-## No div
-
-```<iframe src="https://www.youtube.com/embed/d-eL45C17gM?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Rehabilitation vs. Punishment" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe>```
-
-<iframe src="https://www.youtube.com/embed/d-eL45C17gM?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Rehabilitation vs. Punishment" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe>
-
-<br><br>
-
 ## No style info
 
 ```<iframe src="https://www.youtube.com/embed/d-eL45C17gM?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Rehabilitation vs. Punishment"></iframe>```
