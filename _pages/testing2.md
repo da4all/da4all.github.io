@@ -1,100 +1,81 @@
 ---
 layout: page
 permalink: /testing2/
-title: Testing 2
+title: YouTube Testing
 description:
 nav: false
 nav_order: 
 ---
 
-# Other Account Video
+# Base
 
-# Attempt 3
+```<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>```
 
-```<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/BCfnmooWJAo?si=1Nka15wRVIa-lMa7?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Rehabilitation vs. Punishment" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>```
+<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
 
-<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/BCfnmooWJAo?si=1Nka15wRVIa-lMa7?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Rehabilitation vs. Punishment" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+# No First Div
 
-<br><br>
+```<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div>```
 
-# Attempt 2
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div>
 
-```<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/fvD9boY4vBA?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Rehabilitation vs. Punishment" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>```
+# No Div Style
 
-<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/fvD9boY4vBA?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Rehabilitation vs. Punishment" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+```<div style="max-width: 1280px"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div>```
 
-<br><br>
+<div style="max-width: 1280px"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div>
 
-# Attempt 1
+# 3000 Width & Height
 
-```<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/fvD9boY4vBA?si=sWGLNBids1Rt249j?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Rehabilitation vs. Punishment" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>```
+```<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="3000" height="3000" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>```
 
-<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/fvD9boY4vBA?si=sWGLNBids1Rt249j?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Rehabilitation vs. Punishment" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="3000" height="3000" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
 
-<br><br>
 
-# PDF iFrame V2
+# Frame Border 100
 
-```<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="../assets/pdf/example_pdf.pdf" width="100%" height="450" frameborder="0" scrolling="no" allowfullscreen title="Rehabilitation vs. Punishment" style="border:2px #323639 solid; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>```
+```<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="3000" height="3000" frameborder="100" scrolling="no" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>```
 
-<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="../assets/pdf/example_pdf.pdf" width="100%" height="450" frameborder="0" scrolling="no" allowfullscreen title="Rehabilitation vs. Punishment" style="border:2px #323639 solid; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="3000" height="3000" frameborder="100" scrolling="no" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
 
-<br><br>
+# Scrolling=Yes
 
-# PDF iFrame
+```<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="yes" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>```
 
-```<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="../assets/pdf/example_pdf.pdf" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="Rehabilitation vs. Punishment" style="border:2px #323639 solid; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>```
+<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="yes" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
 
-<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="../assets/pdf/example_pdf.pdf" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="Rehabilitation vs. Punishment" style="border:2px #323639 solid; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+# No allowfullscreen
 
-<br><br>
+```<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allow="autoplay" title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>```
 
-# URL iFrame
+<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allow="autoplay" title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
 
-```<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="Rehabilitation vs. Punishment" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>```
+# No allow=autoplay
 
-<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="Rehabilitation vs. Punishment" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+```<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>```
 
-<br><br>
+<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
 
-# YouTube iFrames
+# Style border: 10px #323639 solid
 
-<br><br>
+```<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border: 10px #323639 solid; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>```
 
-## Full Text
+<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border: 10px #323639 solid; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
 
-```<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/d-eL45C17gM?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Rehabilitation vs. Punishment" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>```
+# No position in the iframe tag
 
-<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/d-eL45C17gM?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Rehabilitation vs. Punishment" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+```<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>```
 
-<br><br>
+<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border:none; height: 100%; max-width: 100%;"></iframe></div></div>
 
-## Only 1 div
+# Height = 50%
 
-```<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/d-eL45C17gM?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Rehabilitation vs. Punishment" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div>```
+```<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>```
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/d-eL45C17gM?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Rehabilitation vs. Punishment" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div>
+<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 50%; max-width: 100%;"></iframe></div></div>
 
-<br><br>
+# Max-Width 50%
 
-## No style info
+```<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>```
 
-```<iframe src="https://www.youtube.com/embed/d-eL45C17gM?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Rehabilitation vs. Punishment"></iframe>```
-
-<iframe src="https://www.youtube.com/embed/d-eL45C17gM?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Rehabilitation vs. Punishment"></iframe>
-
-<br><br>
-
-## No frameborder, scrolling, or allow
-
-```<iframe src="https://www.youtube.com/embed/d-eL45C17gM?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" title="Rehabilitation vs. Punishment"></iframe>```
-
-<iframe src="https://www.youtube.com/embed/d-eL45C17gM?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" title="Rehabilitation vs. Punishment"></iframe>
-
-<br><br>
-
-## Only the basics
-
-```<iframe src="https://www.youtube.com/embed/d-eL45C17gM?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" title="Rehabilitation vs. Punishment"></iframe>```
-
-<iframe src="https://www.youtube.com/embed/d-eL45C17gM?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" title="Rehabilitation vs. Punishment"></iframe>
+<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 50%;"></iframe></div></div>
