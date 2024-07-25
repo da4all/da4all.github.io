@@ -17,6 +17,8 @@ metadata:
   typeofdataadvocacy: "Gun Violence"
   contributors: "Rachel Marentes"
   source: 
+  license: "License information"
+  courseinfo: "Details about the course the project was produced for"
   align: right
 ---
 
