@@ -74,15 +74,15 @@ nav_order:
                     </p>
 		    </div>
             {% if page.metadata.typeofdataadvocacy %}
-      <sl-button class="attribute noHover">Type of Data Advocacy: {{ page.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button>
+      <sl-button class="attribute noHover">Type of Data Advocacy: {{ project.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button>
       {% endif %}
       
       {% if page.metadata.genre %}
-      <sl-button class="attribute noHover">Genre: {{ page.metadata.genre | replace: '<br />', ', ' }}</sl-button>
+      <sl-button class="attribute noHover">Genre: {{ project.metadata.genre | replace: '<br />', ', ' }}</sl-button>
       {% endif %}
       
       {% if page.metadata.filetype %}
-      <sl-button class="attribute noHover">Format: {{ page.metadata.filetype | replace: '<br />', ', ' }}</sl-button>
+      <sl-button class="attribute noHover">Format: {{ project.metadata.filetype | replace: '<br />', ', ' }}</sl-button>
       {% endif %}
 		</div>
             </div>
