@@ -66,28 +66,28 @@ nav_order:
 			<small class="test-muted"><i class="fa-solid fa-bars-staggered"></i><b>&nbsp; Genre:</b> {{ project.metadata.genre | replace: '<br />', ', ' }}</small><br><br>
 			{% endif %}
 			{% if project.metadata.filetype %}
-			<small class="test-muted">&nbsp;<i class="fa-solid fa-file"></i><b>&nbsp; Format:</b> {{ project.metadata.filetype | replace: '<br />', ', ' }}</small> <br><br>
+			<small class="test-muted">&nbsp;<i class="fa-solid fa-file"></i><b>&nbsp; Format:</b> {{ project.metadata.filetype | replace: '<br />', ', ' }}</small> 
 			{% endif %}
 			{% if project.metadata.source %}
-			<small class="test-muted"><i class="fa-solid fa-link"></i><b>&nbsp; Also Published Here:</b> <a href="{{ project.metadata.source }}">{{ project.metadata.source }}</a></small><br><br>
+			<small class="test-muted"><i class="fa-solid fa-link"></i><b>&nbsp; Also Published Here:</b> <a href="{{ project.metadata.source }}">{{ project.metadata.source }}</a></small>
 			{% endif %}</p>
 		    </div>
 		</div>
 
-      <div style="padding: 5px;"><p><center>
+      <div style="padding: 5px;"><p>
 		{% if project.metadata.typeofdataadvocacy %}
-      <sl-button class="attribute noHover">Type of Data Advocacy: {{ project.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button>
+      <center><sl-button class="attribute noHover">Type of Data Advocacy: {{ project.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button></center>
       {% endif %}
       
       {% if project.metadata.genre %}
-      <sl-button class="attribute noHover">Genre: {{ project.metadata.genre | replace: '<br />', ', ' }}</sl-button>
+      <center><sl-button class="attribute noHover">Genre: {{ project.metadata.genre | replace: '<br />', ', ' }}</sl-button></center>
       {% endif %}
       
       {% if project.metadata.filetype %}
-      <sl-button class="attribute noHover">Format: {{ project.metadata.filetype | replace: '<br />', ', ' }}</sl-button>
+      <center><sl-button class="attribute noHover">Format: {{ project.metadata.filetype | replace: '<br />', ', ' }}</sl-button></center>
       {% endif %}
 
-      <br></center></p>
+      </p>
       </div>
       
             </div>
