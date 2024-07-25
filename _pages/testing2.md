@@ -60,17 +60,6 @@ nav_order:
                     <div class="card-body" style="margin: 2px;">
 			<p class="card-text">
 			{% if project.metadata.typeofdataadvocacy %}
-      <sl-button class="attribute noHover">Type of Data Advocacy: {{ project.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button>
-      {% endif %}
-      
-      {% if project.metadata.genre %}
-      <sl-button class="attribute noHover">Genre: {{ project.metadata.genre | replace: '<br />', ', ' }}</sl-button>
-      {% endif %}
-      
-      {% if project.metadata.filetype %}
-      <sl-button class="attribute noHover">Format: {{ project.metadata.filetype | replace: '<br />', ', ' }}</sl-button>
-      {% endif %}<br><br>
-			{% if project.metadata.typeofdataadvocacy %}
                         <small class="test-muted"><i class="fa-solid fa-layer-group"></i><b>&nbsp; Type of Data Advocacy:</b> {{ project.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</small>
 			{% endif %}
 			{% if project.metadata.genre %}
@@ -86,18 +75,20 @@ nav_order:
 		</div>
 
       <div style="padding: 5px;"><p>
+      <sl-button-group label="Center">
 		{% if project.metadata.typeofdataadvocacy %}
-      <center><sl-button class="attribute noHover">Type of Data Advocacy: {{ project.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button></center>
+      <sl-button class="attribute noHover">Type of Data Advocacy: {{ project.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button>
       {% endif %}
       
       {% if project.metadata.genre %}
-      <center><sl-button class="attribute noHover">Genre: {{ project.metadata.genre | replace: '<br />', ', ' }}</sl-button></center>
+      <sl-button class="attribute noHover">Genre: {{ project.metadata.genre | replace: '<br />', ', ' }}</sl-button>
       {% endif %}
       
       {% if project.metadata.filetype %}
-      <center><sl-button class="attribute noHover">Format: {{ project.metadata.filetype | replace: '<br />', ', ' }}</sl-button></center>
+      <sl-button class="attribute noHover">Format: {{ project.metadata.filetype | replace: '<br />', ', ' }}</sl-button>
       {% endif %}
 
+</sl-button-group>
       </p>
       </div>
       
