@@ -74,7 +74,6 @@ nav_order:
                     </p>
 		    </div>
             </div>
-            </div>
       {% if page.metadata.typeofdataadvocacy %}
       <sl-button class="attribute noHover">Type of Data Advocacy: {{ page.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button>
       {% endif %}
@@ -86,6 +85,7 @@ nav_order:
       {% if page.metadata.filetype %}
       <sl-button class="attribute noHover">Format: {{ page.metadata.filetype | replace: '<br />', ', ' }}</sl-button>
       {% endif %}
+            </div>
       </div>
 </p>
 
