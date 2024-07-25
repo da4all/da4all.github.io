@@ -17,6 +17,8 @@ metadata:
   typeofdataadvocacy: "Unhoused/Homelessness Advocacy"
   contributors: "Carlos Martinez Ynsunza"
   source: 
+  license: "License information"
+  courseinfo: "Details about the course the project was produced for"
   align: right
 ---
 
