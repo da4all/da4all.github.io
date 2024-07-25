@@ -71,6 +71,8 @@ nav_order:
 			{% if project.metadata.source %}
 			<small class="test-muted"><i class="fa-solid fa-link"></i><b>&nbsp; Also Published Here:</b> <a href="{{ project.metadata.source }}">{{ project.metadata.source }}</a></small><br><br>
 			{% endif %}
+                    </p>
+		    </div>
 			{% if project.metadata.typeofdataadvocacy %}
       <sl-button class="attribute noHover">Type of Data Advocacy: {{ project.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button>
       {% endif %}
@@ -82,8 +84,6 @@ nav_order:
       {% if project.metadata.filetype %}
       <sl-button class="attribute noHover">Format: {{ project.metadata.filetype | replace: '<br />', ', ' }}</sl-button>
       {% endif %}
-                    </p>
-		    </div>
 		</div>
             </div>
       </div>
