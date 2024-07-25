@@ -1,64 +1,94 @@
 ---
 layout: page
 permalink: /testing2/
-title: YouTube Testing
+title: Student Showcase Testing
 description:
 nav: false
 nav_order: 
 ---
 
-# Base
+<style>
+  hr.rounded {
+  border-top: 5px solid #bbb;
+  border-radius: 5px;
+}
 
-```<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>```
+  sl-button.attribute::part(base) {
+    border-radius: 0;
+    background-color: #002868;
+    color: white;
+  }
+  
+  sl-button.attribute::part(base):hover {
+    transform: scale(0) rotate(0deg);
+  }
 
-<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+ .noHover{
+    pointer-events: none;
+ }
+  
+</style>
+ 
+{% assign groups = site.showcase | sort: "group_rank" | map: "group" | uniq %} 
 
-<br><br>
+{% for group in groups %}
 
-# Only Width=, No Height=
+## {{ group }}
 
-```<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="400" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>```
+	{% assign project = site.showcase | sort: "title" | where: "group", group %}
+	{% for project in project %}
 
-<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="400" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
 
-<br><br>
+<p>
+    <div class="card {% if project.inline == false %}hoverable{% endif %}">
+        <div class="row no-gutters">
+            <div class="team col-sm-8 col-md-7">
+                <div class="card-body">
+                    {% if project.inline == false %}<a href="{{ project.url | relative_url }}">{% endif %}
+                    <h5 class="card-title">{{ project.title }}</h5>
+                    {% if project.metadata.contributors %}
+			    <br><h3 class="card-text"><i class="fa-solid fa-people-group"></i><b>&nbsp; Contributor(s):</b> {{ project.metadata.contributors | replace: '<br />', ', ' }}</h3><br>
+                    {% endif %}
+                    <p class="card-text">
+                        {{ project.teaser }}
+			    <small><br><br></small>
+                    </p>
+                    {% if project.inline == false %}</a>{% endif %}
+                </div></div>
+		<div class="col-sm-4 col-md-5">
+                <br>{% if project.inline == false %}<a href="{{ project.url | relative_url }}">{% endif %}<img src="{{ '/assets/img/' | append: project.metadata.image | relative_url }}" class="card-img img-fluid max-width: 80%" alt="{{ project.metadata.caption }}" />{% if project.inline == false %}</a>{% endif %}
+                    <div class="card-body" style="margin: 2px;">
+			<p class="card-text">
+			{% if project.metadata.typeofdataadvocacy %}
+                        <small class="test-muted"><i class="fa-solid fa-layer-group"></i><b>&nbsp; Type of Data Advocacy:</b> {{ project.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</small><br><br>
+			{% endif %}
+			{% if project.metadata.genre %}
+			<small class="test-muted"><i class="fa-solid fa-bars-staggered"></i><b>&nbsp; Genre:</b> {{ project.metadata.genre | replace: '<br />', ', ' }}</small><br><br>
+			{% endif %}
+			{% if project.metadata.filetype %}
+			<small class="test-muted">&nbsp;<i class="fa-solid fa-file"></i><b>&nbsp; Format:</b> {{ project.metadata.filetype | replace: '<br />', ', ' }}</small> <br><br>
+			{% endif %}
+			{% if project.metadata.source %}
+			<small class="test-muted"><i class="fa-solid fa-link"></i><b>&nbsp; Also Published Here:</b> <a href="{{ project.metadata.source }}">{{ project.metadata.source }}</a></small><br><br>
+			{% endif %}
+                    </p>
+		    </div>
+            </div>
+            </div>
+      {% if page.metadata.typeofdataadvocacy %}
+      <sl-button class="attribute noHover">Type of Data Advocacy: {{ page.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button>
+      {% endif %}
+      
+      {% if page.metadata.genre %}
+      <sl-button class="attribute noHover">Genre: {{ page.metadata.genre | replace: '<br />', ', ' }}</sl-button>
+      {% endif %}
+      
+      {% if page.metadata.filetype %}
+      <sl-button class="attribute noHover">Format: {{ page.metadata.filetype | replace: '<br />', ', ' }}</sl-button>
+      {% endif %}
+      </div>
+</p>
 
-# Only Height=, No Width=
-
-```<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" height="400" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>```
-
-<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" height="400" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
-
-<br><br>
-
-# No Width= Height=
-
-```<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>```
-
-<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
-
-<br><br>
-
-# Div Max Width = 400px, Width=800px
-
-```<div style="max-width: 400px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="800" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>```
-
-<div style="max-width: 400px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="800" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
-
-<br><br>
-
-# No second max-width
-
-```<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>```
-
-<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%;"></iframe></div></div>
-
-<br><br>
-
-# Div max-width 80%, iFrame max-width 100%
-
-```<div style="max-width: 80%"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>```
-
-<div style="max-width: 80%"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/f1ckeshjNZ0?si=cABzvxjHhO-0tr5?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Title of YouTube Video" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
-
-<br><br>
+	{% endfor %}
+<br>
+{% endfor %}
