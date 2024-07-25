@@ -17,6 +17,8 @@ metadata:
   typeofdataadvocacy: "Public Safety"
   contributors: "John Bordali"
   source: 
+  license: "License information"
+  courseinfo: "Details about the course the project was produced for"
   align: right
 ---
 
