@@ -17,6 +17,8 @@ metadata:
   typeofdataadvocacy: "Prison Reform"
   contributors: "Ella Ames"
   source: 
+  license: "License information"
+  courseinfo: "Details about the course the project was produced for"
   align: right
 ---
 
