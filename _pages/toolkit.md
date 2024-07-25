@@ -250,6 +250,9 @@ document.addEventListener('DOMContentLoaded', function() {
   resourceFilter.addEventListener('change', filterCards);
   searchInput.addEventListener('input', filterCards);
   clearSearchBtn.addEventListener('click', function() {
+    domainFilter.value = 'all';
+    subdomainFilter.value = 'all';
+    resourceFilter.value = 'all';
     searchInput.value = '';
     filterCards();
   });
