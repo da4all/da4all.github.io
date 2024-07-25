@@ -74,7 +74,7 @@ nav_order:
 		    </div>
 		</div>
 
-      <div><p><center>
+      <div style="padding: 5px;"><p><center>
 		{% if project.metadata.typeofdataadvocacy %}
       <sl-button class="attribute noHover">Type of Data Advocacy: {{ project.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button>
       {% endif %}
