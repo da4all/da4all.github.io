@@ -38,16 +38,16 @@ layout: default
   <p><i>{{ page.metadata.courseinfo | replace: '<br />', ', ' }}</i></p>
   
 {% if page.metadata.typeofdataadvocacy %}
-<sl-button class="attribute noHover" style="padding: 10px">Type of Data Advocacy: {{ page.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button>
+<sl-button class="attribute noHover" style="padding: 2px">Type of Data Advocacy: {{ page.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button>
 {% endif %}
 
 {% if page.metadata.genre %}
-<sl-button class="attribute noHover" style="padding: 10px">Genre: {{ page.metadata.genre | replace: '<br />', ', ' }}</sl-button>
+<sl-button class="attribute noHover" style="padding: 2px">Genre: {{ page.metadata.genre | replace: '<br />', ', ' }}</sl-button>
 {% endif %}
 
-{% if page.metadata.filetype %}<sl-button class="attribute noHover" style="padding: 10px">Format: {{ page.metadata.filetype | replace: '<br />', ', ' }}</sl-button>{% endif %}
+{% if page.metadata.filetype %}<sl-button class="attribute noHover" style="padding: 2px">Format: {{ page.metadata.filetype | replace: '<br />', ', ' }}</sl-button>{% endif %}
 
-{% if page.metadata.license %}<sl-button class="attribute noHover" style="padding: 10px">License: {{ page.metadata.license | replace: '<br />', ', ' }}</sl-button>{% endif %}
+{% if page.metadata.license %}<sl-button class="attribute noHover" style="padding: 2px">License: {{ page.metadata.license | replace: '<br />', ', ' }}</sl-button>{% endif %}
 </div>
 <br><br>
 
@@ -62,12 +62,11 @@ layout: default
       <div class="team col-sm-8 col-md-7">
         <div class="card-body">
           <p class="post-description" style="font-size: 14px">{{ page.teaser }}</p>
-          <p style="padding: 2px">
-	  {% if page.metadata.typeofdataadvocacy %}<sl-button class="attribute noHover" size="small">Type of Data Advocacy: {{ page.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button><br>{% endif %}
-          {% if page.metadata.genre %}<sl-button class="attribute noHover" size="small">Genre: {{ page.metadata.genre | replace: '<br />', ', ' }}</sl-button><br>{% endif %}
-          {% if page.metadata.filetype %}<sl-button class="attribute noHover" size="small">Format: {{ page.metadata.filetype | replace: '<br />', ', ' }}</sl-button><br>{% endif %}
-          {% if page.metadata.license %}<sl-button class="attribute noHover" size="small">License: {{ page.metadata.license | replace: '<br />', ', ' }}</sl-button><br>{% endif %}
-	  </p></div>
+	  {% if page.metadata.typeofdataadvocacy %}<sl-button class="attribute noHover" size="small" style="padding: 2px">Type of Data Advocacy: {{ page.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button><br>{% endif %}
+          {% if page.metadata.genre %}<sl-button class="attribute noHover" size="small" style="padding: 2px">Genre: {{ page.metadata.genre | replace: '<br />', ', ' }}</sl-button><br>{% endif %}
+          {% if page.metadata.filetype %}<sl-button class="attribute noHover" size="small" style="padding: 2px">Format: {{ page.metadata.filetype | replace: '<br />', ', ' }}</sl-button><br>{% endif %}
+          {% if page.metadata.license %}<sl-button class="attribute noHover" size="small" style="padding: 2px">License: {{ page.metadata.license | replace: '<br />', ', ' }}</sl-button><br>{% endif %}
+	  </div>
       </div>
       <div class="col-sm-4 col-md-5">
       <div class="page-info" style="background-color: #f2f2f2; padding: 2px">
