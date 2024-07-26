@@ -24,3 +24,5 @@ metadata:
 This student work was created in a Fall 2023 upper-division writing course called "Advocating with Data." It was drafted in stages and workshopped with feedback from peers and the instructor. The assignment prompts can be found in the Toolkit:
 
 [Dataset Documentation Assignment Sequence](https://da4asandbox.github.io/curricularsite/cards/dataset-documentation-assignment)
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="../assets/pdf/dataset-documentation-colorado-air-quality.pdf" width="100%" title="Dataset Documentation: Colorado Air Quality" style="border:2px #323639 solid; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div>
