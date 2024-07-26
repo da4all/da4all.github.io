@@ -31,7 +31,7 @@ layout: default
 	  <h4><b>{% if contributors_text contains " and " %}Contributors{% else %}Contributor{% endif %}:</b> {{ page.metadata.contributors | replace: '<br />', ', ' }}</h4>
   </header>
 
-<p><i><small>Created for {{ page.metadata.courseinfo | replace: '<br />', ', ' }}</small></i></p>
+<p><i><small>Created as part of {{ page.metadata.courseinfo | replace: '<br />', ', ' }}</small></i></p>
   
 {% if page.metadata.typeofdataadvocacy %}
 <sl-button class="attribute noHover" style="padding: 2px">Type of Data Advocacy: {{ page.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button>
