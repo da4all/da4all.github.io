@@ -16,7 +16,7 @@ teaser: >
 
 keywords:
   - "Rhetoric of Data Visualization"
-  - "History of Data Visualization”
+  - "History of Data Visualization"
 
 metadata:
   source: "https://www.youtube.com/watch?v=B6RGBAzXU1A&list=PLQyfUVf-vFTJMuluE7y9mPRxK9-iSxYyQ"
