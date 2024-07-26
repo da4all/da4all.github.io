@@ -6,6 +6,14 @@ description: This page showcases student data advocacy projects to demonstrate t
 nav: true
 nav_order: 6
 ---
+
+<style>
+  hr.rounded {
+  border-top: 5px solid #bbb;
+  border-radius: 5px;
+}
+
+</style>
  
 {% assign groups = site.showcase | sort: "group_rank" | map: "group" | uniq %} 
 
@@ -41,6 +49,7 @@ nav_order: 6
 		<div class="col-sm-4 col-md-5">
                 <br>{% if project.inline == false %}<a href="{{ project.url | relative_url }}">{% endif %}<img src="{{ '/assets/img/' | append: project.metadata.image | relative_url }}" class="card-img img-fluid max-width: 80%" alt="{{ project.metadata.caption }}" />{% if project.inline == false %}</a>{% endif %}
                     <div class="card-body" style="margin: 2px;">
+			<hr class="rounded"><br>
 			<p class="card-text">
 			{% if project.metadata.typeofdataadvocacy %}
                         <small class="test-muted"><i class="fa-solid fa-layer-group"></i><b>&nbsp; Type of Data Advocacy:</b> {{ project.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</small><br><br>
