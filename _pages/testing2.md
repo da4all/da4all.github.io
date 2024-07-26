@@ -28,7 +28,8 @@ nav_order: 6
 			    <br><h3 class="card-text"><i class="fa-solid fa-people-group"></i><b>&nbsp; Contributor(s):</b> {{ project.metadata.contributors | replace: '<br />', ', ' }}</h3><br>
                     {% endif %}
                     <p class="card-text">
-                        {{ project.teaser }}
+                        <blockquote><small>{{ project.metadata.courseinfo }}</small></blockquote><br><br>
+			    {{ project.teaser }}
 			    <small><br><br></small>
                     </p>
                     {% if project.inline == false %}</a>{% endif %}
