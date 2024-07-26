@@ -45,6 +45,7 @@ Your next writing assignment will be a fact-checking article for the Snopes.com 
 - **Original.** Don't pick a claim that Snopes has already checked. The point is to write new material for their website. Search their site to see if they have already written about your ideas.
 - **Hyperlinked.** Link to an actual source that is making the claim. It does not have to be a credible source -- it could just be one crazy dude on social media -- but that crazy dude has to really believe it. That is, you should NOT link to works of satire, and you should NOT link to provocation from trolls who are only saying things to get people riled up.
 - **Checkable using data, numbers, or statistics.** It doesn’t matter whether you decide the claim is true or false. What matters is that you can use data to help determine how true it is. If the original source uses data or numbers to back up its claim, then you can check where those data or numbers came from and how trustworthy they are. If the original source is analyzing data, you can check their analysis. If the original source does NOT use any data but you can find your own data to judge their claim, that’s great too!
+
 Before you choose, I recommend [browsing Snopes's fact-checking section](https://www.snopes.com/fact-check/) to see the types of claims they check. For this assignment, you may want to steer more toward the [scientific claims](https://www.snopes.com/fact-check/broom-standing-gravitational-pull/) than the political claims, but I leave it up to you.
 Snopes.com gives several ratings besides just "True" and "False," so make sure to [read their list of ratings](https://www.snopes.com/fact-check-ratings/) to see how they deal with partial truths, intermediate cases, etc.
 Here are a few examples of claims that are the right size and type for this assignment. Each is linked to a source that is making the claim:
@@ -59,10 +60,15 @@ For next class, we’re going to collaborate on a genre analysis of [Snopes.com 
 **Read at least 5 [Snopes.com fact-checking articles](https://www.snopes.com/fact-check/)**. You might want to search for examples on topics that interest you; to do this, **add “site:snopes.com/fact-check” to your Google search** on your topic. If you just type into the search box on Snopes.com, you’ll get all sorts of Snopes articles, not just the fact checks.
 ### Step 2: In the Google Doc, contribute one genre convention to the description of the genre
 Click on the Google Doc. I have created for this assignment.
+
 Based on your comparison of Snopes.com fact-checking articles, come up with one similarity that you notice between members of the genre. It should be a feature that at least a significant minority of examples share, but it does not have to appear in all or even most of the examples. 
+
 Before you add your own convention to the list, read what your classmates have already posted. Make sure nobody else has already posted the same or a very similar convention. (If they have, think of something else.) 
+
 Then, add your convention to the list. Of the examples you looked at, explain which ones have it and which ones do not. Summarize, to the best of your ability, the function and form of this convention. Describe how prevalent it is, and why you think particular articles would or would not have it. Try to explain the outliers and the exceptions. If you notice any correlations between this and other genre conventions, mention them (for example: the same examples that lack X also lack Y). 
+
 Don’t repeat what other people have done. However, similarities can nest within one another, so you can add one that forms a more detailed bullet point under someone else’s if you like. You can also subsume other people’s similarities underneath your own, if it seems appropriate. The goal is to end up with a logical and complete description of the genre. **At the end of whatever you write, add your name in parentheses, like this: (Nathan Pieplow).**
+
 ### If you are having trouble finding a genre convention:
 You can describe any similarities you are capable of noticing, but in case you get stuck, here are some questions to think about (this is not a complete list):
 - Rhetorical situation / purpose
@@ -87,11 +93,12 @@ You can describe any similarities you are capable of noticing, but in case you g
 - Research
   - Does the text cite other sources? If so, what kinds of sources and why? How are those sources credited (parenthetical citation? works cited section? footnotes? end notes? hyperlinks? Or by mentioning the source in the sentence? Or some combination of these?)
   - If the text mentions sources in the sentences, what kinds of information does it give us about those sources the first time each source is mentioned? What about subsequent mentions?
-  - 
+
 ### Assignment 3: Write the First Draft of Your Snopes.com Fact-checking Article
 
 For next class, please **write the first draft of your Snopes.com fact-checking article**. Follow the guidelines that we developed as a class. They can be found in the Google Docs we created for last class's homework. 
 Please let me know if you have any questions or run into problems!
+
 ### Assignment 4: Final Draft of the Snopes.com Fact-checking Article
 
 For next class, **submit the final draft** of your Snopes.com fact-checking article. When grading, I will look closely at the quality of your writing, the quality of your fact-checking, and how wisely you have chosen from the conventions of the genre as described in our Google Doc.
