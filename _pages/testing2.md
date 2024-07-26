@@ -37,15 +37,16 @@ nav_order:
     margin: 0 5px; /* Adjust the margin value for the desired spacing between buttons */
   }
 </style>
-
+ 
 {% assign groups = site.showcase | sort: "group_rank" | map: "group" | uniq %} 
 
 {% for group in groups %}
 
 ## {{ group }}
 
-{% assign project = site.showcase | sort: "title" | where: "group", group %}
-{% for project in project %}
+	{% assign project = site.showcase | sort: "title" | where: "group", group %}
+	{% for project in project %}
+
 
 <p>
     <div class="card {% if project.inline == false %}hoverable{% endif %}">
@@ -64,8 +65,7 @@ nav_order:
                 </div></div>
 		<div class="col-sm-4 col-md-5">
                 <br>{% if project.inline == false %}<a href="{{ project.url | relative_url }}">{% endif %}<img src="{{ '/assets/img/' | append: project.metadata.image | relative_url }}" class="card-img img-fluid max-width: 80%" alt="{{ project.metadata.caption }}" />{% if project.inline == false %}</a>{% endif %}
-
-<div class="card-body" style="margin: 2px;">
+                    <div class="card-body" style="margin: 2px;">
   <p class="card-text">
     {% if project.metadata.typeofdataadvocacy %}
     <small class="test-muted"><i class="fa-solid fa-layer-group"></i><b>&nbsp; Type of Data Advocacy:</b> {{ project.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</small>
@@ -94,3 +94,10 @@ nav_order:
     {% endif %}
   </sl-button-group>
 </div>
+      </div>
+      </div>
+      </p>
+
+{% endfor %}
+<br>
+{% endfor %}
