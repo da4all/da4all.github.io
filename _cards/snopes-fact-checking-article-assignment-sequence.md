@@ -94,12 +94,12 @@ You can describe any similarities you are capable of noticing, but in case you g
   - Does the text cite other sources? If so, what kinds of sources and why? How are those sources credited (parenthetical citation? works cited section? footnotes? end notes? hyperlinks? Or by mentioning the source in the sentence? Or some combination of these?)
   - If the text mentions sources in the sentences, what kinds of information does it give us about those sources the first time each source is mentioned? What about subsequent mentions?
 
-### Assignment 3: Write the First Draft of Your Snopes.com Fact-checking Article
+# Assignment 3: Write the First Draft of Your Snopes.com Fact-checking Article
 
 For next class, please **write the first draft of your Snopes.com fact-checking article**. Follow the guidelines that we developed as a class. They can be found in the Google Docs we created for last class's homework. 
 Please let me know if you have any questions or run into problems!
 
-### Assignment 4: Final Draft of the Snopes.com Fact-checking Article
+# Assignment 4: Final Draft of the Snopes.com Fact-checking Article
 
 For next class, **submit the final draft** of your Snopes.com fact-checking article. When grading, I will look closely at the quality of your writing, the quality of your fact-checking, and how wisely you have chosen from the conventions of the genre as described in our Google Doc.
 Email me (or drop by office hours) if you have any questions!
