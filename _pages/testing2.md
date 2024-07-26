@@ -73,29 +73,24 @@ nav_order:
 			{% endif %}</p>
 		    </div>
 		</div>
-
       <div style="padding: 5px;"><p>
-      <sl-button-group label="Center">
+      <center><sl-button-group>
 		{% if project.metadata.typeofdataadvocacy %}
       <sl-button class="attribute noHover">Type of Data Advocacy: {{ project.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button>
       {% endif %}
-      
       {% if project.metadata.genre %}
       <sl-button class="attribute noHover">Genre: {{ project.metadata.genre | replace: '<br />', ', ' }}</sl-button>
       {% endif %}
-      
       {% if project.metadata.filetype %}
       <sl-button class="attribute noHover">Format: {{ project.metadata.filetype | replace: '<br />', ', ' }}</sl-button>
       {% endif %}
-
-</sl-button-group>
+      </sl-button-group></center>
       </p>
       </div>
-      
-            </div>
       </div>
-</p>
+      </div>
+      </p>
 
-	{% endfor %}
+{% endfor %}
 <br>
 {% endfor %}
