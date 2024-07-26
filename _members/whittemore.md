@@ -1,7 +1,7 @@
 ---
 layout: about
 inline: false
-group: Research Assistant
+group: Research Assistant & Website Designer
 group_rank: 3
 
 title: Lore Whittemore
