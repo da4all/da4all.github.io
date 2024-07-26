@@ -29,15 +29,14 @@ nav_order:
 
   .button-group-container {
     display: flex;
-    justify-content: left;
     flex-wrap: wrap; /* Ensure buttons wrap within the container */
     margin-top: 10px; /* Adjust as needed for spacing above the button group */
-    padding: 10px; /* Ensure some padding to avoid touching card edges */
+    padding: 3px; /* Ensure some padding to avoid touching card edges */
     box-sizing: border-box; /* Ensure padding is included in total width */
   }
 
   .button-group-container sl-button::part(base) {
-    margin: 5px; /* Adjust the margin value for the desired spacing between buttons */
+    margin: 2px; /* Adjust the margin value for the desired spacing between buttons */
     max-width: 100%; /* Ensure button width does not exceed container width */
     flex: 1 1 auto; /* Allow buttons to adjust size and wrap within container */
   }
