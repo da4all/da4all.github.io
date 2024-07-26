@@ -29,4 +29,4 @@ This student work was created in a Fall 2023 upper-division writing course calle
 
 <br>
 
-[The dataset this document is analyzing can be found here: https://coepht.colorado.gov/air-quality-data](https://coepht.colorado.gov/air-quality-data):
+The dataset this document is analyzing can be found here: [https://coepht.colorado.gov/air-quality-data](https://coepht.colorado.gov/air-quality-data)
