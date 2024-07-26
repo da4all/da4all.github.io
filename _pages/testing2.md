@@ -83,13 +83,13 @@ nav_order:
         </div>
         <div class="card-body button-group-container">
             {% if project.metadata.typeofdataadvocacy %}
-            <sl-tooltip content="The type of advocacy this project supports"><sl-button class="attribute noHover">Type of Data Advocacy: {{ project.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button></sl-tooltip>
+            <sl-tooltip content="The type of advocacy this project supports"><sl-button class="attribute noHover">Type of Data Advocacy: {{ project.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button></sl-tooltip><br><br>
             {% endif %}
             {% if project.metadata.genre %}
-            <sl-tooltip content="The genre of the project"><sl-button class="attribute noHover">Genre: {{ project.metadata.genre | replace: '<br />', ', ' }}</sl-button></sl-tooltip>
+            <sl-tooltip content="The genre of the project"><sl-button class="attribute noHover">Genre: {{ project.metadata.genre | replace: '<br />', ', ' }}</sl-button></sl-tooltip><br><br>
             {% endif %}
             {% if project.metadata.filetype %}
-            <sl-tooltip content="The file type associated with the final product"><sl-button class="attribute noHover">Format: {{ project.metadata.filetype | replace: '<br />', ', ' }}</sl-button></sl-tooltip>
+            <sl-tooltip content="The file type associated with the final product"><sl-button class="attribute noHover">Format: {{ project.metadata.filetype | replace: '<br />', ', ' }}</sl-button></sl-tooltip><br><br>
             {% endif %}
         </div>
       </div>
