@@ -26,4 +26,3 @@ metadata:
   date: “2023”
   license:
   citation: "Borja, Melissa. Virulent Hate Project. 2023. https://virulenthate.org/map/. Accessed on 20 June 2023.”
----
