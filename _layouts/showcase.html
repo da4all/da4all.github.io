@@ -29,7 +29,6 @@ layout: default
     <h1 class="page-title">{{ page.title }}</h1><br>
     {% assign contributors_text = project.metadata.contributors | replace: '<br />', ', ' %}
 	  <h4><b>&nbsp;{% if contributors_text contains " and " %}Contributors{% else %}Contributor{% endif %}:</b> {{ contributors_text }}</h4>
-    {% endif %}
   </header>
 
 <p><i>{{ page.metadata.courseinfo | replace: '<br />', ', ' }}</i></p>
