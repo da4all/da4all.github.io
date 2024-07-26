@@ -9,8 +9,8 @@ nav_order: 6
 
 <style>
   hr.rounded {
-  border-top: 2px solid #bbb;
-  border-radius: 2px;
+  border-top: 1px solid #bbb;
+  border-radius: 1px;
 }
 
 </style>
