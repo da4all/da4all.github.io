@@ -29,8 +29,7 @@ nav_order: 6
 			    <br>
 			    <h3 class="card-text">
 				    <i class="fa-solid fa-people-group"></i>
-				    <b>&nbsp; {% if contributors_text contains " and " %}Contributors{% else %}Contributor{% endif %}:</b> 
-				    {{ contributors_text }}
+				    <b>&nbsp;{% if contributors_text contains " and " %}Contributors{% else %}Contributor{% endif %}:</b> {{ contributors_text }}
 			    </h3>
 			    {% endif %}
                     <p class="card-text">
@@ -56,7 +55,9 @@ nav_order: 6
 			{% if project.metadata.source %}
 			<small class="test-muted"><i class="fa-solid fa-link"></i><b>&nbsp; Also Published Here:</b> <a href="{{ project.metadata.source }}">{{ project.metadata.source }}</a></small><br><br>
 			{% endif %}
+			{% if project.metadata.license %}
 			<small class="test-muted">&nbsp;<i class="fa-solid fa-quote-left"></i><b>&nbsp; License:</b> {{ project.metadata.license | replace: '<br />', ', ' }}</small> 
+			{% endif %}
                     </p>
 		    </div>
             </div>
