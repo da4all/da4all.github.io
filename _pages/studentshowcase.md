@@ -41,6 +41,7 @@ nav_order: 6
 			    {% endif %}
                     <p class="card-text">
 			    <small><i>Created as part of {{ project.metadata.courseinfo | replace: '<br />', ', ' }}</i></small><br><br>
+			    <hr class="rounded"><br>
 			    {{ project.teaser }}
 			    <small><br><br></small>
                     </p>
@@ -49,7 +50,6 @@ nav_order: 6
 		<div class="col-sm-4 col-md-5">
                 <br>{% if project.inline == false %}<a href="{{ project.url | relative_url }}">{% endif %}<img src="{{ '/assets/img/' | append: project.metadata.image | relative_url }}" class="card-img img-fluid max-width: 80%" alt="{{ project.metadata.caption }}" />{% if project.inline == false %}</a>{% endif %}
                     <div class="card-body" style="margin: 2px;">
-			<hr class="rounded"><br>
 			<p class="card-text">
 			{% if project.metadata.typeofdataadvocacy %}
                         <small class="test-muted"><i class="fa-solid fa-layer-group"></i><b>&nbsp; Type of Data Advocacy:</b> {{ project.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</small><br><br>
