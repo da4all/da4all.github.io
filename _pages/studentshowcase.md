@@ -26,7 +26,6 @@ nav_order: 6
                     <h5 class="card-title">{{ project.title }}</h5>
                     {% if project.metadata.contributors %}
 			    {% assign contributors_text = project.metadata.contributors | replace: '<br />', ', ' %}
-			    <br>
 			    <h3 class="card-text">
 				    <i class="fa-solid fa-people-group"></i>
 				    <b>&nbsp;{% if contributors_text contains " and " %}Contributors{% else %}Contributor{% endif %}:</b> {{ contributors_text }}
