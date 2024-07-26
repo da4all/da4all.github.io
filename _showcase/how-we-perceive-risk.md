@@ -17,7 +17,7 @@ metadata:
   typeofdataadvocacy: "Public Safety"
   contributors: "John Bordali"
   source: 
-  license: "License information"
+  license: "ENGL 1020: Core Composition I (Spring 2024, taught by Dr. John Tinnell at the University of Colorado Denver) as part of a Data Storytelling unit"
   courseinfo: "Details about the course the project was produced for"
 ---
 
