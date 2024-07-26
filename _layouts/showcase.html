@@ -37,18 +37,17 @@ layout: default
 
   <p><i>{{ page.metadata.courseinfo | replace: '<br />', ', ' }}</i></p>
   
-<div style=padding: 50px">
 {% if page.metadata.typeofdataadvocacy %}
-<sl-button class="attribute noHover">Type of Data Advocacy: {{ page.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button>
+<sl-button class="attribute noHover" style="padding: 10px">Type of Data Advocacy: {{ page.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button>
 {% endif %}
 
 {% if page.metadata.genre %}
-<sl-button class="attribute noHover">Genre: {{ page.metadata.genre | replace: '<br />', ', ' }}</sl-button>
+<sl-button class="attribute noHover" style="padding: 10px">Genre: {{ page.metadata.genre | replace: '<br />', ', ' }}</sl-button>
 {% endif %}
 
-{% if page.metadata.filetype %}<sl-button class="attribute noHover">Format: {{ page.metadata.filetype | replace: '<br />', ', ' }}</sl-button>{% endif %}
+{% if page.metadata.filetype %}<sl-button class="attribute noHover" style="padding: 10px">Format: {{ page.metadata.filetype | replace: '<br />', ', ' }}</sl-button>{% endif %}
 
-{% if page.metadata.license %}<sl-button class="attribute noHover">License: {{ page.metadata.license | replace: '<br />', ', ' }}</sl-button>{% endif %}
+{% if page.metadata.license %}<sl-button class="attribute noHover" style="padding: 10px">License: {{ page.metadata.license | replace: '<br />', ', ' }}</sl-button>{% endif %}
 </div>
 <br><br>
 
@@ -63,7 +62,7 @@ layout: default
       <div class="team col-sm-8 col-md-7">
         <div class="card-body">
           <p class="post-description" style="font-size: 14px">{{ page.teaser }}</p>
-          <p style="padding: 50px">
+          <p style="padding: 2px">
 	  {% if page.metadata.typeofdataadvocacy %}<sl-button class="attribute noHover" size="small">Type of Data Advocacy: {{ page.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button><br>{% endif %}
           {% if page.metadata.genre %}<sl-button class="attribute noHover" size="small">Genre: {{ page.metadata.genre | replace: '<br />', ', ' }}</sl-button><br>{% endif %}
           {% if page.metadata.filetype %}<sl-button class="attribute noHover" size="small">Format: {{ page.metadata.filetype | replace: '<br />', ', ' }}</sl-button><br>{% endif %}
