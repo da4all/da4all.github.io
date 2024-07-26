@@ -40,8 +40,8 @@ nav_order: 6
 			    </h3>
 			    {% endif %}
                     <p class="card-text">
-			    <small><i>Created as part of {{ project.metadata.courseinfo | replace: '<br />', ', ' }}</i></small><br><br></p>
-			    <hr class="rounded"><br>
+			    <small><i>Created as part of {{ project.metadata.courseinfo | replace: '<br />', ', ' }}</i></small><br></p>
+			    <hr class="rounded">
 			    <p class="card-text">
 			    {{ project.teaser }}
 			    <small><br><br></small>
