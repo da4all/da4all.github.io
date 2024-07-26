@@ -29,7 +29,7 @@ nav_order:
 
   .button-group-container {
     display: flex;
-    justify-content: right;
+    justify-content: left;
     margin-top: 10px; /* Adjust as needed for spacing above the button group */
   }
 
