@@ -20,8 +20,7 @@ nav_order: 6
     color: white;
     font-size: 0.75em;
     padding: 10px;
-    margin: 5px 0;
-    width: 100%;
+    margin: 5px;
     text-align: center;
   }
 
@@ -35,6 +34,12 @@ nav_order: 6
 
   .card-body p {
     margin: 0;
+  }
+  
+  .card-body .metadata-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
   }
 </style>
 
@@ -65,26 +70,24 @@ nav_order: 6
       </div>
       <div class="col-sm-4 col-md-5">
         <br>{% if project.inline == false %}<a href="{{ project.url | relative_url }}">{% endif %}<img src="{{ '/assets/img/' | append: project.metadata.image | relative_url }}" class="card-img img-fluid max-width: 80%" alt="{{ project.metadata.caption }}" />{% if project.inline == false %}</a>{% endif %}
-
       </div>
 
-        <div class="card-body" style="margin: 2px;">
-          <p class="card-text">
-            {% if project.metadata.typeofdataadvocacy %}
-            <span class="attribute noHover"><b>Type of Data Advocacy:</b> {{ project.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</span>
-            {% endif %}
-            {% if project.metadata.genre %}
-            <span class="attribute noHover"><b>Genre:</b> {{ project.metadata.genre | replace: '<br />', ', ' }}</span>
-            {% endif %}
-            {% if project.metadata.filetype %}
-            <span class="attribute noHover"><b>Format:</b> {{ project.metadata.filetype | replace: '<br />', ', ' }}</span>
-            {% endif %}
-            {% if project.metadata.source %}
-            <span class="attribute noHover"><b>Also Published Here:</b> <a href="{{ project.metadata.source }}">{{ project.metadata.source }}</a></span>
-            {% endif %}
-          </p>
+      <div class="card-body" style="margin: 2px;">
+        <div class="metadata-container">
+          {% if project.metadata.typeofdataadvocacy %}
+          <span class="attribute noHover"><b>Type of Data Advocacy:</b> {{ project.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</span>
+          {% endif %}
+          {% if project.metadata.genre %}
+          <span class="attribute noHover"><b>Genre:</b> {{ project.metadata.genre | replace: '<br />', ', ' }}</span>
+          {% endif %}
+          {% if project.metadata.filetype %}
+          <span class="attribute noHover"><b>Format:</b> {{ project.metadata.filetype | replace: '<br />', ', ' }}</span>
+          {% endif %}
+          {% if project.metadata.source %}
+          <span class="attribute noHover"><b>Also Published Here:</b> <a href="{{ project.metadata.source }}">{{ project.metadata.source }}</a></span>
+          {% endif %}
         </div>
-      
+      </div>
     </div>
   </div>
 </p>
