@@ -7,7 +7,7 @@ domain:
 subdomain:
   - Advocating  with Data
 
-sample_resource: false
+sample_resource: true
 
 title: "Virulent Hate Project"
 
