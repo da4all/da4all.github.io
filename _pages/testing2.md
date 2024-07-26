@@ -29,12 +29,17 @@ nav_order:
 
   .button-group-container {
     display: flex;
-    justify-content: left;
+    justify-content: center;
+    flex-wrap: wrap; /* Ensure buttons wrap within the container */
     margin-top: 10px; /* Adjust as needed for spacing above the button group */
+    padding: 10px; /* Ensure some padding to avoid touching card edges */
+    box-sizing: border-box; /* Ensure padding is included in total width */
   }
 
   .button-group-container sl-button::part(base) {
-    margin: 0 5px; /* Adjust the margin value for the desired spacing between buttons */
+    margin: 5px; /* Adjust the margin value for the desired spacing between buttons */
+    max-width: 100%; /* Ensure button width does not exceed container width */
+    flex: 1 1 auto; /* Allow buttons to adjust size and wrap within container */
   }
 </style>
 
@@ -82,15 +87,17 @@ nav_order:
           </p>
         </div>
         <div class="card-body button-group-container">
+          <sl-button-group>
             {% if project.metadata.typeofdataadvocacy %}
-            <sl-tooltip content="The type of advocacy this project supports"><sl-button class="attribute noHover">Type of Data Advocacy: {{ project.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button></sl-tooltip><br><br>
+            <sl-tooltip content="The type of advocacy this project supports"><sl-button class="attribute noHover">Type of Data Advocacy: {{ project.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button></sl-tooltip>
             {% endif %}
             {% if project.metadata.genre %}
-            <sl-tooltip content="The genre of the project"><sl-button class="attribute noHover">Genre: {{ project.metadata.genre | replace: '<br />', ', ' }}</sl-button></sl-tooltip><br><br>
+            <sl-tooltip content="The genre of the project"><sl-button class="attribute noHover">Genre: {{ project.metadata.genre | replace: '<br />', ', ' }}</sl-button></sl-tooltip>
             {% endif %}
             {% if project.metadata.filetype %}
-            <sl-tooltip content="The file type associated with the final product"><sl-button class="attribute noHover">Format: {{ project.metadata.filetype | replace: '<br />', ', ' }}</sl-button></sl-tooltip><br><br>
+            <sl-tooltip content="The file type associated with the final product"><sl-button class="attribute noHover">Format: {{ project.metadata.filetype | replace: '<br />', ', ' }}</sl-button></sl-tooltip>
             {% endif %}
+          </sl-button-group>
         </div>
       </div>
     </div>
