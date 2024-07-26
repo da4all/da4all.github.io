@@ -29,7 +29,7 @@ nav_order:
 
   .button-group-container {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     flex-wrap: wrap; /* Ensure buttons wrap within the container */
     margin-top: 10px; /* Adjust as needed for spacing above the button group */
     padding: 10px; /* Ensure some padding to avoid touching card edges */
