@@ -17,7 +17,7 @@ metadata:
   typeofdataadvocacy: "Unhoused/Homelessness Advocacy"
   contributors: "Carlos Martinez Ynsunza"
   source: 
-  license: "License information"
+  license: 
   courseinfo: "ENGL 1020: Core Composition I (Spring 2024, taught by Dr. John Tinnell at the University of Colorado Denver) as part of a Data Storytelling unit"
 ---
 
