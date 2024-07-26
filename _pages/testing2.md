@@ -25,10 +25,10 @@ nav_order: 6
                     {% if project.inline == false %}<a href="{{ project.url | relative_url }}">{% endif %}
                     <h5 class="card-title">{{ project.title }}</h5>
                     {% if project.metadata.contributors %}
-			    <br><h3 class="card-text"><i class="fa-solid fa-people-group"></i><b>&nbsp; Contributor(s):</b> {{ project.metadata.contributors | replace: '<br />', ', ' }}</h3><br>
+			    <br><h3 class="card-text"><i class="fa-solid fa-people-group"></i><b>&nbsp; Contributor(s):</b> {{ project.metadata.contributors | replace: '<br />', ', ' }}</h3>
                     {% endif %}
                     <p class="card-text">
-			    <small><i>{{ project.metadata.courseinfo | replace: '<br />', ', ' }}</i></small>
+			    <small><i>{{ project.metadata.courseinfo | replace: '<br />', ', ' }}</i></small><br><br>
 			    {{ project.teaser }}
 			    <small><br><br></small>
                     </p>
