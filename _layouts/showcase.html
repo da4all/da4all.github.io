@@ -27,15 +27,12 @@ layout: default
 <div class="page">
   <header class="page-header">
     <h1 class="page-title">{{ page.title }}</h1><br>
-    {% if project.metadata.contributors %}
-			    {% assign contributors_text = project.metadata.contributors | replace: '<br />', ', ' %}
-			    <h4>
-				    <b>&nbsp;{% if contributors_text contains " and " %}Contributors{% else %}Contributor{% endif %}:</b> {{ contributors_text }}
-			    </h4>
-		{% endif %}
+    {% assign contributors_text = project.metadata.contributors | replace: '<br />', ', ' %}
+	  <h4><b>&nbsp;{% if contributors_text contains " and " %}Contributors{% else %}Contributor{% endif %}:</b> {{ contributors_text }}</h4>
+    {% endif %}
   </header>
 
-  <p><i>{{ page.metadata.courseinfo | replace: '<br />', ', ' }}</i></p>
+<p><i>{{ page.metadata.courseinfo | replace: '<br />', ', ' }}</i></p>
   
 {% if page.metadata.typeofdataadvocacy %}
 <sl-button class="attribute noHover" style="padding: 2px">Type of Data Advocacy: {{ page.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button>
@@ -49,7 +46,7 @@ layout: default
 
 {% if page.metadata.license %}<sl-button class="attribute noHover" style="padding: 2px">License: {{ page.metadata.license | replace: '<br />', ', ' }}</sl-button>{% endif %}
 </div>
-<br><br>
+<br>
 
   <article>{{ content }}</article>
 
@@ -70,7 +67,7 @@ layout: default
       </div>
       <div class="col-sm-4 col-md-5">
       <div class="page-info" style="background-color: #f2f2f2; padding: 2px">
-      <img src="{{ '/assets/img/' | append: page.metadata.image | relative_url }}" class="card-img img-fluid" alt="{{ page.metadata.caption }}" /><br>
+      <img src="{{ '/assets/img/' | append: page.metadata.image | relative_url }}" class="card-img img-fluid" alt="{{ page.metadata.caption }}" /><br><br>
         <div class="card-body">
           <p style="font-size: 12px">
             <b>Caption:</b> {{ page.metadata.caption | replace: '<br />', ', ' }}</p></div>
