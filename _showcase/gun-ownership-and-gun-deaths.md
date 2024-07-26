@@ -15,7 +15,7 @@ metadata:
   genre: "Data Storytelling Presentation"
   filetype: ".mp4"
   typeofdataadvocacy: "Gun Violence"
-  contributors: "Rachel Marentes"
+  contributors: "Rachel Marentes and Testing"
   source: 
   license: "License information"
   courseinfo: "Details about the course the project was produced for"
