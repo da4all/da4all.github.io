@@ -50,7 +50,7 @@ nav_order: 6
 			{% if project.metadata.source %}
 			<small class="test-muted"><i class="fa-solid fa-link"></i><b>&nbsp; Also Published Here:</b> <a href="{{ project.metadata.source }}">{{ project.metadata.source }}</a></small><br><br>
 			{% endif %}
-			<small class="test-muted">&nbsp;<i class="fa-solid fa-file"></i><b>&nbsp; Course Information:</b> {{ project.metadata.courseinfo | replace: '<br />', ', ' }}</small> 
+			<small class="test-muted">&nbsp;<i class="fa-solid fa-quote-left"></i><b>&nbsp; License:</b> {{ project.metadata.license | replace: '<br />', ', ' }}</small> 
                     </p>
 		    </div>
             </div>
