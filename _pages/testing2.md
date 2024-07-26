@@ -40,6 +40,7 @@ nav_order: 6
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
+    text-align: center;
   }
 </style>
 
