@@ -51,7 +51,6 @@ nav_order:
                     {% endif %}
                     <p class="card-text">
                         {{ project.teaser }}
-			    <small><br><br></small>
                     </p>
                     {% if project.inline == false %}</a>{% endif %}
                 </div></div>
@@ -73,18 +72,18 @@ nav_order:
 			{% endif %}</p>
 		    </div>
 		</div>
-      <div style="padding: 5px;"><p>
-      <center><sl-button-group>
+      <div style="padding: 5px; align: center;"><p>
+      <sl-button-group>
 		{% if project.metadata.typeofdataadvocacy %}
-      <sl-button class="attribute noHover">Type of Data Advocacy: {{ project.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button>
+      <sl-tooltip content="The type of advocacy this project supports"><sl-button class="attribute noHover">Type of Data Advocacy: {{ project.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button></sl-tooltip>
       {% endif %}
       {% if project.metadata.genre %}
-      <sl-button class="attribute noHover">Genre: {{ project.metadata.genre | replace: '<br />', ', ' }}</sl-button>
+      <sl-tooltip content="The genre of the project"><sl-button class="attribute noHover">Genre: {{ project.metadata.genre | replace: '<br />', ', ' }}</sl-button>
       {% endif %}
       {% if project.metadata.filetype %}
-      <sl-button class="attribute noHover">Format: {{ project.metadata.filetype | replace: '<br />', ', ' }}</sl-button>
+      <sl-tooltip content="The file type associated with the final product"><sl-button class="attribute noHover">Format: {{ project.metadata.filetype | replace: '<br />', ', ' }}</sl-button>
       {% endif %}
-      </sl-button-group></center>
+      </sl-button-group>
       </p>
       </div>
       </div>
