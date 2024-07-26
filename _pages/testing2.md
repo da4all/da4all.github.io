@@ -19,8 +19,8 @@ nav_order: 6
     background-color: #002868;
     color: white;
     font-size: 0.75em;
-    padding: 10px;
-    margin: 5px;
+    padding: 2px;
+    margin: 2px;
     text-align: center;
   }
 
