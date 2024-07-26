@@ -25,5 +25,5 @@ metadata:
   author: "Michael Segalla and Dominique Rouziès"
   date: "2022-05-22"
   license: 
-  citation: "Segalla, Michael and Dominique Rouziès. ‘The Ethics of Managing People’s Data.’ Harvard Business Review. 01 July 2023.  https://hbr.org/2023/07/the-ethics-of-managing-peoples-data. Accessed on 26 July 2024.
+  citation: "Segalla, Michael and Dominique Rouziès. ‘The Ethics of Managing People’s Data.’ Harvard Business Review. 01 July 2023. https://hbr.org/2023/07/the-ethics-of-managing-peoples-data. Accessed on 26 July 2024.
 ---
