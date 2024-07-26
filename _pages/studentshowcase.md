@@ -9,8 +9,8 @@ nav_order: 6
 
 <style>
   hr.rounded {
-  border-top: 5px solid #bbb;
-  border-radius: 5px;
+  border-top: 2px solid #bbb;
+  border-radius: 2px;
 }
 
 </style>
@@ -40,8 +40,9 @@ nav_order: 6
 			    </h3>
 			    {% endif %}
                     <p class="card-text">
-			    <small><i>Created as part of {{ project.metadata.courseinfo | replace: '<br />', ', ' }}</i></small><br><br>
+			    <small><i>Created as part of {{ project.metadata.courseinfo | replace: '<br />', ', ' }}</i></small><br><br></p>
 			    <hr class="rounded"><br>
+			    <p class="card-text">
 			    {{ project.teaser }}
 			    <small><br><br></small>
                     </p>
