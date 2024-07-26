@@ -72,7 +72,7 @@ nav_order: 6
         <br>{% if project.inline == false %}<a href="{{ project.url | relative_url }}">{% endif %}<img src="{{ '/assets/img/' | append: project.metadata.image | relative_url }}" class="card-img img-fluid max-width: 80%" alt="{{ project.metadata.caption }}" />{% if project.inline == false %}</a>{% endif %}
       </div>
 
-      <div class="card-body" style="margin: 2px;">
+      <div class="card-body" style="margin: 2px;"><center>
         <div class="metadata-container">
           {% if project.metadata.typeofdataadvocacy %}
           <span class="attribute noHover"><b>Type of Data Advocacy:</b> {{ project.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</span>
@@ -86,7 +86,7 @@ nav_order: 6
           {% if project.metadata.source %}
           <span class="attribute noHover"><b>Also Published Here:</b> <a href="{{ project.metadata.source }}">{{ project.metadata.source }}</a></span>
           {% endif %}
-        </div>
+        </div></center>
       </div>
     </div>
   </div>
