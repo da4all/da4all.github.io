@@ -33,3 +33,5 @@ This whitepaper is useful for the following purposes:
 •	Defining Data and Data Advocacy from a rhetorical perspective
 •	Deepening student understanding of Data Ethics from a rhetorical perspective
 •	Introducing students to rhetoric and the art of rhetorical production
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="../assets/pdf/A Rhetorical Data Studies Approach to Data Advocacy.docx (1).pdf" width="100%" title="A Rhetorical Data Studies Approach to Data Advocacy" style="border:2px #323639 solid; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div>
