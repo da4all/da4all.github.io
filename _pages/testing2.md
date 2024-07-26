@@ -85,7 +85,10 @@ nav_order:
             {% endif %}
           </p>
         </div>
-        <div class="card-body button-container">
+        
+      </div>
+
+<div class="card-body button-container">
           {% if project.metadata.typeofdataadvocacy %}
           <sl-tooltip content="The type of advocacy this project supports"><sl-button class="attribute noHover">Type of Data Advocacy: {{ project.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button></sl-tooltip>
           {% endif %}
@@ -96,7 +99,7 @@ nav_order:
           <sl-tooltip content="The file type associated with the final product"><sl-button class="attribute noHover">Format: {{ project.metadata.filetype | replace: '<br />', ', ' }}</sl-button></sl-tooltip>
           {% endif %}
         </div>
-      </div>
+      
     </div>
   </div>
 </p>
