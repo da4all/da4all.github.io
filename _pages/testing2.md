@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /testing2/
-title: Student Showcase Testing
-description:
-nav: false
-nav_order: 
+permalink: /student-showcase/
+title: Student Showcase
+description: This page showcases student data advocacy projects to demonstrate the types and potentials of projects afforded by the resources in the Data Advocacy for All Toolkit.
+nav: true
+nav_order: 6
 ---
 
 <style>
@@ -13,45 +13,28 @@ nav_order:
     border-radius: 5px;
   }
 
-  sl-button.attribute::part(base) {
+  .attribute {
+    display: inline-block;
     border-radius: 0;
     background-color: #002868;
     color: white;
-    font-size: 0.75em; /* Reduce the size of the button text to 75% */
+    font-size: 0.75em;
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    text-align: center;
   }
-  
-  sl-button.attribute::part(base):hover {
-    transform: scale(0) rotate(0deg);
+
+  .attribute b {
+    font-weight: bold;
   }
 
   .noHover {
     pointer-events: none;
   }
 
-  .button-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap; /* Ensure buttons wrap on smaller screens */
-    margin-top: 10px; /* Adjust as needed for spacing above the button group */
-  }
-
-  .button-container sl-button {
-    flex: 1 1 30%; /* Allow buttons to resize and wrap appropriately */
-    margin: 5px; /* Add margin between buttons */
-    max-width: 90%; /* Ensure buttons do not exceed 90% of the container width */
-    box-sizing: border-box; /* Include padding and border in width calculation */
-  }
-
-  /* Stack buttons vertically on smaller screens */
-  @media (max-width: 768px) {
-    .button-container {
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .button-container sl-button {
-      max-width: 90%; /* Ensure buttons are no more than 90% of the card width */
-    }
+  .card-body p {
+    margin: 0;
   }
 </style>
 
@@ -85,34 +68,20 @@ nav_order:
         <div class="card-body" style="margin: 2px;">
           <p class="card-text">
             {% if project.metadata.typeofdataadvocacy %}
-            <small class="test-muted"><i class="fa-solid fa-layer-group"></i><b>&nbsp; Type of Data Advocacy:</b> {{ project.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</small>
+            <span class="attribute noHover"><b>Type of Data Advocacy:</b> {{ project.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</span>
             {% endif %}
             {% if project.metadata.genre %}
-            <small class="test-muted"><i class="fa-solid fa-bars-staggered"></i><b>&nbsp; Genre:</b> {{ project.metadata.genre | replace: '<br />', ', ' }}</small>
+            <span class="attribute noHover"><b>Genre:</b> {{ project.metadata.genre | replace: '<br />', ', ' }}</span>
             {% endif %}
             {% if project.metadata.filetype %}
-            <small class="test-muted">&nbsp;<i class="fa-solid fa-file"></i><b>&nbsp; Format:</b> {{ project.metadata.filetype | replace: '<br />', ', ' }}</small> 
+            <span class="attribute noHover"><b>Format:</b> {{ project.metadata.filetype | replace: '<br />', ', ' }}</span>
             {% endif %}
             {% if project.metadata.source %}
-            <small class="test-muted"><i class="fa-solid fa-link"></i><b>&nbsp; Also Published Here:</b> <a href="{{ project.metadata.source }}">{{ project.metadata.source }}</a></small>
+            <span class="attribute noHover"><b>Also Published Here:</b> <a href="{{ project.metadata.source }}">{{ project.metadata.source }}</a></span>
             {% endif %}
           </p>
         </div>
-        
       </div>
-
-        <div class="card-body button-container">
-          {% if project.metadata.typeofdataadvocacy %}
-          <sl-tooltip content="The type of advocacy this project supports"><sl-button class="attribute noHover">Type of Data Advocacy: {{ project.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button></sl-tooltip>
-          {% endif %}
-          {% if project.metadata.genre %}
-          <sl-tooltip content="The genre of the project"><sl-button class="attribute noHover">Genre: {{ project.metadata.genre | replace: '<br />', ', ' }}</sl-button></sl-tooltip>
-          {% endif %}
-          {% if project.metadata.filetype %}
-          <sl-tooltip content="The file type associated with the final product"><sl-button class="attribute noHover">Format: {{ project.metadata.filetype | replace: '<br />', ', ' }}</sl-button></sl-tooltip>
-          {% endif %}
-        </div>
-      
     </div>
   </div>
 </p>
