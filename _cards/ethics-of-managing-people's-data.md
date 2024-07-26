@@ -21,7 +21,7 @@ keywords:
   - "AI"
 
 metadata:
-  source: 
+  source: https://hbr.org/2023/07/the-ethics-of-managing-peoples-data
   author: "Michael Segalla and Dominique Rouziès"
   date: "2022-05-22"
   license: 
