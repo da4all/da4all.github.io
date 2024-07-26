@@ -33,7 +33,7 @@ nav_order:
     margin-top: 10px; /* Adjust as needed for spacing above the button group */
   }
 
-  sl-button-group sl-button::part(base) {
+  .button-group-container sl-button::part(base) {
     margin: 0 5px; /* Adjust the margin value for the desired spacing between buttons */
   }
 </style>
@@ -81,7 +81,7 @@ nav_order:
             {% endif %}
           </p>
         </div>
-        <div class="button-group-container">
+        <div class="card-body button-group-container">
           <sl-button-group>
             {% if project.metadata.typeofdataadvocacy %}
             <sl-tooltip content="The type of advocacy this project supports"><sl-button class="attribute noHover">Type of Data Advocacy: {{ project.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button></sl-tooltip>
