@@ -25,10 +25,16 @@ nav_order: 6
                     {% if project.inline == false %}<a href="{{ project.url | relative_url }}">{% endif %}
                     <h5 class="card-title">{{ project.title }}</h5>
                     {% if project.metadata.contributors %}
-			    <br><h3 class="card-text"><i class="fa-solid fa-people-group"></i><b>&nbsp; Contributor(s):</b> {{ project.metadata.contributors | replace: '<br />', ', ' }}</h3><br>
-                    {% endif %}
+			    {% assign contributors_text = project.metadata.contributors | replace: '<br />', ', ' %}
+			    <br>
+			    <h3 class="card-text">
+				    <i class="fa-solid fa-people-group"></i>
+				    <b>&nbsp;{% if contributors_text contains " and " %}Contributors{% else %}Contributor{% endif %}:</b> {{ contributors_text }}
+			    </h3>
+			    {% endif %}
                     <p class="card-text">
-                        {{ project.teaser }}
+			    <small><i>{{ project.metadata.courseinfo | replace: '<br />', ', ' }}</i></small><br><br>
+			    {{ project.teaser }}
 			    <small><br><br></small>
                     </p>
                     {% if project.inline == false %}</a>{% endif %}
@@ -48,6 +54,9 @@ nav_order: 6
 			{% endif %}
 			{% if project.metadata.source %}
 			<small class="test-muted"><i class="fa-solid fa-link"></i><b>&nbsp; Also Published Here:</b> <a href="{{ project.metadata.source }}">{{ project.metadata.source }}</a></small><br><br>
+			{% endif %}
+			{% if project.metadata.license %}
+			<small class="test-muted">&nbsp;<i class="fa-solid fa-quote-left"></i><b>&nbsp; License:</b> {{ project.metadata.license | replace: '<br />', ', ' }}</small> 
 			{% endif %}
                     </p>
 		    </div>
