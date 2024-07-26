@@ -42,7 +42,7 @@ layout: default
 
 {% if page.metadata.filetype %}<sl-button class="attribute noHover">Format: {{ page.metadata.filetype | replace: '<br />', ', ' }}</sl-button>{% endif %}
 
-{% if page.metadata.license %}<sl-button class="attribute noHover">License: {{ page.metadata.filetype | replace: '<br />', ', ' }}</sl-button>{% endif %}
+{% if page.metadata.license %}<sl-button class="attribute noHover">License: {{ page.metadata.license | replace: '<br />', ', ' }}</sl-button>{% endif %}
   
 <br><br>
 
@@ -60,7 +60,7 @@ layout: default
           {% if page.metadata.typeofdataadvocacy %}<sl-button class="attribute noHover" size="small">Type of Data Advocacy: {{ page.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button><br>{% endif %}
           {% if page.metadata.genre %}<sl-button class="attribute noHover" size="small">Genre: {{ page.metadata.genre | replace: '<br />', ', ' }}</sl-button><br>{% endif %}
           {% if page.metadata.filetype %}<sl-button class="attribute noHover" size="small">Format: {{ page.metadata.filetype | replace: '<br />', ', ' }}</sl-button><br>{% endif %}
-          {% if page.metadata.license %}<sl-button class="attribute noHover" size="small">Format: {{ page.metadata.license | replace: '<br />', ', ' }}</sl-button><br>{% endif %}
+          {% if page.metadata.license %}<sl-button class="attribute noHover" size="small">License: {{ page.metadata.license | replace: '<br />', ', ' }}</sl-button><br>{% endif %}
         </div>
       </div>
       <div class="col-sm-4 col-md-5">
