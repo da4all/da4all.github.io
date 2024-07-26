@@ -32,7 +32,6 @@ nav_order: 6
 				    <b>&nbsp; {% if contributors_text contains " and " %}Contributors{% else %}Contributor{% endif %}:</b> 
 				    {{ contributors_text }}
 			    </h3>
-			    <br>
 			    {% endif %}
                     <p class="card-text">
 			    <small><i>{{ project.metadata.courseinfo | replace: '<br />', ', ' }}</i></small><br><br>
