@@ -33,7 +33,7 @@ nav_order: 6
 			    </h3>
 			    {% endif %}
                     <p class="card-text">
-			    <small><i>{{ project.metadata.courseinfo | replace: '<br />', ', ' }}</i></small><br><br>
+			    <small><i>Created as part of {{ project.metadata.courseinfo | replace: '<br />', ', ' }}</i></small><br><br>
 			    {{ project.teaser }}
 			    <small><br><br></small>
                     </p>
