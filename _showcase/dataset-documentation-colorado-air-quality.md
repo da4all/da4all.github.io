@@ -13,7 +13,7 @@ metadata:
   image: dataset-documentation-colorado-air-quality.png
   caption: "A preview of the AirQuality 2018 dataset documentation that students produced, specifically with links to the dataset the project is analyzing, a summary of the project, keywords, and a paragraph about other purposes the dataset could be used for."
   genre: "Dataset Documentation"
-  filetype: "File Type"
+  filetype: ".pdf"
   typeofdataadvocacy: "Data Biography"
   contributors: "Anonymous"
   source: 
