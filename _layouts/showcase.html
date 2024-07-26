@@ -28,10 +28,10 @@ layout: default
   <header class="page-header">
     <h1 class="page-title">{{ page.title }}</h1><br>
     {% assign contributors_text = project.metadata.contributors | replace: '<br />', ', ' %}
-	  <h4><b>&nbsp;{% if contributors_text contains " and " %}Contributors{% else %}Contributor{% endif %}:</b> {{ page.metadata.contributors | replace: '<br />', ', ' }}</h4>
+	  <h4><b>{% if contributors_text contains " and " %}Contributors{% else %}Contributor{% endif %}:</b> {{ page.metadata.contributors | replace: '<br />', ', ' }}</h4>
   </header>
 
-<p><i>{{ page.metadata.courseinfo | replace: '<br />', ', ' }}</i></p>
+<p><i><small>Created for {{ page.metadata.courseinfo | replace: '<br />', ', ' }}</small></i></p>
   
 {% if page.metadata.typeofdataadvocacy %}
 <sl-button class="attribute noHover" style="padding: 2px">Type of Data Advocacy: {{ page.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button>
@@ -57,7 +57,7 @@ layout: default
     <div class="row no-gutters">
       <div class="team col-sm-8 col-md-7">
         <div class="card-body">
-          <p class="post-description" style="font-size: 14px">{{ page.teaser }}<br>
+          <p class="post-description" style="font-size: 14px">{{ page.teaser }}<br><br>
 	  {% if page.metadata.typeofdataadvocacy %}<sl-button class="attribute noHover" size="small" style="padding: 2px">Type of Data Advocacy: {{ page.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button><br>{% endif %}
           {% if page.metadata.genre %}<sl-button class="attribute noHover" size="small" style="padding: 2px">Genre: {{ page.metadata.genre | replace: '<br />', ', ' }}</sl-button><br>{% endif %}
           {% if page.metadata.filetype %}<sl-button class="attribute noHover" size="small" style="padding: 2px">Format: {{ page.metadata.filetype | replace: '<br />', ', ' }}</sl-button><br>{% endif %}
