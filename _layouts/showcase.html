@@ -37,7 +37,7 @@ layout: default
 
   <p><i>{{ page.metadata.courseinfo | replace: '<br />', ', ' }}</i></p>
   
-<div style=padding: 10px">
+<div style=padding: 50px">
 {% if page.metadata.typeofdataadvocacy %}
 <sl-button class="attribute noHover">Type of Data Advocacy: {{ page.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button>
 {% endif %}
@@ -63,7 +63,7 @@ layout: default
       <div class="team col-sm-8 col-md-7">
         <div class="card-body">
           <p class="post-description" style="font-size: 14px">{{ page.teaser }}</p>
-          <p style="padding: 5px">
+          <p style="padding: 50px">
 	  {% if page.metadata.typeofdataadvocacy %}<sl-button class="attribute noHover" size="small">Type of Data Advocacy: {{ page.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button><br>{% endif %}
           {% if page.metadata.genre %}<sl-button class="attribute noHover" size="small">Genre: {{ page.metadata.genre | replace: '<br />', ', ' }}</sl-button><br>{% endif %}
           {% if page.metadata.filetype %}<sl-button class="attribute noHover" size="small">Format: {{ page.metadata.filetype | replace: '<br />', ', ' }}</sl-button><br>{% endif %}
