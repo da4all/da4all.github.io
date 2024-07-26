@@ -26,7 +26,7 @@ profile:
     github: Lore3851 
     orcid: 
     address: >
-        University of Colorado Boulder
+        Univeristy of Wisconsin-Madison
 
 ---
 
