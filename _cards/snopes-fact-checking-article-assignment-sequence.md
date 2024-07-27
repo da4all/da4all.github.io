@@ -25,7 +25,7 @@ metadata:
   author: "Nathan Pieplow"
   date: "2024-07-25"
   license: "CC BY-NC-SA"
-  citation: "Citation"
+  citation: "Pieplow, Nathan. ‘Snopes Fact-checking Article’ (assignment sequence). Data Advocacy 4 All, University of Colorado. 27 July 2024"
 ---
 
 # Introduction for Instructors
