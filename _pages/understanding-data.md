@@ -46,7 +46,7 @@ Resources for this literacy domain offers students opportunities to explore what
   <h1 class="category">Critiquing Data</h1>
 </div>
 
-Resources for this literacy domain introduce students to critical data studies and its various frameworks for interrogating how data yields power in various contexts and who benefits and does not benefit from such data use.
+Resources for this literacy domain introduce students to critical data studies, data feminism, and other critical frameworks for interrogating how data yields power in various contexts and who benefits and does not benefit from such data use. In addition to these frameworks, resources in this literacy domain offer readings, activities, and assignments to help students hone their critical abilities to evaluate existing data sets, examples of data advocacy, and real-world scenarios concerning data ethics.
 
 {% assign cards = site.cards | where: "sample_resource", true | where: "subdomain", "Critiquing Data" | sort: "title" %}
 
