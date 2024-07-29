@@ -27,5 +27,5 @@ metadata:
   author: "Sovereign Bodies Institute"
   date: 2023
   license:
-  citation: "Sovereign Bodies Institute. https://www.sovereign-bodies.org/. Accessed on 20 June 2023.”
+  citation: "Sovereign Bodies Institute. https://www.sovereign-bodies.org/. Accessed on 20 June 2023."
 ---
