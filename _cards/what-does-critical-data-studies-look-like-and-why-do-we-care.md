@@ -6,7 +6,7 @@ domain:
   - Understanding Data
 subdomain:
   - Critiquing Data
-sample_resource: true
+sample_resource: false
 
 title: "What does Critical Data Studies look like and Why do we Care?"
 
