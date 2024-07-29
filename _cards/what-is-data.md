@@ -33,7 +33,7 @@ Part 1:
 Please describe your current understanding of and assumptions about data. Please also describe what educational opportunities, work experiences, and/or personal experiences with data have impacted such understandings and assumptions. Finally, if you had to, what is a one sentence definition of data that you can offer at this time. NOTE: Please do not look up any definitions of data to complete this portion of the freewrite. There are no right or wrong answers; I simply want to know how you define data at this point of time based on your prior knowledge and experiences. If you are unsure how to define data, it's okay. Write about why you are  uncertain and what you think it is.
 
 Part 2: 
-View the Slideshow titled “What is Data?” [Insert What is Data Slideshow? Here]
+View the Slideshow titled “What is Data?” 
 
 Which of the quote(s) about data most resonates with you and why? In answering this question, please be sure to a.) unpack the quote, meaning explain what you understand it to be saying; and b.) explain why you find it compelling, true, and/or significant. NOTE: You can choose to focus on more than one quote. 
 
