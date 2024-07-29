@@ -241,7 +241,6 @@ plugins:
   - jekyll-twitter-plugin
   - jekyll-get-json
   - jemoji
-  - jekyll-date-filter
 
 plugins_dir: _plugins
 
