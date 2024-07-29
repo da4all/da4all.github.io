@@ -5,7 +5,6 @@ resource: Reading
 domain:
   - Understanding Data
 subdomain:
-  - Critiquing Data
   - Acting Ethically with Data
 sample_resource: false
 
