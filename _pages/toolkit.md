@@ -98,9 +98,6 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
   {% for card in cards %}
   {% assign resource = site.data.cards.resources | where: "name", card.resource | first %} <!-- this line of code is matching the resource type to its corresponding icon in cards.yml -->
 
-<!--
-  <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px;" data-domain="{{ card.domain }}" data-subdomain="{{ card.subdomain }}">
--->
   <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px;" data-domain="{{ card.domain | default: '' | join: ',' }}" data-subdomain="{{ card.subdomain | default: '' | join: ',' }}">
     <div class="row no-gutters">
       <div class="team">
@@ -109,7 +106,7 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
             <h5 class="card-title"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp;&nbsp; {{ card.title }}</h5></a>
           <p class="card-text"><small class="test-muted">
             {% if card.metadata.date %}
-              <i class="fa-solid fa-calendar"></i>&nbsp; Date: {{ card.metadata.date | date: '%B %d, %Y' }}
+              <i class="fa-solid fa-calendar"></i>&nbsp; Date: {{ card.metadata.date | custom_date_format }}
             {% endif %}
             {% if card.metadata.date and card.metadata.author %}
               &nbsp;&nbsp;//&nbsp;&nbsp;
