@@ -26,5 +26,5 @@ metadata:
   author: "Southern Poverty Law Center"
   date: 
   license: 
-  citation: "Southern Poverty Law Center. 'SPLC Hate Map.' https://www.splcenter.org/hate-map. Accessed on 20 June 2023.”
+  citation: "Southern Poverty Law Center. SPLC Hate Map. https://www.splcenter.org/hate-map. Accessed on 20 June 2023.”
 ---
