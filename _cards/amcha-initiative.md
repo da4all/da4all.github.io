@@ -27,5 +27,5 @@ metadata:
   author: "AMCHA"
   date: 2023
   license:
-  citation: "AMCHA Initiative. https://amchainitiative.org/. Accessed on 15 June 2022.”
+  citation: "AMCHA Initiative. https://amchainitiative.org/. Accessed on 15 June 2022."
 ---
