@@ -12,7 +12,7 @@ sample_resource: true
 title: "Virulent Hate Project"
 
 teaser: >
-  This data advocacy project investigates anti-Asian racism by identifying, analyzing, and mapping incidents of anti-Asian harassment, violence, discrimination, and stigmatization. In addition, this project studies how Asian American activism takes place on local, state, and national levels in order to better understand how individuals and communities are responding to the recent surge in anti-Asian racism and violence.  
+  This data advocacy project investigates anti-Asian racism by identifying, analyzing, and mapping incidents of anti-Asian harassment, violence, discrimination, and stigmatization. In addition, this project studies how Asian American activism takes place on local, state, and national levels in order to better understand how individuals and communities are responding to the recent surge in anti-Asian racism and violence. 
 
 keywords:
   - "Social Advocacy"
