@@ -5,7 +5,7 @@ resource: Example of Data Advocacy
 domain:
   - Understanding Data
 subdomain:
-  - Advocating  with Data
+  - Acting Ethically with Data
 
 sample_resource: false
 
