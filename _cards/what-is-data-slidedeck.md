@@ -26,6 +26,6 @@ These slides are included in the activity titled "What is Data?" accessible in t
 
 ---
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="../assets/pdf/Introduction to Data, Data Harms, and Data Advocacy.pdf" width="100%" title="Introduction to Data, Data Harms, and Data Advocacy" style="border:2px #323639 solid; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe>" width="100%" title="What is Data Slidedeck" style="border:2px #323639 solid; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="../assets/pdf/What is Data Slidedeck.pdf" width="100%" title="What is Data Slidedeck" style="border:2px #323639 solid; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe>" width="100%" title="What is Data Slidedeck" style="border:2px #323639 solid; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe>
 
 
