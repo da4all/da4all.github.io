@@ -3,7 +3,7 @@ layout: card
 inline: false
 resource: Reading
 domain: Understanding Data
-subdomain: Defining Data
+subdomain: Acting Ethically with Data
 
 title: "Principles for Advancing Equitable Data Practice"
 
