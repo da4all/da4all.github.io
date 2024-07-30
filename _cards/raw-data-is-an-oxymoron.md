@@ -4,16 +4,11 @@ inline: false
 resource: Term
 domain:
   - Understanding Data
-  - Processing Data
-
 subdomain:
   - Defining Data
-  - Critiquing Data
-  - Collecting Data
-
 sample_resource: false
 
-title: "’Raw Data’ is an Oxymoron"
+title: Raw Data
 
 teaser: >
   Data never exists in a “raw,” unfiltered form and is never a neutral representation of reality.
