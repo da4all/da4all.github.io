@@ -22,7 +22,7 @@ metadata:
   license: 
   citation: 
 ---
-Sandy Hook Promise: https://www.sandyhookpromise.org/
+Sandy Hook Promise: [Link text](https://www.sandyhookpromise.org/)
 
 NICHM Foundation: https://nihcm.org/publications/updated-gun-violence-the-impact-on-public-health
 
