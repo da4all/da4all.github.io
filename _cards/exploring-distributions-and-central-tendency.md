@@ -1,7 +1,7 @@
 ---
 layout: card
 inline: false
-resource: Activity
+resource: Lesson Plan
 domain:
   - Processing Data
 subdomain:
@@ -12,7 +12,7 @@ sample_resource: false
 title: "Basic Descriptive Statistics: Measures of Central Tendency"
 
 teaser: >
-  This activity introduces students to some of the foundational tools and concepts for basic descriptive statistics, emphasizing measures of central tendency.  Students will spend some time defining key terms, and then will see those concepts in action through analyzing a dataset they create.
+  This lesson plan introduces students to some of the foundational tools and concepts for basic descriptive statistics, emphasizing measures of central tendency.  Students will spend some time defining key terms, and then will see those concepts in action through analyzing a dataset they create.
 
 keywords:
   - "descriptive statistics"
