@@ -9,7 +9,7 @@ subdomain:
 
 sample_resource: false
 
-title: "6 Steps to Get Started Decolonizing your Data for Development"
+title: "Six Steps to Get Started Decolonizing your Data for Development"
 
 teaser: >
   This reading discusses how a decolonizing approach to data can help one better understand how data-based technologies often reproduce and reinforce colonial structures of inequality.  As the title suggests, the reading also offers six steps that one can take for decolonizing data when working for public good.
