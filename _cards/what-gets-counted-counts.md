@@ -3,11 +3,9 @@ layout: card
 inline: false
 resource: Reading
 domain:
-  - Understanding Data
   - Processing Data
 
 subdomain:
-  - Defining Data
   - Collecting Data
 
 sample_resource: false
