@@ -20,7 +20,7 @@ metadata:
   author: "Joanna Redden, Jessica Brand and Vanesa Terzieva"
   date: 2020-08
   license: 
-  citation: "Redden, Joanna, Jessica Brand, and Vanesa Terzieva. ‘Data Harm Record.' https://datajusticelab.org/data-harm-record/. Data Justice Lab. Accessed on 27 July 2024.”
+  citation: "Redden, Joanna, Jessica Brand, and Vanesa Terzieva. 'Data Harm Record.' https://datajusticelab.org/data-harm-record/. Data Justice Lab. Accessed on 27 July 2024.”
 ---
 
 
