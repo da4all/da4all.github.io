@@ -21,7 +21,7 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
     You can filter the toolkit below by:
     <ul>
       <li>Type of resource, with a full list below specifying the various resource types</li>
-      <li>Literacy domains and subdomains, which you can learn more about on the <a href="../literacydomains/">literacy domains overview page</a></li>
+      <li>Literacy domains and subdomains, which you can learn more about on the <a href="../literacy-domains/">literacy domains overview page</a></li>
       <li>A custom search, which will populate as you type or whenever you click the "search" button; the "clear search" button will clear all search results</li>
     </ul>
   </div>
