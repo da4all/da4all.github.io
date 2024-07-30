@@ -20,5 +20,5 @@ metadata:
   author: "Catherine d’Ignazio and Lauren Klein"
   date: 
   license: 
-  citation:"d’Ignazio, Catherine and Lauren Klein. 'The Seven Principles of Data Feminism.' Responsible Data. https://responsibledata.io/anniversary/the-seven-principles-of-data-feminism/. Accessed on 27 July 2024."
+  citation: "d’Ignazio, Catherine and Lauren Klein. 'The Seven Principles of Data Feminism.' Responsible Data. https://responsibledata.io/anniversary/the-seven-principles-of-data-feminism/. Accessed on 27 July 2024."
 ---
