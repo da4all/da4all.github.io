@@ -4,14 +4,8 @@ inline: false
 resource: Activity
 domain:
   - Understanding Data
-  - Processing Data
-  - Persuading with Data
 subdomain:
-  - Critiquing Data
-  - Analyzing Data
-  - Making Claims with Data
-  - Visualizing Data
-  - Telling Stories with Data
+  - Mapping Data
 sample_resource: false
 
 title: "Gapminder World Health Chart Activity"
