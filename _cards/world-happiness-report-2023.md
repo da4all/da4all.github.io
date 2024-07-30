@@ -4,12 +4,8 @@ inline: false
 resource: Example of Data Advocacy
 domain:
   - Understanding Data
-  - Processing Data
-  - Persuading with Data
 subdomain:
-  - Critiquing Data
-  - Analyzing Data
-  - Making Claims with Data
+  - Advocating with Data
 
 sample_resource: false
 
