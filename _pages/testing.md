@@ -256,5 +256,9 @@ document.addEventListener('DOMContentLoaded', function() {
     filterCards();
   });
 
+  window.addEventListener('pageshow', initialize);
+  initialize();
+});
+  
 </script>
 
