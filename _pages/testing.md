@@ -256,16 +256,5 @@ document.addEventListener('DOMContentLoaded', function() {
     filterCards();
   });
 
-  function initialize() {
-    domainFilter.value = 'all'; 
-    subdomainFilter.value = 'all';
-    resourceFilter.value = 'all';
-    searchInput.value = '';
-    filterCards();
-  }
-
-  window.addEventListener('pageshow', initialize);
-  initialize();
-});
 </script>
 
