@@ -16,7 +16,7 @@ teaser: >
 keywords:
 
 metadata:
-  Source: "https://datajusticelab.org/data-harm-record/."
+  source: "https://datajusticelab.org/data-harm-record/."
   author: "Joanna Redden, Jessica Brand and Vanesa Terzieva"
   date: 2020-08
   license: 
