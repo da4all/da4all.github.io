@@ -1,7 +1,7 @@
 ---
 layout: card
 inline: false
-resource: Assignment
+resource: Activity
 domain:
   - Understanding Data
 subdomain:
