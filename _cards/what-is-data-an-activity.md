@@ -8,7 +8,7 @@ subdomain:
   - Defining Data
 sample_resource: true
 
-title: "What is Data?"
+title: "What is Data?: An Activity"
 
 teaser: >
   This activity challenges students to consider what data is from different perspectives, sources, and fields of inquiry as well as reflect on their own understandings of data.
