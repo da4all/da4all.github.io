@@ -7,7 +7,7 @@ nav: false
 nav_order: 
 ---
 
-# Testing 132
+# Testing 133
 
 ## Overview
 
@@ -46,7 +46,9 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
     <br>
     <li><b>Lesson Plans:</b> Lesson plans included a structured collection of resources to help students gain experience with a particular subdomain. This may include readings, glossary, activities, tutorials, etc.</li>
     <br>
-    <li><b>Examples of Data Advocacy:</b> Examples of Data Advocacy are a collection of projects and advocacy movements that utilize data advocacy to bring about social change. Some of these examples are referenced in activities, assignments, modules, and tutorials, while others are simply listed to further model for data advocacy.</li></ul></div>
+    <li><b>Examples of Data Advocacy:</b> Examples of Data Advocacy are a collection of projects and advocacy movements that utilize data advocacy to bring about social change. Some of these examples are referenced in activities, assignments, modules, and tutorials, while others are simply listed to further model for data advocacy.</li>
+  </ul>
+  </div>
 </details>
 
 <br>
@@ -98,8 +100,10 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
 
 <div id="card-list" style="margin-top: 20px;">
   {% for card in cards %}
-  {% assign resource = site.data.cards.resources | where: "name", card.resource | first %} <!-- this line of code is matching the resource type to its corresponding icon in cards.yml -->
+  {% assign resource = site.data.cards.resources | where: "name", card.resource | first %}
 
+  <!-- Validation to exclude cards without title or description -->
+  {% if card.title and card.teaser %}
   <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px;" data-domain="{{ card.domain | default: '' | join: ',' }}" data-subdomain="{{ card.subdomain | default: '' | join: ',' }}">
     <div class="row no-gutters">
       <div class="team">
@@ -176,6 +180,7 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
       </div>
     </div>
   </div>
+  {% endif %}
   {% endfor %}
 </div>
 
@@ -259,6 +264,6 @@ document.addEventListener('DOMContentLoaded', function() {
   window.addEventListener('pageshow', initialize);
   initialize();
 });
-  
 </script>
+
 
