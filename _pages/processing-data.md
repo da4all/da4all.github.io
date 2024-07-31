@@ -15,12 +15,12 @@ toc:
 
 “Processing Data” is a crucial literacy domain for helping students learn how to perform various operations on data so that they can extract valuable insights from data in critical and ethical ways.
 
-Processing Data is often understood to be an iterative cycle involving several phrases. For the purposes of this project, we identify 4 key phases: collecting data; organizing and cleaning data; analyzing data; and storing and preserving data.
+Processing Data is often understood to be an iterative cycle involving several phrases. For the purposes of this project, we identify 4 key phases: collecting data; preparing data; analyzing data; and storing and preserving data.
 
 The resources offered under this literacy domain push students to ask critical questions about data processing such as:
 
 - What ethical issues do we need to consider when collecting data?
-- What are useful strategies for organizing and cleaning data?
+- What are useful strategies for preparing data?
 - What are different ways we can analyze data to glean useful information?
 - How can we store and preserve data to make it sustainable and accessible?
 <br>
@@ -44,12 +44,12 @@ Resources for this literacy domain introduce students to various methods for gat
 </div>
 
 <div class ="projects">
-  <h1 class="category">Organizing and Cleaning Data</h1>
+  <h1 class="category">Preparing Data</h1>
 </div>
 
 Resources for this literacy domain help students learn how to assemble, categorize, classify, structure, and edit data so that it can be easily and ethically accessed, processed, and analyzed.
 
-{% assign cards = site.cards | where: "sample_resource", true | where: "subdomain", "Organizing and Cleaning Data" | sort: "title" %}
+{% assign cards = site.cards | where: "sample_resource", true | where: "subdomain", "Preparing Data" | sort: "title" %}
 
 <div class ="projects">
   <h2 class="category">Sample Toolkit Resources</h2>
