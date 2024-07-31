@@ -33,11 +33,11 @@ metadata:
 
 # Introduction for Instructors
 
-This assignment sequence lays out a drafted and workshopped major writing assignment designed for an upper-division undergraduate technical writing course and intended to take 1.5-2 weeks of the course to complete. It asks students to find a dataset to document and then leads them through a multi-step process of critical engagement with that dataset. The ultimate product is a set of documentation that is not merely technical but also critical and deeply contextual. Here is an example of student work produced during the course of this assignment sequence (*link forthcoming*).
+This assignment sequence lays out a drafted and workshopped major writing assignment designed for an upper-division undergraduate technical writing course and intended to take 1.5-2 weeks of the course to complete. It asks students to find a dataset to document and then leads them through a multi-step process of critical engagement with that dataset. The ultimate product is a set of documentation that is not merely technical but also critical and deeply contextual. [One example of student work](https://da4asandbox.github.io/curricularsite/showcase/dataset-documentation-colorado-air-quality) produced during the course of this assignment sequence can be found in the Student Showcase on this website.
 
 The sequence consists of four assignments, the first three of which ask students to keep adding new material to their draft. After the third assignment, students get feedback from peers and the instructor (details not explained here), before submitting the final draft in the fourth assignment.
 
-Before beginning this sequence, students will have seen the slide deck titled “Getting Started with Data for Advocacy.” 
+Before beginning this sequence, students will have seen the slide deck titled [“Getting Started with Data for Advocacy.”](https://da4asandbox.github.io/curricularsite/cards/getting-started-with-data-for-advocacy-slide-deck) 
 
 The student-facing instructions for all four assignments are as follows:
 
@@ -80,7 +80,9 @@ This is a first draft of your documentation, and we will be revising and adding 
 
 ### Sample documentation  
 
-Here is a high-quality student sample of what I'm asking you to create, including formatting. (Link forthcoming)
+Here is an anonymous student sample of what I'm asking you to create, including formatting. 
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="../assets/pdf/dataset-documentation-part-1-student-sample.pdf" width="100%" title="Dataset Documentation part 1 student sample" style="border:2px #323639 solid; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div>
 
 # Assignment 2: Read Data Feminism Ch. 6 and write a biography of your dataset
 
@@ -90,7 +92,7 @@ Thus, I'm going to ask you to write a data biography of the dataset you have alr
 
 ### What's a data biography?  
 
-To figure out exactly what should go into your data biography, we'll use the ["Datasheets for Datasets" proposal by Timnit Gebru et al.](https://arxiv.org/pdf/1803.09010.pdf) as a guide. This proposal was discussed in Chapter 6 of Data Feminism, and it has been highly influential. You don't have to read the whole thing. Just look carefully at the questions in sections 3.1 through 3.7.  
+To figure out exactly what should go into your data biography, we'll use the ["Datasheets for Datasets" proposal by Timnit Gebru et al.](https://arxiv.org/pdf/1803.09010.pdf) as a guide. This proposal was discussed in Chapter 6 of Data Feminism, and it has been quite influential. You don't have to read the whole thing. Just look carefully at the questions in sections 3.1 through 3.7.  
 
 The questions in section 3.1 should already be answered in the technical documentation you've done so far. I recommend that you add a paragraph to your documentation for each section from 3.2 through 3.7, answering the questions in each section that are relevant to your dataset. 
 
@@ -114,7 +116,9 @@ Use similar formatting to the earlier sections of your documentation, and split 
 
 ### Student sample  
 
-Here is a sample from a past student with a thoughtful ethnographic assessment piece (link forthcoming). The earlier parts of the documentation may not look like what you have, but that is because the assignment instructions have changed somewhat in the interim..
+Here is a sample from a past student with a thoughtful ethnographic assessment piece. The earlier parts of the documentation may not look like what you have, because the assignment instructions have changed somewhat since this student's semester.
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="../assets/pdf/dataset-documentation-colorado-air-quality.pdf" width="100%" title="Dataset Documentation student sample" style="border:2px #323639 solid; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div>
 
 # Assignment 4: Final draft of dataset documentation
 
