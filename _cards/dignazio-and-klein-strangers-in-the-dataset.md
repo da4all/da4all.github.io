@@ -6,7 +6,7 @@ domain:
   - Processing Data
 subdomain:
   - Preparing Data
- sample_resource: false
+sample_resource: false
 
 title: "Catherine D’Ignazio and Lauren Klein, ‘Strangers in the Dataset’"
 
