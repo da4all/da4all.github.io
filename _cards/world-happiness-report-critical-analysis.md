@@ -12,7 +12,7 @@ sample_resource: false
 title: "Critically Analyzing the World Happiness Report"
 
 teaser: >
-  DESCRIPTION
+   This classroom activity provides an opportunity for students to practice data analysis while also cultivating a habit of critical reflection about data.  The World Happiness Report provides abundant data for statistical analysis.  The activity invites students to think about the variables included in the dataset, about the relations between variables, and about the advantages and disadvantages of the authors’ approach to measuring happiness.  This exercise is designed to help cultivate habits of critical reflection and to provide practice in data analysis, including reflection on correlation.
 
 keywords:
   - "World happiness"
