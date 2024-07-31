@@ -31,7 +31,7 @@ metadata:
 
 ### Article
 
-These discussion questions assume that students have read the 2022 article [“The Leading Edge: What Inuit Can Teach Us About Climate Monitoring And Adaptation”](https://www.forbes.com/sites/ashoka/2022/06/09/the-leading-edge-what-inuit-can-teach-us-about-climate-monitoring-and-adaptation/) in Forbes magazine. 
+These discussion questions assume that students have read the 2022 article [“The Leading Edge: What Inuit Can Teach Us About Climate Monitoring And Adaptation”](https://www.forbes.com/sites/ashoka/2022/06/09/the-leading-edge-what-inuit-can-teach-us-about-climate-monitoring-and-adaptation/) in Forbes magazine. Note: the Forbes article is behind a paywall but Forbes allows a certain number of free articles to non-subscribers.
 
 ### Discussion Questions
 
