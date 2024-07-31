@@ -12,7 +12,6 @@ subdomain:
   - Acting Ethically with Data
   - Advocating with Data
   - Collecting Data
-  - Organizing and Cleaning Data
   - Analyzing Data
   - Storing and Preserving Data
   - Making Claims with Data
