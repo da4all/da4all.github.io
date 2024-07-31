@@ -6,10 +6,9 @@ domain:
   - Understanding Data
 subdomain:
   - Acting Ethically with Data
-
 sample_resource: false
 
-title: "Deon-Ethics-Checklist-for-Data-Scientists"
+title: "Deon Ethics Checklist for Data Scientists"
 
 teaser: >
   This online tutorial introduces you to Deon, which is a command line tool that generates an ethics checklist to help decide if a data project is ethical. This tutorial explains how one can create a custom checklist or use a default checklist split into different sections based upon the stage of ones project. This tutorial also includes a bibliography of readings about data ethics.
