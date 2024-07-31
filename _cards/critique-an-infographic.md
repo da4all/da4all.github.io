@@ -30,7 +30,7 @@ metadata:
 
 # Lesson Plan
 
-In groups, students will examine this infographic from Greenpeace (used here for educational purposes as permitted by [Greenpeace’s copyright and permissions policy](https://www.greenpeace.org/international/copyright).) 
+In groups, students will examine this infographic from Greenpeace (used here for educational purposes as permitted by [Greenpeace’s copyright and permissions policy](https://www.greenpeace.org/international/copyright).) This activity is designed to follow the slide deck titled [“To Visualize or Not?”](https://da4asandbox.github.io/curricularsite/cards/to-visualize-or-not-slide-deck) 
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://docs.google.com/presentation/d/1MgvU4-erc5Dk1Uk-2LQEhqxFtwDaG81j/edit?usp=sharing&ouid=116941745404208628216&rtpof=true&sd=true" width="100%" title="Critique of the Longline Fishing Infographic (slide deck)" style="border:2px #323639 solid; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div>
 
