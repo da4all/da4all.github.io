@@ -24,6 +24,6 @@ metadata:
   author: "Chai, Christine P."
   date: "2020-02"
   license: ""
-  citation: "Chai, Christine P. "The Importance of Data Cleaning: Three Visualization Examples." _CHANCE_, American Statistical Association, Feb. 2020, https://chance.amstat.org/2020/02/data-cleaning/. Accessed 31 July 2024."
+  citation: "Chai, Christine P. 'The Importance of Data Cleaning: Three Visualization Examples.' _CHANCE_, American Statistical Association, Feb. 2020, https://chance.amstat.org/2020/02/data-cleaning/." Accessed 31 July 2024."
 ---
 
