@@ -19,7 +19,7 @@ Data Literacy, in the context of this project, is understood to be a nexus of mi
 <div style="background-color: #e5eeff; margin-left:10px; margin-top:10px; margin-right:10px;"><p style="font-size: 12px; padding: 20px;"><strong>Figure 1.</strong> This graphic showcases how all of the literacy domains of data advocacy are interrelated, including each of the three primary domains in navy—Understanding Data, Processing Data, and Persuading with Data—as well as the subdomains beneath each one in red.</p></div>
 As so organized, these literacy domains are presented as distinct and linear. But we envision these domains as overlapping and reciprocal. For instance, it is important to think critically and ethically about data in all literacy domains. When we create maps with data, we are often telling stories. When we tell stories with data, we are often using persuasive devices. However, for the sake of organization, we have separated out these domains so that you, as teachers, can think about each of these domains more deeply and find relevant resources as needed.
 
-Please click on any of the literacy domains below or hover over the literacy domains tab in the navigation to learn more about each domain and discover valuable resources to help hone students’ abilities to work with data in their various subdomains:
+Please click on any of the literacy domains below or hover over the literacy domains tab in the navigation to learn more about each domain and discover valuable resources to help hone students’ abilities to work with data in their various subdomains: 
 
   <div class="card">
     <a href="{{ site.baseurl }}/understanding-data/">
