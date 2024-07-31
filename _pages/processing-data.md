@@ -65,7 +65,7 @@ Resources for this literacy domain help students learn how to assemble, categori
   <h1 class="category">Analyzing Data</h1>
 </div>
 
-Resources for this literacy domain teach students how to enact various methods to glean useful information and insights from data, which can then be used for various rhetorical purposes such as decision-making, advocacy, and education. 
+Resources for this literacy domain teach students how to enact various methods to glean useful information and insights from data, which can then be used for various rhetorical purposes such as decision-making, advocacy, and education.
 
 {% assign cards = site.cards | where: "sample_resource", true | where: "subdomain", "Analyzing Data" | sort: "title" %}
 
