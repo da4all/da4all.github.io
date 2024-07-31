@@ -23,4 +23,4 @@ metadata:
 
 This final project was created in response to the [Individual Data Advocacy Project assignment sequence](https://da4asandbox.github.io/curricularsite/cards/individual-data-advocacy-project) as the final project in an upper-division technical writing course dedicated to data advocacy and is shared here with the permission of the author.
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://github.com/da4asandbox/curricularsite/blob/master/assets/pdf/pedestrian-safety-in-the-age-of-growing-vehicle-sizes.pdf" width="100%" title="Pedestrian Safety in the Age of Growing Vehicle Sizes" style="border:2px #323639 solid; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="../assets/pdf/pedestrian-safety-in-the-age-of-growing-vehicle-sizes.pdf" width="100%" title="Pedestrian Safety in the Age of Growing Vehicle Sizes" style="border:2px #323639 solid; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div>
