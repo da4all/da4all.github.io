@@ -5,7 +5,7 @@ resource: Reading
 domain:
   - Processing Data
 subdomain:
-  - Organizing and Cleaning Data
+  - Preparing Data
  sample_resource: false
 
 title: "Catherine D’Ignazio and Lauren Klein, ‘Strangers in the Dataset’"
