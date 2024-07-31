@@ -20,11 +20,11 @@ keywords:
   - "statistical analysis"
 
 metadata:
-  source: ""
-  author: ""
+  source: 
+  author: 
   date: "2024"
   license: "CC BY-NC-SA"
-  citation: ""
+  citation: 
 ---
 
 # Instructor Notes
