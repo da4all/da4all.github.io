@@ -199,7 +199,7 @@ document.addEventListener('DOMContentLoaded', function() {
     'Acting Ethically with Data': 'Understanding Data',
     'Advocating with Data': 'Understanding Data',
     'Collecting Data': 'Processing Data',
-    'Organizing and Cleaning Data': 'Processing Data',
+    'Preparing Data': 'Processing Data',
     'Analyzing Data': 'Processing Data',
     'Storing and Preserving Data': 'Processing Data',
     'Making Claims with Data': 'Persuading with Data',
