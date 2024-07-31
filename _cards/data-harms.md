@@ -14,6 +14,7 @@ teaser: >
    According to Joanna Redden, Jessica Brand and Vanesa Terzieva, we can think about data harms as “the adverse effects caused by uses of data that may impair, injure, or set back a person, entity or society’s interests.”
 
 Keywords:
+  - 
 
 metadata:
   source: "https://datajusticelab.org/data-harm-record/."
