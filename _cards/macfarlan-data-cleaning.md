@@ -6,7 +6,6 @@ domain:
   - Processing Data
 subdomain:
   - Organizing and Cleaning Data
-
 sample_resource: false
 
 title: "Alice Macfarlan, ‘Data Cleaning’"
@@ -21,10 +20,10 @@ keywords:
   - "data analysis"
 
 metadata:
-  source: "https://www.betterevaluation.org/methods-approaches/methods/data-cleaning#:~:text=Incorrect%20or%20inconsistent%20data%20can,important%20information%20or%20valid%20data."
+  source: "https://www.betterevaluation.org/methods-approaches/methods/data-cleaning#:~:text=Incorrect%20or%20inconsistent%20data%20can,important%20information%20or%20valid%20data"
   author: "Macfarlan, Alice"
-  date: ""
-  license: ""
+  date: 
+  license: 
   citation: "Macfarlan, Alice. ’Data Cleaning.’ Better Evaluation, https://www.betterevaluation.org/methods-approaches/methods/data-cleaning#:~:text=Incorrect%20or%20inconsistent%20data%20can,important%20information%20or%20valid%20data. Accessed 31 July 2024."
 ---
 
