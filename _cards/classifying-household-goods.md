@@ -6,7 +6,7 @@ domain:
   - Processing Data
 subdomain:
   - Collecting Data
-  - Organizing and Cleaning Data
+  - Preparing Data
 sample_resource: false
 
 title: "Classifying Household Goods"
