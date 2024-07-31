@@ -20,7 +20,7 @@ keywords:
   - "Public Good"
   - "Mapping"
   - "Database"
-  - “Hate Tracking”
+  - “Hate Tracking"
 
 metadata:
   source:   https://amchainitiative.org/
