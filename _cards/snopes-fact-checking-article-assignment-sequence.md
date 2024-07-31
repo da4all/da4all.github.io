@@ -34,7 +34,7 @@ This assignment sequence lays out a drafted and workshopped writing assignment d
 
 The sequence consists of four assignments.. After the third assignment, students get feedback from peers and the instructor via a workshopping process not explained here, before submitting the final draft in the fourth assignment.
 
-Before beginning this sequence, we recommend showing students the slide decks “Getting Started with Data for Advocacy,” “Demonstrating Causation,” “Framing Statistics,” and “Evaluating Statistical Claims.”
+Before beginning this sequence, we recommend showing students the slide decks “[Getting Started with Data for Advocacy](https://da4asandbox.github.io/curricularsite/cards/getting-started-with-data-for-advocacy-slide-deck),” “[Demonstrating Causation](https://da4asandbox.github.io/curricularsite/cards/demonstrating-causation-slide-deck),” “[Framing Statistics](https://da4asandbox.github.io/curricularsite/cards/framing-statistics-slide-deck),” and “[Evaluating Statistical Claims](https://da4asandbox.github.io/curricularsite/cards/evaluating-statistical-claims-slide-deck).”
 
 The student-facing instructions for all four assignments are as follows:
 
