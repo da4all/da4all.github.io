@@ -1,7 +1,7 @@
 ---
 layout: card
 inline: false
-resource: Reading
+resource: Example of Data Advocacy
 domain:
   - Persuading with Data
 subdomain:
