@@ -18,7 +18,7 @@ metadata:
   author: "Cameron Blevins"
   date: "2024-07-12"
   license: "License Type: CC BY"
-  citation: "Cameron Blevins, ‘Dear Data’ Data Advocacy For All"
+  citation: "Cameron Blevins, ‘Dear Data,’ Data Advocacy For All"
 ---
 
 ## Assignment Overview

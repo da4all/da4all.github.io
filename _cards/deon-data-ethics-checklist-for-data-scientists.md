@@ -1,7 +1,7 @@
 ---
 layout: card
 inline: false
-resource: Assignment
+resource: Tutorial
 domain:
   - Understanding Data
 subdomain:
@@ -22,7 +22,7 @@ keywords:
 metadata:
   source: https://deon.drivendata.org/
   author: "Driven Data"
-  date: 
+  date:
   license:
   citation: "Driven Data. ‘Deon-Ethics-Checklist-for-Data-Scientists.’ Data Ethics Repository. https://dataethicsrepository.iaa.ncsu.edu/2023/04/18/data-science-ethics-checklist/. Accessed on 15 July 2024."
 ---
