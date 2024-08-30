@@ -12,7 +12,7 @@ sample_resource: false
 title: "Maps as Advocacy (slide deck)"
 
 teaser: >
-  This slide deck provides an introduction to the ways in which maps can advocate for policies and positions. It uses concepts from critical cartography to challenge the notion that any map can be truly objective.
+  This slide deck provides an introduction to the ways in which maps can advocate for policies and positions. It uses concepts from critical cartography to challenge the notion that any map can be truly objective. The slide deck with instructor notes could be used as a reading or an activity.
 
 keywords:
   - "Critical Cartography"
