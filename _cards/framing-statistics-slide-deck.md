@@ -12,7 +12,7 @@ sample_resource: false
 title: "Framing Statistics (slide deck)"
 
 teaser: >
-  This slide deck introduces students to the concept of framing theory from communication studies, and explores how framing theory can be applied to the communication of statistics. It asks students to identify frames of reference in both mathematical and rhetorical examples. This activity can be paired with “The Many Ways to Write a Statistic” lesson plan.
+  This slide deck introduces students to the concept of framing theory from communication studies, and explores how framing theory can be applied to the communication of statistics. It asks students to identify frames of reference in both mathematical and rhetorical examples. The slide deck with instructor notes could be used as a reading or an activity, and can be paired with “The Many Ways to Write a Statistic” lesson plan.
 
 keywords:
   - "Statistics"
