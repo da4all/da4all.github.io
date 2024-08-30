@@ -12,7 +12,7 @@ sample_resource: false
 title: "How to Create a Data Visualization (slide deck)"
 
 teaser: >
-  These slides explain two different step-by-step methods for creating high-quality, professional-looking data visualizations without needing to pay for software or learn to code. They are intended to follow the Introduction to Data Visualization videos and provide a lead-in to the Create an Original Data Visualization assignment sequence.
+  These slides explain two different step-by-step methods for creating high-quality, professional-looking data visualizations without needing to pay for software or learn to code. They are intended to follow the Introduction to Data Visualization videos and provide a lead-in to the Create an Original Data Visualization assignment sequence. The slide deck with instructor notes could be used as a reading or an activity.
 
 keywords:
   - "Visual Rhetoric"
