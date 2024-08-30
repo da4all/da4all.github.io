@@ -12,7 +12,7 @@ sample_resource: false
 title: "Demonstrating Causation (slide deck)"
 
 teaser: >
-  This slide deck reviews the problem of correlation and causation. It provides a quick mathematical review of what correlation is, followed by a look at the difference between correlation and causation and a high-level overview of three requirements in proving causation. 
+  This slide deck reviews the problem of correlation and causation. It provides a quick mathematical review of what correlation is, followed by a look at the difference between correlation and causation and a high-level overview of three requirements in proving causation. The slide deck with instructor notes could be used as a reading or an activity.
 
 keywords:
   - "Causation vs Correlation"
