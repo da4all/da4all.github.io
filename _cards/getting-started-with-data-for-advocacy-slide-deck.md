@@ -12,7 +12,7 @@ sample_resource: false
 title: "Getting Started with Data for Advocacy (slide deck)"
 
 teaser: >
-  This slide deck introduces basic principles behind numerical argumentation. It demonstrates that single numbers are good for showing sizes, and two or more numbers are good for comparisons, but entire datasets are necessary to show patterns. It prepares students to recognize what is and isn’t a dataset when they are searching for data online, briefly discusses ways to find data for advocacy, and briefly mentions U.S. privacy laws that govern data availability (HIPAA and FERPA).
+  This slide deck introduces basic principles behind numerical argumentation. It demonstrates that single numbers are good for showing sizes, and two or more numbers are good for comparisons, but entire datasets are necessary to show patterns. It prepares students to recognize what is and isn’t a dataset when they are searching for data online, briefly discusses ways to find data for advocacy, and briefly mentions U.S. privacy laws that govern data availability (HIPAA and FERPA). The slide deck with instructor notes could be used as a reading or an activity.
 
 keywords:
   - "Quantitative Rhetoric"
