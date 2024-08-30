@@ -12,7 +12,7 @@ sample_resource: false
 title: "Evaluating Statistical Claims (slide deck)"
 
 teaser: >
-  This slide deck briefly introduces nine questions to ask when evaluating the validity of a statistical claim. It then provides a series of statistical claims for students to evaluate using their existing quantitative thinking skills. It ends by asking them to apply this same type of evaluation to a statistical claim from their own project.
+  This slide deck briefly introduces nine questions to ask when evaluating the validity of a statistical claim. It then provides a series of statistical claims for students to evaluate using their existing quantitative thinking skills. It ends by asking them to apply this same type of evaluation to a statistical claim from their own project. The slide deck with instructor notes could be used as a reading or an activity.
 
 keywords:
   - "Statistical Thinking"
