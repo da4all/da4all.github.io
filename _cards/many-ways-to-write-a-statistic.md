@@ -1,7 +1,7 @@
 ---
 layout: card
 inline: false
-resource: Reading, Term, Assignment, Activity, Tutorial, Lesson Plan, Dataset, Example of Data Advocacy
+resource: Activity
 domain:
   - Persuading with Data
 subdomain:
