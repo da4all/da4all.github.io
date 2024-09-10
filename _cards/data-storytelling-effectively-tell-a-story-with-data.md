@@ -1,4 +1,3 @@
-
 ---
 layout: card
 inline: false
