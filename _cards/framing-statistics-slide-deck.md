@@ -1,7 +1,7 @@
 ---
 layout: card
 inline: false
-resource: Activity
+resource: Instructional Slide Deck
 domain:
   - Persuading with Data
 subdomain:
@@ -19,7 +19,6 @@ keywords:
   - "Quantitative Rhetoric"
   - "Statistical Claims"
   - "Data-driven Argument"
-
 
 metadata:
   source: "https://docs.google.com/presentation/d/1tfYyfTKLohWEX2u8-s7louyPhrkVh2Gy/edit?usp=sharing&ouid=116941745404208628216&rtpof=true&sd=true"

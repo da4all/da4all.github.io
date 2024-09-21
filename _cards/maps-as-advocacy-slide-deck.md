@@ -1,7 +1,7 @@
 ---
 layout: card
 inline: false
-resource: Activity
+resource: Instructional Slide Deck
 domain:
   - Persuading with Data
 subdomain:
@@ -18,7 +18,6 @@ keywords:
   - "Critical Cartography"
   - "Visual Rhetoric"
   - "Rhetoric of Data Visualization"
-
 
 metadata:
   source: "https://docs.google.com/presentation/d/1d6BtBdm2dJr6YKqDnYDmnn5Lul-6925G/edit?usp=sharing&ouid=116941745404208628216&rtpof=true&sd=true"

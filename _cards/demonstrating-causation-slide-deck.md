@@ -1,7 +1,7 @@
 ---
 layout: card
 inline: false
-resource: Activity
+resource: Instructional Slide Deck
 domain:
   - Persuading with Data
 subdomain:
@@ -18,7 +18,6 @@ keywords:
   - "Causation vs Correlation"
   - "Statistical Thinking"
   - "Critical Data Studies"
-
 
 metadata:
   source: "https://docs.google.com/presentation/d/1JXZOaUA9eWBXDfnK59EDSKUBIIHCZHns/edit?usp=sharing&ouid=116941745404208628216&rtpof=true&sd=true"

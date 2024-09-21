@@ -1,7 +1,7 @@
 ---
 layout: card
 inline: false
-resource: Activity
+resource: Instructional Slide Deck
 domain:
   - Persuading with Data
 subdomain:

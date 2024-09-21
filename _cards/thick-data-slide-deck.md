@@ -1,7 +1,7 @@
 ---
 layout: card
 inline: false
-resource: Activity
+resource: Instructional Slide Deck
 domain:
   - Understanding Data
 subdomain:
@@ -11,13 +11,12 @@ sample_resource: false
 title: "Thick Data (slide deck)"
 
 teaser: >
-  This slide deck introduces the concept of “thick data” (Wang 2013) using Clifford Geertz’s classic example of the difference between a wink and a blink (or squint). It references both C. Thi Nguyen’s “The Limits of Data” (2024) and Tricia Wang’s “Why Big Data Needs Thick Data” (2013) and can reinforce concepts introduced to students via those readings, or else substitute for them. 
+  This slide deck introduces the concept of “thick data” (Wang 2013) using Clifford Geertz’s classic example of the difference between a wink and a blink (or squint). It references both C. Thi Nguyen’s “The Limits of Data” (2024) and Tricia Wang’s “Why Big Data Needs Thick Data” (2013) and can reinforce concepts introduced to students via those readings, or else substitute for them.
 
 keywords:
   - "Thick Data"
   - "Ethnography"
   - "Thick Description"
-
 
 metadata:
   source: "https://docs.google.com/presentation/d/1YsnCgbdiCQ6gQTjfLf3bmH3jX_q_gji2/edit#slide=id.p7"

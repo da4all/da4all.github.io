@@ -4,7 +4,7 @@ permalink: /understanding-data/
 title: Understanding Data
 description:
 nav: false
-nav_order: 
+nav_order:
 display_categories:
 horizontal: false
 toc:
@@ -13,7 +13,7 @@ toc:
 
 ## Overview
 
-“Understanding data” is a crucial literacy domain for helping students develop the critical, ethical, and rhetorical impulses needed to define data; understand its complicated relations to power, privilege, oppression, and liberation; and imagine ethical and responsible ways of working with data toward more just futures.
+“Understanding data” is a crucial literacy domain for helping students develop the critical, ethical, and rhetorical impulses needed to define data; understand its complicated relations to power, privilege, oppression, and liberation; and imagine ethical and responsible ways of working and advocating with data toward more just futures.
 
 The resources offered under this literacy domain push students to ask critical questions about data such as:
 
@@ -21,7 +21,7 @@ The resources offered under this literacy domain push students to ask critical q
 - How and why does data ethically matter?
 - What critical habits toward data are important to develop?
 - What rhetorical dimensions of data need to be considered?
-- What is data advocacy? And how can we do data advocacy ethically and responsibly?
+- What is data advocacy? And how can we think rhetorically about data advocacy and do data advocacy ethically and responsibly?
   <br>
 
 <div class ="projects">
@@ -64,7 +64,7 @@ Resources for this literacy domain introduce students to critical data studies, 
   <h1 class="category">Acting Ethically with Data</h1>
 </div>
 
-Resources for this literacy domain introduce students to data ethics in order to help students better understand the significance of transparency, accountability, agency, and privacy, among other matters, when working with data. 
+Resources for this literacy domain introduce students to data ethics in order to help students better understand the significance of transparency, accountability, agency, and privacy, among other matters, when working with data.
 
 {% assign cards = site.cards | where: "sample_resource", true | where: "subdomain", "Acting Ethically with Data" | sort: "title" %}
 
@@ -79,10 +79,10 @@ Resources for this literacy domain introduce students to data ethics in order to
 </div>
 
 <div class ="projects">
-  <h1 class="category">Advocating with Data</h1>
+  <h1 class="category">Thinking Rhetorically about Data and Advocacy</h1>
 </div>
 
-Resources for this literacy domain introduce students to the practice of data advocacy and explore how a rhetorical data studies framework can help students advocate with data in ethical, persuasive, and just ways.
+This literacy domain introduces students to the art of rhetoric and the practice of data advocacy. Resources include an overview of rhetorical data studies and an explanation of how this approach can not only help students deepen their understanding about data but also assist their doing of data advocacy in ethical, persuasive, and just ways. Examples of data advocacy projects, delivered in multiple and diverse genres, are also included.
 
 {% assign cards = site.cards | where: "sample_resource", true | where: "subdomain", "Advocating with Data" | sort: "title" %}
 

@@ -45,6 +45,7 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
     <li><b>Lesson Plans:</b> Lesson plans included a structured collection of resources to help students gain experience with a particular subdomain. This may include readings, glossary, activities, tutorials, etc.</li>
     <br>
     <li><b>Examples of Data Advocacy:</b> Examples of Data Advocacy are a collection of projects and advocacy movements that utilize data advocacy to bring about social change. Some of these examples are referenced in activities, assignments, modules, and tutorials, while others are simply listed to further model for data advocacy.</li>
+    <li><b>Instructional Slide Deck:</b> Instructional Slide Decks include open-access slides curated by Data Advocacy for All team members to assist the teaching of data advocacy and help hone students hone the multiple literacies needed to do data advocacy is ethical, responsible, and persuasive ways. Many slide decks correspond with specific activities and assignments listed under the various literacy subdomains.</li>
   </ul>
   </div>
 </details>
@@ -101,7 +102,9 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
   {% assign resource = site.data.cards.resources | where: "name", card.resource | first %}
 
   <!-- Validation to exclude cards without title or description -->
-  {% if card.title and card.teaser %}
+
+{% if card.title and card.teaser %}
+
   <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px;" data-domain="{{ card.domain | default: '' | join: ',' }}" data-subdomain="{{ card.subdomain | default: '' | join: ',' }}">
     <div class="row no-gutters">
       <div class="team">
