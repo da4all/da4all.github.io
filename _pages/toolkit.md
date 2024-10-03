@@ -32,20 +32,21 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
   <summary>Resource Types</summary>
   <div class="content">
   <ul>
-    <li><b>Terms:</b> Terms refer to concepts that are key to each subdomain along with brief definitions and identification of source. Most of the concepts are discussed in the subdomain’s open access readings.</li>
+    <li><b>Terms:</b> Concepts that are key to each subdomain along with brief definitions and identification of source. Most of the concepts are discussed in the subdomain’s open-access readings.</li>
     <br>
-    <li><b>Readings:</b> Readings include open access sources that introduce students to important frameworks, concepts, practices, and strategies for doing data advocacy. A list of closed access content is also included on some occasions.</li>
+    <li><b>Readings:</b> Open-access sources that introduce students to important frameworks, concepts, practices, and strategies for doing data advocacy. A list of closed access content is also included on some occasions.</li>
     <br>
-    <li><b>Assignments:</b> Assignments include formal work that gives students opportunity to learn, practice, and reflect on their experiences with data advocacy. These assignments can also be used to assess student learning in relation to each data literacy domain and subdomain. </li>
+    <li><b>Assignments:</b> Formal work that gives students opportunity to learn, practice, and reflect on their experiences with data advocacy. These assignments can also be used to assess student learning in relation to each data literacy domain and subdomain. </li>
     <br>
-    <li><b>Activities:</b> Activities include open-access lessons, varying in length and scope, that can be implemented in the classroom to help students hone their abilities to work with data in several literacy domains and subdomains.</li>
+    <li><b>Activities:</b> Open-access lessons developed by the Data Advocacy for All team, varying in length and scope, that can be implemented in the classroom to help students hone their abilities to work with data in several literacy domains and subdomains.</li>
     <br>
-    <li><b>Tutorials:</b> Tutorials include step-by-step instructions for using various open-access digital tools to work with data. All tutorials rely on minimal computing, so no previous computer experience is required.</li>
+    <li><b>Tutorials:</b> Step-by-step instructions for using various open-access digital tools to work with data. All tutorials rely on minimal computing, so no previous computer experience is required.</li>
     <br>
-    <li><b>Lesson Plans:</b> Lesson plans included a structured collection of resources to help students gain experience with a particular subdomain. This may include readings, glossary, activities, tutorials, etc.</li>
+    <li><b>Lesson Plans:</b> A structured collection of resources to help students gain experience with a particular subdomain. This may include readings, glossary, activities, tutorials, etc.</li>
     <br>
-    <li><b>Examples of Data Advocacy:</b> Examples of Data Advocacy are a collection of projects and advocacy movements that utilize data advocacy to bring about social change. Some of these examples are referenced in activities, assignments, modules, and tutorials, while others are simply listed to further model for data advocacy.</li>
-    <li><b>Instructional Slide Deck:</b> Instructional Slide Decks include open-access slides curated by Data Advocacy for All team members to assist the teaching of data advocacy and help hone students hone the multiple literacies needed to do data advocacy is ethical, responsible, and persuasive ways. Many slide decks correspond with specific activities and assignments listed under the various literacy subdomains.</li>
+    <li><b>Examples of Data Advocacy:</b> A collection of projects and advocacy movements that utilize data advocacy to bring about social change. Some of these examples are referenced in activities, assignments, modules, and tutorials, while others are simply listed to further model for data advocacy.</li>
+    <br>
+    <li><b>Slides:</b> Open-access slide decks curated by Data Advocacy for All team members to assist the teaching of data advocacy and help hone students hone the multiple literacies needed to do data advocacy is ethical, responsible, and persuasive ways. Many slide decks correspond with specific activities and assignments listed under the various literacy subdomains.</li>
   </ul>
   </div>
 </details>

@@ -32,5 +32,5 @@ resources:
     icon: "fa-solid fa-person-chalkboard"
   - name: Example of Data Advocacy
     icon: "fa-solid fa-bullhorn"
-  - name: Instructional Slide Deck
+  - name: Slides
     icon: "fa-solid fa-chalkboard"

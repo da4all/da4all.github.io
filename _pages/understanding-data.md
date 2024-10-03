@@ -79,7 +79,7 @@ Resources for this literacy domain introduce students to data ethics in order to
 </div>
 
 <div class ="projects">
-  <h1 class="category">Thinking Rhetorically about Data and Advocacy</h1>
+  <h1 class="category">Thinking Rhetorically about Data</h1>
 </div>
 
 This literacy domain introduces students to the art of rhetoric and the practice of data advocacy. Resources include an overview of rhetorical data studies and an explanation of how this approach can not only help students deepen their understanding about data but also assist their doing of data advocacy in ethical, persuasive, and just ways. Examples of data advocacy projects, delivered in multiple and diverse genres, are also included.

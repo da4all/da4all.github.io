@@ -1,7 +1,7 @@
 ---
 layout: card
 inline: false
-resource: Instructional Slide Deck
+resource: Slides
 domain:
   - Understanding Data
 subdomain:
