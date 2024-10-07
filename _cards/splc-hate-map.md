@@ -1,7 +1,7 @@
 ---
 layout: card
 inline: false
-resource: Example of Data Advocacy
+resource: Example Project
 domain:
   - Understanding Data
 subdomain:
@@ -11,7 +11,7 @@ sample_resource: true
 title: "SPLC Hate Map"
 
 teaser: >
-  This data advocacy project tracks hate and anti-government groups across the United States. 
+  This data advocacy project tracks hate and anti-government groups across the United States.
 
 keywords:
   - "Social Advocacy"
@@ -23,7 +23,7 @@ keywords:
 metadata:
   source: https://www.splcenter.org/hate-map
   author: "Southern Poverty Law Center"
-  date: 
-  license: 
+  date:
+  license:
   citation: "Southern Poverty Law Center. 'SPLC Hate Map.' https://www.splcenter.org/hate-map. Accessed on 20 June 2023."
 ---

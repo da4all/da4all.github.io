@@ -32,21 +32,29 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
   <summary>Resource Types</summary>
   <div class="content">
   <ul>
-    <li><b>Terms:</b> Concepts that are key to each subdomain along with brief definitions and identification of source. Most of the concepts are discussed in the subdomain’s open-access readings.</li>
+    {% for resource in site.data.cards.resources %}
+    <li><b><i class="{{ resource.icon }}"></i> {{ resource.name }}:</b> 
+      {% case resource.name %}
+      {% when 'Term' %}
+      Concepts that are key to each subdomain along with brief definitions and identification of source. Most of the concepts are discussed in the subdomain's open-access readings.
+      {% when 'Reading' %}
+      Open-access sources that introduce students to important frameworks, concepts, practices, and strategies for doing data advocacy. A list of closed access content is also included on some occasions.
+      {% when 'Assignment' %}
+      Formal work that gives students opportunity to learn, practice, and reflect on their experiences with data advocacy. These assignments can also be used to assess student learning in relation to each data literacy domain and subdomain.
+      {% when 'Activity' %}
+      Open-access lessons developed by the Data Advocacy for All team, varying in length and scope, that can be implemented in the classroom to help students hone their abilities to work with data in several literacy domains and subdomains.
+      {% when 'Tutorial' %}
+      Step-by-step instructions for using various open-access digital tools to work with data. All tutorials rely on minimal computing, so no previous computer experience is required.
+      {% when 'Lesson Plan' %}
+      A structured collection of resources to help students gain experience with a particular subdomain. This may include readings, glossary, activities, tutorials, etc.
+      {% when 'Example Project' %}
+      A collection of projects and advocacy movements that utilize data advocacy to bring about social change. Some of these examples are referenced in activities, assignments, modules, and tutorials, while others are simply listed to further model for data advocacy.
+      {% when 'Slides' %}
+      Open-access slide decks curated by Data Advocacy for All team members to assist the teaching of data advocacy and help hone students hone the multiple literacies needed to do data advocacy is ethical, responsible, and persuasive ways. Many slide decks correspond with specific activities and assignments listed under the various literacy subdomains.
+      {% endcase %}
+    </li>
     <br>
-    <li><b>Readings:</b> Open-access sources that introduce students to important frameworks, concepts, practices, and strategies for doing data advocacy. A list of closed access content is also included on some occasions.</li>
-    <br>
-    <li><b>Assignments:</b> Formal work that gives students opportunity to learn, practice, and reflect on their experiences with data advocacy. These assignments can also be used to assess student learning in relation to each data literacy domain and subdomain. </li>
-    <br>
-    <li><b>Activities:</b> Open-access lessons developed by the Data Advocacy for All team, varying in length and scope, that can be implemented in the classroom to help students hone their abilities to work with data in several literacy domains and subdomains.</li>
-    <br>
-    <li><b>Tutorials:</b> Step-by-step instructions for using various open-access digital tools to work with data. All tutorials rely on minimal computing, so no previous computer experience is required.</li>
-    <br>
-    <li><b>Lesson Plans:</b> A structured collection of resources to help students gain experience with a particular subdomain. This may include readings, glossary, activities, tutorials, etc.</li>
-    <br>
-    <li><b>Examples of Data Advocacy:</b> A collection of projects and advocacy movements that utilize data advocacy to bring about social change. Some of these examples are referenced in activities, assignments, modules, and tutorials, while others are simply listed to further model for data advocacy.</li>
-    <br>
-    <li><b>Slides:</b> Open-access slide decks curated by Data Advocacy for All team members to assist the teaching of data advocacy and help hone students hone the multiple literacies needed to do data advocacy is ethical, responsible, and persuasive ways. Many slide decks correspond with specific activities and assignments listed under the various literacy subdomains.</li>
+    {% endfor %}
   </ul>
   </div>
 </details>
@@ -54,6 +62,173 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
 <br>
 
 ## Explore the Toolkit
+
+<!-- Resource Type Button System -->
+<div id="resource-type-buttons" class="mb-4">
+  <h5>Filter by Resource Type (buttons version):</h5>
+  <div class="button-grid">
+    <button class="btn btn-outline-primary active" data-resource="all">
+      <i class="fas fa-globe"></i> All Resources
+    </button>
+    {% for resource in site.data.cards.resources %}
+    <button class="btn btn-outline-primary" data-resource="{{ resource.name }}">
+      <i class="{{ resource.icon }}"></i> {{ resource.name }}
+    </button>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const resourceButtons = document.querySelectorAll('#resource-type-buttons .btn');
+  resourceButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      resourceButtons.forEach(btn => btn.classList.remove('active'));
+      this.classList.add('active');
+      filterCards();
+    });
+  });
+
+  function filterCards() {
+    const selectedResource = document.querySelector('#resource-type-buttons .btn.active').dataset.resource;
+    const cards = document.querySelectorAll('.card');
+    
+    cards.forEach(card => {
+      const cardResource = card.querySelector('.resource').textContent.trim().replace('Type of Resource: ', '');
+      if (selectedResource === 'all' || cardResource === selectedResource) {
+        card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+});
+</script>
+
+### Testing out buttons for domains and subdomains
+
+<div id="domain-filter-container">
+  <h5>Filter by Domain:</h5>
+  <div class="domain-buttons">
+    <button class="btn btn-lg btn-outline-primary domain-btn active" data-domain="all">All Domains</button>
+    <button class="btn btn-lg btn-outline-primary domain-btn" data-domain="Understanding Data">Understanding Data</button>
+    <button class="btn btn-lg btn-outline-primary domain-btn" data-domain="Processing Data">Processing Data</button>
+    <button class="btn btn-lg btn-outline-primary domain-btn" data-domain="Persuading with Data">Persuading with Data</button>
+  </div>
+
+  <div id="subdomain-sections" class="mt-3">
+    <div class="subdomain-section" data-domain="Understanding Data" style="display: none;">
+      <h6>Understanding Data Subdomains:</h6>
+      <button class="btn btn-sm btn-outline-secondary subdomain-btn" data-subdomain="Defining Data">Defining Data</button>
+      <button class="btn btn-sm btn-outline-secondary subdomain-btn" data-subdomain="Critiquing Data">Critiquing Data</button>
+      <button class="btn btn-sm btn-outline-secondary subdomain-btn" data-subdomain="Acting Ethically with Data">Acting Ethically with Data</button>
+      <button class="btn btn-sm btn-outline-secondary subdomain-btn" data-subdomain="Advocating with Data">Advocating with Data</button>
+    </div>
+    <div class="subdomain-section" data-domain="Processing Data" style="display: none;">
+      <h6>Processing Data Subdomains:</h6>
+      <button class="btn btn-sm btn-outline-secondary subdomain-btn" data-subdomain="Collecting Data">Collecting Data</button>
+      <button class="btn btn-sm btn-outline-secondary subdomain-btn" data-subdomain="Preparing Data">Preparing Data</button>
+      <button class="btn btn-sm btn-outline-secondary subdomain-btn" data-subdomain="Analyzing Data">Analyzing Data</button>
+      <button class="btn btn-sm btn-outline-secondary subdomain-btn" data-subdomain="Storing and Preserving Data">Storing and Preserving Data</button>
+    </div>
+    <div class="subdomain-section" data-domain="Persuading with Data" style="display: none;">
+      <h6>Persuading with Data Subdomains:</h6>
+      <button class="btn btn-sm btn-outline-secondary subdomain-btn" data-subdomain="Making Claims with Data">Making Claims with Data</button>
+      <button class="btn btn-sm btn-outline-secondary subdomain-btn" data-subdomain="Visualizing Data">Visualizing Data</button>
+      <button class="btn btn-sm btn-outline-secondary subdomain-btn" data-subdomain="Mapping Data">Mapping Data</button>
+      <button class="btn btn-sm btn-outline-secondary subdomain-btn" data-subdomain="Telling Stories with Data">Telling Stories with Data</button>
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const domainButtons = document.querySelectorAll('.domain-btn');
+  const subdomainSections = document.querySelectorAll('.subdomain-section');
+  const subdomainButtons = document.querySelectorAll('.subdomain-btn');
+  const cards = document.querySelectorAll('.card');
+
+  let currentDomain = 'all';
+  let activeSubdomains = [];
+
+  function filterCards() {
+    cards.forEach(card => {
+      const cardDomains = card.getAttribute('data-domain').split(',');
+      const cardSubdomains = card.getAttribute('data-subdomain').split(',');
+      
+      const domainMatch = currentDomain === 'all' || cardDomains.includes(currentDomain);
+      const subdomainMatch = activeSubdomains.length === 0 || activeSubdomains.some(subdomain => cardSubdomains.includes(subdomain));
+
+      if (domainMatch && subdomainMatch) {
+        card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+
+  function resetFilters() {
+    currentDomain = 'all';
+    activeSubdomains = [];
+    domainButtons.forEach(btn => btn.classList.remove('active'));
+    domainButtons[0].classList.add('active'); // Set "All Domains" button as active
+    subdomainSections.forEach(section => section.style.display = 'none');
+    subdomainButtons.forEach(btn => btn.classList.remove('active'));
+    filterCards();
+  }
+
+  domainButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      currentDomain = this.getAttribute('data-domain');
+      
+      // Toggle active state for domain buttons
+      domainButtons.forEach(btn => btn.classList.remove('active'));
+      this.classList.add('active');
+
+      // Show/hide subdomain sections
+      subdomainSections.forEach(section => {
+        if (currentDomain === 'all') {
+          section.style.display = 'none';
+        } else if (section.getAttribute('data-domain') === currentDomain) {
+          section.style.display = 'block';
+        } else {
+          section.style.display = 'none';
+        }
+      });
+
+      // Reset subdomain button states and clear active subdomains
+      subdomainButtons.forEach(btn => btn.classList.remove('active'));
+      activeSubdomains = [];
+
+      // Filter cards by domain
+      filterCards();
+    });
+  });
+
+  subdomainButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      const selectedSubdomain = this.getAttribute('data-subdomain');
+
+      // Toggle active state for subdomain buttons
+      this.classList.toggle('active');
+
+      if (this.classList.contains('active')) {
+        activeSubdomains.push(selectedSubdomain);
+      } else {
+        activeSubdomains = activeSubdomains.filter(subdomain => subdomain !== selectedSubdomain);
+      }
+
+      // Filter cards by domain and selected subdomains
+      filterCards();
+    });
+  });
+
+  // Initial reset to set up the default state
+  resetFilters();
+});
+</script>
+
+### Old filter system
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">

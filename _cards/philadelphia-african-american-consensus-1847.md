@@ -1,7 +1,7 @@
 ---
 layout: card
 inline: false
-resource: Example of Data Advocacy
+resource: Example Project
 domain: Processing Data
 subdomain: Analyzing Data
 
@@ -11,13 +11,12 @@ teaser: >
   In 1847, Philadelphia Quakers conducted a census of the city’s African American population. Their intention was to document the existence of an “industrious and thriving” portion of that population, and also to discover what sectors of the community may have been in need of attention and assistance. Over 150 years later, the original data - held in manuscript at the Friends Historical Library of Swarthmore College - proves a rich resource for studying African American history, genealogy, Philadelphia history, and more.
 
 metadata:
-    source: https://ds-pages.swarthmore.edu/paac/
-    author: Friends Historical Library
-    date:
-    license:
-    citation:
-    align: right
-
+  source: https://ds-pages.swarthmore.edu/paac/
+  author: Friends Historical Library
+  date:
+  license:
+  citation:
+  align: right
 ---
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/themes/light.css" />

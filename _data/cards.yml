@@ -30,7 +30,7 @@ resources:
     icon: "fa-solid fa-laptop-code"
   - name: Lesson Plan
     icon: "fa-solid fa-person-chalkboard"
-  - name: Example of Data Advocacy
+  - name: Example Project
     icon: "fa-solid fa-bullhorn"
   - name: Slides
     icon: "fa-solid fa-chalkboard"

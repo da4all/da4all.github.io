@@ -1,7 +1,7 @@
 ---
 layout: card
 inline: false
-resource: Example of Data Advocacy
+resource: Example Project
 domain:
   - Persuading with Data
 subdomain:
@@ -20,7 +20,7 @@ metadata:
   source: "https://www.fcc.gov/health/maps"
   author: "Connect2HealthFCC Task Force"
   date: "2023-10-24"
-  license: 
+  license:
   citation: "Connect2HealthFCC Task Force. ‘Mapping Broadband Health in America.’ Federal Communications Commission, 24 Oct. 2023, https://www.fcc.gov/health/maps."
 ---
 

@@ -3,7 +3,8 @@
  ******************************************************************************/
 
 @import "layout";
-@import url('https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/themes/light.css');
+@import "variables";
+@import url("https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/themes/light.css");
 
 // Details & Summary
 
@@ -19,7 +20,7 @@ details > summary {
 
 details .content {
   padding: 20px !important;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 details details {
@@ -81,8 +82,8 @@ strong {
   font-width: 400;
 }
 
-nobr	{ 
-  white-space:nowrap; 
+nobr {
+  white-space: nowrap;
 }
 
 hr {
@@ -1140,4 +1141,62 @@ nav[data-toggle="toc"] {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px; /* adjust this for your desired spacing between cards */
+}
+
+// Resource Type Buttons
+
+@import "variables";
+
+#resource-type-buttons {
+  .button-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+  }
+
+  .btn.btn-outline-primary {
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70px; // Adjust as needed
+    transition: all 0.3s ease;
+    color: $blue-color-dark !important;
+    border-color: $blue-color-dark !important;
+
+    i {
+      font-size: 1.5em;
+      margin-bottom: 3px;
+    }
+
+    &:hover {
+      color: $blue-color-dark;
+      border-color: $blue-color-dark;
+      background-color: rgba($blue-color-dark, 0.1);
+    }
+
+    &.active {
+      border-color: $blue-color-dark !important;
+      box-shadow: 0 0 12px rgba($blue-color, 0.5) !important;
+      transform: scale(1.08);
+
+      &:hover {
+        background-color: $blue-color-dark;
+        border-color: $blue-color-dark;
+        color: white;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .button-grid {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(4, auto);
+    }
+  }
 }
