@@ -1164,7 +1164,9 @@ nav[data-toggle="toc"] {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-size: 0.9rem !important;
     height: 70px; // Adjust as needed
+    border-radius: 8px;
     transition: all 0.3s ease;
     color: $blue-color-dark !important;
     border-color: $blue-color-dark !important;
@@ -1175,21 +1177,16 @@ nav[data-toggle="toc"] {
     }
 
     &:hover {
-      color: $blue-color-dark;
-      border-color: $blue-color-dark;
-      background-color: rgba($blue-color-dark, 0.1);
+      color: $blue-color !important;
+      border-color: $blue-color !important;
+      background-color: rgba($blue-color, 0.1) !important;
     }
 
     &.active {
-      border-color: $blue-color-dark !important;
+      color: $blue-color !important;
+      border-color: $blue-color !important;
       box-shadow: 0 0 12px rgba($blue-color, 0.5) !important;
       transform: scale(1.08);
-
-      &:hover {
-        background-color: $blue-color-dark;
-        border-color: $blue-color-dark;
-        color: white;
-      }
     }
   }
 
@@ -1200,3 +1197,163 @@ nav[data-toggle="toc"] {
     }
   }
 }
+
+// Domain buttons
+.domain-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.domain-btn {
+  flex: 1;
+  margin: 0 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.9rem !important;
+  padding: 15px 10px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  color: $blue-color-dark !important;
+  border-color: $blue-color-dark !important;
+
+  &:hover {
+    color: $blue-color !important;
+    border-color: $blue-color !important;
+    background-color: rgba($blue-color, 0.1) !important;
+  }
+
+  &.active {
+    border-color: $blue-color-dark !important;
+    box-shadow: 0 0 12px rgba($blue-color, 0.5) !important;
+    transform: scale(1.08);
+  }
+
+  i {
+    font-size: 1.8em;
+    margin-bottom: 8px;
+  }
+
+  span {
+    font-size: 1em;
+    white-space: normal;
+    line-height: 1.3;
+  }
+}
+
+// Subdomain buttons
+#subdomain-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 20px;
+  margin-top: 20px;
+  gap: 10px;
+  width: 100%;
+}
+
+.subdomain-btn {
+  flex: 1;
+  margin: 0 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.9rem !important;
+  padding: 15px 10px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  color: $red-color-dark !important;
+  border: 2px solid $red-color-dark !important;
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: $red-color !important;
+    border-color: $red-color !important;
+    background-color: rgba($red-color, 0.1) !important;
+  }
+
+  &.active {
+    color: $red-color !important;
+    border-color: $red-color !important;
+    box-shadow: 0 0 12px rgba($red-color-dark, 0.5) !important;
+    transform: scale(1.08);
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .domain-buttons {
+    flex-wrap: wrap;
+  }
+
+  .domain-btn {
+    flex-basis: 45%;
+    margin-bottom: 10px;
+  }
+
+  #subdomain-buttons {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/*
+//Domain buttons
+.domain-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.domain-btn {
+  flex: 1;
+  margin: 0 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 5px;
+}
+
+.domain-btn i {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.domain-btn span {
+  font-size: 0.9em;
+  white-space: normal;
+  line-height: 1.2;
+}
+
+//Subdomain buttons
+
+#subdomain-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  width: 100%;
+}
+
+.subdomain-btn {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem !important ;
+  padding: 10px;
+  min-height: 60px;
+}
+
+*/

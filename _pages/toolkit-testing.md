@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /toolkit/
+permalink: /toolkit-testing/
 title: Toolkit
 description:
 nav: true
@@ -62,6 +62,187 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
 <br>
 
 ## Explore the Toolkit
+
+<!-- Resource Type Button System -->
+<div id="resource-type-buttons" class="mb-4">
+  <h5>Filter by Resource Type:</h5>
+  <div class="button-grid">
+    <button class="btn btn-outline-primary active" data-resource="all">
+      <i class="fas fa-globe"></i> All Resources
+    </button>
+    {% for resource in site.data.cards.resources %}
+    <button class="btn btn-outline-primary" data-resource="{{ resource.name }}">
+      <i class="{{ resource.icon }}"></i> {{ resource.name }}
+    </button>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const resourceButtons = document.querySelectorAll('#resource-type-buttons .btn');
+  resourceButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      resourceButtons.forEach(btn => btn.classList.remove('active'));
+      this.classList.add('active');
+      filterCards();
+    });
+  });
+
+  function filterCards() {
+    const selectedResource = document.querySelector('#resource-type-buttons .btn.active').dataset.resource;
+    const cards = document.querySelectorAll('.card');
+    
+    cards.forEach(card => {
+      const cardResource = card.querySelector('.resource').textContent.trim().replace('Type of Resource: ', '');
+      if (selectedResource === 'all' || cardResource === selectedResource) {
+        card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+});
+</script>
+
+<div id="filter-container">
+  <div id="domain-filter">
+    <h5>Filter by Domain:</h5>
+    <div class="domain-buttons">
+      <button class="btn btn-lg btn-outline-primary domain-btn active" data-domain="all">
+        <i class="fas fa-globe"></i> All Domains
+      </button>
+      <button class="btn btn-lg btn-outline-primary domain-btn" data-domain="Understanding Data">
+        <i class="fas fa-brain"></i> Understanding Data
+      </button>
+      <button class="btn btn-lg btn-outline-primary domain-btn" data-domain="Processing Data">
+        <i class="fas fa-cogs"></i> Processing Data
+      </button>
+      <button class="btn btn-lg btn-outline-primary domain-btn" data-domain="Persuading with Data">
+        <i class="fas fa-chart-line"></i> Persuading with Data
+      </button>
+    </div>
+  </div>
+</div>
+
+<div id="subdomain-filter" class="mt-4">
+  <h5>Filter by Subdomain:</h5>
+  <div id="subdomain-buttons">
+    <!-- Subdomain buttons will be dynamically populated here -->
+  </div>
+</div>
+<br>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const domainButtons = document.querySelectorAll('.domain-btn');
+  const subdomainButtonsContainer = document.getElementById('subdomain-buttons');
+  const resourceButtons = document.querySelectorAll('#resource-type-buttons .btn');
+  const cards = document.querySelectorAll('.card');
+
+  const subdomains = {
+    "Understanding Data": ["Defining Data", "Critiquing Data", "Acting Ethically with Data", "Advocating with Data"],
+    "Processing Data": ["Collecting Data", "Preparing Data", "Analyzing Data", "Storing and Preserving Data"],
+    "Persuading with Data": ["Making Claims with Data", "Visualizing Data", "Mapping Data", "Telling Stories with Data"]
+  };
+
+  let currentDomain = 'all';
+  let currentSubdomain = null;
+  let currentResourceType = 'all';
+
+  function getAllSubdomains() {
+    return Object.values(subdomains).flat();
+  }
+
+  function updateSubdomainButtons(domain) {
+    subdomainButtonsContainer.innerHTML = '';
+    let subdomainsToShow = domain === 'all' ? getAllSubdomains() : subdomains[domain];
+    
+    subdomainsToShow.forEach(subdomain => {
+      const button = document.createElement('button');
+      button.className = 'btn btn-sm btn-outline-secondary subdomain-btn m-1';
+      button.textContent = subdomain;
+      button.setAttribute('data-subdomain', subdomain);
+      if (subdomain === currentSubdomain) {
+        button.classList.add('active');
+      }
+      subdomainButtonsContainer.appendChild(button);
+    });
+
+    // Add event listeners to new subdomain buttons
+    document.querySelectorAll('.subdomain-btn').forEach(button => {
+      button.addEventListener('click', handleSubdomainClick);
+    });
+  }
+
+  function filterCards() {
+    cards.forEach(card => {
+      const cardDomains = card.getAttribute('data-domain').split(',');
+      const cardSubdomains = card.getAttribute('data-subdomain').split(',');
+      const cardResource = card.querySelector('.resource').textContent.trim().replace('Type of Resource: ', '');
+      
+      const domainMatch = currentDomain === 'all' || cardDomains.includes(currentDomain);
+      const subdomainMatch = !currentSubdomain || cardSubdomains.includes(currentSubdomain);
+      const resourceMatch = currentResourceType === 'all' || cardResource === currentResourceType;
+
+      if (domainMatch && subdomainMatch && resourceMatch) {
+        card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+
+  function handleDomainClick() {
+    currentDomain = this.getAttribute('data-domain');
+    currentSubdomain = null;
+    
+    domainButtons.forEach(btn => btn.classList.remove('active'));
+    this.classList.add('active');
+
+    updateSubdomainButtons(currentDomain);
+    filterCards();
+  }
+
+  function handleSubdomainClick() {
+    if (this.classList.contains('active')) {
+      this.classList.remove('active');
+      currentSubdomain = null;
+    } else {
+      document.querySelectorAll('.subdomain-btn').forEach(btn => btn.classList.remove('active'));
+      this.classList.add('active');
+      currentSubdomain = this.getAttribute('data-subdomain');
+    }
+
+    filterCards();
+  }
+
+  function handleResourceTypeClick() {
+    currentResourceType = this.getAttribute('data-resource');
+    
+    resourceButtons.forEach(btn => btn.classList.remove('active'));
+    this.classList.add('active');
+
+    filterCards();
+  }
+
+  // Add click event listeners to domain buttons
+  domainButtons.forEach(button => {
+    button.addEventListener('click', handleDomainClick);
+  });
+
+  // Add click event listeners to resource type buttons
+  resourceButtons.forEach(button => {
+    button.addEventListener('click', handleResourceTypeClick);
+  });
+
+  // Initialize subdomain buttons
+  updateSubdomainButtons('all');
+  filterCards();
+});
+</script>
+
+### Old filter system
 
 <div style="background-color: #f2f2f2; padding: 10px;">
   <div id="filter-options" style="font-size: 0.8em;">
