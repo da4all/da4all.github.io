@@ -76,19 +76,6 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
   </div>
 </div>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const resourceButtons = document.querySelectorAll('#resource-type-buttons .btn');
-  resourceButtons.forEach(button => {
-    button.addEventListener('click', function() {
-      resourceButtons.forEach(btn => btn.classList.remove('active'));
-      this.classList.add('active');
-      filterCards();
-    });
-  });
-}
-</script>
-
 <div id="filter-container">
   <div id="domain-filter">
     <h5>Filter by Domain:</h5>
