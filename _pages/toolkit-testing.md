@@ -86,6 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
       filterCards();
     });
   });
+}
 </script>
 
 <div id="filter-container">
