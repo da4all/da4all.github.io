@@ -160,7 +160,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     subdomainsToShow.forEach(subdomain => {
       const button = document.createElement('button');
-      button.className = 'btn btn-sm btn-outline-secondary subdomain-btn m-1';
+      button.className = 'btn btn-sm btn-outline-primary subdomain-btn m-1';
       button.textContent = subdomain;
       button.setAttribute('data-subdomain', subdomain);
       if (subdomain === currentSubdomain) {

@@ -1258,7 +1258,7 @@ nav[data-toggle="toc"] {
 
 .subdomain-btn {
   flex: 1;
-  margin: 0 5px;
+  margin: 0 2px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1268,20 +1268,19 @@ nav[data-toggle="toc"] {
   padding: 15px 10px;
   border-radius: 8px;
   transition: all 0.3s ease;
-  color: $red-color-dark !important;
-  border: 2px solid $red-color-dark !important;
+  color: $blue-color-dark !important;
+  border: 2px solid $blue-color-dark !important;
   transition: all 0.3s ease;
 
   &:hover {
-    color: $red-color !important;
-    border-color: $red-color !important;
-    background-color: rgba($red-color, 0.1) !important;
+    color: $blue-color !important;
+    border-color: $blue-color !important;
+    background-color: rgba($blue-color, 0.1) !important;
   }
 
   &.active {
-    color: $red-color !important;
-    border-color: $red-color !important;
-    box-shadow: 0 0 12px rgba($red-color-dark, 0.5) !important;
+    border-color: $blue-color-dark !important;
+    box-shadow: 0 0 12px rgba($blue-color, 0.5) !important;
     transform: scale(1.08);
   }
 }
