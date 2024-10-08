@@ -9,7 +9,7 @@
 // Details & Summary
 
 details > summary {
-  padding: 18px;
+  padding: 10px;
   width: 100%;
   background-color: #bf0a30;
   color: white;
@@ -1150,8 +1150,10 @@ nav[data-toggle="toc"] {
 #resource-type-buttons {
   .button-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, auto);
+    margin-bottom: 20px;
+    margin-top: 20px;
     gap: 10px;
   }
 
@@ -1216,8 +1218,8 @@ nav[data-toggle="toc"] {
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: 0.9rem !important;
-  padding: 15px 10px;
+  font-size: 0.85rem !important;
+  padding: 10px 8px !important;
   border-radius: 8px;
   transition: all 0.3s ease;
   color: $blue-color-dark !important;
@@ -1308,6 +1310,7 @@ nav[data-toggle="toc"] {
 .input-group {
   display: flex !important;
   align-items: center !important;
+  margin-bottom: 20px !important;
 }
 
 #search-input {

@@ -7,63 +7,11 @@ nav: true
 nav_order: 5
 ---
 
-## Overview
-
-With the Data Advocacy for All toolkit, you can either [explore by the resources organized by literacy domain](../literacy-domains/)—or by the type of resource.
-
-<details>
-  <summary>Instructions for Using the Toolkit</summary>
-  <div class="content">
-    You can filter the toolkit below by:
-    <ul>
-      <li>Type of resource, with a full list below specifying the various resource types</li>
-      <li>Literacy domains and subdomains, which you can learn more about on the <a href="../literacy-domains/">literacy domains overview page</a></li>
-      <li>A custom search, which will populate as you type or whenever you click the "search" button; the "clear search" button will clear all search results</li>
-    </ul>
-  </div>
-</details>
-
-<div style="height:5px;font-size:1px;">&nbsp;<br></div>
-<div style="height:5px;font-size:1px;">&nbsp;</div>
-
-<details>
-  <summary>Resource Types</summary>
-  <div class="content">
-  <ul>
-    {% for resource in site.data.cards.resources %}
-    <li><b><i class="{{ resource.icon }}"></i> {{ resource.name }}:</b> 
-      {% case resource.name %}
-      {% when 'Term' %}
-      Concepts that are key to each subdomain along with brief definitions and identification of source. Most of the concepts are discussed in the subdomain's open-access readings.
-      {% when 'Reading' %}
-      Open-access sources that introduce students to important frameworks, concepts, practices, and strategies for doing data advocacy. A list of closed access content is also included on some occasions.
-      {% when 'Assignment' %}
-      Formal work that gives students opportunity to learn, practice, and reflect on their experiences with data advocacy. These assignments can also be used to assess student learning in relation to each data literacy domain and subdomain.
-      {% when 'Activity' %}
-      Open-access lessons developed by the Data Advocacy for All team, varying in length and scope, that can be implemented in the classroom to help students hone their abilities to work with data in several literacy domains and subdomains.
-      {% when 'Tutorial' %}
-      Step-by-step instructions for using various open-access digital tools to work with data. All tutorials rely on minimal computing, so no previous computer experience is required.
-      {% when 'Lesson Plan' %}
-      A structured collection of resources to help students gain experience with a particular subdomain. This may include readings, glossary, activities, tutorials, etc.
-      {% when 'Example Project' %}
-      A collection of projects and advocacy movements that utilize data advocacy to bring about social change. Some of these examples are referenced in activities, assignments, modules, and tutorials, while others are simply listed to further model for data advocacy.
-      {% when 'Slides' %}
-      Open-access slide decks curated by Data Advocacy for All team members to assist the teaching of data advocacy and help hone students hone the multiple literacies needed to do data advocacy is ethical, responsible, and persuasive ways. Many slide decks correspond with specific activities and assignments listed under the various literacy subdomains.
-      {% endcase %}
-    </li>
-    <br>
-    {% endfor %}
-  </ul>
-  </div>
-</details>
-
-<br>
-
-## Explore the Toolkit
+Welcome to the Data Advocacy for All Toolkit! This is a curated collection of teaching resources designed to support data advocacy, including readings, assignments, lesson plans, and more. Our lessons are organized by both what [type of resource](../resource-types/) they are and what data advocacy [literacy domain](../literacy-domains/) they fall under. Use the buttons below to filter resources by their `Resource Type`, `Literacy Domain`, and `Literacy Subdomain`, or search for specific topics or keywords across the resources.
 
 <!-- Resource Type Button System -->
 <div id="resource-type-buttons" class="mb-4">
-  <h5>Filter by Resource Type:</h5>
+  <h3 style="text-align: center;">Filter by Resource Type:</h3>
   <div class="button-grid">
     <button class="btn btn-outline-primary active" data-resource="all">
       <i class="fas fa-globe"></i> All Resources
@@ -78,7 +26,7 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
 
 <div id="filter-container">
   <div id="domain-filter">
-    <h5>Filter by Domain:</h5>
+    <h3 style="text-align: center;">Filter by Literacy Domain:</h3>
     <div class="domain-buttons">
       <button class="btn btn-lg btn-outline-primary domain-btn active" data-domain="all">
         <i class="fas fa-globe"></i> All Domains
@@ -97,14 +45,14 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
 </div>
 
 <div id="subdomain-filter" class="mt-4">
-  <h5>Filter by Subdomain:</h5>
+  <h3 style="text-align: center;">Filter by Literacy Subdomain:</h3>
   <div id="subdomain-buttons">
     <!-- Subdomain buttons will be dynamically populated here -->
   </div>
 </div>
 
 <div id="search-container" class="mt-4">
-  <h5>Search Within Results:</h5>
+  <h3 style="text-align: center;">Search Within Resources:</h3>
   <div class="input-group mb-3">
     <input type="text" id="search-input" class="form-control" placeholder="Enter search terms...">
     <div class="input-group-append">
@@ -115,7 +63,6 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
     </div>
   </div>
 </div>
-<br>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
@@ -261,6 +208,10 @@ document.addEventListener('DOMContentLoaded', function() {
   applyFilters();
 });
 </script>
+
+---
+
+## Filtered Resources:
 
 {% assign cards = site.cards | sort: "title" %}
 
