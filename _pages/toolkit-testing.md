@@ -86,22 +86,6 @@ document.addEventListener('DOMContentLoaded', function() {
       filterCards();
     });
   });
-/*
-  function filterCards() {
-    const selectedResource = document.querySelector('#resource-type-buttons .btn.active').dataset.resource;
-    const cards = document.querySelectorAll('.card');
-    
-    cards.forEach(card => {
-      const cardResource = card.querySelector('.resource').textContent.trim().replace('Type of Resource: ', '');
-      if (selectedResource === 'all' || cardResource === selectedResource) {
-        card.style.display = 'block';
-      } else {
-        card.style.display = 'none';
-      }
-    });
-  }
-});
-*/
 </script>
 
 <div id="filter-container">
