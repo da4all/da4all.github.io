@@ -1185,6 +1185,7 @@ nav[data-toggle="toc"] {
     &.active {
       color: $blue-color !important;
       border-color: $blue-color !important;
+      background-color: rgba($blue-color, 0.05) !important;
       box-shadow: 0 0 12px rgba($blue-color, 0.5) !important;
       transform: scale(1.08);
     }
@@ -1229,7 +1230,9 @@ nav[data-toggle="toc"] {
   }
 
   &.active {
-    border-color: $blue-color-dark !important;
+    color: $blue-color !important;
+    border-color: $blue-color !important;
+    background-color: rgba($blue-color, 0.05) !important;
     box-shadow: 0 0 12px rgba($blue-color, 0.5) !important;
     transform: scale(1.08);
   }
