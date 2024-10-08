@@ -14,8 +14,6 @@ With the Data Advocacy for All toolkit, you can either [explore by the resources
 <details>
   <summary>Instructions for Using the Toolkit</summary>
   <div class="content">
-    This toolkit works on a filtering reduction model, meaning that all cards initially populate and then are reduced to fit any filtering criteria submitted. 
-    <br><br>
     You can filter the toolkit below by:
     <ul>
       <li>Type of resource, with a full list below specifying the various resource types</li>
@@ -88,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
       filterCards();
     });
   });
-
+/*
   function filterCards() {
     const selectedResource = document.querySelector('#resource-type-buttons .btn.active').dataset.resource;
     const cards = document.querySelectorAll('.card');
@@ -103,6 +101,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 });
+*/
 </script>
 
 <div id="filter-container">
@@ -132,129 +131,20 @@ document.addEventListener('DOMContentLoaded', function() {
   </div>
 </div>
 
-<!-- Add search input and button -->
 <div id="search-container" class="mt-4">
-  <h5>Search Resources:</h5>
+  <h5>Search Within Results:</h5>
   <div class="input-group mb-3">
     <input type="text" id="search-input" class="form-control" placeholder="Enter search terms...">
     <div class="input-group-append">
-      <button class="btn btn-outline-secondary" type="button" id="search-button">Search</button>
+      <button class="btn search-btn" type="button" id="search-button">Search</button>
+    </div>
+    <div class="input-group-append">
+      <button class="btn search-btn" type="button" id="clear-search-button">Clear Search</button>
     </div>
   </div>
 </div>
-
 <br>
 
-<!--
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const domainButtons = document.querySelectorAll('.domain-btn');
-  const subdomainButtonsContainer = document.getElementById('subdomain-buttons');
-  const resourceButtons = document.querySelectorAll('#resource-type-buttons .btn');
-  const cards = document.querySelectorAll('.card');
-
-  const subdomains = {
-    "Understanding Data": ["Defining Data", "Critiquing Data", "Acting Ethically with Data", "Advocating with Data"],
-    "Processing Data": ["Collecting Data", "Preparing Data", "Analyzing Data", "Storing and Preserving Data"],
-    "Persuading with Data": ["Making Claims with Data", "Visualizing Data", "Mapping Data", "Telling Stories with Data"]
-  };
-
-  let currentDomain = 'all';
-  let currentSubdomain = null;
-  let currentResourceType = 'all';
-
-  function getAllSubdomains() {
-    return Object.values(subdomains).flat();
-  }
-
-  function updateSubdomainButtons(domain) {
-    subdomainButtonsContainer.innerHTML = '';
-    let subdomainsToShow = domain === 'all' ? getAllSubdomains() : subdomains[domain];
-
-    subdomainsToShow.forEach(subdomain => {
-      const button = document.createElement('button');
-      button.className = 'btn btn-sm btn-outline-primary subdomain-btn m-1';
-      button.textContent = subdomain;
-      button.setAttribute('data-subdomain', subdomain);
-      if (subdomain === currentSubdomain) {
-        button.classList.add('active');
-      }
-      subdomainButtonsContainer.appendChild(button);
-    });
-
-    // Add event listeners to new subdomain buttons
-    document.querySelectorAll('.subdomain-btn').forEach(button => {
-      button.addEventListener('click', handleSubdomainClick);
-    });
-  }
-
-  function filterCards() {
-    cards.forEach(card => {
-      const cardDomains = card.getAttribute('data-domain').split(',');
-      const cardSubdomains = card.getAttribute('data-subdomain').split(',');
-      const cardResource = card.querySelector('.resource').textContent.trim().replace('Type of Resource: ', '');
-
-      const domainMatch = currentDomain === 'all' || cardDomains.includes(currentDomain);
-      const subdomainMatch = !currentSubdomain || cardSubdomains.includes(currentSubdomain);
-      const resourceMatch = currentResourceType === 'all' || cardResource === currentResourceType;
-
-      if (domainMatch && subdomainMatch && resourceMatch) {
-        card.style.display = 'block';
-      } else {
-        card.style.display = 'none';
-      }
-    });
-  }
-
-  function handleDomainClick() {
-    currentDomain = this.getAttribute('data-domain');
-    currentSubdomain = null;
-
-    domainButtons.forEach(btn => btn.classList.remove('active'));
-    this.classList.add('active');
-
-    updateSubdomainButtons(currentDomain);
-    filterCards();
-  }
-
-  function handleSubdomainClick() {
-    if (this.classList.contains('active')) {
-      this.classList.remove('active');
-      currentSubdomain = null;
-    } else {
-      document.querySelectorAll('.subdomain-btn').forEach(btn => btn.classList.remove('active'));
-      this.classList.add('active');
-      currentSubdomain = this.getAttribute('data-subdomain');
-    }
-
-    filterCards();
-  }
-
-  function handleResourceTypeClick() {
-    currentResourceType = this.getAttribute('data-resource');
-
-    resourceButtons.forEach(btn => btn.classList.remove('active'));
-    this.classList.add('active');
-
-    filterCards();
-  }
-
-  // Add click event listeners to domain buttons
-  domainButtons.forEach(button => {
-    button.addEventListener('click', handleDomainClick);
-  });
-
-  // Add click event listeners to resource type buttons
-  resourceButtons.forEach(button => {
-    button.addEventListener('click', handleResourceTypeClick);
-  });
-
-  // Initialize subdomain buttons
-  updateSubdomainButtons('all');
-  filterCards();
-});
-</script>
--->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const domainButtons = document.querySelectorAll('.domain-btn');
@@ -263,6 +153,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const cards = document.querySelectorAll('.card');
   const searchInput = document.getElementById('search-input');
   const searchButton = document.getElementById('search-button');
+  const clearSearchButton = document.getElementById('clear-search-button');
 
   const subdomains = {
     "Understanding Data": ["Defining Data", "Critiquing Data", "Acting Ethically with Data", "Advocating with Data"],
@@ -370,6 +261,11 @@ document.addEventListener('DOMContentLoaded', function() {
     updateCardDisplay();
   }
 
+    function clearSearch() {
+    searchInput.value = '';
+    applyFilters(); // This reapplies the current domain, subdomain, and resource type filters without the search term
+  }
+
   // Add click event listeners
   domainButtons.forEach(button => {
     button.addEventListener('click', handleDomainClick);
@@ -385,6 +281,8 @@ document.addEventListener('DOMContentLoaded', function() {
       performSearch();
     }
   });
+
+  clearSearchButton.addEventListener('click', clearSearch);
 
   // Initialize
   updateSubdomainButtons('all');
