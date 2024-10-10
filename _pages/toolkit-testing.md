@@ -26,7 +26,7 @@ Welcome to the Data Advocacy for All Toolkit! This is a curated collection of te
 
 <div id="filter-container">
   <div id="domain-filter">
-    <h3 style="text-align: center;">Filter by Literacy Domain:</h3>
+    <h3 style="text-align: center;">Filter by Primary Domain:</h3>
     <div class="domain-buttons">
       <button class="btn btn-lg btn-outline-primary domain-btn active" data-domain="all">
         <i class="fas fa-globe"></i> All Domains
@@ -45,7 +45,7 @@ Welcome to the Data Advocacy for All Toolkit! This is a curated collection of te
 </div>
 
 <div id="subdomain-filter" class="mt-4">
-  <h3 style="text-align: center;">Filter by Literacy Subdomain:</h3>
+  <h3 style="text-align: center;">Filter by Subdomain:</h3>
   <div id="subdomain-buttons">
     <!-- Subdomain buttons will be dynamically populated here -->
   </div>
