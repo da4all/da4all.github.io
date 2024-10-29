@@ -1254,48 +1254,32 @@ nav[data-toggle="toc"] {
   }
 }
 
-// Subdomain section layout
-.subdomain-grid {
-  display: grid;
-  grid-template-columns: 200px 1fr; // First column fixed width, rest flexible
-  gap: 20px;
-  align-items: center;
-  width: 100%;
-}
+// Subdomain buttons
 
-.subdomain-label {
-  font-size: 1.1rem;
-  font-weight: 300;
-  color: $base-font;
-  /*padding: 15px 0px;*/
-  display: flex;
-  align-items: center !important;
-  text-align: center !important;
-  height: 100%;
-}
-
-// Updated subdomain buttons layout
 #subdomain-buttons {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 20px;
+  margin-top: 20px;
   gap: 10px;
   width: 100%;
 }
 
 .subdomain-btn {
   flex: 1;
-  margin: 0;
+  margin: 0 2px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: 0.75rem !important;
+  font-size: 0.9rem !important;
   padding: 15px 10px;
   border-radius: 8px;
   transition: all 0.3s ease;
   color: $domain-btn-color-base !important;
-  border: 1.2px solid $domain-btn-color-base !important;
+  border: 2px solid $domain-btn-color-base !important;
+  transition: all 0.3s ease;
 
   &:hover {
     color: $red-color !important;
@@ -1311,24 +1295,18 @@ nav[data-toggle="toc"] {
 }
 
 // Responsive adjustments
-@media (max-width: 992px) {
-  .subdomain-grid {
-    grid-template-columns: 1fr; // Stack label above buttons on smaller screens
-    gap: 10px;
+@media (max-width: 768px) {
+  .domain-buttons {
+    flex-wrap: wrap;
+  }
+
+  .domain-btn {
+    flex-basis: 45%;
+    margin-bottom: 10px;
   }
 
   #subdomain-buttons {
-    grid-template-columns: repeat(2, 1fr); // 2 columns on medium screens
-  }
-}
-
-@media (max-width: 576px) {
-  #subdomain-buttons {
-    grid-template-columns: 1fr; // Single column on very small screens
-  }
-
-  .subdomain-label {
-    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -1347,7 +1325,7 @@ nav[data-toggle="toc"] {
 
 .search-btn {
   border-radius: 8px !important;
-  background-color: rgba($blue-color-dark, 0.75) !important;
+  background-color: $blue-color-dark !important;
   border-color: $blue-color-dark !important;
   color: white !important;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
