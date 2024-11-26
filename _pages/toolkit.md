@@ -7,271 +7,368 @@ nav: true
 nav_order: 5
 ---
 
-## Overview
+Welcome to the Data Advocacy for All Toolkit! This is a curated collection of teaching resources designed to support data advocacy, including readings, assignments, lesson plans, and more. Our lessons are organized by both what [type of resource](../resource-types/) they are and what data advocacy [literacy domain](../literacy-domains/) they fall under. Use the buttons below to filter resources by their `Resource Type` and `Literacy Domain`, or search for specific topics or keywords across the resources.
 
-With the Data Advocacy for All toolkit, you can either [explore by the resources organized by literacy domain](../literacy-domains/)—or by the type of resource.
+<!-- Resource Type Filter Section -->
 
-<details>
-  <summary>Instructions for Using the Toolkit</summary>
-  <div class="content">
-    This toolkit works on a filtering reduction model, meaning that all cards initially populate and then are reduced to fit any filtering criteria submitted. 
-    <br><br>
-    You can filter the toolkit below by:
-    <ul>
-      <li>Type of resource, with a full list below specifying the various resource types</li>
-      <li>Literacy domains and subdomains, which you can learn more about on the <a href="../literacy-domains/">literacy domains overview page</a></li>
-      <li>A custom search, which will populate as you type or whenever you click the "search" button; the "clear search" button will clear all search results</li>
-    </ul>
-  </div>
-</details>
-
-<div style="height:5px;font-size:1px;">&nbsp;<br></div>
-<div style="height:5px;font-size:1px;">&nbsp;</div>
-
-<details>
-  <summary>Resource Types</summary>
-  <div class="content">
-  <ul>
-    {% for resource in site.data.cards.resources %}
-    <li><b><i class="{{ resource.icon }}"></i> {{ resource.name }}:</b> 
-      {% case resource.name %}
-      {% when 'Term' %}
-      Concepts that are key to each subdomain along with brief definitions and identification of source. Most of the concepts are discussed in the subdomain's open-access readings.
-      {% when 'Reading' %}
-      Open-access sources that introduce students to important frameworks, concepts, practices, and strategies for doing data advocacy. A list of closed access content is also included on some occasions.
-      {% when 'Assignment' %}
-      Formal work that gives students opportunity to learn, practice, and reflect on their experiences with data advocacy. These assignments can also be used to assess student learning in relation to each data literacy domain and subdomain.
-      {% when 'Activity' %}
-      Open-access lessons developed by the Data Advocacy for All team, varying in length and scope, that can be implemented in the classroom to help students hone their abilities to work with data in several literacy domains and subdomains.
-      {% when 'Tutorial' %}
-      Step-by-step instructions for using various open-access digital tools to work with data. All tutorials rely on minimal computing, so no previous computer experience is required.
-      {% when 'Lesson Plan' %}
-      A structured collection of resources to help students gain experience with a particular subdomain. This may include readings, glossary, activities, tutorials, etc.
-      {% when 'Example Project' %}
-      A collection of projects and advocacy movements that utilize data advocacy to bring about social change. Some of these examples are referenced in activities, assignments, modules, and tutorials, while others are simply listed to further model for data advocacy.
-      {% when 'Slides' %}
-      Open-access slide decks curated by Data Advocacy for All team members to assist the teaching of data advocacy and help hone students hone the multiple literacies needed to do data advocacy is ethical, responsible, and persuasive ways. Many slide decks correspond with specific activities and assignments listed under the various literacy subdomains.
-      {% endcase %}
-    </li>
-    <br>
+<div class="filter-section mb-4">
+  <h3>Resource Types</h3>
+  <div class="button-grid resource-grid">
+    {% assign resources = site.data.cards.resources %}
+    {% for resource in resources %}
+    <button class="filter-btn resource-btn" data-filter="resource" data-value="{{ resource.name }}">
+      <i class="{{ resource.icon }}"></i>
+      {{ resource.name }}
+    </button>
     {% endfor %}
-  </ul>
   </div>
-</details>
+  <!-- uncomment to add a button to reset the filter
+  <button class="reset-btn" data-reset="resource">
+    Show All Resources
+  </button>
+  -->
+</div>
 
-<br>
+<!-- Domain Filter Section -->
+<div class="filter-section mb-4">
+  <h3>Literacy Domains</h3>
+  <div class="button-grid domain-grid">
+    {% for domain in site.data.cards.domains %}
+    <button class="filter-btn domain-btn" data-filter="domain" data-value="{{ domain }}">
+      <i class="{% case domain %}
+        {% when 'Understanding Data' %}fas fa-brain
+        {% when 'Processing Data' %}fas fa-cogs
+        {% when 'Persuading with Data' %}fas fa-chart-line
+      {% endcase %}"></i>
+      {{ domain }}
+    </button>
+    {% endfor %}
+  </div>
+  <!--
+  <button class="reset-btn" data-reset="domain">
+    Show All Domains
+  </button>
+  -->
+</div>
 
-## Explore the Toolkit
-
-<div style="background-color: #f2f2f2; padding: 10px;">
-  <div id="filter-options" style="font-size: 0.8em;">
-    
-    <label for="resource-filter">Type of Resource:</label>
-    <select id="resource-filter">
-      <option value="all">All</option>
-      {% for resource in site.data.cards.resources %}
-      <option value="{{ resource.name }}">{{ resource.name }}</option>
-      {% endfor %}
-    </select>
-
-    <br>
-
-    <label for="domain-filter">Primary Domain:</label>
-    <select id="domain-filter">
-      <option value="all">All</option>
-      {% for domain in site.data.cards.domains %}
-      <option value="{{ domain }}">{{ domain }}</option>
-      {% endfor %}
-    </select>
-
-    <br>
-
-    <label for="subdomain-filter">Subdomain:</label>
-    <select id="subdomain-filter">
-      <option value="all">All</option>
-      {% for subdomain in site.data.cards.subdomains %}
-      <option value="{{ subdomain }}">{{ subdomain }}</option>
-      {% endfor %}
-    </select>
-
-    <br>
-
-    <label for="search-input">Search:</label>
-    <input type="text" id="search-input" style="width: 300px;" placeholder="Search by word, phrase, or keyword">
-    <button id="search-button">Search</button>
-    <button id="clear-search">Clear Search</button>
-
+<!-- Subdomain Filter Section (Hidden by default) -->
+<div id="subdomain-section" class="filter-section mb-4" style="display: none;">
+  <div style="text-align: center;">
+    <h4>Literacy Subdomains</h4>
+    <div class="button-grid subdomain-grid">
+      <!-- Populated dynamically by JavaScript -->
+    </div>
   </div>
 </div>
 
-{% assign cards = site.cards | sort: "title" %}
+<!-- Search Section -->
+<div class="search-section mb-4">
+  <h3>Search Resources</h3>
+  <div class="search-container">
+    <input type="text" id="search-input" placeholder="Search resources...">
+    <button id="search-btn" class="search-btn">Search</button>
+    <button id="clear-search-btn" class="search-btn">Clear Search</button>
+  </div>
+</div>
+
+<!-- Clear All Filters Button -->
+<div class="filter-section mb-4">
+  <button class="reset-btn" data-reset="all">
+    <sl-icon name="arrow-clockwise"></sl-icon> Reset filters to show all resources
+  </button>
+</div>
+
+---
+
+<!-- Card List Section -->
+<center>
+<h2>Filtered Resources (<span id="resource-count"></span>):</h2>
+<p class="text-muted">
+    <i>Click on card to access full resource</i></p>
+</center>
 
 <div id="card-list" style="margin-top: 20px;">
+  {% assign cards = site.cards | sort: "title" %}
   {% for card in cards %}
-  {% assign resource = site.data.cards.resources | where: "name", card.resource | first %}
-
-  <!-- Validation to exclude cards without title or description -->
-
-{% if card.title and card.teaser %}
-
-  <div class="card {% if card.inline == false %}hoverable{% endif %}" style="margin-bottom: 20px;" data-domain="{{ card.domain | default: '' | join: ',' }}" data-subdomain="{{ card.subdomain | default: '' | join: ',' }}">
-    <div class="row no-gutters">
-      <div class="team">
-        <div class="card-body">
-          {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
-            <h5 class="card-title"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp;&nbsp; {{ card.title }}</h5></a>
-          <p class="card-text"><small class="test-muted">
-            {% if card.metadata.date %}
-              <i class="fa-solid fa-calendar"></i>&nbsp; Date: {{ card.metadata.date | custom_date_format }}
-            {% endif %}
-            {% if card.metadata.date and card.metadata.author %}
-              &nbsp;&nbsp;//&nbsp;&nbsp;
-            {% endif %}
-            {% if card.metadata.author %}
-              <i class="fa-solid fa-user"></i>&nbsp; Author: {{ card.metadata.author | replace: '<br />', ', ' }}
-            {% endif %}
-          </small></p>
-          {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
-            <p class="card-text">
-              {% assign words = card.teaser | default: '' | number_of_words %}
-              {% if words > 150 %}
-              {% assign teaser_words = card.teaser | split: ' ' | slice: 0, 150 | join: ' ' %}
-              {{ teaser_words }} <span style="color: #0140A8;">[Read More]</span>
-              {% else %}
-              {{ card.teaser }}
+    {% if card.title and card.teaser %}
+      <div class="card {% if card.inline == false %}hoverable{% endif %}" 
+           data-resource="{{ card.resource }}"
+           data-domain="{{ card.domain | join: ',' }}"
+           data-subdomain="{{ card.subdomain | join: ',' }}" style="margin-top: 10px;">
+        {% assign resource = site.data.cards.resources | where: "name", card.resource | first %}
+        <div class="row no-gutters">
+          <div class="team">
+            <div class="card-body">
+              {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
+                <h5 class="card-title"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp;&nbsp; {{ card.title }}</h5></a>
+              <p class="card-text"><small class="test-muted">
+                {% if card.metadata.date %}
+                  <i class="fa-solid fa-calendar"></i>&nbsp; Date: {{ card.metadata.date | custom_date_format }}
+                {% endif %}
+                {% if card.metadata.date and card.metadata.author %}
+                  &nbsp;&nbsp;//&nbsp;&nbsp;
+                {% endif %}
+                {% if card.metadata.author %}
+                  <i class="fa-solid fa-user"></i>&nbsp; Author: {{ card.metadata.author | replace: '<br />', ', ' }}
+                {% endif %}
+              </small></p>
+              {% if card.inline == false %}<a href="{{ card.url | relative_url }}">{% endif %}
+                <p class="card-text">
+                  {% assign words = card.teaser | default: '' | number_of_words %}
+                  {% if words > 150 %}
+                  {% assign teaser_words = card.teaser | split: ' ' | slice: 0, 150 | join: ' ' %}
+                  {{ teaser_words }} <span style="color: #0140A8;">[Read More]</span>
+                  {% else %}
+                  {{ card.teaser }}
+                  {% endif %}
+                </p>
+                </a>
+              {% if card.keywords.size > 0 %}
+                <hr class="solid">
+                <p class="card-text test-muted keyword"><small>Keywords: {% for keyword in card.keywords %}<i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;{% endfor %}</small></p>
               {% endif %}
-            </p>
-          {% if card.keywords.size > 0 %}
-            <hr class="solid">
-            <p class="card-text test-muted keyword"><small>Keywords: {% for keyword in card.keywords %}<i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;{% endfor %}</small></p>
-          {% endif %}
-          </a>
-          {% if card.metadata.source or card.metadata.license %}
-            <hr class="solid">
-          {% endif %}
-          <p class="card-text">
-            {% if card.metadata.source %}
-              <small class="test-muted"><i class="fas fa-link"></i> Source: <a href="{{ card.metadata.source }}">{{ card.metadata.source | replace: '<br />', ', ' }}</a></small>
-            {% endif %}
-            {% if card.metadata.source and card.metadata.license %}
-              <br>
-            {% endif %}
-            {% if card.metadata.license %}
-              <small class="test-muted"><i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ card.metadata.license }}</small>
-            {% endif %}
-          </p>
-          <hr class="solid">
-          <p class="card-text">
-            <!-- rendering multiple domains vs. single domain -->
-            {% assign domain_array = card.domain %}
-            <small class="test-muted domain"><i class="fa-solid fa-network-wired"></i>&nbsp; Domain:
-              {% for d in domain_array %}
-                {% unless forloop.last %}
-                  <a href="{{ site.url }}{{ site.baseurl }}/{{ d | downcase | replace: ' ', '-' }}">{{ d }}</a>,&nbsp;
-                {% else %}
-                  <a href="{{ site.url }}{{ site.baseurl }}/{{ d | downcase | replace: ' ', '-' }}">{{ d }}</a>&nbsp;&nbsp;//&nbsp;&nbsp;
-                {% endunless %}
-              {% endfor %}
-            </small>
-            <!-- rendering multiple subdomains vs. single subdomain -->
-            {% assign subdomain_array = card.subdomain %}
-            <small class="test-muted subdomain"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain:
-              {% for sub in subdomain_array %}
-                {% unless forloop.last %}
-                  {{ sub }},&nbsp;
-                {% else %}
-                  {{ sub }}&nbsp;&nbsp;//&nbsp;&nbsp;
-                {% endunless %}
-              {% endfor %}
-            </small>
-            <small class="test-muted resource"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ card.resource }}</small><br>
-          </p>
+              {% if card.metadata.source or card.metadata.license %}
+                <hr class="solid">
+              {% endif %}
+              <p class="card-text">
+                {% if card.metadata.source %}
+                  <small class="test-muted"><i class="fas fa-link"></i> Source: <a href="{{ card.metadata.source }}">{{ card.metadata.source | replace: '<br />', ', ' }}</a></small>
+                {% endif %}
+                {% if card.metadata.source and card.metadata.license %}
+                  <br>
+                {% endif %}
+                {% if card.metadata.license %}
+                  <small class="test-muted"><i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ card.metadata.license }}</small>
+                {% endif %}
+              </p>
+              <hr class="solid">
+              <p class="card-text">
+                <!-- rendering multiple domains vs. single domain -->
+                {% assign domain_array = card.domain %}
+                <small class="test-muted resource"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ card.resource }}&nbsp;&nbsp;//&nbsp;&nbsp;</small>
+                <small class="test-muted domain"><i class="fa-solid fa-network-wired"></i>&nbsp; Domain:
+                  {% for d in domain_array %}
+                    {% unless forloop.last %}
+                      <a href="{{ site.url }}{{ site.baseurl }}/{{ d | downcase | replace: ' ', '-' }}">{{ d }}</a>,&nbsp;
+                    {% else %}
+                      <a href="{{ site.url }}{{ site.baseurl }}/{{ d | downcase | replace: ' ', '-' }}">{{ d }}</a>&nbsp;&nbsp;//&nbsp;&nbsp;
+                    {% endunless %}
+                  {% endfor %}
+                </small>
+                <!-- rendering multiple subdomains vs. single subdomain -->
+                {% assign subdomain_array = card.subdomain %}
+                <small class="test-muted subdomain"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain:
+                  {% for sub in subdomain_array %}
+                    {% unless forloop.last %}
+                      {{ sub }},&nbsp;
+                    {% else %}
+                      {{ sub }}
+                    {% endunless %}
+                  {% endfor %}
+                </small><br>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-  {% endif %}
+    {% endif %}
   {% endfor %}
 </div>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  const domainFilter = document.getElementById('domain-filter');
-  const subdomainFilter = document.getElementById('subdomain-filter');
-  const resourceFilter = document.getElementById('resource-filter');
-  const searchInput = document.getElementById('search-input');
-  const clearSearchBtn = document.getElementById('clear-search');
-  const searchBtn = document.getElementById('search-button');
-  const cards = document.querySelectorAll('.card');
+class ToolkitFilter {
+  constructor() {
+    this.state = {
+      resource: null,
+      domain: null,
+      subdomain: null,
+      searchQuery: ''
+    };
+    
+    this.subdomains = {
+      'Understanding Data': ['Defining Data', 'Critiquing Data', 'Acting Ethically with Data', 'Thinking Rhetorically about Data'],
+      'Processing Data': ['Collecting Data', 'Preparing Data', 'Analyzing Data', 'Storing and Preserving Data'],
+      'Persuading with Data': ['Making Claims with Data', 'Visualizing Data', 'Mapping Data', 'Telling Stories with Data']
+    };
+    
+    this.init();
+  }
 
-  const subdomainToDomain = {
-    'All': 'All',
-    'Defining Data': 'Understanding Data',
-    'Critiquing Data': 'Understanding Data',
-    'Acting Ethically with Data': 'Understanding Data',
-    'Advocating with Data': 'Understanding Data',
-    'Collecting Data': 'Processing Data',
-    'Preparing Data': 'Processing Data',
-    'Analyzing Data': 'Processing Data',
-    'Storing and Preserving Data': 'Processing Data',
-    'Making Claims with Data': 'Persuading with Data',
-    'Visualizing Data': 'Persuading with Data',
-    'Mapping Data': 'Persuading with Data',
-    'Telling Stories with Data': 'Persuading with Data'
-  };
+  init() {
+    this.bindEvents();
+    this.filterCards();
+  }
 
-  function filterCards() {
-    const selectedDomain = domainFilter.value;
-    const selectedSubdomain = subdomainFilter.value;
-    const selectedResource = resourceFilter.value;
-    const searchKeyword = searchInput.value.toLowerCase();
+  bindEvents() {
+    // Resource filter buttons
+    document.querySelectorAll('.resource-btn').forEach(btn => {
+      btn.addEventListener('click', () => this.handleFilter('resource', btn));
+    });
 
+    // Domain filter buttons
+    document.querySelectorAll('.domain-btn').forEach(btn => {
+      btn.addEventListener('click', () => this.handleFilter('domain', btn));
+    });
+
+    // Reset buttons (including new all-clear functionality)
+    document.querySelectorAll('.reset-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        if (btn.dataset.reset === 'all') {
+          this.clearAllFilters();
+        } else {
+          this.handleReset(btn.dataset.reset);
+        }
+      });
+    });
+
+    // Search functionality
+    const searchInput = document.getElementById('search-input');
+    
+    // Real-time search as user types
+    searchInput.addEventListener('input', () => this.handleSearch());
+    
+    // Handle Enter key press
+    searchInput.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        this.handleSearch();
+      }
+    });
+    
+    // Button clicks
+    document.getElementById('search-btn').addEventListener('click', () => this.handleSearch());
+    document.getElementById('clear-search-btn').addEventListener('click', () => this.clearSearch());
+  }
+
+  handleFilter(type, button) {
+    const value = button.dataset.value;
+    
+    // Toggle active state
+    if (this.state[type] === value) {
+      this.state[type] = null;
+      button.classList.remove('active');
+    } else {
+      // Remove active class from other buttons of same type
+      document.querySelectorAll(`.${type}-btn`).forEach(btn => {
+        btn.classList.remove('active');
+      });
+      this.state[type] = value;
+      button.classList.add('active');
+    }
+
+    // Handle subdomain visibility for domain changes
+    if (type === 'domain') {
+      this.updateSubdomains();
+    }
+
+    this.filterCards();
+  }
+
+  filterCards() {
+    const cards = document.querySelectorAll('.card');
+    let visibleCount = 0;
+    
     cards.forEach(card => {
-      const cardDomains = card.getAttribute('data-domain').split(',');
-      const cardSubdomains = card.getAttribute('data-subdomain').split(',');
-      const cardResource = card.querySelector('.resource').textContent.trim().replace('Type of Resource: ', '');
+      const resourceType = card.dataset.resource;
+      const domains = card.dataset.domain.split(',');
+      const subdomains = card.dataset.subdomain.split(',');
       const cardText = card.textContent.toLowerCase();
 
-      const domainMatch = selectedDomain === 'all' || cardDomains.includes(selectedDomain);
-      const subdomainMatch = selectedSubdomain === 'all' || cardSubdomains.includes(selectedSubdomain);
-      const resourceMatch = selectedResource === 'all' || cardResource === selectedResource;
-      const searchMatch = searchKeyword === '' || cardText.includes(searchKeyword);
+      const resourceMatch = !this.state.resource || resourceType === this.state.resource;
+      const domainMatch = !this.state.domain || domains.includes(this.state.domain);
+      const subdomainMatch = !this.state.subdomain || subdomains.includes(this.state.subdomain);
+      const searchMatch = !this.state.searchQuery || cardText.includes(this.state.searchQuery);
 
-      if (domainMatch && subdomainMatch && resourceMatch && searchMatch) {
-        card.style.display = 'block';
-      } else {
-        card.style.display = 'none';
+      const isVisible = resourceMatch && domainMatch && subdomainMatch && searchMatch;
+      card.style.display = isVisible ? 'block' : 'none';
+      
+      if (isVisible) {
+        visibleCount++;
       }
+  });
+  // Update just the number in the span
+  document.getElementById('resource-count').textContent = visibleCount;
+}
+
+  updateSubdomains() {
+    const subdomainSection = document.getElementById('subdomain-section');
+    const subdomainGrid = document.querySelector('.subdomain-grid');
+    
+    if (!this.state.domain) {
+      subdomainSection.style.display = 'none';
+      this.state.subdomain = null;
+      return;
+    }
+
+    // Show subdomain section and populate buttons
+    subdomainSection.style.display = 'block';
+    subdomainGrid.innerHTML = '';
+    
+    this.subdomains[this.state.domain].forEach(subdomain => {
+      const button = document.createElement('button');
+      button.className = 'filter-btn subdomain-btn';
+      button.textContent = subdomain;
+      button.dataset.value = subdomain;
+      button.addEventListener('click', () => this.handleFilter('subdomain', button));
+      subdomainGrid.appendChild(button);
     });
   }
 
-  domainFilter.addEventListener('change', function() {
-    subdomainFilter.value = 'all';
-    filterCards();
-  });
+  handleSearch() {
+    const searchInput = document.getElementById('search-input');
+    this.state.searchQuery = searchInput.value.toLowerCase();
+    this.filterCards();
+  }
 
-  subdomainFilter.addEventListener('change', function() {
-    const selectedSubdomain = subdomainFilter.value;
-    const correspondingDomain = subdomainToDomain[selectedSubdomain];
-    if (correspondingDomain) {
-      domainFilter.value = correspondingDomain;
-    } else if (selectedSubdomain === 'all') {
-      domainFilter.value = 'all';
-    }
-    filterCards();
-  });
-  
-  resourceFilter.addEventListener('change', filterCards);
-  searchInput.addEventListener('input', filterCards);
-  clearSearchBtn.addEventListener('click', function() {
-    domainFilter.value = 'all';
-    subdomainFilter.value = 'all';
-    resourceFilter.value = 'all';
+  clearSearch() {
+    const searchInput = document.getElementById('search-input');
     searchInput.value = '';
-    filterCards();
-  });
+    this.state.searchQuery = '';
+    this.filterCards();
+  }
 
-  window.addEventListener('pageshow', initialize);
-  initialize();
+  handleReset(type) {
+    this.state[type] = null;
+    document.querySelectorAll(`.${type}-btn`).forEach(btn => {
+      btn.classList.remove('active');
+    });
+    
+    if (type === 'domain') {
+      document.getElementById('subdomain-section').style.display = 'none';
+      this.state.subdomain = null;
+    }
+    
+    this.filterCards();
+  }
+
+  clearAllFilters() {
+    // Reset all state
+    this.state = {
+      resource: null,
+      domain: null,
+      subdomain: null,
+      searchQuery: ''
+    };
+    
+    // Remove all active classes from filter buttons
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.classList.remove('active');
+    });
+    
+    // Hide subdomain section
+    document.getElementById('subdomain-section').style.display = 'none';
+    
+    // Clear search input
+    const searchInput = document.getElementById('search-input');
+    searchInput.value = '';
+    
+    // Re-filter cards to show all
+    this.filterCards();
+  }
+}
+
+// Initialize on page load
+document.addEventListener('DOMContentLoaded', () => {
+  new ToolkitFilter();
 });
 </script>

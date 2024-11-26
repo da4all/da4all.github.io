@@ -55,9 +55,9 @@ The Data Advocacy for All toolkit is centered around three literacy domains: und
 <center>
 <sl-button variant="primary" size="large" outline href="../literacy-domains/">Overview of the Literacy Domains</sl-button><br><br>
 <sl-button-group label="Alignment">
-  <sl-button variant="primary" size="large" outline href="../understanding-data/"><i class="fas fa-brain"></i> Understanding Data</sl-button>
-  <sl-button variant="primary" size="large" outline href="../processing-data/"><i class="fas fa-cogs"></i> Processing Data</sl-button>
-  <sl-button variant="primary" size="large" outline href="../persuading-with-data/"><i class="fas fa-chart-line"></i> Persuading with Data</sl-button>
+  <sl-button variant="primary" size="large" pill outline href="../understanding-data/"><i class="fas fa-brain"></i> Understanding Data</sl-button>
+  <sl-button variant="primary" size="large" pill outline href="../processing-data/"><i class="fas fa-cogs"></i> Processing Data</sl-button>
+  <sl-button variant="primary" size="large" pill outline href="../persuading-with-data/"><i class="fas fa-chart-line"></i> Persuading with Data</sl-button>
 </sl-button-group></center>
 
 <br>

@@ -1168,265 +1168,7 @@ sl-button[variant="primary"] {
   }
 }
 
-/*
-// Resource Type Button Section Styling
-.resource-section {
-  // Container styling
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-
-  // Title styling
-  h3 {
-    text-align: center;
-    margin-bottom: 1.5rem;
-
-    .resource-reset {
-      font-size: 0.8em;
-      margin-left: 0.5rem;
-      color: #666;
-      text-decoration: none;
-
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-  }
-
-  // Resource button styling
-  .resource-button {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 70px;
-    border-radius: 8px;
-    font-size: 0.9rem;
-    transition: all 0.3s ease;
-
-    i {
-      font-size: 1.5em;
-      margin-bottom: 3px;
-    }
-
-    // Custom colors using variables
-    color: $blue-color-dark;
-    border-color: $blue-color-dark;
-
-    &:hover {
-      color: $blue-color;
-      border-color: $blue-color;
-      background-color: rgba($blue-color, 0.1);
-    }
-
-    &.active {
-      color: $blue-color;
-      border-color: $blue-color;
-      background-color: rgba($blue-color, 0.05);
-      box-shadow: 0 0 12px rgba($blue-color, 0.5);
-      transform: scale(1.08);
-    }
-  }
-}
-
-// Domain buttons
-#domain-buttons {
-  .button-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, auto);
-    margin-bottom: 20px;
-    margin-top: 20px;
-    gap: 10px;
-  }
-
-  .domain-btn {
-    flex: 1;
-    margin: 0 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 0.85rem !important;
-    padding: 10px 8px !important;
-    border-radius: 8px;
-    transition: all 0.3s ease;
-    color: $domain-btn-color-base !important;
-    border-color: $domain-btn-color-base !important;
-
-    &:hover {
-      color: $red-color !important;
-      border-color: $red-color-dark !important;
-      background-color: rgba($red-color, 0.1) !important;
-    }
-
-    &.active {
-      color: $domain-btn-color-base !important;
-      border-color: $domain-btn-color-base !important;
-      background-color: rgba($red-color, 0.05) !important;
-      box-shadow: 0 0 12px rgba($grey-color-dark, 0.5) !important;
-      transform: scale(1.08);
-    }
-
-    i {
-      font-size: 1.8em;
-      margin-bottom: 8px;
-    }
-
-    span {
-      font-size: 1em;
-      white-space: normal;
-      line-height: 1.3;
-    }
-  }
-}
-
-// Subdomain section layout
-.subdomain-grid {
-  display: grid;
-  grid-template-columns: 200px 1fr; // First column fixed width, rest flexible
-  gap: 20px;
-  align-items: center;
-  width: 100%;
-}
-
-.subdomain-label {
-  font-size: 1.1rem;
-  font-weight: 300;
-  color: $base-font;
-  //padding: 15px 0px;//
-  display: flex;
-  align-items: center !important;
-  text-align: center !important;
-  height: 100%;
-}
-
-// Updated subdomain buttons layout
-#subdomain-buttons {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-  width: 100%;
-}
-
-.subdomain-btn {
-  flex: 1;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 0.75rem !important;
-  padding: 15px 10px;
-  border-radius: 8px;
-  transition: all 0.3s ease;
-  color: $domain-btn-color-base !important;
-  border: 1.2px solid $domain-btn-color-base !important;
-
-  &:hover {
-    color: $red-color !important;
-    border-color: $red-color !important;
-    background-color: rgba($red-color, 0.1) !important;
-  }
-
-  &.active {
-    border-color: $domain-btn-color-base !important;
-    box-shadow: 0 0 12px rgba($red-color, 0.5) !important;
-    transform: scale(1.08);
-  }
-}
-
-// Responsive adjustments
-@media (max-width: 992px) {
-  .subdomain-grid {
-    grid-template-columns: 1fr; // Stack label above buttons on smaller screens
-    gap: 10px;
-  }
-
-  #subdomain-buttons {
-    grid-template-columns: repeat(2, 1fr); // 2 columns on medium screens
-  }
-}
-
-@media (max-width: 576px) {
-  #subdomain-buttons {
-    grid-template-columns: 1fr; // Single column on very small screens
-  }
-
-  .subdomain-label {
-    text-align: center;
-  }
-}
-
-.btn-show-all {
-  // Base styles
-  height: 40px !important;
-  flex-direction: row;
-  padding: 0 40px;
-  border-width: 1px !important;
-  border-style: solid !important;
-  border-color: #000000 !important;
-  color: #000000 !important;
-  box-shadow: none !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.3s ease;
-
-  // Hover state
-  &:hover {
-    background-color: rgba(0, 0, 0, 0.05) !important;
-    color: #000000 !important;
-    border-color: #000000 !important;
-    transform: translateY(-1px);
-  }
-
-  // Active state
-  &:active,
-  &.active {
-    background-color: rgba(0, 0, 0, 0.1) !important;
-    transform: translateY(0);
-  }
-}
-
-// Styles for search bar and buttons
-.input-group {
-  display: flex !important;
-  align-items: center !important;
-  margin-bottom: 20px !important;
-}
-
-#search-input {
-  border-radius: 8px !important;
-  height: 38px; // Adjust this value if needed to match your desired height
-  margin-right: 5px;
-}
-
-.search-btn {
-  border-radius: 8px !important;
-  background-color: rgba($blue-color-dark, 0.75) !important;
-  border-color: $blue-color-dark !important;
-  color: white !important;
-  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
-  height: 38px; // Match the height of the input
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 5px; // Add some space between input and buttons
-}
-
-.search-btn:hover {
-  background-color: $blue-color !important;
-  border-color: $blue-color-dark !important;
-  color: white !important;
-}
-
-*/
-
-// **** NEW STYLING ***** //
+// **** NEW STYLING FOR TOOLKIT ***** //
 
 /* Filter Section Styles */
 .filter-section {
@@ -1481,14 +1223,32 @@ sl-button[variant="primary"] {
 }
 
 .filter-btn:hover {
-  background-color: #0140a8;
+  background-color: $blue-color-dark;
   color: white;
 }
 
 .filter-btn.active {
-  background-color: #0140a8;
+  background-color: $blue-color-dark;
   color: white;
-  transform: scale(1.08);
+  transform: scale(1.05);
+}
+
+/* Domain button styles */
+
+.domain-btn {
+  color: $red-color-dark;
+  border-color: $red-color-dark;
+}
+
+.domain-btn:hover {
+  background-color: $red-color-dark;
+  color: white;
+}
+
+.domain-btn.active {
+  background-color: $red-color-dark;
+  color: white;
+  transform: scale(1.05);
 }
 
 /* Subdomain button styles */
@@ -1505,20 +1265,20 @@ sl-button[variant="primary"] {
   padding: 10px 5px;
   border-radius: 8px;
   transition: all 0.3s ease;
-  color: $red-color-dark;
-  border: 1.2px solid $red-color-dark;
+  color: #db5801;
+  border: 1.8px solid #db5801;
 
   &:hover {
     color: $white-color;
     //border-color: $red-color !important;//
-    background-color: $red-color-dark;
+    background-color: #db5801;
   }
 
   &.active {
-    border-color: $red-color-dark;
+    border-color: #db5801;
     //box-shadow: 0 0 12px rgba($red-color-dark, 0.5);//
-    transform: scale(1.08);
-    background: $red-color-dark;
+    transform: scale(1.05);
+    background: #db5801;
     color: $white-color !important;
   }
 }
@@ -1526,13 +1286,13 @@ sl-button[variant="primary"] {
 /* Reset button styles */
 .reset-btn {
   display: block;
-  margin: 1rem auto;
-  padding: 0.5rem 2rem;
-  border: 1px solid #666;
+  margin: 2rem auto;
+  padding: 0.5rem 2.5rem;
+  border: 1.8px solid #666;
   border-radius: 6px;
   background-color: white;
   color: #666;
-  font-size: 0.9rem;
+  font-size: 1.08rem;
   transition: all 0.2s ease;
   cursor: pointer;
 }
@@ -1570,17 +1330,18 @@ sl-button[variant="primary"] {
 
 .search-btn {
   padding: 0.5rem 1rem;
-  border: none;
+  border: 2px solid #ddd;
   border-radius: 8px;
-  background-color: #0140a8;
-  color: white;
+  background-color: $white-color;
+  color: #333;
   font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.2s ease;
 }
 
 .search-btn:hover {
-  background-color: #002868;
+  background-color: $grey-color;
+  color: $white-color;
 }
 
 /* Responsive adjustments */
