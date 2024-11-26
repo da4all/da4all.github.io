@@ -1154,6 +1154,20 @@ nav[data-toggle="toc"] {
   gap: 10px; /* adjust this for your desired spacing between cards */
 }
 
+// Customize the primary variant of Shoelace buttons
+sl-button[variant="primary"] {
+  &::part(base) {
+    // Base styles
+    color: $blue-color-dark; // text color
+    border-color: $blue-color-dark; // border color
+
+    &:hover {
+      color: $white-color; // hover text color
+      background-color: $blue-color-dark; // hover background color
+    }
+  }
+}
+
 /*
 // Resource Type Button Section Styling
 .resource-section {

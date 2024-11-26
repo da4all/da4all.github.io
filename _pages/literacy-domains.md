@@ -14,11 +14,12 @@ nav_order: 3
 
 In the context of data the Data Advocacy for All project, `Data Literacy` is understood to be a nexus of mindsets, abilities, and practices that enable one to **advocate with data in meaningful, ethical, and transformative ways**. We have divided our data advocacy curriculum under three overarching **domains** (`Understanding Data`, `Processing Data`, and `Persuading with Data`), each of which have been further organized into four **subdomains**:
 
-<center><sl-button-group label="Alignment">
-  <sl-button href="../understanding-data/">Understanding Data</sl-button>
-  <sl-button href="../processing-data/">Processing Data</sl-button>
-  <sl-button href="../persuading-with-data/">Persuading with Data</sl-button>
-</sl-button-group></center>
+<center>
+<sl-button-group label="Alignment">
+  <sl-button variant="primary" size="large" outline href="../understanding-data/"><i class="fas fa-brain"></i> Understanding Data</sl-button>
+  <sl-button variant="primary" size="large" outline href="../processing-data/"><i class="fas fa-cogs"></i> Processing Data</sl-button>
+  <sl-button variant="primary" size="large" outline href="../persuading-with-data/"><i class="fas fa-chart-line"></i> Persuading with Data</sl-button>
+</sl-button-group></center><br>
 
 <img src="../assets/img/literacy-domains.png" alt="The graphic is titled 'Literacy Domains of Data Advocacy.' Beneath that heading, there are three primary domains: (1) Understanding Data, (2) Processing Data, and (3) Persuading with Data. Under each domain are four subdomains. Under (1) Understanding Data, there are the following subdomains: (1a) Defining Data, (1b) Critiquing Data, (1c) Acting Ethically with Data, and (1d) Thinking Rhetorically about Data. Under (2) Processing Data, there are the following subdomains: (2a) Collecting Data, (2b) Preparing Data, (2c) Analyzing Data, and (2d) Storing and Preserving Data. Under (3) Persuading with Data, there are the following subdomains: (3a) Making Claims with Data, (3b) Visualizing Data, (3c) Mapping Data, and (3d) Telling Stories with Data." width="100%" style="border: #9AB1DA 1px outset">
 
