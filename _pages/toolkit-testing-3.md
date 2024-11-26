@@ -9,7 +9,7 @@ nav_order: 5
 
 Welcome to the Data Advocacy for All Toolkit! This is a curated collection of teaching resources designed to support data advocacy, including readings, assignments, lesson plans, and more. Our lessons are organized by both what [type of resource](../resource-types/) they are and what data advocacy [literacy domain](../literacy-domains/) they fall under. Use the buttons below to filter resources by their `Resource Type`, `Literacy Domain`, and `Literacy Subdomain`, or search for specific topics or keywords across the resources.
 
-<!-- Resource Type Button System -->
+<!-- Resource Type Button System
 <div id="resource-type-buttons" class="mb-4">
   <h3 style="text-align: center;">Filter by Resource Type:</h3>
   <div class="button-grid">
@@ -22,6 +22,64 @@ Welcome to the Data Advocacy for All Toolkit! This is a curated collection of te
     </button>
     {% endfor %}
   </div>
+</div>
+-->
+
+<!-- Resource Type Button System -->
+<div class="resource-section mb-4">
+    <h3>
+        Filter by Resource Type 
+        <a href="#" class="resource-reset" data-resource="all">(Clear filter)</a>
+    </h3>
+    <div class="container">
+        <div class="row row-cols-4 g-2">
+      <div class="col">
+        <button class="btn btn-outline-primary resource-button w-100" data-resource="Term">
+          <i class="fa-solid fa-lightbulb"></i> Term
+        </button>
+      </div>
+      <div class="col">
+        <button class="btn btn-outline-primary resource-button w-100" data-resource="Reading">
+          <i class="fa-solid fa-book"></i> Reading
+        </button>
+      </div>
+      <div class="col">
+        <button class="btn btn-outline-primary resource-button w-100"  data-resource="Assignment">
+          <i class="fa-solid fa-pen"></i> Assignment
+        </button>
+      </div>
+      <div class="col">
+        <button class="btn btn-outline-primary resource-button w-100"  data-resource="Activity">
+          <i class="fa-solid fa-comment"></i> Activity
+        </button>
+      </div>
+      <div class="col">
+        <button class="btn btn-outline-primary resource-button w-100"  data-resource="Tutorial">
+          <i class="fa-solid fa-laptop-code"></i> Tutorial
+        </button>
+      </div>
+      <div class="col">
+        <button class="btn btn-outline-primary resource-button w-100"  data-resource="Lesson Plan">
+          <i class="fa-solid fa-person-chalkboard"></i> Lesson Plan
+        </button>
+      </div>
+      <div class="col">
+        <button class="btn btn-outline-primary resource-button w-100"  data-resource="Example Project">
+          <i class="fa-solid fa-bullhorn"></i> Example Project
+        </button>
+      </div>
+      <div class="col">
+        <button class="btn btn-outline-primary resource-button w-100"  data-resource="Slides">
+          <i class="fa-solid fa-chalkboard"></i> Slides
+        </button>
+      </div>
+    </div>
+</div>
+
+<div class="d-flex justify-content-center mb-3">
+  <button id="show-all-resources-btn" class="btn btn-outline-primary btn-show-all" type="button">
+    Show All Resources
+  </button>
 </div>
 
 <!-- Domain Type Button System -->
@@ -45,13 +103,9 @@ Welcome to the Data Advocacy for All Toolkit! This is a curated collection of te
 
 <!-- Subdomain Filter Section (Hidden by default) -->
 <div id="subdomain-section" class="mt-4" style="display: none;">
-  <div id="subdomain-container" class="subdomain-grid">
-    <div class="subdomain-label">
-      Subdomain:
-    </div>
-    <div id="subdomain-buttons">
-      <!-- Subdomain buttons will be populated dynamically -->
-    </div>
+  <h4 style="text-align: center;">Filter by Subdomain:</h4>
+  <div id="subdomain-buttons" class="button-grid">
+    <!-- Subdomain buttons will be populated dynamically -->
   </div>
 </div>
 
@@ -68,16 +122,18 @@ Welcome to the Data Advocacy for All Toolkit! This is a curated collection of te
   </div>
 </div>
 
+<!--Old javascript
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const domainButtons = document.querySelectorAll('.domain-btn');
   const subdomainSection = document.getElementById('subdomain-section');
   const subdomainButtonsContainer = document.getElementById('subdomain-buttons');
   const resourceButtons = document.querySelectorAll('#resource-type-buttons .btn');
+  const resetLink = document.querySelector('.resource-reset');
   const cards = document.querySelectorAll('.card');
 
   const subdomains = {
-    "Understanding Data": ["Defining Data", "Critiquing Data", "Acting Ethically with Data", "Advocating with Data"],
+    "Understanding Data": ["Defining Data", "Critiquing Data", "Acting Ethically with Data", "Thinking Rhetorically about Data"],
     "Processing Data": ["Collecting Data", "Preparing Data", "Analyzing Data", "Storing and Preserving Data"],
     "Persuading with Data": ["Making Claims with Data", "Visualizing Data", "Mapping Data", "Telling Stories with Data"]
   };
@@ -89,7 +145,7 @@ document.addEventListener('DOMContentLoaded', function() {
   function updateSubdomainButtons(domain) {
     const subdomainButtonsContainer = document.getElementById('subdomain-buttons');
     subdomainButtonsContainer.innerHTML = ''; // Clear existing buttons
-    
+
     if (domain === 'all') {
       subdomainSection.style.display = 'none';
       return;
@@ -97,7 +153,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Show the subdomain section
     subdomainSection.style.display = 'block';
-    
+
     // Create buttons for the selected domain
     const domainSubdomains = subdomains[domain] || [];
     domainSubdomains.forEach(subdomain => {
@@ -110,7 +166,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // Add click event listener
       button.addEventListener('click', function() {
         const wasActive = this.classList.contains('active');
-        
+
         // Remove active class from all subdomain buttons
         document.querySelectorAll('.subdomain-btn').forEach(btn => {
           btn.classList.remove('active');
@@ -133,7 +189,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const cardDomains = card.getAttribute('data-domain').split(',');
       const cardSubdomains = card.getAttribute('data-subdomain').split(',');
       const cardResource = card.querySelector('.resource').textContent.trim().replace('Type of Resource: ', '');
-      
+
       const domainMatch = currentDomain === 'all' || cardDomains.includes(currentDomain);
       const subdomainMatch = !currentSubdomain || cardSubdomains.includes(currentSubdomain);
       const resourceMatch = currentResourceType === 'all' || cardResource === currentResourceType;
@@ -150,18 +206,18 @@ document.addEventListener('DOMContentLoaded', function() {
   domainButtons.forEach(button => {
     button.addEventListener('click', function() {
       const newDomain = this.getAttribute('data-domain');
-      
+
       // Update active state of domain buttons
       domainButtons.forEach(btn => btn.classList.remove('active'));
       this.classList.add('active');
-      
+
       // Update current domain and reset subdomain selection
       currentDomain = newDomain;
       currentSubdomain = null;
-      
+
       // Update subdomain buttons
       updateSubdomainButtons(newDomain);
-      
+
       // Filter cards
       filterCards();
     });
@@ -181,6 +237,161 @@ document.addEventListener('DOMContentLoaded', function() {
   updateSubdomainButtons('all');
   filterCards();
 });
+</script>
+-->
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const domainButtons = document.querySelectorAll('.domain-btn');
+  const subdomainSection = document.getElementById('subdomain-section');
+  const subdomainButtonsContainer = document.getElementById('subdomain-buttons');
+  const resourceButtons = document.querySelectorAll('.resource-button');
+  const showAllResourcesBtn = document.getElementById('show-all-resources-btn');
+  const cards = document.querySelectorAll('.card');
+  const searchInput = document.getElementById('search-input');
+  const clearSearchButton = document.getElementById('clear-search-button');
+  const searchButton = document.getElementById('search-button');
+
+  const subdomains = {
+    "Understanding Data": ["Defining Data", "Critiquing Data", "Acting Ethically with Data", "Thinking Rhetorically about Data"],
+    "Processing Data": ["Collecting Data", "Preparing Data", "Analyzing Data", "Storing and Preserving Data"],
+    "Persuading with Data": ["Making Claims with Data", "Visualizing Data", "Mapping Data", "Telling Stories with Data"]
+  };
+
+  let currentDomain = 'all';
+  let currentSubdomain = null;
+  let currentResourceType = 'all';
+
+  // Show All Resources button handler
+  showAllResourcesBtn.addEventListener('click', function() {
+    // Only reset resource type
+    currentResourceType = 'all';
+
+    // Reset UI state for only resource buttons
+    resourceButtons.forEach(btn => btn.classList.remove('active'));
+    
+    // Reapply filters - this will maintain domain/subdomain filters
+    filterCards();
+  });
+
+  // Resource button handlers
+  resourceButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      const resourceType = this.getAttribute('data-resource');
+      
+      // If clicking already active button, reset to show all
+      if (this.classList.contains('active')) {
+        currentResourceType = 'all';
+        this.classList.remove('active');
+      } else {
+        // Remove active class from all resource buttons
+        resourceButtons.forEach(btn => btn.classList.remove('active'));
+        // Add active class to clicked button
+        this.classList.add('active');
+        currentResourceType = resourceType;
+      }
+      
+      filterCards();
+    });
+  });
+
+  // Domain button handlers
+  domainButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      const newDomain = this.getAttribute('data-domain');
+      
+      // If clicking already active domain, reset to all
+      if (this.classList.contains('active') && newDomain !== 'all') {
+        currentDomain = 'all';
+        this.classList.remove('active');
+        document.querySelector('.domain-btn[data-domain="all"]').classList.add('active');
+      } else {
+        // Remove active class from all domain buttons
+        domainButtons.forEach(btn => btn.classList.remove('active'));
+        // Add active class to clicked button
+        this.classList.add('active');
+        currentDomain = newDomain;
+      }
+
+      // Reset subdomain when domain changes
+      currentSubdomain = null;
+      
+      // Update subdomain buttons
+      updateSubdomainButtons(newDomain);
+      
+      filterCards();
+    });
+  });
+
+  // Search functionality
+  searchInput.addEventListener('input', filterCards);
+  searchButton.addEventListener('click', filterCards);
+  clearSearchButton.addEventListener('click', function() {
+    searchInput.value = '';
+    filterCards();
+  });
+
+  function updateSubdomainButtons(domain) {
+    if (domain === 'all') {
+      subdomainSection.style.display = 'none';
+      return;
+    }
+
+    subdomainSection.style.display = 'block';
+    subdomainButtonsContainer.innerHTML = '';
+
+    const domainSubdomains = subdomains[domain] || [];
+    domainSubdomains.forEach(subdomain => {
+      const button = document.createElement('button');
+      button.className = 'btn btn-outline-primary subdomain-btn';
+      button.textContent = subdomain;
+      button.setAttribute('data-subdomain', subdomain);
+      
+      button.addEventListener('click', function() {
+        if (this.classList.contains('active')) {
+          this.classList.remove('active');
+          currentSubdomain = null;
+        } else {
+          document.querySelectorAll('.subdomain-btn').forEach(btn => {
+            btn.classList.remove('active');
+          });
+          this.classList.add('active');
+          currentSubdomain = this.getAttribute('data-subdomain');
+        }
+        filterCards();
+      });
+      
+      subdomainButtonsContainer.appendChild(button);
+    });
+  }
+
+  function filterCards() {
+    const searchTerm = searchInput.value.toLowerCase();
+    
+    cards.forEach(card => {
+      const cardDomains = card.getAttribute('data-domain').split(',');
+      const cardSubdomains = card.getAttribute('data-subdomain').split(',');
+      const cardResource = card.querySelector('.resource').textContent.trim().replace('Type of Resource: ', '');
+      const cardText = card.textContent.toLowerCase();
+
+      const domainMatch = currentDomain === 'all' || cardDomains.includes(currentDomain);
+      const subdomainMatch = !currentSubdomain || cardSubdomains.includes(currentSubdomain);
+      const resourceMatch = currentResourceType === 'all' || cardResource === currentResourceType;
+      const searchMatch = !searchTerm || cardText.includes(searchTerm);
+
+      if (domainMatch && subdomainMatch && resourceMatch && searchMatch) {
+        card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+
+  // Initialize the page
+  updateSubdomainButtons('all');
+  filterCards();
+});
+
 </script>
 
 ---

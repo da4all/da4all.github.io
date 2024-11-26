@@ -45,6 +45,7 @@ details details > *:not(summary) {
 
 body {
   font-family: $base-font;
+  font-size: 1.03rem;
   letter-spacing: 0.01rem;
 }
 
@@ -104,6 +105,16 @@ table {
 a {
   /*color: #002868;*/
   color: #0140a8;
+
+  &:hover {
+    color: #012f7a; // Darker shade on hover
+    text-decoration: underline; // Remove underline on hover
+  }
+
+  &:focus {
+    outline: 2px solid #0140a8; // Add an outline for accessibility
+    outline-offset: 2px;
+  }
 }
 
 table.table a {
@@ -222,7 +233,7 @@ blockquote {
 
 .post-description {
   margin-bottom: 2rem;
-  font-size: 0.875rem;
+  font-size: 0.9rem;
 
   a {
     color: inherit;
@@ -1143,60 +1154,64 @@ nav[data-toggle="toc"] {
   gap: 10px; /* adjust this for your desired spacing between cards */
 }
 
-// Resource Type Buttons
-
-@import "variables";
-
-#resource-type-buttons {
-  .button-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(2, auto);
-    margin-bottom: 20px;
-    margin-top: 20px;
-    gap: 10px;
+/*
+// Resource Type Button Section Styling
+.resource-section {
+  // Container styling
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
   }
 
-  .btn.btn-outline-primary {
+  // Title styling
+  h3 {
     text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    margin-bottom: 1.5rem;
+
+    .resource-reset {
+      font-size: 0.8em;
+      margin-left: 0.5rem;
+      color: #666;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  // Resource button styling
+  .resource-button {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 0.9rem !important;
-    height: 70px; // Adjust as needed
+    height: 70px;
     border-radius: 8px;
+    font-size: 0.9rem;
     transition: all 0.3s ease;
-    color: $blue-color-dark !important;
-    border-color: $blue-color-dark !important;
 
     i {
       font-size: 1.5em;
       margin-bottom: 3px;
     }
 
+    // Custom colors using variables
+    color: $blue-color-dark;
+    border-color: $blue-color-dark;
+
     &:hover {
-      color: $blue-color !important;
-      border-color: $blue-color !important;
-      background-color: rgba($blue-color, 0.1) !important;
+      color: $blue-color;
+      border-color: $blue-color;
+      background-color: rgba($blue-color, 0.1);
     }
 
     &.active {
-      color: $blue-color !important;
-      border-color: $blue-color !important;
-      background-color: rgba($blue-color, 0.05) !important;
-      box-shadow: 0 0 12px rgba($blue-color, 0.5) !important;
+      color: $blue-color;
+      border-color: $blue-color;
+      background-color: rgba($blue-color, 0.05);
+      box-shadow: 0 0 12px rgba($blue-color, 0.5);
       transform: scale(1.08);
-    }
-  }
-
-  @media (max-width: 768px) {
-    .button-grid {
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(4, auto);
     }
   }
 }
@@ -1267,7 +1282,7 @@ nav[data-toggle="toc"] {
   font-size: 1.1rem;
   font-weight: 300;
   color: $base-font;
-  /*padding: 15px 0px;*/
+  //padding: 15px 0px;//
   display: flex;
   align-items: center !important;
   text-align: center !important;
@@ -1332,6 +1347,37 @@ nav[data-toggle="toc"] {
   }
 }
 
+.btn-show-all {
+  // Base styles
+  height: 40px !important;
+  flex-direction: row;
+  padding: 0 40px;
+  border-width: 1px !important;
+  border-style: solid !important;
+  border-color: #000000 !important;
+  color: #000000 !important;
+  box-shadow: none !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+
+  // Hover state
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.05) !important;
+    color: #000000 !important;
+    border-color: #000000 !important;
+    transform: translateY(-1px);
+  }
+
+  // Active state
+  &:active,
+  &.active {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    transform: translateY(0);
+  }
+}
+
 // Styles for search bar and buttons
 .input-group {
   display: flex !important;
@@ -1362,4 +1408,188 @@ nav[data-toggle="toc"] {
   background-color: $blue-color !important;
   border-color: $blue-color-dark !important;
   color: white !important;
+}
+
+*/
+
+// **** NEW STYLING ***** //
+
+/* Filter Section Styles */
+.filter-section {
+  margin-bottom: 2rem;
+}
+
+.filter-section h3 {
+  margin-bottom: 1rem;
+  color: #333;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* Button Grid Layout */
+.button-grid {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.resource-grid {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.domain-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.subdomain-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* Button Styles */
+.filter-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1rem;
+  border: 2px solid $blue-color-dark;
+  border-radius: 8px;
+  background-color: white;
+  color: $blue-color-dark;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.filter-btn i {
+  margin-right: 0.5rem;
+}
+
+.filter-btn:hover {
+  background-color: #0140a8;
+  color: white;
+}
+
+.filter-btn.active {
+  background-color: #0140a8;
+  color: white;
+  transform: scale(1.08);
+}
+
+/* Subdomain button styles */
+
+.subdomain-btn {
+  flex: 1;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 10px 5px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  color: $red-color-dark;
+  border: 1.2px solid $red-color-dark;
+
+  &:hover {
+    color: $white-color;
+    //border-color: $red-color !important;//
+    background-color: $red-color-dark;
+  }
+
+  &.active {
+    border-color: $red-color-dark;
+    //box-shadow: 0 0 12px rgba($red-color-dark, 0.5);//
+    transform: scale(1.08);
+    background: $red-color-dark;
+    color: $white-color !important;
+  }
+}
+
+/* Reset button styles */
+.reset-btn {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.5rem 2rem;
+  border: 1px solid #666;
+  border-radius: 6px;
+  background-color: white;
+  color: #666;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.reset-btn:hover {
+  background-color: #666;
+  color: white;
+}
+
+/* Search Section Styles */
+.search-section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.search-section h3 {
+  margin-bottom: 1rem;
+  color: #333;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.search-container {
+  display: flex;
+  gap: 0.5rem;
+}
+
+#search-input {
+  flex: 1;
+  padding: 0.5rem 1rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.search-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #0140a8;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.search-btn:hover {
+  background-color: #002868;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .resource-grid,
+  .domain-grid,
+  .subdomain-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .search-container {
+    flex-direction: column;
+  }
+
+  .search-btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .resource-grid,
+  .domain-grid,
+  .subdomain-grid {
+    grid-template-columns: 1fr;
+  }
 }
