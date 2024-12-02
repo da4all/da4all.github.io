@@ -4,6 +4,7 @@
 
 @import "layout";
 @import "variables";
+@import "themes";
 @import url("https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/themes/light.css");
 
 // Details & Summary
@@ -144,7 +145,7 @@ blockquote {
   border-left: 2px solid var(--global-theme-color);
   margin: 1.5em 10px;
   padding: 0.5em 10px;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 // Math
@@ -1061,7 +1062,7 @@ nav[data-toggle="toc"] {
 }
 
 /* Tips, warnings, and dangers blockquotes */
-.post .post-content blockquote {
+blockquote {
   &.block-tip {
     border-color: var(--global-tip-block);
     background-color: var(--global-tip-block-bg);
@@ -1168,6 +1169,19 @@ sl-button[variant="primary"] {
   }
 }
 
+.help-banner {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 12px;
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  margin: 2px 0;
+  margin-bottom: 18px;
+  font-size: 0.9rem;
+}
+
 // **** NEW STYLING FOR TOOLKIT ***** //
 
 /* Filter Section Styles */
@@ -1208,10 +1222,10 @@ sl-button[variant="primary"] {
   align-items: center;
   justify-content: center;
   padding: 0.75rem 1rem;
-  border: 2px solid $blue-color-dark;
+  border: 2px solid $resource-btn-color-base;
   border-radius: 8px;
   background-color: white;
-  color: $blue-color-dark;
+  color: $resource-btn-color-base;
   font-size: 1rem;
   font-weight: 500;
   transition: all 0.2s ease;
@@ -1223,12 +1237,12 @@ sl-button[variant="primary"] {
 }
 
 .filter-btn:hover {
-  background-color: $blue-color-dark;
+  background-color: $resource-btn-color-base;
   color: white;
 }
 
 .filter-btn.active {
-  background-color: $blue-color-dark;
+  background-color: $resource-btn-color-base;
   color: white;
   transform: scale(1.05);
 }
@@ -1236,19 +1250,16 @@ sl-button[variant="primary"] {
 /* Domain button styles */
 
 .domain-btn {
-  color: $red-color-dark;
-  border-color: $red-color-dark;
+  color: $domain-btn-color-base;
+  border-color: $domain-btn-color-base;
 }
 
 .domain-btn:hover {
-  background-color: $red-color-dark;
-  color: white;
+  background-color: $domain-btn-color-base;
 }
 
 .domain-btn.active {
-  background-color: $red-color-dark;
-  color: white;
-  transform: scale(1.05);
+  background-color: $domain-btn-color-base;
 }
 
 /* Subdomain button styles */
@@ -1265,20 +1276,20 @@ sl-button[variant="primary"] {
   padding: 10px 5px;
   border-radius: 8px;
   transition: all 0.3s ease;
-  color: #db5801;
-  border: 1.8px solid #db5801;
+  color: $subdomain-btn-color-base;
+  border: 1.8px solid $subdomain-btn-color-base;
 
   &:hover {
     color: $white-color;
     //border-color: $red-color !important;//
-    background-color: #db5801;
+    background-color: $subdomain-btn-color-base;
   }
 
   &.active {
-    border-color: #db5801;
+    border-color: $subdomain-btn-color-base;
     //box-shadow: 0 0 12px rgba($red-color-dark, 0.5);//
     transform: scale(1.05);
-    background: #db5801;
+    background: $subdomain-btn-color-base;
     color: $white-color !important;
   }
 }
