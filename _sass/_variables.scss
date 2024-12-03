@@ -41,7 +41,17 @@ $black-color: #000000 !default;
 
 $code-bg-color-light: rgba(#bf0a30, 0.05);
 $code-bg-color-dark: #2c3237 !default;
-$resource-btn-color-base: #b71c1c !default;
+
+// Button pallette option 1
+// $resource-btn-color-base: #000000 !default;
+// $domain-btn-color-base: #00369f !default;
+// $subdomain-btn-color-base: #ac1b1b !default;
+// $subdomain-btn-active-background: #ac1b1b !default;
+// $subdomain-btn-active-text: #ffffff !default;
+
+// Button pallette option 2
+$resource-btn-color-base: #ac1b1b !default;
 $domain-btn-color-base: #00369f !default;
-$subdomain-btn-color-base: #6983d1 !default;
-//$subdomain-btn-color-base: #db5801 !default;
+$subdomain-btn-color-base: #00369f !default;
+$subdomain-btn-active-background: #e8f0fe !default;
+$subdomain-btn-active-text: #00369f !default;

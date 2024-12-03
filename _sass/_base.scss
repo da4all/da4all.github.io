@@ -1255,11 +1255,15 @@ sl-button[variant="primary"] {
 }
 
 .domain-btn:hover {
+  color: $white-color;
   background-color: $domain-btn-color-base;
+  border-color: $domain-btn-color-base;
 }
 
 .domain-btn.active {
+  color: $white-color;
   background-color: $domain-btn-color-base;
+  border-color: $domain-btn-color-base;
 }
 
 /* Subdomain button styles */
@@ -1277,20 +1281,20 @@ sl-button[variant="primary"] {
   border-radius: 8px;
   transition: all 0.3s ease;
   color: $subdomain-btn-color-base;
+  background-color: $white-color;
   border: 1.8px solid $subdomain-btn-color-base;
 
   &:hover {
-    color: $white-color;
-    //border-color: $red-color !important;//
-    background-color: $subdomain-btn-color-base;
+    color: $subdomain-btn-active-text;
+    border-color: $subdomain-btn-color-base;
+    background-color: $subdomain-btn-active-background;
   }
 
   &.active {
-    border-color: $subdomain-btn-color-base;
-    //box-shadow: 0 0 12px rgba($red-color-dark, 0.5);//
     transform: scale(1.05);
-    background: $subdomain-btn-color-base;
-    color: $white-color !important;
+    color: $subdomain-btn-active-text;
+    border-color: $subdomain-btn-color-base;
+    background-color: $subdomain-btn-active-background;
   }
 }
 
