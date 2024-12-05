@@ -6,7 +6,7 @@ domain:
   - Processing Data
 subdomain:
   - Storing and Preserving Data
-sample_resource: false
+sample_resource: true
 
 title: "The Fair Guiding Principles For Scientific Data Management And Stewardship"
 
