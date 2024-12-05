@@ -22,7 +22,7 @@ keywords:
 
 metadata:
   Source: "https://www.ituonline.com/tech-definitions/what-is-a-data-registry/"
-  author: "Michelle N. Meyer"
+  author: "Michelle Meyer"
   date: 2023-02-2018
   license: 
   citation: "Meyer, Michelle N. 2018. ‘Practical Tips for Ethical Data Sharing.’ Advances in Methods and Practices in Psychological Science, vol. 11: 131-144.“
