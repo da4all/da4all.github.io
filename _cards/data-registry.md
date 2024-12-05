@@ -11,7 +11,7 @@ sample_resource: false
 title: "Data Registry"
 
 teaser: >
-  A Data Registry is a centralized system designed to collect, manage, and store information on specific datasets or data repositories, making it easier for various fields to store and access data and for users to find and use the data they need. Data registries play a crucial role in enhancing data quality, ensuring consistency, and facilitating data sharing and interoperability among different systems and stakeholders.
+  A Data Registry is a centralized system designed to collect, manage, and store information on specific datasets or data repositories, making it easier for various fields or organizations to store and access data and for users to find and use the data they need. Data registries help to ensure data quality and consistency as well as facilitate data sharing and interoperability among different systems and stakeholders.
 
 keywords:
   - “Data Management”
