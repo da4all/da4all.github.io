@@ -25,3 +25,7 @@ metadata:
   license: 
   citation: "ITU. ‘What is a Digital Registry?’ https://www.ituonline.com/tech-definitions/what-is-a-data-registry/. Accessed 4 December 2024."
 ---
+Examples of Digital Registeries: 
+FAIRsharing <a href=”https://fairsharing.org/search?fairsharingRegistry=Database”>
+Re3Data <a href=”https://www.re3data.org/”>
+Generalist Repositories <a href=”[https://www.re3data.org/)](https://www.nlm.nih.gov/NIHbmic/generalist_repositories.html”>
