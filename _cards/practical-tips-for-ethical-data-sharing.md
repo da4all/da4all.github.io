@@ -6,7 +6,7 @@ domain:
   - Processing Data
 subdomain:
   - Storing and Preserving Data
-   - Acting Ethically with Data
+  - Acting Ethically with Data
 sample_resource: true
 
 title: "Practical Tips for Ethical Data Sharing"
