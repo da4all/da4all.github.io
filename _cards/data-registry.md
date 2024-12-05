@@ -28,4 +28,4 @@ metadata:
 Examples of Digital Registeries: 
 FAIRsharing <a href=”https://fairsharing.org/search?fairsharingRegistry=Database”>
 Re3Data <a href=”https://www.re3data.org/”>
-Generalist Repositories <a href=”[https://www.re3data.org/)](https://www.nlm.nih.gov/NIHbmic/generalist_repositories.html”>
+Generalist Repositories <a href=”https://www.nlm.nih.gov/NIHbmic/generalist_repositories.html”>
