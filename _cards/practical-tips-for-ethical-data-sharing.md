@@ -12,7 +12,7 @@ sample_resource: true
 title: "Practical Tips for Ethical Data Sharing"
 
 teaser: >
-  This reading spells out practical dos and don’ts for sharing newly collected research data in ways that are effective and ethical.
+  This scholarly article spells out practical dos and don’ts for sharing newly collected research data in ways that are effective and ethical.
 
 keywords:
   - “Data Management”
