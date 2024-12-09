@@ -5,17 +5,21 @@ title: About the Project
 description:
 nav: false
 nav_order:
+toc:
+  sidebar: left
 ---
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/themes/light.css" />
 <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/shoelace.js" ></script>
 
+<!--
 ## Table of Contents
 
 - [Mission](#Mission)
 - [Framework](#Framework)
 - [The CU Next Award](#CUNext)
   <br><br>
+-->
 
 ## Mission {#Mission}
 
@@ -34,17 +38,9 @@ To help students develop such critical-rhetorical know-how, Data Advocacy for Al
   <sl-button variant="primary" size="large" outline href="../literacy-domains/">Learn more about the Literacy Domains of Data Advocacy</sl-button>
 </sl-button-group></center><br>
 
-<center>
-<sl-button-group label="Alignment">
-  <sl-button href="../literacy-domains/">Learn More About the Literacy Domains of Data Advocacy</sl-button>
-</sl-button-group>
-</center>
-
-<br><br>
-
 ## Framework {#Framework}
 
-Data Advocacy for All teaches data advocacy through three main approaches:<br>
+Data Advocacy for All teaches data advocacy through three main approaches (you can read more about these these in the readings in <a href="../toolkit">our toolkit</a>).<br>
 
 <div class="card hoverable">
   <div class="card-body">
@@ -76,13 +72,16 @@ Data Advocacy for All teaches data advocacy through three main approaches:<br>
 
 <br>
 
+<!--
 <center>
 <sl-button-group label="Alignment">
-  <sl-button href="../toolkit/">To Learn More About These Frameworks, Please Check Out the Readings in Our Digital Toolkit</sl-button>
-</sl-button-group>
-</center>
+  <sl-button variant="primary" size="large" outline href="../toolkit/">Learn more about these frameworks in the readings in our toolkit</sl-button>
+</sl-button-group></center><br>
+-->
 
-<br><br>
+## The Toolkit
+
+The [Data Advocacy for All toolkit]({{site.baseurl}}/toolkit) is a collection of open-access educational resources for teaching data advocacy in higher educational settings. These resources have been curated by the Data Advocacy for All team in order to enhance student abilities to inquire with data, communicate with data, and deploy data for social advocacy. The toolkit includes open-access readings, assignments, activities, and other teaching resources. Learn more about the [different types of resources]({{site.basurl }})
 
 ## The CU Next Award {#CUNext}
 

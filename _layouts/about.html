@@ -37,11 +37,30 @@ layout: default
     <!-- News -->
     {% if page.news and site.announcements.enabled -%}
     <h1>
-      <a href="{{ '/news/' | relative_url }}" style="color: inherit"
-        >Public Events</a
+      <a
+        href="{{ '/news/' | relative_url }}"
+        class="header-link"
+        style="color: inherit"
+        >Events</a
       >
     </h1>
+
     {%- include news.html limit=true %} {%- endif %}
+
+    <!-- About the project-->
+    <hr />
+    <p class="text-muted">
+      <i>
+        Data Advocacy for All is a
+        <a
+          href="https://www.cu.edu/oaa/academic-innovation-programs/cu-next-award"
+          >CU Next Award Grant project</a
+        >
+        made by a team of digital rhetoric and digital humanities faculty at CU
+        Boulder and Denver in concert with CU Boulder’s Center for Research Data
+        and Digital Scholarship (CRDDS).
+      </i>
+    </p>
 
     <!-- Latest posts -->
     {% if page.latest_posts -%}

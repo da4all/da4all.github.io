@@ -104,32 +104,34 @@ table {
 }
 
 a {
-  color: #0056b3;
+  //color: #0056b3;
+  color: $link-color;
   transition: all 0.2s ease-in-out; // Smooth transition for hover effects
-  font-weight: 425;
+  font-weight: 400;
 
   &:hover {
-    color: #0056b3; // Darker on hover
+    color: $blue-color-dark; // Darker on hover
     text-decoration: none;
-    background-color: rgba(26, 117, 255, 0.08); // Light blue background
+    background-color: $link-background-hover; // Light blue background
     border-radius: 2px;
   }
 
   &:focus {
-    outline: 2px solid #0140a8; // Add an outline for accessibility
+    outline: 2px solid #01296a; // Add an outline for accessibility
     outline-offset: 2px;
     text-decoration: none;
   }
 }
 
 table.table a {
-  color: var(--global-theme-color);
-
+  //color: var(--global-theme-color);
+  color: #0056b3;
+  /*
   &:hover {
     color: var(--global-theme-color);
     text-decoration: underline;
   }
-
+  */
   &:hover:after :not(.nav-item.dropdown) {
     width: 100%;
   }
@@ -150,6 +152,14 @@ blockquote {
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   font-size: 1rem;
+}
+
+.header-link {
+  font-weight: 350;
+  &:hover {
+    background-color: transparent !important;
+    text-decoration: none;
+  }
 }
 
 // Math
@@ -1203,15 +1213,32 @@ sl-button[variant="primary"] {
 
 .help-banner {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 6px;
-  padding: 12px 12px;
+  padding: 12px;
+  width: 100%;
+  box-sizing: border-box;
   background-color: #f9fafb;
   border: 1px solid #e5e7eb;
   border-radius: 8px;
-  margin: 2px 0;
+  margin: 20px 0;
   margin-bottom: 18px;
   font-size: 0.9rem;
+  flex-wrap: wrap;
+}
+
+/* Add styles for the icon to keep it from shrinking */
+.help-banner i {
+  flex-shrink: 0;
+  margin-top: 3px; /* Align icon with first line of text */
+}
+
+/* Add media query for smaller screens */
+@media (max-width: 768px) {
+  .help-banner {
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    gap: 8px; /* Slightly increase gap for better readability */
+  }
 }
 
 // **** NEW STYLING FOR TOOLKIT ***** //
