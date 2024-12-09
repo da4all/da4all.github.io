@@ -23,4 +23,4 @@ metadata:
   license: 
   citation: "’Research Data Management and Sharing.’ 2024.
 https://libguides.brown.edu/DataManagement/notebook. Accessed 8 December 2024."
-—
+---
