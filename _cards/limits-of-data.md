@@ -7,7 +7,7 @@ domain:
 subdomain:
   - Critiquing Data
 
-sample_resource: false
+sample_resource: true
 
 title: "The Limits of Data"
 
