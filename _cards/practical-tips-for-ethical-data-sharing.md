@@ -7,7 +7,7 @@ domain:
 subdomain:
   - Storing and Preserving Data
   - Acting Ethically with Data
-sample_resource: true
+sample_resource: false
 
 title: "Practical Tips for Ethical Data Sharing"
 
