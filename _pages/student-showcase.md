@@ -14,16 +14,15 @@ nav_order: 6
 }
 
 </style>
- 
-{% assign groups = site.showcase | sort: "group_rank" | map: "group" | uniq %} 
+
+{% assign groups = site.showcase | sort: "group_rank" | map: "group" | uniq %}
 
 {% for group in groups %}
 
 ## {{ group }}
 
-	{% assign project = site.showcase | sort: "title" | where: "group", group %}
-	{% for project in project %}
-
+    {% assign project = site.showcase | sort: "title" | where: "group", group %}
+    {% for project in project %}
 
 <p>
     <div class="card {% if project.inline == false %}hoverable{% endif %}">
@@ -74,6 +73,7 @@ nav_order: 6
         </div>
 </p>
 
-	{% endfor %}
+    {% endfor %}
+
 <br>
 {% endfor %}

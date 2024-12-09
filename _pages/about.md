@@ -4,7 +4,7 @@ permalink: /about/
 title: About the Project
 description:
 nav: false
-nav_order: 
+nav_order:
 ---
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/themes/light.css" />
@@ -15,7 +15,7 @@ nav_order:
 - [Mission](#Mission)
 - [Framework](#Framework)
 - [The CU Next Award](#CUNext)
-<br><br>
+  <br><br>
 
 ## Mission {#Mission}
 
@@ -28,6 +28,11 @@ This educational project is grounded in critical data studies, data science, and
 <p style="margin-left:10%; margin-right:10%;"><i>While coding and other technical skills are important for data literacy, students must also learn how to not only critically examine data issues in the context of existing power dynamics, emerging technologies, and social practices but also rhetorically use data to tell ethical, compelling data-driven stories and participate in ongoing conversations about pressing social matters.</i></p>
 
 To help students develop such critical-rhetorical know-how, Data Advocacy for All offers a toolkit of diverse educational resources centered around three main data literacy domains: Understanding Data, Processing Data, and Persuading with Data. We welcome you to explore our toolkit to help students learn the critical, technical, and rhetorical skills needed to ethically negotiate the complex and reciprocal praxis of data advocacy in the 21st century.
+
+<center>
+<sl-button-group label="Alignment">
+  <sl-button variant="primary" size="large" outline href="../literacy-domains/">Learn more about the Literacy Domains of Data Advocacy</sl-button>
+</sl-button-group></center><br>
 
 <center>
 <sl-button-group label="Alignment">

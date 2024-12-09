@@ -81,7 +81,7 @@ span,
 strong {
   color: var(--global-text-color);
   font-family: "Montserrat";
-  font-width: 400;
+  font-weight: 300;
 }
 
 nobr {
@@ -104,17 +104,21 @@ table {
 }
 
 a {
-  /*color: #002868;*/
-  color: #0140a8;
+  color: #0056b3;
+  transition: all 0.2s ease-in-out; // Smooth transition for hover effects
+  font-weight: 425;
 
   &:hover {
-    color: #012f7a; // Darker shade on hover
-    text-decoration: underline; // Remove underline on hover
+    color: #0056b3; // Darker on hover
+    text-decoration: none;
+    background-color: rgba(26, 117, 255, 0.08); // Light blue background
+    border-radius: 2px;
   }
 
   &:focus {
     outline: 2px solid #0140a8; // Add an outline for accessibility
     outline-offset: 2px;
+    text-decoration: none;
   }
 }
 
@@ -166,6 +170,13 @@ blockquote {
 
 // Card
 
+.card-wrapper {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+}
+
 .card {
   background-color: var(--global-card-bg-color);
 
@@ -179,7 +190,7 @@ blockquote {
 
   .card-item {
     width: auto;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 
     .row {
       display: flex;
@@ -253,18 +264,36 @@ blockquote {
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
-  font-width: 600;
+
+  // Direct link styles for the navigation menu
+  a,
+  .nav-link {
+    color: var(--global-text-color) !important;
+    font-weight: 350 !important;
+    background-image: none !important;
+    background-color: none !important;
+    text-decoration: none !important;
+    transition: color 0.2s ease-in-out;
+
+    &:hover {
+      color: #bf0a30 !important;
+      background-color: var(--global-bg-color) !important;
+      text-decoration: none !important;
+    }
+
+    &:focus {
+      outline: none !important;
+    }
+  }
 }
 
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
   border: 1px solid var(--global-divider-color);
-  font-width: 600;
 
   a:not(.active) {
     color: var(--global-text-color);
   }
-
   a:hover {
     color: #bf0a30;
   }
@@ -285,6 +314,9 @@ blockquote {
 
 .navbar.navbar-light {
   a {
+    color: var(--global-text-color);
+    text-decoration: none;
+
     &:hover {
       text-decoration: none;
     }
