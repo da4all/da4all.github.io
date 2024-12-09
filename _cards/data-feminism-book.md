@@ -4,7 +4,7 @@ inline: false
 resource: Reading
 domain: Understanding Data
 subdomain: Critiquing Data
-sample_resource: true
+sample_resource: false
 
 title: "Data Feminism"
 
