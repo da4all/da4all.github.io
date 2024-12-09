@@ -22,6 +22,6 @@ metadata:
   author: "University of Chicago Library"
   date: 2024-08-27
   license: 
-  citation: "’Research Data Management and Sharing.’ 2024.
+  citation: "University of Chicago Library. ’Research Data Management and Sharing.’ 2024.
 https://guides.lib.uchicago.edu/datamanagement. Accessed 8 December 2024."
 ---
