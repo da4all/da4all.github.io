@@ -4,6 +4,7 @@ inline: false
 resource: Assignment
 domain: Processing Data
 subdomain: Analyzing Data
+sample_resource: true
 
 title: "Exploring Data"
 
