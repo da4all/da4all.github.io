@@ -21,6 +21,6 @@ metadata:
   author: "UIC Library"
   date: 2023
   license: 
-  citation: "’Introduction to Data Management Best Practices for Research.’ 2023.
+  citation: "UIC Library. ’Introduction to Data Management Best Practices for Research.’ 2023.
 https://youtu.be/shqEmRbSPek?si=6QYR7wzcxnT9-eSB. Accessed 8 December 2024."
 ---
