@@ -4,7 +4,7 @@ inline: false
 resource: Assignment
 domain: Understanding Data
 subdomain: Defining Data
-sample_resource: true
+sample_resource: false
 
 title: "Formal Critical Reflection: Defining Data and Doing Data Advocacy"
 
