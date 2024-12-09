@@ -7,7 +7,7 @@ domain:
   - Acting Ethically with Data
 subdomain:
   - Storing and Preserving Data
-sample_resource: false
+sample_resource: true
 
 title: "The CARE Principles for Indigenous Data Governance"
 
