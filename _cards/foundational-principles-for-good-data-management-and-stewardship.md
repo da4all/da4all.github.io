@@ -6,7 +6,7 @@ domain:
   - Processing Data
 subdomain:
   - Storing and Preserving Data
-sample_resource: true
+sample_resource: false
 
 title: "FAIR: Foundational Principles for Good Data Management and Stewardship"
 
