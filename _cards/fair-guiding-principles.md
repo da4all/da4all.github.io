@@ -28,4 +28,4 @@ metadata:
   citation: "Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. ‘The FAIR Guiding Principles for Scientific Data Management and Stewardship.’ Scientific Data 3 (2016). https://doi.org/10.1038/sdata.2016.18"
 ---
 
-Page content goes here
+
