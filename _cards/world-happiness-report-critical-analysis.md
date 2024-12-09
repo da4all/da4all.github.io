@@ -7,7 +7,7 @@ domain:
 subdomain:
   - Analyzing Data
 
-sample_resource: false
+sample_resource: true
 
 title: "Critically Analyzing the World Happiness Report"
 
