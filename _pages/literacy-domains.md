@@ -18,12 +18,13 @@ In the context of data the Data Advocacy for All project, **Data Literacy** is u
 
 As so organized, these literacy domains are presented as distinct and linear. But we envision these domains as **overlapping and reciprocal**. When we create maps with data, we are often telling stories. When we tell stories with data, we are often thinking rhetorically and using persuasive devices. However, for the sake of organization, we have separated out these domains so that you, as teachers, can think about each of these domains more deeply and find relevant resources as needed:
 
+<div style="margin-top: 25px;">
 <center>
-<sl-button-group label="Alignment" style="transform: scale(1.12); margin: 30px 0;">
-  <sl-button variant="primary" size="large" outline href="../understanding-data/"><i class="fas fa-brain"></i> Understanding Data</sl-button>
-  <sl-button variant="primary" size="large" outline href="../processing-data/"><i class="fas fa-cogs"></i> Processing Data</sl-button>
-  <sl-button variant="primary" size="large" outline href="../persuading-with-data/"><i class="fas fa-chart-line"></i> Persuading with Data</sl-button>
-</sl-button-group></center>
+<sl-button variant="primary" size="large" outline href="../understanding-data/"><i class="fas fa-brain"></i> Understanding Data</sl-button>
+<sl-button variant="primary" size="large" outline href="../processing-data/"><i class="fas fa-cogs"></i> Processing Data</sl-button>
+<sl-button variant="primary" size="large" outline href="../persuading-with-data/"><i class="fas fa-chart-line"></i> Persuading with Data</sl-button>
+</center>
+</div>
 
 <!-- Old card system with descriptions of domains
 <div class="card-wrapper" onclick="window.location='{{ site.baseurl }}/understanding-data/';" style="cursor: pointer;">
