@@ -4,7 +4,7 @@ inline: false
 resource: Term
 domain: Understanding Data
 subdomain: Advocating with Data
-sample_resource: true
+sample_resource: false
 
 title: Data Advocacy
 
