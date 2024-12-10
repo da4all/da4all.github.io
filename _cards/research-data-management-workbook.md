@@ -1,7 +1,7 @@
 ---
 layout: card
 inline: false
-resource: Tutorial
+resource: Reading
 domain:
   - Processing Data
 subdomain:
