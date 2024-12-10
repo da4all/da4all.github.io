@@ -7,7 +7,7 @@ domain:
 subdomain:
   - Collecting Data
   - Preparing Data
-sample_resource: false
+sample_resource: true
 
 title: "Classifying Household Goods"
 
