@@ -26,3 +26,4 @@ metadata:
   license:
   citation: "Driven Data. ‘Deon-Ethics-Checklist-for-Data-Scientists.’ Data Ethics Repository. https://dataethicsrepository.iaa.ncsu.edu/2023/04/18/data-science-ethics-checklist/. Accessed on 15 July 2024."
 ---
+Click [here](https://deon.drivendata.org/) to access the checklist.
