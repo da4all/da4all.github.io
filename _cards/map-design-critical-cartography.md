@@ -3,17 +3,15 @@ layout: card
 inline: false
 resource: Lesson Plan
 domain:
-  - Understanding Data
-  - Processing Data
   - Persuading with Data
 subdomain:
   - Mapping Data
-sample_resource: false
+sample_resource: true
 
 title: "Map Design and Critical Cartography"
 
 teaser: >
-  This lesson introduces students to map design as an aspect of visual rhetoric, and will also explore critical approaches to cartography. It explores how map design choices can shape the meaning a viewer derives from a map, as well as a map’s persuasive power and visual appeal. It also introduces the idea of maps as social and political technologies that can be used as agents of control or domination, before exploring ways in which they might be reconfigured as tools of emancipation or social change.    
+  This lesson plan introduces students to map design as a practice of visual rhetoric and critical cartography. Students comes to learn that while maps function as social and political technologies that can be used as agents of control or domination, maps can also be reconfigured as tools of emancipation or social change.    
 
 keywords:
   - "Cartography"
@@ -23,11 +21,14 @@ keywords:
 
 metadata:
   source: 
-  author: "Ranganath, Aditya"
+  author: "Aditya Ranganath"
   date: "2024-07-16"
-  license: 
-  citation: 
+  license: CC BY-NC-SA
+  citation: Ranganath, Aditya. 2024.'Map Design and Critical Cartography.' Data Advocacy for All, University of Colorado Boulder. 
 ---
+# Overview
+
+This lesson introduces students to map design as a practice of visual rhetoric and critical cartography. It enables students to learn how map design choices can shape the meaning a viewer derives from a map, as well as a map’s persuasive power and visual appeal. It also introduces the idea of maps as social and political technologies that can be used as agents of control or domination while also exploring ways in which they might be reconfigured as tools of emancipation or social change.  
 
 # Learning Goals
 
