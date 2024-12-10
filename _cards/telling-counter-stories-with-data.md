@@ -6,7 +6,7 @@ domain:
   - Persuading with Data
 subdomain:
   - Telling Stories with Data
-sample_resource: false
+sample_resource: true
 
 title: "Telling Counter-Stories with Data"
 
