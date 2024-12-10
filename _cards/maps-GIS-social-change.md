@@ -3,7 +3,6 @@ layout: card
 inline: false
 resource: Reading 
 domain:
-  - Understanding Data
   - Persuading with Data
 subdomain:
   - Mapping Data

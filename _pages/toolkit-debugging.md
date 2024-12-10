@@ -9,21 +9,37 @@ nav_order: 5
 
 <!-- Card File Validation -->
 <div style="background: #fff3e6; padding: 20px; margin: 20px 0; border-radius: 8px;">
-  <h4>Card File Validation:</h4>
-
-{% assign processed_files = site.cards | map: "path" %}
-{% assign all_files = site.static_files | where_exp: "file", "file.path contains '/_cards/'" %}
-
-  <h5>Files in _cards folder not being processed:</h5>
+  <h4>Card Collection Analysis:</h4>
+  
+  <h5>Resource Type Analysis:</h5>
   <ul>
-  {% for file in all_files %}
-    {% unless processed_files contains file.path %}
-      <li style="color: #d73a49;">{{ file.path }} - Not being processed</li>
+  {% assign valid_resources = "Term,Reading,Assignment,Activity,Tutorial,Lesson Plan,Example Project,Slides" | split: "," %}
+  {% for card in site.cards %}
+    {% unless valid_resources contains card.resource %}
+      <li style="color: #d73a49;">
+        <strong>{{ card.path }}</strong> - Invalid resource type: "{{ card.resource }}"
+      </li>
     {% endunless %}
   {% endfor %}
   </ul>
 
-  <h5>Processed Card Files with Issues:</h5>
+  <h5>Collection Debug Information:</h5>
+  <ul>
+    <li>Collection directory: {{ site.collections.cards.directory }}</li>
+    <li>Collection files (site.cards): {{ site.cards | size }}</li>
+    <li>Collection label: {{ site.collections.cards.label }}</li>
+    <li>Collection relative directory: {{ site.collections.cards.relative_directory }}</li>
+  </ul>
+
+  <h5>Files By Domain:</h5>
+  {% assign all_domains = site.cards | map: "domain" | uniq | compact %}
+  <ul>
+  {% for domain in all_domains %}
+    <li>{{ domain }}: {{ site.cards | where: "domain", domain | size }} files</li>
+  {% endfor %}
+  </ul>
+
+  <h5>Processed Card Files Analysis:</h5>
   <ul>
   {% for card in site.cards %}
     {% assign has_issues = false %}
@@ -59,24 +75,25 @@ nav_order: 5
       {% assign issues = issues | push: "Missing subdomain" %}
     {% endunless %}
     
-    {% if has_issues %}
-      <li style="color: #d73a49;">
-        <strong>{{ card.path }}</strong><br>
-        Issues found:
+    <li style="{% if has_issues %}color: #d73a49;{% endif %}">
+      <strong>{{ card.path }}</strong>
+      {% if has_issues %}
+        <br>Issues found:
         <ul>
           {% for issue in issues %}
             <li>{{ issue }}</li>
           {% endfor %}
         </ul>
-      </li>
-    {% endif %}
+      {% else %}
+        - Valid card
+      {% endif %}
+    </li>
   {% endfor %}
   </ul>
 
-  <h5>Summary Counts:</h5>
-  <ul>
-    <li>Total files in _cards folder: {{ all_files | size }}</li>
-    <li>Files being processed by Jekyll: {{ site.cards | size }}</li>
-    <li>Files not being processed: {{ all_files | size | minus: site.cards | size }}</li>
-  </ul>
+  <h5>Raw Collection Data:</h5>
+  <pre style="background: #f6f8fa; padding: 10px; border-radius: 4px; overflow-x: auto;">
+    Collection Files Count: {{ site.cards | size }}
+    Valid Cards Count: {{ site.cards | where: "layout", "card" | size }}
+  </pre>
 </div>

@@ -8,7 +8,7 @@ subdomain:
   - Storing and Preserving Data
 sample_resource: false
 
-title: "Data Management and Sharing"
+title: "Data Management"
 
 teaser: >
   Data management is a general term for describing the actions taken to plan, acquire, store, process, analyze, preserve, share, find, and reuse data.
