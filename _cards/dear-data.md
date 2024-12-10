@@ -11,7 +11,7 @@ sample_resource: true
 title: "Dear Data"
 
 teaser: >
-  This assignment, which is inspired by Giorgia Lupi and Stefanie Posavec’s project <i>Dear Data.</i> challenges students to collect data from their daily lives and to reflect critically on the data collection practice.
+  This assignment, which is inspired by Giorgia Lupi and Stefanie Posavec’s project <i>Dear Data</i>, challenges students to collect data from their daily lives and to reflect critically on the data collection practice.
 
 metadata:
   source:
