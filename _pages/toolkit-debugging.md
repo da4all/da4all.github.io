@@ -7,161 +7,27 @@ nav: true
 nav_order: 5
 ---
 
-Welcome to the Data Advocacy for All Toolkit! This is a curated collection of teaching resources designed to support data advocacy, including readings, assignments, lesson plans, and more. Use the buttons below to filter resources by their <code>Resource Type</code> and <code style="background-color: rgba(0, 54, 159, 0.1); color: #00369f; padding: 2px 4px; border-radius: 4px;">Literacy Domain/Subdomain</code>, or search for specific topics or keywords across the resources.
-
 <!-- Debug section -->
-<script>
-const fileList = air-pollution-and-public-health-in-south-bronx.md
-amcha-initiative.md
-analysis-of-fish-pharm-visualization.md
-analysis-of-roosevelt-reelection-flyer.md
-attending-to-the-cultures-of-data-science-work.md
-black-health-in-america.md
-care-principles-for-indigenous-data-governance.md
-caregiving-is-real-work.md
-chai-importance-of-data-cleaning.md
-classifying-household-goods.md
-collect-analyze-imagine-teach.md
-collecting-thick-data.md
-correlation-crump-reading-and-guidelines-for-discussion.md
-create-an-original-data-visualization.md
-creating-digital-research-notebooks.md
-critical-data-studies.md
-critique-an-infographic.md
-data-advocacy-op-ed.md
-data-advocacy-projects-addressing-gun-violence.md
-data-advocacy.md
-data-and-indigenous-knowledge.md
-data-biography.md
-data-cleaning.md
-data-ethics-society.md
-data-ethics-unveiled.md
-data-ethics.md
-data-feminism-book.md
-data-feminism.md
-data-governance.md
-data-harm-record.md
-data-harms.md
-data-justice.md
-data-management-and-sharing.md
-data-management-tutorials.md
-data-registry.md
-data-repository.md
-data-sharing-and-management-snafu-in-3-short-acts.md
-data-sovereignty.md
-data-stewardship.md
-data-storytelling-effectively-tell-a-story-with-data.md
-data-storytelling-presentation-assignment.md
-data.md
-dataset-documentation-assignment.md
-dear-data.md
-deconstructing-a-published-map.md
-demonstrating-causation-slide-deck.md
-deon-data-ethics-checklist-for-data-scientists.md
-elite-institution-cognitive-disorder.md
-ethics-of-managing-people's-data.md
-evaluating-statistical-claims-slide-deck.md
-exploring-data.md
-exploring-distributions-and-central-tendency.md
-exploring-distributions-and-measures-of-variation.md
-fair-guiding-principles.md
-fair-principles.md
-fbi-2021-hate-crimes-dataset-basic-analysis.md
-formal-critical-reflection-defining-data.md
-foundational-principles-for-good-data-management-and-stewardship.md
-framing-statistics-slide-deck.md
-from-data-visualizations-to-data-stories.md
-game-based-research-data-management-training.md
-gapminder-world-health-chart.md
-getting-started-with-data-for-advocacy-slide-deck.md
-guide-to-choosing-a-digital-repository.md
-guide-to-social-science-data-preparation-and-archiving.md
-history-of-data-as-rhetoric.md
-how-to-create-a-data-visualization-slide-deck.md
-improve-it-and-prove-it.md
-individual-data-advocacy-project.md
-interview-with-catherine-dignazio.md
-introduction-to-data-data-harms-and-data-advocacy.md
-introduction-to-data-ethics.md
-introduction-to-data-management-best-practices-for-research.md
-introduction-to-data-visualization-videos.md
-limits-of-data.md
-managing-and-sharing-data.md
-many-ways-to-write-a-statistic.md
-map-design-critical-cartography.md
-mapping-broadband-health-in-america.md
-mapping-police-violence.md
-mapping-technology-society.md
-maps-GIS-social-change.md
-maps-as-advocacy-slide-deck.md
-maps-health-advocacy.md
-of-oaths-and-checklists.md
-philadelphia-african-american-consensus-1847.md
-police-stops-mapping-exercise.md
-practical-tips-for-ethical-data-sharing.md
-primer-for-researchers-on-how-to-manage-data.md
-principles-for-advancing-equitable-data-practice.md
-raw-data-is-an-oxymoron.md
-research-data-management-and-sharing.md
-research-data-management-workbook.md
-rhetorical-analysis-of-data-advocacy-projects.md
-rhetorical-data-studies-approach.md
-rhetorical-data-studies.md
-rhetorical-numbers.md
-seven-principles-of-data-feminism.md
-shafer-and-zhang-introductory-statistics-basic-definitions.md
-six-steps-to-decolonizing-data.md
-snopes-fact-checking-article-assignment-sequence.md
-sovereign-bodies-institute.md
-splc-hate-map.md
-strangers-in-the-dataset.md
-strategies-for-analyzing-and-composing-data-stories.md
-student-debt-mapping-exercise.md
-swastika-counter-project.md
-telling-counter-stories-with-data.md
-the-point-of-collection.md
-thick-data-slide-deck.md
-thick-data-vs-big-data.md
-three-creative-ways-to-fix-fashion's-waste-problem.md
-to-visualize-or-not-slide-deck.md
-truth-about-human-population-decline.md
-virulent-hate-project.md
-what-does-critical-data-studies-look-like-and-why-do-we-care.md
-what-gets-counted-counts.md
-what-is-a-digital-registry.md
-what-is-data-an-activity.md
-what-is-data-defintions-and-examples.md
-what-is-data-governance-and-why-does-it-matter.md
-what-is-data-slidedeck.md
-what-where-and-how-of-data.md
-why-big-data-needs-thick-data.md
-world-happiness-report-2023.md
-world-happiness-report-critical-analysis.md
-write-your-own-data-advocacy-values-statement.md`.split('\n');
+## debugging
 
-console.log("Total number of files:", fileList.length);
+Debugging results:
 
-// Look for potential problem files (very short names or unusual patterns)
-const suspiciousFiles = fileList.filter(file => {
-    return file.length < 10 || // Very short names
-           file === 'data.md' || // Single word names
-           !file.includes('-'); // Files without hyphens
-});
-
-console.log("\nPotential problem files:");
-suspiciousFiles.forEach(file => console.log(file));
-
-</script>
-
+<div style="background-color: #eee; padding: 15px; margin: 15px 0;">
+<h4>Debug Information:</h4>
+Total files in collection: {{ site.cards | size }}
+<br><br>
+All files being processed:
+<ul>
+{% for card in site.cards %}
+  <li>{{ card.path }}</li>
+{% endfor %}
+</ul>
+</div>
 <!--
 <blockquote class="block-warning">
 <p><i class="fa-regular fa-circle-question"></i>New to the toolkit? Learn about our <b><a href="../resource-types/">types of resources</a></b> and <b><a href="../literacy-domains/">literacy domains & subdomains</a></b>.</p>
 </blockquote>
 -->
-
-<div class="help-banner" style="justify-content: center">
-  <i class="fa-regular fa-circle-question"></i> New to the toolkit? Learn more about our different <a href="../resource-types/">types of resources</a> and <a href="../literacy-domains/">literacy domains</a> of data advocacy.
-</div>
 
 <!-- Resource Type Filter Section -->
 
