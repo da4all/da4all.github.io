@@ -107,7 +107,7 @@ a {
   //color: #0056b3;
   color: $link-color;
   transition: all 0.2s ease-in-out; // Smooth transition for hover effects
-  font-weight: 400;
+  font-weight: 500;
 
   &:hover {
     color: $blue-color-dark; // Darker on hover
@@ -243,7 +243,7 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 25%;
 
     .address {
       p {
@@ -255,7 +255,7 @@ blockquote {
 
 .post-description {
   margin-bottom: 2rem;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
 
   a {
     color: inherit;

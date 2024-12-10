@@ -16,19 +16,16 @@ In the context of data the Data Advocacy for All project, **Data Literacy** is u
 
 <div style="background-color: #e5eeff; margin-left:10px; margin-top:10px; margin-right:10px;"><p style="font-size: 14px; padding: 20px;"><strong>Figure 1.</strong> This graphic showcases how all of the literacy domains of data advocacy are interrelated, including each of the three primary domains in navy—Understanding Data, Processing Data, and Persuading with Data—as well as the subdomains beneath each one in red.</p></div>
 
-As so organized, these literacy domains are presented as distinct and linear. But we envision these domains as **overlapping and reciprocal**. When we create maps with data, we are often telling stories. When we tell stories with data, we are often thinking rhetorically and using persuasive devices. However, for the sake of organization, we have separated out these domains so that you, as teachers, can think about each of these domains more deeply and find relevant resources as needed.
-
----
-
-Please click on any of the literacy domains below to learn more about each domain and discover valuable resources to help hone students’ abilities to work with data in their various subdomains:
+As so organized, these literacy domains are presented as distinct and linear. But we envision these domains as **overlapping and reciprocal**. When we create maps with data, we are often telling stories. When we tell stories with data, we are often thinking rhetorically and using persuasive devices. However, for the sake of organization, we have separated out these domains so that you, as teachers, can think about each of these domains more deeply and find relevant resources as needed:
 
 <center>
-<sl-button-group label="Alignment">
+<sl-button-group label="Alignment" style="transform: scale(1.12); margin: 30px 0;">
   <sl-button variant="primary" size="large" outline href="../understanding-data/"><i class="fas fa-brain"></i> Understanding Data</sl-button>
   <sl-button variant="primary" size="large" outline href="../processing-data/"><i class="fas fa-cogs"></i> Processing Data</sl-button>
   <sl-button variant="primary" size="large" outline href="../persuading-with-data/"><i class="fas fa-chart-line"></i> Persuading with Data</sl-button>
-</sl-button-group></center><br>
+</sl-button-group></center>
 
+<!-- Old card system with descriptions of domains
 <div class="card-wrapper" onclick="window.location='{{ site.baseurl }}/understanding-data/';" style="cursor: pointer;">
   <div class="card hoverable">
     <div class="card-body">
@@ -63,3 +60,5 @@ Please click on any of the literacy domains below to learn more about each domai
     </div>
   </div>
 </div>
+
+-->

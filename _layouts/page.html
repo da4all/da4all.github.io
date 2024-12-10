@@ -1,41 +1,43 @@
 ---
 layout: default
 ---
+
 <!-- page.html -->
 
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Shoelace CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/themes/light.css"
+    />
+    <!-- Shoelace JS -->
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/shoelace.js"
+    ></script>
+  </head>
 
-<head>
-  <!-- Shoelace CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/themes/light.css" />
-  <!-- Shoelace JS -->
-  <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/shoelace.js"></script>
-</head>
+  <body>
+    <div class="post">
+      <header class="post-header">
+        <!-- not adding main page title to table of contents toc-->
+        <h1 data-toc-skip class="post-title">{{ page.title }}</h1>
+        <p class="post-description">{{ page.description }}</p>
+      </header>
 
-<body>
+      <article>{{ content }}</article>
 
-        <div class="post">
-
-          <header class="post-header">
-            <h1 class="post-title">{{ page.title }}</h1>
-            <p class="post-description">{{ page.description }}</p>
-          </header>
-
-          <article>
-            {{ content }}
-          </article>
-
-          {%- if page.related_publications != null and page.related_publications.size > 0 -%}
-          {% assign publications = page.related_publications | replace: ", ", "," | split: "," | join: "|" %}
-          <h2>References</h2>
-          <div class="publications">
-            {% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}
-          </div>
-          {%- endif %}
-
-        </div>
-
-</body>
-
-        </html>
+      {%- if page.related_publications != null and
+      page.related_publications.size > 0 -%} {% assign publications =
+      page.related_publications | replace: ", ", "," | split: "," | join: "|" %}
+      <h2>References</h2>
+      <div class="publications">
+        {% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{
+        publications }}]* %}
+      </div>
+      {%- endif %}
+    </div>
+  </body>
+</html>

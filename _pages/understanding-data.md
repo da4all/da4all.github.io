@@ -11,7 +11,7 @@ toc:
   sidebar: left
 ---
 
-## Overview
+# Overview
 
 “Understanding data” is a crucial literacy domain for helping students develop the critical, ethical, and rhetorical impulses needed to define data; understand its complicated relations to power, privilege, oppression, and liberation; and imagine ethical and responsible ways of working and advocating with data toward more just futures.
 
