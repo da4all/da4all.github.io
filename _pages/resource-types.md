@@ -20,9 +20,9 @@ The [Data Advocacy For All Toolkit]({{site.baseurl}}/toolkit) is a curated colle
     {% when 'Assignment' %}
     Formal work that gives students opportunity to learn, practice, and reflect on their experiences with data advocacy. These assignments can also be used to assess student learning in relation to each data literacy domain and subdomain.
     {% when 'Activity' %}
-    Open-access lessons developed by the Data Advocacy for All team, varying in length and scope, that can be implemented in the classroom to help students hone their abilities to work with data in several literacy domains and subdomains.
+    Open-access lessons developed by the Data Advocacy for All team and other authors. Activities vary in length and scope, that can be implemented in the classroom to help students hone their abilities to work with data in several literacy domains and subdomains.
     {% when 'Tutorial' %}
-    Step-by-step instructions for using various open-access digital tools to work with data. All tutorials rely on minimal computing, so no previous computer experience is required.
+    Step-by-step instructions for using various open-access digital tools to work with data. Most tutorials rely on minimal computing, so no previous computer experience is required.
     {% when 'Lesson Plan' %}
     A structured collection of resources to help students gain experience with a particular subdomain. This may include readings, glossary, activities, tutorials, etc.
     {% when 'Example Project' %}
