@@ -22,6 +22,6 @@ metadata:
   author: "Veerle Van den Eynden, Louise Corti, Matthew Woollard, Libby Bishop and Laurence Horton."
   date: “2011-03-16”
   license: "CC BY-NC-SA"
-  citation: "Van den Eynden, Veerle, Louise Corti, Matthew Woollard, Libby Bishop and Laurence Horton. 2011. ‘Managing and Sharing Data: Best Practices for Researchers.’ UK Data Archive..
+  citation: "Van den Eynden, Veerle, Louise Corti, Matthew Woollard, Libby Bishop and Laurence Horton. 2011. ‘Managing and Sharing Data: Best Practices for Researchers.’ UK Data Archive.
 https://dam.ukdataservice.ac.uk/media/622417/managingsharing.pdf. Accessed 8 December 2024."
 ---
