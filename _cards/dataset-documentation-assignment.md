@@ -8,12 +8,12 @@ domain:
 subdomain:
   - Critiquing Data
 
-sample_resource: false
+sample_resource: true
 
 title: "Dataset Documentation Assignment"
 
 teaser: >
-  This assignment sequence lays out a drafted and workshopped major writing assignment designed for an upper-division undergraduate technical writing course and intended to take 1.5-2 weeks of the course to complete.
+  This assignment asks students to find a dataset to document and then leads them through a multi-step process of critical engagement with that dataset. The ultimate product is a set of documentation that is not merely technical but also critical and deeply contextual
 
 keywords:
   - "Data Documentation"
