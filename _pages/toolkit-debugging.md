@@ -3,7 +3,7 @@ layout: page
 permalink: /toolkit-debugging/
 title: Toolkit Debugging
 description:
-nav: true
+nav: false
 nav_order: 5
 ---
 
