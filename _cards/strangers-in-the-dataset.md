@@ -11,7 +11,7 @@ sample_resource: true
 title: "Strangers in the Dataset"
 
 teaser: >
-  This section from chapter five of D’Ignazio and Klein’s *Data Feminism* takes a critical look at the metaphor of “cleaning” data, assesses the implications of thinking about data in this way, and challenges readers to think more deeply about the assumptions that guide data the data gathering and preparation process. 
+  This section from chapter five of D’Ignazio and Klein’s <i>Data Feminism</i> takes a critical look at the metaphor of “cleaning” data, assesses the implications of thinking about data in this way, and challenges readers to think more deeply about the assumptions that guide data the data gathering and preparation process. 
 
 keywords:
   - "data analysis"
