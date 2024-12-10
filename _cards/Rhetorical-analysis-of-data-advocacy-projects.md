@@ -27,19 +27,20 @@ metadata:
   citation: "Gries, Laurie. 2022. ‘Rhetorical Analysis of Data Advocacy Projects.’ Data Advocacy for All, University of Colorado Boulder."
 ---
 
-##Assignment: Rhetorical Analysis of Data Advocacy Projects
+**Assignment: Rhetorical Analysis of Data Advocacy Projects**
 
 **Overview**
 This assignment helps students develop a rhetorical eye toward data advocacy projects in order to better understand not only how data advocacy projects are created but also by whom, for whom, and for what purpose.
 
 **Prerequisites:**
-	Students should have read and discussed: A Rhetorical Data Studies Approach to Data Advocacy © 2024. Laurie Gries. CC BY-NC-ND 4.0. (Available in the DA4All Toolkit).
+Students should have read and discussed: A Rhetorical Data Studies Approach to Data Advocacy © 2024. Laurie Gries. CC BY-NC-ND 4.0. (Available in the DA4All Toolkit).
 
 **Learning Goals:**
 Recognize different genres of data advocacy
 Hone ability to rhetorically analyze data advocacy projects in order to better understand how to do data advocacy
 Identify different ethical challenges and skillsets for doing data advocacy
-Data Advocacy Projects for Analysis
+
+**Data Advocacy Projects for Analysis**
 Content Warning: These projects all relate to gun violence. You may wish to offer a content warning to students. You may also choose a set of different advocacy projects to work with for this activity if you think this content may be too disturbing and emotionally laden for your students.
 
 https://www.sandyhookpromise.org/
@@ -63,8 +64,7 @@ PROBLEM: What specific and pressing community problem(s) does the author/organiz
 AUDIENCE OF STRATEGIC ACTORS: Who are the strategic actors the author/organization is writing to and why? HINT: You can identify these actors by considering where the piece was published, looking within the text to see who the author/organization is directly or indirectly speaking to, and considering the objectives they are going for. 
 ACTIONS/OBJECTIVES: What are the specific actions the author/organization is advocating for? What does the author/organization want the strategic actors to do? What changes does the author/organization want for the community? Are these reasonable? Why or why not? What are the most ideal outcomes the author/organization envisions to address the problem at hand?
 
-
-**PART 2: RHETORICAL CHOICES**
+**PART 2: Rhetorical Choices**
 GENRE: What is the main genre that this data advocacy project is structured in? Website, op-ed, feature article, etc.? What data advocacy genres do you notice at work in this project? Stories, Maps, Visualizations, Reports, Article, etc. 
 ARGUMENTS AND APPEALS: What kind of logical, emotional, and ethical appeals are being made in this data advocacy work? Which appeals are most often used, why, and to what effect?
 NUMERICAL DATA What kind of numerical data is presented? Where do you imagine the author got this data? Does the data appear to be presented in ethical and just ways? What specific moves made within the text account for your answer?
