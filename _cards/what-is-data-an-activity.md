@@ -6,7 +6,7 @@ domain:
   - Understanding Data
 subdomain:
   - Defining Data
-sample_resource: true
+sample_resource: false
 
 title: "What is Data?: An Activity"
 
