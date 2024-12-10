@@ -36,11 +36,19 @@ Resources for this literacy domain offers students opportunities to explore what
 
 {% assign cards = site.cards | where: "sample_resource", true | where: "subdomain", "Defining Data" | sort: "title" %}
 
+<div class="card-list">
+    {%- for card in cards -%}
+        {% include sample-cards.html %}
+    {%- endfor %}
+</div>
+
+<!--
 <div class="grid-container">
     {%- for card in cards -%}
         {% include sample-cards.html %}
     {%- endfor %}
 </div>
+-->
 
 <div class ="projects">
   <h1 class="category">Critiquing Data</h1>
