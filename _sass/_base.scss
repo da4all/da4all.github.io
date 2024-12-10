@@ -1191,10 +1191,15 @@ blockquote {
     padding-top: 0.5rem;
   }
 }
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px; /* adjust this for your desired spacing between cards */
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 // Customize the primary variant of Shoelace buttons
