@@ -6,6 +6,7 @@ domain:
   - Processing Data
 subdomain:
   - Collecting Data
+sample_resource: true
 
 title: "Data Biography"
 
