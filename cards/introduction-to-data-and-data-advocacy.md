@@ -20,7 +20,7 @@ keywords:
   - "Data Ethics"
 
 metadata:
-  Source: "
+  Source: 
   author: Laurie Gries
   date: “2023”
   license: "CC BY-NC-SA"
