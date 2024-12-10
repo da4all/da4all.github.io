@@ -16,6 +16,7 @@ teaser: >
 
 keywords:
   - “Data Management”
+  - “Data Lifecycle”
 
 metadata:
   Source: "https://caltechlibrary.github.io/RDMworkbook/"
