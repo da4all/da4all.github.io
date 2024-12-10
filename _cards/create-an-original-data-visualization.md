@@ -7,12 +7,12 @@ domain:
 subdomain:
   - Visualizing Data
 
-sample_resource: false
+sample_resource: true
 
 title: "Create an Original Data Visualization (assignment sequence)"
 
 teaser: >
-  This assignment sequence asks students to sketch, draft, workshop, and revise an original data visualization using data they find themselves online. It is designed to form part of the Individual Data Advocacy Project assignment sequence uploaded separately on this website, but could be adapted as a standalone assignment. It is designed for use with the How to Create a Data Visualization slide deck.
+  This assignment sequence asks students to sketch, draft, workshop, and revise an original data visualization using data they find themselves online. 
 
 keywords:
   - "Rhetoric of Data Visualization"
