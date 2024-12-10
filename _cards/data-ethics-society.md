@@ -11,7 +11,7 @@ sample_resource: true
 title: "Data, Ethics, and Society"
 
 teaser: >
-   This section of the open access book,  Making Sense of Digital Humanities, offers a variety of readings that discuss ethical concerns related to data, technology, and communities. Themes include but are not limited to: data and race, data and discrimination, algorithms and oppression, and coded biases. 
+   This section of the open access book, <i>Making Sense of Digital Humanities</i>, offers a variety of readings that discuss ethical concerns related to data, technology, and communities. Themes include but are not limited to: data and race, data and discrimination, algorithms and oppression, and coded biases. 
 
 keywords:
   - "Data Ethics"
