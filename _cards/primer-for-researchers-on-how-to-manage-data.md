@@ -19,9 +19,9 @@ keywords:
 
 metadata:
   Source: "https://www.icpsr.umich.edu/files/deposit/dataprep.pdf"
-  author: "Arteaga Cuevas, Maria; Taylor, Shawna; and Narlock, Mikala"
-  date: “2020-01”
+  author: "Maria Arteaga Cuevas,Shawna Taylor, and Mikala Narlock"
+  date: “2023”
   license: 
-  citation: "Arteaga Cuevas, Maria; Taylor, Shawna; and Narlock, Mikala. (2023). ‘Primer for Researchers on How to Manage Data.’ Data Curation Network GitHub Repository.
+  citation: "Cuevas, Maria Arteaga, Shawna Taylor, and Mikala Narlock. 2023. ‘Primer for Researchers on How to Manage Data.’ Data Curation Network GitHub Repository.
 https://conservancy.umn.edu/server/api/core/bitstreams/1736fa6b-1d82-45aa-a492-f4965733ccdc/content. Accessed 8 December 2024."
 ---
