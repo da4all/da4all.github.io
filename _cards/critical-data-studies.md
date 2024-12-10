@@ -9,7 +9,7 @@ sample_resource: true
 title: "Critical Data Studies: An Introduction"
 
 teaser: >
-  In this scholarly essay, the authors identify the relations between data and power, explain why Big Data should be always be considered as already constituted within wider data assemblages, and briefly describe the framework of Critical Data Studies, its orientations, and principles.
+  In this scholarly essay, the authors identify the relations between data and power and, among other things, briefly describe the framework of Critical Data Studies, its orientations, and principles.
 
 keywords:
   - data as power
