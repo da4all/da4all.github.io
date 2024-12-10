@@ -9,7 +9,7 @@ sample_resource: true
 title: "Exploring Data"
 
 teaser: >
- This assignment challenges students to examine, explore, and think critically about a dataset. In crtically analyzing a subset of the 2019 American Community Survey, performed by the United States Census Bureau, students come to learn how counting the US population is inherently messy, and implicitly (and sometimes explicitly) caught up in questions of power. 
+ This assignment challenges students to examine, explore, and think critically about a dataset. In crtically analyzing a subset of the 2019 American Community Survey performed by the United States Census Bureau, students come to learn how counting the US population is inherently messy, and implicitly (and sometimes explicitly) caught up in questions of power. 
  
 
 metadata:
