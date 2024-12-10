@@ -4,11 +4,12 @@ inline: false
 resource: Assignment
 domain: Persuading with Data
 subdomain: Mapping Data
+sample_resource: true
 
 title: "Deconstructing a Published Map"
 
 teaser: >
-  This assignment will invite students to find a map that represents information about a social issue that they are interested in, deconstruct how that map “works” from a rhetorical and data-advocacy perspective, and explore how it might be used as part of a broader data-based advocacy campaign. The assignment will include a class presentation and short paper, and will prepare students to incorporate their own original maps into data-based advocacy campaigns they may organize in the future.
+  This assignment invites students to find a map that represents information about a social issue that they are interested in, deconstruct how that map “works” from a rhetorical and data-advocacy perspective, and explore how it might be used as part of a broader data-based advocacy campaign. 
 
 metadata:
     source:
@@ -21,6 +22,8 @@ metadata:
 ---
 
 # Assignment Description 
+
+This assignment invites students to find a map that represents information about a social issue that they are interested in, deconstruct how that map “works” from a rhetorical and data-advocacy perspective, and explore how it might be used as part of a broader data-based advocacy campaign. This assignment, which includes a class presentation and short paper, prepares students to incorporate their own original maps into data-based advocacy campaigns they may organize in the future.
 
 Students will be assigned into groups of 2-4 (depending on class size). Students are to find a published map that explores a social issue of interest (they may select a map from one of the websites in the assigned readings, but are not limited to these maps). In the final class, students will use their chosen maps as the basis for a class presentation that explores and analyzes this map from a rhetorical and data-advocacy perspective.
 
