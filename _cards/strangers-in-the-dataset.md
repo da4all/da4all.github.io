@@ -6,7 +6,7 @@ domain:
   - Processing Data
 subdomain:
   - Preparing Data
-sample_resource: false
+sample_resource: true
 
 title: "Strangers in the Dataset"
 
