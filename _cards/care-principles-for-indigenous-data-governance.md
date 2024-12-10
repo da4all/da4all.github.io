@@ -12,7 +12,7 @@ sample_resource: true
 title: "The CARE Principles for Indigenous Data Governance"
 
 teaser: >
-  In order to assert greater control of the use and application of Indigenous data and knowledges, set of people and purpose-oriented CARE principles for Indigenous data management and stewardship have been designed to complement the existing FAIR principles. This scholarly article articulates that set of principles, which are built around the concept of data sovereignty. It invites readers to think about what researchers who collect and publish data owe to communities (particularly indigenous communities) that helped to create that data. 
+  This scholarly article describes the CARE principles for Indigenous data management and stewardship that have been built around the concept of data sovereignty and designed to complement the existing FAIR principles. Readers are challenged to think about what researchers owe to communities (particularly indigenous communities) that helped to create the data that researchers collect and publish. 
 
 keywords:
   - “Data Collection”
