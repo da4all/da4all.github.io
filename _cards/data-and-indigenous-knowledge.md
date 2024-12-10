@@ -12,7 +12,7 @@ sample_resource: false
 title: "Data and Indigenous Knowledge"
 
 teaser: >
-  This is a set of discussion questions based on the article “The Leading Edge: What Inuit Can Teach Us About Climate Monitoring And Adaptation” from Forbes magazine. These questions could form the basis for an in-class discussion or they could be used as prompts for a reading reflection and response assignment. Note: the Forbes article is behind a paywall but Forbes allows a certain number of free articles to non-subscribers.
+  This activity includes a set of discussion questions based on the article “The Leading Edge: What Inuit Can Teach Us About Climate Monitoring And Adaptation” from <i>Forbes Magazine</i>. These questions could form the basis for an in-class discussion or they could be used as prompts for a reading reflection and response assignment. 
 
 keywords:
   - "Indigenous Knowledge"
@@ -28,10 +28,11 @@ metadata:
   license: "CC BY-NC-SA"
   citation: "Pieplow, Nathan. ‘Data and Indigenous Knowledge’ (discussion questions). Data Advocacy 4 All, University of Colorado. 23 July 2024."
 ---
+**Note:** The <i>Forbes</i> article is behind a paywall, but Forbes allows a certain number of free articles to non-subscribers.
 
 ### Article
 
-These discussion questions assume that students have read the 2022 article [“The Leading Edge: What Inuit Can Teach Us About Climate Monitoring And Adaptation”](https://www.forbes.com/sites/ashoka/2022/06/09/the-leading-edge-what-inuit-can-teach-us-about-climate-monitoring-and-adaptation/) in Forbes magazine. Note: the Forbes article is behind a paywall but Forbes allows a certain number of free articles to non-subscribers.
+These discussion questions assume that students have read the 2022 article [“The Leading Edge: What Inuit Can Teach Us About Climate Monitoring And Adaptation”](https://www.forbes.com/sites/ashoka/2022/06/09/the-leading-edge-what-inuit-can-teach-us-about-climate-monitoring-and-adaptation/) in <i>Forbes Magazine</i>. 
 
 ### Discussion Questions
 
