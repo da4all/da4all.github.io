@@ -19,7 +19,7 @@ keywords:
 
 metadata:
   Source: "https://www.icpsr.umich.edu/files/deposit/dataprep.pdf"
-  author: "Inter-university Consortium for Political and Social Research (ICPSR) "
+  author: "Inter-university Consortium for Political and Social Research (ICPSR)"
   date: “2020-01”
   license: 
   citation: "Inter-university Consortium for Political and Social Research (ICPSR). 2020. ’Guide to Social Science Data Preparation and Archiving.’ 6th Edition.
