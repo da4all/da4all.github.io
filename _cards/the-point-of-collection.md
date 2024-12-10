@@ -13,7 +13,7 @@ sample_resource: false
 title: "The Point of Collection"
 
 teaser: >
-  Mimi Onuoha presents five theses about data collection that are important to keep in mind while working with data.
+  In this article, Mimi Onuoha presents five theses about data collection that are important to keep in mind while working with data.
 
 keywords:
   - "Data Collection"
