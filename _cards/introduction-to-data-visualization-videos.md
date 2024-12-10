@@ -7,7 +7,7 @@ domain:
 subdomain:
   - Visualizing Data
 
-sample_resource: false
+sample_resource: true
 
 title: "Introduction to Data Visualization (videos)"
 
