@@ -12,7 +12,7 @@ sample_resource: true
 title: "Classifying Household Goods"
 
 teaser: >
-  Classification is something that we do all of the time, but it’s especially critical for understanding how datasets are constructed and, in turn, the ways in which people access the information that is stored in them. The goal of this exercise is to help think critically about how and why we describe, organize, and categorize information in certain ways.
+  This activity, which focuses on the practices of categorization and classification of data, is designed to help students think critically about how and why we describe, organize, and categorize information in certain ways.
 
 keywords:
   - "Classification"
