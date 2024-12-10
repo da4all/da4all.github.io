@@ -3,7 +3,7 @@ layout: card
 inline: false
 resource: Assignment
 domain: Persuading with Data
-subdomain: Making Claims with Data, Telling Stories with Data
+subdomain: Telling Stories with Data
 
 title: "Data Advocacy Op-Ed"
 
