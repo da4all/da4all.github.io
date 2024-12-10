@@ -28,7 +28,7 @@ The [Data Advocacy For All Toolkit]({{site.baseurl}}/toolkit) is a curated colle
     {% when 'Example Project' %}
     A collection of projects and advocacy movements that utilize data advocacy to bring about social change. Some of these examples are referenced in activities, assignments, modules, and tutorials, while others are simply listed to further model for data advocacy.
     {% when 'Slides' %}
-    Open-access slide decks curated by Data Advocacy for All team members to assist the teaching of data advocacy and help hone students hone the multiple literacies needed to do data advocacy is ethical, responsible, and persuasive ways. Many slide decks correspond with specific activities and assignments listed under the various literacy subdomains.
+    Open-access slide decks curated by Data Advocacy for All team members and other authors to assist the teaching of data advocacy and help hone students hone the multiple literacies needed to do data advocacy is ethical, responsible, and persuasive ways. Many slide decks correspond with specific activities and assignments listed under the various literacy subdomains.
     {% endcase %}
   </li>
   <br>
