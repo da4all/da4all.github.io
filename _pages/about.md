@@ -29,11 +29,13 @@ Whether used by nonprofits to catalyze social action, think tanks to argue for p
 
 Data Advocacy for All addresses this curricular gap by offering a [toolkit of educational resources]({{site.baseurl}}/toolkit/) to help students think critically and ethically about data; learn minimal computing and data processing skills; and practice generating data-driven stories and arguments in order to ethically translate data into effective real-world action.
 
-# Framework {#Framework}
-
-Our project is built on an overarching framework of critical data studies, data science, and rhetorical data studies and is guided by the following data justice perspective:
+To do so, it is guided by the following data justice perspective:
 
 <p style="margin-left:10%; margin-right:10%; margin-bottom: 20px;"><i>While coding and other technical skills are important for data literacy, students must also learn how to not only critically examine data issues in the context of existing power dynamics, emerging technologies, and social practices but also rhetorically use data to tell ethical, compelling data-driven stories and participate in ongoing conversations about pressing social matters.</i></p>
+
+# Framework {#Framework}
+
+Data Advocacy for All is built using an overarching framework of `critical data studies`, `data science`, and `rhetorical data studies`:<br>
 
 <div class="card hoverable">
   <div class="card-body">
@@ -74,11 +76,12 @@ Our project is built on an overarching framework of critical data studies, data 
 
 # The Toolkit
 
-The [Data Advocacy for All toolkit]({{site.baseurl}}/toolkit) is a collection of open-access educational resources for teaching data advocacy in higher educational settings. These resources have been curated by the Data Advocacy for All team in order to enhance student abilities to inquire with data, communicate with data, and deploy data for social advocacy. The toolkit includes open-access readings, assignments, activities, and other teaching resources (learn more about the [different types of resources]({{site.baseurl}}/resource-types)).
+The [Data Advocacy for All Toolkit]({{site.baseurl}}/toolkit) is a collection of open-access educational resources for teaching data advocacy in higher educational settings. These resources have been curated by the Data Advocacy for All team in order to enhance student abilities to inquire with data, communicate with data, and deploy data for social advocacy. The toolkit includes open-access readings, assignments, activities, and other teaching resources.
 
 <div style="margin: 25px 0;">
 <center>
   <sl-button variant="primary" size="large" outline href="../toolkit/"><sl-icon name="wrench-adjustable"></sl-icon> Go to the Toolkit</sl-button>
+  <sl-button variant="primary" size="large" outline href="../resource-types/"><sl-icon name="collection"></sl-icon> Types of Resources</sl-button>
 </center>
 </div>
 

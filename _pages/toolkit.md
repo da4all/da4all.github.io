@@ -16,7 +16,7 @@ Welcome to the Data Advocacy for All Toolkit! This is a curated collection of te
 -->
 
 <div class="help-banner" style="justify-content: center">
-  <i class="fa-regular fa-circle-question"></i> New to the toolkit? Learn more about our <a href="../resource-types/">different types of resources</a> and <a href="../literacy-domains/">literacy domains</a> of data advocacy.
+  <i class="fa-regular fa-circle-question"></i> New to the toolkit? Learn more about our different <a href="../resource-types/">types of resources</a> and <a href="../literacy-domains/">literacy domains</a> of data advocacy.
 </div>
 
 <!-- Resource Type Filter Section -->

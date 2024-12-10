@@ -7,7 +7,7 @@ nav: false
 nav_order:
 ---
 
-The Data Advocacy For All Toolkit is a curated collection of teaching resources designed to support data advocacy. These resources are organized under the following categories:
+The [Data Advocacy For All Toolkit]({{site.baseurl}}/toolkit) is a curated collection of teaching resources designed to support data advocacy. These resources are organized under the following categories:
 
 <ul>
   {% for resource in site.data.cards.resources %}
@@ -34,3 +34,7 @@ The Data Advocacy For All Toolkit is a curated collection of teaching resources 
   <br>
   {% endfor %}
 </ul>
+
+<center>
+  <sl-button variant="primary" size="large" outline href="../toolkit/"><sl-icon name="wrench-adjustable"></sl-icon> Go to the Toolkit</sl-button>
+</center>
