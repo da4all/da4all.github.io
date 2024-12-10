@@ -9,7 +9,7 @@ subdomain:
 
 sample_resource: true
 
-title: "Create an Original Data Visualization (assignment sequence)"
+title: "Create an Original Data Visualization"
 
 teaser: >
   This assignment sequence asks students to sketch, draft, workshop, and revise an original data visualization using data they find themselves online. 
