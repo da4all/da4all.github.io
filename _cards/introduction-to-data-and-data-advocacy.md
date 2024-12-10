@@ -1,4 +1,4 @@
---
+---
 layout: card
 inline: false
 resource: Lesson plan
@@ -11,12 +11,11 @@ sample_resource: true
 title: "Introduction to Data, Data Harms, and Data Advocacy"
 
 teaser: >
-  During this two-day lesson plan, students will consider different conceptions of data and learn that while data can and often does do harm, data can also be leveraged for social good through data
-advocacy.
+  During this two-day lesson plan, students will consider different conceptions of data and learn that while data can and often does do harm, data can also be leveraged for social good through data advocacy.
 
 keywords:
-  - “Data Advocacy”
-  - “Data Harm”
+  - "Data Advocacy"
+  - "Data Harm"
   - "Data Ethics"
 
 metadata:

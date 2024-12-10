@@ -4,7 +4,6 @@ inline: false
 resource: Reading
 domain:
   - Processing Data
-  - Acting Ethically with Data
 subdomain:
   - Storing and Preserving Data
 sample_resource: true

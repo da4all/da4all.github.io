@@ -4,7 +4,6 @@ inline: false
 resource: Term
 domain:
   - Processing Data
-  - Defining Data
 subdomain:
   - Storing and Preserving Data
 sample_resource: false
