@@ -8,7 +8,7 @@ subdomain:
   - Storing and Preserving Data
 sample_resource: false
 
-title: "Managing and Sharing Data: Best Practices for Researchers"
+title: "Managing and Sharing Data"
 
 teaser: >
   This guide is designed to help researchers and data managers produce high quality research data with potential for long-term use. Content covers best practices for documenting, formatting, and storing data as well as legal and ethical issues for consideration. 
@@ -18,7 +18,7 @@ keywords:
   - “Data Lifecycle”
 
 metadata:
-  Source: "https://dam.ukdataservice.ac.uk/media/622417/managingsharing.pdf"
+  source: "https://dam.ukdataservice.ac.uk/media/622417/managingsharing.pdf"
   author: "Veerle Van den Eynden, Louise Corti, Matthew Woollard, Libby Bishop and Laurence Horton."
   date: “2011-03-16”
   license: "CC BY-NC-SA"
