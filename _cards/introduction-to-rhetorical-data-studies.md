@@ -1,7 +1,7 @@
 --
 layout: card
 inline: false
-resource: Lesson Pan
+resource: Lesson Plan
 domain:
   - Understanding Data
 subdomain:
