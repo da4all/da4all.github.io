@@ -11,8 +11,7 @@ sample_resource: false
 title: "Introduction to Rhetorical Data Studies"
 
 teaser: >
-  This lesson introduces students to rhetorical data studies to help deepen their understanding of how this critical and productive framework can be useful for analyzing and
-generating data advocacy projects. During this lesson plan, students have opportunities to review key concepts related to rhetorical data studies, explore the rhetorical dimensions of data and data advocacy, and consider best practices and possible roadmaps for doing data advocacy. 
+  This lesson plan introduces students to rhetorical data studies to help deepen their understanding of how this critical and productive framework can be useful for analyzing and generating data advocacy projects. During this lesson plan, students have opportunities to review key concepts related to rhetorical data studies, explore the rhetorical dimensions of data and data advocacy, and consider best practices and possible roadmaps for doing data advocacy. 
 
 keywords:
   - “Rhetoric”
