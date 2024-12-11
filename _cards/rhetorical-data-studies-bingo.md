@@ -3,7 +3,7 @@ layout: card
 inline: false
 resource: Activity
 domain:
-  - Defining Data
+  - Understanding Data
 subdomain:
   - Thinking Rhetorically about Data
 sample_resource: false
