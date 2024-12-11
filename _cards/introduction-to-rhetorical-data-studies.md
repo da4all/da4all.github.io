@@ -21,7 +21,7 @@ keywords:
 metadata:
   source: 
   author: "Laurie Gries"
-  date: “2023
+  date: “2023"
   license: "CC BY-NC-SA"
   citation: "Gries, Laurie. 2023. ‘Introduction to Rhetorical Data Studies Lesson Plan.’ Data Advocacy for All, University of Colorado Boulder."
 ---
