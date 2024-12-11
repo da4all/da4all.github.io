@@ -20,9 +20,9 @@ keywords:
   - “Rhetoric”
 
 metadata:
-  Source: 
+  source: 
   author: "Gries, Laurie"
   date: “2023”
   license: "CC BY-NC-SA"
-  citation: "Gries, Laurie. 2023. ’Rhetorical Data Studies Bingo.’ Data Advocacy for All, University of Colorado Boulder."
+  citation: "Gries, Laurie. 2023. ‘Rhetorical Data Studies Bingo.’ Data Advocacy for All, University of Colorado Boulder."
 —
