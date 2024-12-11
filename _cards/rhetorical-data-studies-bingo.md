@@ -6,7 +6,6 @@ domain:
   - Defining Data
 subdomain:
   - Thinking Rhetorically about Data
-  - Critiquing Data
 sample_resource: false
 
 title: "Rhetorical Data Studies Bingo"
