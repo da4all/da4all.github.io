@@ -1,0 +1,38 @@
+# _data/literacy-domains.yml
+# This file contains the data for the literacy domains and subdomains that are used to generate the Literacy Domains pages.
+
+understanding_data:
+  title: "Understanding Data"
+  subdomains:
+    - title: "Defining Data"
+      description: "Resources for this literacy domain offers students opportunities to explore what data is from a variety of disciplinary and professional perspectives. Students are especially encouraged to explore the important links between data, contexts, people, organizations, and power."
+    - title: "Critiquing Data"
+      description: "Resources for this literacy domain introduce students to critical data studies, data feminism, and other critical frameworks for interrogating how data yields power in various contexts and who benefits and does not benefit from such data use. In addition to these frameworks, resources in this literacy domain offer readings, activities, and assignments to help students hone their critical abilities to evaluate existing data sets, examples of data advocacy, and real-world scenarios concerning data ethics."
+    - title: "Acting Ethically with Data"
+      description: "Resources for this literacy domain introduce students to data ethics in order to help students better understand the significance of transparency, accountability, agency, and privacy, among other matters, when working with data."
+    - title: "Thinking Rhetorically about Data"
+      description: "This literacy domain introduces students to the art of rhetoric and the practice of data advocacy. Resources include an overview of rhetorical data studies and an explanation of how this approach can not only help students deepen their understanding about data but also assist their doing of data advocacy in ethical, persuasive, and just ways. Examples of data advocacy projects, delivered in multiple and diverse genres, are also included."
+
+processing_data:
+  title: "Processing Data"
+  subdomains:
+    - title: "Collecting Data"
+      description: "Resources for this literacy subdomain introduce students to various methods for gathering data for decision-making, planning, research and other purposes as well as challenge students to consider the ethical obligations of doing such data work."
+    - title: "Preparing Data"
+      description: "Resources for this literacy domain help students learn how to assemble, categorize, classify, structure, and edit data so that it can be easily and ethically accessed, processed, and analyzed."
+    - title: "Analyzing Data"
+      description: "Resources for this literacy domain teach students how to enact various methods to glean useful information and insights from data, which can then be used for various rhetorical purposes such as decision-making, advocacy, and education."
+    - title: "Storing and Preserving Data"
+      description: "Resources for this literacy domain introduce students to various practices and open-access tools for providing long-term storage of and access to data as well as conserving and maintaining its safety and integrity."
+
+persuading_with_data:
+  title: "Persuading with Data"
+  subdomains:
+    - title: "Making Claims with Data"
+      description: "Resources for this literacy domain introduce students to the art of rhetoric and teach students how to identify a rhetorical situation, make ethical and persuasive claims with data, and move a targeted audience through logical, emotional, and ethical appeals."
+    - title: "Visualizing Data"
+      description: "Resources for this literacy domain teach students how to analyze and generate data visualizations with potential for moving an audience in service of one’s advocacy aims."
+    - title: "Mapping Data"
+      description: "Resources for this literacy domain teach students how to analyze and generate data driven maps with potential for moving an audience in service of one’s advocacy aims."
+    - title: "Telling Stories with Data"
+      description: "Resources for this literacy domain teach students how to integrate claims, visualizations, and maps with narrative to generate powerful multi-modal stories in various genres for data advocacy purposes."
