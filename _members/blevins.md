@@ -19,7 +19,7 @@ profile:
     align: right
     image: blevins-profile.jpg
     website: https://cblevins.github.io/
-    twitter: historying
+    twitter:
     email: cameron.blevins@ucdenver.edu
     github: cblevins
     orcid: 0000-0002-5272-5770

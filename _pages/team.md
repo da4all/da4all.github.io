@@ -52,7 +52,7 @@ nav_rank: 8
                         <a href="https://github.com/{{ member.profile.github }}" class="card-link" target="_blank"><i class="fab fa-github"></i></a>
                     {% endif %}
                     <p class="card-text">
-                        <span style="font-size: 0.875rem; display: block; padding-top: 0.7rem;"><i class="fas fa-thumbtack"></i> {{ member.profile.address | replace: '<br />', ', ' }}</span> 
+                        <span style="font-size: 0.875rem; display: block; padding-top: 0.7rem;"><i class="fas fa-building-columns"></i> {{ member.profile.address | replace: '<br />', ', ' }}</span> 
                     </p>
                 </div>
             </div>
@@ -63,3 +63,54 @@ nav_rank: 8
     {% endfor %}
 <br>
 {% endfor %}
+
+## Advisory Board
+
+<div class="row g-4">
+  <div class="col-12 col-md-6">
+    <div class="card" style="margin-bottom: 1rem;">
+      <div class="card-body">
+        <h5 class="card-title">Rachel Gross</h5>
+        <p class="card-text">
+          <i class="fas fa-university"></i> University of Colorado Denver
+        </p>
+      </div>
+    </div>
+
+    <div class="card" style="margin-bottom: 1rem;">
+      <div class="card-body">
+        <h5 class="card-title">Lindsay Poirier</h5>
+        <p class="card-text">
+          <i class="fas fa-university"></i> Smith College
+        </p>
+      </div>
+    </div>
+
+    <div class="card" style="margin-bottom: 1rem;">
+      <div class="card-body">
+        <h5 class="card-title">Urooj Raja</h5>
+        <p class="card-text">
+          <i class="fas fa-university"></i> Loyola University Chicago
+        </p>
+      </div>
+    </div>
+
+    <div class="card" style="margin-bottom: 1rem;">
+      <div class="card-body">
+        <h5 class="card-title">Sara Stoudt</h5>
+        <p class="card-text">
+          <i class="fas fa-university"></i> Bucknell University
+        </p>
+      </div>
+    </div>
+
+    <div class="card" style="margin-bottom: 1rem;">
+      <div class="card-body">
+        <h5 class="card-title">Joanna Wolfe</h5>
+        <p class="card-text">
+          <i class="fas fa-university"></i> Carnegie Mellon University
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
