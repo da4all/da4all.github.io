@@ -21,6 +21,16 @@ layout: default
  .noHover{
     pointer-events: none;
  }
+
+ sl-tag::part(base) {
+    border-width: 1.8px;
+    margin-bottom: 7px;
+  }
+  
+  /* If you want to style just the label portion */
+  sl-tag::part(content) {
+    font-weight: 500;
+  }
   
 </style>
 
@@ -33,6 +43,28 @@ layout: default
 
 <p><i><small>Created as part of {{ page.metadata.courseinfo | replace: '<br />', ', ' }}</small></i></p>
   
+<!-- experimenting with tags -->
+<center>
+
+{% if page.metadata.typeofdataadvocacy %}
+<sl-tag variant="primary"><i class="fa-solid fa-layer-group"></i>&nbsp; Type of Data Advocacy:&nbsp; <b> {{ page.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</b></sl-tag>
+{% endif %}
+
+{% if page.metadata.genre %}
+<sl-tag variant="success"><i class="fa-solid fa-bars-staggered"></i>&nbsp; Genre:&nbsp; <b>{{ page.metadata.genre | replace: '<br />', ', ' }}</b></sl-tag>
+{% endif %}
+
+{% if page.metadata.filetype %}
+<sl-tag variant="neutral"><i class="fa-solid fa-file"></i>&nbsp; Format:&nbsp;  <b>{{ page.metadata.filetype | replace: '<br />', ', ' }}</b></sl-tag>
+{% endif %}
+
+{% if page.metadata.license %}
+<sl-tag variant="warning"><i class="fa-solid fa-quote-left"></i>&nbsp; License:&nbsp;  <b>{{ page.metadata.license | replace: '<br />', ', ' }}</b></sl-tag>
+{% endif %}
+
+</center>
+
+<!-- old button system 
 {% if page.metadata.typeofdataadvocacy %}
 <sl-button class="attribute noHover" style="padding: 2px">Type of Data Advocacy: {{ page.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button>
 {% endif %}
@@ -44,6 +76,7 @@ layout: default
 {% if page.metadata.filetype %}<sl-button class="attribute noHover" style="padding: 2px">Format: {{ page.metadata.filetype | replace: '<br />', ', ' }}</sl-button>{% endif %}
 
 {% if page.metadata.license %}<sl-button class="attribute noHover" style="padding: 2px">License: {{ page.metadata.license | replace: '<br />', ', ' }}</sl-button>{% endif %}
+-->
 </div>
 <br>
 
@@ -58,10 +91,16 @@ layout: default
       <div class="team col-sm-8 col-md-7">
         <div class="card-body">
           <p class="post-description" style="font-size: 14px">{{ page.teaser }}<br><br>
-	  {% if page.metadata.typeofdataadvocacy %}<sl-button class="attribute noHover" size="small" style="padding: 2px">Type of Data Advocacy: {{ page.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button><br>{% endif %}
+            {% if page.metadata.typeofdataadvocacy %}<sl-tag variant="primary" size="small">Type of Data Advocacy: {{ page.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-tag><br>{% endif %}
+            {% if page.metadata.genre %}<sl-tag variant="success" size="small">Genre: {{ page.metadata.genre | replace: '<br />', ', ' }}</sl-tag><br>{% endif %}
+          {% if page.metadata.filetype %}<sl-tag variant="neutral" size="small">Format: {{ page.metadata.filetype | replace: '<br />', ', ' }}</sl-tag><br>{% endif %}
+          {% if page.metadata.license %}<sl-tag variant="warning" size="small">License: {{ page.metadata.license | replace: '<br />', ', ' }}</sl-tag><br>{% endif %}
+          <!-- old button system
+          {% if page.metadata.typeofdataadvocacy %}<sl-button class="attribute noHover" size="small" style="padding: 2px">Type of Data Advocacy: {{ page.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button><br>{% endif %}
           {% if page.metadata.genre %}<sl-button class="attribute noHover" size="small" style="padding: 2px">Genre: {{ page.metadata.genre | replace: '<br />', ', ' }}</sl-button><br>{% endif %}
           {% if page.metadata.filetype %}<sl-button class="attribute noHover" size="small" style="padding: 2px">Format: {{ page.metadata.filetype | replace: '<br />', ', ' }}</sl-button><br>{% endif %}
           {% if page.metadata.license %}<sl-button class="attribute noHover" size="small" style="padding: 2px">License: {{ page.metadata.license | replace: '<br />', ', ' }}</sl-button><br>{% endif %}
+          -->
 	  </p></div>
       </div>
       <div class="col-sm-4 col-md-5">

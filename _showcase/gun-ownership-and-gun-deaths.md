@@ -11,7 +11,7 @@ teaser: >
 
 metadata:
   image: gun-ownership-and-gun-deaths.png
-  caption: "A still from the video presentation. It shows the student—Rachel, a feminine individual wearing glasses, a necklace, and a pink sweater—presenting a slide that says ‘Gun Violence by Rachel Marentes.’ On the slide, there is also an image of a poster made by a protester that shows a drawing of bloody shoes with the words ‘It doesn’t have to be this way’ and ‘say no to gun violence’ written on it."
+  caption: "A still from the video presentation. It shows a student presenting a slide that says ‘Gun Violence by Rachel Marentes.’ On the slide, there is also an image of a poster made by a protester that shows a drawing of bloody shoes with the words ‘It doesn’t have to be this way’ and ‘say no to gun violence’ written on it."
   genre: "Data Storytelling Presentation"
   filetype: ".mp4"
   typeofdataadvocacy: "Gun Violence"
