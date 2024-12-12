@@ -13,7 +13,7 @@ nav_rank: 8
 
 ## {{ group }}
 
-    {% assign members = site.members | sort: "group_rank" | where: "group", group %}
+    {% assign members = site.members | sort: "lastname" | where: "group", group %}
     {% for member in members %}
 
 <p>
@@ -52,7 +52,7 @@ nav_rank: 8
                         <a href="https://github.com/{{ member.profile.github }}" class="card-link" target="_blank"><i class="fab fa-github"></i></a>
                     {% endif %}
                     <p class="card-text">
-                        <br><small class="test-muted"><i class="fas fa-thumbtack"></i> {{ member.profile.address | replace: '<br />', ', ' }}</small> 
+                        <span style="font-size: 0.875rem; display: block; padding-top: 0.7rem;"><i class="fas fa-thumbtack"></i> {{ member.profile.address | replace: '<br />', ', ' }}</span> 
                     </p>
                 </div>
             </div>

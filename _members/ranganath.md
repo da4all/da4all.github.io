@@ -18,7 +18,7 @@ profile:
     <!-- organization: University of Colorado Boulder -->
     align: right
     image: generic-icon.jpg
-    website: 
+    website:
     twitter: 
     email: 
     github: 

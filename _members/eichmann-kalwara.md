@@ -10,6 +10,7 @@ lastname: Eichmann-Kalwara
 publications: 'author^=*Eichmann-Kalwara'
 
 teaser: >
+  Nickoal Eichmann-Kalwara's research centers on issues related to representation in Digital Humanities, archival justice and historical recovery, and humanities data curation.
   
 profile:
     name: Nickoal Eichmann-Kalwara
@@ -17,11 +18,11 @@ profile:
     department: Center for Research Data & Digital Scholarship (CRDDS)
     <!-- organization: University of Colorado Boulder -->
     align: right
-    image: generic-icon.jpg
+    image: nickoal_eichmann-kalwara.jpg
     website: 
     twitter: 
     email: 
-    github: 
+    github:
     orcid: 
     address: >
         University of Colorado Boulder
@@ -30,4 +31,4 @@ profile:
 
 ## Nickoal Eichmann-Kalwara
 
-Learn more about Nickoal at [the University of Colorado Boulder's site](https://www.colorado.edu/libraries/nickoal-eichmann-kalwara).
+Nickoal Eichmann-Kalwara's research centers on issues related to representation in Digital Humanities, archival justice and historical recovery, and humanities data curation. Learn more about Nickoal at [the University of Colorado Boulder's site](https://libraries.colorado.edu/nickoal-eichmann-kalwara).

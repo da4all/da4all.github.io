@@ -10,6 +10,7 @@ lastname: Tinnell
 publications: "author^=*Tinnell"
 
 teaser: >
+  John Tinnell teaches courses on histories & theories of technology, digital studies, writing, and narrative nonfiction. He studies the intellectual history of technology, old and new -- with a focus on the humanistic questions it poses for thinking about culture, communication, innovation, and other facets of our increasingly digital society.
 
 profile:
   name: John Tinnell
@@ -18,7 +19,7 @@ profile:
   <!-- organization: University of Colorado Denver -->
   align: right
   image: tinnell-profile.jpg
-  website:
+  website: https://johntinnell.com/
   twitter:
   email:
   github:
