@@ -6,7 +6,7 @@ domain:
   - Understanding Data
 subdomain:
   - Thinking Rhetorically about Data
-sample_resource: false
+sample_resource: true
 
 title: "Introduction to Rhetorical Data Studies"
 
