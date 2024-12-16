@@ -3,10 +3,9 @@ layout: card
 inline: false
 resource: Reading
 domain: 
- - Defining Data
+ - Understanding Data
 subdomain:
  - Thinking Rhetorically about Data
-  
 sample_resource: true
 
 title: "A Rhetorical Data Studies Approach to Data Advocacy"
