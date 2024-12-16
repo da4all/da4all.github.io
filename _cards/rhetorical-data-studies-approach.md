@@ -5,7 +5,7 @@ resource: Reading
 domain: 
  - Understanding Data
 subdomain:
-  - Thinking Rhetorically with Data
+  - Thinking Rhetorically about Data
   - Persuading with Data
 sample_resource: true
 
