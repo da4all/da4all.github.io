@@ -5,7 +5,7 @@ resource: Reading
 domain: 
  - Understanding Data
 subdomain:
- - Thinking Rhetorically about Data
+ - Advocating with Data
 sample_resource: true
 
 title: "A Rhetorical Data Studies Approach to Data Advocacy"
