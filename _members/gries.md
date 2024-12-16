@@ -22,7 +22,7 @@ profile:
     twitter: 
     email: legries@colorado.edu
     github: 
-    orcid: https://orcid.org/0000-0002-5272-5770
+    orcid: https://orcid.org/0000-0002-0320-9518
     address: >
         University of Colorado Boulder
 
