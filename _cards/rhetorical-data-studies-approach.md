@@ -8,7 +8,7 @@ subdomain:
  - Thinking Rhetorically about Data
 sample_resource: true
 
-title: "A Rhetorical Data Studies Approach to Data Advocacy"
+title: “A Rhetorical Data Studies Approach to Data Advocacy”
 
 teaser: >
   In this whitepaper crafted for Data Advocacy for All, data advocacy is defined and explained as a deeply rhetorical and ethical action while rhetorical data studies is forwarded as a critical and constructive framework for helping students learn how to ethically collect, process, and deploy data alongside narratives and other rhetorical strategies. 
@@ -21,10 +21,10 @@ keywords:
 
 metadata:
     source:
-    author: "Gries, Laurie"
-    date: "2024"
-    license: "CC BY-NC-ND 4.0" 
-    citation: A Rhetorical Data Studies Approach to Data Advocacy © 2024 by Laurie Gries is licensed under CC BY-NC-ND 4.0 
+    author: “Laurie Gries”
+    date: “2024”
+    license: “CC BY-NC-ND 4.0” 
+    citation: “Gries, Laurie. 2024. ‘A Rhetorical Data Studies Approach to Data Advocacy.’ CC BY-NC-ND 4.0.” 
 ---
 
 NOTE 
