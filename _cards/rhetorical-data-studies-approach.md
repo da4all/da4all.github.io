@@ -21,9 +21,9 @@ keywords:
 
 metadata:
     source:
-    author: Laurie Gries
-    date: 2024
-    license: Creative Commons CC BY-NC-ND 4.0 
+    author: "Gries, Laurie"
+    date: "2024"
+    license: "CC BY-NC-ND 4.0" 
     citation: A Rhetorical Data Studies Approach to Data Advocacy © 2024 by Laurie Gries is licensed under CC BY-NC-ND 4.0 
 ---
 
