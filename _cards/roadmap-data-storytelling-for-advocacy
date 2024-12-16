@@ -1,7 +1,7 @@
 ---
 layout: card
 inline: false
-resource: Lesson Plan
+resource: Reading
 domain:
   - Understanding Data
 subdomain:
