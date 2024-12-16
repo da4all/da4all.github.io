@@ -3,9 +3,9 @@ layout: card
 inline: false
 resource: Reading
 domain: 
- - Understanding Data
+ - Defining Data
 subdomain:
-  - Thinking Rhetorically about Data
+ - Thinking Rhetorically about Data
   
 sample_resource: true
 
