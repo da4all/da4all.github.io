@@ -4,7 +4,6 @@ inline: false
 resource: Reading
 domain: 
  - Understanding Data
-
 subdomain:
   - Thinking Rhetorically about Data
   
