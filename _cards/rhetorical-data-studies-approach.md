@@ -24,7 +24,7 @@ metadata:
     author: "Laurie Gries"
     date: "2024"
     license: "CC BY-NC-ND 4.0" 
-    citation: "Gries, Laurie. 2024. ‘A Rhetorical Data Studies Approach to Data Advocacy.’ CC BY-NC-ND 4.0." 
+    citation: "Gries, Laurie. 2024. ‘A Rhetorical Data Studies Approach to Data Advocacy.’ Data Advocacy for All. University of Colorado Boulder." 
 ---
 
 NOTE 
