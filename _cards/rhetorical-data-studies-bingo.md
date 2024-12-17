@@ -6,7 +6,7 @@ domain:
   - Understanding Data
 subdomain:
   - Thinking Rhetorically about Data
-sample_resource: true
+sample_resource: false
 
 title: "Rhetorical Data Studies Bingo"
 
