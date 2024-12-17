@@ -5,7 +5,7 @@ resource: Lesson Plan
 domain:
   - Understanding Data
 subdomain:
-  - Advocating with Data
+  - Thinking Rhetorically about Data
 sample_resource: true
 
 title: "Introduction to Rhetorical Data Studies"

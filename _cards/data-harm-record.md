@@ -5,7 +5,7 @@ resource: Example Project
 domain:
   - Understanding Data
 subdomain:
-  - Advocating with Data
+  - Thinking Rhetorically about Data
 sample_resource: false
 
 title: "Data Harm Record"

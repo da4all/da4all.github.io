@@ -5,7 +5,7 @@ resource: Example Project
 domain:
   - Understanding Data
 subdomain:
-  - Advocating with Data
+  - Thinking Rhetorically about Data
 sample_resource: false
 
 title: "Black Health in America: Exploring Racial Disparities in COVID-19 Vaccination Data"

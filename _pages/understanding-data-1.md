@@ -1,6 +1,6 @@
 ---
 layout: literacy-domain-page
-permalink: /undestanding-data-1/
+permalink: /understanding-data-1/
 title: Understanding Data
 description:
 nav: false

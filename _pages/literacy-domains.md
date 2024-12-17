@@ -32,7 +32,7 @@ As so organized, these literacy domains are presented as distinct and linear. Bu
     <div class="card-body">
     <center>
       <h4 class="card-title"><i class="fas fa-brain"></i> Understanding Data</h4>
-      <p class="card-text">“Understanding data” is a literacy domain for helping students develop the critical, ethical, and rhetorical impulses needed to define data; understand its complicated relations to power, privilege, oppression, and liberation; and imagine ethical and responsible ways of working with data toward more just futures. We have broken this domain into four areas: defining data, critiquing data, acting ethically with data, and thinking rhetorically with data.</p>
+      <p class="card-text">“Understanding data” is a literacy domain for helping students develop the critical, ethical, and rhetorical impulses needed to define data; understand its complicated relations to power, privilege, oppression, and liberation; and imagine ethical and responsible ways of working with data toward more just futures. We have broken this domain into four areas: defining data, critiquing data, acting ethically with data, and thinking rhetorically about data.</p>
     </center>
     </div>
   </div>
