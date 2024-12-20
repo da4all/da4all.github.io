@@ -15,7 +15,7 @@ latest_posts: false # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
-TEST
+
 `Data Advocacy for All` offers a collection of teaching resources to enhance student abilities to inquire with data, communicate with data, and deploy data for social advocacy.
 
 Data Advocacy for All has been designed for teachers and students across the disciplines who have no prior data science or computing experience. Centered around [three literacy domains]({{site.baseurl}}/literacy-domains) of data advocacy, this digital repository offers [a toolkit]({{site.baseurl}}/toolkit) of flexible curricular resources such as open-access readings, activities, assignments, and lesson plans.
