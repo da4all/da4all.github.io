@@ -2,7 +2,7 @@
 layout: page
 permalink: /team/
 title: Data Advocacy for All Team
-description: 
+description:
 nav: false
 nav_rank: 8
 ---
@@ -61,9 +61,12 @@ nav_rank: 8
 </p>
 
     {% endfor %}
+
 <br>
 {% endfor %}
 
+<!-- advisory board section to come-->
+<!--
 ## Advisory Board
 
 <div class="row g-4">
@@ -114,3 +117,4 @@ nav_rank: 8
     </div>
   </div>
 </div>
+-->
