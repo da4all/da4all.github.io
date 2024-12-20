@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://da4asandbox.github.io//curricularsite//sitemap.xml
+Sitemap: https://da4all.github.io//sitemap.xml
