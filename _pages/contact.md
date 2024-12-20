@@ -7,4 +7,4 @@ nav: false
 nav_order: 
 ---
 
-If you wish to contact us, please reach out to Dr. Laurie Gries at dataadvocacy4all@gmail.com. 
+If you wish to contact us, please reach out to Dr. Laurie Gries at dataadvocacy4all@gmail.com.
