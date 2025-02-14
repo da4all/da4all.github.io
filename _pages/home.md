@@ -32,6 +32,12 @@ Data Advocacy for All has been designed for teachers and students across the dis
 </div>
 <br>
 
+<div style="text-align: center;">
+  <blockquote class="block-warning">
+    <p><i class="fa-regular fa-calendar"></i> On March 14, 2025, Data Advocacy for All will be hosting a one-day symposium: <b style="font-weight: 600;">Working with Data for Social Change</b>. <i><a href="../symposium-2025/">Learn more</a> about the symposium or <a href="https://docs.google.com/forms/d/e/1FAIpQLSfTqHg9S9EQKITkUgqVV9oUGvgirITe-mzzSjRT9h9gU_sIPw/viewform">register to attend</a> in person or over Zoom.</i></p>
+  </blockquote>
+</div>
+
 ---
 
 <!--
