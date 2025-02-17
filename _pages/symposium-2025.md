@@ -88,6 +88,14 @@ This event brings together local and national scholars who have engaged in digit
       <div class="card-body">
         <h3 class="card-title"><a href="https://lsa.umich.edu/apia/people/faculty/mborja.html">Melissa Borja</a></h3>
         <p class="card-text"><a href="https://virulenthate.org/">Virulent Hate Project</a></p>
+        <div class="details-group">
+          <sl-details summary="Speaker Bio">
+          <p class ="card-text" align=left>Melissa Borja leads the Virulent Hate Project, which uses news media to track incidents of anti-Asian racism and Asian American anti-racism activism. She is also on the advisory council of the Bridging Divides Initiative, which aims to track and mitigate political violence.</p>
+          </sl-details>
+          <sl-details summary="Abstract">
+          <p class ="card-text" align=left>In 2020 and 2021, the Covid-19 pandemic sparked hundreds of attacks against people of Asian descent in the United States and around the world. In response, ethnic studies scholars committed to improving both scholarly and public understanding of this problem developed the Virulent Hate Project, a collaborative interdisciplinary research project that draws on news media to identify incidents of anti-Asian racism and anti-racism activism. This presentation will discuss the goals, methods, and findings of the Virulent Hate Project; the challenges researchers have faced; and how the project has changed over time and adapted to shifting political circumstances and public discourses about racism.</p>
+          </sl-details>
+        </div>
       </div>
     </div>
   </div>
@@ -100,6 +108,14 @@ This event brings together local and national scholars who have engaged in digit
       <div class="card-body">
         <h3 class="card-title">Nasreen Abd Elal</h3>
         <p class="card-text"><a href="https://visualizingpalestine.org/">Visualizing Palestine</a></p>
+        <div class="details-group">
+          <sl-details summary="Speaker Bio">
+          <p class ="card-text" align=left>Nasreen Abd Elal is a graphic designer, researcher, and organizer based in New York City. Since 2020, she has worked as an Information Designer at Visualizing Palestine, an organization dedicated to using data and research to visually communicate Palestinian experiences and provoke narrative change. </p>
+          </sl-details>
+          <sl-details summary="Abstract">
+          <p class ="card-text" align=left>This presentation will introduce Visualizing Palestine’s approach to data storytelling for Palestine, and will provide an overview of the infographics and interactive projects that VP has produced over the last decade to combat the exclusion of Palestinian perspectives from mainstream political, cultural, and media institutions. We’ll then move to explore VP’s approach to research, brief-writing, visual development, and data storytelling. Participants will learn about VP’s methodology for creating responsive, rigorously-sourced educational resources that can support social justice struggles, using open-source tools and collaborative partnerships with researchers in Palestine and across the world. The presentation will highlight the politics of data within a colonial context, focusing on how VP approaches issues such as fragmented data sources, dehumanizing biases, and producing research in the context of genocide.</p>
+          </sl-details>
+        </div>
       </div>
     </div>
   </div>
