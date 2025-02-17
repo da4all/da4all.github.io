@@ -4,7 +4,7 @@ permalink: /symposium-2025/
 title: Symposium
 description: A One Day Symposium
 nav: true
-nav_order: 2
+nav_order: 7
 toc:
   sidebar: left
 ---
@@ -43,10 +43,18 @@ This event brings together local and national scholars who have engaged in digit
     <div class="card border-0 shadow-sm">
       <img src="{{ '/assets/img/sylvia-fernandez.jpg' | relative_url }}" 
            class="card-img-top" 
-           alt="Sylvia Fernandez">
+           alt="Sylvia Fernández Quintanilla">
       <div class="card-body">
-        <h3 class="card-title"><a href="https://colfa.utsa.edu/faculty/profiles/quintanilla-fernandez-sylvia.html">Sylvia Fernandez</a></h3>
-        <p class="card-text"><a href="https://unitedfronteras.github.io/">United Fronteras</a><br><a href="https://xpmethod.columbia.edu/torn-apart/volume/1">Torn Apart/Separados</a></p>
+        <h3 class="card-title"><a href="https://colfa.utsa.edu/faculty/profiles/quintanilla-fernandez-sylvia.html">Sylvia Fernández Quintanilla</a></h3>
+        <p class="card-text"><a href="https://unitedfronteras.github.io/">United Fronteras</a>, <a href="https://xpmethod.columbia.edu/torn-apart/volume/1">Torn Apart/Separados</a></p>
+        <div class="details-group">
+          <sl-details summary="Speaker Bio">
+          <p class ="card-text" align=left>Sylvia Fernández Quintanilla (she/her) is Assistant Professor of Public and Digital Humanities in the Interdisciplinary School of Engagement at the University of Texas at San Antonio. Her research and teaching focus on documenting and retelling data narratives of social justice through the lenses of transborder studies, decolonial and postcolonial digital humanities, and feminist practices. She employs interdisciplinary methods to create ethical, responsible and inclusive digital projects that engage with local, transnational, and translingual data from underrepresented communities.</p>
+          </sl-details>
+          <sl-details summary="Abstract">
+          <p class ="card-text" align=left>In this presentation, I will explore methodologies for creating datasets on human rights issues, such as gender violence and feminicides, by engaging with transnational and multilingual data from both analog and digital sources. Drawing on frameworks from postcolonial digital humanities (Risam, 2019) and critical data studies, including data feminism (Klein & D'Ignazio, 2020), data terrorism (Luchessi, 2022), counter data (D'Ignazio, 2024), and international data violence (Fernández, 2025), I will discuss a pedagogical approach that enables students to engage with diverse materials—literary texts, archival documents, and oral histories—to develop multilingual datasets and feminist visualizations. Through this approach, students practiced ethical and responsible data production, grounding their work in feminist, intersectional, and humanistic inquiry. I will also share key insights, including the need for cross-disciplinary courses, the global urgency of preserving gender violence data, and the critical role of multilingual digital humanities in fostering inclusive and ethical data practices.</p>
+          </sl-details>
+        </div>
       </div>
     </div>
   </div>
@@ -59,10 +67,19 @@ This event brings together local and national scholars who have engaged in digit
       <div class="card-body">
         <h3 class="card-title"><a href="https://melaniewalsh.org/">Melanie Walsh</a></h3>
         <p class="card-text"><a href="https://www.responsible-datasets-in-context.com/">Responsible Data Sets in Context</a></p>
+        <div class="details-group">
+          <sl-details summary="Speaker Bio">
+          <p class ="card-text" align=left>Melanie Walsh is an Assistant Professor in the Information School and an Adjunct Assistant Professor in the English Department at the University of Washington. She is co-PI of the Responsible Datasets in Context project, a repository of teachable datasets that foregrounds context and humanities perspectives, and that has been funded by the Mozilla Foundation. She is the author of the open-source textbook, Introduction to Cultural Analytics & Python, which introduces the programming language Python to people interested in the humanities and social science.</p>
+          </sl-details>
+          <sl-details summary="Abstract">
+          <p class ="card-text" align=left>While understanding the social and historical context of data is one of the most essential skills for responsible technologists, it is one of the most neglected skills in undergraduate computing education. In this presentation, Melanie Walsh will discuss how she and her collaborators have sought to elevate context in data education through the Responsible Dataset in Context project, a data repository funded by a Mozilla Responsible Computing Challenge award. She will specifically discuss one of the datasets featured in the project—a dataset of visits to U.S. National Parks—and narrate how she incorporates this dataset into her introductory programming classes, demonstrating how a dataset’s construction, documentation, limitations, and history can drastically impact interpretations and results.</p>
+          </sl-details>
+        </div>
       </div>
     </div>
+
   </div>
-  
+
   <div class="speaker-col">
     <div class="card border-0 shadow-sm">
       <img src="{{ '/assets/img/melissa-borja.jpg' | relative_url }}" 
@@ -89,6 +106,17 @@ This event brings together local and national scholars who have engaged in digit
 </div>
 
 <br>
+
+<script>
+  const container = document.querySelector('.details-group');
+
+  // Close all other details when one is shown
+  container.addEventListener('sl-show', event => {
+    if (event.target.localName === 'sl-details') {
+      [...container.querySelectorAll('sl-details')].map(details => (details.open = event.target === details));
+    }
+  });
+</script>
 
 ## Schedule
 
@@ -281,6 +309,10 @@ _For more information, contact Laurie Gries (<a href="mailto:legries@colorado.ed
 .speakers-grid .card-text {
   font-size: 1.1rem;
   color: #6c757d;
+}
+
+.details-group-example sl-details:not(:last-of-type) {
+  margin-bottom: var(--sl-spacing-2x-small);
 }
 
 </style>
