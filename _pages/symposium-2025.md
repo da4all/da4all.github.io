@@ -159,8 +159,8 @@ _All times in Mountain Standard Time (MST)_
       <h4>Advancing Data Humanities Education Through Collaborative Research Grants</h4>
       <p><ul>
       <li>Melanie Walsh: Responsible Data Sets in Context</li>
-      <li>Cameron Blevins: Data Advocacy For All</li>
       <li>David Glimp: Data Science For All</li>
+      <li>Cameron Blevins & Nathan Pieplow: Data Advocacy For All</li>     
       </ul></p>
     </div>
   </div>
@@ -197,7 +197,6 @@ _All times in Mountain Standard Time (MST)_
       <h4>Educating Students to Work with Data in Ethical and Powerful Ways</h4>
       <p><ul>
       <li>Sylvia Fernandez (United Fronteras and Torn Apart/Separados)</li>
-      <li>Nathan Pieplow (CU Boulder)</li>
       <li>Nickoal Eichmann-Kalwara (CU Boulder)</li>
       <li>Aditya Ranganath (CU Boulder)</li>
       <li>John Tinnell (CU Denver)</li>
