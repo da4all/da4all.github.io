@@ -196,7 +196,7 @@ _All times in Mountain Standard Time (MST)_
     <div class="event">
       <h4>Educating Students to Work with Data in Ethical and Powerful Ways</h4>
       <p><ul>
-      <li>Sylvia Fernandez (United Fronteras and Torn Apart/Separados)</li>
+      <li>Sylvia Fernández Quintanilla (United Fronteras and Torn Apart/Separados)</li>
       <li>Nickoal Eichmann-Kalwara (CU Boulder)</li>
       <li>Aditya Ranganath (CU Boulder)</li>
       <li>John Tinnell (CU Denver)</li>
