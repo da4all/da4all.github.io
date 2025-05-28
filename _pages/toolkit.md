@@ -97,88 +97,83 @@ Welcome to the Data Advocacy for All Toolkit! This is a curated collection of te
     <i>Click on card to access full resource</i></p>
 </center>
 
+{% assign domain_order = site.data.cards.domains %}
+{% assign subdomain_order = site.data.cards.subdomains %}
+
 <div id="card-list" style="margin-top: 20px;">
-  {% assign cards = site.cards | sort: "title" %}
-  {% for card in cards %}
-    {% if card.title and card.teaser %}
-      <div class="card-wrapper" onclick="window.location='{{ card.url | relative_url }}';" style="cursor: pointer;">
-        <div class="card {% if card.inline == false %}hoverable{% endif %}" 
-             data-resource="{{ card.resource }}"
-             data-domain="{{ card.domain | join: ',' }}"
-             data-subdomain="{{ card.subdomain | join: ',' }}" style="margin-top: 10px;">
-          {% assign resource = site.data.cards.resources | where: "name", card.resource | first %}
-          <div class="row no-gutters">
-            <div class="team">
-              <div class="card-body">
-                <h5 class="card-title"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp;&nbsp; {{ card.title }}</h5>
-                <p class="card-text"><small class="test-muted">
-                  {% if card.metadata.date %}
-                    <i class="fa-solid fa-calendar"></i>&nbsp; Date: {{ card.metadata.date | custom_date_format }}
-                  {% endif %}
-                  {% if card.metadata.date and card.metadata.author %}
-                    &nbsp;&nbsp;//&nbsp;&nbsp;
-                  {% endif %}
-                  {% if card.metadata.author %}
-                    <i class="fa-solid fa-user"></i>&nbsp; Author: {{ card.metadata.author | replace: '<br />', ', ' }}
-                  {% endif %}
-                </small></p>
-                <p class="card-text">
-                  {% assign words = card.teaser | default: '' | number_of_words %}
-                  {% if words > 150 %}
-                    {% assign teaser_words = card.teaser | split: ' ' | slice: 0, 150 | join: ' ' %}
-                    {{ teaser_words }} <span class="read-more">[Read More]</span>
-                  {% else %}
-                    {{ card.teaser }}
-                  {% endif %}
-                </p>
-                {% if card.keywords.size > 0 %}
-                  <hr class="solid">
-                  <p class="card-text test-muted keyword"><small>Keywords: {% for keyword in card.keywords %}<i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;{% endfor %}</small></p>
-                {% endif %}
-                {% if card.metadata.source or card.metadata.license %}
-                  <hr class="solid">
-                {% endif %}
-                <p class="card-text">
-                  {% if card.metadata.source %}
-                    <small class="test-muted"><i class="fas fa-link"></i> Source: <a href="{{ card.metadata.source }}" onclick="event.stopPropagation();">{{ card.metadata.source | replace: '<br />', ', ' }}</a></small>
-                  {% endif %}
-                  {% if card.metadata.source and card.metadata.license %}
-                    <br>
-                  {% endif %}
-                  {% if card.metadata.license %}
-                    <small class="test-muted"><i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ card.metadata.license }}</small>
-                  {% endif %}
-                </p>
-                <hr class="solid">
-                <p class="card-text">
-                  {% assign domain_array = card.domain %}
-                  <small class="test-muted resource"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ card.resource }}&nbsp;&nbsp;//&nbsp;&nbsp;</small>
-                  <small class="test-muted domain"><i class="fa-solid fa-network-wired"></i>&nbsp; Domain:
-                    {% for d in domain_array %}
-                      {% unless forloop.last %}
-                        <a href="{{ site.url }}{{ site.baseurl }}/{{ d | downcase | replace: ' ', '-' }}" onclick="event.stopPropagation();">{{ d }}</a>,&nbsp;
+  {% for domain in domain_order %}
+    {% for subdomain in subdomain_order %}
+      {% assign cards = site.cards | where: "domain", domain | where: "subdomain", subdomain | sort: "title" %}
+      {% for card in cards %}
+        {% if card.title and card.teaser %}
+          <div class="card-wrapper" onclick="window.location='{{ card.url | relative_url }}';" style="cursor: pointer;">
+            <div class="card {% if card.inline == false %}hoverable{% endif %}" 
+                 data-resource="{{ card.resource }}"
+                 data-domain="{{ card.domain | join: ',' }}"
+                 data-subdomain="{{ card.subdomain | join: ',' }}" style="margin-top: 10px;">
+              {% assign resource = site.data.cards.resources | where: "name", card.resource | first %}
+              <div class="row no-gutters">
+                <div class="team">
+                  <div class="card-body">
+                    <h5 class="card-title"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp;&nbsp; {{ card.title }}</h5>
+                    <p class="card-text"><small class="test-muted">
+                      {% if card.metadata.date %}
+                        <i class="fa-solid fa-calendar"></i>&nbsp; Date: {{ card.metadata.date | custom_date_format }}
+                      {% endif %}
+                      {% if card.metadata.date and card.metadata.author %}
+                        &nbsp;&nbsp;//&nbsp;&nbsp;
+                      {% endif %}
+                      {% if card.metadata.author %}
+                        <i class="fa-solid fa-user"></i>&nbsp; Author: {{ card.metadata.author | replace: '<br />', ', ' }}
+                      {% endif %}
+                    </small></p>
+                    <p class="card-text">
+                      {% assign words = card.teaser | default: '' | number_of_words %}
+                      {% if words > 150 %}
+                        {% assign teaser_words = card.teaser | split: ' ' | slice: 0, 150 | join: ' ' %}
+                        {{ teaser_words }} <span class="read-more">[Read More]</span>
                       {% else %}
-                        <a href="{{ site.url }}{{ site.baseurl }}/{{ d | downcase | replace: ' ', '-' }}" onclick="event.stopPropagation();">{{ d }}</a>&nbsp;&nbsp;//&nbsp;&nbsp;
-                      {% endunless %}
-                    {% endfor %}
-                  </small>
-                  {% assign subdomain_array = card.subdomain %}
-                  <small class="test-muted subdomain"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain:
-                    {% for sub in subdomain_array %}
-                      {% unless forloop.last %}
-                        {{ sub }},&nbsp;
-                      {% else %}
-                        {{ sub }}
-                      {% endunless %}
-                    {% endfor %}
-                  </small><br>
-                </p>
+                        {{ card.teaser }}
+                      {% endif %}
+                    </p>
+                    {% if card.keywords.size > 0 %}
+                      <hr class="solid">
+                      <p class="card-text test-muted keyword"><small>Keywords: {% for keyword in card.keywords %}<i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;{% endfor %}</small></p>
+                    {% endif %}
+                    {% if card.metadata.source or card.metadata.license %}
+                      <hr class="solid">
+                    {% endif %}
+                    <p class="card-text">
+                      {% assign domain_array = card.domain %}
+                      <small class="test-muted resource"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ card.resource }}&nbsp;&nbsp;//&nbsp;&nbsp;</small>
+                      <small class="test-muted domain"><i class="fa-solid fa-network-wired"></i>&nbsp; Domain:
+                        {% for d in domain_array %}
+                          {% unless forloop.last %}
+                            <a href="{{ site.url }}{{ site.baseurl }}/{{ d | downcase | replace: ' ', '-' }}" onclick="event.stopPropagation();">{{ d }}</a>,&nbsp;
+                          {% else %}
+                            <a href="{{ site.url }}{{ site.baseurl }}/{{ d | downcase | replace: ' ', '-' }}" onclick="event.stopPropagation();">{{ d }}</a>&nbsp;&nbsp;//&nbsp;&nbsp;
+                          {% endunless %}
+                        {% endfor %}
+                      </small>
+                      {% assign subdomain_array = card.subdomain %}
+                      <small class="test-muted subdomain"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain:
+                        {% for sub in subdomain_array %}
+                          {% unless forloop.last %}
+                            {{ sub }},&nbsp;
+                          {% else %}
+                            {{ sub }}
+                          {% endunless %}
+                        {% endfor %}
+                      </small><br>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    {% endif %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
   {% endfor %}
 </div>
 
