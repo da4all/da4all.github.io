@@ -5,8 +5,6 @@ resource: Example Project
 domain:
   - Persuading with Data
 subdomain:
-  - Visualizing Data
-  - Mapping Data
   - Telling Stories with Data
 sample_resource: false
 
