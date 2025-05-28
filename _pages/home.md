@@ -16,27 +16,27 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-`Data Advocacy for All` offers a collection of teaching resources to enhance student abilities to inquire with data, communicate with data, and deploy data for social advocacy.
-
-Data Advocacy for All has been designed for teachers and students across the disciplines who have no prior data science or computing experience. Centered around [three literacy domains]({{site.baseurl}}/literacy-domains) of data advocacy, this digital repository offers [a toolkit]({{site.baseurl}}/toolkit) of flexible curricular resources such as open-access readings, activities, assignments, and lesson plans.
+**Data Advocacy for All** offers a collection of teaching resources to enhance student abilities to inquire with data, communicate with data, and deploy data for social advocacy. The website has been designed for teachers and students across the disciplines who have no prior data science or computing experience. Centered around [three literacy domains]({{site.baseurl}}/literacy-domains) of data advocacy, this digital repository offers [a toolkit]({{site.baseurl}}/toolkit) of flexible curricular resources such as open-access readings, activities, assignments, and lesson plans.
 <br>
 <br>
 <br>
 
 <div>
 <center>
-  <sl-button variant="primary" size="large" outline href="../about/"><sl-icon name="bar-chart-fill"></sl-icon> About The Project</sl-button>
-  <sl-button variant="primary" size="large" outline href="../about/"><sl-icon name="book"></sl-icon> The Literacy Domains</sl-button>
+  <sl-button variant="primary" size="large" outline href="../literacy-domains/"><sl-icon name="book"></sl-icon> The Literacy Domains</sl-button>
   <sl-button variant="primary" size="large" outline href="../toolkit/"><sl-icon name="wrench-adjustable"></sl-icon> The Toolkit</sl-button>
+  <sl-button variant="primary" size="large" outline href="../about/"><sl-icon name="bar-chart-fill"></sl-icon> About The Project</sl-button>
 </center>
 </div>
 <br>
 
+<!--
 <div style="text-align: center;">
   <blockquote class="block-warning">
     <p><i class="fa-regular fa-calendar"></i> On March 14, 2025, Data Advocacy for All will be hosting a one-day symposium: <b style="font-weight: 600;">Working with Data for Social Change</b>. <i><a href="../symposium-2025/">Learn more</a> about the symposium or <a href="https://docs.google.com/forms/d/e/1FAIpQLSfTqHg9S9EQKITkUgqVV9oUGvgirITe-mzzSjRT9h9gU_sIPw/viewform">register to attend</a> in person or over Zoom.</i></p>
   </blockquote>
 </div>
+-->
 
 ---
 

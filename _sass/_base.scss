@@ -77,8 +77,7 @@ h6,
 em,
 div,
 li,
-span,
-strong {
+span {
   color: var(--global-text-color);
   font-family: "Montserrat";
   font-weight: 300;
@@ -1266,7 +1265,6 @@ sl-button[variant="primary"] {
   gap: 1rem;
   margin-bottom: 1rem;
 }
-
 
 .resource-grid {
   grid-template-columns: repeat(4, 1fr);
