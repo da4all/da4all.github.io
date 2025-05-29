@@ -12,15 +12,6 @@ toc:
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/themes/light.css" />
 <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/shoelace.js" ></script>
 
-<!--
-## Table of Contents
-
-- [Mission](#Mission)
-- [Framework](#Framework)
-- [The CU Next Award](#CUNext)
-  <br><br>
--->
-
 # Mission {#Mission}
 
 **Data Advocacy for All** is a CU Next Award project that aims to extend data humanities education throughout and beyond the University of Colorado system by offering an open-access educational toolkit for teaching data advocacy.
@@ -35,9 +26,9 @@ To do so, it is guided by the following data justice perspective:
 
 # Framework {#Framework}
 
-Data Advocacy for All is built using an overarching framework of `critical data studies`, `data science`, and `rhetorical data studies`:<br>
+Data Advocacy for All is built using an overarching framework of **critical data studies**, **data science**, and **rhetorical data studies**:<br>
 
-<div class="card hoverable">
+<div class="card">
   <div class="card-body">
     <h4 class="card-title">Critical Data Studies
 <p class="card-text">Best understood as a constellation of approaches, Critical Data Studies applies diverse critical lenses to examine various data issues in the context of existing power dynamics, emerging technologies, and socio-cultural practices. From data ethics to data feminism to black digital humanities, these approaches investigate how data functions as both an oppressive and liberatory force in order to help cultivate “more just, equitable, and livable futures” (D’Ignazio and Klein, 2020, n.p.).</p>
@@ -47,7 +38,7 @@ Data Advocacy for All is built using an overarching framework of `critical data 
 
 <br>
 
-<div class="card hoverable">
+<div class="card">
   <div class="card-body">
     <h4 class="card-title">Data Science
 <p class="card-text">Data Science is a multi-disciplinary approach to working with data through its various stages—collection, organization, analysis, storage—in order to access, process, and glean insights from data for various purposes. Data Science draws on principles and practices from mathematics, statistics, business, artificial intelligence, and computer engineering to offer reliable practices for collecting, analyzing, and gaining insights from various sized data sets. </p>
@@ -57,24 +48,28 @@ Data Advocacy for All is built using an overarching framework of `critical data 
 
 <br>
 
-<div class="card hoverable">
+<div class="card">
   <div class="card-body">
     <h4 class="card-title">Rhetorical Data Studies
 <p class="card-text">As a critical and constructive framework, rhetorical data studies explores how data-driven stories, arguments, and visualizations communicate knowledge, garner public attention, and, among other actions, mediate socio-cultural change in order to help establish more ethically- minded and effective data-informed practices.</p>
     </h4>
   </div>
 </div>
-
 <br>
 
-<!--
-<center>
-<sl-button-group label="Alignment">
-  <sl-button variant="primary" size="large" outline href="../toolkit/">Learn more about these frameworks in the readings in our toolkit</sl-button>
-</sl-button-group></center><br>
--->
+# Literacy Domains {#literacy-domains}
 
-# The Toolkit
+We have identified three [literacy domains]({{site.baseurl}}/literacy-domains/) in which students can develop the critical-rhetorical capacities to ethically and effectively work with data to instigate social change. Read [an overview of the domains]({{site.baseurl}}/literacy-domains/) or navigate directly to a specific domain to learn more:
+
+<div style="margin: 25px 0;">
+<center>
+<sl-button variant="primary" size="large" outline href="../understanding-data/"><i class="fas fa-brain"></i> Understanding Data</sl-button>
+<sl-button variant="primary" size="large" outline href="../processing-data/"><i class="fas fa-cogs"></i> Processing Data</sl-button>
+<sl-button variant="primary" size="large" outline href="../persuading-with-data/"><i class="fas fa-chart-line"></i> Persuading with Data</sl-button>
+</center>
+</div>
+
+# Toolkit
 
 The [Data Advocacy for All Toolkit]({{site.baseurl}}/toolkit) is a collection of open-access educational resources for teaching data advocacy in higher educational settings. These resources have been curated by the Data Advocacy for All team in order to enhance student abilities to inquire with data, communicate with data, and deploy data for social advocacy. The toolkit includes open-access readings, assignments, activities, and other teaching resources.
 
@@ -85,7 +80,7 @@ The [Data Advocacy for All Toolkit]({{site.baseurl}}/toolkit) is a collection of
 </center>
 </div>
 
-# The CU Next Award {#CUNext}
+# CU Next Award {#CUNext}
 
 The [CU Next Award](https://www.cu.edu/oaa/academic-innovation-programs/cu-next-award) is an academic innovation program that supports pedagogical development within the University of Colorado system. The CU Next Award requires faculty from a minimum of two University of Colorado campuses to collaborate on a pedagogical project that innovates with technology in order to help “increase the efficacy and efficiency of student learning in courses and degree programs” as well as “reduce technology-related and other barriers for individual and small groups of faculty.” To fulfill this requirement, faculty from the University of Colorado Boulder and the University of Colorado Denver collaborated to design, implement, and assess the Data Advocacy for All modular curriculum over a three year span as well design this Open Access (OA) digital repository of curricular materials for instructors across the CU system and beyond. [You can learn more about the CU Next grant and the other awarded projects here.](https://www.cu.edu/oaa/academic-innovation-programs/cu-next-award)
 <br><br>
