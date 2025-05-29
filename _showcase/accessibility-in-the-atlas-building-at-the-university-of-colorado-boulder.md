@@ -1,13 +1,13 @@
 ---
 layout: showcase
 inline: false
-group: Individual Data Advocacy Projects
+group: Data Advocacy Projects
 group_rank: 3
 
 title: "Accessibility in the ATLAS Building at the University of Colorado Boulder"
 
 teaser: >
-  This white paper uses original research to document the number of doors that can and cannot be opened using push buttons in the ATLAS building at the University of Colorado Boulder. It finds that the ATLAS building is in compliance with minimum ADA requirements, but advocates for additional push buttons to improve accessibility on exterior doors and the entrances to popular workspaces and labs.. 
+  This white paper uses original research to document the number of doors that can and cannot be opened using push buttons in the ATLAS building at the University of Colorado Boulder. It finds that the ATLAS building is in compliance with minimum ADA requirements, but advocates for additional push buttons to improve accessibility on exterior doors and the entrances to popular workspaces and labs..
 
 metadata:
   image: accessibility-in-the-atlas-building.png
@@ -16,7 +16,7 @@ metadata:
   filetype: ".pdf"
   typeofdataadvocacy: "Accessibility"
   contributors: "Kai Franks"
-  source: 
+  source:
   license: "CC BY-NC-SA"
   courseinfo: "WRTG 3035: Technical Communication and Design (Fall 2023, taught by Nathan Pieplow at the University of Colorado Boulder)"
 ---

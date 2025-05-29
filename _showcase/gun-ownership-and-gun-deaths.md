@@ -1,7 +1,7 @@
 ---
 layout: showcase
 inline: false
-group: Examples of Data Storytelling Presentations
+group: Data Storytelling Presentations
 group_rank: 1
 
 title: "Gun Ownership and Gun Deaths"
@@ -16,8 +16,8 @@ metadata:
   filetype: ".mp4"
   typeofdataadvocacy: "Gun Violence"
   contributors: "Rachel Marentes"
-  source: 
-  license: 
+  source:
+  license:
   courseinfo: "ENGL 1020: Core Composition I (Spring 2024, taught by Dr. John Tinnell at the University of Colorado Denver) as part of a Data Storytelling unit"
 ---
 

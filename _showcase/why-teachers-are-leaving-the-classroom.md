@@ -1,13 +1,13 @@
 ---
 layout: showcase
 inline: false
-group: Individual Data Advocacy Projects
+group: Data Advocacy Projects
 group_rank: 3
 
 title: "Why Teachers Are Leaving the Classroom"
 
 teaser: >
-  This white paper analyzes the results of two NCES studies in an attempt to discover the primary drivers of turnover in the K-12 teaching workforce. Ultimately, it concludes that more study is needed. . 
+  This white paper analyzes the results of two NCES studies in an attempt to discover the primary drivers of turnover in the K-12 teaching workforce. Ultimately, it concludes that more study is needed. .
 
 metadata:
   image: why-are-teachers-leaving-the-classroom.png
@@ -16,7 +16,7 @@ metadata:
   filetype: ".pdf"
   typeofdataadvocacy: "Education"
   contributors: "Mathew Marquez"
-  source: 
+  source:
   license: "CC BY-NC-SA"
   courseinfo: "WRTG 3035: Technical Communication and Design (Fall 2023, taught by Nathan Pieplow at the University of Colorado Boulder)"
 ---

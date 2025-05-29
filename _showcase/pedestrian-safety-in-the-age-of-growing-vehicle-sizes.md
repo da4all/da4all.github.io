@@ -1,13 +1,13 @@
 ---
 layout: showcase
 inline: false
-group: Individual Data Advocacy Projects
+group: Data Advocacy Projects
 group_rank: 3
 
 title: "Pedestrian Safety in the Age of Growing Vehicle Sizes"
 
 teaser: >
-  This illustrated op/ed uses images and data to support its argument that increasing vehicle sizes have seriously impacted the safety of pedestrians. It touts the benefits of smaller cars and advocates for stricter safety measures for vehicle design in the United States. 
+  This illustrated op/ed uses images and data to support its argument that increasing vehicle sizes have seriously impacted the safety of pedestrians. It touts the benefits of smaller cars and advocates for stricter safety measures for vehicle design in the United States.
 
 metadata:
   image: pedestrian-safety-in-the-age-of-growing-vehicle-sizes.png
@@ -16,7 +16,7 @@ metadata:
   filetype: ".pdf"
   typeofdataadvocacy: "Pedestrian Safety"
   contributors: "Tristan Barnes"
-  source: 
+  source:
   license: "CC BY-NC-SA"
   courseinfo: "WRTG 3035: Technical Communication and Design (Fall 2023, taught by Nathan Pieplow at the University of Colorado Boulder)"
 ---

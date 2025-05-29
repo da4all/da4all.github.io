@@ -1,7 +1,7 @@
 ---
 layout: showcase
 inline: false
-group: Examples of Data Storytelling Presentations
+group: Data Storytelling Presentations
 group_rank: 1
 
 title: "How We Perceive Risk"
@@ -16,8 +16,8 @@ metadata:
   filetype: ".mp4"
   typeofdataadvocacy: "Public Safety"
   contributors: "John Bordali"
-  source: 
-  license: 
+  source:
+  license:
   courseinfo: "ENGL 1020: Core Composition I (Spring 2024, taught by Dr. John Tinnell at the University of Colorado Denver) as part of a Data Storytelling unit"
 ---
 
