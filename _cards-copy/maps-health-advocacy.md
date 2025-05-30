@@ -14,10 +14,10 @@ teaser: >
   This paper provides a pedagogical primer on how to incorporate data and GIS-based advocacy into the classroom curriculum by offering a case study of LGBTQIA+ health challenges and barriers. In the paper’s Appendix, the paper’s author provides a sample lesson plan that invites students to critically evaluate maps and data visualizations. 
 
 keywords:
-  - "Maps"
-  - "Geospatial Data"
-  - "Healthcare"
-  - "Social justice"
+  - "geospatial data"
+  - "healthcare"
+  - "maps"
+  - "social justice"
 
 metadata:
   source: "https://doi-org.colorado.idm.oclc.org/10.1080/15420353.2022.2139329"

@@ -14,9 +14,9 @@ teaser: >
   This activity guides students through the process of pairing data visualizations with other research sources in order to outline a story about a neighborhood-level data collection effort and the value of its findings for local political advocacy.  
 
 keywords:
-  - "Data Storytelling"
-  - "Air Pollution"
-  - "Persuading with Data"
+  - "air pollution"
+  - "data storytelling"
+  - "persuading with data"
 
 metadata:
   source: 

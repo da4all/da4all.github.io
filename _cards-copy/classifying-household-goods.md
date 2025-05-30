@@ -15,8 +15,8 @@ teaser: >
   This activity, which focuses on the practices of categorization and classification of data, is designed to help students think critically about how and why we describe, organize, and categorize information in certain ways.
 
 keywords:
-  - "Classification"
-  - "Categorization"
+  - "categorization"
+  - "classification"
 
 metadata:
   source:

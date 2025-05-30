@@ -15,8 +15,8 @@ teaser: >
   In 25 minutes of total runtime, these two videos provide a concise in-depth introduction to the rhetorical principles of data visualization. The first video summarizes the history of persuasive visualizations with three key examples from the 19th century by John Snow, Florence Nightingale, and W.E.B. DuBois. The second video lays out six key principles of data visualization and explains what can go wrong when these principles are violated. 
 
 keywords:
-  - "Rhetoric of Data Visualization"
-  - "History of Data Visualization"
+  - "history of data visualization"
+  - "rhetoric of data visualization"
 
 metadata:
   source: "https://www.youtube.com/watch?v=B6RGBAzXU1A&list=PLQyfUVf-vFTJMuluE7y9mPRxK9-iSxYyQ"

@@ -15,10 +15,10 @@ teaser: >
     This activity invites students to think about the variables included in the World Happiness Report dataset, about the relations between variables, and about the advantages and disadvantages of the authors’ approach to measuring happiness. This exercise is designed to help cultivate habits of critical reflection and to provide practice in data analysis, including reflection on correlation.
 
 keywords:
-  - "World happiness"
-  - "Global data"
-  - "Data analysis"
-  - "Critical reflection"
+  - "critical reflection"
+  - "data analysis"
+  - "global data"
+  - "world happiness"
 
 metadata:
   source: "https://worldhappiness.report/ed/2023/#appendices-and-data"

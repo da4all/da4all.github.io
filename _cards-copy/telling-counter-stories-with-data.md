@@ -14,9 +14,9 @@ teaser: >
   This activity prompts students to search the internet for data points about STEM education in the US, and to then develop a counter-story in response to Malcom Gladwell’s narrative that low success rates among prospective STEM majors is a psychologically inevitable outcome. 
 
 keywords:
-  - "Data Storytelling"
-  - "STEM Education"
-  - "Persuading with Data"
+  - "data storytelling"
+  - "persuading with data"
+  - "stem education"
 
 metadata:
   source: 

@@ -14,10 +14,10 @@ teaser: >
   Data Sovereignty can be understood as an assertion of the rights and interests of Indigenous Peoples in relation to data that is collected, stored, processed, and published about them, their territories, and their ways of life.
 
 keywords:
-  - “Data Collection”
-  - “Data Stewardship”
-  - “Data Sovereignty”
-  - “Data Governance”
+  - "data collection"
+  - "data governance"
+  - "data sovereignty"
+  - "data stewardship"
 
 metadata:
   Source: "https://datascience.codata.org/articles/10.5334/dsj-2020-043"

@@ -14,7 +14,7 @@ teaser: >
   Mapping Broadband Health in America 2023, is a useful example of how data advocacy is often used in the field of public health. This project enables users to visualize, intersect, and analyze broadband and health data at the national, state and county levels – informing policy and program prescriptions, future innovations, and investment decisions. 
 
 keywords:
-  - "Public health"
+  - "public health"
 
 metadata:
   source: "https://www.fcc.gov/health/maps"

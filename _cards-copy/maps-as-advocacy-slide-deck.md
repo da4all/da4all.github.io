@@ -15,9 +15,9 @@ teaser: >
   This slide deck provides an introduction to the ways in which maps can advocate for policies and positions. It uses concepts from critical cartography to challenge the notion that any map can be truly objective. The slide deck with instructor notes could be used as a reading or an activity.
 
 keywords:
-  - "Critical Cartography"
-  - "Visual Rhetoric"
-  - "Rhetoric of Data Visualization"
+  - "critical cartography"
+  - "rhetoric of data visualization"
+  - "visual rhetoric"
 
 metadata:
   source: "https://docs.google.com/presentation/d/1d6BtBdm2dJr6YKqDnYDmnn5Lul-6925G/edit?usp=sharing&ouid=116941745404208628216&rtpof=true&sd=true"

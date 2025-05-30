@@ -15,10 +15,10 @@ teaser: >
   This scholarly article spells out practical dos and don’ts for sharing newly collected research data in ways that are effective and ethical.
 
 keywords:
-  - “Data Management”
-  - “Data Stewardship”
-  - “Data Sharing”
-  - “Data Repository”
+  - "data management"
+  - "data repository"
+  - "data sharing"
+  - "data stewardship"
 
 metadata:
   Source: "https://www.ituonline.com/tech-definitions/what-is-a-data-registry/"

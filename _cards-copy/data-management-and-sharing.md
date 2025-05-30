@@ -14,8 +14,8 @@ teaser: >
   Data management is a general term for describing the actions taken to plan, acquire, store, process, analyze, preserve, share, find, and reuse data.
 
 keywords:
-  - “Data Management”
-  - “Data Processing”
+  - "data management"
+  - "data processing"
 
 metadata:
   Source: "https://guides.lib.uchicago.edu/datamanagement"

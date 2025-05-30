@@ -14,9 +14,9 @@ teaser: >
   A Data Registry is a centralized system designed to collect, manage, and store information on specific datasets or data repositories, making it easier for various fields or organizations to store and access data and for users to find and use the data they need. Data registries help to ensure data quality and consistency as well as facilitate data sharing and interoperability among different systems and stakeholders.
 
 keywords:
-  - “Data Management”
-  - “Data Stewardship”
-  - “Data Sharing”
+  - "data management"
+  - "data sharing"
+  - "data stewardship"
 
 metadata:
   Source: "https://www.ituonline.com/tech-definitions/what-is-a-data-registry/"

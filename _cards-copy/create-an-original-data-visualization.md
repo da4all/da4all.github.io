@@ -15,8 +15,8 @@ teaser: >
   This assignment sequence asks students to sketch, draft, workshop, and revise an original data visualization using data they find themselves online. 
 
 keywords:
-  - "Rhetoric of Data Visualization"
-  - "Visual Rhetoric"
+  - "rhetoric of data visualization"
+  - "visual rhetoric"
 
 
 metadata:

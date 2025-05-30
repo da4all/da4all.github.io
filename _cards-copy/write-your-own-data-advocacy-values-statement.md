@@ -15,10 +15,10 @@ teaser: >
   This activity asks students to consider their values before embarking on a data advocacy project (group or individual). It asks them to read the Appendix “Our Values and Our Metrics for Holding Ourselves Accountable” at the end of Data Feminism and then use it as inspiration to create the initial draft of a values statement that articulates their own primary concerns for how to avoid ethical transgressions during their project.
 
 keywords:
-  - "Values"
-  - "Ethics"
-  - "Stakeholders"
-  - "Accountability"
+  - "accountability"
+  - "ethics"
+  - "stakeholders"
+  - "values"
 
 metadata:
   source: 

@@ -12,9 +12,9 @@ teaser: >
   In this scholarly essay, the authors identify the relations between data and power and, among other things, briefly describe the framework of Critical Data Studies, its orientations, and principles.
 
 keywords:
-  - data as power
-  - big data
-  - critical data studies
+  - "big data"
+  - "critical data studies"
+  - "data as power"
 
 metadata:
   source: https://journals.sagepub.com/doi/10.1177/2053951716674238

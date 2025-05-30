@@ -14,10 +14,10 @@ teaser: >
   This scholarly article describes the CARE principles for Indigenous data management and stewardship that have been built around the concept of data sovereignty and designed to complement the existing FAIR principles. Readers are challenged to think about what researchers owe to communities (particularly indigenous communities) who helped to create the data that researchers collect and publish.
 
 keywords:
-  - "Data Collection"
-  - "Data Stewardship"
-  - "Data Sovereignty"
-  - "Data Governance"
+  - "data collection"
+  - "data governance"
+  - "data sovereignty"
+  - "data stewardship"
 
 metadata:
   Source: "https://datascience.codata.org/articles/10.5334/dsj-2020-043"

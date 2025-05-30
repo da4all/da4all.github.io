@@ -14,9 +14,9 @@ teaser: >
   The FBI tracks hate crimes in many different ways; this summary dataset from 2021 focuses on specific types of crimes and numbers of incidents, victims and known offenders.  The dataset provides an excellent resource for inviting students to explore and think critically about data.  This activity prompts students to think about how data represents phenomena and to think critically about the kinds of choices that go into creating a dataset.
 
 keywords:
-  - "datasets"
-  - "data biography"
   - "critical data analysis"
+  - "data biography"
+  - "datasets"
   - "hate crime data"
 
 metadata:

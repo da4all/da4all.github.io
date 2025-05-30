@@ -14,8 +14,8 @@ teaser: >
   Data never exists in a “raw,” unfiltered form and is never a neutral representation of reality.
 
 keywords:
-  - "Critical Data Studies"
-  - "Data Collection"
+  - "critical data studies"
+  - "data collection"
 
 metadata:
   source: "https://mitpress.mit.edu/9780262518284/raw-data-is-an-oxymoron/"

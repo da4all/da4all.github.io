@@ -1,28 +1,46 @@
 import os
 import re
-import yaml
 
 cards_dir = '_cards-copy'
+
+def clean_multiline_keywords(front_matter):
+    # Find the keywords block
+    pattern = re.compile(
+        r'(^keywords:\s*\n((?:[ \t]*-[^\n]*\n)+))',
+        re.MULTILINE
+    )
+    def repl(match):
+        block = match.group(2)
+        keywords = [line.strip()[2:].strip().lower() for line in block.splitlines() if line.strip().startswith('-')]
+        # Replace non-standard quotation marks with plain text equivalents and wrap in double quotes if not already
+        cleaned_keywords = []
+        for k in keywords:
+            k = k.replace('“', '"').replace('”', '"')
+            k = k.replace('‘', "'").replace('’', "'")
+            k = k.strip()
+            # Wrap in double quotes if not already
+            if not (k.startswith('"') and k.endswith('"')):
+                k = f'"{k.strip("\"")}"'
+            cleaned_keywords.append(k)
+        cleaned_keywords = sorted(set(cleaned_keywords))
+        # Rebuild the block
+        new_block = 'keywords:\n' + ''.join([f'  - {k}\n' for k in cleaned_keywords])
+        return new_block
+    return pattern.sub(repl, front_matter)
+
 for filename in os.listdir(cards_dir):
     if filename.endswith('.md'):
         path = os.path.join(cards_dir, filename)
         with open(path, 'r') as f:
             content = f.read()
-        # Extract YAML front matter
-        match = re.match(r'---\n(.*?)\n---\n', content, re.DOTALL)
-        if match:
-            front_matter = yaml.safe_load(match.group(1))
-            if 'keywords' in front_matter:
-                keywords = front_matter['keywords']
-                if not keywords:
-                    keywords = []
-                elif isinstance(keywords, str):
-                    keywords = [k.strip() for k in keywords.split(',')]
-                keywords = list(set(k.lower().strip() for k in keywords if k))
-                keywords.sort()
-                front_matter['keywords'] = keywords
-                # Replace front matter in file
-                new_front = yaml.dump(front_matter, sort_keys=False)
-                new_content = f'---\n{new_front}---\n' + content[match.end():]
-                with open(path, 'w') as f:
-                    f.write(new_content)
+        # Only operate on the front matter
+        match = re.match(r'(---\n.*?\n---)', content, re.DOTALL)
+        if not match:
+            continue  # No front matter, skip
+        front_matter = match.group(1)
+        new_front_matter = clean_multiline_keywords(front_matter)
+        # Only write if changed
+        if new_front_matter != front_matter:
+            new_content = new_front_matter + content[len(front_matter):]
+            with open(path, 'w') as f:
+                f.write(new_content)

@@ -14,9 +14,9 @@ teaser: >
   This two-day lesson plan teaches students to analyze a data advocacy project in order to deepen their abilities to identify the rhetorical situations of data advocacy projects and understand how they are rhetorically designed to meet a community’s or organizations’ advocacy goals.
 
 keywords:
-  - "Rhetorical Data Studies"
-  - "Rhetoric"
-  - "Data Advocacy Projects"
+  - "data advocacy projects"
+  - "rhetoric"
+  - "rhetorical data studies"
 
 metadata:
   source:

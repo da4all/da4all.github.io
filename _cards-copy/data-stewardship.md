@@ -14,9 +14,9 @@ teaser: >
   Data stewardship can be understood as the “ ‘long-term care’ of valuable digital assets, with the goal that they should be discovered and re-used for downstream investigations, either alone, or in combination with newly generated data” (Wilkinson et al).
 
 keywords:
-  - "Digital Assets"
-  - "Data Reusability"
-  - "Data Reproducibility"
+  - "data reproducibility"
+  - "data reusability"
+  - "digital assets"
 
 metadata:
   source: "https://www.nature.com/articles/sdata201618"

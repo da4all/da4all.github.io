@@ -14,7 +14,7 @@ teaser: >
   This guide from Brown University Library offers a broad set of tutorials to assist naming and organizing files; storing, backing up, and versioning data; and documenting methods and describing data. On this website, you will also find links to a useful video series for data management from the University of Minnesota.
 
 keywords:
-  - “Data Management”
+  - "data management"
 
 metadata:
   Source: "https://libguides.brown.edu/c.php?g=1050339&p=7624258#s-lg-box-24213592"

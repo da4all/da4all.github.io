@@ -15,10 +15,10 @@ teaser: >
   This blog post, intended for a quick read, defines data ethics; identifies various reasons as to why data ethics is so important; outlines useful frameworks, guiding principles, and challenges of data ethics; and describes real world examples of data ethics, including the situations, concerns, and outcomes of each.
 
 keywords:
-  - "Data Ethics"
-  - "Frameworks"
-  - "Guiding Principles"
-  - "Data Ethics Examples"
+  - "data ethics examples"
+  - "data ethics"
+  - "frameworks"
+  - "guiding principles"
 
 metadata:
   source: https://atlan.com/data-ethics-101/#data-ethics-example-exploring-real-world-scenarios

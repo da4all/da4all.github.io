@@ -14,10 +14,10 @@ teaser: >
   This article, published in the online journal *CHANCE* by the American Statistical Association, provides examples of how inadequate data preparation can dramatically impact analysis and presents case studies that demonstrate why data inspection and preparation is such an important part of the data science life cycle.
 
 keywords:
-  - "data preparation"
-  - "data cleaning"
   - "bad data"
   - "data analysis"
+  - "data cleaning"
+  - "data preparation"
 
 metadata:
   source: "https://chance.amstat.org/2020/02/data-cleaning/"

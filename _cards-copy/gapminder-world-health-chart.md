@@ -14,11 +14,11 @@ teaser: >
   The World Health Chart on Gapminder's website is an interactive visualization tool that displays the relationship between income and life expectancy for countries worldwide. It presents this data as a graph where the x-axis represents income (GDP per capita) and the y-axis represents life expectancy. Each country is represented by a bubble, with the size of the bubble indicating population size.  The chart allows users to view data from 1800 to 2021, showing how countries have progressed over time in terms of health and wealth. Users can play an animation to see the changes occur dynamically or search for specific countries.  The page includes a video explanation by Hans Rosling, demonstrating the correlation between income and health across nations. It also offers downloadable resources such as printable PDFs, presentation files, and a fullscreen version of the chart.
 
 keywords:
-  - "Health data"
-  - "Global income"
-  - "Data visualization"
-  - “Data Analysis”
-  - "Gapminder"
+  - "data analysis"
+  - "data visualization"
+  - "gapminder"
+  - "global income"
+  - "health data"
 
 metadata:
   source: "https://www.gapminder.org/fw/world-health-chart/"

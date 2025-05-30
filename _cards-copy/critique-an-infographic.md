@@ -15,9 +15,9 @@ teaser: >
   This lesson plan offers instructions for a 20-30 minute activity in which students are challenged to rhetorically analyze a Greenpeace infographic about longline fishing. The ultimate goal of the activity is to give students practice aligning visuals with rhetorical purposes.
 
 keywords:
-  - "Visual Rhetoric"
-  - "Rhetoric of Data Visualization"
-  - "Infographics"
+  - "infographics"
+  - "rhetoric of data visualization"
+  - "visual rhetoric"
 
 metadata:
   source:

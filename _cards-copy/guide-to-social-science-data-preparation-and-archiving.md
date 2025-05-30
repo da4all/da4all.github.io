@@ -14,8 +14,8 @@ teaser: >
   The guide is a comprehensive compilation of best practices for archiving and preserving data. The guide offers a thorough definition of the data lifecycle and offers guidance on data management plans, data collection and file creation, data analysis, and deposits.
 
 keywords:
-  - “Data Management”
-  - “Data Lifecycle”
+  - "data lifecycle"
+  - "data management"
 
 metadata:
   Source: "https://www.icpsr.umich.edu/files/deposit/dataprep.pdf"
