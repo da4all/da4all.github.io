@@ -19,26 +19,6 @@ Welcome to the Data Advocacy for All Toolkit! This is a curated collection of te
   <i class="fa-regular fa-circle-question"></i> New to the toolkit? Learn more about our different <a href="../resource-types/">types of resources</a> and <a href="../literacy-domains/">literacy domains</a> of data advocacy.
 </div>
 
-<!-- Resource Type Filter Section -->
-
-<div class="filter-section mb-4">
-  <h3>Resource Types</h3>
-  <div class="button-grid resource-grid">
-    {% assign resources = site.data.cards.resources %}
-    {% for resource in resources %}
-    <button class="filter-btn resource-btn" data-filter="resource" data-value="{{ resource.name }}">
-      <i class="{{ resource.icon }}"></i>
-      {{ resource.name }}
-    </button>
-    {% endfor %}
-  </div>
-  <!-- uncomment to add a button to reset the filter
-  <button class="reset-btn" data-reset="resource">
-    Show All Resources
-  </button>
-  -->
-</div>
-
 <!-- Domain Filter Section -->
 <div class="filter-section mb-4">
   <h3>Literacy Domains</h3>
@@ -69,6 +49,26 @@ Welcome to the Data Advocacy for All Toolkit! This is a curated collection of te
       <!-- Populated dynamically by JavaScript -->
     </div>
   </div>
+</div>
+
+<!-- Resource Type Filter Section -->
+
+<div class="filter-section mb-4">
+  <h3>Resource Types</h3>
+  <div class="button-grid resource-grid">
+    {% assign resources = site.data.cards.resources %}
+    {% for resource in resources %}
+    <button class="filter-btn resource-btn" data-filter="resource" data-value="{{ resource.name }}">
+      <i class="{{ resource.icon }}"></i>
+      {{ resource.name }}
+    </button>
+    {% endfor %}
+  </div>
+  <!-- uncomment to add a button to reset the filter
+  <button class="reset-btn" data-reset="resource">
+    Show All Resources
+  </button>
+  -->
 </div>
 
 <!-- Search Section -->

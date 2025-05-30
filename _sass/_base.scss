@@ -2,9 +2,9 @@
  * Styles for the base elements of the theme. 
  ******************************************************************************/
 
-@import "layout";
-@import "variables";
-@import "themes";
+@use "layout";
+@use "variables";
+@use "themes";
 @import url("https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/themes/light.css");
 
 // Details & Summary
@@ -45,7 +45,7 @@ details details > *:not(summary) {
 // Typography
 
 body {
-  font-family: $base-font;
+  font-family: variables.$base-font;
   font-size: 1.03rem;
   letter-spacing: 0.01rem;
 }
@@ -68,7 +68,7 @@ h4 {
 }
 
 blockquote {
-  font-family: $base-font;
+  font-family: variables.$base-font;
   font-size: 8px;
 }
 
@@ -104,14 +104,14 @@ table {
 
 a {
   //color: #0056b3;
-  color: $link-color;
+  color: variables.$link-color;
   transition: all 0.2s ease-in-out; // Smooth transition for hover effects
   font-weight: 500;
 
   &:hover {
-    color: $blue-color-dark; // Darker on hover
+    color: variables.$blue-color-dark; // Darker on hover
     text-decoration: none;
-    background-color: $link-background-hover; // Light blue background
+    background-color: variables.$link-background-hover; // Light blue background
     border-radius: 2px;
   }
 
@@ -598,12 +598,12 @@ footer.sticky-bottom {
       color: var(--global-text-color);
 
       &:hover {
-        color: $black-color;
+        color: variables.$black-color;
       }
     }
 
     &.active .page-link {
-      color: $white-color;
+      color: variables.$white-color;
       background-color: var(--global-theme-color);
 
       &:hover {
@@ -808,7 +808,7 @@ footer.sticky-bottom {
         padding-bottom: 0.5rem;
         span {
           display: inline-block;
-          color: $black-color;
+          color: variables.$black-color;
           height: 100%;
           padding-right: 0.5rem;
           vertical-align: middle;
@@ -1205,12 +1205,12 @@ blockquote {
 sl-button[variant="primary"] {
   &::part(base) {
     // Base styles
-    color: $blue-color-dark; // text color
-    border-color: $blue-color-dark; // border color
+    color: variables.$blue-color-dark; // text color
+    border-color: variables.$blue-color-dark; // border color
 
     &:hover {
-      color: $white-color; // hover text color
-      background-color: $blue-color-dark; // hover background color
+      color: variables.$white-color; // hover text color
+      background-color: variables.$blue-color-dark; // hover background color
     }
   }
 }
@@ -1285,10 +1285,10 @@ sl-button[variant="primary"] {
   align-items: center;
   justify-content: center;
   padding: 0.75rem 1rem;
-  border: 2px solid $resource-btn-color-base;
+  border: 2px solid variables.$resource-btn-color-base;
   border-radius: 8px;
   background-color: white;
-  color: $resource-btn-color-base;
+  color: variables.$resource-btn-color-base;
   font-size: 1rem;
   font-weight: 500;
   transition: all 0.2s ease;
@@ -1300,12 +1300,12 @@ sl-button[variant="primary"] {
 }
 
 .filter-btn:hover {
-  background-color: $resource-btn-color-base;
+  background-color: variables.$resource-btn-color-base;
   color: white;
 }
 
 .filter-btn.active {
-  background-color: $resource-btn-color-base;
+  background-color: variables.$resource-btn-color-base;
   color: white;
   transform: scale(1.05);
 }
@@ -1313,20 +1313,20 @@ sl-button[variant="primary"] {
 /* Domain button styles */
 
 .domain-btn {
-  color: $domain-btn-color-base;
-  border-color: $domain-btn-color-base;
+  color: variables.$domain-btn-color-base;
+  border-color: variables.$domain-btn-color-base;
 }
 
 .domain-btn:hover {
-  color: $white-color;
-  background-color: $domain-btn-color-base;
-  border-color: $domain-btn-color-base;
+  color: variables.$white-color;
+  background-color: variables.$domain-btn-color-base;
+  border-color: variables.$domain-btn-color-base;
 }
 
 .domain-btn.active {
-  color: $white-color;
-  background-color: $domain-btn-color-base;
-  border-color: $domain-btn-color-base;
+  color: variables.$white-color;
+  background-color: variables.$domain-btn-color-base;
+  border-color: variables.$domain-btn-color-base;
 }
 
 /* Subdomain button styles */
@@ -1343,21 +1343,21 @@ sl-button[variant="primary"] {
   padding: 10px 5px;
   border-radius: 8px;
   transition: all 0.3s ease;
-  color: $subdomain-btn-color-base;
-  background-color: $white-color;
-  border: 1.8px solid $subdomain-btn-color-base;
+  color: variables.$subdomain-btn-color-base;
+  background-color: variables.$white-color;
+  border: 1.8px solid variables.$subdomain-btn-color-base;
 
   &:hover {
-    color: $subdomain-btn-active-text;
-    border-color: $subdomain-btn-color-base;
-    background-color: $subdomain-btn-active-background;
+    color: variables.$subdomain-btn-active-text;
+    border-color: variables.$subdomain-btn-color-base;
+    background-color: variables.$subdomain-btn-active-background;
   }
 
   &.active {
     transform: scale(1.05);
-    color: $subdomain-btn-active-text;
-    border-color: $subdomain-btn-color-base;
-    background-color: $subdomain-btn-active-background;
+    color: variables.$subdomain-btn-active-text;
+    border-color: variables.$subdomain-btn-color-base;
+    background-color: variables.$subdomain-btn-active-background;
   }
 }
 
@@ -1410,7 +1410,7 @@ sl-button[variant="primary"] {
   padding: 0.5rem 1rem;
   border: 2px solid #ddd;
   border-radius: 8px;
-  background-color: $white-color;
+  background-color: variables.$white-color;
   color: #333;
   font-size: 1rem;
   cursor: pointer;
@@ -1418,8 +1418,8 @@ sl-button[variant="primary"] {
 }
 
 .search-btn:hover {
-  background-color: $grey-color;
-  color: $white-color;
+  background-color: variables.$grey-color;
+  color: variables.$white-color;
 }
 
 /* Responsive adjustments */
