@@ -32,7 +32,7 @@ layout: default
             >{{ page.metadata.source | replace: '<br />', ', ' }}</a
           ><br />
           {% endif %} {% if page.metadata.license %}
-          <i class="fa-solid fa-quote-left"></i>&nbsp; License: {{
+          <i class="fa-solid fa-copyright"></i>&nbsp; License: {{
           page.metadata.license }}<br />
           {% endif %} {% if page.domain %}
           <i class="fa-solid fa-network-wired"></i>&nbsp; Domain: {% for domain
@@ -49,9 +49,13 @@ layout: default
           <br />
           {% endif %}
           <i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp;
-          Type of Resource: {{ page.resource }}</small
-        >
+          Type of Resource: {{ page.resource }} {% if page.metadata.citation %}
+          <br />
+          <i class="fa-solid fa-quote-left"></i>&nbsp; MLA Citation: {{
+          page.metadata.citation | replace: '<br />', ', ' }} {% endif %}
+        </small>
       </p>
+      <p class="page-description" style="font-size: 12px"></p>
     </div>
     <blockquote>
       <p class="page-description" style="font-size: 16px">
@@ -66,12 +70,6 @@ layout: default
         {% endfor %} {% endif %}
       </p>
     </blockquote>
-    <p class="page-description" style="font-size: 12px">
-      {% if page.metadata.citation %}
-      <strong>MLA Citation:</strong> {{ page.metadata.citation | replace: '<br />',
-      ', ' }} {% endif %}
-    </p>
-
     <hr class="solid" />
   </header>
 
