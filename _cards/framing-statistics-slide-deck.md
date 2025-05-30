@@ -15,10 +15,10 @@ teaser: >
   This slide deck, which can be used as a reading or an activity, introduces students to the rhetorical framework of framing theory and explores how this framework can be applied to study and generate statistics and statistical claims.
 
 keywords:
-  - "Statistics"
-  - "Quantitative Rhetoric"
-  - "Statistical Claims"
-  - "Data-driven Argument"
+  - "data-driven argument"
+  - "quantitative rhetoric"
+  - "statistical claims"
+  - "statistics"
 
 metadata:
   source: "https://docs.google.com/presentation/d/1tfYyfTKLohWEX2u8-s7louyPhrkVh2Gy/edit?usp=sharing&ouid=116941745404208628216&rtpof=true&sd=true"

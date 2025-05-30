@@ -14,8 +14,8 @@ teaser: >
   This scholarly article, which has been written for writing instructors, argues that textbooks, assignments, and professonial development training needs to focus more on quantitative information and reasoning. 
 
 keywords:
-  - “Rhetorical Data Studies”
-  - “Quantitative Reasoning”
+  - "quantitative reasoning"
+  - "rhetorical data studies"
 
 metadata:
   Source: "https://www.jstor.org/stable/40593335"

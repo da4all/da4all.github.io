@@ -15,11 +15,11 @@ teaser: >
   This slide deck, which can be used as a reading or an activity, briefly introduces nine questions to ask when evaluating the validity of a statistical claim. It then provides a series of statistical claims for students to evaluate and ends by asking students to apply this same type of evaluation to a statistical claim from their own project.
 
 keywords:
-  - "Statistical Thinking"
-  - "Statistical Claims"
-  - "Statistics"
-  - "Quantitative Rhetoric"
-  - "Data-driven Argument"
+  - "data-driven argument"
+  - "quantitative rhetoric"
+  - "statistical claims"
+  - "statistical thinking"
+  - "statistics"
 
 metadata:
   source: "https://docs.google.com/presentation/d/1de70VBYph_L6zMuZjsiad3KnMozWVpMh/edit?usp=sharing&ouid=116941745404208628216&rtpof=true&sd=true"

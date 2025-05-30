@@ -14,10 +14,10 @@ teaser: >
   This online tutorial introduces you to Deon, which is a command line tool that generates an ethics checklist to help decide if a data project is ethical. This tutorial explains how one can create a custom checklist or use a default checklist split into different sections based upon the stage of ones project. This tutorial also includes a bibliography of readings about data ethics.
 
 keywords:
-  - "Checklists"
-  - "Ethics"
-  - "Data Science"
-  - "Coding"
+  - "checklists"
+  - "coding"
+  - "data science"
+  - "ethics"
 
 metadata:
   source: https://deon.drivendata.org/

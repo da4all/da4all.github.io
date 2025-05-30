@@ -15,10 +15,10 @@ teaser: >
   This reading discusses how a decolonizing approach to data can help one better understand how data-based technologies often reproduce and reinforce colonial structures of inequality.  As the title suggests, the reading also offers six steps that one can take for decolonizing data when working for public good.
 
 keywords:
-  - "Decolonization"
-  - "Ethics"
-  - "Data Colonialism"
-  - "Data for Good"
+  - "data colonialism"
+  - "data for good"
+  - "decolonization"
+  - "ethics"
 
 metadata:
   source: 

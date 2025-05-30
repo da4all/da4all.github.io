@@ -15,9 +15,9 @@ teaser: >
   This slide deck asks students to consider the ways in which data visualizations, and visual rhetoric more broadly, can either help or fail to help an argument. It encourages students to evaluate the ethos, pathos, and logos of a visual, as well as how it responds to the exigence, audience, and purpose. It provides criteria and practice in distinguishing between actual data visualizations and the mere decorations that are so common in infographics. It also gives examples of situations in which words alone may remain more powerful than visuals. The slide deck with instructor notes could be used as a reading or an activity.
 
 keywords:
-  - "Rhetoric of Data Visualization"
-  - "Infographics"
-  - "Visual Rhetoric"
+  - "infographics"
+  - "rhetoric of data visualization"
+  - "visual rhetoric"
 
 metadata:
   source: "https://docs.google.com/presentation/d/1QViixQARlOtgmm-GvskzqwuEJTptQAyy/edit?usp=sharing&ouid=116941745404208628216&rtpof=true&sd=true"

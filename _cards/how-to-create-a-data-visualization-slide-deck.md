@@ -15,8 +15,8 @@ teaser: >
   These slides explain two different step-by-step methods for creating high-quality, professional-looking data visualizations without needing to pay for software or learn to code. They are intended to follow the Introduction to Data Visualization videos and provide a lead-in to the Create an Original Data Visualization assignment sequence. The slide deck with instructor notes could be used as a reading or an activity.
 
 keywords:
-  - "Visual Rhetoric"
-  - "Rhetoric of Data Visualization"
+  - "rhetoric of data visualization"
+  - "visual rhetoric"
 
 metadata:
   source: "https://docs.google.com/presentation/d/1QRrxBjmbkcoS7q9cG1FCt3l9t2309-04/edit?usp=sharing&ouid=116941745404208628216&rtpof=true&sd=true"

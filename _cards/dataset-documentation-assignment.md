@@ -16,11 +16,11 @@ teaser: >
   This assignment asks students to find a dataset to document and then leads them through a multi-step process of critical engagement with that dataset. The ultimate product is a set of documentation that is not merely technical but also critical and deeply contextual
 
 keywords:
-  - "Data Documentation"
-  - “Datasheets for Datasets”
-  - “Thick Data”
-  - “Data Biography”
-  - “Data Ethnography”
+  - "data biography"
+  - "data documentation"
+  - "data ethnography"
+  - "datasheets for datasets"
+  - "thick data"
 
 
 metadata:

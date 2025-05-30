@@ -14,8 +14,8 @@ teaser: >
   This primer overviews research data management and sharing practices for the planning, implementation and closing phases of typical research projects. This primer covers key aspects of data management, particularly data curation, and offers tangible suggestions for all stages of the research data lifecycle.
 
 keywords:
-  - “Data Management”
-  - “Data Lifecycle”
+  - "data lifecycle"
+  - "data management"
 
 metadata:
   Source: "https://www.icpsr.umich.edu/files/deposit/dataprep.pdf"

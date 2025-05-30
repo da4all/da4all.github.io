@@ -12,10 +12,10 @@ teaser: >
   Data feminism can be understood as a framework for thinking about data and its relation to power through the lens of intersectional feminism as well as working toward just data practices.
 
 keywords:
-- data feminism
-- data
-- feminism
-- justice
+  - "data feminism"
+  - "data"
+  - "feminism"
+  - "justice"
 
 metadata:
     source:

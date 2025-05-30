@@ -15,7 +15,7 @@ teaser: >
   Currently structured as a homework assignment tied to Data Feminism Chapter 3, this lesson could also be used as an in-class activity without the reading. It asks students to rhetorically analyze a provocative visualization published by National Geographic in 2010. 
 
 keywords:
-  - "Rhetoric of Data Visualization"
+  - "rhetoric of data visualization"
 
 
 metadata:

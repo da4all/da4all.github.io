@@ -1,7 +1,7 @@
 import os
 import re
 
-cards_dir = '_cards-copy'
+cards_dir = '_cards'
 
 def clean_multiline_keywords(front_matter):
     # Find the keywords block

@@ -14,11 +14,11 @@ teaser: >
   This article identifies practical guidelines for data management and data stewardship so that data can be published and preserved in ways that ensure transparency, reproducibility, and reusability.
 
 keywords:
-  - "Data Management"
-  - "Data Stewardship"
-  - "Data Reusability"
-  - "Data Transparency"
-  - "Data Reproducibility"
+  - "data management"
+  - "data reproducibility"
+  - "data reusability"
+  - "data stewardship"
+  - "data transparency"
 
 metadata:
   source: "https://www.nature.com/articles/sdata201618"

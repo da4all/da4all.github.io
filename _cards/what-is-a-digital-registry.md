@@ -14,9 +14,9 @@ teaser: >
   This webpage offers an easy to understand definition of data registry and describes key features, functions, and benefits of effective data registries.
 
 keywords:
-  - “Data Management”
-  - “Data Stewardship”
-  - “Data Sharing”
+  - "data management"
+  - "data sharing"
+  - "data stewardship"
 
 metadata:
   Source: "https://www.ituonline.com/tech-definitions/what-is-a-data-registry/"

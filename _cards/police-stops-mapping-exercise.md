@@ -14,11 +14,11 @@ teaser: >
   This tutorial provides a step-by-step introduction to making maps in R, an open-source programming language commonly used by data scientists. Instead of making maps using a point-and-click interface (as in the QGIS tutorial), students will learn to write basic code in the R programming language. Substantively, the tutorial leverages data from the Open Policing Project at Stanford University to make a map of county-level variation in racially biased traffic policing practices in the state of Colorado. Given the diversity and richness of the Stanford Open Policing Project dataset, instructors could easily adapt the lesson by using data on states or geographic locales relevant to their students. At the end of the tutorial, students are invited to explore various questions that invite them to think broadly about the relationship between maps and effective data advocacy.
 
 keywords:
-  - "Policing"
-  - "Systemic Racism"
-  - "Geographic Information Systems"
-  - "Spatial Data Science"
-  - "R Programming Language"
+  - "geographic information systems"
+  - "policing"
+  - "r programming language"
+  - "spatial data science"
+  - "systemic racism"
 
 metadata:
   source: "https://doi.org/10.25810/x6yz-6g18"

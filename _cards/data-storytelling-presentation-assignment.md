@@ -14,8 +14,8 @@ teaser: >
   This assignment prompts students to make a short video presentation in which they blend data points and vivid examples to tell a story about a statistical trend that sheds critical light on a social issue of their choosing.
 
 keywords:
-  - "Data Storytelling"
-  - "Persuading with Data"
+  - "data storytelling"
+  - "persuading with data"
 
 metadata:
   source: 

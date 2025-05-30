@@ -15,11 +15,11 @@ teaser: >
   This activity includes a set of discussion questions based on the article “The Leading Edge: What Inuit Can Teach Us About Climate Monitoring And Adaptation” from <i>Forbes Magazine</i>. These questions could form the basis for an in-class discussion or they could be used as prompts for a reading reflection and response assignment. 
 
 keywords:
-  - "Indigenous Knowledge"
-  - "Indigenous Rights"
-  - "Ways of Knowing"
-  - "Climate Change"
-  - "Global Warming"
+  - "climate change"
+  - "global warming"
+  - "indigenous knowledge"
+  - "indigenous rights"
+  - "ways of knowing"
 
 metadata:
   source: 

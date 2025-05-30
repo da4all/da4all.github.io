@@ -16,10 +16,10 @@ teaser: >
   In this article, Mimi Onuoha presents five theses about data collection that are important to keep in mind while working with data.
 
 keywords:
-  - "Data Collection"
-  - "Critical Data Studies"
-  - "Data Transparency"
-  - "Data Ethics"
+  - "critical data studies"
+  - "data collection"
+  - "data ethics"
+  - "data transparency"
 
 metadata:
   source: "https://medium.com/datasociety-points/the-point-of-collection-8ee44ad7c2fa"

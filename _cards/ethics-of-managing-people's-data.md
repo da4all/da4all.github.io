@@ -15,10 +15,10 @@ teaser: >
   This reading discusses the ethics of working with data from a business perspective and describes 5 key principles of ethical data handling: provenance, purpose, protection, privacy, and preparation.
 
 keywords:
-  - "Business"
-  - "Ethics"
-  - "Data Management"
-  - "AI"
+  - "ai"
+  - "business"
+  - "data management"
+  - "ethics"
 
 metadata:
   source: https://hbr.org/2023/07/the-ethics-of-managing-peoples-data

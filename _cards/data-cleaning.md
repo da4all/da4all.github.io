@@ -14,10 +14,10 @@ teaser: >
   In this brief article, Alice Macfarlan describes the motivation behind careful data preparation and outlines a set of steps and questions to ask oneself when preparing data. Macfarlan also provides links to more information about the process of and motivation for cleaning data.
 
 keywords:
-  - "data preparation"
-  - "data cleaning"
   - "bad data"
   - "data analysis"
+  - "data cleaning"
+  - "data preparation"
 
 metadata:
   source: "https://www.betterevaluation.org/methods-approaches/methods/data-cleaning#:~:text=Incorrect%20or%20inconsistent%20data%20can,important%20information%20or%20valid%20data"

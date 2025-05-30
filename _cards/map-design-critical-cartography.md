@@ -14,10 +14,10 @@ teaser: >
   This lesson plan introduces students to map design as a practice of visual rhetoric and critical cartography. Students comes to learn that while maps function as social and political technologies that can be used as agents of control or domination, maps can also be reconfigured as tools of emancipation or social change.    
 
 keywords:
-  - "Cartography"
-  - "Map design and symbology"
-  - "Counter-cartographies"
-  - "Map projections"
+  - "cartography"
+  - "counter-cartographies"
+  - "map design and symbology"
+  - "map projections"
 
 metadata:
   source: 

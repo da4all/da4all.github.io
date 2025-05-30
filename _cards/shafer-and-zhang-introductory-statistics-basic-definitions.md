@@ -14,10 +14,10 @@ teaser: >
   Douglas Shafer and Zhiyi Zhang’s open source textbook, Introductory Statistics, provides in its opening chapter a basic introduction to some of the key concepts and terms that form the basis of statistical analysis.  The resource provides an opportunity for students to begin developing a basic understanding of how statisticians view the world and produce knowledge about the world.
 
 keywords:
-  - "kinds of data"
-  - "population"
   - "descriptive statistics"
   - "inferential statistics"
+  - "kinds of data"
+  - "population"
   - "sample"
 
 metadata:

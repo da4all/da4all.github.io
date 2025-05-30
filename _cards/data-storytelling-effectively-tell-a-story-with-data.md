@@ -14,9 +14,9 @@ teaser: >
   In this article, Catherine Cote invokes recent research psychology to show that, in most cases, human brains are wired to prefer making meaning out of stories rather than raw data. Emphasizing organizational communication and business contexts, the article offers a useful, quasi-literary framework for doing data storytelling that adopts concepts such as setting, character, and conflict.
 
 keywords:
-  - "Data Storytelling"
-  - "Data Stories"
-  - "Persuading with Data"
+  - "data stories"
+  - "data storytelling"
+  - "persuading with data"
 
 metadata:
   source: "https://online.hbs.edu/blog/post/data-storytelling"

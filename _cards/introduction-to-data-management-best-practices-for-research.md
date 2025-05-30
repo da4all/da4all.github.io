@@ -14,7 +14,7 @@ teaser: >
   This webinar by UIC Library outlines best practices for the various steps of data management to help ease the research process as well as ensure sharing compliance. 
 
 keywords:
-  - “Data Management”
+  - "data management"
 
 metadata:
   Source: "https://youtu.be/shqEmRbSPek?si=6QYR7wzcxnT9-eSB"

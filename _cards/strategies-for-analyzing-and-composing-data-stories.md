@@ -14,9 +14,9 @@ Composing Data Stories"
 teaser: >
    This book chapter by Angela Laflen situates data stories as a genre of multimodal writing, while emphasizing the specific rhetorical skills that data storytelling requires. Data stories, Laflen explains, often take the form of social media infographs or online feature articles, and they involve combining data with words and images to tell a story or make an argument. The defining goal of the genre is to make data comprehensible and compelling, so that the insights to be gleaned from a dataset might be readily grasped by readers in a manner that will inform their decision making. Laflen’s piece also outlines a rhetorical framework for analyzing and creating data stories with students in university classroom contexts.
 keywords:
-  - "Data Storytelling"
-  - "Data Stories"
-  - "Persuading with Data"
+  - "data stories"
+  - "data storytelling"
+  - "persuading with data"
 
 metadata:
   source: "https://wac.colostate.edu/docs/books/writingspaces5/12Laflen.pdf"

@@ -15,8 +15,8 @@ teaser: >
 
 
 keywords:
-  - “Rhetorical Data Studies”
-  - “Rhetoric”
+  - "rhetoric"
+  - "rhetorical data studies"
 
 metadata:
   source: 

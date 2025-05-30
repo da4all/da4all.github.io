@@ -14,7 +14,7 @@ teaser: >
   This guide from Brown University Library discusses ideas for creating a digital notebook to document your data research and management process. It also provides links to and instructions for using Open Science Framework (OSF) and (ELN) to design and store digital notebooks for free.
 
 keywords:
-  - “Data Management”
+  - "data management"
 
 metadata:
   Source: "https://libguides.brown.edu/DataManagement/notebook"

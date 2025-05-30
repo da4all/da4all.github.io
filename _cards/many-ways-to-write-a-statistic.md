@@ -15,10 +15,10 @@ teaser: >
   This 30-45 minute in-class activity invites students to explore big rhetorical differences that can result from small changes in phrasing when statistical claims are relayed in words. 
 
 keywords:
-  - "Statistics"
-  - "Quantitative Rhetoric"
-  - "Statistical Claims"
-  - "Data-driven Argument"
+  - "data-driven argument"
+  - "quantitative rhetoric"
+  - "statistical claims"
+  - "statistics"
 
 metadata:
   source: 

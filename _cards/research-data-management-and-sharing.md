@@ -14,9 +14,8 @@ teaser: >
   This guide published by the University of Chicago Library defines and discusses the benefits of research data management and sharing. This guide also includes information about data management plans, data formats, data descriptions, and data storage.
 
 keywords:
-
-- “Data Management”
-- “Data Sharing”
+  - "data management"
+  - "data sharing"
 
 metadata:
 Source: "https://guides.lib.uchicago.edu/datamanagement"

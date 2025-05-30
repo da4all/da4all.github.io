@@ -15,8 +15,8 @@ teaser: >
   In this 20-minute in-class activity, students rhetorically analyze the flyer “Stand Pat Under Present Prosperity,” published by Theodore Roosevelt’s reelection campaign in 1904. The flyer is a masterful piece of visual rhetoric that affords excellent opportunities for students to analyze the careful choices by the designers that make the visualization more convincing.
 
 keywords:
-  - "Visual Rhetoric"
-  - "Rhetoric of Data Visualization"
+  - "rhetoric of data visualization"
+  - "visual rhetoric"
 
 
 metadata:

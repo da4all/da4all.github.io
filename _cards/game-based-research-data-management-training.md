@@ -14,7 +14,7 @@ teaser: >
   This website offers links to six different games that can provide an engaging and fun learning approach to data management.
 
 keywords:
-  - "Data Management"
+  - "data management"
 
 metadata:
   Source: "https://library.hkust.edu.hk/sc/rdm-games/"

@@ -14,10 +14,10 @@ teaser: >
   Data governance is best understood as both an organizational process and a structure that attempts to identify, address, and prevent problems with data in order to improve data quality through the creation of social-technical systems and enforcement of policies, roles, responsibilities, and procedures. Data governance is a continuous and iterative process of handling data throughout the information life cycle.
 
 keywords:
-  - "Data Collection"
-  - "Data Stewardship"
-  - "Data Sovereignty"
-  - "Data Governance"
+  - "data collection"
+  - "data governance"
+  - "data sovereignty"
+  - "data stewardship"
 
 metadata:
   Source: "https://nces.ed.gov/forum/ldsguide/book3/ch_1.asp"

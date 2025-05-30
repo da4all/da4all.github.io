@@ -14,9 +14,9 @@ teaser: >
   In this activity, students apply the concept of “thick data,” working in small groups to collection information about the customs, culture, and social practices of the student body at their school.
 
 keywords:
-  - "Thick Data"
-  - "Thick Description"
-  - "Ethnography"
+  - "ethnography"
+  - "thick data"
+  - "thick description"
 
 metadata:
   source:

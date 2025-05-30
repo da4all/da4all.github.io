@@ -14,11 +14,11 @@ teaser: >
   In this chapter of <i>Data Feminism</i>, Catherine D’Ignazio and Lauren Klein not only emphasize the ways data can both reinforce and challenge systems of oppression but also introduce notions and examples of data ethics so that practioners are better prepared to work toward equity and co-liberation in their data practices.
 
 keywords:
-  - "Data Feminism"
-  - "Critical Data Studies"
-  - "Data Justice"
-  - "Data Ethics"
-  - "Power Structures"
+  - "critical data studies"
+  - "data ethics"
+  - "data feminism"
+  - "data justice"
+  - "power structures"
 
 metadata:
   source: "https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4"

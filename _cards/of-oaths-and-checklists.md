@@ -15,9 +15,9 @@ teaser: >
   This reading discusses the value of using checklists for data projects and offers a checklist with 13 valuable questions to ask by people working on them.
 
 keywords:
-  - "Data Management"
-  - "Ethics"
-  - "Checklist"
+  - "checklist"
+  - "data management"
+  - "ethics"
 
 metadata:
   source: “https://www.oreilly.com/radar/of-oaths-and-checklists/”

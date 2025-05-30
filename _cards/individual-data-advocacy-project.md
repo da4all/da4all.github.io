@@ -15,9 +15,9 @@ teaser: >
   These two assignments are designed to form the final semester project in an upper-division writing course. Students begin with an informal project proposal, then create an original data visualization for use in the project, then draft and workshop the text to accompany the visualization. The final deliverable may assume numerous forms, including op/ed, white paper, or multimedia project.
 
 keywords:
-  - "Quantitative Rhetoric"
-  - "Statistical Claims"
-  - "Data-driven Argument"
+  - "data-driven argument"
+  - "quantitative rhetoric"
+  - "statistical claims"
 
 metadata:
   source:

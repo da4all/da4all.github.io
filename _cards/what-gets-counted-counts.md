@@ -16,10 +16,10 @@ teaser: >
   In Chapter 4 of their book Data Feminism, Catherine D’Ignazio and Lauren Klein urge us “to challenge the gender binary, along with other systems of counting and classification that perpetuate oppression.”
 
 keywords:
-  - "Data Classification"
-  - "Intersectional Feminism"
-  - "Gender Binary"
-  - "Quantification"
+  - "data classification"
+  - "gender binary"
+  - "intersectional feminism"
+  - "quantification"
 
 metadata:
   source: "https://data-feminism.mitpress.mit.edu/pub/h1w0nbqp"

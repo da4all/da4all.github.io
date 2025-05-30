@@ -14,11 +14,11 @@ teaser: >
   The FAIR principles function as a guide for data publishers and stewards to help render data and digital assets so that they are Findable, Accessible, Interoperable, and Reusable.
 
 keywords:
-  - "Digital Assets"
-  - "Data Reusability"
-  - "Data Reproducibility"
-  - “Data Management”
-  - “Data Stewardship”
+  - "data management"
+  - "data reproducibility"
+  - "data reusability"
+  - "data stewardship"
+  - "digital assets"
 
 metadata:
   source: "https://www.nature.com/articles/sdata201618"

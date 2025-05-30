@@ -14,8 +14,8 @@ teaser: >
   This resource provides a useful primer on data repositories. It focuses specifically on NIH-funded research, but also contains a lot of useful general information (such as a discussion of different repository types, repository features, and considerations for sensitive data).
 
 keywords:
-  - Data Management
-  - Data Stewardship
+  - "data management"
+  - "data stewardship"
 
 metadata:
   Source: "https://dataworks.faseb.org/helpdesk/kb/guide-to-choosing-a-data-repository"
