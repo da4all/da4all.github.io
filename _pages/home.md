@@ -23,9 +23,9 @@ social: false # includes social icons at the bottom of the page
 
 <div>
 <center>
-  <sl-button variant="primary" size="large" outline href="../literacy-domains/"><sl-icon name="book"></sl-icon> The Literacy Domains</sl-button>
-  <sl-button variant="primary" size="large" outline href="../toolkit/"><sl-icon name="wrench-adjustable"></sl-icon> The Toolkit</sl-button>
-  <sl-button variant="primary" size="large" outline href="../about/"><sl-icon name="bar-chart-fill"></sl-icon> About The Project</sl-button>
+  <sl-button variant="primary" size="large" outline href="{{ site.baseurl }}/literacy-domains/"><sl-icon name="book"></sl-icon> The Literacy Domains</sl-button>
+  <sl-button variant="primary" size="large" outline href="{{ site.baseurl }}/toolkit/"><sl-icon name="wrench-adjustable"></sl-icon> The Toolkit</sl-button>
+  <sl-button variant="primary" size="large" outline href="{{ site.baseurl }}/about/"><sl-icon name="bar-chart-fill"></sl-icon> About The Project</sl-button>
 </center>
 </div>
 <br>
