@@ -9,17 +9,16 @@ subdomain:
 
 sample_resource: false
 
-title: "Analysis of National Geographic's "Fish Pharm" Visualization"
+title: "Analysis of National Geographic's 'Fish Pharm' Visualization"
 
 teaser: >
-  Currently structured as a homework assignment tied to Data Feminism Chapter 3, this lesson could also be used as an in-class activity without the reading. It asks students to rhetorically analyze a provocative visualization published by National Geographic in 2010. 
+  Currently structured as a homework assignment tied to Data Feminism Chapter 3, this lesson could also be used as an in-class activity without the reading. It asks students to rhetorically analyze a provocative visualization published by National Geographic in 2010.
 
 keywords:
   - "Rhetoric Of Data Visualization"
 
-
 metadata:
-  source: 
+  source:
   author: "Nathan Pieplow"
   date: "2024-07-25"
   license: "CC BY-NC-SA"
@@ -40,7 +39,7 @@ In its graphic design and information design, Oliver Uberti’s “Fish Pharm”
 
 - Does “Fish Pharm” visceralize the nature of pharmaceuticals in water systems? If so, how?
 
-Note that “Fish Pharm’s” information design can be strongly critiqued. 
+Note that “Fish Pharm’s” information design can be strongly critiqued.
 
 - It is a type of area chart, similar to a pie chart but in a different shape, so its entire purpose is to show the proportion of parts in relation to a whole. But the fine print at lower left clarifies that this visualization only represents four pharmaceutical types found during one study of Chicago’s North Shore Channel. So what does the “whole fish” represent? It can’t be the whole set of pharmaceuticals in the water, and it’s clearly not the whole water content. It’s just an arbitrary “whole” created from four arbitrary pharmaceuticals. The proportions of these four drugs to one another is nearly meaningless. What we really care about is their occurrence in proportion to the threat they pose, but the fine print at lower right makes clear that nobody yet knows that – so the visualization might end up stoking fear without having the data to back it up. Some people might find that laudable, some might not.
 

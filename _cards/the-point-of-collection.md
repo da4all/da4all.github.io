@@ -26,5 +26,5 @@ metadata:
   author: "Mimi Onuoha"
   date: "2016-02-10"
   license:
-  citation: "Onuoha, Mimi. "The Point of Collection." Data & Society: Points, 31 Oct. 2016, https://points.datasociety.net/the-point-of-collection-8ee44ad7c2fa."
+  citation: "Onuoha, Mimi. 'The Point of Collection.' Data & Society: Points, 31 Oct. 2016, https://points.datasociety.net/the-point-of-collection-8ee44ad7c2fa."
 ---

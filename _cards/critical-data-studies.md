@@ -3,7 +3,7 @@ layout: card
 inline: false
 resource: Reading
 domain: Understanding Data
-subdomain:   Critiquing Data
+subdomain: Critiquing Data
 sample_resource: true
 
 title: "Critical Data Studies: An Introduction"
@@ -21,7 +21,7 @@ metadata:
   author: Andrew Iliadis and Federica Russo
   date:
   license: Creative Commons CC-BY
-  citation: "Iliadis, Andrew and Federica Russo. 2016. "Critical Data Studies: An Introduction." Big Data & Society, vol. 3, no. 2, 2016. (Creative Commons CC-BY)."
+  citation: "Iliadis, Andrew and Federica Russo. 2016. 'Critical Data Studies: An Introduction.' Big Data & Society, vol. 3, no. 2, 2016. (Creative Commons CC-BY)."
   align: right
 ---
 
