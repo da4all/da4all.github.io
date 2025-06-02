@@ -5,7 +5,11 @@ cards_dir = '_cards-copy'
 
 def clean_multiline_keywords(front_matter):
     # Replace all non-standard quotes in the entire front matter
-    front_matter = front_matter.replace('“', '"').replace('”', '"').replace('‘', '"').replace('’', '"')
+    front_matter = (
+        front_matter
+        .replace('“', '"').replace('”', '"')
+        .replace('‘', "'").replace('’', "'")
+    )
     # Find the keywords block
     pattern = re.compile(
         r'(^keywords:\s*\n((?:[ \t]*-[^\n]*\n)+))',
