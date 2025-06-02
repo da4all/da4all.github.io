@@ -197,6 +197,22 @@ blockquote {
     color: var(--global-text-color);
   }
 
+  .card-text {
+    font-size: 1rem;
+    color: var(--global-text-color);
+    margin-bottom: 0.5em;
+  }
+
+  .card-text.keyword {
+    margin-top: 10px;
+    .keywords-list {
+      font-weight: 400;
+      span {
+        margin-right: 0.5em;
+      }
+    }
+  }
+
   .card-item {
     width: auto;
     margin-bottom: 0px;

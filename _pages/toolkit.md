@@ -7,13 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-Welcome to the Data Advocacy for All Toolkit! This is a curated collection of teaching resources designed to support data advocacy, including readings, assignments, lesson plans, and more. Use the buttons below to filter resources by their <code>Resource Type</code> and <code style="background-color: rgba(0, 54, 159, 0.1); color: #00369f; padding: 2px 4px; border-radius: 4px;">Literacy Domain/Subdomain</code>, or search for specific topics or keywords across the resources.
-
-<!--
-<blockquote class="block-warning">
-<p><i class="fa-regular fa-circle-question"></i>New to the toolkit? Learn about our <b><a href="../resource-types/">types of resources</a></b> and <b><a href="../literacy-domains/">literacy domains & subdomains</a></b>.</p>
-</blockquote>
--->
+Welcome to the Data Advocacy for All Toolkit! This is a curated collection of teaching resources designed to support data advocacy, including readings, assignments, lesson plans, and more. Use the buttons below to filter resources by their <code style="background-color: rgba(0, 54, 159, 0.1); color: #00369f; padding: 2px 4px; border-radius: 4px;">Literacy Domain/Subdomain</code> and <code>Resource Type</code>, or search for specific topics or keywords across the resources.
 
 <div class="help-banner" style="justify-content: center">
   <i class="fa-regular fa-circle-question"></i> New to the toolkit? Learn more about our different <a href="../resource-types/">types of resources</a> and <a href="../literacy-domains/">literacy domains</a> of data advocacy.
@@ -137,12 +131,24 @@ Welcome to the Data Advocacy for All Toolkit! This is a curated collection of te
                       {% endif %}
                     </p>
                     {% if card.keywords.size > 0 %}
-                      <hr class="solid">
-                      <p class="card-text test-muted keyword"><small>Keywords: {% for keyword in card.keywords %}<i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;{% endfor %}</small></p>
+                      <!--<p class="card-text test-muted keyword"><small>Keywords: {% for keyword in card.keywords %}<i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;{% endfor %}</small></p>-->
+                      <p class="card-text keyword"><small>Keywords: <span class="keywords-list">
+                        {% for keyword in card.keywords %}
+                          {%- assign words = keyword | split: ' ' -%}
+                          {%- assign titlecase = '' -%}
+                          {%- for word in words -%}
+                            {%- assign first = word | slice: 0, 1 | upcase -%}
+                            {%- assign rest = word | slice: 1 -%}
+                            {%- assign titlecase = titlecase | append: first | append: rest -%}
+                            {%- unless forloop.last -%}
+                              {%- assign titlecase = titlecase | append: ' ' -%}
+                            {%- endunless -%}
+                          {%- endfor -%}
+                          {{ titlecase }}{% unless forloop.last %}, {% endunless %}
+                        {% endfor %}
+                      </span></small></p>
                     {% endif %}
-                    {% if card.metadata.source or card.metadata.license %}
-                      <hr class="solid">
-                    {% endif %}
+                    <hr class="solid">
                     <p class="card-text">
                       {% assign domain_array = card.domain %}
                       <small class="test-muted resource"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ card.resource }}&nbsp;&nbsp;//&nbsp;&nbsp;</small>
