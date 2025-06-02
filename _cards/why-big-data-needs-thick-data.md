@@ -23,5 +23,5 @@ metadata:
   author: "Tricia Wang"
   date: "2016-01-20"
   license: ""
-  citation: "Tricia Wang, 'Why Big Data Needs Thick Data' Ethnography Matters (Jan 20, 2016) https://medium.com/ethnography-matters/why-big-data-needs-thick-data-b4b3e75e3d7"
+  citation: "Tricia Wang, 'Why Big Data Needs Thick Data,' Ethnography Matters (Jan 20, 2016) https://medium.com/ethnography-matters/why-big-data-needs-thick-data-b4b3e75e3d7"
 ---

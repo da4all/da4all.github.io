@@ -132,19 +132,10 @@ Welcome to the Data Advocacy for All Toolkit! This is a curated collection of te
                     </p>
                     {% if card.keywords.size > 0 %}
                       <!--<p class="card-text test-muted keyword"><small>Keywords: {% for keyword in card.keywords %}<i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;{% endfor %}</small></p>-->
-                      <p class="card-text keyword"><small>Keywords: <span class="keywords-list">
+                      <p class="card-text keyword"><small><i class="fa-solid fa-tag"></i> Keywords: <span class="keywords-list">
                         {% for keyword in card.keywords %}
-                          {%- assign words = keyword | split: ' ' -%}
-                          {%- assign titlecase = '' -%}
-                          {%- for word in words -%}
-                            {%- assign first = word | slice: 0, 1 | upcase -%}
-                            {%- assign rest = word | slice: 1 -%}
-                            {%- assign titlecase = titlecase | append: first | append: rest -%}
-                            {%- unless forloop.last -%}
-                              {%- assign titlecase = titlecase | append: ' ' -%}
-                            {%- endunless -%}
-                          {%- endfor -%}
-                          {{ titlecase }}{% unless forloop.last %}, {% endunless %}
+                          {{ keyword -}}
+                          {% unless forloop.last %}, {% endunless %}
                         {% endfor %}
                       </span></small></p>
                     {% endif %}
