@@ -1,9 +1,11 @@
 import os
 import re
 
-cards_dir = '_cards'
+cards_dir = '_cards-copy'
 
 def clean_multiline_keywords(front_matter):
+    # Replace all non-standard quotes in the entire front matter
+    front_matter = front_matter.replace('“', '"').replace('”', '"').replace('‘', '"').replace('’', '"')
     # Find the keywords block
     pattern = re.compile(
         r'(^keywords:\s*\n((?:[ \t]*-[^\n]*\n)+))',
@@ -11,14 +13,13 @@ def clean_multiline_keywords(front_matter):
     )
     def repl(match):
         block = match.group(2)
-        keywords = [line.strip()[2:].strip().lower() for line in block.splitlines() if line.strip().startswith('-')]
-        # Replace non-standard quotation marks with plain text equivalents and wrap in double quotes if not already
+        keywords = [line.strip()[2:].strip() for line in block.splitlines() if line.strip().startswith('-')]
+        # Convert to title case and wrap in double quotes if not already
         cleaned_keywords = []
         for k in keywords:
-            k = k.replace('“', '"').replace('”', '"')
-            k = k.replace('‘', "'").replace('’', "'")
-            k = k.strip()
-            # Wrap in double quotes if not already
+            #k = k.replace('“', '"').replace('”', '"')
+            #k = k.replace('‘', "'").replace('’', "'")
+            k = k.strip().title()
             if not (k.startswith('"') and k.endswith('"')):
                 k = f'"{k.strip("\"")}"'
             cleaned_keywords.append(k)
