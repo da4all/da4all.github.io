@@ -14,13 +14,13 @@ teaser: >
   In this recorded lecture with slide presentation, Joanna Wolfe calls for a rhetorical education that combines verbal and mathematical literacies to help students better understand how numbers are used in the service of argument at public, professional, and personal levels.
 
 keywords:
-  - "quanitative data"
-  - "rhetorical data studies"
+  - "Quanitative Data"
+  - "Rhetorical Data Studies"
 
 metadata:
   Source: "https://www.dwrl.utexas.edu/2016](https://www.youtube.com/watch?v=Nhj5abcnXXk"
   author: "Joanna Wolfe"
-  date: “2016”
+  date: "2016"
   license: 
-  citation: "Wolfe, Joanna. 2016. ‘Rhetorical Numbers: Quantitative Argument Across the Curriculum.’ https://www.youtube.com/watch?v=Nhj5abcnXXk). Accessed 8 December 2024."
+  citation: "Wolfe, Joanna. 2016. 'Rhetorical Numbers: Quantitative Argument Across the Curriculum.' https://www.youtube.com/watch?v=Nhj5abcnXXk). Accessed 8 December 2024."
 ---

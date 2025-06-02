@@ -14,18 +14,18 @@ teaser: >
   This article identifies practical guidelines for data management and data stewardship so that data can be published and preserved in ways that ensure transparency, reproducibility, and reusability.
 
 keywords:
-  - "data management"
-  - "data reproducibility"
-  - "data reusability"
-  - "data stewardship"
-  - "data transparency"
+  - "Data Management"
+  - "Data Reproducibility"
+  - "Data Reusability"
+  - "Data Stewardship"
+  - "Data Transparency"
 
 metadata:
   source: "https://www.nature.com/articles/sdata201618"
   author: "Mark Wilkinson et al"
   date: "2016-03-15"
   license: 
-  citation: "Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. ‘The FAIR Guiding Principles for Scientific Data Management and Stewardship.’ Scientific Data 3 (2016). https://doi.org/10.1038/sdata.2016.18"
+  citation: "Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. 'The FAIR Guiding Principles for Scientific Data Management and Stewardship.' Scientific Data 3 (2016). https://doi.org/10.1038/sdata.2016.18"
 ---
 
 

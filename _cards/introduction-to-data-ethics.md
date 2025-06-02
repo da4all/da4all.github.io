@@ -14,9 +14,9 @@ teaser: >
   This reading, divided into five parts, introduces students to the ethics of data practice and includes discussions about data benefits and harms; challenges and obligations of ethical data practice; and ethical frameworks and best practices for data practitioners.  
 
 keywords:
-  - "data advocacy"
-  - "data ethics"
-  - "public good"
+  - "Data Advocacy"
+  - "Data Ethics"
+  - "Public Good"
 
 metadata:
   source: "https://www.scu.edu/ethics/focus-areas/technology-ethics/resources/an-introduction-to-data-ethics/"

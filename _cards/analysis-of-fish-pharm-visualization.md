@@ -9,13 +9,13 @@ subdomain:
 
 sample_resource: false
 
-title: "Analysis of National Geographic’s “Fish Pharm” Visualization"
+title: "Analysis of National Geographic's "Fish Pharm" Visualization"
 
 teaser: >
   Currently structured as a homework assignment tied to Data Feminism Chapter 3, this lesson could also be used as an in-class activity without the reading. It asks students to rhetorically analyze a provocative visualization published by National Geographic in 2010. 
 
 keywords:
-  - "rhetoric of data visualization"
+  - "Rhetoric Of Data Visualization"
 
 
 metadata:

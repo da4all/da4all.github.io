@@ -15,16 +15,16 @@ teaser: >
   This lesson plan offers instructions for a 20-30 minute activity in which students are challenged to rhetorically analyze a Greenpeace infographic about longline fishing. The ultimate goal of the activity is to give students practice aligning visuals with rhetorical purposes.
 
 keywords:
-  - "infographics"
-  - "rhetoric of data visualization"
-  - "visual rhetoric"
+  - "Infographics"
+  - "Rhetoric Of Data Visualization"
+  - "Visual Rhetoric"
 
 metadata:
   source:
   author: "Nathan Pieplow"
   date: "2024-07-27"
   license: "CC BY-NC-SA"
-  citation: "Pieplow, Nathan. ‘Critique of the Longline Fishing Infographic’’ (lesson plan). Data Advocacy 4 All, University of Colorado. 27 July 2024 "
+  citation: "Pieplow, Nathan. 'Critique of the Longline Fishing Infographic'' (lesson plan). Data Advocacy 4 All, University of Colorado. 27 July 2024 "
 ---
 
 # Instructor Note: This lesson plan offers instructions for a 20-30 minute activity in which students are challenged to rhetorically analyze a Greenpeace infographic about longline fishing. The activity assigns a different part of the infographic to each small group, so that they can analyze its visual rhetoric and report back to the whole class. The goal of the activity is to provide students with practice in matching visuals to their rhetorical purposes. This activity is designed to follow the slide deck titled “To Visualize or Not?”

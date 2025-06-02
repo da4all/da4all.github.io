@@ -14,10 +14,10 @@ teaser: >
   In this whitepaper crafted for Data Advocacy for All, data advocacy is defined and explained as a deeply rhetorical and ethical action while rhetorical data studies is forwarded as a critical and constructive framework for helping students learn how to ethically collect, process, and deploy data alongside narratives and other rhetorical strategies. 
 
 keywords:
-  - "data advocacy"
-  - "data"
-  - "rhetoric"
-  - "storytelling"
+  - "Data Advocacy"
+  - "Data"
+  - "Rhetoric"
+  - "Storytelling"
 
 metadata:
     source:

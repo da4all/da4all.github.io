@@ -11,14 +11,14 @@ sample_resource: false
 title: "Understanding and Applying Key Statistical Concepts"
 
 teaser: >
-  Douglas Shafer and Zhiyi Zhang’s open source textbook, Introductory Statistics, provides in its opening chapter a basic introduction to some of the key concepts and terms that form the basis of statistical analysis.  The resource provides an opportunity for students to begin developing a basic understanding of how statisticians view the world and produce knowledge about the world.
+  Douglas Shafer and Zhiyi Zhang's open source textbook, Introductory Statistics, provides in its opening chapter a basic introduction to some of the key concepts and terms that form the basis of statistical analysis.  The resource provides an opportunity for students to begin developing a basic understanding of how statisticians view the world and produce knowledge about the world.
 
 keywords:
-  - "descriptive statistics"
-  - "inferential statistics"
-  - "kinds of data"
-  - "population"
-  - "sample"
+  - "Descriptive Statistics"
+  - "Inferential Statistics"
+  - "Kinds Of Data"
+  - "Population"
+  - "Sample"
 
 metadata:
   source: "https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_(Shafer_and_Zhang)/01%3A_Introduction_to_Statistics"

@@ -14,11 +14,11 @@ teaser: >
   This data advocacy project tracks hate and anti-government groups across the United States.
 
 keywords:
-  - "data visualization"
-  - "hate tracking"
-  - "mapping"
-  - "public good"
-  - "social advocacy"
+  - "Data Visualization"
+  - "Hate Tracking"
+  - "Mapping"
+  - "Public Good"
+  - "Social Advocacy"
 
 metadata:
   source: https://www.splcenter.org/hate-map

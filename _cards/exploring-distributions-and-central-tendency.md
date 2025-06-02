@@ -15,9 +15,9 @@ teaser: >
   This lesson plan introduces students to some of the foundational tools and concepts for basic descriptive statistics, emphasizing measures of central tendency.  Students will spend some time defining key terms, and then will see those concepts in action through analyzing a dataset they create.
 
 keywords:
-  - "descriptive statistics"
-  - "measures of central tendency"
-  - "statistical analysis"
+  - "Descriptive Statistics"
+  - "Measures Of Central Tendency"
+  - "Statistical Analysis"
 
 metadata:
   source: 

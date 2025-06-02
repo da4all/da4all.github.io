@@ -11,14 +11,14 @@ sample_resource: true
 title: "Dear Data"
 
 teaser: >
-  This assignment, which is inspired by Giorgia Lupi and Stefanie Posavec’s project <i>Dear Data</i>, challenges students to collect data from their daily lives and to reflect critically on the data collection practice.
+  This assignment, which is inspired by Giorgia Lupi and Stefanie Posavec's project <i>Dear Data</i>, challenges students to collect data from their daily lives and to reflect critically on the data collection practice.
 
 metadata:
   source:
   author: "Cameron Blevins"
   date: "2024-07-12"
   license: "License Type: CC BY"
-  citation: "Cameron Blevins, ‘Dear Data,’ Data Advocacy For All"
+  citation: "Cameron Blevins, 'Dear Data,' Data Advocacy For All"
 ---
 
 ## Assignment Overview

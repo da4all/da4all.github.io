@@ -12,16 +12,16 @@ teaser: >
   In this scholarly essay, the authors identify the relations between data and power and, among other things, briefly describe the framework of Critical Data Studies, its orientations, and principles.
 
 keywords:
-  - "big data"
-  - "critical data studies"
-  - "data as power"
+  - "Big Data"
+  - "Critical Data Studies"
+  - "Data As Power"
 
 metadata:
   source: https://journals.sagepub.com/doi/10.1177/2053951716674238
   author: Andrew Iliadis and Federica Russo
   date:
   license: Creative Commons CC-BY
-  citation: "Iliadis, Andrew and Federica Russo. 2016. “Critical Data Studies: An Introduction.” Big Data & Society, vol. 3, no. 2, 2016. (Creative Commons CC-BY)."
+  citation: "Iliadis, Andrew and Federica Russo. 2016. "Critical Data Studies: An Introduction." Big Data & Society, vol. 3, no. 2, 2016. (Creative Commons CC-BY)."
   align: right
 ---
 

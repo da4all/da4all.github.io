@@ -1,7 +1,7 @@
 import os
 import re
 
-cards_dir = '_cards-copy'
+cards_dir = '_cards-copy' # use this for testing, change to the _cards directory once you're sure it's working
 
 def clean_multiline_keywords(front_matter):
     # Replace all non-standard quotes in the entire front matter

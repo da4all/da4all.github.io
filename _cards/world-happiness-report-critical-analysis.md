@@ -12,20 +12,20 @@ sample_resource: true
 title: "Critically Analyzing the World Happiness Report"
 
 teaser: >
-    This activity invites students to think about the variables included in the World Happiness Report dataset, about the relations between variables, and about the advantages and disadvantages of the authors’ approach to measuring happiness. This exercise is designed to help cultivate habits of critical reflection and to provide practice in data analysis, including reflection on correlation.
+    This activity invites students to think about the variables included in the World Happiness Report dataset, about the relations between variables, and about the advantages and disadvantages of the authors' approach to measuring happiness. This exercise is designed to help cultivate habits of critical reflection and to provide practice in data analysis, including reflection on correlation.
 
 keywords:
-  - "critical reflection"
-  - "data analysis"
-  - "global data"
-  - "world happiness"
+  - "Critical Reflection"
+  - "Data Analysis"
+  - "Global Data"
+  - "World Happiness"
 
 metadata:
   source: "https://worldhappiness.report/ed/2023/#appendices-and-data"
   author: " J. F. Helliwell, Layard, R., Sachs, J. D., Aknin, L. B., De Neve, J.-E., & Wang, S. , eds."
   date: "2023"
   license: 
-  citation: "Helliwell, John F., et al. ‘World Happiness Report 2023.’ Worldhappiness.report, 20 Mar. 2023, worldhappiness.report/ed/2023/."
+  citation: "Helliwell, John F., et al. 'World Happiness Report 2023.' Worldhappiness.report, 20 Mar. 2023, worldhappiness.report/ed/2023/."
 ---
 
 _Instructor Information:_

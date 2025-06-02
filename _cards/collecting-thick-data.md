@@ -11,19 +11,19 @@ sample_resource: false
 title: "Collecting Thick Data"
 
 teaser: >
-  In this activity, students apply the concept of “thick data,” working in small groups to collection information about the customs, culture, and social practices of the student body at their school.
+  In this activity, students apply the concept of "thick data," working in small groups to collection information about the customs, culture, and social practices of the student body at their school.
 
 keywords:
-  - "ethnography"
-  - "thick data"
-  - "thick description"
+  - "Ethnography"
+  - "Thick Data"
+  - "Thick Description"
 
 metadata:
   source:
   author: "Cameron Blevins"
   date: "2024-07-08"
   license: "License Type: CC BY"
-  citation: "Cameron Blevins, ‘Collecting Thick Data.’ Data Advocacy For All"
+  citation: "Cameron Blevins, 'Collecting Thick Data.' Data Advocacy For All"
 ---
 
 ## Overview

@@ -14,7 +14,7 @@ teaser: >
   This activity challenges students to consider what data is from different perspectives, sources, and fields of inquiry as well as reflect on their own understandings of data.
 
 keywords:
-  - "data"
+  - "Data"
 
 metadata:
   source:

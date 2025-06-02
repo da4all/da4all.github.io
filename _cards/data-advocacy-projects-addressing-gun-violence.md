@@ -11,7 +11,7 @@ sample_resource: false
 title: "Advocacy Projects addressing Gun Violence"
 
 teaser: >
-  Links to three data advocacy projects addressing gun violence. Note: These projects are included in the activity titled “Rhetorical Analysis of Data Advocacy Projects,” which can be accessed in the DA4All toolkit under the Thinking Rhetorically about Data subdomain.
+  Links to three data advocacy projects addressing gun violence. Note: These projects are included in the activity titled "Rhetorical Analysis of Data Advocacy Projects," which can be accessed in the DA4All toolkit under the Thinking Rhetorically about Data subdomain.
 
 Keywords:
 

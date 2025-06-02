@@ -14,15 +14,15 @@ teaser: >
   This assignment prompts students to make a short video presentation in which they blend data points and vivid examples to tell a story about a statistical trend that sheds critical light on a social issue of their choosing.
 
 keywords:
-  - "data storytelling"
-  - "persuading with data"
+  - "Data Storytelling"
+  - "Persuading With Data"
 
 metadata:
   source: 
   author: "John Tinnell"
   date: "2024-07-16"
   license: "License Type: CC BY"
-  citation: "Tinnell John. ‘Data Storytelling Presentation Assignment.’ Data Advocacy For All"
+  citation: "Tinnell John. 'Data Storytelling Presentation Assignment.' Data Advocacy For All"
 ---
 
 ## Assignment Guidelines

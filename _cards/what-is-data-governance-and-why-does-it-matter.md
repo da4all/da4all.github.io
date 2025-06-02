@@ -14,9 +14,9 @@ teaser: >
   This book chapter defines what data governance is and identifies several of its affordances–from improving data quality to increasing data usefulness to providing timelier access and enhanced security.
 
 keywords:
-  - "data governance"
-  - "data management"
-  - "data stewardship"
+  - "Data Governance"
+  - "Data Management"
+  - "Data Stewardship"
 
 metadata:
   source: https://nces.ed.gov/forum/ldsguide/book3/ch_1.asp

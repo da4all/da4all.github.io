@@ -9,14 +9,14 @@ subdomain:
 
 sample_resource: false
 
-title: "Analysis of Theodore Roosevelt’s Reelection Flyer (lesson plan)"
+title: "Analysis of Theodore Roosevelt's Reelection Flyer (lesson plan)"
 
 teaser: >
-  In this 20-minute in-class activity, students rhetorically analyze the flyer “Stand Pat Under Present Prosperity,” published by Theodore Roosevelt’s reelection campaign in 1904. The flyer is a masterful piece of visual rhetoric that affords excellent opportunities for students to analyze the careful choices by the designers that make the visualization more convincing.
+  In this 20-minute in-class activity, students rhetorically analyze the flyer "Stand Pat Under Present Prosperity," published by Theodore Roosevelt's reelection campaign in 1904. The flyer is a masterful piece of visual rhetoric that affords excellent opportunities for students to analyze the careful choices by the designers that make the visualization more convincing.
 
 keywords:
-  - "rhetoric of data visualization"
-  - "visual rhetoric"
+  - "Rhetoric Of Data Visualization"
+  - "Visual Rhetoric"
 
 
 metadata:
@@ -24,7 +24,7 @@ metadata:
   author: "Nathan Pieplow"
   date: "2024-07-27"
   license: "CC BY-NC-SA"
-  citation: "Pieplow, Nathan. ‘Analysis of Theodore Roosevelt’s Reelection Flyer’’ (lesson plan). Data Advocacy 4 All, University of Colorado. 27 July 2024"
+  citation: "Pieplow, Nathan. 'Analysis of Theodore Roosevelt's Reelection Flyer'' (lesson plan). Data Advocacy 4 All, University of Colorado. 27 July 2024"
 ---
 
 # Lesson Plan

@@ -15,9 +15,9 @@ teaser: >
 
 
 keywords:
-  - "descriptive statistics"
-  - "measures of variation"
-  - "statistical analysis"
+  - "Descriptive Statistics"
+  - "Measures Of Variation"
+  - "Statistical Analysis"
 
 metadata:
   source: 

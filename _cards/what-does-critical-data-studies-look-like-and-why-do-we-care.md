@@ -11,14 +11,14 @@ sample_resource: false
 title: "What does Critical Data Studies look like and Why do we Care?"
 
 teaser: >
-  This online post presents seven key provocations as to why a critique of data, “big” or not, is important. In addition to discussing the potentials of counter data, the authors describe, in particular, how geographers and others interested in working with spatial data might benefit from a critical data studies approach.
+  This online post presents seven key provocations as to why a critique of data, "big" or not, is important. In addition to discussing the potentials of counter data, the authors describe, in particular, how geographers and others interested in working with spatial data might benefit from a critical data studies approach.
 
 keywords:
-  - "big data"
-  - "counter data"
-  - "critical data studies"
-  - "geography"
-  - "spatial data"
+  - "Big Data"
+  - "Counter Data"
+  - "Critical Data Studies"
+  - "Geography"
+  - "Spatial Data"
 
 metadata:
   source: "https://www.societyandspace.org/articles/what-does-a-critical-data-studies-look-like-and-why-do-we-care"

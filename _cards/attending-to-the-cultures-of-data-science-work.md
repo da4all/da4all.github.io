@@ -14,11 +14,11 @@ teaser: >
   This essay argues that data science communities have a responsibility to attend not only to the cultures that orient the work of domain communities, but also to the cultures that orient their own work. The author also describes how ethnographic frameworks such as thick description can be enlisted to encourage more reflexive data science work.
 
 keywords:
-  - "data culture"
-  - "data documentation"
-  - "data infrastructure"
-  - "ethnography"
-  - "science and technology studies"
+  - "Data Culture"
+  - "Data Documentation"
+  - "Data Infrastructure"
+  - "Ethnography"
+  - "Science And Technology Studies"
 
 metadata:
   source: "https://datascience.codata.org/articles/10.5334/dsj-2023-006"

@@ -16,11 +16,11 @@ teaser: >
   This assignment asks students to find a dataset to document and then leads them through a multi-step process of critical engagement with that dataset. The ultimate product is a set of documentation that is not merely technical but also critical and deeply contextual
 
 keywords:
-  - "data biography"
-  - "data documentation"
-  - "data ethnography"
-  - "datasheets for datasets"
-  - "thick data"
+  - "Data Biography"
+  - "Data Documentation"
+  - "Data Ethnography"
+  - "Datasheets For Datasets"
+  - "Thick Data"
 
 
 metadata:
@@ -28,7 +28,7 @@ metadata:
   author: "Nathan Pieplow"
   date: "2024-07-23"
   license: "CC BY-NC-SA"
-  citation: "Pieplow, Nathan. ‘Dataset Documentation Assignment’ (lesson plan). Data Advocacy 4 All, University of Colorado. 23 July 2024."
+  citation: "Pieplow, Nathan. 'Dataset Documentation Assignment' (lesson plan). Data Advocacy 4 All, University of Colorado. 23 July 2024."
 ---
 
 # Introduction for Instructors

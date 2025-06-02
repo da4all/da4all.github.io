@@ -11,14 +11,14 @@ sample_resource: true
 title: "Data Biography"
 
 teaser: >
-  In this assignment, students apply the concept of a “data biography” to analyze the history behind a particular dataset: the who, what, when, how, and why of the dataset and its creation. In doing so, they learn about the different interpretative filters that shape the historical trajectory of a dataset, from its initial collection to its availability and usability today.
+  In this assignment, students apply the concept of a "data biography" to analyze the history behind a particular dataset: the who, what, when, how, and why of the dataset and its creation. In doing so, they learn about the different interpretative filters that shape the historical trajectory of a dataset, from its initial collection to its availability and usability today.
 
 metadata:
   source:
   author: "Cameron Blevins"
   date: "2023-07-2023"
   license: "License Type: CC BY"
-  citation: "Cameron Blevins, ‘Data Biography,’ Data Advocacy For All"
+  citation: "Cameron Blevins, 'Data Biography,' Data Advocacy For All"
   align: right
 ---
 

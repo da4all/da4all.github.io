@@ -14,9 +14,9 @@ teaser: >
   This article approaches Geographic Information Systems and cartography from the perspective of critical pedagogy, and explores how maps can used as instruments of social change and tools of data-based advocacy. 
 
 keywords:
-  - "critical geography"
-  - "critical pedagogy"
-  - "geographic information systems"
+  - "Critical Geography"
+  - "Critical Pedagogy"
+  - "Geographic Information Systems"
 
 metadata:
   source: "https://digitalcommons.law.seattleu.edu/sjsj/vol8/iss1/11"

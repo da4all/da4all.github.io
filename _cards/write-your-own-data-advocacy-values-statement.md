@@ -12,20 +12,20 @@ sample_resource: false
 title: "Write Your Own Data Advocacy Values Statement"
 
 teaser: >
-  This activity asks students to consider their values before embarking on a data advocacy project (group or individual). It asks them to read the Appendix “Our Values and Our Metrics for Holding Ourselves Accountable” at the end of Data Feminism and then use it as inspiration to create the initial draft of a values statement that articulates their own primary concerns for how to avoid ethical transgressions during their project.
+  This activity asks students to consider their values before embarking on a data advocacy project (group or individual). It asks them to read the Appendix "Our Values and Our Metrics for Holding Ourselves Accountable" at the end of Data Feminism and then use it as inspiration to create the initial draft of a values statement that articulates their own primary concerns for how to avoid ethical transgressions during their project.
 
 keywords:
-  - "accountability"
-  - "ethics"
-  - "stakeholders"
-  - "values"
+  - "Accountability"
+  - "Ethics"
+  - "Stakeholders"
+  - "Values"
 
 metadata:
   source: 
   author: "Nathan Pieplow"
   date: "2024-07-23"
   license: "CC BY-NC-SA"
-  citation: "Pieplow, Nathan. ‘Write Your Own Data Advocacy Values Statement’ (lesson plan). Data Advocacy 4 All, University of Colorado. 23 July 2024."
+  citation: "Pieplow, Nathan. 'Write Your Own Data Advocacy Values Statement' (lesson plan). Data Advocacy 4 All, University of Colorado. 23 July 2024."
 ---
 
 ### Instructions for Students

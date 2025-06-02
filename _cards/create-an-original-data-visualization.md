@@ -15,8 +15,8 @@ teaser: >
   This assignment sequence asks students to sketch, draft, workshop, and revise an original data visualization using data they find themselves online. 
 
 keywords:
-  - "rhetoric of data visualization"
-  - "visual rhetoric"
+  - "Rhetoric Of Data Visualization"
+  - "Visual Rhetoric"
 
 
 metadata:
@@ -24,7 +24,7 @@ metadata:
   author: "Nathan Pieplow"
   date: "2024-07-31"
   license: "CC BY-NC-SA"
-  citation: "Pieplow, Nathan. ‘Create an Original Data Visualization’ (assignment sequence). Data Advocacy 4 All, University of Colorado. 31 July 2024"
+  citation: "Pieplow, Nathan. 'Create an Original Data Visualization' (assignment sequence). Data Advocacy 4 All, University of Colorado. 31 July 2024"
 ---
 
 # Introduction for Instructors

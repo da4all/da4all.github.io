@@ -15,17 +15,17 @@ teaser: >
   Snopes.com is a well-known fact-checking website. This assignment sequence, designed for an upper-division writing class, asks students to propose, research, and write their own Snopes.com article using quantitative argumentation to fact-check a claim they have found on the internet. In its current form the sequence is designed to take 1 to 1.5 weeks of class.
 
 keywords:
-  - "data-driven argument"
-  - "fact-checking"
-  - "quantitative rhetoric"
-  - "statistical claims"
+  - "Data-Driven Argument"
+  - "Fact-Checking"
+  - "Quantitative Rhetoric"
+  - "Statistical Claims"
 
 metadata:
   source: 
   author: "Nathan Pieplow"
   date: "2024-07-25"
   license: "CC BY-NC-SA"
-  citation: "Pieplow, Nathan. ‘Snopes Fact-checking Article’ (assignment sequence). Data Advocacy 4 All, University of Colorado. 27 July 2024"
+  citation: "Pieplow, Nathan. 'Snopes Fact-checking Article' (assignment sequence). Data Advocacy 4 All, University of Colorado. 27 July 2024"
 ---
 
 # Introduction for Instructors

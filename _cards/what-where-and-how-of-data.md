@@ -16,7 +16,7 @@ metadata:
   author: "Iliya Valchanov"
   date: "2018-06"
   license:
-  citation: "Valchanov, Iliya. “The What, Where and How of Data for Data Science.” KDnuggets.com. 12 June 2018. https://www.kdnuggets.com/2018/06/what-where-how-data-science.html. Accessed 6 June 2023. "
+  citation: "Valchanov, Iliya. "The What, Where and How of Data for Data Science." KDnuggets.com. 12 June 2018. https://www.kdnuggets.com/2018/06/what-where-how-data-science.html. Accessed 6 June 2023. "
   align: right
 ---
 
