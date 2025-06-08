@@ -6,9 +6,9 @@ layout: default
 <div class="page">
   <header class="page-header">
     <h1 class="page-title">{{ page.title }}</h1>
+    <!-- this line of code is matching the resource type to its corresponding icon in cards.yml -->
     {% assign resource = site.data.cards.resources | where: "name",
     page.resource | first %}
-    <!-- this line of code is matching the resource type to its corresponding icon in cards.yml -->
 
     <br />
 

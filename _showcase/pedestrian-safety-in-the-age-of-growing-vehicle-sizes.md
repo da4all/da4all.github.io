@@ -19,6 +19,10 @@ metadata:
   source:
   license: "CC BY-NC-SA"
   courseinfo: "WRTG 3035: Technical Communication and Design (Fall 2023, taught by Nathan Pieplow at the University of Colorado Boulder)"
+  date: "Fall 2023"
+  course: "WRTG 3035: Technical Communication and Design"
+  instructor: "Prof. Nathan Pieplow"
+  university: "University of Colorado Boulder"
 ---
 
 This final project was created in response to the [Individual Data Advocacy Project assignment sequence](https://da4asandbox.github.io/curricularsite/cards/individual-data-advocacy-project) as the final project in an upper-division technical writing course dedicated to data advocacy and is shared here with the permission of the author.

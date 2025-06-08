@@ -19,6 +19,10 @@ metadata:
   source:
   license:
   courseinfo: "ENGL 1020: Core Composition I (Spring 2024, taught by Dr. John Tinnell at the University of Colorado Denver) as part of a Data Storytelling unit"
+  date: "Spring 2024"
+  course: "ENGL 1020: Core Composition I"
+  instructor: "Prof. John Tinnell"
+  university: "University of Colorado Denver"
 ---
 
 <div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/FDUK8HlAtBg?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen allow="autoplay" title="Rehabilitation vs. Punishment" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
