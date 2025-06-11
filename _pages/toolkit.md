@@ -7,15 +7,15 @@ nav: true
 nav_order: 5
 ---
 
-Welcome to the Data Advocacy for All Toolkit! This is a curated collection of teaching resources designed to support data advocacy, including readings, assignments, lesson plans, and more. Use the buttons below to filter resources by their <code style="background-color: rgba(0, 54, 159, 0.1); color: #00369f; padding: 2px 4px; border-radius: 4px;">Literacy Domain/Subdomain</code> and <code>Resource Type</code>, or search for specific topics or keywords across the resources.
+Welcome to the Data Advocacy for All Toolkit! This is a curated collection of teaching resources designed to support data advocacy, including readings, assignments, lesson plans, and more. Use the buttons below to filter resources by their **Literacy Domain/Subdomain** and **Resource Type**, or search for specific keywords across the resources.
 
-<div class="help-banner" style="justify-content: center">
-  <i class="fa-regular fa-circle-question"></i> New to the toolkit? Learn more about our different <a href="../resource-types/">types of resources</a> and <a href="../literacy-domains/">literacy domains</a> of data advocacy.
+<div class="help-banner" style="justify-content: center; font-size: 0.95em;">
+  <i class="fa-regular fa-circle-question"></i> New to the toolkit? Learn more about our <a href="../literacy-domains/">literacy domains</a> of data advocacy and the different <a href="../resource-types/" style="color: #d32f2f; text-decoration: none; border-radius: 2px; transition: background 0.2s;" onmouseover="this.style.backgroundColor='#fdeaea'" onmouseout="this.style.backgroundColor=''">types of teaching resources.</a>
 </div>
 
 <!-- Domain Filter Section -->
 <div class="filter-section mb-4">
-  <h3>Literacy Domains</h3>
+  <h3 style="font-weight: 400;">Literacy Domains</h3>
   <div class="button-grid domain-grid">
     {% for domain in site.data.cards.domains %}
     <button class="filter-btn domain-btn" data-filter="domain" data-value="{{ domain }}">
@@ -38,7 +38,7 @@ Welcome to the Data Advocacy for All Toolkit! This is a curated collection of te
 <!-- Subdomain Filter Section (Hidden by default) -->
 <div id="subdomain-section" class="filter-section mb-4" style="display: none;">
   <div style="text-align: center;">
-    <h4>Literacy Subdomains</h4>
+    <h4 style="font-weight: 400;">Literacy Subdomains</h4>
     <div class="button-grid subdomain-grid">
       <!-- Populated dynamically by JavaScript -->
     </div>
@@ -48,7 +48,7 @@ Welcome to the Data Advocacy for All Toolkit! This is a curated collection of te
 <!-- Resource Type Filter Section -->
 
 <div class="filter-section mb-4">
-  <h3>Resource Types</h3>
+  <h3 style="font-weight: 400;">Resource Types</h3>
   <div class="button-grid resource-grid">
     {% assign resources = site.data.cards.resources %}
     {% for resource in resources %}
@@ -67,7 +67,7 @@ Welcome to the Data Advocacy for All Toolkit! This is a curated collection of te
 
 <!-- Search Section -->
 <div class="search-section mb-4">
-  <h3>Search Resources</h3>
+  <h3 style="font-weight: 400;">Search Resources</h3>
   <div class="search-container">
     <input type="text" id="search-input" placeholder="Search resources...">
     <button id="search-btn" class="search-btn">Search</button>
@@ -86,7 +86,7 @@ Welcome to the Data Advocacy for All Toolkit! This is a curated collection of te
 
 <!-- Card List Section -->
 <center>
-<h2>Filtered Resources (<span id="resource-count"></span>):</h2>
+<h2 style="font-weight: 400;">Filtered Resources (<span id="resource-count"></span>):</h2>
 <p class="text-muted">
     <i>Click on card to access full resource</i></p>
 </center>
