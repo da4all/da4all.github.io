@@ -142,7 +142,7 @@ Welcome to the Data Advocacy for All Toolkit! This is a curated collection of te
                     <hr class="solid">
                     <p class="card-text">
                       {% assign domain_array = card.domain %}
-                      <small class="test-muted resource"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ card.resource }}&nbsp;&nbsp;//&nbsp;&nbsp;</small>
+                      <small class="test-muted resource"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Resource: <span style="font-weight: 400;">{{ card.resource }}</span>&nbsp;&nbsp;//&nbsp;&nbsp;</small>
                       <small class="test-muted domain"><i class="fa-solid fa-network-wired"></i>&nbsp; Domain:
                         {% for d in domain_array %}
                           {% unless forloop.last %}
@@ -156,9 +156,8 @@ Welcome to the Data Advocacy for All Toolkit! This is a curated collection of te
                       <small class="test-muted subdomain"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain:
                         {% for sub in subdomain_array %}
                           {% unless forloop.last %}
-                            {{ sub }},&nbsp;
-                          {% else %}
-                            {{ sub }}
+                            <span style="font-weight: 400;">{{ sub }},&nbsp;</span>    {% else %}
+                            <span style="font-weight: 400;">{{ sub }}</span>
                           {% endunless %}
                         {% endfor %}
                       </small><br>
