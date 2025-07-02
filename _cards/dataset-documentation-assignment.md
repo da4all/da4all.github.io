@@ -28,7 +28,7 @@ metadata:
   author: "Nathan Pieplow"
   date: "2024-07-23"
   license: "CC BY-NC-SA"
-  citation: "Pieplow, Nathan. 'Dataset Documentation Assignment' (lesson plan). Data Advocacy 4 All, University of Colorado. 23 July 2024."
+  citation: "Pieplow, Nathan. 'Dataset Documentation Project' (assignment sequence). Data Advocacy 4 All, University of Colorado. 23 July 2024."
 ---
 
 # Introduction for Instructors
