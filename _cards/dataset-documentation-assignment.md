@@ -10,10 +10,10 @@ subdomain:
 
 sample_resource: true
 
-title: "Dataset Documentation Assignment"
+title: "Dataset Documentation Project (assignment sequence)"
 
 teaser: >
-  This assignment asks students to find a dataset to document and then leads them through a multi-step process of critical engagement with that dataset. The ultimate product is a set of documentation that is not merely technical but also critical and deeply contextual
+  This sequence of assignments asks students to find a dataset to document and then leads them through a multi-step process of critical engagement with that dataset. The ultimate product is a set of documentation that is not merely technical but also critical and deeply contextual.
 
 keywords:
   - "Data Biography"
@@ -50,6 +50,14 @@ To develop your skills in critiquing data, your next assignment is to find and d
 First, decide what topic or advocacy question you are interested in pursuing. Do some internet searches that combine keywords about your chosen topic with words like "dataset." You might find what you're looking for pretty quickly.  
 
 If you don't, ask yourself: who might have collected the data I want? If it's a government, there's a decent chance the data might be online. Try internet searches with the name of the agency or jurisdiction. If it's an academic researcher whose data you want, they might have made it available in a public archive -- but no guarantees.  If you can't find the data you really want, settle for whatever's closest. However, make sure you have a dataset, not just the results of data analysis. 
+
+Here are some suggestions on where to find good datasets:
+
+- Start with [Google’s Open Dataset Search Tool](https://datasetsearch.research.google.com/). This can help you figure out where data is stored.
+- Search [Data.gov](https://data.gov) for a topic, and filter to geography, agency, or publisher.
+- Search for your topic on a state, county, or city open data portal.
+- Search for the agency that manages your topic, and look for links with names like Datasets, Statistics, or Reports.
+
 
 ### Documenting data  
 
