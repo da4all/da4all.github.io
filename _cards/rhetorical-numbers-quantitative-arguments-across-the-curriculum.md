@@ -25,4 +25,4 @@ metadata:
   citation: "Wolfe, Joanna. 2016. 'Rhetorical Numbers: Quantitative Argument Across the Curriculum.' https://www.youtube.com/watch?v=Nhj5abcnXXk). Accessed 8 December 2024."
 ---
 
-<div style="border:none; max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://youtu.be/Nhj5abcnXXk?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" title="Rhetorical Numbers: Quantitative Argument Across the Curriculum" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+<div style="border:none; max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://www.youtube.com/embed/Nhj5abcnXXk?si=hjywuLk3_xVKrylv?si=N4qb71cs-yWizJfc?videoseries?list=PL9_5y1s7b_5bUQ0dfnXgwzjjEnDWQ7NLS&rel=0" width="1280" height="720" title="Rhetorical Numbers: Quantitative Argument Across the Curriculum" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
