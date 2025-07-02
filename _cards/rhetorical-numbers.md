@@ -25,4 +25,4 @@ metadata:
   citation: "Wolfe, Joanna. 'Rhetorical Numbers: A Case for Quantitative Writing in the Composition Classroom.' *College Composition and Communication*, vol. 61, no. 3, 2010, pp. 452–75. JSTOR, http://www.jstor.org/stable/40593335. Accessed 10 Dec. 2024."
 ---
 
-**Note:** This article is not open-access but can be located in many library databases. You may also choose to watch a recorded lecture by Joanna Wolfe accessible [here[ (https://www.dwrl.utexas.edu/2016/11/07/rhetorical-numbers-a-workshop-with-dr-joanna-wolfe/).
+**Note:** This article is not open-access but can be located in many library databases. You may also choose to watch a recorded lecture by Joanna Wolfe accessible [here](https://www.dwrl.utexas.edu/2016/11/07/rhetorical-numbers-a-workshop-with-dr-joanna-wolfe/).
