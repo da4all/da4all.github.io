@@ -17,6 +17,12 @@ teaser: >
 keywords:
   - "History Of Data Visualization"
   - "Rhetoric Of Data Visualization"
+  - "Visual Rhetoric"
+  - "Quantitative Reasoning"
+  - "Quantitative Rhetoric"
+  - "Statistical Claims"
+  - "Data-driven Argument"
+  - "Numerical Argumentation"
 
 metadata:
   source: "https://www.youtube.com/watch?v=B6RGBAzXU1A&list=PLQyfUVf-vFTJMuluE7y9mPRxK9-iSxYyQ"
