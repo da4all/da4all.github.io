@@ -12,7 +12,7 @@ sample_resource: false
 title: "To Visualize or Not to Visualize?"
 
 teaser: >
-  This slide deck asks students to consider the ways in which data visualizations, and visual rhetoric more broadly, can either help or fail to help an argument. It encourages students to evaluate the ethos, pathos, and logos of a visual, as well as how it responds to the exigence, audience, and purpose. It provides criteria and practice in distinguishing between actual data visualizations and the mere decorations that are so common in infographics. It also gives examples of situations in which words alone may remain more powerful than visuals. The slide deck with instructor notes could be used as a reading or an activity.
+  This slide deck asks students to consider the ways in which data visualizations, and visual rhetoric more broadly, can either help or fail to help an argument. It encourages students to evaluate the ethos, pathos, and logos of a visual, as well as how it responds to the exigence, audience, and purpose. It provides criteria and practice in distinguishing between actual data visualizations and the mere decorations that are so common in infographics. It also gives examples of situations in which words alone may remain more powerful than visuals. The slide deck with instructor notes could be used as a reading or an activity. It can take 30 minutes or more to present in class, depending on the amount of discussion.
 
 keywords:
   - "Infographics"
