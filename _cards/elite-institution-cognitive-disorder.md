@@ -1,7 +1,7 @@
 ---
 layout: card
 inline: false
-resource: Example Project
+resource: Reading
 domain:
   - Persuading with Data
 subdomain:
