@@ -16,9 +16,9 @@ teaser: >
 
 keywords:
   - "Data-Driven Argument"
+  - "Numerical Argumentation"
   - "Quantitative Rhetoric"
   - "Statistical Claims"
-  - "Statistics"
 
 metadata:
   source: "https://docs.google.com/presentation/d/1tfYyfTKLohWEX2u8-s7louyPhrkVh2Gy/edit?usp=sharing&ouid=116941745404208628216&rtpof=true&sd=true"
