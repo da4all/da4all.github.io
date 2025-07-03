@@ -18,7 +18,8 @@ keywords:
   - "Data-Driven Argument"
   - "Quantitative Rhetoric"
   - "Statistical Claims"
-  - "Statistics"
+  - "Numerical Argumentation"
+  - "Rhetorical Data Studies"
 
 metadata:
   source: 
