@@ -11,7 +11,7 @@ sample_resource: true
 title: "Rhetorical Numbers: Quantitative Argument Across the Curriculum"
 
 teaser: >
-  In this recorded lecture with slide presentation, Joanna Wolfe calls for a rhetorical education that combines verbal and mathematical literacies to help students better understand how numbers are used in the service of argument at public, professional, and personal levels.
+  In this 1-hour recorded lecture with slide presentation, Joanna Wolfe calls for a rhetorical education that combines verbal and mathematical literacies to help students better understand how numbers are used in the service of argument at public, professional, and personal levels.
 
 keywords:
   - "Quantitative Reasoning"
