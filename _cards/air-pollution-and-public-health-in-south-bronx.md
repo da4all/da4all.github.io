@@ -24,5 +24,5 @@ metadata:
   author: "South Bronx Unite"
   date: "2023"
   license:
-  citation: "'Air Pollution and Public Health in the South Bronx.' South Bronx Unite. 2023. https://www.southbronxunite.org/air-pollution-and-public-health"
+  citation: "'Air Pollution and Public Health in the South Bronx.' South Bronx Unite. 2023. https://www.southbronxunite.org/air-pollution-and-public-health."
 ---
