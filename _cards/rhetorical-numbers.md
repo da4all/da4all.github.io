@@ -15,7 +15,10 @@ teaser: >
 
 keywords:
   - "Quantitative Reasoning"
+  - "Quantitative Rhetoric"
   - "Rhetorical Data Studies"
+  - "Data-driven Argument"
+  - "Numerical Argumentation"
 
 metadata:
   Source: "https://www.jstor.org/stable/40593335"
