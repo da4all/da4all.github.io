@@ -18,6 +18,9 @@ keywords:
   - "Infographics"
   - "Rhetoric Of Data Visualization"
   - "Visual Rhetoric"
+  - "Data-driven Argument"
+  - "Quantitative Rhetoric"
+  - "Numerical Argumentation"
 
 metadata:
   source: "https://docs.google.com/presentation/d/1QViixQARlOtgmm-GvskzqwuEJTptQAyy/edit?usp=sharing&ouid=116941745404208628216&rtpof=true&sd=true"
