@@ -14,8 +14,11 @@ teaser: >
   In this recorded lecture with slide presentation, Joanna Wolfe calls for a rhetorical education that combines verbal and mathematical literacies to help students better understand how numbers are used in the service of argument at public, professional, and personal levels.
 
 keywords:
-  - "Quantitative Data"
+  - "Quantitative Reasoning"
+  - "Quantitative Rhetoric"
   - "Rhetorical Data Studies"
+  - "Data-driven Argument"
+  - "Numerical Argumentation"
 
 metadata:
   Source: "https://www.dwrl.utexas.edu/2016](https://www.youtube.com/watch?v=Nhj5abcnXXk"
