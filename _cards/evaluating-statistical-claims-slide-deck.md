@@ -16,10 +16,10 @@ teaser: >
 
 keywords:
   - "Data-Driven Argument"
+  - "Quantitative Reasoning"
   - "Quantitative Rhetoric"
   - "Statistical Claims"
-  - "Statistical Thinking"
-  - "Statistics"
+  - "Numerical Argumentation"
 
 metadata:
   source: "https://docs.google.com/presentation/d/1de70VBYph_L6zMuZjsiad3KnMozWVpMh/edit?usp=sharing&ouid=116941745404208628216&rtpof=true&sd=true"
