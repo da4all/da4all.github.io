@@ -8,7 +8,7 @@ subdomain:
   - Making Claims with Data
 sample_resource: false
 
-title: "Rhetorical Numbers: A Case for Quanitative Writing in the Composition Classroom"
+title: "Rhetorical Numbers: A Case for Quantitative Writing in the Composition Classroom"
 
 teaser: >
   This scholarly article, which has been written for writing instructors, argues that textbooks, assignments, and professonial development training needs to focus more on quantitative information and reasoning.
