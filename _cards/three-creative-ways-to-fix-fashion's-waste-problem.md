@@ -1,7 +1,7 @@
 ---
 layout: card
 inline: false
-resource: Example Project
+resource: Reading
 domain:
   - Persuading with Data
 subdomain:
@@ -23,5 +23,5 @@ metadata:
   author: "Amit Kalra"
   date: "2017-11"
   license: "License Type: CC BY-NC-ND"
-  citation: "Kalra, Amit. 'Three Creative Ways to Fix Fashion's Waste Problem.' TED Talk, 2023. https://www.ted.com/talks/amit_kalra_3_creative_ways_to_fix_fashion_s_waste_problem?subtitle=en&trigger=5s"
+  citation: "Kalra, Amit. 'Three Creative Ways to Fix Fashion's Waste Problem.' TED Talk. 15 February 2018. https://www.ted.com/talks/amit_kalra_3_creative_ways_to_fix_fashion_s_waste_problem?subtitle=en&trigger=5s."
 ---
