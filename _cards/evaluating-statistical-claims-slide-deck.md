@@ -12,7 +12,7 @@ sample_resource: true
 title: "Evaluating Statistical Claims"
 
 teaser: >
-  This slide deck, which can be used as a reading or an activity, briefly introduces nine questions to ask when evaluating the validity of a statistical claim. It then provides a series of statistical claims for students to evaluate and ends by asking students to apply this same type of evaluation to a statistical claim from their own project.
+  This slide deck, which can be used as a reading or an activity, briefly introduces nine questions to ask when evaluating the validity of a statistical claim. It then provides a series of statistical claims for students to evaluate and ends by asking students to apply this same type of evaluation to a statistical claim from their own project. It can take 40-60 minutes to present in class, depending on the amount of discussion.
 
 keywords:
   - "Data-Driven Argument"
