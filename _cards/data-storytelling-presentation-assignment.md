@@ -11,7 +11,7 @@ sample_resource: false
 title: "Data Storytelling Presentation Assignment"
 
 teaser: >
-  This assignment prompts students to make a short video presentation in which they blend data points and vivid examples to tell a story about a statistical trend that sheds critical light on a social issue of their choosing.
+  This assignment prompts students to make a short video presentation in which they blend data points and vivid examples to tell a story about a statistical trend that sheds critical light on a social issue of their choosing. The project will likely involve 3-5 weeks of work, as it asks students to do research out of class, craft a rhetorically salient message, and deliver a polished presentation with compellings visuals. 
 
 keywords:
   - "Data Storytelling"
@@ -22,7 +22,7 @@ metadata:
   author: "John Tinnell"
   date: "2024-07-16"
   license: "License Type: CC BY"
-  citation: "Tinnell John. 'Data Storytelling Presentation Assignment.' Data Advocacy For All"
+  citation: "Tinnell John. 'Data Storytelling Presentation Assignment.' Data Advocacy For All. 2024."
 ---
 
 ## Assignment Guidelines
@@ -41,8 +41,3 @@ Students may choose to research data about any social issue that interests them.
 - to illustrate what the selected data means and why it matters through the use of examples involving real people
 
 - to tap into relevant research on the topic and identify a concept that helps explain what we're seeing in the data and the examples you've chosen (OR: to present a research-informed solution to the problem that the data and examples have established)
-
-### Rubric:
-You may use the following rubric (or any variation of it) to assess student’s data storytelling presentations.
-
-[***Insert image of rubric here] 
