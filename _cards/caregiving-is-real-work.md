@@ -1,7 +1,7 @@
 ---
 layout: card
 inline: false
-resource: Example Project
+resource: Reading
 domain:
   - Persuading with Data
 subdomain:
@@ -23,5 +23,5 @@ metadata:
   author: "Sharmi Surianarain"
   date: "2023-10"
   license: "License Type: CC BY-NC-ND"
-  citation: "Surianarain, Sharmi. 'Caregiving is Real Work.' TED Talk. 23 October 2023. https://www.ted.com/talks/sharmi_surianarain_caregiving_is_real_work_let_s_treat_it_that_way?subtitle=en&trigger=5s"
+  citation: "Surianarain, Sharmi. 'Caregiving is Real Work.' TED Talk. 23 October 2023. https://www.ted.com/talks/sharmi_surianarain_caregiving_is_real_work_let_s_treat_it_that_way?subtitle=en&trigger=5s."
 ---
