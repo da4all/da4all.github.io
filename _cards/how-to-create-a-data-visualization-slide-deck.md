@@ -17,6 +17,9 @@ teaser: >
 keywords:
   - "Rhetoric Of Data Visualization"
   - "Visual Rhetoric"
+  - "Data-driven Argument"
+  - "Numerical Argumentation"
+  - "Quantitative Rhetoric"
 
 metadata:
   source: "https://docs.google.com/presentation/d/1QRrxBjmbkcoS7q9cG1FCt3l9t2309-04/edit?usp=sharing&ouid=116941745404208628216&rtpof=true&sd=true"
