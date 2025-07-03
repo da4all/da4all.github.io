@@ -9,7 +9,7 @@ subdomain:
 
 sample_resource: true
 
-title: "Create an Original Data Visualization"
+title: "Create an Original Data Visualization (assignment sequence)"
 
 teaser: >
   This assignment sequence asks students to sketch, draft, workshop, and revise an original data visualization using data they find themselves online. 
@@ -29,7 +29,7 @@ metadata:
 
 # Introduction for Instructors
 
-This assignment sequence asks students to sketch, draft, workshop, and revise an original data visualization using data they find themselves online. It is designed to form part of the [Individual Data Advocacy Project assignment sequence](https://da4asandbox.github.io/curricularsite/cards/individual-data-advocacy-project), but could be adapted as a standalone assignment. 
+This 4-day assignment sequence asks students to sketch, draft, workshop, and revise an original data visualization using data they find themselves online. It is designed to form part of the [Individual Data Advocacy Project assignment sequence](https://da4asandbox.github.io/curricularsite/cards/individual-data-advocacy-project), but could be adapted as a standalone project. 
 
 Before they begin this assignment sequence, students should have located a dataset that they want to visualize, and they should have seen the [Introduction to Data Visualization videos](https://da4asandbox.github.io/curricularsite/cards/introduction-to-data-visualization-videos) and the [How to Create a Data Visualization slide deck](https://da4asandbox.github.io/curricularsite/cards/how-to-create-a-data-visualization-slide-deck).
 
@@ -42,6 +42,7 @@ Each of you will be creating an original data visualization as part of your indi
 I recommend using paper and pencil and then uploading a photo, but you can do digital drawings with a stylus instead. Remember, sketches are disposable. If you're spending a lot of time making them look pretty, you're doing it wrong. A sketch is just a quick outline of a visual idea. Sketching requires you to have a basic understanding of what your data will look like, but it doesn’t have to be accurate at all.
 
 The purpose of asking you to create 10 sketches is to get you to think beyond the simple line chart or bar chart, into some other ways to present your data that will clearly highlight the relationships you want to show. See slide 29 of the [How to Create a Data Visualization slide deck](https://da4asandbox.github.io/curricularsite/cards/how-to-create-a-data-visualization-slide-deck) for examples of data visualization sketches.
+
 # Assignment 2: First Draft of Original Data Visualization
 
 For this assignment, take one of the 10 sketches you did (or create a new one if you like) and render it as an accurate and professional-looking data visualization that you can insert into your individual data advocacy project to make your argument more convincing and easier to understand. If it isn't perfect, don't worry -- this is a first draft. But do your best to make it as nice as you can.
@@ -71,4 +72,22 @@ Also check for the four ways to make a visualization compelling:
 - **Apply labels, not legends:** Does the visualization put the names of things right next to the things? If not, how could it do that?
 - **Color the story:** Does the visualization use color (or the lack of color) in a way that highlights the main takeaway?
 - **Use your words:** Do the title, subtitle, and labels of the visualization clearly convey its main takeaways? Does the visualization cite a data source?
+
+# Assignment 4: Finalize your Data Visualization and Write About Your Revisions
+
+Turn in your final draft of your data visualization, along with a 300-word analysis of the final draft and the revisions that you made.
+
+First, write a paragraph that explains the rhetorical situation:
+-	How does your redesigned visualization address a data advocacy need (or exigence)? How does it relate to issues of power, ethics, or justice?
+-	Who are the intended audiences? (In other words, who needs to hear this story, and who is in a position to do something about it?)
+-	What effect do you want the redesigned visualization to have on those audiences?
+
+Then, write a point-by-point comparison of your first and final drafts, explaining what each does well and poorly (and hopefully why the final outperforms the original). Write 2-3 sentences for each of the following aspects:
+-	the story in the data
+-	appropriateness of graphic elements
+-	decoration vs design
+-	appropriateness of comparisons
+-	use or misuse of common visual conventions
+-	appropriateness of frame of reference
+
 
