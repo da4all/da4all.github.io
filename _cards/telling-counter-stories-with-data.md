@@ -11,7 +11,7 @@ sample_resource: true
 title: "Telling Counter-Stories with Data"
 
 teaser: >
-  This activity prompts students to search the internet for data points about STEM education in the US, and to then develop a counter-story in response to Malcom Gladwell's narrative that low success rates among prospective STEM majors is a psychologically inevitable outcome. 
+  This activity prompts students to search the internet for data points about STEM education in the US, and to then develop a counter-story in response to Malcom Gladwell's narrative that low success rates among prospective STEM majors is a psychologically inevitable outcome. This activity can be completed over the time of one or two class periods. 
 
 keywords:
   - "Data Storytelling"
@@ -23,7 +23,7 @@ metadata:
   author: 
   date: 
   license: "License Type: CC BY"
-  citation: "Tinnell, John. 'Telling Counterstories with Data.' Data Advocacy For All"
+  citation: "Tinnell, John. 'Telling Counterstories with Data.' Data Advocacy For All. 2024."
 ---
 ## Overview
 This activity prompts students to perform data-oriented research on STEM education in the US, and to develop their own claims about what might be causing the country’s ongoing deficit of STEM workers. Writer Malcolm Gladwell has argued that low success rates among would-be STEM should be understood as a psychological inevitable outcome rather than a failure on the part of STEM professors or their students. 
