@@ -18,6 +18,7 @@ keywords:
   - "Data Privacy Laws"
   - "Finding Datasets"
   - "Numerical Argumentation"
+  - "Data-driven Argument"
   - "Quantitative Rhetoric"
 
 metadata:
