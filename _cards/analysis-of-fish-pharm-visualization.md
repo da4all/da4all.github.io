@@ -22,7 +22,7 @@ metadata:
   author: "Nathan Pieplow"
   date: "2024-07-25"
   license: "CC BY-NC-SA"
-  citation: "Citation"
+  citation: "Pieplow, Nathan. 'Analysis of National Geographic's 'Fish Pharm' Visualization' (lesson plan). Data Advocacy 4 All, University of Colorado. 27 July 2024"
 ---
 
 ### Instructions for Students
