@@ -21,6 +21,7 @@ keywords:
   - "Data Ethnography"
   - "Datasheets For Datasets"
   - "Thick Data"
+  - "Finding Datasets"
 
 
 metadata:
