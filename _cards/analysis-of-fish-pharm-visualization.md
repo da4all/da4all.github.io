@@ -16,6 +16,7 @@ teaser: >
 
 keywords:
   - "Rhetoric Of Data Visualization"
+  - "Infographics"
 
 metadata:
   source:
