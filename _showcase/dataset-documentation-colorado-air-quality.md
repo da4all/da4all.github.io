@@ -17,7 +17,7 @@ metadata:
   typeofdataadvocacy: "Environment"
   contributors: "Anonymous"
   source:
-  license:
+  license: "CC BY-NC-SA"
   courseinfo: "WRTG 3035: Technical Communication and Design (Fall 2023, taught by Nathan Pieplow at the University of Colorado Boulder)"
   date: "Fall 2023"
   course: "WRTG 3070: Advocating With Data"
