@@ -29,5 +29,5 @@ This student work was created by a group of students in a Fall 2024 upper-divisi
 
 **[Group Data Advocacy Project Part 2: Deliverables (assignment sequence)]({{site.baseurl}}/cards/group-data-advocacy-project-2)**
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="../assets/pdf/CU-Boulder-South-magazine.pdf" width="100%" title="Dataset Documentation: Colorado Air Quality" style="border:2px #323639 solid; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 200%; max-width: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="../assets/pdf/CU-Boulder-South-magazine.pdf" width="100%" title="The CU Boulder South Controversy" style="border:2px #323639 solid; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 200%; max-width: 100%;"></iframe></div>
 
