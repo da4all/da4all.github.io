@@ -11,7 +11,7 @@ sample_resource: false
 title: "Group Data Advocacy Project Part 1: White Paper (assignment sequence)"
 
 teaser: >
-  This assignment sequence is designed as the first third of a semester-long project in an upper-division writing course. Across several weeks, students propose data advocacy projects, seek interviews with stakeholders, engage in background research, and compose a collaborative White Paper that analyzes the rhetorical situation in which they hope to pursue advocacy.
+  This assignment sequence is designed as the first half of a semester-long project in an upper-division writing course. Across several weeks, students propose data advocacy projects, seek interviews with stakeholders, engage in background research, and compose a collaborative White Paper that analyzes the rhetorical situation in which they hope to pursue advocacy.
 
 keywords:
   - "Quantitative Rhetoric"
@@ -30,7 +30,7 @@ metadata:
 
 # Introduction for Instructors
 
-This assignment sequence is designed to take up roughly the first third of a semester-long project in an upper-division writing course (counting the time taken up by various scaffolding assignments not listed here, assigned prior to and during this sequence). The White Paper is presented here as a stage of a larger project sequence, but can be adapted as a standalone project, or as an individual rather than group project. 
+This assignment sequence is designed to take up roughly the first half of a semester-long project in an upper-division writing course (assuming time will be taken up by various scaffolding assignments not listed here, assigned prior to and during this sequence). The White Paper is presented here as a stage of a larger project sequence, but can be adapted as a standalone project, or as an individual rather than group project. 
 
 The following assignments contain student-facing instructions, originally delivered via the Canvas LMS, that lead from the project-forming stage through the final draft of the White Paper.
 
