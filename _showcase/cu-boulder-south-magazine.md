@@ -10,7 +10,7 @@ teaser: >
   For their final project, this student group investigated a controversy over land development on the University of Colorado Boulder's South Campus. They created a magazine to educate the local community about the pros and cons of the project. 
 
 metadata:
-  image: dataset-documentation-colorado-air-quality.png
+  image: CU-Boulder-South-screenshot.jpg
   caption: "A preview of the PDF magazine showing a chloropleth map of voting patterns in Boulder, Colorado."
   genre: "Magazine"
   filetype: ".pdf"
