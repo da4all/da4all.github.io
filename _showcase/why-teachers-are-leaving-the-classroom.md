@@ -1,7 +1,7 @@
 ---
 layout: showcase
 inline: false
-group: Data Advocacy Projects
+group: Individual Data Advocacy Projects
 group_rank: 3
 
 title: "Why Teachers Are Leaving the Classroom"
