@@ -10,7 +10,7 @@ teaser: >
   For their final project, this student group at the University of Colorado investigated where their tuition dollars go. As a group, they composed this White Paper to synthesize their research on the topic and the rhetorical situation prior to undertaking advocacy efforts.
 
 metadata:
-  image: cu-tuition-breakdown-white-paper.png
+  image: CU-tuition-breakdown-white-paper.png
   caption: "A preview of the white paper showing a pie chart of the CU Boulder Current Funds Budget for fiscal year 2024."
   genre: "White Paper"
   filetype: ".pdf"
