@@ -14,7 +14,7 @@ metadata:
   caption: "A preview of the white paper showing a pie chart of the CU Boulder Current Funds Budget for fiscal year 2024."
   genre: "White Paper"
   filetype: ".pdf"
-  typeofdataadvocacy: "Fiscal"
+  typeofdataadvocacy: "Fiscal Responsibility"
   contributors: "Anonymous"
   source:
   license: "CC BY-NC-SA"
