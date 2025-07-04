@@ -4,7 +4,7 @@ inline: false
 group: Group Data Advocacy Projects
 group_rank: 4
 
-title: "CU Boulder South"
+title: "The CU Boulder South Controversy"
 
 teaser: >
   For their final project, this student group investigated a controversy over land development on the University of Colorado Boulder's South Campus. They created a magazine to educate the local community about the pros and cons of the project. 
