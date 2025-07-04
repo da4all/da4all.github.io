@@ -119,6 +119,7 @@ Like we did for the White Paper, we will be constructing the group final project
 - If your group is creating a written final project (a report, an op/ed, an article) then I recommend each member writing 500 words for this homework assignment, if possible.
 - If your group is creating a data visualization, one or more members could contribute sketches at this stage.
 - If your group is creating a video, you could be contributing parts of the script or storyboard, or potentially unscripted / unedited footage.
+
 Other types of contributions are possible. If your group is in doubt about how to split your project into smaller stages, contact me and we'll discuss.
 
 # Assignment 5: Final Project partial draft 2
