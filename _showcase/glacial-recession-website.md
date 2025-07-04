@@ -29,10 +29,10 @@ This student work was created by a group of students in a Fall 2024 upper-divisi
 
 **[Group Data Advocacy Project Part 2: Deliverables (assignment sequence)]({{site.baseurl}}/cards/group-data-advocacy-project-2)**
 
-Here is the original version of the website, built using webflow.io: 
+Here is the [original version](https://glacial-recession-project.webflow.io/) of the website, built using webflow.io: 
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://glacial-recession-project.webflow.io/" width="100%" title="Glacial Recession website" style="border:2px #323639 solid; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div>
 
-Here is a version archived via the Wayback Machine, which did not perfectly preserve all aspects of the original website:
+Here is a [version archived](https://web.archive.org/web/20250315161633/https://glacial-recession-project.webflow.io/) via the Wayback Machine, which did not perfectly preserve all aspects of the original website:
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://web.archive.org/web/20250315161633/https://glacial-recession-project.webflow.io/" width="100%" title="Glacial Recession website (archived)" style="border:2px #323639 solid; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div>
