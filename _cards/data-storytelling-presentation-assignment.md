@@ -11,7 +11,7 @@ sample_resource: false
 title: "Data Storytelling Presentation Assignment"
 
 teaser: >
-  This assignment prompts students to make a short video presentation in which they blend data points and vivid examples to tell a story about a statistical trend that sheds critical light on a social issue of their choosing. The project will likely involve 3-5 weeks of work, as it asks students to do research out of class, craft a rhetorically salient message, and deliver a polished presentation with compellings visuals. 
+  This assignment prompts students to make a short video presentation in which they blend data points and vivid examples to tell a story about a statistical trend that sheds critical light on a social issue of their choosing. The project will likely involve 3-5 weeks of work, as it asks students to do research outside of class, craft a rhetorically salient message, and deliver a polished presentation with compellings visuals. 
 
 keywords:
   - "Data Storytelling"
