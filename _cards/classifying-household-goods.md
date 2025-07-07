@@ -51,3 +51,5 @@ Imagine you have just moved into a new apartment. You go shopping and return wit
 _Instructor Note:_
 
 > The general idea behind this exercise is to demonstrate to students how even something seemingly straightforward like household goods can be categorized and organized under quite different systems. Some groups might choose to organize in only general terms (what room in the apartment) whereas others will go into more detail - ex. kitchen items further differentiated by refrigerator vs. pantry. Some of these items are intentionally vague or could have multiple meanings and uses (ex. laundry detergent vs. dishwasher detergent, bell peppers vs. chili peppers, dish towels vs. bath towels). The big takeaway is that all classification involves decisions and interpretations - even seemingly simple ones.
+>
+> Estimated activity time: 40 minutes.
