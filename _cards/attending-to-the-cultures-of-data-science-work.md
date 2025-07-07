@@ -25,7 +25,8 @@ metadata:
   author: "Lindsay Poirier"
   date: "2023"
   license: "CC BY 4.0"
-  citation: "Poirier, Lindsay. Attending to the Cultures of Data Science Work. no. 1, Apr. 2023, p. 6. datascience.codata.org, https://doi.org/10.5334/dsj-2023-006."
+  citation: "Poirier, Lindsay. 'Attending to the Cultures of Data Science Work.' <i>Data Science Journal</i>, vol. 22, 3 Apr. 2023, article 6,
+  https://doi.org/10.5334/dsj-2023-006."
 ---
 
 <div>
