@@ -41,7 +41,7 @@ Introduce the idea of a confounding variable.
 
 ## Readings
 Matthew J.C. Crump, Answering Questions With Data, [“Correlation”: 3.0-3.4](https://www.crumplab.com/statistics/03-Correlation.html) 
-	and [“Interpreting Correlations”: 3.6.1-3.6.1.2]([https://www.crumplab.com/statistics/03-Correlation.html](https://www.crumplab.com/statistics/03-Correlation.html#interpreting-correlations))
+	and [“Interpreting Correlations”: 3.6.1-3.6.1.2](https://www.crumplab.com/statistics/03-Correlation.html#interpreting-correlations)
 
 ## Key Concept Review Activity (15 minutes)
 
