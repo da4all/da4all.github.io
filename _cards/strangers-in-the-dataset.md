@@ -17,7 +17,6 @@ keywords:
   - "Data Analysis"
   - "Data Cleaning"
   - "Justice"
-  - "Representation"
 
 metadata:
   source: "https://data-feminism.mitpress.mit.edu/pub/2wu7aft8#strangers-in-the-dataset"
