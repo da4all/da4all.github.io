@@ -40,7 +40,7 @@ Distinguish between correlation and causation.
 Introduce the idea of a confounding variable.
 
 ## Readings
-Matthew J.C. Crump, Answering Questions With Data, [“Correlation”: 3.0-3.4]([url](https://www.crumplab.com/statistics/03-Correlation.html)) 
+Matthew J.C. Crump, Answering Questions With Data, [“Correlation”: 3.0-3.4](https://www.crumplab.com/statistics/03-Correlation.html) 
 	and [“Interpreting Correlations”: 3.6.1-3.6.1.2]([url](https://www.crumplab.com/statistics/03-Correlation.html))
 
 ## Key Concept Review Activity (15 minutes)
