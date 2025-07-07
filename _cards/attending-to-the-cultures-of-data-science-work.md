@@ -18,7 +18,6 @@ keywords:
   - "Data Documentation"
   - "Data Infrastructure"
   - "Ethnography"
-  - "Science And Technology Studies"
 
 metadata:
   source: "https://datascience.codata.org/articles/10.5334/dsj-2023-006"
