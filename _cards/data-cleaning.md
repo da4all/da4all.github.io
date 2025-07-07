@@ -24,6 +24,6 @@ metadata:
   author: "Alice Macfarlan"
   date: 
   license: "CC BY-NC 3.0"
-  citation: "Macfarlan, Alice. 'Data Cleaning.' *Better Evaluation*, www.betterevaluation.org/methods-approaches/methods/data-cleaning#. Accessed 31 July 2024."
+  citation: "Macfarlan, Alice. 'Data Cleaning.' <i>Better Evaluation</i>, www.betterevaluation.org/methods-approaches/methods/data-cleaning#. Accessed 31 July 2024."
 ---
 
