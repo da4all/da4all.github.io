@@ -24,6 +24,6 @@ metadata:
   author: "Catherine D'Ignazio and Lauren Klein"
   date: "2020-03"
   license: "CC BY 4.0"
-  citation: "D'Ignazio, Catherine, and Lauren Klein. 'Unicorns, Janitors, Ninjas, Wizards, and Rock Stars.' Data Feminism, MIT Press, 16 Mar. 2020, data-feminism.mitpress.mit.edu/pub/2wu7aft8#strangers-in-the-dataset. Accessed 31 July 2024."
+  citation: "D'Ignazio, Catherine, and Lauren Klein. 'Unicorns, Janitors, Ninjas, Wizards, and Rock Stars.' <i>Data Feminism</i>, MIT Press, 16 Mar. 2020, https://data-feminism.mitpress.mit.edu/pub/2wu7aft8#strangers-in-the-dataset. Accessed 31 July 2024."
 ---
 The reading provides an effective complement to the articles by Christine P. Chai and Alice Macfarlane, also included in the Data Advocacy Toolkit.
