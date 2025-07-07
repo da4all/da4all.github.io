@@ -9,10 +9,10 @@ subdomain:
 
 sample_resource: false
 
-title: "Matthew J.C. Crump, 'Correlation'"
+title: "Covariation, Correlation, and Causation"
 
 teaser: >
-  This chapter from Crump's textbook, _Answering Questions with Data_, provides an accessible and illuminating discussion of the phenomena of covariation, correlation, and the difference between correlation and causation.  The reading can provide the basis of a classroom discussion about these key concepts in statistical  analysis.  Paired with other datasets in the Data Advocacy Toolkit, the reading can help students develop the tools they need to calculate and begin to think critically about the concept of causation..
+  This chapter from Crump's textbook, _Answering Questions with Data_, provides an accessible and illuminating discussion of the phenomena of covariation, correlation, and the difference between correlation and causation.  The reading can provide the basis of a classroom discussion about these key concepts in statistical  analysis.  Paired with other datasets in the Data Advocacy Toolkit, the reading can help students develop the tools they need to calculate correlation and begin to think critically about the concept of causation..
 
 keywords:
   - "Causation"
@@ -24,7 +24,7 @@ metadata:
   author: "Matthew J.C. Crump"
   date: "2018-09-01"
   license: "CC BY SA 4.0"
-  citation: "Crump, Matthew J. C. 'Answering Questions with Data - 3 Correlation.' Crumplab, 2023, www.crumplab.com/statistics/03-Correlation.html. Accessed 31 July 2024."
+  citation: "Crump, Matthew J. C. 'Answering Questions with Data - 3 Correlation.' Crumplab, 2023, https://www.crumplab.com/statistics/03-Correlation.html. Accessed 31 July 2024."
 ---
 
 _Instructor Information_
