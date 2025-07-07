@@ -24,7 +24,7 @@ metadata:
   author: "Matthew J.C. Crump"
   date: "2018-09-01"
   license: "CC BY SA 4.0"
-  citation: "Crump, Matthew J. C. 'Answering Questions with Data - 3 Correlation.' Crumplab, 2023, https://www.crumplab.com/statistics/03-Correlation.html. Accessed 31 July 2024."
+  citation: "Crump, Matthew J. C. 'Answering Questions with Data - 3 Correlation.' Crumplab, 2023, www.crumplab.com/statistics/03-Correlation.html. Accessed 31 July 2024."
 ---
 
 _Instructor Information_
