@@ -24,3 +24,11 @@ metadata:
   citation: "Brown University Library.'Research Data Management and Sharing.' 2024.
 https://libguides.brown.edu/DataManagement/notebook. Accessed 8 December 2024."
 ---
+
+<div>
+  <center>
+  <sl-button-group label="Alignment">
+  <sl-button href="https://libguides.brown.edu/DataManagement/notebook">Access the full "Attending to the Cultures of Data Science Work" article here</sl-button>
+  </sl-button-group>
+</center>
+</div>
