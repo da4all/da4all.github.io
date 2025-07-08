@@ -38,7 +38,7 @@ metadata:
 
 <br>
 
-<iframe width="100%" height="1000" src="https://datascience.codata.org/articles/10.5334/dsj-2023-006> </iframe>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://datascience.codata.org/articles/10.5334/dsj-2023-006" width="100%" title="Attending to the Cultures of Data Science Work" style="border:2px #323639 solid; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div>
 
 
 
