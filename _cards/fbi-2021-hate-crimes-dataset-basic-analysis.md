@@ -38,7 +38,7 @@ The full package of FBI hate crimes data for 2021 can be downloaded from this we
 Activity one assumes that students have read Douglas Shafer and Zhiyi Zhang, “Basic Definitions and Concepts” and “Overview” from _Introductory Statistics_ (also included in the Data Advocacy Toolkit).
 
 Activity two requires students to read two items:
-Catherine D’Ignazio and Lauren Klein, “[What Gets Counted Counts](<[url](https://data-feminism.mitpress.mit.edu/pub/h1w0nbqp/release/3)>),” chapter four of _Data Feminism_ (also included in the Data Advocacy Toolkit).
+Catherine D’Ignazio and Lauren Klein, “[What Gets Counted Counts](<(https://data-feminism.mitpress.mit.edu/pub/h1w0nbqp/release/3)>),” chapter four of _Data Feminism_ (also included in the Data Advocacy Toolkit).
 Ken Schwenke, “[Why America Fails at Gathering Hate Crime Statistics](<[url](https://www.propublica.org/article/why-america-fails-at-gathering-hate-crime-statistics)>),” Pro Publica, December 4, 2017.
 
 # Examining a Dataset (25 minutes)
