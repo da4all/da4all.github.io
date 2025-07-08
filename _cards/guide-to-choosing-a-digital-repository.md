@@ -24,3 +24,11 @@ metadata:
   license:
   citation: "A Guide to Choosing a Data Repository for NIH-Funded Research.' https://dataworks.faseb.org/helpdesk/kb/guide-to-choosing-a-data-repository. Accessed 4 December 2024."
 ---
+
+<div>
+  <center>
+  <sl-button-group label="Alignment">
+  <sl-button href="https://dataworks.faseb.org/helpdesk/kb/guide-to-choosing-a-data-repository)">Access the full "Guide to Choosing a Data Repository" article here</sl-button>
+  </sl-button-group>
+</center>
+</div>
