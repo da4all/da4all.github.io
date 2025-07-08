@@ -18,6 +18,7 @@ keywords:
   - "Descriptive Statistics"
   - "Measures Of Variation"
   - "Statistical Analysis"
+  - "Global Data"
 
 metadata:
   source: 
