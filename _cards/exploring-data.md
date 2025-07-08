@@ -12,8 +12,15 @@ teaser: >
  This assignment challenges students to examine, explore, and think critically about a dataset. In crtically analyzing a subset of the 2019 American Community Survey performed by the United States Census Bureau, students come to learn how counting the US population is inherently messy, and implicitly (and sometimes explicitly) caught up in questions of power. 
  
 
+keywords:
+  - "Descriptive Statistics"
+  - "Measures Of Variation"
+  - "Measures Of Central Tendency"
+  - "Critical Data Analysis"
+
+
 metadata:
-    source:
+    source: "https://www.openintro.org/data/index.php?data=county_2019"
     author:
     date:
     license:
