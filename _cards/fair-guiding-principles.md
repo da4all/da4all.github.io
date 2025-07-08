@@ -8,7 +8,7 @@ subdomain:
   - Storing and Preserving Data
 sample_resource: true
 
-title: "The Fair Guiding Principles For Scientific Data Management And Stewardship"
+title: "The FAIR Guiding Principles For Scientific Data Management And Stewardship"
 
 teaser: >
   This article identifies practical guidelines for data management and data stewardship so that data can be published and preserved in ways that ensure transparency, reproducibility, and reusability.
