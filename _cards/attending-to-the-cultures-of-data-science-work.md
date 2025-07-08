@@ -31,16 +31,6 @@ metadata:
 <div>
   <center>
   <sl-button-group label="Alignment">
-  <sl-button href="https://datascience.codata.org/articles/10.5334/dsj-2023-006">Read “Attending to the Cultures of Data Science Work”</sl-button>
-  </sl-button-group>
-</center>
-</div>
-
-<br>
-
-<div>
-  <center>
-  <sl-button-group label="Alignment">
   <sl-button href="https://datascience.codata.org/articles/10.5334/dsj-2023-006">Access the full "Attending to the Cultures of Data Science Work" article here</sl-button>
   </sl-button-group>
 </center>
