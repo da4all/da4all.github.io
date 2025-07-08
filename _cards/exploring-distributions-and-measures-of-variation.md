@@ -35,8 +35,8 @@ Develop basic tools for describing variation within a dataset
 Provide practice calculating various measure of variation
 
 # Readings
-Matthew J.C. Crump, [*Answering Questions With Data*, chapters 2.5-2.5.4]([url](https://www.crumplab.com/statistics/02-Describing_Data.html#measures-of-variation-differentness)), 
-Shafer and Zhang, *Introductory Statistics*, “[2.3: Measure of Variability]([url](https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_(Shafer_and_Zhang)/02%3A_Descriptive_Statistics/2.03%3A_Measures_of_Variability))” and “[2.4: Relative Position of Data]([url](https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_(Shafer_and_Zhang)/02%3A_Descriptive_Statistics/2.04%3A_Relative_Position_of_Data))”
+Matthew J.C. Crump, [*Answering Questions With Data*, chapters 2.5-2.5.4](https://www.crumplab.com/statistics/02-Describing_Data.html#measures-of-variation-differentness), 
+Shafer and Zhang, *Introductory Statistics*, “[2.3: Measure of Variability](https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_(Shafer_and_Zhang)/02%3A_Descriptive_Statistics/2.03%3A_Measures_of_Variability)” and “[2.4: Relative Position of Data](https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_(Shafer_and_Zhang)/02%3A_Descriptive_Statistics/2.04%3A_Relative_Position_of_Data)”
 
 # Agenda
 Discussing Key Concepts (15 minutes)
@@ -62,7 +62,7 @@ This activity builds on the lesson plan also included in the Data Advocacy Toolk
 - The exercise has asked you to calculate data based on the population of students in your class.  Could the information you’ve gathered be taken as a representative sample of the student body in your institution as a whole?  Why or why not?
 
 ## Assessing Variation in a Dataset (30 minutes)
-This exercise asks students to explore a Gapminder dataset that focuses on the percentage of total energy use in a given country that derives from renewable energy sources ([link]([url](https://drive.google.com/file/d/1V-TqE-DQU5uwcU6PsMiN30FqZwQX9epG/view))).  
+This exercise asks students to explore a Gapminder dataset that focuses on the percentage of total energy use in a given country that derives from renewable energy sources ([link](https://drive.google.com/file/d/1V-TqE-DQU5uwcU6PsMiN30FqZwQX9epG/view)).  
 Using the software platform of your choice, have the students calculate:
 - Mean and median scores for a given year
 - Range
