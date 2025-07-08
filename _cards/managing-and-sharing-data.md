@@ -14,7 +14,7 @@ teaser: >
   This guide is designed to help researchers and data managers produce high quality research data with potential for long-term use. Content covers best practices for documenting, formatting, and storing data as well as legal and ethical issues for consideration. 
 
 keywords:
-  - "Data Lifecycle"
+  - "Data Lifecyle"
   - "Data Management"
 
 metadata:
