@@ -35,6 +35,13 @@ The dataset with information about its source and the variables included is avai
 **Assignment Prompt:**
 The American Community Survey provides an occasion to reflect upon how the project of counting the US population is inherently messy, and implicitly (and sometimes explicitly) caught up in questions of power. This is the case not only because census numbers are used by federal, state and local policy makers, but also because the methods and categories used to gather and organize data frequently make assumptions about what it means to be normal and about how people should be living their lives. At the same time, data can be a powerful tool for identifying patterns of injustice or systemic violence. As you work through this assignment, reflect both on how the ACS data embeds bias and on how the data might contribute to a responsible data advocacy project.
 
+**Preparation:**
+This exercise assumes a familiarity with basic terms and methods of statistical analysis.  Relevant Data Advocacy for All Toolkit pages include:
+- [Understanding and Applying Key Statistical Concepts](https://da4all.github.io/cards/shafer-and-zhang-introductory-statistics-basic-definitions)
+- [Basic Descriptive Statistics: Measures of Central Tendency](https://da4all.github.io/cards/exploring-distributions-and-central-tendency)
+- [Basic Descriptive Statistics: Measures of Variation](https://da4all.github.io/cards/exploring-distributions-and-measures-of-variation)
+- [Covariation, Correlation, and Causation](https://da4all.github.io/cards/correlation-crump-reading-and-guidelines-for-discussion)
+
 ## PART I: 
 Using a spreadsheet program or a software platform for statistical analysis (such as R), access the dataset and answer the following questions:
 - How does the dataset represent the phenomena under scrutiny? What variables does it include? Which of the variables are categorical? Which are numerical? How do the variables selected for inclusion impact the kinds of inquiry you can perform with the data? What kinds of values are embedded in the way the dataset presents its information?
