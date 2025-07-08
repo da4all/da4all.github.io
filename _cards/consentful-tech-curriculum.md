@@ -22,7 +22,7 @@ metadata:
     author: "Una Lee and Dann Toliver"
     date: "2017"
     license: "CC BY" 
-    citation: "Lee, Una and Dann Toliver. 2017. Building Consentful Tech. 2017. http://www.consentfultech.io/wp-content/uploads/2019/10/Building-Consentful-Tech.pdf" 
+    citation: "Lee, Una and Dann Toliver. 2017. Building Consentful Tech. http://www.consentfultech.io/wp-content/uploads/2019/10/Building-Consentful-Tech.pdf" 
 ---
 
 NOTE 
