@@ -30,7 +30,7 @@ metadata:
 ---
 
 **Note:** 
-The dataset with information about its source and the variables included is available at https://www.openintro.org/data/index.php?data=county_2019. This assignment reinforces lessons and resources from the Defining Data, Critiquing Data, and Collecting Data subdomains of the DA4A Toolkit, and also could be used as the basis of exercises focused on Making Claims with Data, Visualizing Data, Mapping Data, or Telling Stories with Data.  
+The dataset with information about its source and the variables included is available at this address: [https://www.openintro.org/data/index.php?data=county_2019](https://www.openintro.org/data/index.php?data=county_2019). This assignment reinforces lessons and resources from the Defining Data, Critiquing Data, and Collecting Data subdomains of the DA4A Toolkit, and also could be used as the basis of exercises focused on Making Claims with Data, Visualizing Data, Mapping Data, or Telling Stories with Data.  
 
 **Assignment Prompt:**
 The American Community Survey provides an occasion to reflect upon how the project of counting the US population is inherently messy, and implicitly (and sometimes explicitly) caught up in questions of power. This is the case not only because census numbers are used by federal, state and local policy makers, but also because the methods and categories used to gather and organize data frequently make assumptions about what it means to be normal and about how people should be living their lives. At the same time, data can be a powerful tool for identifying patterns of injustice or systemic violence. As you work through this assignment, reflect both on how the ACS data embeds bias and on how the data might contribute to a responsible data advocacy project.
