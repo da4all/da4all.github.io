@@ -26,7 +26,9 @@ metadata:
   license: 
   citation: "Cifor, M., Garcia, P., Cowan, T.L., Rault, J., Sutherland, T., Chan, A., Rode, J., Hoffmann, A.L., Salehi, N., Nakamura, L. 2019. 'Feminist Data Manifest-No.' Retrieved from: https://www.manifestno.com."
 
-  <div>
+---
+
+<div>
   <center>
   <sl-button-group label="Alignment">
   <sl-button href="https://www.manifestno.com/">Access the full "Feminist Data Manifest-no" article here</sl-button>
