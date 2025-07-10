@@ -3,7 +3,7 @@ layout: symposium
 permalink: /symposium-2025/
 title: Symposium
 description: A One Day Symposium
-nav: true
+nav: false
 nav_order: 7
 toc:
   sidebar: left
