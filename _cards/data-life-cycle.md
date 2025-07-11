@@ -2,8 +2,8 @@
 layout: card
 inline: false
 resource: Term
-domain: Processing Data
-subdomain: 
+domain: Defining Data
+subdomain: Understanding Data
 sample_resource: false
 
 title: Data Life Cycle
@@ -14,8 +14,6 @@ teaser: >
 keywords:
   - "Data Life Cycle"
   - "Data"
-  - "Ethics"
-  - "Social Change"
 
 metadata:
   source: "https://online.hbs.edu/blog/post/data-life-cycle"
