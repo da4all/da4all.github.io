@@ -16,14 +16,13 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-Despite living in a data-rich world, too few students are being taught how to responsibly work with that data to
-to advance equity and justice. Data Advocacy for All fills this gap. It offers a collection of resources for teaching **data advocacy** - an ethical and rhetorical practice of analysis, design, and communication in which data is used to drive social change. This site compiles ready-to-use teaching materials that help students:
+In our data-rich world, data advocacy has become a valuable literacy practice for communicating information and manifesting change. Despite this, too few students are being taught how to responsibly collect and use data to advocate for social change. **Data Advocacy for All** addresses this curricular gap by offering a toolkit of ready-to-use teaching materials that help students:
 
-- **Analyze** data critically and ethically
-- **Build** skills in data collection, analysis, and visualization
-- **Create** compelling data stories and arguments that drive real-world action
+- **Think critically** and ethically about data and its societal impact
+- **Build valuable skills** in data collection, processing, analysis, and visualization
+- **Create compelling data stories and arguments** that effectively translate into real-world action
 
-Data Advocacy for All offers [a toolkit]({{site.baseurl}}/toolkit) of flexible curricular [resources]({{site.baseurl}}/resource-types/) - including open-access readings, activities, assignments, and lesson plans - organized under three [literacy domains]({{site.baseurl}}/literacy-domains/) of data advocacy. Our toolkit has been designed around several [critical frameworks]({{site.baseurl}}/methodology/) and built for teachers and students across different disciplines who have no prior data science or computing experience.
+Data Advocacy for All resources have been specifically designed for teachers and students across multiple disciplines who have no prior data science or computing experience. Inspired by [critical frameworks]({{site.baseurl}}/methodology/) and centered around three [literacy domains]({{site.baseurl}}/literacy-domains/) of data advocacy, this digital repository offers [a toolkit]({{site.baseurl}}/toolkit) of flexible curricular [resources]({{site.baseurl}}/resource-types/) including open-access readings, activities, assignments, and lesson plans.
 
 <div style="margin-top: 2em;">
 <center>
