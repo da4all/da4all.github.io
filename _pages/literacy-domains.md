@@ -4,7 +4,7 @@ permalink: /literacy-domains/
 title: The Literacy Domains of Data Advocacy
 description:
 nav: false
-nav_order: 3
+nav_order: 2
 ---
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.5.2/cdn/themes/light.css" />

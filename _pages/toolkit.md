@@ -4,7 +4,7 @@ permalink: /toolkit/
 title: Toolkit
 description:
 nav: true
-nav_order: 5
+nav_order: 1
 ---
 
 Welcome to the Data Advocacy for All Toolkit! This is a curated collection of teaching resources designed to support data advocacy, including readings, assignments, lesson plans, and more. Use the buttons below to filter resources by their **Literacy Domain/Subdomain** and **Resource Type**, or search for specific keywords across the resources.

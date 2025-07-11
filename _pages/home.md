@@ -25,8 +25,7 @@ to advance equity and justice. Data Advocacy for All fills this gap. It offers a
 
 Data Advocacy for All offers [a toolkit]({{site.baseurl}}/toolkit) of flexible curricular [resources]({{site.baseurl}}/resource-types/) - including open-access readings, activities, assignments, and lesson plans - organized under three [literacy domains]({{site.baseurl}}/literacy-domains/) of data advocacy. Our toolkit has been designed around several [critical frameworks]({{site.baseurl}}/methodology/) and built for teachers and students across different disciplines who have no prior data science or computing experience.
 
-<br>
-<div>
+<div style="margin-top: 2em;">
 <center>
   <sl-button variant="primary" size="large" outline href="{{ site.baseurl }}/toolkit/"><sl-icon name="wrench-adjustable"></sl-icon> The Toolkit</sl-button>
   <sl-button variant="primary" size="large" outline href="{{ site.baseurl }}/literacy-domains/"><sl-icon name="book"></sl-icon> The Literacy Domains</sl-button>
@@ -34,8 +33,6 @@ Data Advocacy for All offers [a toolkit]({{site.baseurl}}/toolkit) of flexible c
 </center>
 </div>
 <br>
-
----
 
 <!--
 # Our Mission and Framework

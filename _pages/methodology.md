@@ -4,10 +4,12 @@ permalink: /methodology/
 title: Methodology
 description:
 nav: true
-nav_order: 2
+nav_order: 3
 toc:
   sidebar: left
 ---
+
+> _Data advocacy is a deeply ethical and rhetorical practice of integrated analysis, design, and communication in which insights from a dataset are effectively gleaned and conveyed to raise public awareness and drive social change._
 
 # Guiding Purpose
 
@@ -78,6 +80,7 @@ Learn more about the three literacy domains and their subdomains of data advocac
 <sl-button variant="primary" size="large" outline href="../persuading-with-data/"><i class="fas fa-chart-line"></i> Persuading with Data</sl-button>
 </center>
 </div>
+<br>
 
 # Guiding Ethics
 
