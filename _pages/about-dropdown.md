@@ -5,9 +5,6 @@ nav: true
 nav_order: 7
 dropdown: true
 children:
-  - title: Methodology
-    permalink: /methodology/
-  - title: divider
   - title: About the Project
     permalink: /about/
   - title: divider
