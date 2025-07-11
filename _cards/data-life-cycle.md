@@ -2,8 +2,10 @@
 layout: card
 inline: false
 resource: Term
-domain: Defining Data
-subdomain: Understanding Data
+domain:
+  - Understanding Data
+subdomain:
+  - Defining Data
 sample_resource: false
 
 title: Data Life Cycle
@@ -19,7 +21,7 @@ metadata:
   source: "https://online.hbs.edu/blog/post/data-life-cycle"
   author: "Tim Stobierski"
   date: "2021-02-21"
-  license: 
+  license:
   citation: "Stobierski, Tim. '8 Steps in the Data Life Cycle.' 2021. Harvard Business Review Online. https://online.hbs.edu/blog/post/data-life-cycle. Accessed on 11 July 2025."
   align: right
 ---
