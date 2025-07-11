@@ -59,11 +59,11 @@ In thinking about data advocacy through the frameworks of critical data studies,
 
 # Guiding Design Approach
 
-In thinking about data advocacy as a complex literacy practice, the Data Advocacy for All team came to realize that learning how to enact effective data advocacy demands learning in three key domains. Our toolkit is organized according to these three literacy domains.
+> _A literacy domain is a specific area or aspect of literacy development that encompasses certain mindsets, abilities, and practices that enable one to advocate with data in meaningful, ethical, and transformative ways._
 
-To be clear, in the context of this project, a literacy domain can be understood as a specific area or aspect of literacy development that encompasses certain mindsets, abilities, and practices that enable one to advocate with data in meaningful, ethical, and transformative ways.
+Data Advocacy for All has designed our toolkit around three key literacy domains in which students need to gain experience to develop the critical-rhetorical capacities to ethically and effectively work with data to instigate social change.
 
-When it comes to data advocacy, we have identified three crucial literacy domains in which students need to gain experience in order to develop the critical-rhetorical capacities to ethically and effectively work with data to instigate social change. As evident in the chart below, we identify these three broad domains as [Understanding Data]({{site.baseurl}}/understanding-data/), [Processing Data]({{site.baseurl}}/processing-data/), and [Persuading with Data]({{site.baseurl}}/persuading-with-data/), and in each arena, we have identified four subdomains:
+We identify these three broad domains as [Understanding Data]({{site.baseurl}}/understanding-data/), [Processing Data]({{site.baseurl}}/processing-data/), and [Persuading with Data]({{site.baseurl}}/persuading-with-data/), and in each arena, we have identified four subdomains:
 
 <img src="../assets/img/literacy-domains.png" alt="The graphic is titled 'Literacy Domains of Data Advocacy.' Beneath that heading, there are three primary domains: (1) Understanding Data, (2) Processing Data, and (3) Persuading with Data. Under each domain are four subdomains. Under (1) Understanding Data, there are the following subdomains: (1a) Defining Data, (1b) Critiquing Data, (1c) Acting Ethically with Data, and (1d) Thinking Rhetorically about Data. Under (2) Processing Data, there are the following subdomains: (2a) Collecting Data, (2b) Preparing Data, (2c) Analyzing Data, and (2d) Storing and Preserving Data. Under (3) Persuading with Data, there are the following subdomains: (3a) Making Claims with Data, (3b) Visualizing Data, (3c) Mapping Data, and (3d) Telling Stories with Data." width="100%" style="border: #9AB1DA 1px outset">
 
