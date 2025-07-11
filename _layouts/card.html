@@ -51,7 +51,7 @@ layout: default
           <i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp;
           Type of Resource: {{ page.resource }} {% if page.metadata.citation %}
           <br />
-          <i class="fa-solid fa-quote-left"></i>&nbsp; MLA Citation: {{
+          <i class="fa-solid fa-quote-left"></i>&nbsp; Citation: {{
           page.metadata.citation | replace: '<br />', ', ' }} {% endif %}
         </small>
       </p>
