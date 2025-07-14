@@ -7,7 +7,7 @@ domain:
 subdomain:
   - Making Claims with Data
 
-sample_resource: true
+sample_resource: false
 
 title: "Framing Statistics"
 

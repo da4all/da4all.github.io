@@ -5,7 +5,6 @@ resource: Activity
 domain:
   - Processing Data
 subdomain:
-  - Collecting Data
   - Preparing Data
 sample_resource: true
 
