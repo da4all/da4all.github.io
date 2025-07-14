@@ -11,22 +11,13 @@ nav_order:
 
 ## Description
 
-Data Advocacy for All is an open-access educational toolkit that leverages minimal computing and open-source resources to enhance student abilities to inquire with data, communicate with data, and deploy data for social advocacy.
-
-Data Advocacy for All has been designed for teachers and students across the disciplines with no prior data science or computing experience. This digital repository offers reading resources, ready-made data sets, tutorials, links to open-source tools, and flexible curricular resources such as activities, assignments, and modules.
+Data Advocacy for All is an open-access educational toolkit that leverages minimal computing and open-source resources to enhance student abilities to inquire with data, communicate with data, and deploy data for social advocacy. The project has been designed for teachers and students across the disciplines with no prior data science or computing experience. This digital repository offers reading resources, ready-made data sets, tutorials, links to open-source tools, and flexible curricular resources such as activities, assignments, and modules.
 
 Data Advocacy for All is a <a href="https://www.cu.edu/oaa/academic-innovation-programs/cu-next-award">CU Next Award Grant project<a/> that has been realized by a team of digital rhetoric and digital humanities faculty at CU Boulder and Denver in concert with CU Boulder’s Center for Research Data and Digital Scholarship (CRDDS).
-<br><br>
 
 ## Grants and Funding
 
 - [CU Next Award, $300,000, 2022-2025.](https://www.cu.edu/oaa/academic-innovation-programs/cu-next-award)
-  <br><br>
-
-## Symposiums
-
-- [Working with Data for Social Change]({{site.baseurl}}/symposium-2025/), University of Colorado Boulder (March 14, 2025)
-- ["Teaching the Cultural Analysis of Datasets,"]({{site.baseurl}}/teaching-cultural-analysis-of-datasets/), University of Colorado Boulder (September 21, 2023)
 
 ## Conference Presentations
 
@@ -34,7 +25,12 @@ Data Advocacy for All is a <a href="https://www.cu.edu/oaa/academic-innovation-p
 - Cameron Blevins, "Data Advocacy for All: Building an Open-Access Educational Toolkit," [Digital Humanities 2025](https://dh2025.adho.org/), July 2025.<br>
 - Nickoal Eichmann-Kalwara et. al., "The Data Advocacy for All Toolkit: Critical Data Education for Social Change," [Association for Computers in the Humanities 2025](https://ach2025.ach.org/), June 2025.<br>
 - Nathan Pieplow, "Data Advocacy for All," [Conference on Community Writing 2023](https://communitywriting.org/conference-on-community-writing/), Denver, Colorado, October, 2023.<br>
-- Cameron Blevins, "Building a Data Advocacy Curriculum," [Digital Pedagogy Institute 2023](https://uwaterloo.ca/digital-pedagogy-institute/sites/ca.digital-pedagogy-institute/files/uploads/files/dpi202schedulewithabstracts.pdf), August 2023.<br><br>
+- Cameron Blevins, "Building a Data Advocacy Curriculum," [Digital Pedagogy Institute 2023](https://uwaterloo.ca/digital-pedagogy-institute/sites/ca.digital-pedagogy-institute/files/uploads/files/dpi202schedulewithabstracts.pdf), August 2023.
+
+## Symposiums
+
+- [Working with Data for Social Change]({{site.baseurl}}/symposium-2025/), University of Colorado Boulder (March 14, 2025)
+- ["Teaching the Cultural Analysis of Datasets,"]({{site.baseurl}}/teaching-cultural-analysis-of-datasets/), University of Colorado Boulder (September 21, 2023)
 
 ## Project Press
 
@@ -43,4 +39,4 @@ Data Advocacy for All is a <a href="https://www.cu.edu/oaa/academic-innovation-p
 - [“Project Aims to Help Students Harness Data for the Greater Good.”](https://www.colorado.edu/asmagazine/2022/10/10/project-aims-help-students-harness-data-greater-good) _Colorado Arts and Sciences Magazine_, 10 Oct. 2022, https://www.colorado.edu/asmagazine/2022/10/10/project-aims-help-students-harness-data-greater-good.
   <br><br>
 
-<p style="text-align:right;">Inspired by the Project Curriculum Vitae (CV) format provided by the <a href="https://coloredconventions.org/about/cv/"><small>Colored Conventions Project.</small></a></p>
+<p style="text-align:center;"><small>Inspired by the Project Curriculum Vitae (CV) format provided by the <a href="https://coloredconventions.org/about/cv/">Colored Conventions Project.</a></small></p>
