@@ -45,11 +45,11 @@ The [Data Advocacy for All Toolkit]({{site.baseurl}}/toolkit) is a collection of
 
 # Student Showcase
 
-The resources from our toolkit were piloted in several courses taught at the University of Colorado Boulder and University of Colorado Denver bewteen 2023 to 2024. We've provided a showcase of student work from these courses in order to illustrate how these resources can be successfully applied in the classroom to help students learn how to build their own data advocacy projects.
+The resources from our toolkit were piloted in several courses taught at the University of Colorado Boulder and University of Colorado Denver between 2023 to 2024. We've provided a showcase of student work from these courses in order to illustrate how these resources can be successfully applied in the classroom to help students learn how to build their own data advocacy projects.
 
 <div style="margin: 25px 0;">
 <center>
-  <sl-button variant="primary" size="large" outline href="../resource-types/"><sl-icon name="mortarboard"></sl-icon> Browse Student Work</sl-button>
+  <sl-button variant="primary" size="large" outline href="../student-showcase/"><sl-icon name="mortarboard"></sl-icon> Browse Student Work</sl-button>
 </center>
 </div>
 

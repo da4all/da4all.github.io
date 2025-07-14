@@ -99,7 +99,7 @@ In making these ethical choices, our ultimate hope is to both promote and expand
 <div style="margin: 25px 0;">
 <center>
   <sl-button variant="primary" size="large" outline href="../toolkit/"><sl-icon name="wrench-adjustable"></sl-icon> Go to the Toolkit</sl-button>
-  <sl-button variant="primary" size="large" outline href="../resource-types/"><sl-icon name="mortarboard"></sl-icon> Browse Student Work</sl-button>
+  <sl-button variant="primary" size="large" outline href="../student-showcase/"><sl-icon name="mortarboard"></sl-icon> Browse Student Work</sl-button>
 </center>
 </div>
 

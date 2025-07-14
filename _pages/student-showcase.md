@@ -2,7 +2,7 @@
 layout: page
 permalink: /student-showcase/
 title: Student Showcase
-description: This page showcases student data advocacy projects to demonstrate the types of projects afforded by the resources in the Data Advocacy for All Toolkit.
+description:
 nav: true
 nav_order: 4
 toc:
@@ -16,6 +16,8 @@ toc:
 }
 
 </style>
+
+The resources from the Data Advocacy for All toolkit were piloted in several courses taught at the University of Colorado Boulder and University of Colorado Denver between 2023 to 2024. We’ve provided a showcase of student work from these courses in order to illustrate how these resources can be successfully applied in the classroom to help students learn how to build their own data advocacy projects.
 
 {% assign groups = site.showcase | sort: "group_rank" | map: "group" | uniq %}
 

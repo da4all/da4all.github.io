@@ -7,7 +7,7 @@ nav: true
 nav_order: 1
 ---
 
-Welcome to the Data Advocacy for All Toolkit! This is a curated collection of teaching resources designed to support data advocacy, including readings, assignments, lesson plans, and more. Use the buttons below to filter resources by their **Literacy Domain/Subdomain** and **Resource Type**, or search for specific keywords across the resources.
+Welcome to the Data Advocacy for All Toolkit! This is a curated collection of teaching resources designed to support data advocacy, including readings, assignments, lesson plans, and more. Use the buttons below to filter resources by their **Literacy Domain/Subdomain** and **Resource Type**, or search for specific keywords across the resources. Check out our [Student Showcase]({{site.baseurl}}/student-showcase) to see how these resources have been implemented in the classroom.
 
 <div class="help-banner" style="justify-content: center; font-size: 0.95em;">
   <i class="fa-regular fa-circle-question"></i> New to the toolkit? Learn more about our <a href="../literacy-domains/">literacy domains</a> of data advocacy and the different <a href="../resource-types/" style="color: #d32f2f; text-decoration: none; border-radius: 2px; transition: background 0.2s;" onmouseover="this.style.backgroundColor='#fdeaea'" onmouseout="this.style.backgroundColor=''">types of teaching resources.</a>

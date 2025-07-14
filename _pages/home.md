@@ -28,7 +28,7 @@ Data Advocacy for All's resources have been specifically designed for teachers a
 <center>
   <sl-button variant="primary" size="large" outline href="{{ site.baseurl }}/toolkit/"><sl-icon name="wrench-adjustable"></sl-icon> The Toolkit</sl-button>
   <sl-button variant="primary" size="large" outline href="{{ site.baseurl }}/literacy-domains/"><sl-icon name="book"></sl-icon> The Literacy Domains</sl-button>
-  <sl-button variant="primary" size="large" outline href="{{ site.baseurl }}/methodology/"><sl-icon name="bar-chart-fill"></sl-icon> The Methodology</sl-button>
+  <sl-button variant="primary" size="large" outline href="{{ site.baseurl }}/methodology/"><sl-icon name="compass"></sl-icon> The Methodology</sl-button>
 </center>
 </div>
 <br>
