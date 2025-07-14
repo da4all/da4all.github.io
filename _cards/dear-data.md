@@ -23,7 +23,7 @@ metadata:
 
 ## Assignment Overview
 
-In this assignment you will draw inspiration from Giorgia Lupi and Stefanie Posavec’s project _Dear Data_. You will spend a period of five days and regularly collect some kind of information from your daily life. You will then illustrate the data you collected through a hand-drawn data visualization and submit the visualization along with a written reflection on the process and the big takeaways for data advocacy.
+In this assignment you will draw inspiration from [Giorgia Lupi and Stefanie Posavec’s project _Dear Data_](https://www.dear-data.com/theproject). You will spend a period of five days and regularly collect some kind of information from your daily life. You will then illustrate the data you collected through a hand-drawn data visualization and submit the visualization along with a written reflection on the process and the big takeaways for data advocacy.
 
 ## Step 1: Choose your Data
 
