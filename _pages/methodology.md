@@ -9,7 +9,7 @@ toc:
   sidebar: left
 ---
 
-> _Data advocacy is a deeply ethical and rhetorical practice of integrated analysis, design, and communication in which insights from a dataset are effectively gleaned and conveyed to raise public awareness and drive social change._
+> _**Data advocacy** is a deeply ethical and rhetorical practice of integrated analysis, design, and communication in which insights from a dataset are effectively gleaned and conveyed to raise public awareness and drive social change._
 
 # Guiding Purpose
 
@@ -99,6 +99,7 @@ In making these ethical choices, our ultimate hope is to both promote and expand
 <div style="margin: 25px 0;">
 <center>
   <sl-button variant="primary" size="large" outline href="../toolkit/"><sl-icon name="wrench-adjustable"></sl-icon> Go to the Toolkit</sl-button>
+  <sl-button variant="primary" size="large" outline href="../resource-types/"><sl-icon name="mortarboard"></sl-icon> Browse Student Work</sl-button>
 </center>
 </div>
 

@@ -25,6 +25,6 @@ metadata:
   university: "University of Colorado Boulder"
 ---
 
-This final project was created in response to the [Individual Data Advocacy Project assignment sequence](https://da4asandbox.github.io/curricularsite/cards/individual-data-advocacy-project) as the final project in an upper-division technical writing course dedicated to data advocacy and is shared here with the permission of the author.
+This final project was created in response to the [Individual Data Advocacy Project assignment sequence]({{site.baseurl}}/cards/individual-data-advocacy-project) as the final project in an upper-division technical writing course dedicated to data advocacy and is shared here with the permission of the author.
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="../assets/pdf/accessibility-in-the-atlas-building.pdf" width="100%" title="Accessibility in the ATLAS Building at the University of Colorado Boulder" style="border:2px #323639 solid; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div>
