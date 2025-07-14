@@ -14,7 +14,7 @@ toc:
 
 # The Project
 
-**Data Advocacy for All** is a CU Next Award project that aims to extend data humanities education throughout and beyond the University of Colorado system by offering an open-access educational toolkit for teaching data advocacy.
+**Data Advocacy for All** is a CU Next Award project that infuses rhetorical studies with data science and critical data studies in order to enhance data humanities education throughout and beyond the University of Colorado system. With a specific aim to assist the teaching of data advocacy, we have designed and curated a toolkit of educational resources and provide an accessible, searchable toolkit for teachers and students across multiple disciplines who have no prior data science or computing experience.
 
 <div style="margin: 25px 0;">
 <center>
