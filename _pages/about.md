@@ -49,7 +49,7 @@ The resources from our toolkit were piloted in several courses taught at the Uni
 
 <div style="margin: 25px 0;">
 <center>
-  <sl-button variant="primary" size="large" outline href="../student-showcase/"><sl-icon name="mortarboard"></sl-icon> Browse Student Work</sl-button>
+  <sl-button variant="primary" size="large" outline href="{{site.baseurl}}/student-showcase/"><sl-icon name="mortarboard"></sl-icon> Browse Student Work</sl-button>
 </center>
 </div>
 

@@ -7,11 +7,50 @@ nav: true
 nav_order: 1
 ---
 
-Welcome to the Data Advocacy for All Toolkit! This is a curated collection of teaching resources designed to support data advocacy, including readings, assignments, lesson plans, and more. Use the buttons below to filter resources by their **Literacy Domain/Subdomain** and **Resource Type**, or search for specific keywords across the resources. Check out our [Student Showcase]({{site.baseurl}}/student-showcase) to see how these resources have been implemented in the classroom.
+Welcome to the Data Advocacy for All Toolkit! This is a curated collection of teaching resources designed to support data advocacy, including readings, assignments, lesson plans, and more. Use the buttons below to filter resources by their **Literacy Domain/Subdomain** and **Resource Type**, or search for specific keywords across the resources.
+
+<details style="padding: 0.5em 1.25em 0.5em 1.25em;">
+  <summary style="font-size: 0.92em; cursor: pointer; outline: none; ">
+    <i class="fa-solid fa-chevron-right summary-icon"></i>&nbsp;
+    <i class="fa-solid fa-circle-info" style="color: #6c757d;"></i> First time here? Learn how the toolkit works.
+  </summary>
+  <div style="margin-top: 1em; color: #333; font-size: 0.92em">
+    <style>
+      .toolkit-intro-links a {
+        color: #6c757d !important;
+        text-decoration: underline;
+        transition: background 0.15s, color 0.15s;
+        border-radius: 3px;
+        padding: 1px 2px;
+      }
+      .toolkit-intro-links a:hover, .toolkit-intro-links a:focus {
+        color: #343a40 !important;
+        background: #ededed;
+        text-decoration: underline;
+      }
+    </style>
+    <p>This toolkit offers a collection of resources for teaching data advocacy. Use the buttons and search bar to find resources related to particular topics & skills (Literacy Domains/Subdomains) or kinds of material (Resource Types).
+    <div class="toolkit-intro-links">
+    <ul>
+      <li>What are the <a href="{{site.baseurl}}/literacy-domains">literacy domains?</a></li>
+      <li>What are the <a href="{{site.baseurl}}/resource-types">resource types?</a></li>
+      <li>See examples of <a href="{{site.baseurl}}/student-showcase">student work</a> based on these resources.</li>
+      <li>Read more about <a href="{{site.baseurl}}/methodology">the methodology</a> behind the toolkit.</li>
+    </ul>
+    </div>
+    </p>
+  </div>
+</details>
+
+<!--
+<div class="help-banner" style="justify-content: center; font-size: 0.95em;">
+  <i class="fa-regular fa-circle-question"></i> New to the toolkit? Read more about our <a href="../literacy-domains/">literacy domains</a> of data advocacy, the different <a href="../resource-types/">types of teaching resources</a> available, or how they've <a href = "({{site.baseurl}}/student-showcase"> used in the classroom</a>.
+</div>
 
 <div class="help-banner" style="justify-content: center; font-size: 0.95em;">
-  <i class="fa-regular fa-circle-question"></i> New to the toolkit? Learn more about our <a href="../literacy-domains/">literacy domains</a> of data advocacy and the different <a href="../resource-types/" style="color: #d32f2f; text-decoration: none; border-radius: 2px; transition: background 0.2s;" onmouseover="this.style.backgroundColor='#fdeaea'" onmouseout="this.style.backgroundColor=''">types of teaching resources.</a>
+  <i class="fa-regular fa-circle-question"></i> New to the toolkit? Read more about our <a href="../literacy-domains/">literacy domains</a> of data advocacy, the <a href="../resource-types/" style="color: #d32f2f; text-decoration: none; border-radius: 2px; transition: background 0.2s;" onmouseover="this.style.backgroundColor='#fdeaea'" onmouseout="this.style.backgroundColor=''">types of teaching resources</a> in this toolkit, or how these resources <a href = "({{site.baseurl}}/student-showcase">have been used in the classroom</a>.
 </div>
+-->
 
 <!-- Domain Filter Section -->
 <div class="filter-section mb-4">
