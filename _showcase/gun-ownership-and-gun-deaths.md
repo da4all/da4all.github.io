@@ -1,8 +1,7 @@
 ---
 layout: showcase
 inline: false
-group: Data Storytelling Presentations
-group_rank: 1
+group: Presentations
 
 title: "Gun Ownership and Gun Deaths"
 

@@ -1,8 +1,7 @@
 ---
 layout: showcase
 inline: false
-group: Individual Data Advocacy Projects
-group_rank: 3
+group: White Papers
 
 title: "Why Teachers Are Leaving the Classroom"
 

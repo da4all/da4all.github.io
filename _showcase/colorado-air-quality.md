@@ -1,8 +1,7 @@
 ---
 layout: showcase
 inline: false
-group: Dataset Documentation
-group_rank: 2
+group: Dataset Documentations
 
 title: "Colorado Air Quality"
 

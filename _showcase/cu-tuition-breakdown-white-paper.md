@@ -1,8 +1,7 @@
 ---
 layout: showcase
 inline: false
-group: Group Project White Papers
-group_rank: 5
+group: White Papers
 
 title: "CU Tuition Breakdown: White Paper"
 
@@ -30,4 +29,3 @@ This student work was created by a group of students in a Fall 2024 upper-divisi
 **[Group Data Advocacy Project Part 1: White Paper (assignment sequence)]({{site.baseurl}}/cards/group-data-advocacy-project-1-white-paper)**
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="../assets/pdf/CU-tuition-breakdown-white-paper.pdf" width="100%" title="CU Tuition Breakdown White Paper" style="border:2px #323639 solid; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 200%; max-width: 100%;"></iframe></div>
-

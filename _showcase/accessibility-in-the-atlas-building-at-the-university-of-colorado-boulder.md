@@ -1,8 +1,7 @@
 ---
 layout: showcase
 inline: false
-group: Individual Data Advocacy Projects
-group_rank: 3
+group: White Papers
 
 title: "Accessibility in the ATLAS Building at the University of Colorado Boulder"
 

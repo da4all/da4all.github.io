@@ -17,11 +17,10 @@ toc:
 
 </style>
 
-The resources from the Data Advocacy for All toolkit were piloted in several courses taught at the University of Colorado Boulder and University of Colorado Denver between 2023 to 2024. We’ve provided a showcase of student work from these courses in order to illustrate how these resources can be successfully applied in the classroom to help students learn how to build their own data advocacy projects.
+This page showcases examples of data advocacy projects completed by students at the University of Colorado Boulder and University of Colorado Denver between 2023-2024. These examples illustrate how resources from the [Data Advocacy for All toolkit]({{site.baseurl}}/toolkit) can be successfully applied in the classroom to teach students core skills of data advocacy.
 
-{% assign groups = site.showcase | sort: "group_rank" | map: "group" | uniq %}
-
-{% for group in groups %}
+{% assign group_order = site.data.showcase %}
+{% for group in group_order %}
 
 <div class="projects">
 	<h2 class="category"> {{ group }} </h2>

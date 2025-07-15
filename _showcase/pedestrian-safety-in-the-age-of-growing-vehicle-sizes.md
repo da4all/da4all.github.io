@@ -1,8 +1,7 @@
 ---
 layout: showcase
 inline: false
-group: Individual Data Advocacy Projects
-group_rank: 3
+group: Op/Eds
 
 title: "Pedestrian Safety in the Age of Growing Vehicle Sizes"
 

@@ -1,19 +1,18 @@
 ---
 layout: showcase
 inline: false
-group: Group Data Advocacy Projects
-group_rank: 4
+group: Websites
 
 title: "Education for the Convicted"
 
 teaser: >
-  For their final project, this student group chose to lobby the University of Colorado Boulder to join an existing prison education program. They created a website to spread their message. 
+  For their final project, this student group chose to lobby the University of Colorado Boulder to join an existing prison education program. They created a website to spread their message.
 
 metadata:
   image: education-for-the-convicted-website.jpg
   caption: "A preview of the Education for the Convicted website homepage."
   genre: "Website"
-  filetype: 
+  filetype:
   typeofdataadvocacy: "Prison Reform"
   contributors: "Chloe Jones, Brandon Lui, Lindsey Guthrie, William Block"
   source:
@@ -32,4 +31,3 @@ This student work was created by a group of students in a Fall 2024 upper-divisi
 Note that the website was built in Squarespace and then [archived](https://web.archive.org/web/20250315153708/https://guava-penguin-6lbp.squarespace.com/) via the Wayback Machine, which did not perfectly preserve all aspects of the original website.
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://web.archive.org/web/20250315153708/https://guava-penguin-6lbp.squarespace.com/" width="100%" title="Education for the Convicted website (archived)" style="border:2px #323639 solid; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div>
-
