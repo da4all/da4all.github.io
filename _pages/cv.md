@@ -23,6 +23,7 @@ Data Advocacy for All is a <a href="https://www.cu.edu/oaa/academic-innovation-p
 ## Conference Presentations
 
 - Nickoal Eichmann-Kalwara et. al., "The Data Advocacy for All Toolkit: Critical Data Education for Social Change," [Digital Library Federation’s Forum](https://forum2025.diglib.org/), November 2025.
+- Nathan Pieplow, "From Dataviz to Data Advocacy: Visual Quantitative Rhetoric in the Classroom," [2025 Gordon Research Conference on Visualization in Science and Education](https://www.grc.org/visualization-in-science-and-education-conference/2025/), Lewiston, Maine, July 2025.
 - Laurie Gries,"Rhetorical Data Studies: A Methodological Approach for Data Activism and Advocacy," on panel: "Data Advocacy for All: Working and Teaching with Data for Social Change," [Digital Humanities Conference 2025](https://dh2025.adho.org/), Lisbon, Portugal, July 2025.
 - Cameron Blevins, "Data Advocacy for All: Building an Open-Access Educational Toolkit," on panel: "Data Advocacy for All: Working and Teaching with Data for Social Change," [Digital Humanities Conference 2025](https://dh2025.adho.org/), Lisbon, Portugal, July 2025.
 - Nickoal Eichmann-Kalwara et. al., "The Data Advocacy for All Toolkit: Critical Data Education for Social Change," [Association for Computers in the Humanities 2025](https://ach2025.ach.org/), June 2025.
