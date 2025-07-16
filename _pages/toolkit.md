@@ -7,14 +7,14 @@ nav: true
 nav_order: 1
 ---
 
-Welcome to the Data Advocacy for All Toolkit! This is a curated collection of teaching resources designed to support data advocacy, including readings, assignments, lesson plans, and more. Use the buttons below to filter resources by their **Literacy Domain/Subdomain** and **Resource Type**, or search for specific keywords across the resources.
+Welcome to the Data Advocacy for All Toolkit! This curated collection of educational resources is designed to support the teaching of data advocacy, including readings, assignments, lesson plans, and more. Use the buttons below to filter resources by their **Literacy Domain/Subdomain** and **Resource Type**, or search for specific keywords across the resources.
 
 <details style="padding: 0.5em 1.25em 0.5em 1.25em;">
-  <summary style="font-size: 0.92em; cursor: pointer; outline: none; ">
+  <summary style="font-size: 0.94em; cursor: pointer; outline: none; ">
     <i class="fa-solid fa-chevron-right summary-icon"></i>&nbsp;
     <i class="fa-solid fa-circle-info" style="color: #6c757d;"></i> First time here? Learn how the toolkit works.
   </summary>
-  <div style="margin-top: 1em; color: #333; font-size: 0.92em">
+  <div style="margin-top: 1em; color: #333; font-size: 0.94em">
     <style>
       .toolkit-intro-links a {
         color: #6c757d !important;
@@ -29,7 +29,9 @@ Welcome to the Data Advocacy for All Toolkit! This is a curated collection of te
         text-decoration: underline;
       }
     </style>
-    <p>This toolkit offers a collection of resources for teaching data advocacy. Use the buttons and search bar to find resources related to particular topics & skills (Literacy Domains/Subdomains) or kinds of material (Resource Types).
+    <blockquote style="color: #333; font-size: 0.94em"> <i>Data advocacy is a deeply ethical and rhetorical practice of integrated analysis, design, and communication in which insights from a dataset are effectively gleaned and conveyed to raise public awareness and drive social change.</i>
+    </blockquote>
+    <p>This toolkit offers a collection of resources for teaching data advocacy. Use the buttons and search bar to find resources related to particular topics & skills (Literacy Domains/Subdomains) or kinds of material (Resource Types).<br></p>
     <div class="toolkit-intro-links">
     <ul>
       <li>What are the <a href="{{site.baseurl}}/literacy-domains">literacy domains?</a></li>
@@ -38,7 +40,6 @@ Welcome to the Data Advocacy for All Toolkit! This is a curated collection of te
       <li>Read more about <a href="{{site.baseurl}}/methodology">the methodology</a> behind the toolkit.</li>
     </ul>
     </div>
-    </p>
   </div>
 </details>
 

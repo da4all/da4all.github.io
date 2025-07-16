@@ -3,7 +3,7 @@ layout: page
 permalink: /methodology/
 title: Methodology
 description:
-nav: true
+nav: false
 nav_order: 3
 toc:
   sidebar: left
@@ -65,7 +65,7 @@ Data Advocacy for All has designed our toolkit around [three key literacy domain
 
 <div style="margin-top: 1em;">
 <center>
-<sl-button variant="primary" size="large" outline href="../understanding-data/"><i class="fas fa-book"></i> Overview of Literacy Domains</sl-button>
+<sl-button variant="primary" size="large" outline href="../literacy-domains/"><i class="fas fa-book"></i> Overview of Literacy Domains</sl-button>
 </center>
 </div>
 

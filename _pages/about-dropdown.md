@@ -8,6 +8,9 @@ children:
   - title: About the Project
     permalink: /about/
   - title: divider
+  - title: Methodology
+    permalink: /methodology/
+  - title: divider
   - title: Team Members
     permalink: /team/
   - title: divider
