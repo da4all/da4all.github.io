@@ -14,7 +14,7 @@ teaser: >
   This activity challenges students to consider what data is from different perspectives, sources, and fields of inquiry as well as reflect on their own understandings of data.
 
 keywords:
-  - "data"
+  - "Data"
 
 metadata:
   source:
@@ -36,7 +36,7 @@ Please describe your current understanding of and assumptions about data. Please
 Part 2:
 View the Slideshow titled “What is Data?”
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://docs.google.com/presentation/d/1D68wWUZHqhe2NzfYHjRqGxkpakZhv_uV0g8cSZ1ewwk/edit?usp=sharing" width="100%" title="What is Data? (slide deck)" style="border:2px #323639 solid; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://docs.google.com/presentation/d/1D68wWUZHqhe2NzfYHjRqGxkpakZhv_uV0g8cSZ1ewwk/edit?usp=sharing" width="100%" title="What is Data?" style="border:2px #323639 solid; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div>
 
 Which of the quote(s) about data most resonates with you and why? In answering this question, please be sure to a.) unpack the quote, meaning explain what you understand it to be saying; and b.) explain why you find it compelling, true, and/or significant. NOTE: You can choose to focus on more than one quote.
 

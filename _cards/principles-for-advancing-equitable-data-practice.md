@@ -8,7 +8,7 @@ subdomain: Acting Ethically with Data
 title: "Principles for Advancing Equitable Data Practice"
 
 teaser: >
-  In this blog post, Gaddy and Scott share highlights from the session around what data equity means, why ‘data is objective’ is a myth, and how you can begin to build a more equitable data practice.
+  In this blog post, Gaddy and Scott share highlights from the session around what data equity means, why 'data is objective' is a myth, and how you can begin to build a more equitable data practice.
 
 metadata:
     source: "https://resultslab.com/blog-foundations-of-data-equity/#1674152295196-987e18dd-deaa"

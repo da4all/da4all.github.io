@@ -6,7 +6,7 @@ domain: Understanding Data
 subdomain: Defining Data
 sample_resource: true
 
-title: "Interview with Catherine D’Ignazio: 'Data is Never a Raw, Truthful Input – and It is Never Neutral'"
+title: "Interview with Catherine D'Ignazio: 'Data is Never a Raw, Truthful Input – and It is Never Neutral'"
 
 teaser: >
   In this interview, the co-author of <i>Data Feminism</i> identifies how how sexism, racism and other forms of discrimination manifest in data products and emphasizes, among other things, the importance of recognising discrimination in algorithms, understanding how it operates on a technical level, and designing measures to stamp it out.
@@ -16,7 +16,7 @@ metadata:
     author: "Zoë Corbyn"
     date: "2020-03-21"
     license:
-    citation: "Corbyn, Zoë. 'Interview with Catherine D’Ignazio: Data is Never a Raw, Truthful Input – and It is Never Neutral.' The Guardian-U.S. Edition. 21 March 2020. https://www.theguardian.com/technology/2020/mar/21/catherine-dignazio-data-is-never-a-raw-truthful-input-and-it-is-never-neutral. Accessed 6 June 2023."
+    citation: "Corbyn, Zoë. 'Interview with Catherine D'Ignazio: Data is Never a Raw, Truthful Input – and It is Never Neutral.' The Guardian-U.S. Edition. 21 March 2020. https://www.theguardian.com/technology/2020/mar/21/catherine-dignazio-data-is-never-a-raw-truthful-input-and-it-is-never-neutral. Accessed 6 June 2023."
     align: right
 
 ---

@@ -6,24 +6,24 @@ domain:
   - Processing Data
 subdomain:
   - Collecting Data
-sample_resource: false
+sample_resource: true
 
 title: "Collecting Thick Data"
 
 teaser: >
-  In this activity, students apply the concept of “thick data,” working in small groups to collection information about the customs, culture, and social practices of the student body at their school.
+  In this activity, students apply the concept of "thick data," working in small groups to collect information about the customs, culture, and social practices of the student body at their school.
 
 keywords:
+  - "Ethnography"
   - "Thick Data"
   - "Thick Description"
-  - "Ethnography"
 
 metadata:
   source:
   author: "Cameron Blevins"
   date: "2024-07-08"
   license: "License Type: CC BY"
-  citation: "Cameron Blevins, ‘Collecting Thick Data.’ Data Advocacy For All"
+  citation: "Cameron Blevins, 'Collecting Thick Data.' Data Advocacy For All"
 ---
 
 ## Overview
@@ -41,7 +41,7 @@ Review the following concepts and background information with stduents.
 
 **Big Data:**
 
-- Three V’s: Volume, Velocity, Variety
+- [Three V’s](https://diegonogare.net/wp-content/uploads/2020/08/3D-Data-Management-Controlling-Data-Volume-Velocity-and-Variety.pdf): Volume, Velocity, Variety
 - Volume: massive quantity of data
 - Velocity: accelerating speed of newly created data
 - Variety: text, photo, video, etc., often “unstructured”
@@ -133,7 +133,7 @@ Take “jottings” on what you observe. There is no single correct set of obser
 - What noise do you hear? How loud/quiet is it?
 - What smells are there?
 
-In addition to these jottings,cChoose a few things you can count or measure at your chosen location. Some examples:
+In addition to these jottings, choose a few things you can count or measure at your chosen location. Some examples:
 
 - How many `X, Y, or Z` do you see or hear? (ex. How many laptops do you see at the coffee shop? How many people are wearing hats, flip flops, or some other item of clothing?)
 - How many times does `X, Y, or Z` interaction or action happen? (ex. How many people order coffee vs. another beverage? How many of these people say thank you when they place an order?)

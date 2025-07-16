@@ -14,10 +14,8 @@ teaser: >
   The FBI tracks hate crimes in many different ways; this summary dataset from 2021 focuses on specific types of crimes and numbers of incidents, victims and known offenders.  The dataset provides an excellent resource for inviting students to explore and think critically about data.  This activity prompts students to think about how data represents phenomena and to think critically about the kinds of choices that go into creating a dataset.
 
 keywords:
-  - "datasets"
-  - "data biography"
-  - "critical data analysis"
-  - "hate crime data"
+  - "Data Analysis"
+  - "Data Biography"
 
 metadata:
   source: "https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/ucr/hate-crime"
@@ -33,13 +31,13 @@ Below are two activities that will help cultivate an ability to think about data
 
 This discussion exercise takes the FBI’s 2021 Hate Crimes Statistics as a case study of the power and limits of data analysis. The discussion activities below build on other resources in the Data Advocacy Toolkit, and thus provide an opportunity to reinforce the lessons of critical data analysis.
 
-The full package of FBI hate crimes data for 2021 can be downloaded from this website (scroll down to the Hate Crimes header). The downloaded package will include a significant amount of supporting documentation and data tables. The discussion exercise below refers to table 1, “Incidents, Offenses, Victims, and Known Offenders by Bias Motivation, 2021”)
+The full package of FBI hate crimes data for 2021 can be downloaded from [this website](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/downloads) (scroll down to the Hate Crimes header). The downloaded package will include a significant amount of supporting documentation and data tables. The discussion exercise below refers to table 1, “Incidents, Offenses, Victims, and Known Offenders by Bias Motivation, 2021”)
 
-Activity one assumes that students have read Douglas Shafer and Zhiyi Zhang, “Basic Definitions and Concepts” and “Overview” from _Introductory Statistics_ (also included in the Data Advocacy Toolkit).
+Activity one assumes that students have read Douglas Shafer and Zhiyi Zhang, [“Basic Definitions and Concepts”](https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_(Shafer_and_Zhang)/01%3A_Introduction_to_Statistics/1.01%3A_Basic_Definitions_and_Concepts) and [“Overview”](https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_(Shafer_and_Zhang)/01%3A_Introduction_to_Statistics/1.02%3A_Overview) from _Introductory Statistics_ (also included in the Data Advocacy Toolkit).
 
 Activity two requires students to read two items:
-Catherine D’Ignazio and Lauren Klein, “[What Gets Counted Counts](<[url](https://data-feminism.mitpress.mit.edu/pub/h1w0nbqp/release/3)>),” chapter four of _Data Feminism_ (also included in the Data Advocacy Toolkit).
-Ken Schwenke, “[Why America Fails at Gathering Hate Crime Statistics](<[url](https://www.propublica.org/article/why-america-fails-at-gathering-hate-crime-statistics)>),” Pro Publica, December 4, 2017.
+Catherine D’Ignazio and Lauren Klein, “[What Gets Counted Counts](https://data-feminism.mitpress.mit.edu/pub/h1w0nbqp/release/3),” chapter four of _Data Feminism_ (also included in the Data Advocacy Toolkit).
+Ken Schwenke, “[Why America Fails at Gathering Hate Crime Statistics](https://www.propublica.org/article/why-america-fails-at-gathering-hate-crime-statistics),” Pro Publica, December 4, 2017.
 
 # Examining a Dataset (25 minutes)
 

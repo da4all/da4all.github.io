@@ -15,30 +15,27 @@ teaser: >
 
 keywords:
   - "Data Culture"
-  - "Data Infrastructure"
-  - "Science and Technology Studies"
-  - "Ethnography"
   - "Data Documentation"
+  - "Data Infrastructure"
+  - "Ethnography"
 
 metadata:
   source: "https://datascience.codata.org/articles/10.5334/dsj-2023-006"
   author: "Lindsay Poirier"
   date: "2023"
   license: "CC BY 4.0"
-  citation: "Poirier, Lindsay. Attending to the Cultures of Data Science Work. no. 1, Apr. 2023, p. 6. datascience.codata.org, https://doi.org/10.5334/dsj-2023-006."
+  citation: "Poirier, Lindsay. 'Attending to the Cultures of Data Science Work.' <i>Data Science Journal</i>, vol. 22, 3 Apr. 2023, article 6,
+  https://doi.org/10.5334/dsj-2023-006."
 ---
 
 <div>
   <center>
   <sl-button-group label="Alignment">
-  <sl-button href="https://datascience.codata.org/articles/10.5334/dsj-2023-006">Read “Attending to the Cultures of Data Science Work”</sl-button>
+  <sl-button href="https://datascience.codata.org/articles/10.5334/dsj-2023-006">Access the full "Attending to the Cultures of Data Science Work" article here</sl-button>
   </sl-button-group>
 </center>
 </div>
 
-<br>
-
-<iframe width="100%" height="1000" src="https://datascience.codata.org/articles/10.5334/dsj-2023-006> </iframe>
 
 
 

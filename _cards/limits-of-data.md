@@ -15,8 +15,8 @@ teaser: >
   In this opinion piece for <i>Issues in Science and Technology</i>, philosopher C. Thi Nguyen argues that data creation is a process of decontextualization. Nguyen also explains the politics of classification and metrics and ultimately calls for a critical approach to data. This article provides an excellent introduction to critical data studies, although it does not use that term.
 
 keywords:
-  - "Critical Data Studies"
   - "Classification"
+  - "Critical Data Studies"
   - "Decontextualization"
   - "Metrics"
 

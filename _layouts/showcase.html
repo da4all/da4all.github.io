@@ -4,115 +4,100 @@ layout: default
 
 <style>
   hr.rounded {
-  border-top: 5px solid #bbb;
-  border-radius: 5px;
-}
+    border-top: 5px solid #bbb;
+    border-radius: 5px;
+  }
 
   sl-button.attribute::part(base) {
     border-radius: 0;
     background-color: #002868;
     color: white;
   }
-  
+
   sl-button.attribute::part(base):hover {
     transform: scale(0) rotate(0deg);
   }
 
- .noHover{
+  .noHover {
     pointer-events: none;
- }
+  }
 
- sl-tag::part(base) {
+  sl-tag::part(base) {
     border-width: 1.8px;
     margin-bottom: 7px;
   }
-  
+
   /* If you want to style just the label portion */
   sl-tag::part(content) {
     font-weight: 500;
   }
-  
 </style>
 
 <div class="page">
   <header class="page-header">
-    <h1 class="page-title">{{ page.title }}</h1><br>
-    {% assign contributors_text = project.metadata.contributors | replace: '<br />', ', ' %}
-	  <h4><b>{% if contributors_text contains " and " %}Contributors{% else %}Contributor{% endif %}:</b> {{ page.metadata.contributors | replace: '<br />', ', ' }}</h4>
+    <h1 class="page-title">{{ page.title }}</h1>
+    <!-- this line of code is matching the resource type to its corresponding icon in cards.yml -->
+    {% assign resource = site.data.cards.resources | where: "name",
+    page.resource | first %}
+    <br />
+    <div class="page-info" style="background-color: #f2f2f2; padding: 10px">
+      <p
+        class="page-text"
+        style="margin-left: 20px; margin-top: 10px"
+        font
+        color="#747373"
+      >
+        <small class="test-muted">
+          {% if page.metadata.contributors %}
+          <i class="fa-solid fa-user"></i> Contributors: {{
+          page.metadata.contributors | replace: '<br />', ', ' }}<br />
+          {% endif %} {% if page.metadata.source %}
+          <i class="fas fa-link"></i> Source:
+          <a href="{{ page.metadata.source }}"
+            >{{ page.metadata.source | replace: '<br />', ', ' }}</a
+          ><br />
+          {% endif %} {% if page.metadata.genre %}
+          <i class="fa-solid fa-bars-staggered"></i> Genre: {{
+          page.metadata.genre | replace: '<br />', ', ' }}<br />
+          {% endif %} {% if page.metadata.typeofdataadvocacy %}
+          <i class="fa-solid fa-layer-group"></i> Type of Data Advocacy: {{
+          page.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}<br />
+          {% endif %} {% if page.metadata.filetype %}
+          <i class="fa-solid fa-file"></i> Format: {{ page.metadata.filetype |
+          replace: '<br />', ', ' }}<br />
+          {% endif %} {% if page.metadata.date %}
+          <i class="fa-solid fa-calendar"></i> {{ page.metadata.date | replace:
+          '<br />', ', ' }}<br />
+          {% endif %} {% if page.metadata.course %}
+          <i class="fa-solid fa-graduation-cap"></i> {{ page.metadata.course |
+          replace: '<br />', ', ' }}<br />
+          {% endif %} {% if page.metadata.university %}
+          <i class="fa-solid fa-university"></i> {{ page.metadata.university |
+          replace: '<br />', ', ' }}<br />
+          {% endif %} {% if page.metadata.instructor %}
+          <i class="fa-solid fa-chalkboard-user"></i> Instructor: {{
+          page.metadata.instructor | replace: '<br />', ', ' }}<br />
+          {% endif %}
+        </small>
+      </p>
+      <p class="page-description" style="font-size: 12px"></p>
+    </div>
+    <blockquote>
+      <p class="page-description" style="font-size: 16px">
+        <!--<em>Description:</em><br />-->
+        <em>{{ page.teaser }}</em>
+      </p>
+    </blockquote>
+    <p class="page-description" style="font-size: 14px">
+      {% if page.keywords.size > 0 %}
+      <strong>Keywords: </strong>
+      {% for keyword in page.keywords %} {{ keyword -}} {% unless forloop.last
+      %}, {% endunless %} {% endfor %} {% endif %}
+    </p>
+    <hr class="solid" />
   </header>
 
-<p><i><small>Created as part of {{ page.metadata.courseinfo | replace: '<br />', ', ' }}</small></i></p>
-  
-<!-- experimenting with tags -->
-<center>
+  <br />
 
-{% if page.metadata.typeofdataadvocacy %}
-<sl-tag variant="primary"><i class="fa-solid fa-layer-group"></i>&nbsp; Type of Data Advocacy:&nbsp; <b> {{ page.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</b></sl-tag>
-{% endif %}
-
-{% if page.metadata.genre %}
-<sl-tag variant="success"><i class="fa-solid fa-bars-staggered"></i>&nbsp; Genre:&nbsp; <b>{{ page.metadata.genre | replace: '<br />', ', ' }}</b></sl-tag>
-{% endif %}
-
-{% if page.metadata.filetype %}
-<sl-tag variant="neutral"><i class="fa-solid fa-file"></i>&nbsp; Format:&nbsp;  <b>{{ page.metadata.filetype | replace: '<br />', ', ' }}</b></sl-tag>
-{% endif %}
-
-{% if page.metadata.license %}
-<sl-tag variant="warning"><i class="fa-solid fa-quote-left"></i>&nbsp; License:&nbsp;  <b>{{ page.metadata.license | replace: '<br />', ', ' }}</b></sl-tag>
-{% endif %}
-
-</center>
-
-<!-- old button system 
-{% if page.metadata.typeofdataadvocacy %}
-<sl-button class="attribute noHover" style="padding: 2px">Type of Data Advocacy: {{ page.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button>
-{% endif %}
-
-{% if page.metadata.genre %}
-<sl-button class="attribute noHover" style="padding: 2px">Genre: {{ page.metadata.genre | replace: '<br />', ', ' }}</sl-button>
-{% endif %}
-
-{% if page.metadata.filetype %}<sl-button class="attribute noHover" style="padding: 2px">Format: {{ page.metadata.filetype | replace: '<br />', ', ' }}</sl-button>{% endif %}
-
-{% if page.metadata.license %}<sl-button class="attribute noHover" style="padding: 2px">License: {{ page.metadata.license | replace: '<br />', ', ' }}</sl-button>{% endif %}
--->
-</div>
-<br>
-
-  <article>{{ content }}</article><br><br>
-
-  <hr class="rounded">
-  <br>
-
-  <h2>Project Overview:</h2>
-
-    <div class="row no-gutters">
-      <div class="team col-sm-8 col-md-7">
-        <div class="card-body">
-          <p class="post-description" style="font-size: 14px">{{ page.teaser }}<br><br>
-            {% if page.metadata.typeofdataadvocacy %}<sl-tag variant="primary" size="small">Type of Data Advocacy: {{ page.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-tag><br>{% endif %}
-            {% if page.metadata.genre %}<sl-tag variant="success" size="small">Genre: {{ page.metadata.genre | replace: '<br />', ', ' }}</sl-tag><br>{% endif %}
-          {% if page.metadata.filetype %}<sl-tag variant="neutral" size="small">Format: {{ page.metadata.filetype | replace: '<br />', ', ' }}</sl-tag><br>{% endif %}
-          {% if page.metadata.license %}<sl-tag variant="warning" size="small">License: {{ page.metadata.license | replace: '<br />', ', ' }}</sl-tag><br>{% endif %}
-          <!-- old button system
-          {% if page.metadata.typeofdataadvocacy %}<sl-button class="attribute noHover" size="small" style="padding: 2px">Type of Data Advocacy: {{ page.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</sl-button><br>{% endif %}
-          {% if page.metadata.genre %}<sl-button class="attribute noHover" size="small" style="padding: 2px">Genre: {{ page.metadata.genre | replace: '<br />', ', ' }}</sl-button><br>{% endif %}
-          {% if page.metadata.filetype %}<sl-button class="attribute noHover" size="small" style="padding: 2px">Format: {{ page.metadata.filetype | replace: '<br />', ', ' }}</sl-button><br>{% endif %}
-          {% if page.metadata.license %}<sl-button class="attribute noHover" size="small" style="padding: 2px">License: {{ page.metadata.license | replace: '<br />', ', ' }}</sl-button><br>{% endif %}
-          -->
-	  </p></div>
-      </div>
-      <div class="col-sm-4 col-md-5">
-      <div class="page-info" style="background-color: #f2f2f2; padding: 2px">
-      <img src="{{ '/assets/img/' | append: page.metadata.image | relative_url }}" class="card-img img-fluid" alt="{{ page.metadata.caption }}" /><br>
-        <div class="card-body">
-          <p style="font-size: 12px">
-            <b>Caption:</b> {{ page.metadata.caption | replace: '<br />', ', ' }}</p></div>
-        </div>
-        <br>
-            <p><br>{% if page.metadata.source %}<small class="test-muted"><i class="fa-solid fa-link"></i><b>&nbsp; Also Published Here:</b> <a href="{{ page.metadata.source }}">{{ page.metadata.source }}</a></small>{% endif %}</p>
-      </div>
-    </div>
-    
+  <article>{{ content }}</article>
 </div>

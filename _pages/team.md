@@ -65,8 +65,6 @@ nav_rank: 8
 <br>
 {% endfor %}
 
-<!-- advisory board section to come-->
-<!--
 ## Advisory Board
 
 <div class="row g-4">
@@ -79,7 +77,6 @@ nav_rank: 8
         </p>
       </div>
     </div>
-
     <div class="card" style="margin-bottom: 1rem;">
       <div class="card-body">
         <h5 class="card-title">Lindsay Poirier</h5>
@@ -88,7 +85,6 @@ nav_rank: 8
         </p>
       </div>
     </div>
-
     <div class="card" style="margin-bottom: 1rem;">
       <div class="card-body">
         <h5 class="card-title">Urooj Raja</h5>
@@ -97,7 +93,8 @@ nav_rank: 8
         </p>
       </div>
     </div>
-
+  </div>
+  <div class="col-12 col-md-6">
     <div class="card" style="margin-bottom: 1rem;">
       <div class="card-body">
         <h5 class="card-title">Sara Stoudt</h5>
@@ -106,7 +103,6 @@ nav_rank: 8
         </p>
       </div>
     </div>
-
     <div class="card" style="margin-bottom: 1rem;">
       <div class="card-body">
         <h5 class="card-title">Joanna Wolfe</h5>
@@ -117,4 +113,3 @@ nav_rank: 8
     </div>
   </div>
 </div>
--->

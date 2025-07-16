@@ -15,17 +15,18 @@ teaser: >
   This 30-45 minute in-class activity invites students to explore big rhetorical differences that can result from small changes in phrasing when statistical claims are relayed in words. 
 
 keywords:
-  - "Statistics"
+  - "Data-Driven Argument"
   - "Quantitative Rhetoric"
   - "Statistical Claims"
-  - "Data-driven Argument"
+  - "Numerical Argumentation"
+  - "Rhetorical Data Studies"
 
 metadata:
   source: 
   author: "Nathan Pieplow"
   date: "2024-07-17"
   license: "CC BY-SA"
-  citation: "Pieplow, Nathan. ‘The Many Ways to Write a Statistic’ (lesson plan). Data Advocacy 4 All, University of Colorado. 17 July 2024."
+  citation: "Pieplow, Nathan. 'The Many Ways to Write a Statistic' (lesson plan). Data Advocacy 4 All, University of Colorado. 17 July 2024."
 ---
 **Note:**  In this 30- to 45-minute in-class activity, students explore the big rhetorical differences that can result from small changes in phrasing when statistical claims are relayed in words. In small groups, students first brainstorm multiple ways to phrase the same statistic. Then they evaluate which of the phrases is most vs. least accurate; most accessible to non-experts vs. richest in scientific ethos; and most effective at minimizing vs. emphasizing the problem.
 

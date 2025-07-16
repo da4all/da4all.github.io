@@ -4,44 +4,58 @@ permalink: /toolkit/
 title: Toolkit
 description:
 nav: true
-nav_order: 5
+nav_order: 1
 ---
 
-Welcome to the Data Advocacy for All Toolkit! This is a curated collection of teaching resources designed to support data advocacy, including readings, assignments, lesson plans, and more. Use the buttons below to filter resources by their <code>Resource Type</code> and <code style="background-color: rgba(0, 54, 159, 0.1); color: #00369f; padding: 2px 4px; border-radius: 4px;">Literacy Domain/Subdomain</code>, or search for specific topics or keywords across the resources.
+Welcome to the Data Advocacy for All Toolkit! This curated collection of educational resources is designed to support the teaching of data advocacy, including readings, assignments, lesson plans, and more. Use the buttons below to filter resources by their **Literacy Domain/Subdomain** and **Resource Type**, or search for specific keywords across the resources.
+
+<details style="padding: 0.5em 1.25em 0.5em 1.25em;">
+  <summary style="font-size: 0.94em; cursor: pointer; outline: none; ">
+    <i class="fa-solid fa-chevron-right summary-icon"></i>&nbsp;
+    <i class="fa-solid fa-circle-info" style="color: #6c757d;"></i> First time here? Learn how the toolkit works.
+  </summary>
+  <div style="margin-top: 1em; color: #333; font-size: 0.94em">
+    <style>
+      .toolkit-intro-links a {
+        color: #6c757d !important;
+        text-decoration: underline;
+        transition: background 0.15s, color 0.15s;
+        border-radius: 3px;
+        padding: 1px 2px;
+      }
+      .toolkit-intro-links a:hover, .toolkit-intro-links a:focus {
+        color: #343a40 !important;
+        background: #ededed;
+        text-decoration: underline;
+      }
+    </style>
+    <blockquote style="color: #333; font-size: 0.94em"> <i>Data advocacy is a deeply ethical and rhetorical practice of integrated analysis, design, and communication in which insights from a dataset are effectively gleaned and conveyed to raise public awareness and drive social change.</i>
+    </blockquote>
+    <p>This toolkit offers a collection of resources for teaching data advocacy. Use the buttons and search bar to find resources related to particular topics & skills (Literacy Domains/Subdomains) or kinds of material (Resource Types).<br></p>
+    <div class="toolkit-intro-links">
+    <ul>
+      <li>What are the <a href="{{site.baseurl}}/literacy-domains">literacy domains?</a></li>
+      <li>What are the <a href="{{site.baseurl}}/resource-types">resource types?</a></li>
+      <li>See examples of <a href="{{site.baseurl}}/student-showcase">student work</a> based on these resources.</li>
+      <li>Read more about <a href="{{site.baseurl}}/methodology">the methodology</a> behind the toolkit.</li>
+    </ul>
+    </div>
+  </div>
+</details>
 
 <!--
-<blockquote class="block-warning">
-<p><i class="fa-regular fa-circle-question"></i>New to the toolkit? Learn about our <b><a href="../resource-types/">types of resources</a></b> and <b><a href="../literacy-domains/">literacy domains & subdomains</a></b>.</p>
-</blockquote>
+<div class="help-banner" style="justify-content: center; font-size: 0.95em;">
+  <i class="fa-regular fa-circle-question"></i> New to the toolkit? Read more about our <a href="../literacy-domains/">literacy domains</a> of data advocacy, the different <a href="../resource-types/">types of teaching resources</a> available, or how they've <a href = "({{site.baseurl}}/student-showcase"> used in the classroom</a>.
+</div>
+
+<div class="help-banner" style="justify-content: center; font-size: 0.95em;">
+  <i class="fa-regular fa-circle-question"></i> New to the toolkit? Read more about our <a href="../literacy-domains/">literacy domains</a> of data advocacy, the <a href="../resource-types/" style="color: #d32f2f; text-decoration: none; border-radius: 2px; transition: background 0.2s;" onmouseover="this.style.backgroundColor='#fdeaea'" onmouseout="this.style.backgroundColor=''">types of teaching resources</a> in this toolkit, or how these resources <a href = "({{site.baseurl}}/student-showcase">have been used in the classroom</a>.
+</div>
 -->
-
-<div class="help-banner" style="justify-content: center">
-  <i class="fa-regular fa-circle-question"></i> New to the toolkit? Learn more about our different <a href="../resource-types/">types of resources</a> and <a href="../literacy-domains/">literacy domains</a> of data advocacy.
-</div>
-
-<!-- Resource Type Filter Section -->
-
-<div class="filter-section mb-4">
-  <h3>Resource Types</h3>
-  <div class="button-grid resource-grid">
-    {% assign resources = site.data.cards.resources %}
-    {% for resource in resources %}
-    <button class="filter-btn resource-btn" data-filter="resource" data-value="{{ resource.name }}">
-      <i class="{{ resource.icon }}"></i>
-      {{ resource.name }}
-    </button>
-    {% endfor %}
-  </div>
-  <!-- uncomment to add a button to reset the filter
-  <button class="reset-btn" data-reset="resource">
-    Show All Resources
-  </button>
-  -->
-</div>
 
 <!-- Domain Filter Section -->
 <div class="filter-section mb-4">
-  <h3>Literacy Domains</h3>
+  <h3 style="font-weight: 400;">Literacy Domains</h3>
   <div class="button-grid domain-grid">
     {% for domain in site.data.cards.domains %}
     <button class="filter-btn domain-btn" data-filter="domain" data-value="{{ domain }}">
@@ -64,16 +78,36 @@ Welcome to the Data Advocacy for All Toolkit! This is a curated collection of te
 <!-- Subdomain Filter Section (Hidden by default) -->
 <div id="subdomain-section" class="filter-section mb-4" style="display: none;">
   <div style="text-align: center;">
-    <h4>Literacy Subdomains</h4>
+    <h4 style="font-weight: 400;">Literacy Subdomains</h4>
     <div class="button-grid subdomain-grid">
       <!-- Populated dynamically by JavaScript -->
     </div>
   </div>
 </div>
 
+<!-- Resource Type Filter Section -->
+
+<div class="filter-section mb-4">
+  <h3 style="font-weight: 400;">Resource Types</h3>
+  <div class="button-grid resource-grid">
+    {% assign resources = site.data.cards.resources %}
+    {% for resource in resources %}
+    <button class="filter-btn resource-btn" data-filter="resource" data-value="{{ resource.name }}">
+      <i class="{{ resource.icon }}"></i>
+      {{ resource.name }}
+    </button>
+    {% endfor %}
+  </div>
+  <!-- uncomment to add a button to reset the filter
+  <button class="reset-btn" data-reset="resource">
+    Show All Resources
+  </button>
+  -->
+</div>
+
 <!-- Search Section -->
 <div class="search-section mb-4">
-  <h3>Search Resources</h3>
+  <h3 style="font-weight: 400;">Search Resources</h3>
   <div class="search-container">
     <input type="text" id="search-input" placeholder="Search resources...">
     <button id="search-btn" class="search-btn">Search</button>
@@ -92,93 +126,90 @@ Welcome to the Data Advocacy for All Toolkit! This is a curated collection of te
 
 <!-- Card List Section -->
 <center>
-<h2>Filtered Resources (<span id="resource-count"></span>):</h2>
+<h2 style="font-weight: 400;">Filtered Resources (<span id="resource-count"></span>):</h2>
 <p class="text-muted">
     <i>Click on card to access full resource</i></p>
 </center>
 
+{% assign domain_order = site.data.cards.domains %}
+{% assign subdomain_order = site.data.cards.subdomains %}
+
 <div id="card-list" style="margin-top: 20px;">
-  {% assign cards = site.cards | sort: "title" %}
-  {% for card in cards %}
-    {% if card.title and card.teaser %}
-      <div class="card-wrapper" onclick="window.location='{{ card.url | relative_url }}';" style="cursor: pointer;">
-        <div class="card {% if card.inline == false %}hoverable{% endif %}" 
-             data-resource="{{ card.resource }}"
-             data-domain="{{ card.domain | join: ',' }}"
-             data-subdomain="{{ card.subdomain | join: ',' }}" style="margin-top: 10px;">
-          {% assign resource = site.data.cards.resources | where: "name", card.resource | first %}
-          <div class="row no-gutters">
-            <div class="team">
-              <div class="card-body">
-                <h5 class="card-title"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp;&nbsp; {{ card.title }}</h5>
-                <p class="card-text"><small class="test-muted">
-                  {% if card.metadata.date %}
-                    <i class="fa-solid fa-calendar"></i>&nbsp; Date: {{ card.metadata.date | custom_date_format }}
-                  {% endif %}
-                  {% if card.metadata.date and card.metadata.author %}
-                    &nbsp;&nbsp;//&nbsp;&nbsp;
-                  {% endif %}
-                  {% if card.metadata.author %}
-                    <i class="fa-solid fa-user"></i>&nbsp; Author: {{ card.metadata.author | replace: '<br />', ', ' }}
-                  {% endif %}
-                </small></p>
-                <p class="card-text">
-                  {% assign words = card.teaser | default: '' | number_of_words %}
-                  {% if words > 150 %}
-                    {% assign teaser_words = card.teaser | split: ' ' | slice: 0, 150 | join: ' ' %}
-                    {{ teaser_words }} <span class="read-more">[Read More]</span>
-                  {% else %}
-                    {{ card.teaser }}
-                  {% endif %}
-                </p>
-                {% if card.keywords.size > 0 %}
-                  <hr class="solid">
-                  <p class="card-text test-muted keyword"><small>Keywords: {% for keyword in card.keywords %}<i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;{% endfor %}</small></p>
-                {% endif %}
-                {% if card.metadata.source or card.metadata.license %}
-                  <hr class="solid">
-                {% endif %}
-                <p class="card-text">
-                  {% if card.metadata.source %}
-                    <small class="test-muted"><i class="fas fa-link"></i> Source: <a href="{{ card.metadata.source }}" onclick="event.stopPropagation();">{{ card.metadata.source | replace: '<br />', ', ' }}</a></small>
-                  {% endif %}
-                  {% if card.metadata.source and card.metadata.license %}
-                    <br>
-                  {% endif %}
-                  {% if card.metadata.license %}
-                    <small class="test-muted"><i class="fa-solid fa-quote-left"></i>&nbsp; License: {{ card.metadata.license }}</small>
-                  {% endif %}
-                </p>
-                <hr class="solid">
-                <p class="card-text">
-                  {% assign domain_array = card.domain %}
-                  <small class="test-muted resource"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Type of Resource: {{ card.resource }}&nbsp;&nbsp;//&nbsp;&nbsp;</small>
-                  <small class="test-muted domain"><i class="fa-solid fa-network-wired"></i>&nbsp; Domain:
-                    {% for d in domain_array %}
-                      {% unless forloop.last %}
-                        <a href="{{ site.url }}{{ site.baseurl }}/{{ d | downcase | replace: ' ', '-' }}" onclick="event.stopPropagation();">{{ d }}</a>,&nbsp;
+  {% for domain in domain_order %}
+    {% for subdomain in subdomain_order %}
+      {% assign cards = site.cards | where: "domain", domain | where: "subdomain", subdomain | sort: "title" %}
+      {% for card in cards %}
+        {% if card.title and card.teaser %}
+          <div class="card-wrapper" onclick="window.location='{{ card.url | relative_url }}';" style="cursor: pointer;">
+            <div class="card {% if card.inline == false %}hoverable{% endif %}" 
+                 data-resource="{{ card.resource }}"
+                 data-domain="{{ card.domain | join: ',' }}"
+                 data-subdomain="{{ card.subdomain | join: ',' }}" style="margin-top: 10px;">
+              {% assign resource = site.data.cards.resources | where: "name", card.resource | first %}
+              <div class="row no-gutters">
+                <div class="team">
+                  <div class="card-body">
+                    <h5 class="card-title"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp;&nbsp; {{ card.title }}</h5>
+                    <p class="card-text"><small class="test-muted">
+                      {% if card.metadata.date %}
+                        <i class="fa-solid fa-calendar"></i>&nbsp; Date: {{ card.metadata.date | custom_date_format }}
+                      {% endif %}
+                      {% if card.metadata.date and card.metadata.author %}
+                        &nbsp;&nbsp;//&nbsp;&nbsp;
+                      {% endif %}
+                      {% if card.metadata.author %}
+                        <i class="fa-solid fa-user"></i>&nbsp; Author: {{ card.metadata.author | replace: '<br />', ', ' }}
+                      {% endif %}
+                    </small></p>
+                    <p class="card-text">
+                      {% assign words = card.teaser | default: '' | number_of_words %}
+                      {% if words > 150 %}
+                        {% assign teaser_words = card.teaser | split: ' ' | slice: 0, 150 | join: ' ' %}
+                        {{ teaser_words }} <span class="read-more">[Read More]</span>
                       {% else %}
-                        <a href="{{ site.url }}{{ site.baseurl }}/{{ d | downcase | replace: ' ', '-' }}" onclick="event.stopPropagation();">{{ d }}</a>&nbsp;&nbsp;//&nbsp;&nbsp;
-                      {% endunless %}
-                    {% endfor %}
-                  </small>
-                  {% assign subdomain_array = card.subdomain %}
-                  <small class="test-muted subdomain"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain:
-                    {% for sub in subdomain_array %}
-                      {% unless forloop.last %}
-                        {{ sub }},&nbsp;
-                      {% else %}
-                        {{ sub }}
-                      {% endunless %}
-                    {% endfor %}
-                  </small><br>
-                </p>
+                        {{ card.teaser }}
+                      {% endif %}
+                    </p>
+                    {% if card.keywords.size > 0 %}
+                      <!--<p class="card-text test-muted keyword"><small>Keywords: {% for keyword in card.keywords %}<i class="fa-solid fa-hashtag fa-sm"></i>&nbsp;{{ keyword }}&nbsp;&nbsp;{% endfor %}</small></p>-->
+                      <p class="card-text keyword"><small><i class="fa-solid fa-tag"></i> Keywords: <span class="keywords-list">
+                        {% for keyword in card.keywords %}
+                          {{ keyword -}}
+                          {% unless forloop.last %}, {% endunless %}
+                        {% endfor %}
+                      </span></small></p>
+                    {% endif %}
+                    <hr class="solid">
+                    <p class="card-text">
+                      {% assign domain_array = card.domain %}
+                      <small class="test-muted resource"><i class="{{ resource.icon | default: 'fas fa-file' }}"></i>&nbsp; Resource: <span style="font-weight: 400;">{{ card.resource }}</span>&nbsp;&nbsp;//&nbsp;&nbsp;</small>
+                      <small class="test-muted domain"><i class="fa-solid fa-network-wired"></i>&nbsp; Domain:
+                        {% for d in domain_array %}
+                          {% unless forloop.last %}
+                            <a href="{{ site.url }}{{ site.baseurl }}/{{ d | downcase | replace: ' ', '-' }}" onclick="event.stopPropagation();">{{ d }}</a>,&nbsp;
+                          {% else %}
+                            <a href="{{ site.url }}{{ site.baseurl }}/{{ d | downcase | replace: ' ', '-' }}" onclick="event.stopPropagation();">{{ d }}</a>&nbsp;&nbsp;//&nbsp;&nbsp;
+                          {% endunless %}
+                        {% endfor %}
+                      </small>
+                      {% assign subdomain_array = card.subdomain %}
+                      <small class="test-muted subdomain"><i class="fa-solid fa-sitemap"></i>&nbsp; Subdomain:
+                        {% for sub in subdomain_array %}
+                          {% unless forloop.last %}
+                            <span style="font-weight: 400;">{{ sub }},&nbsp;</span>    {% else %}
+                            <span style="font-weight: 400;">{{ sub }}</span>
+                          {% endunless %}
+                        {% endfor %}
+                      </small><br>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    {% endif %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
   {% endfor %}
 </div>
 

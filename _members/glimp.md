@@ -7,25 +7,24 @@ group_rank: 2
 title: David Glimp
 description: Profile of David Glimp
 lastname: Glimp
-publications: 'author^=*Glimp'
+publications: "author^=*Glimp"
 
 teaser: >
-   
-profile:
-    name: David Glimp
-    position: Associate Professor
-    department: English Department 
-    <!-- organization: University of Colorado Boulder -->
-    align: right
-    image: generic-icon.jpg
-    website: 
-    twitter: 
-    email: 
-    github: 
-    orcid: 
-    address: >
-        University of Colorado Boulder
 
+profile:
+  name: David Glimp
+  position: Associate Professor
+  department: English Department
+  <!-- organization: University of Colorado Boulder -->
+  align: right
+  image: glimp.jpg
+  website:
+  twitter:
+  email:
+  github:
+  orcid:
+  address: >
+    University of Colorado Boulder
 ---
 
 ## David Glimp

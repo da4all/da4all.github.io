@@ -11,21 +11,21 @@ sample_resource: false
 title: "Collect, Analyze, Imagine, Teach"
 
 teaser: >
-  In this chapter of <i>Data Feminism</i>, Catherine D’Ignazio and Lauren Klein not only emphasize the ways data can both reinforce and challenge systems of oppression but also introduce notions and examples of data ethics so that practioners are better prepared to work toward equity and co-liberation in their data practices.
+  In this chapter of <i>Data Feminism</i>, Catherine D'Ignazio and Lauren Klein not only emphasize the ways data can both reinforce and challenge systems of oppression but also introduce notions and examples of data ethics so that practioners are better prepared to work toward equity and co-liberation in their data practices.
 
 keywords:
-  - "Data Feminism"
   - "Critical Data Studies"
-  - "Data Justice"
   - "Data Ethics"
+  - "Data Feminism"
+  - "Data Justice"
   - "Power Structures"
 
 metadata:
   source: "https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4"
-  author: "Catherine D’Ignazio and Lauren Klein"
+  author: "Catherine D'Ignazio and Lauren Klein"
   date: "2020-03-16"
   license:
-  citation: "D’Ignazio, Catherine, and Lauren Klein. 'Chapter 2: Collect, Analyze, Imagine, Teach.' Data Feminism. MIT Press, 2020. https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4"
+  citation: "D'Ignazio, Catherine, and Lauren Klein. 'Chapter 2: Collect, Analyze, Imagine, Teach.' Data Feminism. MIT Press, 2020. https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4"
 ---
 
 _Instructor’s Note_

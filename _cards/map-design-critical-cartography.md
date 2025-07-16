@@ -15,9 +15,9 @@ teaser: >
 
 keywords:
   - "Cartography"
-  - "Map design and symbology"
-  - "Counter-cartographies"
-  - "Map projections"
+  - "Counter-Cartographies"
+  - "Map Design And Symbology"
+  - "Map Projections"
 
 metadata:
   source: 

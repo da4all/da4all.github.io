@@ -2,9 +2,11 @@
 layout: page
 permalink: /student-showcase/
 title: Student Showcase
-description: This page showcases student data advocacy projects to demonstrate the types of projects afforded by the resources in the Data Advocacy for All Toolkit.
+description:
 nav: true
-nav_order: 6
+nav_order: 4
+toc:
+  sidebar: top
 ---
 
 <style>
@@ -15,11 +17,14 @@ nav_order: 6
 
 </style>
 
-{% assign groups = site.showcase | sort: "group_rank" | map: "group" | uniq %}
+This page showcases examples of data advocacy projects completed by students at the University of Colorado Boulder and University of Colorado Denver between 2023-2024. These examples illustrate how resources from the [Data Advocacy for All toolkit]({{site.baseurl}}/toolkit) can be successfully applied in the classroom to teach students core skills of data advocacy.
 
-{% for group in groups %}
+{% assign group_order = site.data.showcase %}
+{% for group in group_order %}
 
-## {{ group }}
+<div class="projects">
+	<h2 class="category"> {{ group }} </h2>
+</div>
 
     {% assign project = site.showcase | sort: "title" | where: "group", group %}
     {% for project in project %}
@@ -30,13 +35,13 @@ nav_order: 6
             <div class="team col-sm-8 col-md-7">
                 <div class="card-body">
                     {% if project.inline == false %}<a href="{{ project.url | relative_url }}">{% endif %}
-                    <h5 class="card-title">{{ project.title }}</h5>
+                    <h3 class="card-title">{{ project.title }}</h3>
                     {% if project.metadata.contributors %}
 			    {% assign contributors_text = project.metadata.contributors | replace: '<br />', ', ' %}
-			    <h3 class="card-text">
+			    <h4 class="card-text">
 				    <i class="fa-solid fa-people-group"></i>
 				    <b>&nbsp;{% if contributors_text contains " and " %}Contributors{% else %}Contributor{% endif %}:</b> {{ contributors_text }}
-			    </h3>
+			    </h4>
 			    {% endif %}
                     <p class="card-text">
 			    <small><i>Created as part of {{ project.metadata.courseinfo | replace: '<br />', ', ' }}</i></small><br></p>
@@ -52,19 +57,19 @@ nav_order: 6
                     <div class="card-body" style="margin: 2px;">
 			<p class="card-text">
 			{% if project.metadata.typeofdataadvocacy %}
-                        <small class="test-muted"><i class="fa-solid fa-layer-group"></i><b>&nbsp; Type of Data Advocacy:</b> {{ project.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</small><br><br>
+                        <small class="test-muted"><i class="fa-solid fa-layer-group"></i><b>&nbsp; Type of Data Advocacy:</b> {{ project.metadata.typeofdataadvocacy | replace: '<br />', ', ' }}</small><br>
 			{% endif %}
 			{% if project.metadata.genre %}
-			<small class="test-muted"><i class="fa-solid fa-bars-staggered"></i><b>&nbsp; Genre:</b> {{ project.metadata.genre | replace: '<br />', ', ' }}</small><br><br>
+			<small class="test-muted"><i class="fa-solid fa-bars-staggered"></i><b>&nbsp; Genre:</b> {{ project.metadata.genre | replace: '<br />', ', ' }}</small><br>
 			{% endif %}
 			{% if project.metadata.filetype %}
-			<small class="test-muted">&nbsp;<i class="fa-solid fa-file"></i><b>&nbsp; Format:</b> {{ project.metadata.filetype | replace: '<br />', ', ' }}</small> <br><br>
+			<small class="test-muted"><i class="fa-solid fa-file"></i><b>&nbsp; Format:</b> {{ project.metadata.filetype | replace: '<br />', ', ' }}</small> <br>
 			{% endif %}
 			{% if project.metadata.source %}
-			<small class="test-muted"><i class="fa-solid fa-link"></i><b>&nbsp; Also Published Here:</b> <a href="{{ project.metadata.source }}">{{ project.metadata.source }}</a></small><br><br>
+			<small class="test-muted"><i class="fa-solid fa-link"></i><b>&nbsp; Also Published Here:</b> <a href="{{ project.metadata.source }}">{{ project.metadata.source }}</a></small><br>
 			{% endif %}
 			{% if project.metadata.license %}
-			<small class="test-muted">&nbsp;<i class="fa-solid fa-quote-left"></i><b>&nbsp; License:</b> {{ project.metadata.license | replace: '<br />', ', ' }}</small> 
+			<small class="test-muted"><i class="fa-solid fa-quote-left"></i><b>&nbsp; License:</b> {{ project.metadata.license | replace: '<br />', ', ' }}</small> 
 			{% endif %}
                     </p>
 		    </div>

@@ -14,13 +14,13 @@ teaser: >
   This webinar by UIC Library outlines best practices for the various steps of data management to help ease the research process as well as ensure sharing compliance. 
 
 keywords:
-  - “Data Management”
+  - "Data Management"
 
 metadata:
   Source: "https://youtu.be/shqEmRbSPek?si=6QYR7wzcxnT9-eSB"
   author: "UIC Library"
   date: 2023
   license: 
-  citation: "UIC Library. ’Introduction to Data Management Best Practices for Research.’ 2023.
+  citation: "UIC Library. 'Introduction to Data Management Best Practices for Research.' 2023.
 https://youtu.be/shqEmRbSPek?si=6QYR7wzcxnT9-eSB. Accessed 8 December 2024."
 ---

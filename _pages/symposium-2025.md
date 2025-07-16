@@ -3,7 +3,7 @@ layout: symposium
 permalink: /symposium-2025/
 title: Symposium
 description: A One Day Symposium
-nav: true
+nav: false
 nav_order: 7
 toc:
   sidebar: left
@@ -218,9 +218,8 @@ Please [register for the event](https://docs.google.com/forms/d/e/1FAIpQLSfTqHg9
 
 ## Sponsors
 
-### Data Advocacy for All -- A CU Next Award Grant Project
-
-### The WRITE Lab/PWR @ CU Boulder
+- **Data Advocacy for All -- A CU Next Award Grant Project**
+- **The WRITE Lab/PWR @ CU Boulder**
 
 ---
 

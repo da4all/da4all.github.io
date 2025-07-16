@@ -15,7 +15,7 @@ metadata:
     author: Market Business News
     date:
     license:
-    citation: "Market Business News. ‘What is Data? Definition and Examples.’ Marketbusinessnews.com, n.d. https://marketbusinessnews.com/financial-glossary/data-definitio/. Accessed 6 June 2023."
+    citation: "Market Business News. 'What is Data? Definition and Examples.' Marketbusinessnews.com, n.d. https://marketbusinessnews.com/financial-glossary/data-definitio/. Accessed 6 June 2023."
     align: right
 
 ---

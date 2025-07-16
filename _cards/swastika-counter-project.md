@@ -14,11 +14,11 @@ teaser: >
   The Swastika Counter Project is a public humanities project that aims to educate the general public about the targets, circulation, and intensity of antisemitic signs on the streets of the United States. To support community stakeholders, this data advocacy website aims to provide reliable data, relevant research findings, and useful educational resources.
 
 keywords:
+  - "Accountability"
   - "Advocacy"
   - "Data Practice"
-  - "Rhetorical Data Studies"
-  - "Accountability"
   - "Data Visualization"
+  - "Rhetorical Data Studies"
 
 metadata:
   source: "https://theswastikacounter.org/"

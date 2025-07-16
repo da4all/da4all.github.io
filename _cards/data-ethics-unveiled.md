@@ -18,12 +18,11 @@ keywords:
   - "Data Ethics"
   - "Frameworks"
   - "Guiding Principles"
-  - "Data Ethics Examples"
 
 metadata:
   source: https://atlan.com/data-ethics-101/#data-ethics-example-exploring-real-world-scenarios
   author: "Atlan"
   date: 2023-11-28
   license:
-  citation: "Atlan. ‘Data Ethics Unveiled: Principles & Frameworks Explored.’ https://atlan.com/data-ethics-101/#data-ethics-example-exploring-real-world-scenarios. Accessed on 29 June 2024."
+  citation: "Atlan. 'Data Ethics Unveiled: Principles & Frameworks Explored.' https://atlan.com/data-ethics-101/#data-ethics-example-exploring-real-world-scenarios. Accessed on 29 June 2024."
 ---

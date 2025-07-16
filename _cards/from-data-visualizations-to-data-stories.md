@@ -14,19 +14,19 @@ teaser: >
   This activity guides students through the process of pairing data visualizations with other research sources in order to outline a story about a neighborhood-level data collection effort and the value of its findings for local political advocacy.  
 
 keywords:
-  - "Data Storytelling"
   - "Air Pollution"
-  - "Persuading with Data"
+  - "Data Storytelling"
+  - "Persuading With Data"
 
 metadata:
   source: 
   author: "John Tinnell"
   date: "2024-07-16"
   license: "License Type: CC BY"
-  citation: "Tinnell, John. ‘From Data Visualizations to Data Stories,’ Data Advocacy For All"
+  citation: "Tinnell, John. 'From Data Visualizations to Data Stories,' Data Advocacy For All. 2024."
 ---
 ## Activity Overview
-In this activity, students will experiment with tactics for assembling a variety of source material into a story outline. They will consider ways to strike a balance between data points and the lived experiences of individual stakeholders, and between local details and broader implications. The activity uses a recent article about the expansion of Amazon delivery hubs in residential areas as a case study and as a jumping off point to inspire students’ experimentation with data storytelling. The article appeared in 2022 in the Guardian, and it is titled “Are Amazon Delivery Hubs Making Neighborhoods Less Healthy and More Dangerous?” Plan to have students read it before the class day(s) in which you do this activity. 
+In this activity, students will experiment with tactics for assembling a variety of source material into a story outline. They will consider ways to strike a balance between data points and the lived experiences of individual stakeholders, and between local details and broader implications. The activity uses a recent article about the expansion of Amazon delivery hubs in residential areas as a case study and as a jumping off point to inspire students’ experimentation with data storytelling. The article appeared in 2022 in the Guardian, and it is titled “Are Amazon Delivery Hubs Making Neighborhoods Less Healthy and More Dangerous?” Plan to have students read it before the class day(s) in which you do this activity. The activity could be done with the time of one or two class periods. 
 
 #### Step 1: Discuss and Imagine
 Begin the discussion by reviewing for students the key points made in the article’s opening pages, which establish at the complexity and tension of the situation (i.e., Amazon’s expansion into Brooklyn’s Red Hook neighborhood)

@@ -11,19 +11,19 @@ sample_resource: true
 title: "Dear Data"
 
 teaser: >
-  This assignment, which is inspired by Giorgia Lupi and Stefanie Posavec’s project <i>Dear Data</i>, challenges students to collect data from their daily lives and to reflect critically on the data collection practice.
+  This assignment, which is inspired by Giorgia Lupi and Stefanie Posavec's project <i>Dear Data</i>, challenges students to collect data from their daily lives and to reflect critically on the data collection practice.
 
 metadata:
   source:
   author: "Cameron Blevins"
   date: "2024-07-12"
   license: "License Type: CC BY"
-  citation: "Cameron Blevins, ‘Dear Data,’ Data Advocacy For All"
+  citation: "Cameron Blevins, 'Dear Data,' Data Advocacy For All"
 ---
 
 ## Assignment Overview
 
-In this assignment you will draw inspiration from Giorgia Lupi and Stefanie Posavec’s project _Dear Data_. You will spend a period of five days and regularly collect some kind of information from your daily life. You will then illustrate the data you collected through a hand-drawn data visualization and submit the visualization along with a written reflection on the process and the big takeaways for data advocacy.
+In this assignment you will draw inspiration from [Giorgia Lupi and Stefanie Posavec’s project _Dear Data_](https://www.dear-data.com/theproject). You will spend a period of five days and regularly collect some kind of information from your daily life. You will then illustrate the data you collected through a hand-drawn data visualization and submit the visualization along with a written reflection on the process and the big takeaways for data advocacy.
 
 ## Step 1: Choose your Data
 

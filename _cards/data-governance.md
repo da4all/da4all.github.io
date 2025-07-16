@@ -15,9 +15,9 @@ teaser: >
 
 keywords:
   - "Data Collection"
-  - "Data Stewardship"
-  - "Data Sovereignty"
   - "Data Governance"
+  - "Data Sovereignty"
+  - "Data Stewardship"
 
 metadata:
   Source: "https://nces.ed.gov/forum/ldsguide/book3/ch_1.asp"

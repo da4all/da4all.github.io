@@ -8,7 +8,7 @@ subdomain:
   - Defining Data
 sample_resource: true
 
-title: "What is Data? (slide deck)"
+title: "What is Data?"
 
 teaser: >
   This Google Slides presentation, in PDF form, presents conceptions of data from different perspectives, sources, and fields of inquiry.

@@ -15,13 +15,13 @@ teaser: >
 
 
 keywords:
-  - "Data Management"
   - "Data Lifecycle"
+  - "Data Management"
 
 metadata:
   Source: "https://caltechlibrary.github.io/RDMworkbook/"
   author: "Kristin, Briney"
   date: "2023"
   license: "CC BY-NC"
-  citation: "Briney, Kristin. 2023. ’The Research Data Management Workbook.’ Caltech Library. https://caltechlibrary.github.io/RDMworkbook/. Accessed 8 December."
+  citation: "Briney, Kristin. 2023. 'The Research Data Management Workbook.' Caltech Library. https://caltechlibrary.github.io/RDMworkbook/. Accessed 8 December."
 ---

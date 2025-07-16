@@ -9,31 +9,44 @@ nav_order:
 
 The [Data Advocacy For All Toolkit]({{site.baseurl}}/toolkit) is a curated collection of teaching resources designed to support data advocacy. These resources are organized under the following categories:
 
-<ul>
+<div class="resource-grid">
   {% for resource in site.data.cards.resources %}
-  <li><b><i class="{{ resource.icon }}"></i> {{ resource.name }}:</b> 
-    {% case resource.name %}
-    {% when 'Term' %}
-    Concepts that are key to each subdomain along with brief definitions and identification of source. Most of the concepts are discussed in the subdomain's open-access readings.
-    {% when 'Reading' %}
-    Open-access sources that introduce students to important frameworks, concepts, practices, and strategies for doing data advocacy. A list of closed access content is also included on some occasions.
-    {% when 'Assignment' %}
-    Formal work that gives students opportunity to learn, practice, and reflect on their experiences with data advocacy. These assignments can also be used to assess student learning in relation to each data literacy domain and subdomain.
-    {% when 'Activity' %}
-    Open-access lessons developed by the Data Advocacy for All team and other authors. Activities vary in length and scope, that can be implemented in the classroom to help students hone their abilities to work with data in several literacy domains and subdomains.
-    {% when 'Tutorial' %}
-    Step-by-step instructions for using various open-access digital tools to work with data. Most tutorials rely on minimal computing, so no previous computer experience is required.
-    {% when 'Lesson Plan' %}
-    A structured collection of resources to help students gain experience with a particular subdomain. This may include readings, glossary, activities, tutorials, etc.
-    {% when 'Example Project' %}
-    A collection of projects and advocacy movements that utilize data advocacy to bring about social change. Some of these examples are referenced in activities, assignments, modules, and tutorials, while others are simply listed to further model for data advocacy.
-    {% when 'Slides' %}
-    Open-access slide decks curated by Data Advocacy for All team members and other authors to assist the teaching of data advocacy and help hone students hone the multiple literacies needed to do data advocacy is ethical, responsible, and persuasive ways. Many slide decks correspond with specific activities and assignments listed under the various literacy subdomains.
-    {% endcase %}
-  </li>
-  <br>
+    <div class="resource-card">
+      <i class="{{ resource.icon }}"></i>
+      <h3 style="font-weight: 400;">{{ resource.name }}</h3>
+      <p>{{ resource.description }}</p>
+    </div>
   {% endfor %}
-</ul>
+</div>
+
+<style>
+.resource-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+@media (min-width: 700px) {
+  .resource-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.resource-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px hsla(0, 0.00%, 0.00%, 0.20);
+  padding: 1.2rem;
+  text-align: center;
+  transition: box-shadow 0.2s;
+}
+
+.resource-card i {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+</style>
 
 <center>
   <sl-button variant="primary" size="large" outline href="../toolkit/"><sl-icon name="wrench-adjustable"></sl-icon> Go to the Toolkit</sl-button>
